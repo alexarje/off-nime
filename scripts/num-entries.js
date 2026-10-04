@@ -1,4 +1,4 @@
-function setNumEntries() {
+function getNumEntries() {
     const table = document.getElementById("bibliography-table");
     const trs = table.getElementsByTagName("tr");
     
@@ -10,7 +10,13 @@ function setNumEntries() {
         }
     }
 
-    document.getElementById("num-entries").innerHTML = `<p>Number of visible entries: ${numVisibleEntries}</p>`
+    return numVisibleEntries;
 }
 
+function setNumEntries() {
+    const numEntries = getNumEntries();
+    document.getElementById("num-entries").innerHTML = `<p>Number of visible entries: ${numEntries}</p>`;
+}
+
+document.getElementById("blurb-count").innerHTML = `${getNumEntries()}`;
 window.onload = setNumEntries();
