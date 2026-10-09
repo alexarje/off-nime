@@ -15,13 +15,11 @@
 
 ## Next
 
-- [ME] Sweep the Zenodo communities of open music-technology conferences (ICLC, WAC, SMC,
-  Audio Mostly) through the Zenodo API, scored like the journal sweep.
-- [ME] Abstracts for off-NIME entries from Crossref and Semantic Scholar, to sharpen the topic map.
-- [ME] Snowball: fetch the reference lists of the Cited entries from Crossref and count what they
-  cite that neither archive holds.
+- [ME] Second snowball round (#2): fetch reference lists of the accepted snowball works.
+- [ME] Audio Mostly and MOCO (ACM, Crossref) are not on Zenodo; add them to the Crossref sweep.
+- [ME] Theses (#5): resolve the theses on the forward list to repository records.
+- [ME] Non-English sources (#4): SBCM, JIM and CIM proceedings.
 
 ## Later
 
 - [ME] Improve the reference parser's recall (53% against Semantic Scholar); GROBID would help.
-- [ME] Non-English sources: SBCM (Brazil), JIM (France) and CIM (Italy) proceedings.

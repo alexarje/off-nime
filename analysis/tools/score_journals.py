@@ -1,4 +1,5 @@
-"""Score the Crossref journal and proceedings sweep against the joined archives.
+"""Score the Crossref journal and proceedings sweep, and the Zenodo conference records, against the
+joined archives.
 
 Each article (title and, where Crossref has it, abstract) is scored by its mean cosine
 similarity to its ten nearest archive entries, leaving out the entry for the article itself.
@@ -25,6 +26,11 @@ K = 10
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     items = json.loads((HERE / "data" / "journals.json").read_text())
+    for it in items:
+        it["background"] = True
+    zen = HERE / "data" / "zenodo.json"
+    if zen.exists():
+        items += [dict(it, background=False) for it in json.loads(zen.read_text())]
     for it in items:
         it["title"] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", it["title"])).strip()
         it["authors"] = [re.sub(r"\s+", " ", a).strip() for a in it["authors"]]
@@ -54,8 +60,11 @@ def main():
             S[i, col[it["in_corpus"]]] = 0
     # contrast: closeness to the archives minus closeness to the rest of the sweep, so that a
     # generic title near everything scores low
-    B = (L @ L.T).toarray()
-    np.fill_diagonal(B, 0)
+    # the background is the journal sweep alone, so that adding a large source (SMC on Zenodo)
+    # does not move every score, nor penalise that source for having many similar papers
+    bg = np.array([i for i, it in enumerate(items) if it["background"]])
+    B = (L @ L[bg].T).toarray()
+    B[bg, np.arange(len(bg))] = 0
     near = np.sort(S, axis=1)[:, -K:].mean(1)
     score = near - np.sort(B, axis=1)[:, -K:].mean(1)
     nn = S.argmax(1)

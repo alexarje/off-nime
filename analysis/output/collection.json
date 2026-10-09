@@ -105987,6 +105987,39 @@
 }
 },
 {
+"id": "cited:gilman1989athousandplateau",
+"type": "article-journal",
+"title": "A Thousand Plateaus: Capitalism and Schizophrenia",
+"author": [
+{
+"family": "Gilman",
+"given": "Sander L."
+},
+{
+"family": "Deleuze",
+"given": "Gilles"
+},
+{
+"family": "Guattari",
+"given": "Felix"
+},
+{
+"family": "Massumi",
+"given": "Brian"
+}
+],
+"container-title": "Journal of Interdisciplinary History",
+"DOI": "10.2307/203963",
+"note": "Collection: Cited. Cited by 5 archive papers",
+"issued": {
+"date-parts": [
+[
+1989
+]
+]
+}
+},
+{
 "id": "cited:puckette1991combiningeventan",
 "type": "article-journal",
 "title": "Combining Event and Signal Processing in the MAX Graphical Programming Environment",
@@ -107622,35 +107655,6 @@
 }
 },
 {
-"id": "cited:caramiaux2012segmentingandpar",
-"type": "article-journal",
-"title": "Segmenting and Parsing Instrumentalists' Gestures",
-"author": [
-{
-"family": "Caramiaux",
-"given": "Baptiste"
-},
-{
-"family": "Wanderley",
-"given": "Marcelo M."
-},
-{
-"family": "Bevilacqua",
-"given": "Frédéric"
-}
-],
-"container-title": "Journal of New Music Research",
-"DOI": "10.1080/09298215.2011.643314",
-"note": "Collection: Cited. Cited by 5 archive papers; found in the journal sweep",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
 "id": "cited:rasamimanana2012towardsaconceptu",
 "type": "article-journal",
 "title": "Towards a Conceptual Framework for Exploring and Modelling Expressive Musical Gestures",
@@ -108357,6 +108361,51 @@
 }
 },
 {
+"id": "cited:mcfee2015librosaaudioandm",
+"type": "paper-conference",
+"title": "librosa: Audio and Music Signal Analysis in Python",
+"author": [
+{
+"family": "McFee",
+"given": "Brian"
+},
+{
+"family": "Raffel",
+"given": "Colin"
+},
+{
+"family": "Liang",
+"given": "Dawen"
+},
+{
+"family": "Ellis",
+"given": "Daniel"
+},
+{
+"family": "McVicar",
+"given": "Matt"
+},
+{
+"family": "Battenberg",
+"given": "Eric"
+},
+{
+"family": "Nieto",
+"given": "Oriol"
+}
+],
+"container-title": "Proceedings of the Python in Science Conference",
+"DOI": "10.25080/majora-7b98e3ed-003",
+"note": "Collection: Cited. Cited by 5 archive papers",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "cited:rottondi2016anoverviewonnetw",
 "type": "article-journal",
 "title": "An Overview on Networked Music Performance Technologies",
@@ -108891,31 +108940,6 @@
 }
 },
 {
-"id": "cited:turchet2018jammingwithasmar",
-"type": "paper-conference",
-"title": "Jamming with a Smart Mandolin and Freesound-based Accompaniment",
-"author": [
-{
-"family": "Turchet",
-"given": "Luca"
-},
-{
-"family": "Barthet",
-"given": "Mathieu"
-}
-],
-"container-title": "2018 23rd Conference of Open Innovations Association (FRUCT)",
-"DOI": "10.23919/fruct.2018.8588110",
-"note": "Collection: Cited. Cites 11 archive entries",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
 "id": "cited:jensenius2018methodsforstudyi",
 "type": "chapter",
 "title": "Methods for Studying Music-Related Body Motion",
@@ -108928,31 +108952,6 @@
 "container-title": "Springer Handbooks",
 "DOI": "10.1007/978-3-662-55004-5_38",
 "note": "Collection: Cited. Cites 10 archive entries",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
-"id": "cited:essl2018mobiledevicesasm",
-"type": "chapter",
-"title": "Mobile Devices as Musical Instruments - State of the Art and Future Prospects",
-"author": [
-{
-"family": "Essl",
-"given": "Georg"
-},
-{
-"family": "Lee",
-"given": "Sang Won"
-}
-],
-"container-title": "Lecture Notes in Computer Science",
-"DOI": "10.1007/978-3-030-01692-0_35",
-"note": "Collection: Cited. Cites 46 archive entries",
 "issued": {
 "date-parts": [
 [
@@ -110377,7 +110376,7 @@
 ],
 "container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3772318.3791291",
-"note": "Collection: Cited. Cites 76 archive entries; found in the journal sweep",
+"note": "Collection: Cited. Cites 76 archive entries",
 "issued": {
 "date-parts": [
 [

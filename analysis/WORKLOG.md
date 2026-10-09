@@ -72,3 +72,23 @@ archive and dblp.org both answer scripts with bot challenges, so the full ICMC s
 
 The atlas lists search matches as keyboard-reachable buttons in the side panel, and Escape clears
 a selection. Exports: `output/collection.csv` and CSL-JSON `output/collection.json`.
+
+## 2026-10-09, night
+
+Opened issues #1–#10 on alexarje/off-nime (issues were off on the fork and were switched on).
+Closed #8 (suggest-an-entry form) and #10 (the table becomes cards under 700 px wide); the
+dataset radio buttons shared one id, so each label now has its own. The front page no longer
+calls Cited entries vetted.
+
+#9: abstracts found for 67 of 916 off-NIME entries (Semantic Scholar 16, Crossref the rest); most
+older CMJ and JSTOR records have none. They are merged into the corpus from data/abstracts.json.
+
+#1: Zenodo communities iclc, livecode, wac, smc, nordicsmc, cmmr2023, cmmr2025 and tenor gave
+2,584 publication records. The contrast score first used the whole sweep as its background, so
+the 1,725 SMC records pulled each other's scores down (5 SMC candidates); the background is now
+the journal sweep alone (137 SMC candidates; CMJ check median 75th percentile, 51% in the top
+quarter).
+
+#2: one snowball round from the Cited works' Crossref reference lists. Proceedings names pooled
+unrelated papers under one key and journal versions of archive papers slipped through; both are
+now excluded, and works counted by DOI and by title are merged. 120 candidates.

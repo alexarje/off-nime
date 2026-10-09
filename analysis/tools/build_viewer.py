@@ -84,6 +84,14 @@ def main():
 <section><h3>NIME-related papers in the local conference archive</h3><p>Papers in a local archive of ICMC, DAFx, SMC, ISMIR, ICMPC and workshop folders that are in neither archive, ranked by similarity to their ten nearest archive entries. As a check, the {chk['curated_found_locally']} curated off-NIME ICMC papers found locally rank at a median percentile of {chk['curated_median_percentile']} among {chk['icmc_texts']} ICMC texts, and {chk['curated_share_in_top_quarter']}% of them fall in the top quarter. Titles are guessed from the first page.</p>
 <div class="chartbox"><table><tr><th>Score</th><th>Set</th><th>Year</th><th>Title (guessed)</th><th>Nearest archive entry</th></tr>{local}</table></div></section>
 """
+    sbp = HERE / "output" / "candidates_snowball.tsv"
+    if sbp.exists():
+        rows = [l.split("\t") for l in sbp.read_text().splitlines()[1:]][:100]
+        body = "".join(f"<tr><td class='n'>{e(r[0])}</td><td class='n'>{e(r[1])}</td><td>{e(r[2])}</td><td>{link(r[3], r[4])}</td></tr>"
+                       for r in rows)
+        g["missing_html"] += f"""
+<section><h3>Cited by the Cited works</h3><p>One round of snowballing: works that at least three of the Cited works cite in their Crossref reference lists, and that neither archive nor Cited holds. The full list is in <code>candidates_snowball.tsv</code>.</p>
+<div class="chartbox"><table><tr><th>Cited by</th><th>Year</th><th>First author</th><th>Title</th></tr>{body}</table></div></section>"""
     data = json.dumps(g, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (HERE / "tools" / "viewer_template.html").read_text()
     page = tpl.replace("/*DATA*/null", data)

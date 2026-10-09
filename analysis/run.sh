@@ -6,6 +6,8 @@ cd "$(dirname "$0")"
 PY=".venv/bin/python"
 cap() { systemd-run --user --scope -q -p MemoryMax="$1" "$PY" tools/$2; }
 cap 1G build_corpus.py
+cap 1G fetch_abstracts.py
+cap 1G build_corpus.py      # again, to merge the abstracts
 cap 1G fetch_s2.py          # slow without an API key; Ctrl-C after the DOI phase is fine
 cap 1G fetch_citing.py
 cap 2G fetch_texts.py
@@ -14,9 +16,11 @@ cap 2G parse_refs.py
 cap 4G citations.py
 cap 1G "crossref.py resolve"
 cap 2G "crossref.py sweep"
+cap 1G zenodo.py
 cap 4G local_candidates.py
 cap 4G score_journals.py
 cap 2G build_cited.py
+cap 1G snowball.py
 cap 1G "offnime_dois.py --apply"
 cap 4G analyse.py
 cap 1G export.py

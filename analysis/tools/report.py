@@ -67,7 +67,12 @@ def main():
     with open(HERE / "output" / "collection.csv") as fh:
         x_rows = sum(1 for _ in _csv.reader(fh)) - 1
     from build_cited import MIN_CITED, MIN_CITING
+    sb = json.loads((HERE / "data" / "snowball.json").read_text())
+    sb_rows = [l.split("\t") for l in (HERE / "output" / "candidates_snowball.tsv").read_text().splitlines()[1:]]
     v = {
+        "sb_refs": sb["with_reference_lists"], "sb_cited": sb["cited_works"], "sb_cands": len(sb_rows),
+        "sb_min": sb["min_sources"],
+        "sb_table": table(["Cited by Cited works", "Year", "First author", "Title"], [r[:4] for r in sb_rows[:15]]),
         "c_adm": cst["admitted"], "c_border": cst["borderline"], "c_by_cited": cst["admitted_by"]["cited_by"],
         "c_by_cites": cst["admitted_by"]["cites"], "c_by_sweep": cst["admitted_by"]["sweep"],
         "c_min_cited": MIN_CITED, "c_min_citing": MIN_CITING, "x_rows": x_rows,

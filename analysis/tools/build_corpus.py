@@ -142,6 +142,13 @@ def records():
 
 def main():
     recs = list(records())
+    # abstracts fetched for off-NIME entries (tools/fetch_abstracts.py) live in the analysis data
+    ab = HERE / "data" / "abstracts.json"
+    if ab.exists():
+        found = json.loads(ab.read_text())
+        for r in recs:
+            if not r["abstract"] and r["id"] in found:
+                r["abstract"] = found[r["id"]]["abstract"]
     # The ISIDM list was deduplicated against CMJ and ICMC, but not against NIME; flag title clashes.
     seen = {}
     for r in recs:
