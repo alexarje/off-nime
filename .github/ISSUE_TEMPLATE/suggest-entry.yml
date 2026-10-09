@@ -1,0 +1,47 @@
+name: Suggest an entry
+description: Suggest a paper, chapter, book or thesis that belongs in the off-NIME collection.
+title: "Suggest: "
+labels: ["expansion", "suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Off-NIME collects work on new interfaces for musical expression that was published outside the NIME proceedings. A DOI or a link is the most useful thing you can give.
+  - type: input
+    id: title
+    attributes:
+      label: Title
+    validations:
+      required: true
+  - type: input
+    id: authors
+    attributes:
+      label: Authors
+      placeholder: "Surname, Given and Surname, Given"
+    validations:
+      required: true
+  - type: input
+    id: year
+    attributes:
+      label: Year
+    validations:
+      required: true
+  - type: input
+    id: venue
+    attributes:
+      label: Published in
+      placeholder: Journal, conference, publisher or university
+  - type: input
+    id: doi
+    attributes:
+      label: DOI or URL
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it belongs
+      description: One or two sentences on how it relates to NIME.
+  - type: textarea
+    id: bibtex
+    attributes:
+      label: BibTeX (optional)
+      render: bibtex

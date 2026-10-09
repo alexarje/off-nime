@@ -44,3 +44,54 @@
     font-size: 0.85em;
     opacity: 0.75;
 }
+
+/* On narrow screens each row becomes a card, with the column name before each value */
+@media (max-width: 700px) {
+    .scrollableTable {
+        height: auto;
+        max-height: none;
+    }
+    #bibliography-table thead {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        overflow: hidden;
+        clip: rect(0 0 0 0);
+    }
+    #bibliography-table,
+    #bibliography-table tbody,
+    #bibliography-table tr,
+    #bibliography-table td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+    #bibliography-table tr {
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        margin-bottom: 10px;
+        padding: 6px 10px;
+    }
+    #bibliography-table td {
+        border: 0;
+        padding: 2px 0;
+    }
+    #bibliography-table td:empty {
+        display: none;
+    }
+    #bibliography-table td:nth-child(3) {
+        font-weight: 600;
+    }
+    #bibliography-table td::before {
+        display: inline-block;
+        min-width: 6.5em;
+        color: gray;
+        font-size: 0.85em;
+    }
+    #bibliography-table td:nth-child(1)::before { content: "Year"; }
+    #bibliography-table td:nth-child(2)::before { content: "Authors"; }
+    #bibliography-table td:nth-child(4)::before { content: "Type"; }
+    #bibliography-table td:nth-child(5)::before { content: "Published in"; }
+    #bibliography-table td:nth-child(6)::before { content: "Pages"; }
+    #bibliography-table td:nth-child(7)::before { content: "Link"; }
+}
