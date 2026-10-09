@@ -61,7 +61,7 @@ def main():
     res_path = HERE / "data" / "cited_resolved.json"
     doi = {r["title"]: r.get("doi") for r in json.loads(res_path.read_text())} if res_path.exists() else {}
     link = lambda t, d: f"<a href='https://doi.org/{e(d)}' target='_blank' rel='noopener'>{e(t)}</a>" if d else e(t)
-    cited = "".join(f"<tr><td class='n'>{c['n']}</td><td>{e(c['first'])}</td><td class='n'>{e(c['year'])}</td><td>{link(c['title'], doi.get(c['title']))}</td>"
+    cited = "".join(f"<tr><td class='n'>{c['n']}</td><td>{e(c['first'].title())}</td><td class='n'>{e(c['year'])}</td><td>{link(c['title'], doi.get(c['title']))}</td>"
                     f"<td class='n'>{c['n_off']}</td><td class='n'>{c['n_nime']}</td></tr>" for c in ci.get("cited", [])[:150])
     jpath = HERE / "data" / "journal_candidates.json"
     jc = json.loads(jpath.read_text()) if jpath.exists() else None

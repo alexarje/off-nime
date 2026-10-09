@@ -132,8 +132,8 @@ def main():
         x, y = pos[n]
         if n in extd:
             c = extd[n]
-            node = {"t": c["title"], "a": c["first"], "y0": c["year"], "g": 2, "d": c["n"], "c": c["citers"],
-                    "s": f"{c['first'].split()[-1] if c['first'] else ''} {c['year'] or ''}".strip(),
+            node = {"t": c["title"], "a": c["first"].title(), "y0": c["year"], "g": 2, "d": c["n"], "c": c["citers"],
+                    "s": f"{c['first'].split()[-1].title() if c['first'] else ''} {c['year'] or ''}".strip(),
                     "u": "https://scholar.google.com/scholar?q=" + re.sub(r"\s+", "+", c["title"])}
         else:
             r = by_id[n]

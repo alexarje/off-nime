@@ -113,10 +113,10 @@ Of the 8970 citation links, 6714 go from NIME to NIME and 2075 from NIME to off-
 | New digital musical instruments: control and interaction beyond the keyboard | 2006 | Books | 65 |
 | The E in NIME: Musical Expression with New Computer Interfaces | 2006 | NIME | 56 |
 | Evaluation of Input Devices for Musical Expression: Borrowing Tools from HCI | 2002 | Computer Music Journal | 51 |
-| Contexts of Collaborative Musical Experiences | 2003 | NIME | 45 |
 | Designing Constraints: Composing and Performing with Digital Musical Systems | 2010 | Computer Music Journal | 45 |
-| A Framework for the Evaluation of Digital Musical Instruments | 2011 | Computer Music Journal | 39 |
+| Contexts of Collaborative Musical Experiences | 2003 | NIME | 45 |
 | Mapping performer parameters to synthesis engines | 2002 | Organised Sound | 39 |
+| A Framework for the Evaluation of Digital Musical Instruments | 2011 | Computer Music Journal | 39 |
 | Design for Longevity: Ongoing Use of Instruments from NIME 2010-14 | 2017 | NIME | 38 |
 | Mapping Strategies for Musical Performance | 2000 | IRCAM publications | 37 |
 | Audiopad: A Tag-based Interface for Musical Performance | 2002 | NIME | 36 |
