@@ -42,3 +42,9 @@ Run the scripts without `python -I`, since they import each other from `tools/`.
 The candidate lists stay in `analysis/output/` until they are vetted, because every `.bib` under
 `bibs/` appears in the website's table. `_config.yml` keeps the tools, data and tracking files
 out of the site build.
+
+## Deploying
+
+Pushes to `main` on the fork do not start the Pages workflow; start it by hand with
+`gh workflow run jekyll.yml -R alexarje/off-nime --ref main`. Pages is set to build from the
+workflow.

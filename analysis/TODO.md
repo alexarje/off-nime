@@ -6,6 +6,8 @@
   entries go into a new `bibs/Cited/` dataset (recommended) or Extras. Anything under `bibs/`
   appears in the website's table.
 - [ARJ] Decide whether to propose the analysis to IDMIL/off-nime as a pull request.
+- [ARJ] Pushes to the fork do not trigger the Pages workflow; enabling workflows in the fork's
+  Actions tab may fix it. Until then, deploy with `gh workflow run` (see HANDOVER.md).
 - [ARJ] Get a Semantic Scholar API key, then rerun `tools/fetch_s2.py` to finish the 1,059
   off-NIME title lookups (it resumes from the cache).
 
