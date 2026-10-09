@@ -59,7 +59,9 @@ def main():
              f"{name(down[0])} ({f(sh_n[pn[0]]['share'][down[0]])} to {f(sh_n[pn[-1]]['share'][down[0]])}) and "
              f"{name(down[1])} ({f(sh_n[pn[0]]['share'][down[1]])} to {f(sh_n[pn[-1]]['share'][down[1]])}).")
     jc = json.loads((HERE / "data" / "journal_candidates.json").read_text())
-    journals = sorted(k for k in jc["by_source"] if k not in ("CHI", "TEI"))
+    from crossref import PROCEEDINGS
+    journals = sorted(k for k in jc["by_source"] if k not in PROCEEDINGS)
+    procs = list(PROCEEDINGS)
     resolved = json.loads((HERE / "data" / "cited_resolved.json").read_text())
     cr_ok = sum(1 for r in resolved if r.get("doi"))
     cst = json.loads((HERE / "data" / "cited_stats.json").read_text())
@@ -87,6 +89,7 @@ def main():
         "c_adm": cst["admitted"], "c_border": cst["borderline"], "c_by_cited": cst["admitted_by"]["cited_by"],
         "c_by_cites": cst["admitted_by"]["cites"], "c_by_sweep": cst["admitted_by"]["sweep"],
         "c_min_cited": MIN_CITED, "c_min_citing": MIN_CITING, "x_rows": x_rows,
+        "j_procs": ", ".join(procs[:-1]) + " and " + procs[-1],
         "j_cands": jc["n_candidates"], "j_nsources": len(journals),
         "j_sources": ", ".join(journals[:-1]) + " and " + journals[-1],
         "j_items": jc["items"], "j_abs": jc["with_abstract"], "j_cur": jc["check"]["curated_cmj"],

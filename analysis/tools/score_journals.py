@@ -26,8 +26,10 @@ K = 10
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     items = json.loads((HERE / "data" / "journals.json").read_text())
+    # the background is the seven journals only; proceedings and other sources are scored against it
+    from crossref import JOURNALS
     for it in items:
-        it["background"] = True
+        it["background"] = it["source"] in JOURNALS
     for extra in ("zenodo.json", "nonenglish.json"):
         f = HERE / "data" / extra
         if f.exists():

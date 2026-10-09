@@ -37,6 +37,10 @@ JOURNALS = {
 PROCEEDINGS = {
     "CHI": "Human Factors in Computing Systems",
     "TEI": "Tangible Embedded and Embodied Interaction",
+    "Audio Mostly": "Audio Mostly",
+    "MOCO": "Movement and Computing",
+    "DIS": "Designing Interactive Systems",
+    "Creativity and Cognition": "Creativity and Cognition",
 }
 
 

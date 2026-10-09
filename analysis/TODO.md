@@ -16,7 +16,7 @@
 ## Next
 
 - [ME] Second snowball round (#2): fetch reference lists of the accepted snowball works.
-- [ME] Audio Mostly and MOCO (ACM, Crossref) are not on Zenodo; add them to the Crossref sweep.
+- [ME] Split the SBCM 1994–2019 volume PDFs into papers (#4), and find CIM proceedings.
 - [ME] Theses (#5): more OpenAlex queries on later days (daily allowance); fix aggregator
   school names (Zenodo, NORA, ERA, LA Referencia) from the thesis records.
 - [ARJ] Skim `bibs/Theses/theses.bib` (416, selected by rule) and `output/candidates_theses.tsv`.

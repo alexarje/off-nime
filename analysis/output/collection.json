@@ -108123,7 +108123,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298215.2015.1087575",
-"note": "Collection: Cited. Cites 13 archive entries; found in the journal sweep",
+"note": "Collection: Cited. Cites 13 archive entries",
 "issued": {
 "date-parts": [
 [
@@ -108286,6 +108286,64 @@
 }
 },
 {
+"id": "cited:robinson2015gesturalcontroli",
+"type": "paper-conference",
+"title": "Gestural control in electronic music performance",
+"author": [
+{
+"family": "Robinson",
+"given": "Frederic"
+},
+{
+"family": "Spindler",
+"given": "Cedric"
+},
+{
+"family": "Böhm",
+"given": "Volker"
+},
+{
+"family": "Oña",
+"given": "Erik"
+}
+],
+"container-title": "Proceedings of the Audio Mostly 2015 on Interaction With Sound",
+"DOI": "10.1145/2814895.2814901",
+"note": "Collection: Cited. Cites 9 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "cited:gelineck2015hapticandvisualf",
+"type": "paper-conference",
+"title": "Haptic and Visual feedback in 3D Audio Mixing Interfaces",
+"author": [
+{
+"family": "Gelineck",
+"given": "Steven"
+},
+{
+"family": "Overholt",
+"given": "Dan"
+}
+],
+"container-title": "Proceedings of the Audio Mostly 2015 on Interaction With Sound",
+"DOI": "10.1145/2814895.2814918",
+"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "cited:fels2015howtodesignandbu",
 "type": "paper-conference",
 "title": "How to design and build new musical interfaces",
@@ -108406,6 +108464,35 @@
 }
 },
 {
+"id": "cited:hemery2016atabletopinstrum",
+"type": "paper-conference",
+"title": "A tabletop instrument for manipulation of sound morphologies with hands, fingertips and upper-body",
+"author": [
+{
+"family": "Hemery",
+"given": "Edgar"
+},
+{
+"family": "Manitsaris",
+"given": "Sotiris"
+},
+{
+"family": "Moutarde",
+"given": "Fabien"
+}
+],
+"container-title": "Proceedings of the 3rd International Symposium on Movement and Computing",
+"DOI": "10.1145/2948910.2948946",
+"note": "Collection: Cited. Cites 7 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
 "id": "cited:rottondi2016anoverviewonnetw",
 "type": "article-journal",
 "title": "An Overview on Networked Music Performance Technologies",
@@ -108466,7 +108553,7 @@
 ],
 "container-title": "Proceedings of the 2016 ACM Conference on Designing Interactive Systems",
 "DOI": "10.1145/2901790.2901831",
-"note": "Collection: Cited. Cites 16 archive entries",
+"note": "Collection: Cited. Cites 16 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
@@ -108860,11 +108947,130 @@
 ],
 "container-title": "Proceedings of the 12th International Audio Mostly Conference on Augmented and Participatory Sound and Music Experiences",
 "DOI": "10.1145/3123514.3123521",
-"note": "Collection: Cited. Cites 11 archive entries",
+"note": "Collection: Cited. Cites 11 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
 2017
+]
+]
+}
+},
+{
+"id": "cited:correia2017theroleoflivevis",
+"type": "paper-conference",
+"title": "The Role of Live Visuals in Audience Understanding of Electronic Music Performances",
+"author": [
+{
+"family": "Correia",
+"given": "Nuno N."
+},
+{
+"family": "Castro",
+"given": "Deborah"
+},
+{
+"family": "Tanaka",
+"given": "Atau"
+}
+],
+"container-title": "Proceedings of the 12th International Audio Mostly Conference on Augmented and Participatory Sound and Music Experiences",
+"DOI": "10.1145/3123514.3123555",
+"note": "Collection: Cited. Cites 9 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "cited:xamb2017turntakingandcha",
+"type": "paper-conference",
+"title": "Turn-Taking and Chatting in Collaborative Music Live Coding",
+"author": [
+{
+"family": "Xambó",
+"given": "Anna"
+},
+{
+"family": "Shah",
+"given": "Pratik"
+},
+{
+"family": "Roma",
+"given": "Gerard"
+},
+{
+"family": "Freeman",
+"given": "Jason"
+},
+{
+"family": "Magerko",
+"given": "Brian"
+}
+],
+"container-title": "Proceedings of the 12th International Audio Mostly Conference on Augmented and Participatory Sound and Music Experiences",
+"DOI": "10.1145/3123514.3123519",
+"note": "Collection: Cited. Cites 8 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "cited:zlatintsi2018awebbasedrealtim",
+"type": "paper-conference",
+"title": "A Web-based Real-Time Kinect Application for Gestural Interaction with Virtual Musical Instruments",
+"author": [
+{
+"family": "Zlatintsi",
+"given": "Athanasia"
+},
+{
+"family": "Filntisis",
+"given": "Panagiotis P."
+},
+{
+"family": "Garoufis",
+"given": "Christos"
+},
+{
+"family": "Tsiami",
+"given": "Antigoni"
+},
+{
+"family": "Kritsis",
+"given": "Kosmas"
+},
+{
+"family": "Kaliakatsos-Papakostas",
+"given": "M. A."
+},
+{
+"family": "Gkiokas",
+"given": "Aggelos"
+},
+{
+"family": "Katsouros",
+"given": "Vassilis"
+},
+{
+"family": "Maragos",
+"given": "Petros"
+}
+],
+"container-title": "Proceedings of the Audio Mostly 2018 on Sound in Immersion and Emotion",
+"DOI": "10.1145/3243274.3243297",
+"note": "Collection: Cited. Cites 5 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2018
 ]
 ]
 }
@@ -109031,6 +109237,35 @@
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/978-3-030-01692-0_37",
 "note": "Collection: Cited. Cites 14 archive entries",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "cited:brown2018understandinguse",
+"type": "paper-conference",
+"title": "Understanding User-Defined Mapping Design in Mid-Air Musical Performance",
+"author": [
+{
+"family": "Brown",
+"given": "Dom"
+},
+{
+"family": "Nash",
+"given": "Chris"
+},
+{
+"family": "Mitchell",
+"given": "Tom"
+}
+],
+"container-title": "Proceedings of the 5th International Conference on Movement and Computing",
+"DOI": "10.1145/3212721.3212810",
+"note": "Collection: Cited. Cites 9 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
@@ -109334,6 +109569,68 @@
 "container-title": "Proceedings of the 2019 on Designing Interactive Systems Conference",
 "DOI": "10.1145/3322276.3322347",
 "note": "Collection: Cited. Cites 17 archive entries",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "cited:krzyzaniak2019sixtypesofaudiot",
+"type": "paper-conference",
+"title": "Six types of audio that DEFY reality!",
+"author": [
+{
+"family": "Krzyzaniak",
+"given": "Michael"
+},
+{
+"family": "Frohlich",
+"given": "David"
+},
+{
+"family": "Jackson",
+"given": "Philip J.B."
+}
+],
+"container-title": "Proceedings of the 14th International Audio Mostly Conference: A Journey in Sound",
+"DOI": "10.1145/3356590.3356615",
+"note": "Collection: Cited. Cites 8 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "cited:lee2019theeffectofsocia",
+"type": "paper-conference",
+"title": "The Effect of Social Interaction on Facilitating Audience Participation in a Live Music Performance",
+"author": [
+{
+"family": "Lee",
+"given": "Sang Won"
+},
+{
+"family": "Willette",
+"given": "Aaron"
+},
+{
+"family": "Koutra",
+"given": "Danai"
+},
+{
+"family": "Lasecki",
+"given": "Walter S."
+}
+],
+"container-title": "Proceedings of the 2019 on Creativity and Cognition",
+"DOI": "10.1145/3325480.3325509",
+"note": "Collection: Cited. Cites 7 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
@@ -109980,7 +110277,69 @@
 ],
 "container-title": "Audio Mostly 2024 - Explorations in Sonic Cultures",
 "DOI": "10.1145/3678299.3678341",
-"note": "Collection: Cited. Cites 10 archive entries",
+"note": "Collection: Cited. Cites 10 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "cited:nabi2024embodiedexplorat",
+"type": "paper-conference",
+"title": "Embodied exploration of deep latent spaces in interactive dance-music performance",
+"author": [
+{
+"family": "Nabi",
+"given": "Sarah"
+},
+{
+"family": "Esling",
+"given": "Philippe"
+},
+{
+"family": "Peeters",
+"given": "Geoffroy"
+},
+{
+"family": "Bevilacqua",
+"given": "Frédéric"
+}
+],
+"container-title": "Proceedings of the 9th International Conference on Movement and Computing",
+"DOI": "10.1145/3658852.3659072",
+"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "cited:bernreiter2024evaluatingdextor",
+"type": "paper-conference",
+"title": "Evaluating Dextoria - A modular, embedded system to control electric guitar effects via sound-producing gestures",
+"author": [
+{
+"family": "Bernreiter",
+"given": "Björn"
+},
+{
+"family": "Katharina",
+"given": "Gross-Vogt"
+},
+{
+"family": "Weger",
+"given": "Marian"
+}
+],
+"container-title": "Audio Mostly 2024 - Explorations in Sonic Cultures",
+"DOI": "10.1145/3678299.3678342",
+"note": "Collection: Cited. Cites 5 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
@@ -110031,6 +110390,35 @@
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298215.2024.2442355",
 "note": "Collection: Cited. Cites 13 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "cited:kuzmin2024localityanddigit",
+"type": "paper-conference",
+"title": "Locality and Digital Musical Instruments Design: A User Study",
+"author": [
+{
+"family": "Kuzmin",
+"given": "Iurii"
+},
+{
+"family": "Ma",
+"given": "Zhengyang"
+},
+{
+"family": "Masu",
+"given": "Raul"
+}
+],
+"container-title": "Audio Mostly 2024 - Explorations in Sonic Cultures",
+"DOI": "10.1145/3678299.3678347",
+"note": "Collection: Cited. Cites 8 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
@@ -110192,6 +110580,39 @@
 "date-parts": [
 [
 2024
+]
+]
+}
+},
+{
+"id": "cited:lucas2025aninteractivesel",
+"type": "paper-conference",
+"title": "An Interactive Self-Assembly Swarm Music System in Extended Reality",
+"author": [
+{
+"family": "Lucas",
+"given": "Pedro"
+},
+{
+"family": "Fasciani",
+"given": "Stefano"
+},
+{
+"family": "Szorkovszky",
+"given": "Alex"
+},
+{
+"family": "Glette",
+"given": "Kyrre"
+}
+],
+"container-title": "Proceedings of the 20th International Audio Mostly Conference",
+"DOI": "10.1145/3771594.3771620",
+"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2025
 ]
 ]
 }
@@ -110376,7 +110797,7 @@
 ],
 "container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3772318.3791291",
-"note": "Collection: Cited. Cites 76 archive entries",
+"note": "Collection: Cited. Cites 76 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [
@@ -110491,6 +110912,27 @@
 }
 },
 {
+"id": "cited:ismail2026embodiedmusicali",
+"type": "paper-conference",
+"title": "Embodied Musical Interaction through Everyday Objects",
+"author": [
+{
+"family": "Ismail",
+"given": "Ayaz"
+}
+],
+"container-title": "Proceedings of the 2026 Conference on Creativity and Cognition",
+"DOI": "10.1145/3803784.3816825",
+"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
 "id": "cited:hemery2026modelingrecognit",
 "type": "thesis",
 "title": "Modeling, recognition of finger gestures and upper-body movements for musical interaction design",
@@ -110544,6 +110986,35 @@
 "container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3772318.3790651",
 "note": "Collection: Cited. Cites 10 archive entries",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "cited:wu2026slimeuiexploring",
+"type": "paper-conference",
+"title": "SlimeUI: Exploring Non-Newtonian Fluid as a Deformable Interface for Digital Musical Expression",
+"author": [
+{
+"family": "Wu",
+"given": "Yuan-Shao"
+},
+{
+"family": "Chang",
+"given": "Ya-Chieh"
+},
+{
+"family": "Hsu",
+"given": "Chun-Cheng"
+}
+],
+"container-title": "Companion Publication of the 2026 ACM Designing Interactive Systems Conference",
+"DOI": "10.1145/3802974.3808030",
+"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep",
 "issued": {
 "date-parts": [
 [

@@ -116,3 +116,8 @@ author's institution in OpenAlex, or from the parenthesis in a repository name; 
 over OAI-PMH (131 records, recent editions only), and scores the ones with English text with the
 journal sweep (JIM 28 candidates, SBCM 10; the CMJ check is unchanged). Older SBCM proceedings
 (1994–2019) are whole-volume PDFs on compmus.ime.usp.br/sbcm; CIM is not yet covered.
+
+Added Audio Mostly, MOCO, DIS and Creativity and Cognition to the Crossref proceedings queries
+(888 records). The contrast background had been all of `journals.json`, so new proceedings would
+have shifted every score; it is now the seven journals only (CMJ check: median 75th percentile,
+51% in the top quarter). Sweep candidates 758; Cited 184; snowball 124.
