@@ -11,6 +11,10 @@ All of the raw .bib files can be found in `./bibs`.  There are three main datase
 
 Of the datasets, ISIDM is the most incomplete. If you would like to get involved with cleaning these references (mainly adding links or fixing grammatical errors), or with adding new datasets/features, feel free to [submit a PR on the GitHub repo](https://github.com/IDMIL/off-nime/pulls).
 
+## Analysis
+
+The `analysis` folder joins this archive with the NIME proceedings into one corpus. It builds an [interactive atlas](https://alexarje.github.io/off-nime/atlas/) of papers, co-authors and citations, and a [report](analysis/REPORT.md) with ranked lists of works that neither archive holds. See `analysis/HANDOVER.md` for how to run it.
+
 ## Acknowledgements
 
 This project was created at [McGill University's Input Devices and Music Interaction Laboratory (IDMIL)](https://idmil.org) under the supervision of Marcelo Wanderley. 

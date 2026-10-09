@@ -58,7 +58,20 @@ def main():
              f"{name(up[1])} ({f(sh_n[pn[0]]['share'][up[1]])} to {f(sh_n[pn[-1]]['share'][up[1]])}), and the largest falls in "
              f"{name(down[0])} ({f(sh_n[pn[0]]['share'][down[0]])} to {f(sh_n[pn[-1]]['share'][down[0]])}) and "
              f"{name(down[1])} ({f(sh_n[pn[0]]['share'][down[1]])} to {f(sh_n[pn[-1]]['share'][down[1]])}).")
+    jc = json.loads((HERE / "data" / "journal_candidates.json").read_text())
+    journals = sorted(k for k in jc["by_source"] if k not in ("CHI", "TEI"))
+    resolved = json.loads((HERE / "data" / "cited_resolved.json").read_text())
+    cr_ok = sum(1 for r in resolved if r.get("doi"))
     v = {
+        "j_cands": jc["n_candidates"], "j_nsources": len(journals),
+        "j_sources": ", ".join(journals[:-1]) + " and " + journals[-1],
+        "j_items": jc["items"], "j_abs": jc["with_abstract"], "j_cur": jc["check"]["curated_cmj"],
+        "j_med": jc["check"]["curated_median_percentile"], "j_cmj": jc["check"]["cmj_articles"],
+        "j_q": jc["check"]["curated_share_in_top_quarter"],
+        "j_by_source": ", ".join(f"{n} from {k}" for k, n in sorted(jc["candidates"].items(), key=lambda x: -x[1])),
+        "j_table": table(["Score", "Source", "Year", "Title"],
+                         [[f"{r['score']:.3f}", r["source"], r["year"], r["title"]] for r in jc["top"][:20]]),
+        "cr_ok": cr_ok, "cr_pct": pct(cr_ok, len(resolved)),
         "trend": trend,
         "records": st["records"], "n_off": n_off, "n_nime": st["records"] - n_off, "n_nime_papers": n_nime_papers,
         "n_music": ds.get("NIME music", 0), "n_inst": ds.get("NIME installations", 0), "n_alt": ds.get("NIME alt", 0),

@@ -73,6 +73,11 @@ def main():
     C = vec.fit_transform(ctext)
     L = vec.transform([r["text"] for r in rows])
     S = (L @ C.T).toarray()
+    # leave one out: a curated paper must not count its own archive entry as a neighbour
+    col = {r["id"]: j for j, r in enumerate(corpus)}
+    for i, r in enumerate(rows):
+        if r["in_corpus"]:
+            S[i, col[r["in_corpus"]]] = 0
     top = np.sort(S, axis=1)[:, -K:]
     score = top.mean(1)
     nn = S.argsort(axis=1)[:, -3:][:, ::-1]

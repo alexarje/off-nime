@@ -2,18 +2,18 @@
 
 ## Now
 
-- [ARJ] Decide where cited works go: a separate `bibs/Cited/` dataset (recommended) or Extras.
-- [ARJ] Decide whether to propose a joined NIME + off-NIME export to IDMIL as a pull request.
+- [ARJ] Vet the top of `output/candidates_cited.bib` and `output/candidates_journals.bib`; accepted
+  entries go into a new `bibs/Cited/` dataset (recommended) or Extras. Anything under `bibs/`
+  appears in the website's table.
+- [ARJ] Decide whether to propose the analysis to IDMIL/off-nime as a pull request.
 - [ARJ] Get a Semantic Scholar API key, then rerun `tools/fetch_s2.py` to finish the 1,059
   off-NIME title lookups (it resumes from the cache).
-- [ARJ] Decide whether to publish the atlas as a private claude.ai artifact or on GitHub Pages.
 
 ## Next
 
-- [ME] Curate the top of `candidates_cited.tsv` into BibTeX with DOIs (Crossref lookup by title).
-- [ME] Resolve the nine off-NIME title clashes listed in REPORT.md (eight look like true duplicates).
-- [ME] Score the full ICMC archive at quod.lib.umich.edu with `local_candidates.py`.
-- [ME] Sweep CMJ, Organised Sound, JNMR, TOCHI, TEI and CHI by ISSN through Crossref and score.
+- [ME] Score the full ICMC archive at quod.lib.umich.edu with the local-candidates method.
+- [ME] Cross-read the journal sweep against the forward-citation list; a paper on both is a
+  strong candidate.
 
 ## Later
 

@@ -57,3 +57,15 @@ scholar:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# The analysis folder publishes its report and atlas; its tools, data and tracking files stay out.
+exclude:
+  - analysis/tools
+  - analysis/data
+  - analysis/.venv
+  - analysis/run.sh
+  - analysis/HANDOVER.md
+  - analysis/TODO.md
+  - analysis/WORKLOG.md
+  - readme-generator.py
+  - vendor

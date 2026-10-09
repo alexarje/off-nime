@@ -18,21 +18,21 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.2077	True	ICMC	2008	INTERACTIVE COMPOSITION AND IMPROVISATION ON THE HYPER-FLUTE Cléo Palacio-Quintin	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1560.pdf.txt	The Hyper-Flute
 0.2043	True	ICMC	2005	THE M-OBJECTS: A SMALL LIBRARY FOR MUSICAL RHYTHM GENERATION AND MUSICAL TEMPO	ICMC/2005/defevent/papers/cr1294.pdf.txt	Establishing a Musical Channel of Communication between Dancers and Musicians in Computer-Mediated Collaborations in Dance Performance
 0.2031	True	ICMC	2001	Singing Voice Synthesis Combining Excitation plus Resonance and Sinusoidal plus Residual Models	ICMC/2001/data/cr1334.pdf.txt	Real-time CALM Synthesizer: New Approaches in Hands-Controlled Voice Synthesis
-0.202	True	ICMC	2008	THE LAB FOR CREATIVE ARTS & TECHNOLOGIES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1504.pdf.txt	Studio Report of the Computer Music Lab of CNUCE/C.N.R.
 0.202	True	SMC	2010	ANALYZING LEFT HAND FINGERING IN GUITAR PLAYING Enric Guaus, Josep Llus Arcos	SMC/2010/42.pdf.txt	A Left Hand Gesture Caption System for Guitar Based on Capacitive Sensors
+0.2019	True	ICMC	2008	THE LAB FOR CREATIVE ARTS & TECHNOLOGIES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1504.pdf.txt	Studio Report of the Computer Music Lab of CNUCE/C.N.R.
 0.2016	True	ICMC	2005	PLYMOUTH BRAIN-COMPUTER MUSIC INTERFACE PROJECT: INTELLIGENT ASSISTIVE TECHNOLOGY FOR MUSIC-MAKING	ICMC/2005/defevent/papers/cr1026.pdf.txt	Toward Direct Brain-Computer Musical Interfaces
 0.1982	True	ICMC	2005	THE PHASE PROJECT : HAPTIC AND VISUAL INTERACTION FOR MUSIC EXPLORATION	ICMC/2005/defevent/papers/cr1165.pdf.txt	Study of haptic and visual interaction for sound and music control in the Phase project
 0.1971	True	ICMC	2000	Voice Morphing System for Impersonating in Karaoke Applications	ICMC/2000/Papers/27VoSyn2/2Cano.pdf.txt	Acappella Synthesis Demonstrations using RWC Music Database
-0.1964	True	ICMC	2001	Technological Advances for Conducting a Virtual Ensemble Guy E. Garnett, Mangesh Jonnalagadda, Ivan Elezovic, Timothy Johnson, Kevin Small	ICMC/2001/ICMC2001_Garnett.pdf.txt	The Radio Baton and Conductor Program, or: Pitch, the Most Important and Least Expressive Part of Music
+0.1971	True	ICMC	2005	HOME CONDUCTING – CONTROL THE OVERALL MUSICAL EXPRESSION WITH GESTURES	ICMC/2005/defevent/papers/cr1273.pdf.txt	Generative rules for music performance: A formal description of a rule system
+0.1965	True	ICMC	2001	Technological Advances for Conducting a Virtual Ensemble Guy E. Garnett, Mangesh Jonnalagadda, Ivan Elezovic, Timothy Johnson, Kevin Small	ICMC/2001/ICMC2001_Garnett.pdf.txt	The Radio Baton and Conductor Program, or: Pitch, the Most Important and Least Expressive Part of Music
 0.1963	True	ICMC	2001	Main Sessions § PLENARY SESSION 1 § PAPER SESSION 1: Digital Signal Processing 1	ICMC/2001/sessions.pdf.txt	The aesthetics of interactive music systems
 0.1958	True	ICMC	2008	THE WORLDSCAPE LAPTOP ORCHESTRA: CREATING LIVE, INTERACTIVE DIGITAL MUSIC FOR AN	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1354.pdf.txt	The Machine Orchestra: An Ensemble of Human Laptop Performers and Robotic Musical Instruments
-0.1953	True	ICMC	2005	HOME CONDUCTING – CONTROL THE OVERALL MUSICAL EXPRESSION WITH GESTURES	ICMC/2005/defevent/papers/cr1273.pdf.txt	Generative rules for music performance: A formal description of a rule system
+0.1946	True	ICMC	2000	A New Music Keyboard with Continuous Key-position Sensing and High-speed Communication	ICMC/2000/ICMC2000_Freed.pdf.txt	A new music Keyboard with continous key-position sensing and high-speed communication
 0.1935	True	ICMC	2005	HAPTIC THEREMIN: DEVELOPING A HAPTIC MUSICAL CONTROLLER USING THE SENSABLE	ICMC/2005/defevent/papers/cr1180.pdf.txt	Haptic feedback in a computer music performance interface
 0.1932	True	ICMC	2005	THE SUICIDED VOICE – THE MEDIATED VOICE Mark Alexander Bokowiec	ICMC/2005/defevent/papers/cr1020.pdf.txt	V'Oct(Ritual)
 0.193	True	ICMC	2008	NRCI: SOFTWARE TOOLS FOR LAPTOP ENSEMBLE Christopher Burns and Greg Surges	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1357.pdf.txt	A Software System for Laptop Performance and Improvisation
 0.1927	True	ICMC	2005	Evolution And Embodiment: Playable Instruments for Free Music	ICMC/2005/defevent/papers/cr1126.pdf.txt	Heretic's Brew
 0.192	True	DAFx	2002		DAFx/2002/DAFX02_Arfib_Couturier_Kessous_gestural_stategies.pdf.txt	A Digital Emulator of the Photosonic Instrument
-0.192	True	ICMC	2000	A New Music Keyboard with Continuous Key-position Sensing and High-speed Communication	ICMC/2000/ICMC2000_Freed.pdf.txt	A new music Keyboard with continous key-position sensing and high-speed communication
 0.1914	True	SMC	2010	DEPENDENT VECTOR TYPES FOR MULTIRATE FAUST Pierre Jouvelot CRI, Mathématiques et systèmes, MINES ParisTech	SMC/2010/51.pdf.txt	MobileFaust: a Set of Tools to Make Musical Mobile Applications with the Faust Programming Language
 0.1912	True	ICMC	2008	SENSOR BOWS & APPLICATION FOR STRINGED INSTRUMENTS Keith A. McMillen	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1258.pdf.txt	Stage-Worthy Sensor Bows for Stringed Instruments
 0.1908	True	ICMC	2005	FTM — COMPLEX DATA STRUCTURES FOR MAX Norbert Schnell Riccardo Borghesi Diemo Schwarz Frederic Bevilacqua Remy Müller	ICMC/2005/defevent/papers/cr1205.pdf.txt	MnM: a Max/MSP mapping toolbox
@@ -74,20 +74,20 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1781	True	ICMC	2008	TWO APPROACHES FOR INTERACTION MANAGEMENT IN TIMBRE-AWARE IMPROVISATION SYSTEMS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1449.pdf.txt	Design Issues in Interaction Modeling for Free Improvisation
 0.1776	True	DAFx	2006		DAFx/2006/papers/p_287.pdf.txt	Parallel Processing System Design with "Propeller" Processor
 0.1776	True	SMC	2010	EXPLORING TIMBRE SPACES WITH TWO MULTIPARAMETRIC CONTROLLERS Chris Kiefer	SMC/2010/50.pdf.txt	A Malleable Interface for Sonic Exploration
-0.1775	True	ICMC	2000	V ISCO — Visual S ALIERI Components Jürgen Kilian Holger H. Hoos	ICMC/2000/Papers/96Poste1/3Kilian.pdf.txt	Tree Music: Composing with GAIA
+0.1774	True	ICMC	2000	V ISCO — Visual S ALIERI Components Jürgen Kilian Holger H. Hoos	ICMC/2000/Papers/96Poste1/3Kilian.pdf.txt	Tree Music: Composing with GAIA
 0.177	True	ICMC	2008	REALTIME MUSIC PROGRAMMING USING SND-RT Kjetil Matheussen Norwegian network for Technology, Acoustics and Music. (NOTAM)	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1387.pdf.txt	MobileFaust: a Set of Tools to Make Musical Mobile Applications with the Faust Programming Language
 0.1769	True	DAFx	2006		DAFx/2006/papers/p_315.pdf.txt	The Csound Book: Perspectives in Software Synthesis, Sound Design, Signal Processing, and Programming
 0.1768	True	ICMC	2001	Articulation Rules For Automatic Music Performance Roberto Bresin	ICMC/2001/data/cr1001.pdf.txt	On Mapping N Articulation onto M Synthesiser-Control Parameters
 0.1766	True	ISMIR	2018	LEARNING TO LISTEN, READ, AND FOLLOW: SCORE FOLLOWING AS A REINFORCEMENT LEARNING GAME	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/45_Paper.pdf.txt	Investigating the Role of Score Following in Automatic Musical Accompaniment
 0.1761	True	ICMC	2001	Analysis-Synthesis of Flute Sounds Using a Non-Linear Digital	ICMC/2001/data/cr1361.pdf.txt	On the Use of Flute Air Jet as A Musical Control Variable
-0.1755	True	ICMC	2001	Creating and Exploring Huge Parameter Spaces: Interactive Evolution as a Tool for Sound Generation	ICMC/2001/data/cr1008.pdf.txt	Evolution of interactive control and rel-time synthesis in a digital music system
+0.1756	True	ICMC	2001	Creating and Exploring Huge Parameter Spaces: Interactive Evolution as a Tool for Sound Generation	ICMC/2001/data/cr1008.pdf.txt	Evolution of interactive control and rel-time synthesis in a digital music system
 0.1755	True	ICMC	2006	Comparing Musical Control Structures and Signal Processing Strategies for the Augmented Cello and Guitar	ICMC/2006/freed/freed-icmc2006.pdf.txt	An Approach to Instrument Augmentation : the Electric Guitar
 0.1753	True	ICMC	2008	VOICE SYNTHESIS USING THE GENERALIZED PRESSURE-CONTROLLED VALVE	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1761.pdf.txt	Adaptive control of a vocal chord and vocal tract for computerized mechanical singing instruments
-0.1743	True	ICMC	2008	ANTESCOFO: ANTICIPATORY SYNCHRONIZATION AND CONTROL OF INTERACTIVE PARAMETERS IN COMPUTER MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1779.pdf.txt	Score Following: State of the Art and New Developments
+0.1744	True	ICMC	2008	ANTESCOFO: ANTICIPATORY SYNCHRONIZATION AND CONTROL OF INTERACTIVE PARAMETERS IN COMPUTER MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1779.pdf.txt	Score Following: State of the Art and New Developments
 0.1742	True	ICMC	2008	STUDIO REPORT: UC BERKELEY CENTER FOR NEW MUSIC AND AUDIO TECHNOLOGIES (CNMAT)	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1734.pdf.txt	Bridging the Gap Between Art and Science Education Through Teaching Electronic Musical Instrument Design
-0.174	True	SMC	2010	REAL-TIME ESTIMATION OF THE VOCAL TRACT SHAPE FOR MUSICAL CONTROL	SMC/2010/31.pdf.txt	Investigation of Gesture Controlled Articulatory Vocal Synthesizer using a Bio-Mechanical Mapping Layer
-0.1739	True	ICMC	2008	MULTI-AGENT MULTIMODAL PERFORMANCE ANALYSIS Arne Eigenfeldt School for the Contemporary Arts,	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1653.pdf.txt	Multimodal Musician Recognition
-0.1738	True	GestureWorkshop	2003	Analysis of a Genuine Scratch Performance Kjetil Falkenberg Hansen and Roberto Bresin	GestureWorkshop/2003/Hansen2003.pdf.txt	The Skipproof Virtual Turntable for High-Level Control of Scratching
+0.1739	True	GestureWorkshop	2003	Analysis of a Genuine Scratch Performance Kjetil Falkenberg Hansen and Roberto Bresin	GestureWorkshop/2003/Hansen2003.pdf.txt	The Skipproof Virtual Turntable for High-Level Control of Scratching
+0.1739	True	SMC	2010	REAL-TIME ESTIMATION OF THE VOCAL TRACT SHAPE FOR MUSICAL CONTROL	SMC/2010/31.pdf.txt	Investigation of Gesture Controlled Articulatory Vocal Synthesizer using a Bio-Mechanical Mapping Layer
+0.1737	True	ICMC	2008	MULTI-AGENT MULTIMODAL PERFORMANCE ANALYSIS Arne Eigenfeldt School for the Contemporary Arts,	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1653.pdf.txt	Multimodal Musician Recognition
 0.1736	True	ICMC	2008	VISUAL AND SOUND GENERATION DRIVEN BY BRAIN, HEART AND RESPIRATION SIGNALS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1558.pdf.txt	Toward Direct Brain-Computer Musical Interfaces
 0.1735	True	ICMC	2005	IF I HAD A HAMMER: DESIGN AND THEORY OF AN ELECTROMAGNETICALLY-PREPARED PIANO	ICMC/2005/defevent/papers/cr1338.pdf.txt	Physical Interactions with Digital Strings --- A hybrid approach to a digital keyboard instrument
 0.1733	True	DAFx	2002		DAFx/2002/DAFX02_DHaes_Rodet_trumpet_model.pdf.txt	Trumpet and Trumpet Player: Model and Simulation in a Musical Context
@@ -117,37 +117,36 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1698	True	DAFx	2002		DAFx/2002/DAFX02_Avanzini_Serafin_Rocchesso_rubbed_surfaces.pdf.txt	Bowed String Synthesis with Force Feedback Gesture Interaction
 0.1696	True	ICMPC			ICMPC/ICMPC06/pdfs/467.pdf.txt	A Directable Performance Rendering System: Itopul
 0.1692	True	SMC	2010	ISSUES AND TECHNIQUES FOR COLLABORATIVE MUSIC MAKING ON MULTI-TOUCH SURFACES	SMC/2010/22.pdf.txt	Augmenting human-human interaction in mobile group improvisation
-0.169	True	OSCC	2004	OSC and Gesture features of CNMAT's Connectivity Processor Rimas Avizienis and Adrian Freed	OSCC/OSC2004-RimasBox.pdf.txt	Score and/or gesture : The system RTI4I for real-time contyrol of the processor 4I
+0.1691	True	OSCC	2004	OSC and Gesture features of CNMAT's Connectivity Processor Rimas Avizienis and Adrian Freed	OSCC/OSC2004-RimasBox.pdf.txt	Score and/or gesture : The system RTI4I for real-time contyrol of the processor 4I
 0.1689	True	ICMC	2000	Interactive Composition: Sharing the Creative Process on the Internet	ICMC/2000/Papers/97Poste2/2Popat.pdf.txt	The Cassandra Project: In the Mediascape of the Internet
 0.1689	True	ICMC	2001	Score Following Using Spectral Analysis and Hidden Markov Models	ICMC/2001/data/cr1126.pdf.txt	Score Following: State of the Art and New Developments
 0.1688	True	ICMC	2000		ICMC/2000/Papers/94Studi4/1Kuchera.pdf.txt	Where Are You Standing?
 0.1688	True	ICMC	2008	TWO CROSS-PLATFORM CSOUND-BASED PLUGIN GENERATORS Victor Lazzarini	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1138.pdf.txt	The Csound Book: Perspectives in Software Synthesis, Sound Design, Signal Processing, and Programming
 0.1685	True	ICMC	2008		ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1738.pdf.txt	Where Are You Standing?
 0.1681	True	ICMC	2005	LARYNXOPHONE: USING VOICE AS A WIND CONTROLLER Àlex Loscos, Óscar Celma	ICMC/2005/defevent/papers/cr1308.pdf.txt	Real-time Control of Synthesis Parameters for LightHarp MIDI Controller
+0.168	True	ICMC	2001	A System Supporting Flexible Distributed Real-Time Music Processing	ICMC/2001/data/cr1188.pdf.txt	Aura II: Making Real-Time Systems Safe for Music
 0.1679	True	GestureWorkshop	2003	Design and Use of Some New Digital Musical Instruments Daniel Arfib, Jean-Michel Couturier, and Loïc Kessous	GestureWorkshop/2003/Arfib2003.pdf.txt	The Digital Computer as a Musical Instrument
-0.1679	True	ICMC	2001	A System Supporting Flexible Distributed Real-Time Music Processing	ICMC/2001/data/cr1188.pdf.txt	Aura II: Making Real-Time Systems Safe for Music
 0.1679	True	ICMC	2005	SYNTHESIS AND PERCEPTUAL MANIPULATION OF PERCUSSIVE SOUNDS Mitsuko Aramaki & Richard Kronland-Martinet	ICMC/2005/defevent/papers/cr1104.pdf.txt	Strategies of Mapping between Gesture data and Synthesis Model Parameters using Perceptual Spaces
 0.1679	True	ICMC	2008	Topics Please follow the links to get more information about topics/papers	ICMC/2008/ICMC08 USB Proceedings/defevent/main/topidx.pdf.txt	Toward a Theory of Interfaces for Computer Music Systems
 0.1677	True	ICMC	2000	Extraction of Musical Performance Rules Using a Modified Algorithm of Multiple Regression Analysis	ICMC/2000/Papers/75ExPer1/2Ishikaw.pdf.txt	Learning Performance Rules in a Music Interpretation System
 0.1675	True	ICMC	2008	VIMIC - A NOVEL TOOLBOX FOR SPATIAL SOUND PROCESSING IN MAX/MSP	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1190.pdf.txt	The ZKM Klangdom
 0.1674	True	SMC	2010	PHOXES - MODULAR ELECTRONIC MUSIC INSTRUMENTS BASED ON PHYSICAL MODELING SOUND SYNTHESIS	SMC/2010/34.pdf.txt	PHYSMISM : A Control Interface for Creative Exploration of Physical Models
-0.1668	True	ICMC	2008	TWO NETWORK INSTALLATIONS: ‘1133’ & ‘COMPUTER VOICES’ Vincent Akkermans	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1605.pdf.txt	Computers in music
 0.1668	True	ISMIR	2018	TRANSFERRING THE STYLE OF HOMOPHONIC MUSIC USING RECURRENT NEURAL NETWORKS AND AUTOREGRESSIVE MODELS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/107_Paper.pdf.txt	A Physical Intelligent Instrument using Recurrent Neural Networks
 0.1667	True	ISMIR	2018	LEARNING DOMAIN-ADAPTIVE LATENT REPRESENTATIONS OF MUSIC SIGNALS USING VARIATIONAL AUTOENCODERS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/169_Paper.pdf.txt	Inspecting and Interacting with Meaningful Music Representations using VAE
 0.1667	True	ISMIR	2018	CONDITIONING DEEP GENERATIVE RAW AUDIO MODELS FOR STRUCTURED AUTOMATIC MUSIC	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/192_Paper.pdf.txt	GestureRNN: A neural gesture system for the Roli Lightpad Block
 0.1666	True	ICMC	2008	EXPRESSIVE IRISH FIDDLE PERFORMANCE MODEL INFORMED WITH BOWING	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1646.pdf.txt	Bowstroke Database : A Web-Accessible Archive of Violin Bowing Data
 0.1664	True	ICMC	2008	THE SPATIAL POLITICS OF RADIO: ANNA FRIZ’S CRITICAL UTOPIAS Gascia Ouzounian	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1441.pdf.txt	Radio Healer
-0.1663	True	ICMC	2008	RHYTHMIC ANALYSIS FOR REAL-TIME AUDIO EFFECTS Adam M. Stark, Matthew E.P. Davies and Mark D. Plumbley	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1610.pdf.txt	Real-Time Beat-Synchronous Audio Effects
 0.1663	True	ICMPC			ICMPC/ICMPC06/pdfs/579.pdf.txt	The Emotion in Motion Experiment: Using an Interactive Installation as a Means for Understanding Emotional Response to Music
+0.1662	True	ICMC	2008	RHYTHMIC ANALYSIS FOR REAL-TIME AUDIO EFFECTS Adam M. Stark, Matthew E.P. Davies and Mark D. Plumbley	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1610.pdf.txt	Real-Time Beat-Synchronous Audio Effects
 0.1658	True	ICMC	2008	RECENT DEVELOPMENTS IN THE DIFFERENT STROKES ENVIRONMENT Mark Zadel and Gary Scavone	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1742.pdf.txt	Different Strokes: a Prototype Software System for Laptop Performance and Improvisation
 0.1656	True	ISMIR	2018	EVALUATING AUTOMATIC POLYPHONIC MUSIC TRANSCRIPTION Andrew McLeod	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/148_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
-0.1653	True	ICMC	2000	Adaptive oscillator networks for partial tracking and piano music transcription	ICMC/2000/Papers/96Poste1/1Marolt.pdf.txt	claVision: Visual Automatic Piano Music Transcription
+0.1654	True	ICMC	2000	Adaptive oscillator networks for partial tracking and piano music transcription	ICMC/2000/Papers/96Poste1/1Marolt.pdf.txt	claVision: Visual Automatic Piano Music Transcription
 0.1652	True	ICMC	2000	Perceptual and Analytical Analysis of the effect of the Hammer Impact on the Piano Tones	ICMC/2000/Papers/22PhyMo2/3Bensa.pdf.txt	Morphosis for piano
 0.1651	True	ICMC	2005	MIDI TO SP−MIDI TRANSCODING USING PHRASE STEALING	ICMC/2005/defevent/abstract/a1022.pdf.txt	The Disfunctions of MIDI
 0.1651	True	ISMIR	2018	GUITARSET: A DATASET FOR GUITAR TRANSCRIPTION Qingyang Xi1 Rachel M. Bittner1	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/188_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
 0.1651	True	ISMIR	2018	INSTRUMENT ACTIVITY DETECTION IN POLYPHONIC MUSIC USING DEEP NEURAL NETWORKS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/275_Paper.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
 0.1651	True	SMC	2010	PERFORMANCE RENDERING FOR POLYPHONIC PIANO MUSIC WITH A COMBINATION OF PROBABILISTIC MODELS	SMC/2010/4.pdf.txt	Polyhymnia : An Automatic Piano Performance System with Statistical Modeling of Polyphonic Expression and Musical Symbol Interpretation
-0.165	True	ICMC	2008	POLYPHONIC NOTE TRACKING USING MULTIMODAL RETRIEVAL OF MUSICAL EVENTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1505.pdf.txt	claVision: Visual Automatic Piano Music Transcription
+0.1649	True	ICMC	2008	POLYPHONIC NOTE TRACKING USING MULTIMODAL RETRIEVAL OF MUSICAL EVENTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1505.pdf.txt	claVision: Visual Automatic Piano Music Transcription
 0.1648	True	DAFx	2002		DAFx/2002/DAFX02_Hanna_Beurive_Desainte-Catherine_noise_synthesis.pdf.txt	Intuitive Real-Time Control of Spectral Model Synthesis
 0.1648	True	ICMC	2000	SHAPE AND MATERIAL DESIGN IN PHYSICAL MODELING SOUND SYNTHESIS	ICMC/2000/Papers/21PhyMo1/1Djohari.pdf.txt	Methods for Modeling Realistic Playing in Acoustic Guitar Synthesis
 0.1645	True	ICMC	2005	A NOVEL APPROACH TO MIXED MODEL DISCRETE-TIME DOMAIN SIMULATION OF THE SOUND FIELD GENERATED BY A STRING	ICMC/2005/defevent/papers/cr1046.pdf.txt	Implementing a Finite Difference-Based Real-time Sound Synthesizer using GPUs
@@ -160,38 +159,40 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1643	True	ICMC	2000	Real-time composition in Elody Stephane Letz, Dominique Fober, Yann Orlarey	ICMC/2000/Papers/72CompS2/1Letz.pdf.txt	A functional approach to real-time control
 0.1641	True	ICMC	2000	WOW’EM: Encouraging an Integrated Generation <http://music.dartmouth.edu/~wowem>	ICMC/2000/Papers/99Poste4/3Burns.pdf.txt	Women Who Build Things: Gestural Controllers, Augmented Instruments, and Musical Mechatronics
 0.1641	True	ICMC	2000	Software Tools for Musical Expression Roberto Bresin and Anders Friberg	ICMC/2000/Papers/Demos/03Bresin.pdf.txt	Generative rules for music performance: A formal description of a rule system
-0.164	True	ICMC	2000	Scalable Connectivity Processor for Computer Music Performance Systems	ICMC/2000/Papers/Demos/10Avizie.pdf.txt	Problems and Prospects for Intimate Musical Control of Computers
 0.1638	True	ISMIR	2018	REPRESENTATION LEARNING OF MUSIC USING ARTIST LABELS Jiyoung Park1∗ Jongpil Lee2∗ Jangyeon Park1 Jung-Woo Ha1 Juhan Nam2	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/168_Paper.pdf.txt	Cross-modal Sound Mapping Using Deep Learning
 0.1636	True	ICMC	2000	CARTAH/SMCC Studio Report	ICMC/2000/Papers/92Studi2/3Karpen.pdf.txt	Intersecting Lines
 0.1635	True	ICMC	2005	GRANULAR SYNTHESIS OF SOUNDS THROUGH MARKOV CHAINS WITH FUZZY CONTROL	ICMC/2005/defevent/papers/cr1050.pdf.txt	PebbleBox and CrumbleBag: Tactile Interfaces for Granular Synthesis
+0.1634	True	ICMC	2008	TWO NETWORK INSTALLATIONS: ‘1133’ & ‘COMPUTER VOICES’ Vincent Akkermans	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1605.pdf.txt	Computers in music
 0.1634	True	ICMC	2008	NOT JUST MORE FMS: TAKING IT TO THE NEXT LEVEL Tae Hong Park , Zhiye Li, Jonathan Biguenet	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1757.pdf.txt	Unsounding Objects: Audio Feature Extraction for the Control of Sound Synthesis
 0.1633	True	ICMC	2000	Generic panning tools for MAX/MSP Ville Pulkki	ICMC/2000/Papers/66Spati2/3Pulkki.pdf.txt	The ZKM Klangdom
 0.1632	True	ICMC	2005	SARC: STUDIO REPORT Michael Alcorn Chris Corrigan Sonic Arts Research Centre	ICMC/2005/defevent/papers/cr1246.pdf.txt	Ground Me ! An Interactive Sound Art Installation
+0.1631	True	ICMC	2000	Scalable Connectivity Processor for Computer Music Performance Systems	ICMC/2000/Papers/Demos/10Avizie.pdf.txt	Problems and Prospects for Intimate Musical Control of Computers
 0.1631	True	ICMC	2008	THE NYQUIST COMPOSITION ENVIRONMENT: SUPPORTING TEXTUAL PROGRAMMING WITH A	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1617.pdf.txt	Music Programming in Minim
 0.1629	True	DAFx	2006		DAFx/2006/papers/p_157.pdf.txt	Real-time CALM Synthesizer: New Approaches in Hands-Controlled Voice Synthesis
 0.1629	True	ICMC	2000	Comparison of Sound Spatialization Techniques in MPEG-4 Scene Description	ICMC/2000/Papers/65Spati1/1Vaanane.pdf.txt	A Framework for Immersive Spatial Audio Performance
 0.1629	True	ICMC	2008	INTERACTIVE SWARM ORCHESTRA A GENERIC PROGRAMMING ENVIRONMENT FOR	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1184.pdf.txt	Coral -- a Physical and Haptic Extension of a Swarm Simulation
 0.1627	True	ICMC	2005	SYMBOLIC CONTROL OF SOUND SYNTHESIS IN COMPUTER ASSISTED COMPOSITION	ICMC/2005/defevent/papers/cr1113.pdf.txt	SMucK: Symbolic Music in ChucK
-0.1627	True	ICMC	2008	DATA-DRIVEN RECOMPOSITION USING THE HIERARCHICAL DIRICHLET PROCESS HIDDEN MARKOV MODEL	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1413.pdf.txt	MAGE --A Platform for Tangible Speech Synthesis
 0.1627	True	ICMC	2008	EVALUATING THE WIIMOTE AS A MUSICAL CONTROLLER Chris Kiefer Dept. of Informatics	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1571.pdf.txt	HCI Methodology For Evaluating Musical Controllers : A Case Study
+0.1627	True	SMC	2010	CONNECTING GRAPHICAL SCORES TO SOUND SYNTHESIS IN PWGL Mika Kuuskankare	SMC/2010/63.pdf.txt	Graphical marionette
+0.1626	True	ICMC	2008	DATA-DRIVEN RECOMPOSITION USING THE HIERARCHICAL DIRICHLET PROCESS HIDDEN MARKOV MODEL	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1413.pdf.txt	MAGE --A Platform for Tangible Speech Synthesis
 0.1624	True	ICMC	2005	USING A PERCEPTUALLY BASED TIMBRE METRIC FOR PARAMETER CONTROL ESTIMATION IN PHYSICAL MODELING SYNTHESIS	ICMC/2005/defevent/papers/cr1150.pdf.txt	Timbre et causalité
-0.1624	True	SMC	2010	CONNECTING GRAPHICAL SCORES TO SOUND SYNTHESIS IN PWGL Mika Kuuskankare	SMC/2010/63.pdf.txt	Graphical marionette
 0.1623	True	SMC	2010	I NTERLUDE - A F RAMEWORK FOR AUGMENTED M USIC S CORES D. Fober C. Daudin Y. Orlarey S. Letz	SMC/2010/35.pdf.txt	SMucK: Symbolic Music in ChucK
-0.1622	True	ICMC	2001	Physical modeling for sound synthesis with particle-interaction	ICMC/2001/ICMC2001_Fourcade.pdf.txt	Physical Models and Musical Controllers -- Designing a Novel Electronic Percussion Instrument
-0.162	True	ICMC	2000	Using the Sound Description Interchange Format within the SMS Applications	ICMC/2000/Papers/45AuEnFo/4deBoer1.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
+0.1621	True	ICMC	2001	Physical modeling for sound synthesis with particle-interaction	ICMC/2001/ICMC2001_Fourcade.pdf.txt	Physical Models and Musical Controllers -- Designing a Novel Electronic Percussion Instrument
 0.162	True	ICMC	2008	A LOW-COST SPHERICAL LOUDSPEAKER ARRAY FOR ELECTROACOUSTIC MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1226.pdf.txt	interface : Electronic Chamber Ensemble
 0.162	True	ICMC	2008	AN INTERACTIVE BIO-MUSIC IMPROVISATION SYSTEM Koray Tahiroğlu	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1570.pdf.txt	Creating Interactive Multimedia Works with Bio-data
+0.1619	True	ICMC	2000	Using the Sound Description Interchange Format within the SMS Applications	ICMC/2000/Papers/45AuEnFo/4deBoer1.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
 0.1618	True	ICMC	2000	Design and Analysis of Virtual Musical Environments (VME) Jaein Hwang, Gerard Jounghyun Kim	ICMC/2000/Papers/33ViMuEn/1Hwang.pdf.txt	The science of virtual reality and virtual environments
 0.1617	True	ICMC	2000	Cluster-Weighted Sampling for Synthesis and Cross-Synthesis of Violin	ICMC/2000/ICMC2000_Schoner.pdf.txt	Strategies of Mapping between Gesture data and Synthesis Model Parameters using Perceptual Spaces
 0.1617	True	ICMC	2005	POCKET GAMELAN: A BLUEPRINT FOR PERFORMANCE USING WIRELESS DEVICES	ICMC/2005/defevent/papers/cr1319.pdf.txt	Pocket Gamelan: Tuneable Trajectories for Flying Sources in Mandala 3 and Mandala 4
 0.1616	True	ICMC	2001	Note and Hammer Velocity Dependence of a Piano String Model Based on Coupled Digital Waveguides	ICMC/2001/data/cr1237.pdf.txt	A Meta-Action for the Grand Piano
 0.1616	True	ICMC	2008	continuaMENTE: INTEGRATING PERCUSSION, AUDIOVISUAL AND IMPROVISATION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1677.pdf.txt	GeKiPe, a gesture-based interface for audiovisual performance
-0.1612	True	ICMC	2001	Music Plus One: A System for Expressive and Flexible Musical Accompaniment	ICMC/2001/data/cr1403.pdf.txt	Real-Time Computer Accompaniment of Keyboard Performances
 0.1611	True	ICMC	2001	An Interactive Beat Tracking and Visualisation System Simon Dixon	ICMC/2001/data/cr1115.pdf.txt	A Turing Test for B-Keeper : Evaluating an Interactive
-0.1611	True	SMC	2010	HEAD IN SPACE: A HEAD-TRACKING BASED BINAURAL SPATIALIZATION SYSTEM	SMC/2010/54.pdf.txt	Immersive virtual reality technology
+0.1611	True	ICMC	2001	Music Plus One: A System for Expressive and Flexible Musical Accompaniment	ICMC/2001/data/cr1403.pdf.txt	Real-Time Computer Accompaniment of Keyboard Performances
+0.161	True	SMC	2010	HEAD IN SPACE: A HEAD-TRACKING BASED BINAURAL SPATIALIZATION SYSTEM	SMC/2010/54.pdf.txt	Immersive virtual reality technology
 0.1608	True	DAFx	2002		DAFx/2002/DAFX02_Monti_Sandler_polyphonic_piano_extraction.pdf.txt	claVision: Visual Automatic Piano Music Transcription
 0.1607	True	ICMC	2005	TEMPLATE BASED KEY FINDING FROM AUDIO Özgür İzmirli Center for Arts and Technology	ICMC/2005/defevent/papers/cr1293.pdf.txt	claVision: Visual Automatic Piano Music Transcription
 0.1603	True	ICMC	2005	ORB3 – MUSICAL ROBOTS WITHIN AN ADAPTIVE SOCIAL COMPOSITION SYSTEM	ICMC/2005/defevent/papers/cr1197.pdf.txt	Orb3 -- Adaptive Interface Design for Real time Sound Synthesis & Diffusion within Socially Mediated Spaces
+0.1601	True	M&G2			M&G2/contents/Litman Peter M&G2 full paper.pdf.txt	A Microcomputer-Based Conducting System
 0.1599	True	ICMC	2000	SLINC 1.0: A GUI for controlling synthesis and linking instruments in RTcmix	ICMC/2000/Papers/96Poste1/2Topper.pdf.txt	Tree Music: Composing with GAIA
 0.1599	True	ICMC	2008	CONSTRUCTION OF AN ELECTRONIC TIMBRE DICTIONARY FOR ENVIRONMENTAL SOUNDS BY	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1445.pdf.txt	Timbre et causalité
 0.1598	True	ISMIR	2018	IMPROVING BASS SALIENCY ESTIMATION USING LABEL PROPAGATION AND TRANSFER LEARNING	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/143_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
@@ -200,7 +201,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1593	True	CIM	2005	A Particle-based Fuzzy Logic Approach to Sound Synthesis	CIM/2005/CIM05_Articles/CADIZ_R_CIM05.pdf.txt	Fuzzy Logic Control Toolkit 2.0: composing and synthesis by fuzzyfication
 0.1592	True	ICMC	2008	REINFORCEMENT LEARNING FOR LIVE MUSICAL AGENTS Nick Collins	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1054.pdf.txt	Software Agents in Music and Sound Art Research/Creative Work: Current State adn a Possible Direction
 0.159	True	ICMC	2001	A Musical Instrument Based on a Bioacoustic Model of a Cicada	ICMC/2001/ICMC2001_Smyth.pdf.txt	Creating Sustained Tones with the Cicada's Rapid Sequential Buckling Mechanism
-0.159	True	ICMC	2001	Center for New Music and Audio Technologies (CNMAT): Studio Report	ICMC/2001/data/cr1327.pdf.txt	Students' Projects of Interactive Media-installations in SUAC
+0.1589	True	ICMC	2001	Center for New Music and Audio Technologies (CNMAT): Studio Report	ICMC/2001/data/cr1327.pdf.txt	Students' Projects of Interactive Media-installations in SUAC
 0.1589	True	ICMC	2008	COMPUTER INPUT DEVICE FOR POLYPHONIC STRINGED INSTRUMENTS Keith A. McMillen	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1241.pdf.txt	Polyphonic velocity-sensitive keyboard interface
 0.1588	True	DAFx	2006		DAFx/2006/papers/p_177.pdf.txt	Applications of the Phase Vocoder Interface in the Control of Real-Time Electronic Musical Instruments
 0.1588	True	ICMC	2001	The international sound art festival in Mexico City (Sound, its relationship to the art disciplines and to the new technologies)	ICMC/2001/data/cr1069.pdf.txt	Aura: Presence/ without$^*$ Manual
@@ -219,128 +220,128 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1581	True	ICMC	2000	Singing Voice Impersonator Application for PC Maarten de Boer, Jordi Bonada, Pedro Cano, Alex Loscos, Xavier Serra	ICMC/2000/Papers/Demos/14deBoe1.pdf.txt	Real-time CALM Synthesizer: New Approaches in Hands-Controlled Voice Synthesis
 0.1581	True	ICMC	2001	From Piano String Vibrations to the Acoustic Field Radiated by the Soundboard	ICMC/2001/data/cr1272.pdf.txt	'GXtar', an Interface Using Guitar Techniques
 0.1581	True	ICMC	2006	The LoM Mapping Toolbox for Max/MSP/Jitter Doug Van Nort , Marcelo M. Wanderley	ICMC/2006/van_wand_icmc06_final.pdf.txt	GRASSP: Gesturally-Realized Audio, Speech and Song Performance
-0.1581	True	SMC	2010	TIMBRE REMAPPING THROUGH A REGRESSION-TREE TECHNIQUE Dan Stowell and Mark D. Plumbley	SMC/2010/7.pdf.txt	Unsounding Objects: Audio Feature Extraction for the Control of Sound Synthesis
 0.1581	True	SMC	2010	ANALYZING GESTURE AND SOUND SIMILARITIES WITH A HMM-BASED DIVERGENCE MEASURE	SMC/2010/9.pdf.txt	Modelling Gestures in Music Performance with Statistical Latent-State Models
 0.158	True	ISMIR	2018	AUDIO-ALIGNED JAZZ HARMONY DATASET FOR AUTOMATIC CHORD TRANSCRIPTION AND CORPUS-BASED RESEARCH	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/206_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
+0.158	True	SMC	2010	TIMBRE REMAPPING THROUGH A REGRESSION-TREE TECHNIQUE Dan Stowell and Mark D. Plumbley	SMC/2010/7.pdf.txt	Unsounding Objects: Audio Feature Extraction for the Control of Sound Synthesis
 0.1579	True	ISMIR	2018	REVISITING SINGING VOICE DETECTION: A QUANTITATIVE REVIEW AND THE FUTURE OUTLOOK	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/38_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1577	True	ICMC	2005	Sessions	ICMC/2005/defevent/main/sesidx.pdf.txt	The Creation of a Multi-Human, Multi-Robot Interactive Jam Session
 0.1577	True	ICMC	2005	NEW APPROACHES TO DIGITAL SUBTRACTIVE SYNTHESIS Antti Huovilainen and Vesa Välimäki	ICMC/2005/defevent/papers/cr1071.pdf.txt	DIY Hybrid Analog/Digital Modular Synthesis
 0.1577	True	SMC	2010	THE ‘STANZA LOGO–MOTORIA’: AN INTERACTIVE ENVIRONMENT FOR LEARNING AND COMMUNICATION	SMC/2010/52.pdf.txt	The Rullen Band
 0.1576	True	DAFx	2002		DAFx/2002/DAFX02_Furukawa_Dutilleux_swim_swan.pdf.txt	Licht & Hiebe
-0.1575	True	ICMC	2000	Instrument Sound Description in the Context of MPEG-7 Geoffroy Peeters	ICMC/2000/Papers/42MuInR2/1Peeters.pdf.txt	Towards a perceptual framework for interface design in digital environments for timbre manipulation
+0.1574	True	ICMC	2000	Instrument Sound Description in the Context of MPEG-7 Geoffroy Peeters	ICMC/2000/Papers/42MuInR2/1Peeters.pdf.txt	Towards a perceptual framework for interface design in digital environments for timbre manipulation
 0.1571	True	ICMC	2000	Rule-Based Emotional Coloring of Music Performance Roberto Bresin and Anders Friberg	ICMC/2000/Papers/76ExPer2/3Bresin1.pdf.txt	Generative rules for music performance: A formal description of a rule system
 0.1569	True	DAFx	2002		DAFx/2002/DAFX02_Bank_Sujbert_piano_synthesis.pdf.txt	Physical Audio Digital Filters
 0.1569	True	ICMPC			ICMPC/ICMPC06/pdfs/175.pdf.txt	Timbre et causalité
-0.1568	True	ICMC	2008	RESOUND: OPEN-SOURCE LIVE SOUND SPATIALISATION James Mooney	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1533.pdf.txt	Tree Music: Composing with GAIA
-0.1567	True	ICMC	2008		ICMC/2008/SARC Stuff/MA_Sonic_Arts.pdf.txt	Current Iteration of a Course on Physical Interaction Design for Music
+0.1567	True	ICMC	2008	RESOUND: OPEN-SOURCE LIVE SOUND SPATIALISATION James Mooney	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1533.pdf.txt	Tree Music: Composing with GAIA
 0.1567	True	ICMPC			ICMPC/ICMPC06/pdfs/378.pdf.txt	The SensOrg: A Musical Cyberinstrument with a Cognitive Ergonomical Touch
+0.1566	True	ICMC	2008		ICMC/2008/SARC Stuff/MA_Sonic_Arts.pdf.txt	Current Iteration of a Course on Physical Interaction Design for Music
 0.1566	True	ISMIR	2018	MUSIC SOURCE SEPARATION USING STACKED HOURGLASS NETWORKS Sungheon Park	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/138_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1566	True	ISMIR	2018	TIMBRE DISCRIMINATION FOR BRIEF INSTRUMENT SOUNDS Francesco Bigoni	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/249_Paper.pdf.txt	Timbre et causalité
 0.1563	True	ICMC	2001	Analysis and Synthesis of Room Acoustics Using the MPEG-4 Scene	ICMC/2001/data/cr1289.pdf.txt	A Framework for Immersive Spatial Audio Performance
 0.1562	True	ICMC	2008	EXPORING NEW COMPOSER/PERFORMER INTERACTIONS USING REAL-TIME NOTATION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1682.pdf.txt	Real-Time Music Notation, Collaborative Improvisation, and Laptop Ensembles
-0.1561	False	ICMC	2008	ASDF: AUDIO SCENE DESCRIPTION FORMAT Matthias Geier and Sascha Spors	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1802.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
-0.156	False	ICMC	2005	KITTy: A PACKAGE FOR EXTERNAL PATCHES COMMUNICATION MANAGEMENT IN MAX/MSP – A	ICMC/2005/defevent/papers/cr1037.pdf.txt	Entre l'idée et l'œuvre. Parcours de l'informatique musicale
-0.1558	False	ICMC	2008	W Walker, Jacqueline Walsh, Rory Wang, Ge Wessel, David Whalley, Ian	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/W.pdf.txt	Beethoven-in-a-Box: Raymond Scott's Electronium
-0.1558	False	ICMC	2008	DESIGN AND DEVELOPMENT OF AN INTERACTIVE SONIFICATION INTERFACE FOR HEARING IMAGES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1706.pdf.txt	VOSIS: a Multi-touch Image Sonification Interface
-0.1558	False	ICMC	2008	Current Research at SARC www.sarc.qub.ac.uk The Sonic Arts Research Centre (SARC) has	ICMC/2008/SARC Stuff/SARC_Research.pdf.txt	Ambiguous Devices
-0.1554	False	ICMC	2000	An Open Architecture for Real-time Music Software Amar Chaudhary, Adrian Freed and Matthew Wright	ICMC/2000/Papers/Demos/01Chaudh.pdf.txt	Yeah, ChucK It! = > Dynamic , Controllable Interface Mapping
-0.1553	False	DAFx	2006		DAFx/2006/papers/p_083.pdf.txt	Neuron-modeled Audio Synthesis: Nonlinear Sound and Control
-0.1553	False	ICMPC			ICMPC/ICMPC06/pdfs/447.pdf.txt	Conducting Collective Instruments : A Case Study
-0.1553	False	SMC	2010	A COMPARISON OF PROBABILISTIC MODELS FOR ONLINE PITCH TRACKING	SMC/2010/74.pdf.txt	Probabilistic Models for Designing Motion and Sound Relationships
-0.1551	False	ISMIR	2018	ZERO-MEAN CONVOLUTIONS FOR LEVEL-INVARIANT SINGING VOICE DETECTION	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/189_Paper.pdf.txt	A Computer Music System for Human Singing
-0.155	False	DAFx	2006		DAFx/2006/papers/p_071.pdf.txt	Handheld Acoustic Filter Bank for Musical Control
-0.155	False	GestureWorkshop	2003	The Features People Use to Recognize Human Movement Style Frank E. Pollick	GestureWorkshop/2003/Pollick2003.pdf.txt	Human Movement Tracking Technology
-0.155	False	ICMC	2001	Realizing Lucier and Stockhausen: Case studies in electroacoustic performance practice	ICMC/2001/data/cr1388.pdf.txt	I Am Sitting in a (Latent) Room
-0.1549	False	ICMC	2001	Audibility of Initial Pitch Glides in String Instrument Sounds	ICMC/2001/data/cr1108.pdf.txt	Methods for Modeling Realistic Playing in Acoustic Guitar Synthesis
-0.1549	False	ICMC	2006	The Table is The Score: An Augmented-Reality Interface for Real-Time, Tangible, Spectrographic Performance	ICMC/2006/levin_scrapple_20060320_1200dpi.pdf.txt	Augmented Piano in Augmented Reality
-0.1548	False	ICMC	2000	iEAR Studios	ICMC/2000/Papers/94Studi4/2Bahn.pdf.txt	Students' Projects of Interactive Media-installations in SUAC
-0.1548	False	ISMIR	2018	INTERACTIVE ARRANGEMENT OF CHORDS AND MELODIES BASED ON A TREE-STRUCTURED GENERATIVE MODEL	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/1_Paper.pdf.txt	Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
-0.1548	False	SMC	2010	AUTOMATIC SONG COMPOSITION FROM THE LYRICS EXPLOITING PROSODY OF JAPANESE LANGUAGE	SMC/2010/44.pdf.txt	Machine Songs
-0.1547	False	ICMC	2005	LARGE AUDIENCE PARTICIPATION, TECHNOLOGY, AND ORCHESTRAL PERFORMANCE	ICMC/2005/defevent/papers/cr1015.pdf.txt	SVOrk: Stanford Virtual Reality Orchestra
-0.1547	False	SMC	2010	DYNAMIC CUES FOR NETWORK MUSIC INTERACTIONS Alain B. Renaud	SMC/2010/21.pdf.txt	The Loop
-0.1546	False	DAFx	2002		DAFx/2002/DAFX02_Spevak_Favreau_soundspotter.pdf.txt	Sound Selection by Gestures
-0.1545	False	ICMC	2000	Real-Time Implementation and Control of a Classical Guitar Synthesizer in SuperCollider	ICMC/2000/Papers/23PhyMo3/4Laurson.pdf.txt	Real-Time Synthesizer Control
-0.1545	False	ICMC	2000	Designing a virtual theatrical listening space Laura Bianchini	ICMC/2000/Papers/91Studi1/2Bianch2.pdf.txt	Structure-Borne Sound and Aurally Active Spaces
-0.1543	False	ICMC	2005	BLOCK-BASED PHYSICAL MODELING FOR DIGITAL SOUND SYNTHESIS OF MEMBRANES AND PLATES	ICMC/2005/defevent/papers/cr1035.pdf.txt	Implementing a Finite Difference-Based Real-time Sound Synthesizer using GPUs
-0.1543	False	ICMC	2005	FUZZY RULES IN COMPUTER-ASSISTED MUSIC INTERPRETATION Tatiana Kiseliova	ICMC/2005/defevent/papers/cr1335.pdf.txt	Learning Performance Rules in a Music Interpretation System
-0.1543	False	SMC	2010	A LOOK INTO THE PAST: ANALYSIS OF TRENDS	SMC/2010/55.pdf.txt	To gesture or Not? An Analysis of Terminology in NIME Proceedings 2001--2013
-0.1542	False	ICMC	2005	GISMO: AN APPLICATION FOR AGENT-BASED COMPOSITION Yuta Uozumi	ICMC/2005/defevent/papers/cr1220.pdf.txt	four fragments---A Performance for Swarming Robotics
-0.1542	False	ICMC	2005	IMPLICIT PATCHING FOR DATAFLOW-BASED AUDIO ANALYSIS AND SYNTHESIS	ICMC/2005/defevent/papers/cr1306.pdf.txt	Music Programming in Minim
-0.1541	False	DAFx	2006		DAFx/2006/papers/p_067.pdf.txt	Sound Analyser: A Plug-In for Real-Time Audio Analysis in Live Performances and Installations
-0.1541	False	ICMC	2005	LIEM-CDMC, STUDIO REPORT Adolfo Núñez, director c) Santa Isabel 52, 28008	ICMC/2005/defevent/papers/cr1248.pdf.txt	Studio Report of the Computer Music Lab of CNUCE/C.N.R.
-0.154	False	ICMC	2000	Real-time Initiative Exchange Algorithm for Interactive Music System	ICMC/2000/Papers/62IntSy2/2Taki.pdf.txt	A Robot Musician Interacting with a Human Partner through Initiative Exchange
-0.1539	False	ICMC	2005	Inner Room Extension of A General Model for Spatial Processing of	ICMC/2005/defevent/abstract/a1041.pdf.txt	ROOM#81
-0.1538	False	DAFx	2006		DAFx/2006/papers/p_019.pdf.txt	Learning Performance Rules in a Music Interpretation System
-0.1538	False	ICMC	2000	Streaming Structured Audio Marek Claussen	ICMC/2000/Papers/45AuEnFo/2Clausse.pdf.txt	An Overview of the Structured Sound Synthesis Project
-0.1538	False	ICMC	2001	Kopavogur Computer Music Center (KCMC) Hilmar Thordarson, Rikhardur H. Fridriksson	ICMC/2001/data/cr1033.pdf.txt	Students' Projects of Interactive Media-installations in SUAC
-0.1536	False	DAFx	2006		DAFx/2006/papers/p_209.pdf.txt	Spatial Audio Approaches for Embedded Sound Art Installations with Loudspeaker Line Arrays
-0.1536	False	ICMC	2008	AN INSTANCE BASED MODEL FOR GENERATING EXPRESSIVE PERFORMANCE DURING COMPOSITION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1107.pdf.txt	Toward a Theory of Interfaces for Computer Music Systems
-0.1536	False	ICMC	2008	AN EFFICIENT OFF-LINE BEAT TRACKING METHOD FOR MUSIC WITH STEADY TEMPO	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1312.pdf.txt	Real-Time Beat-Synchronous Audio Effects
-0.1536	False	ICMC	2008	INTERCHANGE FORMATS AND THE ART OF SPATIAL AUDIO Gary S. Kendall	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1804.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
-0.1535	False	ICMC	2008	A Adiloglu, Kamil Adkins, Mathew Ahmad, Wasim Aitenbichler, Erwin	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/A.pdf.txt	Carl Michael von Hausswolff
-0.1535	False	ICMC	2008	SPLIT-SIDEBAND SYNTHESIS Victor Lazzarini Joseph Timoney Thomas Lysaght	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1019.pdf.txt	colligation
-0.1535	False	M&G2			M&G2/contents/Penalba Alicia M&G2 full paper.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
-0.1533	False	DAFx	2006		DAFx/2006/papers/p_263.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
-0.1533	False	ICMC	2000	Musical Analysis of a Computer Music Project, by Computer-Assistance,	ICMC/2000/Papers/98Poste3/3Liu.pdf.txt	Learning Performance Rules in a Music Interpretation System
-0.1533	False	ICMC	2008	EXPLORING MUSICAL MAPPINGS AND GENERATING ACCOMPANIMENT WITH CHAOTIC SYSTEMS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1483.pdf.txt	Investigation of a Novel Shape Sensor for Musical Expression
-0.1533	False	ICMC	2008	MULTI-USER HAND GESTURE BASED MUSICAL ELEMENT MAPPING WITH TRADITIONAL MUSICAL ELEMENTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1588.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
-0.1533	False	ISMIR	2018	A TIMBRE-BASED APPROACH TO ESTIMATE KEY VELOCITY FROM POLYPHONIC PIANO RECORDINGS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/196_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
-0.1532	False	SMC	2010	ADAPTIVE SPATIALIZATION AND SCRIPTING CAPABILITIES IN THE SPATIAL TRAJECTORY EDITOR HOLO-EDIT	SMC/2010/59.pdf.txt	A Framework for Immersive Spatial Audio Performance
-0.1529	False	ICMC	2000	NONLINEAR INTERACTION IN THE DIGITAL WAVEGUIDE WITH THE APPLICATION TO PIANO SOUND SYNTHESIS	ICMC/2000/Papers/22PhyMo2/2Balazs.pdf.txt	A programmable MIDI instrument controller emulating a hammer dulcimer
-0.1526	False	ICMC	2005	The "Air Worm": An Interface for Real−Time Manipulation of Expressive Music Performance	ICMC/2005/defevent/abstract/a1077.pdf.txt	Towards a Model for Instrumental Mapping for Expert Musical Performance
-0.1525	False	DAFx	2006		DAFx/2006/papers/p_199.pdf.txt	A Modulation Matrix for Complex Parameter Sets
-0.1525	False	ICMC	2008	SPECTRAL SYNTHESIS AND CONTROL WITH CELLULAR AUTOMATA Jaime Serquera and Eduardo R. Miranda	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1707.pdf.txt	Life Game Orchestra as an Interactive Music Composition System Translating Cellular Patterns of Automata into Musical Scales
-0.1524	False	ICMC	2005	DEVELOPING CROSS-PLATFORM AUDIO AND MUSIC APPLICATIONS WITH THE CLAM FRAMEWORK	ICMC/2005/defevent/papers/cr1065.pdf.txt	CLAM: A Framework for Audio and Music Application Development
-0.1523	False	DAFx	2002		DAFx/2002/DAFX02_Ortiz_Casajus_polyphonic_transcription_piano.pdf.txt	ImprovGenerator : Online Grammatical Induction for On-the-Fly Improvisation Accompaniment
-0.1522	False	ICMC	2000	Center for New Music and Audio Technologies (CNMAT) Studio Report	ICMC/2000/Papers/92Studi2/2Andrews.pdf.txt	Studio Report of the Computer Music Lab of CNUCE/C.N.R.
-0.1522	False	ICMPC			ICMPC/ICMPC06/pdfs/405.pdf.txt	Socks and Ammo
-0.1521	False	ICMC	2005	A TAXONOMY OF SEQUENCER USER-INTERFACES Matthew Duignan, James Noble	ICMC/2005/defevent/papers/cr1260.pdf.txt	Interaction Taxonomy for Sequencer-Based Music Performances
-0.152	False	ICMC	2000	Dynamic Audio Mixing	ICMC/2000/Papers/33ViMuEn/3Pachet1.pdf.txt	A Morphological Analysis of Audio-Objects and their Control Methods for 3D Audio
-0.1518	False	ICMC	2001	Karl MacMillan, Michael Droettboom, Ichiro Fujinaga	ICMC/2001/data/cr1130.pdf.txt	Music Programming in Minim
-0.1518	False	ICMC	2008	COMPER: TOWARDS A MODEL FOR GENERATING COMPOSITIONS FROM EXPRESSIVE MUSIC PERFORMANCES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1595.pdf.txt	MIDIGRID : An Innovative Computer- based and Composition System
-0.1518	False	ICMC	2008	THE SILENT DRUM CONTROLLER: A NEW PERCUSSIVE GESTURAL INTERFACE	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1656.pdf.txt	The Radio Drum as a Synthesizer Controller
-0.1518	False	ICMC	2008	REAL-TIME COMPOSITION AND NOTATION IN NETWORK MUSIC ENVIRONMENTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1812.pdf.txt	SpectraScore VR: Networkable virtual reality software tools for real-time composition and performance
-0.1518	False	SMC	2010	ON ARCHITECTURE AND FORMALISMS FOR COMPUTER-ASSISTED IMPROVISATION	SMC/2010/60.pdf.txt	A system for computer assisted gestural improvisation
-0.1516	False	ICMC	2001	Java Music Specification Language, an introduction and overview	ICMC/2001/data/cr1013.pdf.txt	Packages for ArtWonk : New Mathematical Tools for Composers
-0.1516	False	ICMC	2001	Spectral analysis of timing profiles of piano performances Paul Trilsbeek, Peter Desain & Henkjan Honing	ICMC/2001/data/cr1109.pdf.txt	Morphosis for piano
-0.1516	False	ICMC	2005	NEW WARPED LPC-BASED FEATURE FOR FAST AND ROBUST SPEECH/MUSIC DISCRIMINATION	ICMC/2005/defevent/papers/cr1069.pdf.txt	The Orchestra of Speech: a speech-based instrument system
-0.1516	False	ICMC	2005	SPAA- AN AGENT BASED INTERACTIVE COMPOSITION Michael Spicer Singapore Polytechnic	ICMC/2005/defevent/papers/cr1073.pdf.txt	A Digital Flute
-0.1516	False	ICMC	2008	IN FLUX – A NEW APPROACH TO SOUND DIFFUSION PERFORMANCE PRACTICE FOR FIXED MEDIA MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1038.pdf.txt	MULTI-TOUCH INTERFACES FOR PHANTOM SOURCE POSITIONING IN LIVE SOUND DIFFUSION
-0.1516	False	ISMIR	2018	SKELETON PLAYS PIANO: ONLINE GENERATION OF PIANIST BODY MOVEMENTS FROM MIDI PERFORMANCE	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/109_Paper.pdf.txt	SICIB: An Interactive Music Composition System Using Body Movements
-0.1516	False	ISMIR	2018	On the Relationships between Music-induced Emotion and Physiological Signals	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/115_Paper.pdf.txt	The Emotion in Motion Experiment: Using an Interactive Installation as a Means for Understanding Emotional Response to Music
-0.1514	False	DAFx	2002		DAFx/2002/DAFX02_Boyer_Rosier_iterative_method_HEDS_model.pdf.txt	The Da ̈ıs: A Haptically Enabled New Interface for Musical Expression for Controlling Physical Models for Sound Synthesis
-0.1512	False	ISMIR	2018	JAZZ SOLO INSTRUMENT CLASSIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS, SOURCE SEPARATION, AND TRANSFER	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/145_Paper.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
-0.1512	False	M&G2			M&G2/contents/Aho Marko M&G2 full paper.pdf.txt	A Computer Music System for Human Singing
-0.1511	False	ICMC	2001	Panel: New directions in Music Information Retrieval Roger Dannenberg, Jonathan Foote, George Tzanetakis*, Christopher Weare (panelists)	ICMC/2001/data/cr1125.pdf.txt	Live Repurposing of Sounds: MIR Explorations with Personal and Crowdsourced Databases
-0.1511	False	ICMC	2005	RTMIDI, RTAUDIO, AND A SYNTHESIS TOOLKIT (STK) UPDATE Gary P. Scavone	ICMC/2005/defevent/papers/cr1253.pdf.txt	MoPho – A Suite for a Mobile Phone Orchestra
-0.151	False	DAFx	2002		DAFx/2002/DAFX02_Burtner_Serafin_Topper_singing_bowl.pdf.txt	HyperPuja: A Tibetan Singing Bowl Controller
-0.1509	False	ICMPC			ICMPC/ICMPC06/pdfs/527.pdf.txt	A Computer Music System for Human Singing
-0.1508	False	ICMPC			ICMPC/ICMPC06/pdfs/678.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
-0.1507	False	GestureWorkshop	2003	Holistic Body Tracking for Gestural Interfaces Christian Lange, Thomas Hermann, and Helge Ritter	GestureWorkshop/2003/Lange2003.pdf.txt	A Model for Human-Computer Interaction Based on the Recognition of Musical Gestures
-0.1507	False	ICMC	2008	CONDITIONS FOR DEVELOPMENT OF AN INTERCHANGE FORMAT FOR SPATIAL AUDIO	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1820.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
-0.1507	False	ISMIR	2018	EVALUATING A COLLECTION OF SOUND-TRACING DATA OF MELODIC PHRASES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/209_Paper.pdf.txt	Movement, Activity, and Action: The Role of Knowledge in the Perception of Motion
-0.1507	False	M&G2			M&G2/contents/Aguilar Ananay M&G2 full paper.pdf.txt	Reflections of a former perfomer of electroacoustic music
-0.1505	False	ICMC	2008	A Full-body Gesture Recognition System and its Integration in the	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1373.pdf.txt	"3rd. Pole" -- A Composition Performed via Gestural Cues
-0.1505	False	ICMC	2008	A MULTILAYERED GDIF-BASED SETUP FOR STUDYING COARTICULATION IN THE MOVEMENTS OF MUSICIANS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1583.pdf.txt	Towards a Gesture Description Interchange Format
-0.1504	False	DAFx	2006		DAFx/2006/papers/p_133.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
-0.1504	False	GestureWorkshop	2003	Expressiveness of Musician’s Body Movements in Performances on Marimba	GestureWorkshop/2003/Dahl2003.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
-0.1504	False	ICMC	2005	A GENERALIZED PARAMETRIC REED MODEL FOR VIRTUAL MUSICAL INSTRUMENTS	ICMC/2005/defevent/papers/cr1307.pdf.txt	The Half-Physler: An oscillating real-time interface to a tube resonator model
-0.1503	False	ICMC	2005	A FRAMEWORK FOR PERSONALIZATION OF INTERACTIVE SOUND SYNTHESIS	ICMC/2005/defevent/papers/cr1299.pdf.txt	The Development of a Piano Player
-0.1501	False	ICMC	2005	APPLICATION OF IMAGE SONIFICATION METHODS TO MUSIC Woon Seung Yeo and Jonathan Berger	ICMC/2005/defevent/papers/cr1064.pdf.txt	In Between: Time, Space and Image in Cross-Media Performance
-0.1501	False	SMC	2010	MUSICJSON: A REPRESENTATION FOR THE COMPUTER MUSIC CLOUD Jesus L. Alvaro	SMC/2010/17.pdf.txt	Understanding Cloud Support for the Audience Participation Concert Performance of Crowd in C[loud]
-0.15	False	ISMIR	2018	ONSETS AND FRAMES: DUAL-OBJECTIVE PIANO TRANSCRIPTION Curtis Hawthorne?†	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/19_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
-0.1499	False	DAFx	2002		DAFx/2002/DAFX02_Castagne_Cadoz_creating_music.pdf.txt	Visual Representation in GENESIS as a tool for Physical Modeling, Sound Synthesis and Musical Composition
-0.1499	False	ICMC	2005	TIME-STRETCHING USING THE INSTANTANEOUS FREQUENCY DISTRIBUTION AND PARTIAL TRACKING	ICMC/2005/defevent/papers/cr1267.pdf.txt	Applications of the Phase Vocoder Interface in the Control of Real-Time Electronic Musical Instruments
-0.1499	False	M&G2			M&G2/contents/Litman Peter M&G2 full paper.pdf.txt	Virtual conducting practice environment
-0.1498	False	ICMC	2000	Extensions and Applications of the SDIF Sound Description Interchange Format	ICMC/2000/Papers/99Poste4/1Schwarz.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
-0.1497	False	DAFx	2002		DAFx/2002/DAFX02_Lazzarini_audio_object.pdf.txt	Manhattan: End-User Programming for Music
-0.1497	False	DAFx	2006		DAFx/2006/papers/p_275.pdf.txt	The Csound Book: Perspectives in Software Synthesis, Sound Design, Signal Processing, and Programming
-0.1496	False	ICMC	2005	MULTI-RIPPLE LOSS FILTER FOR WAVEGUIDE PIANO SYNTHESIS Jukka Rauhala, Heidi-Maria Lehtonen, and Vesa Välimäki	ICMC/2005/defevent/papers/cr1072.pdf.txt	Physical Audio Digital Filters
+0.1561	True	ICMC	2008	ASDF: AUDIO SCENE DESCRIPTION FORMAT Matthias Geier and Sascha Spors	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1802.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
+0.156	True	ICMC	2005	KITTy: A PACKAGE FOR EXTERNAL PATCHES COMMUNICATION MANAGEMENT IN MAX/MSP – A	ICMC/2005/defevent/papers/cr1037.pdf.txt	Entre l'idée et l'œuvre. Parcours de l'informatique musicale
+0.1558	True	ICMC	2008	W Walker, Jacqueline Walsh, Rory Wang, Ge Wessel, David Whalley, Ian	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/W.pdf.txt	Beethoven-in-a-Box: Raymond Scott's Electronium
+0.1558	True	ICMC	2008	DESIGN AND DEVELOPMENT OF AN INTERACTIVE SONIFICATION INTERFACE FOR HEARING IMAGES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1706.pdf.txt	VOSIS: a Multi-touch Image Sonification Interface
+0.1558	True	ICMC	2008	Current Research at SARC www.sarc.qub.ac.uk The Sonic Arts Research Centre (SARC) has	ICMC/2008/SARC Stuff/SARC_Research.pdf.txt	Ambiguous Devices
+0.1553	True	DAFx	2006		DAFx/2006/papers/p_083.pdf.txt	Neuron-modeled Audio Synthesis: Nonlinear Sound and Control
+0.1553	True	ICMC	2000	An Open Architecture for Real-time Music Software Amar Chaudhary, Adrian Freed and Matthew Wright	ICMC/2000/Papers/Demos/01Chaudh.pdf.txt	Yeah, ChucK It! = > Dynamic , Controllable Interface Mapping
+0.1553	True	ICMPC			ICMPC/ICMPC06/pdfs/447.pdf.txt	Conducting Collective Instruments : A Case Study
+0.1553	True	SMC	2010	A COMPARISON OF PROBABILISTIC MODELS FOR ONLINE PITCH TRACKING	SMC/2010/74.pdf.txt	Probabilistic Models for Designing Motion and Sound Relationships
+0.1551	True	ISMIR	2018	ZERO-MEAN CONVOLUTIONS FOR LEVEL-INVARIANT SINGING VOICE DETECTION	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/189_Paper.pdf.txt	A Computer Music System for Human Singing
+0.155	True	DAFx	2006		DAFx/2006/papers/p_071.pdf.txt	Handheld Acoustic Filter Bank for Musical Control
+0.155	True	GestureWorkshop	2003	The Features People Use to Recognize Human Movement Style Frank E. Pollick	GestureWorkshop/2003/Pollick2003.pdf.txt	Human Movement Tracking Technology
+0.155	True	ICMC	2001	Realizing Lucier and Stockhausen: Case studies in electroacoustic performance practice	ICMC/2001/data/cr1388.pdf.txt	I Am Sitting in a (Latent) Room
+0.1549	True	ICMC	2006	The Table is The Score: An Augmented-Reality Interface for Real-Time, Tangible, Spectrographic Performance	ICMC/2006/levin_scrapple_20060320_1200dpi.pdf.txt	Augmented Piano in Augmented Reality
+0.1548	True	ICMC	2000	iEAR Studios	ICMC/2000/Papers/94Studi4/2Bahn.pdf.txt	Students' Projects of Interactive Media-installations in SUAC
+0.1548	True	ICMC	2001	Audibility of Initial Pitch Glides in String Instrument Sounds	ICMC/2001/data/cr1108.pdf.txt	Methods for Modeling Realistic Playing in Acoustic Guitar Synthesis
+0.1548	True	ISMIR	2018	INTERACTIVE ARRANGEMENT OF CHORDS AND MELODIES BASED ON A TREE-STRUCTURED GENERATIVE MODEL	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/1_Paper.pdf.txt	Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
+0.1548	True	SMC	2010	AUTOMATIC SONG COMPOSITION FROM THE LYRICS EXPLOITING PROSODY OF JAPANESE LANGUAGE	SMC/2010/44.pdf.txt	Machine Songs
+0.1547	True	ICMC	2005	LARGE AUDIENCE PARTICIPATION, TECHNOLOGY, AND ORCHESTRAL PERFORMANCE	ICMC/2005/defevent/papers/cr1015.pdf.txt	SVOrk: Stanford Virtual Reality Orchestra
+0.1547	True	SMC	2010	DYNAMIC CUES FOR NETWORK MUSIC INTERACTIONS Alain B. Renaud	SMC/2010/21.pdf.txt	The Loop
+0.1546	True	DAFx	2002		DAFx/2002/DAFX02_Spevak_Favreau_soundspotter.pdf.txt	Sound Selection by Gestures
+0.1545	True	ICMC	2000	Real-Time Implementation and Control of a Classical Guitar Synthesizer in SuperCollider	ICMC/2000/Papers/23PhyMo3/4Laurson.pdf.txt	Real-Time Synthesizer Control
+0.1545	True	ICMC	2000	Designing a virtual theatrical listening space Laura Bianchini	ICMC/2000/Papers/91Studi1/2Bianch2.pdf.txt	Structure-Borne Sound and Aurally Active Spaces
+0.1543	True	ICMC	2005	BLOCK-BASED PHYSICAL MODELING FOR DIGITAL SOUND SYNTHESIS OF MEMBRANES AND PLATES	ICMC/2005/defevent/papers/cr1035.pdf.txt	Implementing a Finite Difference-Based Real-time Sound Synthesizer using GPUs
+0.1543	True	ICMC	2005	FUZZY RULES IN COMPUTER-ASSISTED MUSIC INTERPRETATION Tatiana Kiseliova	ICMC/2005/defevent/papers/cr1335.pdf.txt	Learning Performance Rules in a Music Interpretation System
+0.1543	True	SMC	2010	A LOOK INTO THE PAST: ANALYSIS OF TRENDS	SMC/2010/55.pdf.txt	To gesture or Not? An Analysis of Terminology in NIME Proceedings 2001--2013
+0.1542	True	ICMC	2005	GISMO: AN APPLICATION FOR AGENT-BASED COMPOSITION Yuta Uozumi	ICMC/2005/defevent/papers/cr1220.pdf.txt	four fragments---A Performance for Swarming Robotics
+0.1541	True	DAFx	2006		DAFx/2006/papers/p_067.pdf.txt	Sound Analyser: A Plug-In for Real-Time Audio Analysis in Live Performances and Installations
+0.1541	True	ICMC	2005	LIEM-CDMC, STUDIO REPORT Adolfo Núñez, director c) Santa Isabel 52, 28008	ICMC/2005/defevent/papers/cr1248.pdf.txt	Studio Report of the Computer Music Lab of CNUCE/C.N.R.
+0.1541	True	ICMC	2005	IMPLICIT PATCHING FOR DATAFLOW-BASED AUDIO ANALYSIS AND SYNTHESIS	ICMC/2005/defevent/papers/cr1306.pdf.txt	Music Programming in Minim
+0.154	True	ICMC	2000	Real-time Initiative Exchange Algorithm for Interactive Music System	ICMC/2000/Papers/62IntSy2/2Taki.pdf.txt	A Robot Musician Interacting with a Human Partner through Initiative Exchange
+0.1539	True	ICMC	2005	Inner Room Extension of A General Model for Spatial Processing of	ICMC/2005/defevent/abstract/a1041.pdf.txt	ROOM#81
+0.1538	True	DAFx	2006		DAFx/2006/papers/p_019.pdf.txt	Learning Performance Rules in a Music Interpretation System
+0.1538	True	ICMC	2000	Streaming Structured Audio Marek Claussen	ICMC/2000/Papers/45AuEnFo/2Clausse.pdf.txt	An Overview of the Structured Sound Synthesis Project
+0.1538	True	ICMC	2001	Kopavogur Computer Music Center (KCMC) Hilmar Thordarson, Rikhardur H. Fridriksson	ICMC/2001/data/cr1033.pdf.txt	Students' Projects of Interactive Media-installations in SUAC
+0.1536	True	DAFx	2006		DAFx/2006/papers/p_209.pdf.txt	Spatial Audio Approaches for Embedded Sound Art Installations with Loudspeaker Line Arrays
+0.1536	True	ICMC	2008	AN INSTANCE BASED MODEL FOR GENERATING EXPRESSIVE PERFORMANCE DURING COMPOSITION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1107.pdf.txt	Toward a Theory of Interfaces for Computer Music Systems
+0.1536	True	ICMC	2008	AN EFFICIENT OFF-LINE BEAT TRACKING METHOD FOR MUSIC WITH STEADY TEMPO	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1312.pdf.txt	Real-Time Beat-Synchronous Audio Effects
+0.1536	True	ICMC	2008	INTERCHANGE FORMATS AND THE ART OF SPATIAL AUDIO Gary S. Kendall	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1804.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
+0.1535	True	ICMC	2008	A Adiloglu, Kamil Adkins, Mathew Ahmad, Wasim Aitenbichler, Erwin	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/A.pdf.txt	Carl Michael von Hausswolff
+0.1535	True	ICMC	2008	SPLIT-SIDEBAND SYNTHESIS Victor Lazzarini Joseph Timoney Thomas Lysaght	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1019.pdf.txt	colligation
+0.1535	True	M&G2			M&G2/contents/Penalba Alicia M&G2 full paper.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
+0.1533	True	DAFx	2006		DAFx/2006/papers/p_263.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
+0.1533	True	ICMC	2000	Musical Analysis of a Computer Music Project, by Computer-Assistance,	ICMC/2000/Papers/98Poste3/3Liu.pdf.txt	Learning Performance Rules in a Music Interpretation System
+0.1533	True	ICMC	2008	MULTI-USER HAND GESTURE BASED MUSICAL ELEMENT MAPPING WITH TRADITIONAL MUSICAL ELEMENTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1588.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
+0.1533	True	ISMIR	2018	A TIMBRE-BASED APPROACH TO ESTIMATE KEY VELOCITY FROM POLYPHONIC PIANO RECORDINGS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/196_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
+0.1532	True	ICMC	2008	EXPLORING MUSICAL MAPPINGS AND GENERATING ACCOMPANIMENT WITH CHAOTIC SYSTEMS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1483.pdf.txt	Investigation of a Novel Shape Sensor for Musical Expression
+0.1532	True	SMC	2010	ADAPTIVE SPATIALIZATION AND SCRIPTING CAPABILITIES IN THE SPATIAL TRAJECTORY EDITOR HOLO-EDIT	SMC/2010/59.pdf.txt	A Framework for Immersive Spatial Audio Performance
+0.1529	True	ICMC	2000	NONLINEAR INTERACTION IN THE DIGITAL WAVEGUIDE WITH THE APPLICATION TO PIANO SOUND SYNTHESIS	ICMC/2000/Papers/22PhyMo2/2Balazs.pdf.txt	A programmable MIDI instrument controller emulating a hammer dulcimer
+0.1529	True	ICMC	2008	HOW TO MAKE YOUR WIFE LISTEN: THE PORTRAYAL OF WOMEN IN MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1352.pdf.txt	Women, Art & Technology
+0.1526	True	ICMC	2005	The "Air Worm": An Interface for Real−Time Manipulation of Expressive Music Performance	ICMC/2005/defevent/abstract/a1077.pdf.txt	Towards a Model for Instrumental Mapping for Expert Musical Performance
+0.1526	True	ICMC	2008	SPECTRAL SYNTHESIS AND CONTROL WITH CELLULAR AUTOMATA Jaime Serquera and Eduardo R. Miranda	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1707.pdf.txt	Life Game Orchestra as an Interactive Music Composition System Translating Cellular Patterns of Automata into Musical Scales
+0.1525	True	DAFx	2006		DAFx/2006/papers/p_199.pdf.txt	A Modulation Matrix for Complex Parameter Sets
+0.1524	True	ICMC	2005	DEVELOPING CROSS-PLATFORM AUDIO AND MUSIC APPLICATIONS WITH THE CLAM FRAMEWORK	ICMC/2005/defevent/papers/cr1065.pdf.txt	CLAM: A Framework for Audio and Music Application Development
+0.1523	True	DAFx	2002		DAFx/2002/DAFX02_Ortiz_Casajus_polyphonic_transcription_piano.pdf.txt	ImprovGenerator : Online Grammatical Induction for On-the-Fly Improvisation Accompaniment
+0.1522	True	ICMC	2000	Center for New Music and Audio Technologies (CNMAT) Studio Report	ICMC/2000/Papers/92Studi2/2Andrews.pdf.txt	Studio Report of the Computer Music Lab of CNUCE/C.N.R.
+0.1522	True	ICMC	2005	A TAXONOMY OF SEQUENCER USER-INTERFACES Matthew Duignan, James Noble	ICMC/2005/defevent/papers/cr1260.pdf.txt	Interaction Taxonomy for Sequencer-Based Music Performances
+0.1522	True	ICMPC			ICMPC/ICMPC06/pdfs/405.pdf.txt	Socks and Ammo
+0.152	True	ICMC	2000	Dynamic Audio Mixing	ICMC/2000/Papers/33ViMuEn/3Pachet1.pdf.txt	A Morphological Analysis of Audio-Objects and their Control Methods for 3D Audio
+0.1518	True	ICMC	2001	Karl MacMillan, Michael Droettboom, Ichiro Fujinaga	ICMC/2001/data/cr1130.pdf.txt	Music Programming in Minim
+0.1518	True	ICMC	2008	COMPER: TOWARDS A MODEL FOR GENERATING COMPOSITIONS FROM EXPRESSIVE MUSIC PERFORMANCES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1595.pdf.txt	MIDIGRID : An Innovative Computer- based and Composition System
+0.1518	True	ICMC	2008	REAL-TIME COMPOSITION AND NOTATION IN NETWORK MUSIC ENVIRONMENTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1812.pdf.txt	SpectraScore VR: Networkable virtual reality software tools for real-time composition and performance
+0.1518	True	SMC	2010	ON ARCHITECTURE AND FORMALISMS FOR COMPUTER-ASSISTED IMPROVISATION	SMC/2010/60.pdf.txt	A system for computer assisted gestural improvisation
+0.1517	True	ICMC	2008	THE SILENT DRUM CONTROLLER: A NEW PERCUSSIVE GESTURAL INTERFACE	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1656.pdf.txt	The Radio Drum as a Synthesizer Controller
+0.1516	True	ICMC	2001	Java Music Specification Language, an introduction and overview	ICMC/2001/data/cr1013.pdf.txt	Packages for ArtWonk : New Mathematical Tools for Composers
+0.1516	True	ICMC	2001	Spectral analysis of timing profiles of piano performances Paul Trilsbeek, Peter Desain & Henkjan Honing	ICMC/2001/data/cr1109.pdf.txt	Morphosis for piano
+0.1516	True	ICMC	2005	NEW WARPED LPC-BASED FEATURE FOR FAST AND ROBUST SPEECH/MUSIC DISCRIMINATION	ICMC/2005/defevent/papers/cr1069.pdf.txt	The Orchestra of Speech: a speech-based instrument system
+0.1516	True	ICMC	2005	SPAA- AN AGENT BASED INTERACTIVE COMPOSITION Michael Spicer Singapore Polytechnic	ICMC/2005/defevent/papers/cr1073.pdf.txt	A Digital Flute
+0.1516	True	ICMC	2008	IN FLUX – A NEW APPROACH TO SOUND DIFFUSION PERFORMANCE PRACTICE FOR FIXED MEDIA MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1038.pdf.txt	MULTI-TOUCH INTERFACES FOR PHANTOM SOURCE POSITIONING IN LIVE SOUND DIFFUSION
+0.1516	True	ISMIR	2018	On the Relationships between Music-induced Emotion and Physiological Signals	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/115_Paper.pdf.txt	The Emotion in Motion Experiment: Using an Interactive Installation as a Means for Understanding Emotional Response to Music
+0.1515	True	ISMIR	2018	SKELETON PLAYS PIANO: ONLINE GENERATION OF PIANIST BODY MOVEMENTS FROM MIDI PERFORMANCE	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/109_Paper.pdf.txt	SICIB: An Interactive Music Composition System Using Body Movements
+0.1514	True	DAFx	2002		DAFx/2002/DAFX02_Boyer_Rosier_iterative_method_HEDS_model.pdf.txt	The Da ̈ıs: A Haptically Enabled New Interface for Musical Expression for Controlling Physical Models for Sound Synthesis
+0.1513	True	ISMIR	2018	JAZZ SOLO INSTRUMENT CLASSIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS, SOURCE SEPARATION, AND TRANSFER	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/145_Paper.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
+0.1512	True	M&G2			M&G2/contents/Aho Marko M&G2 full paper.pdf.txt	A Computer Music System for Human Singing
+0.1511	True	ICMC	2001	Panel: New directions in Music Information Retrieval Roger Dannenberg, Jonathan Foote, George Tzanetakis*, Christopher Weare (panelists)	ICMC/2001/data/cr1125.pdf.txt	Live Repurposing of Sounds: MIR Explorations with Personal and Crowdsourced Databases
+0.1511	True	ICMC	2005	RTMIDI, RTAUDIO, AND A SYNTHESIS TOOLKIT (STK) UPDATE Gary P. Scavone	ICMC/2005/defevent/papers/cr1253.pdf.txt	MoPho – A Suite for a Mobile Phone Orchestra
+0.1509	True	DAFx	2002		DAFx/2002/DAFX02_Burtner_Serafin_Topper_singing_bowl.pdf.txt	HyperPuja: A Tibetan Singing Bowl Controller
+0.1509	True	ICMPC			ICMPC/ICMPC06/pdfs/527.pdf.txt	A Computer Music System for Human Singing
+0.1509	True	ICMPC			ICMPC/ICMPC06/pdfs/678.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
+0.1508	True	GestureWorkshop	2003	Holistic Body Tracking for Gestural Interfaces Christian Lange, Thomas Hermann, and Helge Ritter	GestureWorkshop/2003/Lange2003.pdf.txt	A Model for Human-Computer Interaction Based on the Recognition of Musical Gestures
+0.1507	True	ICMC	2008	CONDITIONS FOR DEVELOPMENT OF AN INTERCHANGE FORMAT FOR SPATIAL AUDIO	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1820.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
+0.1507	True	ISMIR	2018	EVALUATING A COLLECTION OF SOUND-TRACING DATA OF MELODIC PHRASES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/209_Paper.pdf.txt	Movement, Activity, and Action: The Role of Knowledge in the Perception of Motion
+0.1507	True	M&G2			M&G2/contents/Aguilar Ananay M&G2 full paper.pdf.txt	Reflections of a former perfomer of electroacoustic music
+0.1505	True	ICMC	2008	A Full-body Gesture Recognition System and its Integration in the	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1373.pdf.txt	"3rd. Pole" -- A Composition Performed via Gestural Cues
+0.1505	True	ICMC	2008	A MULTILAYERED GDIF-BASED SETUP FOR STUDYING COARTICULATION IN THE MOVEMENTS OF MUSICIANS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1583.pdf.txt	Towards a Gesture Description Interchange Format
+0.1504	True	DAFx	2006		DAFx/2006/papers/p_133.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
+0.1504	True	GestureWorkshop	2003	Expressiveness of Musician’s Body Movements in Performances on Marimba	GestureWorkshop/2003/Dahl2003.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
+0.1504	True	ICMC	2005	A GENERALIZED PARAMETRIC REED MODEL FOR VIRTUAL MUSICAL INSTRUMENTS	ICMC/2005/defevent/papers/cr1307.pdf.txt	The Half-Physler: An oscillating real-time interface to a tube resonator model
+0.1503	True	ICMC	2005	A FRAMEWORK FOR PERSONALIZATION OF INTERACTIVE SOUND SYNTHESIS	ICMC/2005/defevent/papers/cr1299.pdf.txt	The Development of a Piano Player
+0.1501	True	ICMC	2005	APPLICATION OF IMAGE SONIFICATION METHODS TO MUSIC Woon Seung Yeo and Jonathan Berger	ICMC/2005/defevent/papers/cr1064.pdf.txt	In Between: Time, Space and Image in Cross-Media Performance
+0.1501	True	SMC	2010	MUSICJSON: A REPRESENTATION FOR THE COMPUTER MUSIC CLOUD Jesus L. Alvaro	SMC/2010/17.pdf.txt	Understanding Cloud Support for the Audience Participation Concert Performance of Crowd in C[loud]
+0.15	True	ISMIR	2018	ONSETS AND FRAMES: DUAL-OBJECTIVE PIANO TRANSCRIPTION Curtis Hawthorne?†	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/19_Paper.pdf.txt	claVision: Visual Automatic Piano Music Transcription
+0.1499	True	DAFx	2002		DAFx/2002/DAFX02_Castagne_Cadoz_creating_music.pdf.txt	Visual Representation in GENESIS as a tool for Physical Modeling, Sound Synthesis and Musical Composition
+0.1499	True	ICMC	2005	TIME-STRETCHING USING THE INSTANTANEOUS FREQUENCY DISTRIBUTION AND PARTIAL TRACKING	ICMC/2005/defevent/papers/cr1267.pdf.txt	Applications of the Phase Vocoder Interface in the Control of Real-Time Electronic Musical Instruments
+0.1498	True	ICMC	2000	Extensions and Applications of the SDIF Sound Description Interchange Format	ICMC/2000/Papers/99Poste4/1Schwarz.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
+0.1498	True	M&G2			M&G2/contents/Mathers Andrew M&G2 full paper.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
+0.1497	True	DAFx	2002		DAFx/2002/DAFX02_Lazzarini_audio_object.pdf.txt	Manhattan: End-User Programming for Music
+0.1497	True	DAFx	2006		DAFx/2006/papers/p_275.pdf.txt	The Csound Book: Perspectives in Software Synthesis, Sound Design, Signal Processing, and Programming
 0.1495	False	ICMC	2000	A Distributed Interactive Music Application using Harmonic Constraint	ICMC/2000/Papers/31DistPS/1Pazel.pdf.txt	NAKANISYNTH: An Intuitive Freehand Drawing Waveform Synthesiser Application for iOS Devices
 0.1495	False	ICMC	2005	Authors Authors Abel, Jonathan Agon, Carlos Alcorn, Michael Amatriain, Xavier	ICMC/2005/defevent/main/all_auth.pdf.txt	Mutatis Mutandis
+0.1495	False	ICMC	2005	MULTI-RIPPLE LOSS FILTER FOR WAVEGUIDE PIANO SYNTHESIS Jukka Rauhala, Heidi-Maria Lehtonen, and Vesa Välimäki	ICMC/2005/defevent/papers/cr1072.pdf.txt	Physical Audio Digital Filters
 0.1494	False	ICMC	2001	Architectural Overview of a System for Collaborative Music Composition Over the Web	ICMC/2001/ICMC2001_Wust.pdf.txt	Cosmo Collective
 0.1494	False	SMC	2010	TOWARDS ADAPTIVE MUSIC GENERATION BY REINFORCEMENT LEARNING OF MUSICAL TENSION	SMC/2010/24.pdf.txt	A Compact Spectrum-Assisted Human Beatboxing Reinforcement Learning Tool On Smartphone
-0.1493	False	ICMC	2008	HOW TO MAKE YOUR WIFE LISTEN: THE PORTRAYAL OF WOMEN IN MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1352.pdf.txt	Women, Art & Technology
 0.149	False	ICMC	2001	Hypermusic and the Sighting of Sound - A Nomadic Studio Report	ICMC/2001/ICMC2001_Impett.pdf.txt	Computer audio research laboratory report
 0.149	False	ICMC	2008	AUTHENTICITY AND EMULATION: CHIPTUNE IN THE EARLY TWENTY-FIRST CENTURY	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1304.pdf.txt	Live performance interaction for humans and machines in the early twenty-first century: One composer's aesthetics for composition and performance practice
 0.149	False	SMC	2010	AN AUDIOVISUAL WORKSPACE FOR PHYSICAL MODELS Benjamin Schroeder, Marc Ainger, Richard Parent	SMC/2010/13.pdf.txt	A Physically Based Sound Space for Procedural Agents
@@ -359,12 +360,12 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1482	False	ISMIR	2018	IMPROVED CHORD RECOGNITION BY COMBINING DURATION AND HARMONIC LANGUAGE MODELS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/300_Paper.pdf.txt	Harmonic Words, Narrative Chords: Textual Sonification Using Part of Speech
 0.1481	False	DAFx	2002		DAFx/2002/DAFX02_Xiang_music_production.pdf.txt	PebbleBox and CrumbleBag: Tactile Interfaces for Granular Synthesis
 0.1481	False	ICMC	2008	Panel 3: Network Performance Telematic Music – Restrictions and Advantages Compared to Traditional One−Site Music Events	ICMC/2008/ICMC08 USB Proceedings/defevent/sessions/s500.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
-0.1481	False	ISMIR	2018	COMPARISON OF AUDIO FEATURES FOR RECOGNITION OF WESTERN AND ETHNIC INSTRUMENTS IN POLYPHONIC MIXTURES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/139_Paper.pdf.txt	Real-Time Raag Recognition for Interactive Music
 0.1481	False	ISMIR	2018	AUDIO-TO-SCORE ALIGNMENT USING TRANSPOSITION-INVARIANT FEATURES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/166_Paper.pdf.txt	A Musical Performance Evaluation System for Beginner Musician based on Real-time Score Following
 0.1481	False	ISMIR	2018	FRAME-LEVEL INSTRUMENT RECOGNITION BY TIMBRE AND PITCH Yun-Ning Hung and Yi-Hsuan Yang	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/55_Paper.pdf.txt	An Interactive Musical Prediction System with Mixture Density Recurrent Neural Networks
 0.148	False	ICMC	2001	Parameter estimation for dual-polarization plucked string models	ICMC/2001/data/cr1024.pdf.txt	Using Haptic Devices to Interface Directly with Digital Waveguide-Based Musical Instruments
 0.1479	False	ICMC	2008	TECHNOLOGY, CULTURE AND LOCATION IN A RECENT NEW ZEALAND SONIC ART PROJECT	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1411.pdf.txt	New Performance Instruments for Electroacoustic Music
 0.1479	False	ICMPC			ICMPC/ICMPC06/pdfs/254.pdf.txt	The Rullen Band
+0.1478	False	ISMIR	2018	COMPARISON OF AUDIO FEATURES FOR RECOGNITION OF WESTERN AND ETHNIC INSTRUMENTS IN POLYPHONIC MIXTURES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/139_Paper.pdf.txt	Real-Time Raag Recognition for Interactive Music
 0.1477	False	ICMC	2000	Model-Based Synthesis of the Clavichord 1 2 1 Vesa Välimäki , Mikael Laurson , Cumhur Erkut , and Tero Tolonen	ICMC/2000/Papers/22PhyMo2/1Valimak.pdf.txt	A Tangible Virtual Vibrating String : A Physically Motivated Virtual Musical Instrument Interface
 0.1477	False	ICMC	2005	Session : Poster Introduction Session	ICMC/2005/defevent/sessions/s340.pdf.txt	The Interactive Arts System: Introduction to a Real-Time Performance Tool
 0.1477	False	ICMPC			ICMPC/ICMPC06/pdfs/227.pdf.txt	SmartDrone: An Aurally Interactive Harmonic Drone
@@ -383,7 +384,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1468	False	ICMC	2005	MIDI TO SP-MIDI TRANSCODING USING PHRASE STEALING Simon Lui	ICMC/2005/defevent/papers/cr1022.pdf.txt	CaMus 2 -- Optical Flow and Collaboration in Camera Phone Music Performance
 0.1468	False	ICMC	2008	TOWARDS AN INTERCHANGE FORMAT FOR SPATIAL AUDIO SCENES Gary Kendall	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1795.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
 0.1467	False	ICMC	2001		ICMC/2001/data/cr1204.pdf.txt	Real-time console for live performance of computer music and for recording studios
-0.1465	False	ICMPC			ICMPC/ICMPC06/pdfs/369.pdf.txt	Design for auditory imagery: altering instruments to explore performer fluency
+0.1466	False	ICMPC			ICMPC/ICMPC06/pdfs/369.pdf.txt	Design for auditory imagery: altering instruments to explore performer fluency
 0.1465	False	ICMPC			ICMPC/ICMPC06/pdfs/453.pdf.txt	Contour: A Real-Time MIDI System Based on Gestural Input
 0.1464	False	DAFx	2006		DAFx/2006/papers/p_031.pdf.txt	Performing experimental music by physical simulation
 0.1464	False	ICMC	2000	A New, Flexible Framework for Audio and Image Synthesis. James McCartney	ICMC/2000/Papers/61IntSy1/2McCartn.pdf.txt	A Real-Time Synthesis Unit
@@ -399,13 +400,13 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1459	False	ICMC	2000	Synthesizing a choir in real-time using Pitch Synchronous Overlap Add (PSOLA)	ICMC/2000/Papers/27VoSyn2/1Schnell.pdf.txt	Maria Choir
 0.1459	False	ICMC	2000	CURVEPAINTER: A NEW COMPOSITIONAL TOOL Colby N. Leider	ICMC/2000/Papers/97Poste2/1Leider.pdf.txt	A Look at the Design and Creation of a Graphically Controlled Digital Musical Instrument
 0.1458	False	ICMC	2001	Inductive Learning of General and Robust Local Expression Principles	ICMC/2001/data/cr1170.pdf.txt	Learning Performance Rules in a Music Interpretation System
-0.1458	False	ICMC	2005	A SYNAESTHETIC APPROACH FOR A SYNTHESIZER INTERFACE BASED ON GENETIC ALGORITHMS AND FUZZY SETS	ICMC/2005/defevent/papers/cr1210.pdf.txt	Design Principles and User Interfaces of Erkki Kurenniemi's Electronic Musical Instruments of the 1960's and 1970's
-0.1458	False	ICMC	2008	TOWARDS THE IMPLEMENTATION OF A GENERIC PLATFORM FOR NETWORKED MUSIC PERFORMANCE:	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1598.pdf.txt	Network Jamming : Distributed Performance using Generative Music
 0.1457	False	DAFx	2006		DAFx/2006/papers/p_165.pdf.txt	The Whammy Bar as a Digital Effect Controller
+0.1457	False	ICMC	2005	A SYNAESTHETIC APPROACH FOR A SYNTHESIZER INTERFACE BASED ON GENETIC ALGORITHMS AND FUZZY SETS	ICMC/2005/defevent/papers/cr1210.pdf.txt	Design Principles and User Interfaces of Erkki Kurenniemi's Electronic Musical Instruments of the 1960's and 1970's
+0.1457	False	ICMC	2008	TOWARDS THE IMPLEMENTATION OF A GENERIC PLATFORM FOR NETWORKED MUSIC PERFORMANCE:	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1598.pdf.txt	Network Jamming : Distributed Performance using Generative Music
 0.1457	False	ISMIR	2018	CONVOLUTIONAL GENERATIVE ADVERSARIAL NETWORKS WITH BINARY NEURONS FOR POLYPHONIC MUSIC GENERATION	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/218_Paper.pdf.txt	A Physical Intelligent Instrument using Recurrent Neural Networks
 0.1456	False	ICMC	2001	Functional Specification of a Distributed and Mobile Architecture for Virtual	ICMC/2001/data/cr1230.pdf.txt	Real time control of 3D sound space by gesture
 0.1456	False	ICMC	2005	SOFTWARE AGENTS AND CREATING MUSIC/SOUND ART: FRAMES, DIRECTIONS, AND WHERE TO FROM HERE?	ICMC/2005/defevent/papers/cr1119.pdf.txt	Software Agents in Music and Sound Art Research/Creative Work: Current State adn a Possible Direction
-0.1455	False	ICMC	2008	IMPLEMENTATION AND APPLICATIONS OF OPEN SOUND CONTROL TIMESTAMPS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1659.pdf.txt	Open Sound Control : Constraints and Limitations
+0.1454	False	ICMC	2008	IMPLEMENTATION AND APPLICATIONS OF OPEN SOUND CONTROL TIMESTAMPS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1659.pdf.txt	Open Sound Control : Constraints and Limitations
 0.1453	False	DAFx	2002		DAFx/2002/DAFX02_Wells_Murphy_partial_tracking.pdf.txt	Strategies of Mapping between Gesture data and Synthesis Model Parameters using Perceptual Spaces
 0.1453	False	ICMC	2001	Preparation for Interactive Live Computer Performance in Collaboration with a Symphony Orchestra	ICMC/2001/ICMC2001_Madden.pdf.txt	The Ningen Dogs Orchestra
 0.1453	False	ICMC	2005	EXPLOITING MELODIC SMOOTHNESS FOR MELODY DETECTION IN POLYPHONIC AUDIO	ICMC/2005/defevent/papers/cr1099.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
@@ -422,15 +423,13 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1449	False	ICMC	2005	ENP EXPRESSION DESIGNER A VISUAL TOOL FOR CREATING ENP-EXPRESSIONS	ICMC/2005/defevent/papers/cr1140.pdf.txt	iCons
 0.1449	False	ICMC	2005	REAL TIME SIGNAL TRANSPOSITION WITH ENVELOPE PRESERVATION IN THE PHASE VOCODER	ICMC/2005/defevent/papers/cr1323.pdf.txt	Applications of the Phase Vocoder Interface in the Control of Real-Time Electronic Musical Instruments
 0.1449	False	ICMC	2008	NETWORK DRAMATURGY: BEING ON THE NODE Pedro Rebelo Franziska Schroeder	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1814.pdf.txt	Interaction: Artistic Practice in the Network
-0.1449	False	M&G2			M&G2/contents/Vines Bradley, Wanderley Marcelo, Krumhansl Carol, Dalca Ioa.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
+0.1448	False	M&G2			M&G2/contents/Vines Bradley, Wanderley Marcelo, Krumhansl Carol, Dalca Ioa.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
 0.1447	False	ISMIR	2018	A PREDICTIVE MODEL FOR MUSIC BASED ON LEARNED INTERVAL REPRESENTATIONS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/179_Paper.pdf.txt	An Interactive Musical Prediction System with Mixture Density Recurrent Neural Networks
 0.1446	False	ICMC	2005	NEW SOUND DECOMPOSITION METHOD APPLIED TO GRANULAR SYNTHESIS Charles Bascou and Laurent Pottier	ICMC/2005/defevent/papers/cr1239.pdf.txt	PebbleBox and CrumbleBag: Tactile Interfaces for Granular Synthesis
 0.1446	False	ISMIR	2004	THE INTERNATIONAL MUSIC INFORMATION RETRIEVAL SYSTEMS EVALUATION LABORATORY:	ISMIR/2004/paper220-9f30cf2a39ea701625aad9ee86f6ac1f.pdf.txt	Integration of Freesound content in creative applications and sound interfaces: a survey of use cases
 0.1445	False	DAFx	2006		DAFx/2006/papers/p_127.pdf.txt	Thermoscore: A New-type Musical Score with Temperature Sensation
 0.1444	False	ICMC	2005	JACK AUDIO SERVER FOR MULTI-PROCESSOR MACHINES S.Letz, D.Fober, Y.Orlarey	ICMC/2005/defevent/papers/cr1024.pdf.txt	A Simple Architecture for Server-based (Indoor) Audio Walks
 0.1444	False	ICMPC			ICMPC/ICMPC06/pdfs/589.pdf.txt	Introduction
-0.1443	False	M&G2			M&G2/contents/Mathers Andrew M&G2 full paper.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
-0.1442	False	DAFx	2006		DAFx/2006/papers/p_173.pdf.txt	Bring Your Own Bow: Real-Time Bowing Parameter Estimation from String Sensor Data
 0.1442	False	ICMC	2005	A HISTORY OF ROBOTIC MUSICAL INSTRUMENTS Ajay Kapur	ICMC/2005/defevent/papers/cr1264.pdf.txt	Designing and Building Expressive Robotic Guitars
 0.1442	False	ICMC	2008	INTERCHANGE FORMATS FOR SPATIAL AUDIO Stephen Travis Pope FASTLab Inc. & HeavenEverywhere Media	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1818.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
 0.1442	False	ICMPC			ICMPC/ICMPC06/pdfs/464.pdf.txt	Dancing the Music: Interactive Dance and Music
@@ -441,6 +440,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.144	False	ICMPC			ICMPC/ICMPC06/pdfs/44.pdf.txt	Human Performance Using Computer Input Devices in the Preferred and Non-Preferred Hands
 0.1439	False	ICMC	2008	APPLICATIONS OF GEOSCIENTIFIC SONIFICATION: PRELIMINARY RESULTS – WHERE IS MY RESERVOIR?	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1486.pdf.txt	The Accordiatron : A MIDI Controller For Interactive Music
 0.1439	False	ICMPC			ICMPC/ICMPC06/pdfs/235.pdf.txt	The Musical Synchrotron : Using Wireless Motion Sensors to Study How Social Interaction Affects Synchronization with Musical Tempo
+0.1438	False	DAFx	2006		DAFx/2006/papers/p_173.pdf.txt	Bring Your Own Bow: Real-Time Bowing Parameter Estimation from String Sensor Data
 0.1438	False	ICMC	2001	Automatic Bass Line Transcription from Polyphonic Music Stephen W. Hainsworth, Malcolm D. Macleod	ICMC/2001/data/cr1089.pdf.txt	claVision: Visual Automatic Piano Music Transcription
 0.1438	False	ICMC	2008	SOUND COMMUNICATION: A STANDARD SYNTAX FOR INTER-APPLICATION, INTER-DEVICE AND INTERPLAYER COMMUNICATION OVER OSC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1623.pdf.txt	Communication of musical gesture using the AES/EBU digital audio standard
 0.1438	False	ICMPC			ICMPC/ICMPC06/pdfs/130.pdf.txt	Harmonic Intonation Trainer: An Open Implementation in Pure Data
@@ -449,15 +449,15 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1436	False	DAFx	2001		DAFx/2001/dafx01_final.pdf.txt	The reciprocity between ancillary gesture and music structure performed by expert musicians
 0.1436	False	DAFx	2002		DAFx/2002/DAFX02_Smyth_Smith_flute-like_sounds.pdf.txt	A Novel Face-tracking Mouth Controller and its Application to Interacting with Bioacoustic Models
 0.1436	False	ICMC	2005	DESIGN OF A GENERATIVE MODEL FOR SOUNDSCAPE CREATION David Birchfield	ICMC/2005/defevent/papers/cr1181.pdf.txt	Synthetic Ornithology: Machine learning, simulations and hyper-real soundscapes
-0.1435	False	ICMC	2005	AUDIO ANALOGIES: CREATING NEW MUSIC FROM AN EXISTING PERFORMANCE BY CONCATENATIVE SYNTHESIS	ICMC/2005/defevent/papers/cr1263.pdf.txt	Tangible Scores: Shaping the Inherent Instrument Score
 0.1435	False	ICMC	2005	WHAT IS THE COLOR OF THAT MUSIC PERFORMANCE? Roberto Bresin	ICMC/2005/defevent/papers/cr1275.pdf.txt	Toward an Emotionally Intelligent Piano: Real-Time Emotion Detection and Performer Feedback via Kinesthetic Sensing in Piano Performance
 0.1434	False	ICMC	2001	Listener Evaluation of Reduction Strategies for Sinusoidal and Resonance Models	ICMC/2001/data/cr1187.pdf.txt	Strategies of Mapping between Gesture data and Synthesis Model Parameters using Perceptual Spaces
 0.1434	False	ICMC	2005	THE VIRTUAL ELECTRONIC POEM (VEP) PROJECT Vincenzo Lombardo, Andrea Arghinenti,	ICMC/2005/defevent/papers/cr1251.pdf.txt	The vision of virtual reality
+0.1434	False	ICMC	2005	AUDIO ANALOGIES: CREATING NEW MUSIC FROM AN EXISTING PERFORMANCE BY CONCATENATIVE SYNTHESIS	ICMC/2005/defevent/papers/cr1263.pdf.txt	Tangible Scores: Shaping the Inherent Instrument Score
 0.1431	False	ICMC	2008	NOVEL PERCUSSIVE INSTRUMENT DESIGN – CONVERTING MATHEMATICAL FORMULAE INTO	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1793.pdf.txt	DAMPER : A Platform for Effortful Interface Development
 0.1431	False	ICMPC			ICMPC/ICMPC06/pdfs/419.pdf.txt	Design and Evaluation of a Gesture Controlled Singing Voice Installation
 0.1429	False	ICMPC			ICMPC/ICMPC06/pdfs/22.pdf.txt	Song Kernel --- Explorations in Intuitive Use of Harmony
 0.1428	False	ICMC	2005	DISSONANCE, SEX AND NOISE: (RE)BUILDING (HI)STORIES OF ELECTROACOUSTIC MUSIC	ICMC/2005/defevent/papers/cr1139.pdf.txt	Reflections of a former perfomer of electroacoustic music
-0.1428	False	ICMC	2005	SNDTOOLS: REAL-TIME AUDIO DSP AND 3D VISUALIZATION Ananya Misra Ge Wang Perry R. Cook†	ICMC/2005/defevent/papers/cr1207.pdf.txt	ChuGL: Unified Audiovisual Programming in ChucK
+0.1427	False	ICMC	2005	SNDTOOLS: REAL-TIME AUDIO DSP AND 3D VISUALIZATION Ananya Misra Ge Wang Perry R. Cook†	ICMC/2005/defevent/papers/cr1207.pdf.txt	ChuGL: Unified Audiovisual Programming in ChucK
 0.1426	False	ICMC	2005	THE ARCHITECTURE OF AURACLE: A VOICE-CONTROLLED, NETWORKED SOUND INSTRUMENT	ICMC/2005/defevent/papers/cr1038.pdf.txt	The Architecture of Auracle: a Real-Time, Distributed, Collaborative Instrument
 0.1425	False	ISMIR	2018	END-TO-END LEARNING FOR MUSIC AUDIO TAGGING AT SCALE Jordi Pons?† Oriol Nieto† Matthew Prockup† Erik Schmidt† Andreas Ehmann† Xavier Serra?	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/191_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1425	False	SMC	2010	CONCURRENT CONSTRAINTS CONDITIONAL-BRANCHING TIMED INTERACTIVE SCORES	SMC/2010/65.pdf.txt	The Pond : Interactive Multimedia Installation
@@ -467,31 +467,31 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1424	False	ICMPC			ICMPC/ICMPC06/pdfs/177.pdf.txt	Interaction with Tonal Pitch Spaces
 0.1423	False	ICMC	2008	The MusicDB: A Music Database Query System for Recombinance-based Composition in Max/MSP	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1458.pdf.txt	Fuzzy Logic Control Toolkit 2.0: composing and synthesis by fuzzyfication
 0.1423	False	ICMPC			ICMPC/ICMPC06/pdfs/187.pdf.txt	The Rullen Band
+0.1423	False	ISMIR	2018	OPTICAL MUSIC RECOGNITION IN MENSURAL NOTATION WITH REGION-BASED CONVOLUTIONAL NEURAL NETWORKS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/32_Paper.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
 0.1422	False	ICMPC			ICMPC/ICMPC06/pdfs/297.pdf.txt	Navigating Descriptive Sub-Representations of Musical Timbre
-0.1422	False	ISMIR	2018	OPTICAL MUSIC RECOGNITION IN MENSURAL NOTATION WITH REGION-BASED CONVOLUTIONAL NEURAL NETWORKS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/32_Paper.pdf.txt	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
 0.1422	False	SMC	2010	STYLE EMULATION OF DRUM PATTERNS BY MEANS OF EVOLUTIONARY METHODS AND STATISTICAL ANALYSIS	SMC/2010/26.pdf.txt	Interactive Spatialization and Sound Design using an Evolutionary System
 0.1421	False	ICMC	2000	Mapping a Virtual Sound Space into a Real Visual Space Stéphane Natkin	ICMC/2000/Papers/33ViMuEn/2Natkin.pdf.txt	Real time control of 3D sound space by gesture
 0.1421	False	ICMC	2008	PARAMETER CONTROLLED REMOTE PERFORMANCE (PCRP): PLAYING TOGETHER DESPITE HIGH DELAY	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1801.pdf.txt	A Musical Performance Evaluation System for Beginner Musician based on Real-time Score Following
 0.142	False	DAFx	2002		DAFx/2002/DAFX02_Duxbury_Sandler_Davis_note_onset_detection.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
-0.142	False	ICMPC			ICMPC/ICMPC06/pdfs/165.pdf.txt	Trimpin: An Interview
+0.142	False	ICMPC			ICMPC/ICMPC06/pdfs/165.pdf.txt	An Interview with Sensorband
 0.1419	False	ICMC	2000	PAWN & SPAWN: Portable and Semi−Portable Audio Workstation David Topper	ICMC/2000/Papers/Demos/08Toppe2.pdf.txt	Extended Applications of the Wireless Sensor Array (WISEAR)
 0.1419	False	ICMC	2001	Simple resonators with shape control Davide Rocchesso Dipartimento di Informatica	ICMC/2001/data/cr1034.pdf.txt	Real-time Adaptive Control of Modal Synthesis
-0.1419	False	ICMC	2005	SYNTHESIZING A JAVANESE GONG AGENG Lydia Ayers Andrew Horner	ICMC/2005/defevent/papers/cr1116.pdf.txt	Keseh Gong: Augmented Balinese Gamelan "Gong" for Interactive Music Performance
+0.1418	False	ICMC	2005	SYNTHESIZING A JAVANESE GONG AGENG Lydia Ayers Andrew Horner	ICMC/2005/defevent/papers/cr1116.pdf.txt	Keseh Gong: Augmented Balinese Gamelan "Gong" for Interactive Music Performance
 0.1418	False	SMC	2010	Analysis and automatic annotation of singer’s postures during concert and	SMC/2010/29.pdf.txt	Hand Posture Recognition: IR, IMU and sEMG
 0.1417	False	GestureWorkshop	2003	The Analysis of Gesture: Establishing a Set of Parameters Nicla Rossini	GestureWorkshop/2003/Rossini2003.pdf.txt	Empty-Handed Gesture Analysis in Max/FTS
-0.1417	False	ICMC	2000	Sound Exchange and Performance on Internet2 Mara Helmuth	ICMC/2000/Papers/31DistPS/3Helmuth.pdf.txt	Tree Music: Composing with GAIA
+0.1416	False	ICMC	2000	Sound Exchange and Performance on Internet2 Mara Helmuth	ICMC/2000/Papers/31DistPS/3Helmuth.pdf.txt	Tree Music: Composing with GAIA
 0.1416	False	ICMC	2001	Alignment of Monophonic and Polyphonic Music to a Score Nicola Orio	ICMC/2001/data/cr1375.pdf.txt	A Musical Performance Evaluation System for Beginner Musician based on Real-time Score Following
 0.1415	False	ICMC	2008	RAMEAU: A SYSTEM FOR AUTOMATIC HARMONIC ANALYSIS Pedro Kröger, Alexandre Passos, Marcos Sampaio, Givaldo de Cidra	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1516.pdf.txt	A Function-Oriented Interface for Music Education and Musical Expressions: ``the Sound Wheel''
 0.1415	False	ISMIR	2018	FUNCTIONAL HARMONY RECOGNITION OF SYMBOLIC MUSIC DATA WITH MULTI-TASK RECURRENT NEURAL NETWORKS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/178_Paper.pdf.txt	A Real Time Common Chord Progression Guide on the Smartphone for Jamming Pop Song on the Music Keyboard
+0.1413	False	ICMC	2008	H Hacihabiboglu, Hüseyin Hadjakos, Aristotelis Hagan, Kerry Hair, Graham	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/H.pdf.txt	Beethoven-in-a-Box: Raymond Scott's Electronium
 0.1413	False	ICMPC			ICMPC/ICMPC06/pdfs/373.pdf.txt	The Space Between Us. A Live Performance with Musical Score Generated via Emotional Levels Measured in EEG of One Performer and an Audience Member
-0.1412	False	ICMC	2008	H Hacihabiboglu, Hüseyin Hadjakos, Aristotelis Hagan, Kerry Hair, Graham	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/H.pdf.txt	Beethoven-in-a-Box: Raymond Scott's Electronium
 0.1412	False	ICMC	2008	INTRODUCING VIDEO FEATURES AND SPECTRAL DESCRIPTORS IN THE OMAX IMPROVISATION SYSTEM	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1565.pdf.txt	Score Following: State of the Art and New Developments
 0.1412	False	ICMC	2008	Interaction typologies : traditional music instruments versus digital	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1681.pdf.txt	Interaction Taxonomy for Sequencer-Based Music Performances
 0.1411	False	ICMC	2001	ENP Musical Notation Library based on Common Lisp and CLOS Mika Kuuskankare and Mikael Laurson	ICMC/2001/data/cr1047.pdf.txt	AMIGO: An Assistive Musical Instrument to Engage, Create and Learn Music
 0.1411	False	ISMIR	2004	QUERY-BY-BEAT-BOXING: MUSIC RETRIEVAL FOR THE DJ Ajay Kapur Electrical and Computer	ISMIR/2004/paper217-dce1e4aa40a8975fa18965a974d7980a.pdf.txt	Live Repurposing of Sounds: MIR Explorations with Personal and Crowdsourced Databases
 0.1411	False	M&G2			M&G2/contents/Wollner Clemens M&G2 extended abstract.pdf.txt	Following a Conductor: the Engineering of an Input Device
 0.141	False	ICMC	2000	SCANNED SYNTHESIS: AN INTRODUCTION AND DEMONSTRATION OF A NEW	ICMC/2000/Papers/81SoSyM1/2Boulan1.pdf.txt	A Scanned Synthesis Virtual Instrument
-0.141	False	ICMC	2001	On the importance of phase information in additive analysis/synthesis of binaural sounds	ICMC/2001/data/cr1185.pdf.txt	An Interactive Real-time System for the Control of Sound Localization
+0.141	False	ICMC	2001	On the importance of phase information in additive analysis/synthesis of binaural sounds	ICMC/2001/data/cr1185.pdf.txt	An Interactive Real-Time System for the Control of Sound Localization
 0.141	False	ICMC	2005	A FLEXIBLE AUTHORING TOOL FOR WAVE FIELD SYNTHESIS S. Bleda J.J. López	ICMC/2005/defevent/papers/cr1089.pdf.txt	A Morphological Analysis of Audio-Objects and their Control Methods for 3D Audio
 0.141	False	SMC	2010	UNSUPERVISED GENERATION OF PERCUSSION SOUND SEQUENCES FROM A SOUND EXAMPLE	SMC/2010/70.pdf.txt	OMaxist Dialectics: Capturing, Visualizing and Expanding Improvisations
 0.1409	False	ICMC	2001	Williams [re]Mix[er]: An Interactive I Ching Composing Program	ICMC/2001/data/cr1066.pdf.txt	Cellphonia: 4’ 33”
@@ -512,8 +512,8 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1401	False	ICMC	2005	AN ALGORITHM FOR AUDIO SKEW COMPENSATION IN LOW LATENCY ENVIRONMENTS	ICMC/2005/defevent/papers/cr1178.pdf.txt	A compact, high-speed, wearable sensor network for biomotion capture and interactive media
 0.1401	False	ICMC	2005	SPATIALISATION USING SOUNDING OBJECTS Maarten van Walstijn, Michael Alcorn, and Stefan Bilbao	ICMC/2005/defevent/papers/cr1237.pdf.txt	Physical Audio Digital Filters
 0.14	False	CIM	2005	Multidimensional timbre analysis of shakuhachi honkyoku	CIM/2005/CIM05_Articles/BOLGER_D_CIM05.pdf.txt	Timbre et causalité
-0.14	False	ISMIR	2018	CAMERA-PRIMUS: NEURAL END-TO-END OPTICAL MUSIC RECOGNITION ON REALISTIC MONOPHONIC SCORES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/33_Paper.pdf.txt	Optical Music Recognition for Interactive Score Display
 0.1399	False	ICMC	2005	DEVELOPING TOOLS FOR STUDYING MUSICAL GESTURES WITHIN THE MAX/MSP/JITTER ENVIRONMENT	ICMC/2005/defevent/papers/cr1288.pdf.txt	All You Need Is LOD : Levels of Detail in Visual Augmentations for the Audience
+0.1399	False	ISMIR	2018	CAMERA-PRIMUS: NEURAL END-TO-END OPTICAL MUSIC RECOGNITION ON REALISTIC MONOPHONIC SCORES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/33_Paper.pdf.txt	Optical Music Recognition for Interactive Score Display
 0.1398	False	ICMC	2008	FLEXIBLE CONTROL OF COMPOSITE PARAMETERS IN MAX/MSP Timothy Place,a Trond Lossius,b Alexander Refsum Jensenius,c Nils Petersd	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1702.pdf.txt	Tahakum: A Multi-Purpose Audio Control Framework
 0.1398	False	ISMIR	2004	UNDERSTANDING SEARCH PERFORMANCE IN QUERY-BY-HUMMING SYSTEMS Roger B. Dannenberg and Ning Hu	ISMIR/2004/paper236-c7a7b367d12592bf6498494b12ed4b59.pdf.txt	Matching Parts : Inner Voice Led Control for Symbolic and Audio Accompaniment
 0.1398	False	SMC	2010	VOICE CONVERSION: A CRITICAL SURVEY Anderson F. Machado∗	SMC/2010/43.pdf.txt	Voice Networks: The Human Voice as a Creative Medium for Musical Collaboration
@@ -523,40 +523,40 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1395	False	ICMC	2001	Evaluating spatial sound with binaural auditory model Ville Pulkki	ICMC/2001/data/cr1354.pdf.txt	Instruments That Learn, Refined Controllers, Source Model Loudspeakers
 0.1395	False	ICMC	2005	CONCATENATION AND STRETCH/SQUEEZE OF MUSICAL INSTRUMENTAL SOUND USING SOUND	ICMC/2005/defevent/papers/cr1135.pdf.txt	Parameterized Morphing as a Mapping Technique for Sound Synthesis
 0.1394	False	ICMC	2008	TOWARDS THE IMPLEMENTATION OF A GENERIC PLATFORM FOR NETWORKED MUSIC PERFORMANCE: THE DIAMOUSES	ICMC/2008/ICMC08 USB Proceedings/defevent/abstract/a1598.pdf.txt	JamSpace: Designing A Collaborative Networked Music Space for Novices
-0.1393	False	ISMIR	2004	FROM SOUND SAMPLING TO SONG SAMPLING Jean-Julien Aucouturier, Francois Pachet, Peter Hanappe	ISMIR/2004/paper233-afcdff5912c9c874303dd2379636883d.pdf.txt	Sonic Serendipity: Embracing Discovery in File Finder-Based Improvisation
-0.1393	False	ISMIR	2018	DEEP WATERSHED DETECTOR FOR MUSIC OBJECT RECOGNITION Lukas Tuggener1,3	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/225_Paper.pdf.txt	Optical Music Recognition for Interactive Score Display
+0.1394	False	ISMIR	2018	DEEP WATERSHED DETECTOR FOR MUSIC OBJECT RECOGNITION Lukas Tuggener1,3	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/225_Paper.pdf.txt	Optical Music Recognition for Interactive Score Display
 0.1392	False	DAFx	2002		DAFx/2002/DAFX02_Topper_Burtner_Serafin_SOS_synthesis.pdf.txt	Techniques for Multi-Channel Real-Time Spatial Distribution Using Frequency-Domain Processing
 0.1392	False	DAFx	2006		DAFx/2006/papers/p_239.pdf.txt	Methods for Modeling Realistic Playing in Acoustic Guitar Synthesis
 0.1392	False	ICMC	2005	THE MUSIC, TECHNOLOGY AND INNOVATION RESEARCH CENTRE (MTI) AT DE MONTFORT	ICMC/2005/defevent/papers/cr1009.pdf.txt	Intersecting Lines
 0.1392	False	ICMC	2005	TONALITY VISUALIZATION OF POLYPHONIC AUDIO Emilia Gómez Jordi Bonada	ICMC/2005/defevent/papers/cr1283.pdf.txt	Grounded Yet Shifting: Shaping Hybrid Performance Ecologies with Dynamic Tonality
 0.1392	False	ICMC	2008	PROJECT LOVELACE: TEENAGE GIRLS AND TECHNOLOGY-BASED COMPOSITION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1202.pdf.txt	Women Who Build Things: Gestural Controllers, Augmented Instruments, and Musical Mechatronics
 0.1392	False	ICMPC			ICMPC/ICMPC06/pdfs/533.pdf.txt	Bridging the Gap Between Art and Science Education Through Teaching Electronic Musical Instrument Design
+0.1392	False	ISMIR	2004	FROM SOUND SAMPLING TO SONG SAMPLING Jean-Julien Aucouturier, Francois Pachet, Peter Hanappe	ISMIR/2004/paper233-afcdff5912c9c874303dd2379636883d.pdf.txt	Sonic Serendipity: Embracing Discovery in File Finder-Based Improvisation
 0.1391	False	GestureWorkshop	2003	Performance Gestures of Musicians: What Structural and Emotional Information Do They Convey?	GestureWorkshop/2003/Vines2003.pdf.txt	The Perception of Live-sequenced Electronic Music via Hearing and Sight
 0.1391	False	ISMIR	2018	A SINGLE-STEP APPROACH TO MUSICAL TEMPO ESTIMATION USING A CONVOLUTIONAL NEURAL NETWORK	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/141_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.139	False	ICMC	2001	Automatic Modeling of Musical Style O. Lartillot1, S. Dubnov2, G. Assayag1, G. Bejerano3	ICMC/2001/data/cr1328.pdf.txt	Modelling Gestures in Music Performance with Statistical Latent-State Models
 0.139	False	ICMC	2005	THE COMPOSITIONAL PROCESSES OF ELECTROACOUSTIC COMPOSERS: CONTRASTING PERSPECTIVES	ICMC/2005/defevent/papers/cr1075.pdf.txt	Performing experimental music by physical simulation
-0.1389	False	ICMC	2001	Controlling Material Properties in Physical Models of Sounding Objects	ICMC/2001/data/cr1141.pdf.txt	Developing Block-Movement, Physical-Model Based Objects for the Reactable
 0.1389	False	ICMC	2001	Learning-Based Jam Session System for A Guitar Trio Masatoshi Hamanaka∗ , Masataka Goto∗∗,∗∗∗ , and Nobuyuki Otsu∗∗∗,∗	ICMC/2001/data/cr1146.pdf.txt	The Creation of a Multi-Human, Multi-Robot Interactive Jam Session
 0.1389	False	ICMC	2005	FINDING SUBSEQUENCES OF MELODIES IN MUSICAL PIECES Kamil Adiloğlu	ICMC/2005/defevent/papers/cr1079.pdf.txt	ism: Improvisation Supporting System based on Melody Correction
 0.1389	False	ICMPC			ICMPC/ICMPC06/pdfs/93.pdf.txt	Unsupervised Play: Machine Learning Toolkit for Max
 0.1389	False	ISMIR	2018	A CROWDSOURCED EXPERIMENT FOR TEMPO ESTIMATION OF ELECTRONIC DANCE MUSIC	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/220_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1389	False	SMC	2010	AV CLASH – ONLINE TOOL FOR MIXING AND VISUALIZING AUDIO RETRIEVED FROM	SMC/2010/33.pdf.txt	Playsound.space: Inclusive Free Music Improvisations Using Audio Commons
+0.1388	False	ICMC	2001	Controlling Material Properties in Physical Models of Sounding Objects	ICMC/2001/data/cr1141.pdf.txt	Developing Block-Movement, Physical-Model Based Objects for the Reactable
+0.1388	False	ICMC	2005	NEAREST CENTROID ERROR CLUSTERING FOR RADIAL/ELLIPTICAL BASIS FUNCTION NEURAL	ICMC/2005/defevent/papers/cr1129.pdf.txt	Timbre Tuning: Variation in Cello Sprectrum Across Pitches and Instruments
 0.1388	False	ICMC	2005	HEARING EMERGENCE: TOWARDS SOUND-BASED SELF-ORGANISATION Tom Davis	ICMC/2005/defevent/papers/cr1143.pdf.txt	Environment for the Interactive Design of Emergent Art
 0.1388	False	ICMPC			ICMPC/ICMPC06/pdfs/374.pdf.txt	Morphosis for piano
 0.1388	False	ISMIR	2018	SEMI-SUPERVISED LYRICS AND SOLO-SINGING ALIGNMENT Chitralekha Gupta1,2	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/30_Paper.pdf.txt	LiVo: Sing a Song with a Vowel Keyboard
 0.1387	False	ICMC	2005	SEMI-SUPERVISED CLASSIFICATION OF MUSICAL GENRE USING MULTI-VIEW FEATURES	ICMC/2005/defevent/papers/cr1030.pdf.txt	An Interface for Real-time Classification of Articulations Produced by Violin Bowing
 0.1387	False	ICMC	2005	THE “AIR WORM”: AN INTERFACE FOR REAL-TIME MANIPULATION OF EXPRESSIVE MUSIC PERFORMANCE	ICMC/2005/defevent/papers/cr1077.pdf.txt	jPop-E : An Assistant System for Performance Rendering of Ensemble Music
-0.1387	False	ICMC	2005	NEAREST CENTROID ERROR CLUSTERING FOR RADIAL/ELLIPTICAL BASIS FUNCTION NEURAL	ICMC/2005/defevent/papers/cr1129.pdf.txt	Timbre Tuning: Variation in Cello Sprectrum Across Pitches and Instruments
 0.1387	False	ISMIR	2018	VOCAL MELODY EXTRACTION WITH SEMANTIC SEGMENTATION AND AUDIO-SYMBOLIC DOMAIN TRANSFER LEARNING	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/286_Paper.pdf.txt	A Semantic Analysis of the Design Space of Input Devices
 0.1387	False	SMC	2010	TONAL SIGNATURES Gilbert Nouno Researcher, Electronic Musician - Ircam	SMC/2010/68.pdf.txt	Interaction with Tonal Pitch Spaces
 0.1386	False	ISMIR	2018	IDENTIFYING EMOTIONS IN OPERA SINGING: IMPLICATIONS OF ADVERSE ACOUSTIC CONDITIONS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/22_Paper.pdf.txt	Design and Evaluation of a Gesture Controlled Singing Voice Installation
-0.1386	False	SMC	2010	IN A CONCRETE SPACE. RECONSTRUCTING THE SPATIALIZATION OF IANNIS XENAKIS’ CONCRET PH ON A MULTICHANNEL SETUP	SMC/2010/40.pdf.txt	Echology
 0.1385	False	ICMC	2000	Models and Deformations in Procedural Synchronous Sound for Animation	ICMC/2000/Papers/52MuMoA2/1Bargar2.pdf.txt	Modeling, tracking and interactive animation of faces and heads using input from video
 0.1385	False	ICMC	2001	Etna - a New Advanced Graphical Tree Representation of Music Wolfgang Chico-Töpfer	ICMC/2001/data/cr1359.pdf.txt	Capture, Representation, and "Composition" of the Instrumental Gesture
-0.1385	False	ICMC	2005	A STETHOSCOPE FOR IMAGINARY SOUND INTERACTIVE SOUND IN A HEALTH CARE ENVIRONMENT	ICMC/2005/defevent/papers/cr1235.pdf.txt	Interactive Public Sound Art: a case study
 0.1385	False	ICMC	2008	INTERCULTURAL EXPLORATION: THE COMPUTER AND TRADITIONAL MUSIC CULTURES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1770.pdf.txt	Sonic Crucible Entanglements
+0.1385	False	SMC	2010	IN A CONCRETE SPACE. RECONSTRUCTING THE SPATIALIZATION OF IANNIS XENAKIS’ CONCRET PH ON A MULTICHANNEL SETUP	SMC/2010/40.pdf.txt	Echology
 0.1384	False	ICMC	2000	SCANNED SYNTHESIS	ICMC/2000/Papers/81SoSyM1/1Verplan.pdf.txt	A Scanned Synthesis Virtual Instrument
 0.1384	False	ICMC	2005	LATTICE: STRATEGIES FOR AND AGAINST CONTROL IN AN IMPROVISATION INSTRUMENT	ICMC/2005/defevent/papers/cr1118.pdf.txt	A Software System for Laptop Performance and Improvisation
+0.1384	False	ICMC	2005	A STETHOSCOPE FOR IMAGINARY SOUND INTERACTIVE SOUND IN A HEALTH CARE ENVIRONMENT	ICMC/2005/defevent/papers/cr1235.pdf.txt	Interactive Public Sound Art: a case study
 0.1384	False	ICMC	2005	MMT TRAVEL KIT Dr. Rosemary Mountain	ICMC/2005/defevent/papers/cr1326.pdf.txt	The Pond : Interactive Multimedia Installation
 0.1384	False	ICMC	2008	GOLDSMITHS ELECTRONIC MUSIC STUDIOS: 40 YEARS Dr Michael Young, Dr John Drever, Dr Mick Grierson, Ian Stonehouse	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1520.pdf.txt	Hugh Le Caine’s 1948 sackbut syntheziser : performance mode of electronic instruments
 0.1384	False	ICMC	2008	SPATIAL AUDIO AUTHORING AND RENDERING: FORWARD RESEARCH THROUGH EXCHANGE	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1805.pdf.txt	The Spatial Sound Description Interchange Format: Principles, Specification, and Examples
@@ -567,14 +567,14 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1382	False	ICMC	2000	On tempo tracking: Tempogram Representation and Kalman filtering	ICMC/2000/Papers/75ExPer1/3Cemgil.pdf.txt	The Navi Activity Monitor : Toward Using Kinematic Data to Humanize Computer Music
 0.1382	False	ICMC	2008	OUT OF SYNC: A SIMPLE SCORE BASED GUI FOR QUICK CORRECTION IN PERFORMER COMPUTER	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1686.pdf.txt	Investigating the Role of Score Following in Automatic Musical Accompaniment
 0.1381	False	ISMIR	2018	DEEP NEURAL NETWORKS WITH VOICE ENTRY ESTIMATION HEURISTICS FOR VOICE SEPARATION IN SYMBOLIC MUSIC	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/304_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
+0.1381	False	M&G2			M&G2/contents/Kuhl Ole M&G2 full paper.pdf.txt	Meaning in Musical Gesture
 0.138	False	ICMC	2005	PERMUTATION GROUPS AND CHORD TESSELATIONS Franck Jedrzejewski	ICMC/2005/defevent/papers/cr1008.pdf.txt	A Minor Chord for BladeAxe
 0.138	False	ICMPC			ICMPC/ICMPC06/pdfs/637.pdf.txt	Towards an Affective Gesture Interface for Expressive Music Performance
-0.138	False	M&G2			M&G2/contents/Kuhl Ole M&G2 full paper.pdf.txt	Meaning in Musical Gesture
 0.1379	False	DAFx	2002		DAFx/2002/DAFX02_Lagrange_Marchand_Rault_nonstationary_model.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
-0.1379	False	ICMC	2000	Design and Implementation of a platform independent Guido Notation Engine	ICMC/2000/Papers/98Poste3/1Renz.pdf.txt	Dance and Movement Notation
 0.1379	False	ICMC	2008	NETWORKED SONIC SPACES Jérôme Joy Peter Sinclair Locus Sonus – audio in art, Sonic Research Lab, http://locusonus.org/	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1816.pdf.txt	net.art 2.0. new materials towards net art
 0.1379	False	ICMPC			ICMPC/ICMPC06/pdfs/571.pdf.txt	The Hayward Tuning Vine: an interface for Just Intonation
 0.1378	False	ICMC	2000	Towards a General Methodological Classification of Computer-Assisted Music Analysis	ICMC/2000/Papers/53MuMoA3/3Schuele.pdf.txt	Mediating Gesture: An Interactive Approach to Computer-Assisted Music
+0.1378	False	ICMC	2000	Design and Implementation of a platform independent Guido Notation Engine	ICMC/2000/Papers/98Poste3/1Renz.pdf.txt	Dance and Movement Notation
 0.1378	False	ICMPC			ICMPC/ICMPC06/pdfs/225.pdf.txt	Carl Michael von Hausswolff
 0.1378	False	ICMPC			ICMPC/ICMPC06/pdfs/468.pdf.txt	A Minor Chord for BladeAxe
 0.1377	False	CIM	2005	The Continuum of words, voice and music. In search for a vocabulary for the timbre of song and voice	CIM/2005/CIM05_Articles/MOSSBERG_F_CIM05.pdf.txt	Words , Movement and Timbre
@@ -584,7 +584,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1375	False	M&G2			M&G2/M&G2 Proceedings TOC.pdf.txt	The Vibrobyte : A Haptic Interface for Co-Located Performance
 0.1374	False	DAFx	2006		DAFx/2006/papers/p_145.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1374	False	ICMC	2005	A STREAMING OBJECT ORIENTED IMPLEMENTATION OF THE MODAL DISTRIBUTION	ICMC/2005/defevent/papers/cr1103.pdf.txt	OOPS: An Audio Synthesis Library in C for Embedded (and Other) Applications
-0.1374	False	ICMC	2005	THE CROAKER: A PHYSICAL MODEL AND A LEGO CONTROLLER Stefania Serafin and Amalia De Goetzen	ICMC/2005/defevent/papers/cr1188.pdf.txt	Synthesis and Control of Everyday Sounds Reconstructing Russolo's Intonarumori
+0.1373	False	ICMC	2005	THE CROAKER: A PHYSICAL MODEL AND A LEGO CONTROLLER Stefania Serafin and Amalia De Goetzen	ICMC/2005/defevent/papers/cr1188.pdf.txt	Synthesis and Control of Everyday Sounds Reconstructing Russolo's Intonarumori
 0.1373	False	ICMPC			ICMPC/ICMPC06/pdfs/207.pdf.txt	Women Who Build Things: Gestural Controllers, Augmented Instruments, and Musical Mechatronics
 0.1373	False	SMC	2010	MIMICRY OF TONE PRODUCTION: RESULTS FROM A PILOT EXPERIMENT Tommaso Bianco	SMC/2010/45.pdf.txt	Gestural Embodiment of Environmental Sounds: an Experimental Study
 0.1371	False	CIM	2005	Acoustical correlates of the main features of violin timbre perception	CIM/2005/CIM05_Articles/STEPANEK_J_CIM05_01.pdf.txt	Timbre et causalité
@@ -609,10 +609,10 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1363	False	SMC	2010	A LYRICS-MATCHING QBH SYSTEM FOR INTERACTIVE ENVIRONMENTS Panagiotis Papiotis	SMC/2010/41.pdf.txt	A Musical Performance Evaluation System for Beginner Musician based on Real-time Score Following
 0.1362	False	ICMC	2000	B RIC O LEUR AN D EN G IN EER IN C O M P UT ER M US IC Ingeborg Okkels	ICMC/2000/Papers/11Aesth1/3Okkels.pdf.txt	The Aesthetics of Interactive Computer Music
 0.1362	False	ICMC	2000	High Level Musical Control of Sound Synthesis in OpenMusic Carlos Agon, Marco Stroppa, Gérard Assayag (IRCAM)	ICMC/2000/Papers/71CompS1/3Agon.pdf.txt	SMucK: Symbolic Music in ChucK
-0.1362	False	ICMC	2005	A SMARTER WAY TO FIND PITCH Philip McLeod, Geoff Wyvill	ICMC/2005/defevent/papers/cr1172.pdf.txt	Harmonic Intonation Trainer: An Open Implementation in Pure Data
 0.1362	False	ICMC	2008	COMPOSING FOR RELATIVE TIME IN DISTRIBUTED PERFORMANCE Robert Rowe	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1809.pdf.txt	MalLo: A Distributed Synchronized Musical Instrument Designed For Internet Performance
 0.1362	False	ISMIR	2018	GENRE-AGNOSTIC KEY CLASSIFICATION WITH CONVOLUTIONAL NEURAL NETWORKS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/7_Paper.pdf.txt	Introducing EG-IPT and ipt~: a novel electric guitar dataset and a new Max/MSP object for real-time classification of instrumental playing techniques
 0.1361	False	ICMC	2005	ACE: A general−purpose classification ensemble optimization framework	ICMC/2005/defevent/abstract/a1149.pdf.txt	Towards a Taxonomy of Realtime Interfaces for Electronic Music Performance
+0.1361	False	ICMC	2005	A SMARTER WAY TO FIND PITCH Philip McLeod, Geoff Wyvill	ICMC/2005/defevent/papers/cr1172.pdf.txt	Harmonic Intonation Trainer: An Open Implementation in Pure Data
 0.1361	False	ICMPC			ICMPC/ICMPC06/pdfs/330.pdf.txt	Audiovisual Interactions: The Impact of Visual Information on Music Perception and Memory
 0.1361	False	ICMPC			ICMPC/ICMPC06/pdfs/411.pdf.txt	Creativity in Children's Digital Music Composition
 0.1361	False	ICMPC			ICMPC/ICMPC06/pdfs/435.pdf.txt	Toward a Theory of Interfaces for Computer Music Systems
@@ -649,16 +649,16 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1349	False	ICMC	2005	MICHELANGELO LUPONE: “FORMA DEL RESPIRO” Luca Spanu Musica e nuove tecnologie	ICMC/2005/defevent/papers/cr1250.pdf.txt	Geste et pensée musicale: de l'outil à l'instrument
 0.1349	False	ICMPC			ICMPC/ICMPC06/pdfs/188.pdf.txt	Movement in a Contemporary Dance Work and its Relation to Continuous Emotional Response
 0.1348	False	ICMC	2005	VIRTUAL AUDIO REPRODUCTION ENGINE FOR SPATIAL ENVIRONMENTS Thomas Musil	ICMC/2005/defevent/papers/cr1277.pdf.txt	A Framework for Immersive Spatial Audio Performance
-0.1348	False	ICMC	2005	SOUND RE-SYNTHESIS FROM RHYTHM PATTERN FEATURES – AUDIBLE INSIGHT INTO A MUSIC FEATURE EXTRACTION PROCESS	ICMC/2005/defevent/papers/cr1300.pdf.txt	Towards a perceptual framework for interface design in digital environments for timbre manipulation
 0.1348	False	ICMPC			ICMPC/ICMPC06/pdfs/242.pdf.txt	Sound Control: Supporting Custom Musical Interface Design for Children with Disabilities
 0.1348	False	ISMIR	2004	ESTIMATING THE TONALITY OF POLYPHONIC AUDIO FILES: COGNITIVE VERSUS MACHINE LEARNING MODELLING	ISMIR/2004/paper164-2dcab112b5b356cdc355797b0693f2d0.pdf.txt	Grounded Yet Shifting: Shaping Hybrid Performance Ecologies with Dynamic Tonality
 0.1347	False	ICMC	2005	AN SQL-BASED CONTROL SYSTEM FOR LIVE ELECTRONICS Francesco Canavese	ICMC/2005/defevent/papers/cr1138.pdf.txt	A Reference Architecture and Score Representation for Popular Music Human-Computer Music Performance Systems
+0.1347	False	ICMC	2005	SOUND RE-SYNTHESIS FROM RHYTHM PATTERN FEATURES – AUDIBLE INSIGHT INTO A MUSIC FEATURE EXTRACTION PROCESS	ICMC/2005/defevent/papers/cr1300.pdf.txt	Towards a perceptual framework for interface design in digital environments for timbre manipulation
 0.1347	False	ICMPC			ICMPC/ICMPC06/pdfs/83.pdf.txt	Movement, Activity, and Action: The Role of Knowledge in the Perception of Motion
-0.1346	False	ICMC	2000	Coney Island: Combining jMax, Spat and VSS for Acoustic Integration of Spatial and	ICMC/2000/Papers/35InSeSy/4Bargar1.pdf.txt	Towards model-based recognition of human movements in image sequences
 0.1346	False	ICMC	2008	TOWARDS BI-DIMENSIONAL CLASSIFICATION OF SYMBOLIC MUSIC BY AFFECTIVE CONTENT	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1187.pdf.txt	Towards an Affective Gesture Interface for Expressive Music Performance
 0.1346	False	ICMPC			ICMPC/ICMPC06/pdfs/151.pdf.txt	Meaning in Musical Gesture
 0.1346	False	ICMPC			ICMPC/ICMPC06/pdfs/675.pdf.txt	Timbre Space as a Musical Control Structure
 0.1345	False	GestureWorkshop	2003	Gestural Imagery in the Service of Musical Imagery Rolf Inge Godøy	GestureWorkshop/2003/Godoy2003.pdf.txt	Motor Imagery: What Does It Offer for New Digital Musical Instruments?
+0.1345	False	ICMC	2000	Coney Island: Combining jMax, Spat and VSS for Acoustic Integration of Spatial and	ICMC/2000/Papers/35InSeSy/4Bargar1.pdf.txt	Towards model-based recognition of human movements in image sequences
 0.1345	False	ICMC	2005	Free Sound Within Culturally Specific Practice Robert J. Gluck	ICMC/2005/defevent/papers/cr1005.pdf.txt	New Media Culture in Europe
 0.1345	False	ICMPC			ICMPC/ICMPC06/pdfs/345.pdf.txt	Trondheim Voices
 0.1345	False	ICMPC			ICMPC/ICMPC06/pdfs/431.pdf.txt	four fragments---A Performance for Swarming Robotics
@@ -667,15 +667,15 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1343	False	GestureWorkshop	2003	Gesture Analysis: Invariant Laws in Movement Sylvie Gibet, Jean-François Kamp, and Franck Poirier	GestureWorkshop/2003/Gibet2003.pdf.txt	An Experimental Set of Hand Gestures for Expressive Control of Musical Parameters in Realtime
 0.1343	False	SMC	2010	INTERPRETATION AND COMPUTER ASSISTANCE IN JOHN CAGE’S	SMC/2010/58.pdf.txt	Score Following: State of the Art and New Developments
 0.1342	False	ICMC	2005	Implicit Patching for Dataflow−based Audio Analysis And Synthesis	ICMC/2005/defevent/abstract/a1306.pdf.txt	Music Programming in Minim
-0.1341	False	SMC	2010	EXPLORING COMMON VARIATIONS IN STATE OF THE ART CHORD RECOGNITION SYSTEMS	SMC/2010/1.pdf.txt	Machine Recognition of Music Information Composition Systems and Techniques Instrumental Gesture Modeling by Identification with Time-Varying Mechanical Models
+0.1342	False	SMC	2010	EXPLORING COMMON VARIATIONS IN STATE OF THE ART CHORD RECOGNITION SYSTEMS	SMC/2010/1.pdf.txt	Motion Pattern Recognition For Interactive Dance
 0.134	False	ICMC	2005	ACE: A GENERAL-PURPOSE CLASSIFICATION ENSEMBLE OPTIMIZATION FRAMEWORK	ICMC/2005/defevent/papers/cr1149.pdf.txt	Contextualizing Musical Organics: An Ad-hoc Organological Classification Approach
 0.134	False	ICMC	2005	FREEDOM WITHIN STRUCTURAL CONSTRAINTS IN THE DARKRIDE COMPOSITION HARRICAN DAY	ICMC/2005/defevent/papers/cr1297.pdf.txt	iFP: A Music Interface Using an Expressive Performance Template
 0.1339	False	ICMC	2000	A compositional methodology based on data extracted from natural phenomena	ICMC/2000/Papers/12Aesth2/3Barrett.pdf.txt	M.I.N.I. (Musical Instruments Numerical Interface)
 0.1339	False	ICMC	2005	LIE POISSON SYNTHESIS Steven Benzel Berry College	ICMC/2005/defevent/papers/cr1052.pdf.txt	Composing For Improvisation with Chaotic Oscillators
-0.1338	False	ICMC	2000	A Waveguide Mesh Model of High-Frequency Violin Body Resonances	ICMC/2000/Papers/24PhyMo4/3Huang.pdf.txt	Physical Audio Digital Filters
 0.1338	False	ICMC	2005	E Eaglestone, Barry Eck, Douglas Einbond, Aaron Ellis, Nicholas	ICMC/2005/defevent/authors/E.pdf.txt	Interview with Robert Moog
 0.1338	False	ICMPC			ICMPC/ICMPC06/pdfs/358.pdf.txt	Cor Cordis
 0.1338	False	ISMIR	2018	INSTRUDIVE: A MUSIC VISUALIZATION SYSTEM BASED ON AUTOMATICALLY RECOGNIZED INSTRUMENTATION	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/63_Paper.pdf.txt	Advanced Instrumentation and Computer I/O Design: Real-time System Computer Interface Engineering
+0.1337	False	ICMC	2000	A Waveguide Mesh Model of High-Frequency Violin Body Resonances	ICMC/2000/Papers/24PhyMo4/3Huang.pdf.txt	Physical Audio Digital Filters
 0.1337	False	ICMC	2008	Authors Authors Affiliation Authors Affiliation Adiloglu, Kamil	ICMC/2008/ICMC08 USB Proceedings/defevent/main/all_auth.pdf.txt	Mutatis Mutandis
 0.1337	False	ICMPC			ICMPC/ICMPC06/pdfs/548.pdf.txt	A Computer Music System for Human Singing
 0.1335	False	ICMC	2005	MICRO TEXTURES WITH MACRO-NOTES Mikael Laurson Sibelius Academy	ICMC/2005/defevent/papers/cr1174.pdf.txt	Composing for the (dis)Embodied Ensemble : Notational Systems in (dis)Appearances
@@ -685,10 +685,10 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1334	False	ICMPC			ICMPC/ICMPC06/pdfs/377.pdf.txt	Introduction
 0.1334	False	M&G2		Second International Conference on Music and Gesture Royal Northern College of Music	M&G2/M&G2 conference programme.pdf.txt	Gesture -- Music
 0.1333	False	ICMC	2001	A Fast Data Structure for Disk-Based Audio Editing Dominic Mazzoni and Roger B. Dannenberg	ICMC/2001/data/cr1182.pdf.txt	Computer music at Carnegie Mellon University
-0.1333	False	ICMC	2005	LAMBDA−GTK: A Portable Graphics Layer for Common Music	ICMC/2005/defevent/abstract/a1185.pdf.txt	Music Interfaces for Novice Users : Composing Music on a Public Display with Hand Gestures
-0.1333	False	ICMC	2008	RICHARD WAGNER WAS THE FIRST NETWORK ARTIST Andrew Gerzso	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1813.pdf.txt	The Ningen Dogs Orchestra
 0.1333	False	ICMPC			ICMPC/ICMPC06/pdfs/509.pdf.txt	The Effect of Visualizing Audio Targets in a Musical Listening and Performance Task
+0.1332	False	ICMC	2005	LAMBDA−GTK: A Portable Graphics Layer for Common Music	ICMC/2005/defevent/abstract/a1185.pdf.txt	Music Interfaces for Novice Users : Composing Music on a Public Display with Hand Gestures
 0.1332	False	ICMC	2008	{TranSpell} Kazuaki Shiota	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1710.pdf.txt	The Overtone Violin
+0.1332	False	ICMC	2008	RICHARD WAGNER WAS THE FIRST NETWORK ARTIST Andrew Gerzso	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1813.pdf.txt	The Ningen Dogs Orchestra
 0.1331	False	ICMC	2008	EQUIPPING ARTIFICIAL GUITAR PLAYERS WITH BIOMECHANICAL CONSTRAINS: A CASE STUDY OF	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1369.pdf.txt	transcriptions
 0.133	False	DAFx	2002		DAFx/2002/DAFX02_Baeck_Zoelzer_source_separation.pdf.txt	Applications of the Phase Vocoder Interface in the Control of Real-Time Electronic Musical Instruments
 0.133	False	ICMC	2008	DIGITAL MUSIC INSTRUMENTS AND SOUND EXPRESSION Paulo Ferreira-Lopes	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1175.pdf.txt	Show Them My Screen: Mirroring a Laptop Screen as an Expressive and Communicative Means in Computer Music
@@ -720,6 +720,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1322	False	ISMIR	2018	THE NES MUSIC DATABASE: A MULTI-INSTRUMENTAL DATASET WITH EXPRESSIVE PERFORMANCE ATTRIBUTES	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/265_Paper.pdf.txt	Syntex: parametric audio texture datasets for conditional training of instrumental interfaces.
 0.1321	False	ICMPC			ICMPC/ICMPC06/pdfs/43.pdf.txt	Human Performance Using Computer Input Devices in the Preferred and Non-Preferred Hands
 0.1321	False	SMC	2010	QUANTIFYING MASKING IN MULTI-TRACK RECORDINGS Sebastian Vega	SMC/2010/36.pdf.txt	Multitouch Interface for Audio Mixing
+0.132	False	ICMPC			ICMPC/ICMPC06/pdfs/479.pdf.txt	Sonification of Facial Actions for Musical Expression
 0.132	False	M&G2			M&G2/contents/Jarman-Ivens Freya M&G2 full paper.pdf.txt	Women, Art & Technology
 0.1319	False	ICMC	2005	THE ‘COSMOS’ MODEL; AN EVENT GENERATION SYSTEM FOR SYNTHESIZING EMERGENT SONIC	ICMC/2005/defevent/papers/cr1054.pdf.txt	Timbre Space as a Musical Control Structure
 0.1319	False	ICMC	2005	ILEARN: AN ITUNES AUDIO INDEXING PLUG-IN FOR EDUCATION G. McAllister, P.S. Taylor and M. Rodgers	ICMC/2005/defevent/papers/cr1227.pdf.txt	Sonic Serendipity: Embracing Discovery in File Finder-Based Improvisation
@@ -730,11 +731,11 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1316	False	ICMPC			ICMPC/ICMPC06/pdfs/495.pdf.txt	A Computer Music System for Human Singing
 0.1315	False	ICMC	2008	AUTONOMOUS DEVELOPMENT OF SINGING-LIKE INTONATIONS BY INTERACTING BABBLING ROBOTS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1007.pdf.txt	Adaptive control of a vocal chord and vocal tract for computerized mechanical singing instruments
 0.1315	False	ISMIR	2018	MIDI-VAE: MODELING DYNAMICS AND INSTRUMENTATION OF MUSIC WITH APPLICATIONS TO STYLE TRANSFER	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/204_Paper.pdf.txt	MuGeVI: A Multi-Functional Gesture-Controlled Virtual Instrument
-0.1314	False	ICMC	2000	Arno: Constraints Programming in Common Music Torsten Anders Studio für elektroakustische Musik (SeaM)	ICMC/2000/Papers/71CompS1/1Anders.pdf.txt	A system for computer assisted gestural improvisation
 0.1314	False	ICMC	2000	Temporal type constructors for computer music programming Eli Brandt	ICMC/2000/Papers/71CompS1/2Brandt.pdf.txt	Mapping Spectral Frames to Pitch with Support Vector Machine
 0.1314	False	ICMPC			ICMPC/ICMPC06/pdfs/434.pdf.txt	Timbre et causalité
 0.1314	False	ICMPC			ICMPC/ICMPC06/pdfs/555.pdf.txt	Sound Control: Supporting Custom Musical Interface Design for Children with Disabilities
 0.1314	False	ISMIR	2018	LISTENER ANONYMIZER: CAMOUFLAGING PLAY LOGS TO PRESERVE USER’S DEMOGRAPHIC ANONYMITY	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/78_Paper.pdf.txt	Songs 2 See: Learn to Play by Playing
+0.1313	False	ICMC	2000	Arno: Constraints Programming in Common Music Torsten Anders Studio für elektroakustische Musik (SeaM)	ICMC/2000/Papers/71CompS1/1Anders.pdf.txt	A system for computer assisted gestural improvisation
 0.1313	False	ICMPC			ICMPC/ICMPC06/pdfs/550.pdf.txt	The Hybrid: A Music Performance System
 0.1312	False	ICMC	2000	IMPROVING THE EXTENDED KALMAN FILTER METHOD 1 FOR THE RESTORATION OF ELECTRO-ACOUSTIC MUSIC	ICMC/2000/Papers/55SoPrP1/3Bari.pdf.txt	Physical Audio Digital Filters
 0.1311	False	DAFx	2002		DAFx/2002/DAFX02_Karjalainen_Valimaki_Esquef_bell-like_sounds.pdf.txt	Handheld Acoustic Filter Bank for Musical Control
@@ -766,7 +767,6 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1304	False	ICMPC			ICMPC/ICMPC06/pdfs/410.pdf.txt	NIME Education at the HKU, Emphasizing performance
 0.1303	False	DAFx	2006		DAFx/2006/papers/p_227.pdf.txt	Ripples: An Auditory Augmented Reality iOS Application for the Atlanta Botanical Garden
 0.1303	False	ICMC	2001	A Genetic Search Technique for Polyphonic Pitch Detection Guillermo Garcia	ICMC/2001/data/cr1338.pdf.txt	Pitch Fingering Systems and the Search for Perfection
-0.1303	False	ICMPC			ICMPC/ICMPC06/pdfs/479.pdf.txt	Sonification of Facial Actions for Musical Expression
 0.1303	False	ICMPC			ICMPC/ICMPC06/pdfs/636.pdf.txt	A Computer Music System for Human Singing
 0.1302	False	ICMC	2005	G Garcia de la Torre, Alfonso Garcia Galan, Sebastian Garrivier, Elodie	ICMC/2005/defevent/authors/G.pdf.txt	Interview with Robert Moog
 0.1302	False	ICMC	2005	THE PROSTHETIC CONGA: TOWARDS AN ACTIVELY CONTROLLED HYBRID MUSICAL INSTRUMENT	ICMC/2005/defevent/papers/cr1238.pdf.txt	Hybrid Drum: Iterative Development Toward Standalone Operation and Physical Feedback
@@ -778,10 +778,9 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1298	False	DAFx	2006		DAFx/2006/papers/p_233.pdf.txt	Ripples: An Auditory Augmented Reality iOS Application for the Atlanta Botanical Garden
 0.1298	False	ICMPC			ICMPC/ICMPC06/pdfs/149.pdf.txt	Electronic Melodic Instruments
 0.1298	False	ICMPC			ICMPC/ICMPC06/pdfs/288.pdf.txt	A Learning Interface for Novice Guitar Players using Vibrotactile Stimulation
-0.1297	False	ICMC	2001	Grouping, Similarity and the Recognition of Rhythmic Structure	ICMC/2001/data/cr1360.pdf.txt	A Model for Human-Computer Interaction Based on the Recognition of Musical Gestures
 0.1297	False	ICMPC			ICMPC/ICMPC06/pdfs/355.pdf.txt	In Between: Time, Space and Image in Cross-Media Performance
-0.1297	False	SMC	2010	CREATION AND EXPLORATION OF A PERCEPTUAL SONIC TEXTURES SPACE USING A TANGIBLE INTERFACE	SMC/2010/32.pdf.txt	Performing experimental music by physical simulation
 0.1296	False	ICMC	2008	VISUALIZATION TOOLS FOR MUSICAL TIMING APPLIED TO AFRO-CUBAN PERCUSSION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1744.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
+0.1296	False	SMC	2010	CREATION AND EXPLORATION OF A PERCEPTUAL SONIC TEXTURES SPACE USING A TANGIBLE INTERFACE	SMC/2010/32.pdf.txt	Performing experimental music by physical simulation
 0.1295	False	ICMC	2005	MUSIQUE LAB 2 : A THREE LEVEL APPROACH FOR MUSIC EDUCATION AT SCHOOL	ICMC/2005/defevent/papers/cr1337.pdf.txt	« Musique: composition automatique - automation composée »
 0.1295	False	ISMIR	2018	UNDERSTANDING A DEEP MACHINE LISTENING MODEL THROUGH FEATURE INVERSION	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/272_Paper.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1294	False	ICMC	2008	STUDIO REPORT: DIGITÓPIA AT CASA DA MÚSICA Rui Penha, Paulo M. Rodrigues	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1603.pdf.txt	Ten-Hand Piano : A Networked Music Installation
@@ -797,54 +796,54 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1292	False	ICMPC			ICMPC/ICMPC06/pdfs/97.pdf.txt	Machine Songs
 0.1291	False	OSCC		Paper Session I: Implementations of OSC Session Chair: Matthew Wright	OSCC/wright-implementations.pdf.txt	The Creation of a Multi-Human, Multi-Robot Interactive Jam Session
 0.129	False	ICMC	2000	Emotion, Theme And Structure: Enhancing Computer Music Through System Dynamics Modelling.	ICMC/2000/Papers/53MuMoA3/1Whalley.pdf.txt	States and Sound: Modelling Interactions with Musical User Interfaces
-0.129	False	ICMC	2001	Composing Outdoor Augmented-Reality Sound Environments Camille Goudeseune, Hank Kaczmarski	ICMC/2001/ICMC2001_Goudeseune.pdf.txt	SOMETHING TO GO HEAR #4
 0.129	False	ICMC	2008	VOCABLE SYNTHESIS Alex McLean and Geraint Wiggins	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1542.pdf.txt	Words , Movement and Timbre
 0.129	False	ICMPC			ICMPC/ICMPC06/pdfs/24.pdf.txt	Cognition and Physicality in Musical CyberInstruments
 0.129	False	ICMPC			ICMPC/ICMPC06/pdfs/404.pdf.txt	Towards an Affective Gesture Interface for Expressive Music Performance
+0.1289	False	ICMC	2001	Composing Outdoor Augmented-Reality Sound Environments Camille Goudeseune, Hank Kaczmarski	ICMC/2001/ICMC2001_Goudeseune.pdf.txt	SOMETHING TO GO HEAR #4
 0.1289	False	ICMC	2005	EXTRACTING THE MELODY OF AN IMAGE USING MATE-SIMILARITY GENETIC ALGORITHM	ICMC/2005/defevent/papers/cr1153.pdf.txt	Interactive Spatialization and Sound Design using an Evolutionary System
 0.1289	False	ICMC	2008	THE ENIGMA OF VITRUVIAN RESONATING VASES AND THE RELEVANCE OF THE CONCEPT FOR TODAY	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1470.pdf.txt	The Audio Programming Book
 0.1289	False	ICMC	2008	THE WALKING MACHINE Per Anders Nilsson Academy of Music and Drama	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1531.pdf.txt	Operating Sound Parameters Using Markov Model and Bayesian Filters in Automated Music Performance
 0.1289	False	ICMC	2008	USING THE CORDIS-ANIMA FORMALISM FOR THE PHYSICAL MODELING OF THE GREEK ZOURNAS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1614.pdf.txt	The Half-Physler: An oscillating real-time interface to a tube resonator model
 0.1289	False	ICMC	2008	INTEROPERABILITY AND THE MARSYAS 0.2 RUNTIME G.Tzanetakis, R.Jones, C.Castillo	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1746.pdf.txt	Tahakum: A Multi-Purpose Audio Control Framework
 0.1289	False	ICMPC			ICMPC/ICMPC06/pdfs/556.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
+0.1289	False	ISMIR	2018	COMPUTATIONAL CORPUS ANALYSIS: A CASE STUDY ON JAZZ SOLOS Christof Weiß1	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/23_Paper.pdf.txt	Evaluating the Perceived Similarity Between Audio-Visual Features Using Corpus-Based Concatenative Synthesis
 0.1288	False	ICMC	2005	WAVETABLE INTERPOLATION OF MULTIPLE INSTRUMENT TONES Jonathan Mohr	ICMC/2005/defevent/papers/cr1234.pdf.txt	An embedded wavetable synthesizer for the electronic bandoneon with parameter mappings based on acoustical measurements
 0.1288	False	ICMPC			ICMPC/ICMPC06/pdfs/512.pdf.txt	Parameterized Melody Generation with Autoencoders and Temporally-Consistent Noise
 0.1288	False	SMC	2010	PHASESHAPING OSCILLATOR ALGORITHMS FOR MUSICAL SOUND SYNTHESIS	SMC/2010/15.pdf.txt	Nonlinear Acoustic Synthesis in Augmented Musical Instruments
 0.1287	False	ICMC	2008	ANALOGUE TO DIGITAL: AUTHENTICIY VS.	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1416.pdf.txt	The metaphysics of live electronics
 0.1287	False	ICMPC			ICMPC/ICMPC06/pdfs/248.pdf.txt	The Space Between Us. A Live Performance with Musical Score Generated via Emotional Levels Measured in EEG of One Performer and an Audience Member
 0.1287	False	ICMPC			ICMPC/ICMPC06/pdfs/521.pdf.txt	Electronic Melodic Instruments
-0.1287	False	ICMPC			ICMPC/ICMPC06/pdfs/680.pdf.txt	A Laptop Ensemble Performance System using Recurrent Neural Networks
-0.1287	False	ISMIR	2018	COMPUTATIONAL CORPUS ANALYSIS: A CASE STUDY ON JAZZ SOLOS Christof Weiß1	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/23_Paper.pdf.txt	Evaluating the Perceived Similarity Between Audio-Visual Features Using Corpus-Based Concatenative Synthesis
 0.1286	False	DAFx	2006		DAFx/2006/papers/p_095.pdf.txt	Physical Audio Digital Filters
 0.1286	False	GestureWorkshop	2003	Correlation of Gestural Musical Audio Cues and Perceived Expressive Qualities	GestureWorkshop/2003/Leman2003.pdf.txt	The Accordiatron: A Gestural Interface for Interactive Music
+0.1286	False	ICMPC			ICMPC/ICMPC06/pdfs/680.pdf.txt	A Laptop Ensemble Performance System using Recurrent Neural Networks
 0.1286	False	M&G2			M&G2/contents/Guy Rebecca M&G2 full paper.pdf.txt	A Digital Flute
 0.1285	False	ICMC	2005	D Dahan, Kevin Dannenberg, Roger Davidson, Philip Davis, Tom De Campo, Alberto	ICMC/2005/defevent/authors/D.pdf.txt	Beethoven-in-a-Box: Raymond Scott's Electronium
 0.1285	False	ICMPC			ICMPC/ICMPC06/pdfs/414.pdf.txt	The Development of a Piano Player
-0.1284	False	ICMC	2001	Do Composition Systems Support Creativity? - An evaluation Barry Eaglestone, Nigel Ford, Mark Clowes	ICMC/2001/data/cr1340.pdf.txt	Composers' Views on Mapping in Algorithmic Composition
 0.1284	False	ICMPC			ICMPC/ICMPC06/pdfs/189.pdf.txt	On Mapping N Articulation onto M Synthesiser-Control Parameters
 0.1283	False	ICMC	2000	Music as HandWerk, the middle way between Vorhandenheit and Zuhandenheit	ICMC/2000/Papers/11Aesth1/2Richard.pdf.txt	A computer Music Repertory
+0.1283	False	ICMC	2001	Do Composition Systems Support Creativity? - An evaluation Barry Eaglestone, Nigel Ford, Mark Clowes	ICMC/2001/data/cr1340.pdf.txt	Composers' Views on Mapping in Algorithmic Composition
 0.1283	False	ICMC	2008	THE BIGBANG RUBETTE: GESTURAL MUSIC COMPOSITION WITH RUBATO COMPOSER	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1316.pdf.txt	Spatial Sound Synthesis in Computer-Aided Composition
-0.1283	False	ICMC	2008	THE EFFECT OF AIR TURBULENCE ON SOUND AND ITS APPLICATION TO MUSICAL SIGNAL PROCESSING	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1691.pdf.txt	Virtual Air Guitar
 0.1282	False	ICMC	2008	OWT: A REAL-TIME OPTIMAL TUNING APPLICATION Wei Pan1 , Micah K. Johnson2 , Larry Polansky3 , Daniel Rockmore1,4 and Douglas Repetto5	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1399.pdf.txt	Isomorphic Controllers and Dynamic Tuning: Invariant Fingering over a Tuning Continuum
+0.1282	False	ICMC	2008	THE EFFECT OF AIR TURBULENCE ON SOUND AND ITS APPLICATION TO MUSICAL SIGNAL PROCESSING	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1691.pdf.txt	Virtual Air Guitar
 0.1282	False	ICMPC			ICMPC/ICMPC06/pdfs/278.pdf.txt	A Minor Chord for BladeAxe
-0.1282	False	ICMPC			ICMPC/ICMPC06/pdfs/289.pdf.txt	Live Repurposing of Sounds: MIR Explorations with Personal and Crowdsourced Databases
 0.1282	False	ICMPC			ICMPC/ICMPC06/pdfs/513.pdf.txt	ism: Improvisation Supporting System based on Melody Correction
 0.1282	False	ICMPC			ICMPC/ICMPC06/pdfs/516.pdf.txt	Voice at NIME: a Taxonomy of New Interfaces for Vocal Musical Expression
 0.1282	False	ISMIR	2018	DALI: A LARGE DATASET OF SYNCHRONIZED AUDIO, LYRICS AND NOTES, AUTOMATICALLY CREATED USING TEACHER-STUDENT	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/35_Paper.pdf.txt	LiVo: Sing a Song with a Vowel Keyboard
 0.1281	False	ICMC	2005	PERCEPTUAL ATOMIC NOISE Kristoffer Jensen	ICMC/2005/defevent/papers/cr1211.pdf.txt	Operating Sound Parameters Using Markov Model and Bayesian Filters in Automated Music Performance
+0.1281	False	ICMPC			ICMPC/ICMPC06/pdfs/289.pdf.txt	Live Repurposing of Sounds: MIR Explorations with Personal and Crowdsourced Databases
 0.128	False	ICMC	2008	HIGHER-ORDER CONSTRAINT APPLICATORS FOR MUSIC CONSTRAINT PROGRAMMING	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1511.pdf.txt	Style and Constraint in Electronic Musical Instruments
 0.128	False	ICMPC			ICMPC/ICMPC06/pdfs/199.pdf.txt	Evaluating the Perceived Similarity Between Audio-Visual Features Using Corpus-Based Concatenative Synthesis
 0.128	False	SMC	2010	LYRICS-TO-AUDIO ALIGNMENT AND PHRASE-LEVEL SEGMENTATION USING INCOMPLETE INTERNET-STYLE CHORD ANNOTATIONS	SMC/2010/2.pdf.txt	LiVo: Sing a Song with a Vowel Keyboard
 0.1278	False	ICMPC			ICMPC/ICMPC06/pdfs/192.pdf.txt	Machine Songs
 0.1278	False	ICMPC			ICMPC/ICMPC06/pdfs/231.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
 0.1278	False	ICMPC			ICMPC/ICMPC06/pdfs/240.pdf.txt	Non Haptic Control of Music by Video Analysis of Hand Movements: 14 Years of Experience with the `Caméra Musicale'
+0.1278	False	ICMPC			ICMPC/ICMPC06/pdfs/507.pdf.txt	Musicianship for Robots with Style
 0.1277	False	ICMC	2008	A STUDY INTO THE PERCEPTION OF ENVELOPMENT IN ELECTROACOUSTIC MUSIC	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1798.pdf.txt	Reflections of a former perfomer of electroacoustic music
 0.1277	False	ICMPC		Pitch and tempo precision in the reproduction of familiar songs	ICMPC/ICMPC06/pdfs/459.pdf.txt	Machine Songs
 0.1277	False	ISMIR	2018	EMPIRICALLY WEIGHING THE IMPORTANCE OF DECISION FACTORS WHEN SELECTING MUSIC TO SING	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/117_Paper.pdf.txt	Carl Michael von Hausswolff
 0.1276	False	DAFx	2006		DAFx/2006/papers/p_193.pdf.txt	Online Map Interface for Creative and Interactive
 0.1276	False	ICMC	2008	INTRODUCING ASANNOTATION: A TOOL FOR SOUND ANALYSIS AND ANNOTATION	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1616.pdf.txt	Mutations
 0.1276	False	ICMPC			ICMPC/ICMPC06/pdfs/363.pdf.txt	Generating Convincing Harmony Parts with Simple Long Short-Term Memory Networks
-0.1276	False	ICMPC			ICMPC/ICMPC06/pdfs/507.pdf.txt	Musicianship for Robots with Style
 0.1275	False	ICMC	2005	A GENETIC ALGORITHM FOR THE AUTOMATIC GENERATION OF PLAYABLE GUITAR TABLATURE	ICMC/2005/defevent/papers/cr1021.pdf.txt	Musical applications of new, multi-axis guitar string sensors
 0.1275	False	ICMC	2008	VISUALISATION OF MUSICAL STRUCTURE BY APPLYING IMPROVED EDITING ALGORITHMS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1577.pdf.txt	Matching Parts : Inner Voice Led Control for Symbolic and Audio Accompaniment
 0.1275	False	ISMIR	2018	METER DETECTION AND ALIGNMENT OF MIDI PERFORMANCE Andrew McLeod	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/136_Paper.pdf.txt	Automatic Rhythmic Performance in Max/MSP: the kin.rhythmicator
@@ -858,6 +857,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1272	False	ICMPC			ICMPC/ICMPC06/pdfs/439.pdf.txt	Instruments and the Electronic Age
 0.1272	False	ISMIR	2018	LEARNING TRANSPOSITION-INVARIANT INTERVAL FEATURES FROM SYMBOLIC MUSIC AND AUDIO	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/172_Paper.pdf.txt	The Samchillian Tip Tip Tip Cheeepeeeee : A Relativistic Keyboard Instrument
 0.1272	False	ISMIR	2018	ANALYSIS BY CLASSIFICATION: A COMPARATIVE STUDY OF ANNOTATED AND ALGORITHMICALLY EXTRACTED PATTERNS IN	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/75_Paper.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
+0.1271	False	ICMC	2001	Grouping, Similarity and the Recognition of Rhythmic Structure	ICMC/2001/data/cr1360.pdf.txt	A Model for Human-Computer Interaction Based on the Recognition of Musical Gestures
 0.1269	False	ICMC	2005	TOWARDS A ROADMAP FOR THE RESEARCH IN MUSIC TECHNOLOGY Xavier Serra	ICMC/2005/defevent/papers/cr1198.pdf.txt	Towards a Repository Template for Music Technology Research
 0.1269	False	ICMC	2008	VOICE SEPARATION IN POLYPHONIC MUSIC: A DATA-DRIVEN APPROACH Anna Jordanous	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1582.pdf.txt	VIDI – a voice instrument digital interface of Byzantine music
 0.1269	False	ICMPC			ICMPC/ICMPC06/pdfs/316.pdf.txt	Associating Emoticons with Musical Genres
@@ -867,11 +867,10 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1267	False	ICMC	2008	AUTOMATIC FITNESS IN GENERATIVE JAZZ IMPROVISATION Kjell Bäckman	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1474.pdf.txt	JamSketch: A Drawing-based Real-time Evolutionary Improvisation Support System
 0.1267	False	ICMC	2008	Telematic Music – Restrictions and Advantages Compared to Traditional One-Site	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1807.pdf.txt	Network Latency Adaptive Tempo in the Public Sound Objects System
 0.1267	False	ICMPC			ICMPC/ICMPC06/pdfs/322.pdf.txt	An Interface for Emotional Expression in Audio-Visuals
-0.1266	False	DAFx	2002		DAFx/2002/DAFX02_Fitzgerald_Coyle_Lawlor_drum_transcription.pdf.txt	Automated Violin Fingering Transcription Through Analysis of an Audio Recording
 0.1266	False	DAFx	2002		DAFx/2002/DAFX02_Polotti_Menzer_Evangelista_inharmonic_sound.pdf.txt	Synthesis and Control of Everyday Sounds Reconstructing Russolo's Intonarumori
 0.1266	False	ICMC	2000	THE SHORT-TIME LAGUERRE TRANSFORM: A NEW METHOD FOR REAL-TIME FREQUENCY WARPING OF SOUNDS	ICMC/2000/Papers/82SoSyM2/1Evangel.pdf.txt	Frequency Content of Breath Pressure and Implications for Use in Control
 0.1266	False	ICMPC			ICMPC/ICMPC06/pdfs/77.pdf.txt	Motor Imagery: What Does It Offer for New Digital Musical Instruments?
-0.1266	False	ICMPC			ICMPC/ICMPC06/pdfs/91.pdf.txt	Words to Music Synthesis
+0.1265	False	DAFx	2002		DAFx/2002/DAFX02_Fitzgerald_Coyle_Lawlor_drum_transcription.pdf.txt	Automated Violin Fingering Transcription Through Analysis of an Audio Recording
 0.1265	False	ICMC	2005	Session : Poster Introduction Session	ICMC/2005/defevent/sessions/s700.pdf.txt	Introduction
 0.1265	False	ICMPC			ICMPC/ICMPC06/pdfs/173.pdf.txt	Toward an Emotionally Intelligent Piano: Real-Time Emotion Detection and Performer Feedback via Kinesthetic Sensing in Piano Performance
 0.1265	False	ICMPC			ICMPC/ICMPC06/pdfs/308.pdf.txt	21st-Century Musical Instruments: Hardware and Software
@@ -879,6 +878,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1264	False	DAFx	2002		DAFx/2002/DAFX02_Skovenborg_Nielsen_consonance-1.pdf.txt	Interaction with Tonal Pitch Spaces
 0.1264	False	ICMC	2008	MUSIC AND GESTURE FILE: PERFORMANCE VISUALISATION, ANALYSIS, STORAGE AND EXCHANGE	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1784.pdf.txt	Towards a Gesture Description Interchange Format
 0.1263	False	ICMPC			ICMPC/ICMPC06/pdfs/51.pdf.txt	Song Kernel --- Explorations in Intuitive Use of Harmony
+0.1263	False	ICMPC			ICMPC/ICMPC06/pdfs/91.pdf.txt	Words to Music Synthesis
 0.1262	False	ICMC	2008	ANALYSIS, VISUALIZATION, AND TRANSFORMATION OF AUDIO SIGNALS USING DICTIONARY-BASED METHODS	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1409.pdf.txt	An Overview of the Structured Sound Synthesis Project
 0.1261	False	ICMC	2000	An Evaluation Study on Music Perception for Music Content-based Information Retrieval	ICMC/2000/Papers/41MuInR1/2Melucci.pdf.txt	Automatic Recognition of Soundpainting for the Generation of Electronic Music Sounds
 0.1261	False	ICMC	2008	REMOTE 3D−AUDIO PERFORMANCE WITH SPATIALIZED DISTRIBUTION	ICMC/2008/ICMC08 USB Proceedings/defevent/abstract/a1821.pdf.txt	Everything In Its Place
@@ -899,13 +899,13 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1254	False	ICMC	2001	Detection and modeling of fast attack transients Xavier Rodet and Florent Jaillet1	ICMC/2001/data/cr1379.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1254	False	ICMC	2005	MUSICAL THOUGHT NETWORKED Dante Tanzi Laboratorio di Informatica Musicale	ICMC/2005/defevent/papers/cr1061.pdf.txt	Time, proximity and meaning on the net
 0.1254	False	ICMC	2008	Posters 2	ICMC/2008/ICMC08 USB Proceedings/defevent/sessions/s360.pdf.txt	An abstract control space for communication of sensory expressive intentions in music performance
-0.1252	False	DAFx	2002		DAFx/2002/DAFX02_Boyer_Abed-Meraim_audio_transient_modeling.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1252	False	ICMC	2005	ISIS, AN ALTERNATIVE APPROACH TO SOUND WAVES Clarence Barlow Royal Conservatoire	ICMC/2005/defevent/papers/cr1192.pdf.txt	The Theremin Textural Expander
 0.1252	False	ICMPC			ICMPC/ICMPC06/pdfs/237.pdf.txt	Cognitive Issues in Computer Music Programming
 0.1252	False	ICMPC			ICMPC/ICMPC06/pdfs/477.pdf.txt	Electronic Melodic Instruments
 0.1252	False	ICMPC			ICMPC/ICMPC06/pdfs/701.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
 0.1252	False	M&G2			M&G2/contents/Lee Martin M&G2 full paper.pdf.txt	Gesture -- Music
 0.1252	False	SMC	2010	ADDITIONAL EVIDENCE THAT COMMON LOW-LEVEL FEATURES OF INDIVIDUAL AUDIO FRAMES ARE NOT REPRESENTATIVE OF MUSIC	SMC/2010/20.pdf.txt	An Interface for Real-time Classification of Articulations Produced by Violin Bowing
+0.1251	False	DAFx	2002		DAFx/2002/DAFX02_Boyer_Abed-Meraim_audio_transient_modeling.pdf.txt	Steelpan-specific pitch detection: a dataset and deep learning model
 0.1251	False	ICMC	2000	The effect of inharmonicity on pitch in string instrument sounds	ICMC/2000/Papers/56SoPrP2/1Jarvela.pdf.txt	Terracotta
 0.1251	False	ICMC	2000	A NEW ALGORITHM FOR BANDWIDTH ASSOCIATION IN BANDWIDTH-ENHANCED ADDITIVE SOUND MODELING	ICMC/2000/Papers/82SoSyM2/2Fitz1.pdf.txt	Techniques for Multi-Channel Real-Time Spatial Distribution Using Frequency-Domain Processing
 0.1251	False	ICMC	2008	MUSIC THAT LISTENS TO WHAT'S GOING TO HAPPEN: INTERNETENHANCED, SELF-ADAPTING SOUNDSCAPES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1822.pdf.txt	The Tipping Point
@@ -939,9 +939,9 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.124	False	SMC	2010	SHORT TERM PITCH MEMORY IN WESTERN vs. OTHER EQUAL TEMPERAMENT TUNING	SMC/2010/72.pdf.txt	Interaction with Tonal Pitch Spaces
 0.1238	False	ICMC	2000	Next Steps from NeXTSTEP: MusicKit and SoundKit in a New World	ICMC/2000/Papers/Demos/04Brand.pdf.txt	Interactive Mobile Musical Application using faust2smartphone
 0.1238	False	ICMPC			ICMPC/ICMPC06/pdfs/48.pdf.txt	Design for auditory imagery: altering instruments to explore performer fluency
+0.1238	False	ISMIR	2018	StructureNet: INDUCING STRUCTURE IN GENERATED MELODIES Gabriele Medeot1	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/126_Paper.pdf.txt	Transformer Neural Networks for Automated Rhythm Generation
 0.1237	False	DAFx	2006		DAFx/2006/papers/p_283.pdf.txt	FAUST Multiplatform toolbox for Body Brain Digital Musical Instruments
 0.1237	False	ICMC	2005	COMBINING AUDIO AND GESTURES FOR A REAL-TIME IMPROVISER Roberto Morales	ICMC/2005/defevent/papers/cr1183.pdf.txt	The Aesthetics of Interactive Computer Music
-0.1237	False	ISMIR	2018	StructureNet: INDUCING STRUCTURE IN GENERATED MELODIES Gabriele Medeot1	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/126_Paper.pdf.txt	Transformer Neural Networks for Automated Rhythm Generation
 0.1236	False	ICMC	2008	INFNO: GENERATING SYNTH POP AND ELECTRONIC DANCE MUSIC ON DEMAND	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1136.pdf.txt	Controlling Live Generative Electronic Music with Deviate
 0.1235	False	ICMPC			ICMPC/ICMPC06/pdfs/170.pdf.txt	Learning Performance Rules in a Music Interpretation System
 0.1234	False	ICMPC			ICMPC/ICMPC06/pdfs/298.pdf.txt	Interaction with Tonal Pitch Spaces
@@ -982,13 +982,14 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1222	False	SMC	2010	ACOUSTIC REHABILITATIO OF A LITTLE CHURCH I VIAROS (SPAI)	SMC/2010/69.pdf.txt	ROOM#81
 0.1221	False	ICMPC			ICMPC/ICMPC06/pdfs/142.pdf.txt	Revisiting Cagean Composition Methodology with a Modern Computational Implementation
 0.1221	False	ICMPC			ICMPC/ICMPC06/pdfs/274.pdf.txt	four fragments---A Performance for Swarming Robotics
+0.122	False	ICMC	2005	Session : Paper Session 3: Systems for Composition and Music Education	ICMC/2005/defevent/sessions/s400.pdf.txt	Vistas
 0.122	False	ICMC	2008	A MUSIC LOOP EXPLORER SYSTEM Sebastian Streich Bee Suan Ong YAMAHA Corporation	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1315.pdf.txt	Blackbox Loops
 0.122	False	ICMPC			ICMPC/ICMPC06/pdfs/425.pdf.txt	Optical Music Recognition for Interactive Score Display
 0.122	False	ISMIR	2018	INFLUENCES ON THE SOCIAL PRACTICES SURROUNDING COMMERCIAL MUSIC	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/52_Paper.pdf.txt	The Other Hegemony: Effects of software development culture on music software, and what we can do about it
 0.122	False	ISMIR	2018	ALIGNED SUB-HIERARCHIES: A STRUCTURE-BASED APPROACH TO THE COVER SONG TASK	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/81_Paper.pdf.txt	BeatJockey : A New Tool for Enhancing DJ Skills
 0.1219	False	SMC	2010	AUTOMATIC MUSIC COMPOSITION BASED ON COUNTERPOINT AND IMITATION USING STOCHASTIC MODELS	SMC/2010/49.pdf.txt	The Well-Sequenced Synthesizer
 0.1218	False	SMC	2010	A PERCEPTUAL STUDY ON DYNAMICAL FORM IN MUSIC Jens Hjortkjær Dept. of Arts and Cultural Studies	SMC/2010/61.pdf.txt	Dynamical modeling of the grand piano action
-0.1216	False	ICMPC			ICMPC/ICMPC06/pdfs/481.pdf.txt	bog : Instrumental Aliens
+0.1216	False	ICMPC			ICMPC/ICMPC06/pdfs/481.pdf.txt	Étude et réalisation de dispositifs de captation du jeu instrumental
 0.1215	False	GestureWorkshop	2003	Gesture in Style Han Noot and Zsófia Ruttkay Center for Mathematics and Computer Science	GestureWorkshop/2003/Noot2003.pdf.txt	Sonification of Facial Actions for Musical Expression
 0.1215	False	ICMC	2005	PATHS ON STERN-BROCOT TREE AND WINDING NUMBERS OF MODES Domenico Vicinanza	ICMC/2005/defevent/papers/cr1144.pdf.txt	Taking the Auspices
 0.1214	False	ICMC	2005	PHASE BASHING FOR SAMPLE-BASED FORMANT SYNTHESIS Miller Puckette	ICMC/2005/defevent/papers/cr1194.pdf.txt	Real-time CALM Synthesizer: New Approaches in Hands-Controlled Voice Synthesis
@@ -1003,24 +1004,23 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1209	False	ICMC	2008	IKLAX : A NEW MUSICAL AUDIO FORMAT FOR INTERACTIVE MUSIC Fabien Gallot	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1575.pdf.txt	Music Interfaces for Novice Users : Composing Music on a Public Display with Hand Gestures
 0.1209	False	ISMIR	2018	WAVE-U-NET: A MULTI-SCALE NEURAL NETWORK FOR END-TO-END AUDIO SOURCE SEPARATION	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/205_Paper.pdf.txt	Simulated EEG-Driven Audio Information Mapping Using Inner Hair-Cell Model and Spiking Neural Network
 0.1208	False	DAFx	2006		DAFx/2006/papers/p_025.pdf.txt	The Disfunctions of MIDI
+0.1208	False	ICMPC			ICMPC/ICMPC06/pdfs/541.pdf.txt	The SensOrg: A Musical Cyberinstrument with a Cognitive Ergonomical Touch
 0.1207	False	ICMC	2005	Timbre as a Psychoacoustic Parameter for Harmonic Composition	ICMC/2005/defevent/abstract/a1330.pdf.txt	Timbre et causalité
 0.1207	False	ICMC	2008	MULTICORE TECHNOLOGIES IN JACK AND FAUST Y. Orlarey Grame	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1815.pdf.txt	A Simple Architecture for Server-based (Indoor) Audio Walks
-0.1207	False	ICMPC			ICMPC/ICMPC06/pdfs/541.pdf.txt	The SensOrg: A Musical Cyberinstrument with a Cognitive Ergonomical Touch
 0.1207	False	ISMIR	2018	A GENERALIZED PARSING FRAMEWORK FOR GENERATIVE MODELS OF HARMONIC SYNTAX	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/258_Paper.pdf.txt	ImprovGenerator : Online Grammatical Induction for On-the-Fly Improvisation Accompaniment
 0.1206	False	DAFx	2002		DAFx/2002/DAFX02_Badeau_Boyer_David_EDS_modeling_tracking.pdf.txt	Methods for Modeling Realistic Playing in Acoustic Guitar Synthesis
 0.1206	False	ICMPC			ICMPC/ICMPC06/pdfs/30.pdf.txt	Audiovisual Interactions: The Impact of Visual Information on Music Perception and Memory
 0.1205	False	ICMC	2000	Integrating Bayesian Networks with Logic Programs for Music R. Morales	ICMC/2000/Papers/68ToIntC/3Morales.pdf.txt	Fuzzy Logic Control Toolkit 2.0: composing and synthesis by fuzzyfication
-0.1205	False	ICMC	2005	Session : Paper Session 3: Systems for Composition and Music Education	ICMC/2005/defevent/sessions/s400.pdf.txt	Vistas
 0.1205	False	ICMPC			ICMPC/ICMPC06/pdfs/304.pdf.txt	Polyhymnia : An Automatic Piano Performance System with Statistical Modeling of Polyphonic Expression and Musical Symbol Interpretation
 0.1204	False	ICMPC			ICMPC/ICMPC06/pdfs/90.pdf.txt	Measurement of Latency in Interactive Multimedia Art
 0.1204	False	ISMIR	2018	A DATA-DRIVEN APPROACH TO MID-LEVEL PERCEPTUAL MUSICAL FEATURE MODELING	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/183_Paper.pdf.txt	Descriptors for Perception of Quality in Jazz Piano Improvisation
-0.1203	False	DAFx	2002		DAFx/2002/DAFX02_Ottaviani_Fontana_Rocchesso_distance_cues.pdf.txt	The Perception of Live-sequenced Electronic Music via Hearing and Sight
+0.1203	False	ICMC	2008	INTEGRATED RECOGNITION SYSTEM FOR MUSIC SCORES Artur Capela, Jaime S. Cardoso	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1637.pdf.txt	21st-Century Musical Instruments: Hardware and Software
 0.1203	False	ICMPC			ICMPC/ICMPC06/pdfs/646.pdf.txt	Polyphonic velocity-sensitive keyboard interface
 0.1203	False	ICMPC		FREQUENTLY ASKED QUESTIONS LINK ► ► ► PROBLEM SUMMARY	ICMPC/ICMPC08/ICMPC10/CAUSAL/FAQ.PDF.txt	The New Media Reader
+0.1202	False	DAFx	2002		DAFx/2002/DAFX02_Ottaviani_Fontana_Rocchesso_distance_cues.pdf.txt	The Perception of Live-sequenced Electronic Music via Hearing and Sight
 0.1202	False	DAFx	2006		DAFx/2006/papers/p_115.pdf.txt	Multi-instrument Virtual Keyboard -- The MIKEY Project
 0.1202	False	ICMC	2001	The Local Boundary Detection Model (LBDM) and its Application in the Study of Expressive Timing	ICMC/2001/data/cr1067.pdf.txt	Electronic Melodic Instruments
 0.1202	False	ICMC	2005	INTRA-NOTE FEATURES PREDICTION MODEL FOR JAZZ SAXOPHONE PERFORMANCE	ICMC/2005/defevent/papers/cr1281.pdf.txt	An Experimental Set of Hand Gestures for Expressive Control of Musical Parameters in Realtime
-0.1202	False	ICMC	2008	INTEGRATED RECOGNITION SYSTEM FOR MUSIC SCORES Artur Capela, Jaime S. Cardoso	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1637.pdf.txt	21st-Century Musical Instruments: Hardware and Software
 0.12	False	DAFx	2006		DAFx/2006/papers/p_057.pdf.txt	Filtering Motion Capture Data for Real-Time Applications
 0.12	False	ICMC	2001	Transients modelling by pruned wavelet trees Laurent Daudet	ICMC/2001/data/cr1400.pdf.txt	Moon via Spirit (2019) for hybrid analogue/digital live electronics
 0.12	False	ICMC	2008	ADAPTIVE MELODIC SEGMENTATION AND MOTIVIC IDENTIFICATION Greg Wilder	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1602.pdf.txt	Music Data Mining
@@ -1053,7 +1053,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1189	False	ISMIR	2018	INVESTIGATING CROSS-COUNTRY RELATIONSHIP BETWEEN USERS’ SOCIAL TIES AND MUSIC MAINSTREAMINESS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/130_Paper.pdf.txt	MMODM: Massively Multipler Online Drum Machine
 0.1188	False	DAFx	2006		DAFx/2006/papers/p_297.pdf.txt	M.I.N.I. (Musical Instruments Numerical Interface)
 0.1188	False	ICMC	2005	SOFTWARE FOR SPECTRAL ANALYSIS, EDITING, AND SYNTHESIS Michael Klingbeil	ICMC/2005/defevent/papers/cr1121.pdf.txt	Developing a Windows and Macintosh Graphical User Interface for the Mathews Radio-Baton System
-0.1187	False	ICMPC			ICMPC/ICMPC06/pdfs/303.pdf.txt	Cognitive Issues in Computer Music Programming
+0.1188	False	ICMPC			ICMPC/ICMPC06/pdfs/303.pdf.txt	Cognitive Issues in Computer Music Programming
 0.1187	False	ICMPC			ICMPC/ICMPC06/pdfs/542.pdf.txt	Risky business: Disfluency as a design strategy
 0.1186	False	CIM	2005	Sound Shaping and Timbral Justification in the 'Moral Realist	CIM/2005/CIM05_Articles/RUDY_P_CIM05.pdf.txt	MuDI - Multimedia Digital Instrument for Composing and Performing Digital Music for Films in Real-time
 0.1186	False	ICMC	2000	Fleece: Graphical 3-D Trajectory Specification Software for Spatialization in Live Performance	ICMC/2000/Papers/66Spati2/1Castle.pdf.txt	A Look at the Design and Creation of a Graphically Controlled Digital Musical Instrument
@@ -1093,10 +1093,9 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1166	False	DAFx	2006		DAFx/2006/papers/p_007.pdf.txt	Composing For Improvisation with Chaotic Oscillators
 0.1166	False	ICMPC			ICMPC/ICMPC06/pdfs/204.pdf.txt	Digital Musical Interactions: Performer-system relationships and their perception by spectators
 0.1164	False	ICMC	2008	NOT BEING THERE Miller Puckette Center for Research in Computing and the Arts	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1808.pdf.txt	Diastema for the time floating between the networked remote places
-0.1164	False	ICMPC			ICMPC/ICMPC06/pdfs/164.pdf.txt	Trimpin: An Interview
+0.1164	False	ICMPC			ICMPC/ICMPC06/pdfs/164.pdf.txt	An Interview with Sensorband
 0.1163	False	ICMC	2005	NOTATION-BASED ANCIENT GREEK MUSIC SYNTHESIS WITH Dionysios Politis	ICMC/2005/defevent/papers/cr1095.pdf.txt	Metamorphosis
 0.1163	False	ICMC	2008	AMBISONICS EQUIVALENT PANNING Martin Neukom, Jan C. Schacher	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1146.pdf.txt	The ZKM Klangdom
-0.1163	False	ICMC	2008	PANEL SESSION Reinventing Audio and Music Computation for Many-Core	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1717.pdf.txt	Computers and Future music
 0.1163	False	ICMPC			ICMPC/ICMPC06/pdfs/50.pdf.txt	Audiovisual Interactions: The Impact of Visual Information on Music Perception and Memory
 0.1163	False	ICMPC			ICMPC/ICMPC06/pdfs/638.pdf.txt	Making Mappings: Design Criteria for Live Performance
 0.1162	False	ICMPC			ICMPC/ICMPC06/pdfs/608.pdf.txt	On the Inclusivity of Constraint: Creative Appropriation in Instruments for Neurodiverse Children and Young People
@@ -1124,6 +1123,7 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1149	False	ICMC	2005	TILING THE (MUSICAL) LINE WITH POLYNOMIALS: SOME THEORETICAL AND IMPLEMENTATIONAL ASPECTS	ICMC/2005/defevent/papers/cr1098.pdf.txt	Packages for ArtWonk : New Mathematical Tools for Composers
 0.1148	False	ICMC	2005	KARAOKE SYSTEM WITH SPATIAL ACOUSTICS ESTIMATION FOR VOCAL OR INSTRUMENTAL REMOVAL	ICMC/2005/defevent/papers/cr1102.pdf.txt	Trondheim Voices
 0.1147	False	ICMC	2008	”UNDERGROUND SOUNDS” EXPERIMENTING WITH THE SOUNDS OF EARTHQUAKES	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1703.pdf.txt	Active Acoustic Instruments for Electronic Chamber Music
+0.1146	False	ICMC	2008	PANEL SESSION Reinventing Audio and Music Computation for Many-Core	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1717.pdf.txt	Computers and Future Music
 0.1146	False	ICMC	2008	THE CYCLOTRON: A TOOL FOR PLAYING WITH TIME Daniel Trueman	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1787.pdf.txt	Toward a Theory of Interfaces for Computer Music Systems
 0.1146	False	ICMPC			ICMPC/ICMPC06/pdfs/110.pdf.txt	Disentangling Relative from Absolute Amplitude in Fitts' Law Experiments
 0.1146	False	ICMPC			ICMPC/ICMPC06/pdfs/487.pdf.txt	Reframing Consciousness: Art, Mind and Technology
@@ -1164,17 +1164,17 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.113	False	ISMIR	2018	COVER SONG SYNTHESIS BY ANALOGY Christopher J. Tralie	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/103_Paper.pdf.txt	Carl Michael von Hausswolff
 0.1129	False	ICMPC			ICMPC/ICMPC06/pdfs/365.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
 0.1128	False	DAFx	2006		DAFx/2006/papers/p_053.pdf.txt	Physical Audio Digital Filters
-0.1128	False	ICMC	2005	A PEN-BASED MUSICAL SCORE EDITOR Sébastien Macé Eric Anquetil	ICMC/2005/defevent/papers/cr1085.pdf.txt	Computer audio research laboratory report
+0.1127	False	ICMC	2005	A PEN-BASED MUSICAL SCORE EDITOR Sébastien Macé Eric Anquetil	ICMC/2005/defevent/papers/cr1085.pdf.txt	Computer audio research laboratory report
 0.1127	False	ICMC	2005	SONENVIR – A PROGRESS REPORT Alberto de Campo Christopher Frauenberger	ICMC/2005/defevent/papers/cr1196.pdf.txt	Towards a Humane Graphical User Interface for Live Electronic Music
 0.1126	False	ICMPC			ICMPC/ICMPC06/pdfs/266.pdf.txt	Interaction with Tonal Pitch Spaces
 0.1123	False	ICMPC			ICMPC/ICMPC06/pdfs/54.pdf.txt	Towards Rhythmic Analysis of Human Motion Using Acceleration-Onset Times
 0.1122	False	ICMPC			ICMPC/ICMPC06/pdfs/626.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
-0.1121	False	ICMPC			ICMPC/ICMPC06/pdfs/131.pdf.txt	Television Sky
 0.1121	False	ICMPC			ICMPC/ICMPC06/pdfs/572.pdf.txt	Quartet for Strings
 0.112	False	ICMC	2008	DRAWING ELECTROACOUSTIC MUSIC Jean-Baptiste Thiebaut, Patrick G. T. Healey, Nick Bryan Kinns	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1630.pdf.txt	Distributed Control in a Mechatronic Musical Instrument
 0.112	False	ICMPC			ICMPC/ICMPC06/pdfs/415.pdf.txt	The SensOrg: A Musical Cyberinstrument with a Cognitive Ergonomical Touch
 0.1119	False	DAFx	2006		DAFx/2006/papers/p_303.pdf.txt	Physical Audio Digital Filters
 0.1119	False	ICMC	2005	SEMANTIC SEGMENTATION OF MUSIC AUDIO CONTENTS Bee Suan Ong & Perfecto Herrera	ICMC/2005/defevent/papers/cr1289.pdf.txt	Emovere: Designing Sound Interactions for Biosignals and Dancers
+0.1119	False	ICMPC			ICMPC/ICMPC06/pdfs/131.pdf.txt	Television Sky
 0.1119	False	ICMPC			ICMPC/ICMPC06/pdfs/462.pdf.txt	Hoppsa Universum -- An Interactive Dance Installation for Children
 0.1119	False	ICMPC			ICMPC/ICMPC06/pdfs/655.pdf.txt	GROOVE, a Program for Realtime Control of a Sound Synthesizer by a Computer
 0.1118	False	DAFx	2002		DAFx/2002/DAFX02_Raad_Mertins_lossy_lossless_coding.pdf.txt	Communication of musical gesture using the AES/EBU digital audio standard
@@ -1203,10 +1203,10 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1106	False	ICMC	2008	DIGITAL TIME: COMPLEXITY AND PERCEPTION Dante Tanzi	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1343.pdf.txt	Digital Musical Interactions: Performer-system relationships and their perception by spectators
 0.1105	False	ICMPC			ICMPC/ICMPC06/pdfs/244.pdf.txt	Sound Analyser: A Plug-In for Real-Time Audio Analysis in Live Performances and Installations
 0.1105	False	ISMIR	2018	SE AND SN L DIAGRAMS: FLEXIBLE DATA STRUCTURES FOR MIR Melissa R. McGuirl 1	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/105_Paper.pdf.txt	Arrangements: Flexibly Adapting Music Data for Live Performance
-0.1104	False	ISMIR	2018	CONCERT STITCH: ORGANIZATION AND SYNCHRONIZATION OF CROWD-SOURCED RECORDINGS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/182_Paper.pdf.txt	Synchronization of Multimodal Recordings for Musical Performance Research
 0.1103	False	ICMC	2005	H Hamanaka, Masatoshi Hamilton, Robert Hanna, Pierre Hansen, Kjetil Falkenberg	ICMC/2005/defevent/authors/H.pdf.txt	Interview with Robert Moog
 0.1103	False	ICMC	2008	K Kapur, Ajay Kendall, Gary Kersten, Stefan Kessous, Loic Kiefer, Chris	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/K.pdf.txt	Representation-Plurality in Multi-Touch Mobile Visual Programming for Music
 0.1103	False	ICMPC		Some considerations on algorithmic music and madrigals of Gesualdo da Venosa	ICMPC/ICMPC06/pdfs/115.pdf.txt	Packages for ArtWonk : New Mathematical Tools for Composers
+0.1103	False	ISMIR	2018	CONCERT STITCH: ORGANIZATION AND SYNCHRONIZATION OF CROWD-SOURCED RECORDINGS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/182_Paper.pdf.txt	Synchronization of Multimodal Recordings for Musical Performance Research
 0.1102	False	ICMPC			ICMPC/ICMPC06/pdfs/611.pdf.txt	Audiovisual Interactions: The Impact of Visual Information on Music Perception and Memory
 0.1099	False	ICMC	2008	STOCHASTIC RESONANCE SOUND SYNTHESIS Rodrigo F. Cádiz and Patricio de la Cuadra	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1548.pdf.txt	An approach to stochastic spatialization --- A case of Hot Pocket
 0.1097	False	ICMC	2001	Visualizing Musical Structure and Rhythm via Self-Similarity Jonathan Foote and Matthew Cooper	ICMC/2001/data/cr1043.pdf.txt	Haptic Music Player---Synthetic audio-tactile stimuli generation based on the notes' pitch and instruments' envelope mapping
@@ -1225,13 +1225,13 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.1084	False	DAFx	2002		DAFx/2002/DAFX02_Smith_Serafin_Abel_Berners_doppler_leslie.pdf.txt	Sodaconductor
 0.1083	False	DAFx	2002		DAFx/2002/DAFX02_Hanna_Desainte-Catherine_overlap_add_noise_synthesis.pdf.txt	Techniques for Multi-Channel Real-Time Spatial Distribution Using Frequency-Domain Processing
 0.1082	False	ISMIR	2018	VENUERANK: IDENTIFYING VENUES THAT CONTRIBUTE TO ARTIST POPULARITY	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/91_Paper.pdf.txt	The Medium is the Message: Composing Instruments and Performing Mappings
+0.1081	False	ICMC	2008	DIGITAL MUSIC COLLECTIONS: A PLACE OF KNOWLEDGE EMERGENCE? Francis Rousseaux	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1283.pdf.txt	Adaptive Mapping of Sound Collections for Data-driven Musical Interfaces
 0.1081	False	ICMC	2008	FREEDOM IN TAPESTREA! VOICE-AWARE TRACK MANIPULATIONS Tom Lieber	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1736.pdf.txt	Using an Expressive Performance Template in a Music Conducting Interface
-0.108	False	ICMC	2008	DIGITAL MUSIC COLLECTIONS: A PLACE OF KNOWLEDGE EMERGENCE? Francis Rousseaux	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1283.pdf.txt	Adaptive Mapping of Sound Collections for Data-driven Musical Interfaces
 0.1077	False	ICMPC			ICMPC/ICMPC06/pdfs/354.pdf.txt	RhythmTable: A Tangible Interface for Cyclic Rhythm Sequencing
 0.1077	False	ICMPC			ICMPC/ICMPC06/pdfs/525.pdf.txt	A Minor Chord for BladeAxe
 0.1076	False	CIM	2005	Spectral Analysis as a Resource for Contemporary Orchestration Technique	CIM/2005/CIM05_Articles/ROSE_F_CIM05.pdf.txt	Rhythm Performance from a Spectral Point of View
 0.1076	False	DAFx	2002		DAFx/2002/DAFX02_Viste_Evangelista_source_separation_avoid_beats.pdf.txt	Haptic Music Player---Synthetic audio-tactile stimuli generation based on the notes' pitch and instruments' envelope mapping
-0.1075	False	ICMC	2008	R Rae, Alex Rebelo, Ana Rebelo, Pedro Renaud, Alain Repetto, Douglas	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/R.pdf.txt	Twkyr: a Multitouch Waveform Looper
+0.1076	False	ICMC	2008	R Rae, Alex Rebelo, Ana Rebelo, Pedro Renaud, Alain Repetto, Douglas	ICMC/2008/ICMC08 USB Proceedings/defevent/authors/R.pdf.txt	Twkyr: a Multitouch Waveform Looper
 0.1073	False	ICMC	2005	T Takanishi, Atsuo Tanzi, Dante Taube, Heinrich Tazelaar, Kees	ICMC/2005/defevent/authors/T.pdf.txt	A "Ballet Mécanique" for the 21st Century: Performing George Antheil's Dadaist Masterpiece with Robots
 0.1072	False	ICMC	2001	Acoustic Cues from Shapes between Spheres and Cubes Federico Fontana, Davide Rocchesso	ICMC/2001/data/cr1152.pdf.txt	Methods for Modeling Realistic Playing in Acoustic Guitar Synthesis
 0.1072	False	ICMPC			ICMPC/ICMPC06/pdfs/82.pdf.txt	Composing Understandings: music, motion, gesture and embodied cognition
@@ -1241,8 +1241,8 @@ score	above_curated_q1	set	year	guessed_title	file	nearest_archive_entry
 0.106	False	ICMC	2008	THE CHALLENGES AND OPPORTUNITIES OF MULTIPLE PROCESSORS: WHY MULTI-CORE PROCESSORS ARE EASY	ICMC/2008/ICMC08 USB Proceedings/defevent/papers/cr1823.pdf.txt	Parallel Processing System Design with "Propeller" Processor
 0.106	False	ICMPC			ICMPC/ICMPC06/pdfs/27.pdf.txt	Dance and Technology IV. Proceedings of the Fourth Annual Conference
 0.106	False	ISMIR	2018	GENERALIZED SKIPGRAMS FOR PATTERN DISCOVERY IN POLYPHONIC STREAMS	ISMIR/2018/2018_Proceedings_ISMIR_Electronic/website/articles/202_Paper.pdf.txt	Quadrofeelia -- A New Instrument for Sliding into Notes
-0.1057	False	ICMC	2005	THE THING LIKE US: A TOPOLOGY OF ULTRA-LOW FREQUENCIES Sander van Maas	ICMC/2005/defevent/papers/cr1286.pdf.txt	The expanded instrument system (EIS)
 0.1057	False	ICMPC			ICMPC/ICMPC06/pdfs/346.pdf.txt	The timbre space of the classical guitar and its relationship with the plucking techniques
+0.1056	False	ICMC	2005	THE THING LIKE US: A TOPOLOGY OF ULTRA-LOW FREQUENCIES Sander van Maas	ICMC/2005/defevent/papers/cr1286.pdf.txt	The expanded instrument system (EIS)
 0.1053	False	ICMC	2000	Varèse-Le Corbusier. Scenes from a rebellious thought. Reconstruction of the Poème Electronique	ICMC/2000/Papers/13Aesth3/1Bianch1.pdf.txt	An Unfinished History of Electronic Music
 0.105	False	ICMC	2001	OBJECT-BASED SOUND SYNTHESIS Augusto Sarti, Stefano Tubaro Dipartimento di Elettronica e Informazione, Politecnico di Milano	ICMC/2001/data/cr1005.pdf.txt	Elemental: a Gesturally Controlled System to Perform Meteorological Sounds
 0.1048	False	ICMC	2005	TOWARDS A HOLOPHONIC MUSICAL TEXTURE Panayiotis A. Kokoras	ICMC/2005/defevent/papers/cr1303.pdf.txt	Elementary Gestalts for Gesture Sonification

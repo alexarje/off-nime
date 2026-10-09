@@ -15,6 +15,8 @@ There are three primary datasets, represented by the radio buttons just above th
 
 Other features of this table include the search bar, column sorting (click the header to sort), and the download all button below.
 
+An [interactive atlas](atlas/) places these entries beside the NIME proceedings by topic, co-authorship and citation, and a [report](analysis/REPORT.html) lists the works that both archives are missing.
+
 <head>
     <link rel="stylesheet" href="styles.css">
     <script src="scripts/num-entries.js" async></script>

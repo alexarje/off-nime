@@ -2,14 +2,13 @@
 title: "How complete are the NIME and off-NIME archives? A citation, author and topic analysis"
 author: Alexander Refsum Jensenius
 date: 2026-10-09
+layout: page
 data: NIME-bibliography (paper, music, installation and alt proceedings) and off-NIME (CMJ, ICMC, ISIDM, Extras)
 ---
 
-# How complete are the NIME and off-NIME archives?
-
 ## Abstract
 
-The NIME proceedings and the off-NIME archive together hold {{records}} entries: {{n_nime}} from the NIME conference ({{nime_y0}}–{{nime_y1}}) and {{n_off}} from earlier and concurrent publications ({{off_y0}}–{{off_y1}}). This report asks how complete the two archives are as a record of the field, measured by what their papers cite and what cites them. From {{entries}} references parsed out of {{with_entries}} paper texts, and from Semantic Scholar's forward citations, there are {{edges}} citation links between archive entries. {{n_cited}} works are cited by at least five archive papers but held by neither archive, and {{n_citing}} works outside NIME cite at least five archive entries. A third list ranks {{loc_above}} papers in a local conference archive as NIME-related but missing. Together they are a curation queue for extending off-NIME backwards, sideways and past its current end in {{off_y1}}. An interactive atlas of the papers, authors and citations accompanies the report.
+The NIME proceedings and the off-NIME archive together hold {{records}} entries: {{n_nime}} from the NIME conference ({{nime_y0}}–{{nime_y1}}) and {{n_off}} from earlier and concurrent publications ({{off_y0}}–{{off_y1}}). This report asks how complete the two archives are as a record of the field, measured by what their papers cite and what cites them. From {{entries}} references parsed out of {{with_entries}} paper texts, and from Semantic Scholar's forward citations, there are {{edges}} citation links between archive entries. {{n_cited}} works are cited by at least five archive papers but held by neither archive, and {{n_citing}} works outside NIME cite at least five archive entries. Two further lists rank papers as NIME-related but missing: {{loc_above}} in a local archive of conference proceedings, and {{j_cands}} in {{j_nsources}} journals and two proceedings series swept through Crossref. Together they are a curation queue for extending off-NIME backwards, sideways and past its current end in {{off_y1}}. An [interactive atlas](../atlas/) of the papers, authors and citations accompanies the report.
 
 ## Data
 
@@ -17,7 +16,7 @@ The NIME side is the `NIME-bibliography` repository: {{n_nime_papers}} papers, {
 
 {{channels_table}}
 
-Paper texts came from three places. {{src_web}} NIME paper PDFs were downloaded from nime.org and reduced to text, keeping no PDF. {{src_ocr}} early NIME papers whose PDFs have broken font encodings were read from the OCR copies in the local conference archive (`Seagate Hub/arkiv/Conferences/NIME/nime-PDFs/OCR`). {{src_icmc}} curated off-NIME ICMC papers were matched to local ICMC PDFs by year, first author and title. Semantic Scholar was queried by DOI and found {{s2_papers}} of the {{n_nime_papers}} NIME papers ({{s2_papers_pct}}) and {{s2_off}} off-NIME entries.
+Paper texts came from three places. {{src_web}} NIME paper PDFs were downloaded from nime.org and reduced to text, keeping no PDF. {{src_ocr}} early NIME papers whose PDFs have broken font encodings were read from OCR copies in a local archive of conference proceedings. {{src_icmc}} curated off-NIME ICMC papers were matched to local ICMC PDFs by year, first author and title. Semantic Scholar was queried by DOI and found {{s2_papers}} of the {{n_nime_papers}} NIME papers ({{s2_papers_pct}}) and {{s2_off}} off-NIME entries.
 
 ## Method
 
@@ -29,7 +28,11 @@ Two checks bound the parser's quality. A parsed link from a paper to one publish
 
 Semantic Scholar holds the NIME papers but returns their reference lists elided at the publisher's request; only {{s2_refs}} entries came with references. Forward citations are not elided, and they give the second candidate list.
 
-The local conference archive was scored separately. Each of its {{loc_texts}} paper texts (ICMC, DAFx, SMC, ISMIR, ICMPC and workshops; duplicates, programme books and whole volumes removed) is represented by its first page and scored by its mean cosine similarity to its ten nearest archive entries. As a check that the score can fail, the {{loc_cur}} curated off-NIME ICMC papers present locally were scored in the same way. They rank at a median percentile of {{loc_med}} among {{loc_icmc}} ICMC texts, and {{loc_q}}% of them fall in the top quarter, against 50 and 25 by chance. A candidate is listed as above threshold when it scores at least as high as the lowest quarter of the curated papers.
+The local conference archive was scored separately. Each of its {{loc_texts}} paper texts (ICMC, DAFx, SMC, ISMIR, ICMPC and workshops; duplicates, programme books and whole volumes removed) is represented by its first page and scored by its mean cosine similarity to its ten nearest archive entries, leaving out a paper's own archive entry where it has one. As a check that the score can fail, the {{loc_cur}} curated off-NIME ICMC papers present locally were scored in the same way. They rank at a median percentile of {{loc_med}} among {{loc_icmc}} ICMC texts, and {{loc_q}}% of them fall in the top quarter, against 50 and 25 by chance. A candidate is listed as above threshold when it scores at least as high as the lowest quarter of the curated papers.
+
+A Crossref sweep covered every article in {{j_sources}}, and music-related papers in the CHI and TEI proceedings: {{j_items}} research articles of at least four title words, {{j_abs}} of them with an abstract. Short titles such as record and product reviews score high on closeness alone, since they share common words with everything, so these articles are scored by contrast: closeness to the archives minus closeness to the rest of the sweep. Here the check is the {{j_cur}} Computer Music Journal articles already curated into off-NIME. They rank at a median percentile of {{j_med}} among {{j_cmj}} CMJ articles, and {{j_q}}% fall in the top quarter. A candidate needs at least the curated median contrast and at least the curated lower-quartile closeness, so that general HCI articles far from the music-heavy sweep do not pass on contrast alone.
+
+The works on the backward list were looked up in Crossref by title, first author and year, accepting a hit whose title matches at a ratio of at least 0.9 and whose year is within two. {{cr_ok}} of {{n_cited}} ({{cr_pct}}) were found; the rest have no Crossref record, as with arXiv preprints and older conference papers, or titles parsed too poorly to match.
 
 ## Results
 
@@ -53,21 +56,25 @@ Of the {{edges}} citation links, {{e_nn}} go from NIME to NIME and {{e_no}} from
 
 ### What is missing: three lists
 
-The first list holds works that archive papers cite but neither archive holds, in `output/candidates_cited.tsv` ({{n_cited}} works cited at least five times). These are the foundations the archives leave out: protocols and languages, books on embodiment and gesture, HCI theory, and later NIME-adjacent journal articles.
+The first list holds works that archive papers cite but neither archive holds, in [`candidates_cited.bib`](output/candidates_cited.bib) ({{n_cited}} works cited at least five times, {{cr_ok}} with a DOI). These are the foundations the archives leave out: protocols and languages, books on embodiment and gesture, HCI theory, and later NIME-adjacent journal articles.
 
 {{cited_table}}
 
-The second list holds works outside NIME that cite at least five archive entries, in `output/candidates_citing.tsv` ({{n_citing}} works, {{citing_untyped}} of them without a venue in Semantic Scholar, which mostly means theses). These are the continuation of the field outside its own proceedings: PhD theses, journal reviews, books and courses.
+The second list holds works outside NIME that cite at least five archive entries, in [`candidates_citing.tsv`](output/candidates_citing.tsv) ({{n_citing}} works, {{citing_untyped}} of them without a venue in Semantic Scholar, which mostly means theses). These are the continuation of the field outside its own proceedings: PhD theses, journal reviews, books and courses.
 
 {{citing_table}}
 
-The third list holds papers in the local conference archive that score as NIME-related but are in neither archive, in `output/candidates_local.tsv` ({{loc_above}} above threshold, {{loc_above_icmc}} of them from ICMC). Titles are guessed from the first page and need checking.
+The third list holds papers in the local conference archive that score as NIME-related but are in neither archive, in [`candidates_local.tsv`](output/candidates_local.tsv) ({{loc_above}} above threshold, {{loc_above_icmc}} of them from ICMC). Titles are guessed from the first page and need checking.
 
 {{loc_table}}
 
+The fourth list holds journal and proceedings papers that score as NIME-related, in [`candidates_journals.bib`](output/candidates_journals.bib) ({{j_cands}} papers: {{j_by_source}}).
+
+{{j_table}}
+
 ### Data quality
 
-{{n_dups}} pairs of off-NIME entries share a title. Most are the same paper entered twice; at least one pair (two papers titled "Gestural Control of Sound Synthesis") is two different papers.
+The off-NIME archive holds {{n_dups}} pairs of entries that share a title. Each pair is two publications: a conference paper and its journal version, reports in two issues of a journal, or two different papers with the same title.
 
 {{dups_table}}
 
@@ -79,8 +86,8 @@ The third list holds papers in the local conference archive that score as NIME-r
 
 I would extend off-NIME along the three directions the lists measure, and in this order.
 
-1. Curate the backward list first. The works cited by ten or more archive papers are the field's shared foundations, and they need the least judgement to accept. A new `bibs/Cited/` dataset, with a field naming how many archive papers cite each work, would keep them apart from the hand-picked collections. [ARJ: a separate Cited dataset (recommended), or merge into Extras?]
-2. Use the forward list to continue off-NIME past {{off_y1}}. Its top entries are mostly theses and journal articles that position themselves against NIME. A sweep of Computer Music Journal, Organised Sound, Journal of New Music Research, TOCHI and the TEI and CHI proceedings by ISSN through Crossref, scored with the same nearest-neighbour similarity that passed the check above, would give a systematic list rather than a citation-driven one.
+1. Curate the backward list first. The works cited by ten or more archive papers are the field's shared foundations, and they need the least judgement to accept. `candidates_cited.bib` is ready BibTeX, with DOIs where Crossref has them and a note of how many archive papers cite each work. Accepted entries would go in a new `bibs/Cited/` dataset; anything under `bibs/` appears in the website's table, which is why the candidates stay in `analysis/output/` until they are vetted. [ARJ: a separate Cited dataset (recommended), or merge into Extras?]
+2. Use the forward list to continue off-NIME past {{off_y1}}. Its top entries are mostly theses and journal articles that position themselves against NIME. The Crossref sweep gives a systematic list alongside the citation-driven one, and the two can be read together: an article that appears in both is a strong candidate.
 3. Mine the local archive. ICMC 2000–2008 is present locally in full, and the score shortlists {{loc_above_icmc}} ICMC papers. The full ICMC archive is online at the University of Michigan library, so the same scoring could run over every ICMC year.
 4. Snowball. Each accepted candidate brings its own reference list; repeating the citation step until a round yields few new works cited by five or more archive papers would close the backward list.
 5. Give every off-NIME entry a DOI or Semantic Scholar identifier, and an abstract where one exists. Topic modelling and citation matching both suffer most from titles-only entries. The Semantic Scholar title lookup is in `tools/fetch_s2.py` and resumes from its cache, but it needs an API key to finish in reasonable time. [ARJ: request a Semantic Scholar API key (recommended), or use OpenAlex's free daily allowance over several days?]

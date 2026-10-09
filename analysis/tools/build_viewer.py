@@ -58,26 +58,40 @@ def main():
 <section><h3>Authors in both archives</h3><p>{st['authors_both']} of {st['authors']} authors have entries in both archives. These are the ones with the most entries in the smaller of the two.</p><div class="chartbox"><table><tr><th>Author</th><th>Off-NIME</th><th>NIME</th><th>First entry</th></tr>{bridges}</table></div></section>
 <section><h3>Most cited entries within the archives</h3><div class="chartbox"><table><tr><th>Title</th><th>Year</th><th>Channel</th><th>Cited by</th></tr>{internal}</table></div></section>
 """
-    cited = "".join(f"<tr><td class='n'>{c['n']}</td><td>{e(c['first'])}</td><td class='n'>{e(c['year'])}</td><td>{e(c['title'])}</td>"
-                    f"<td class='n'>{c['n_off']}</td><td class='n'>{c['n_nime']}</td></tr>" for c in ci.get("cited", [])[:100])
+    res_path = HERE / "data" / "cited_resolved.json"
+    doi = {r["title"]: r.get("doi") for r in json.loads(res_path.read_text())} if res_path.exists() else {}
+    link = lambda t, d: f"<a href='https://doi.org/{e(d)}' target='_blank' rel='noopener'>{e(t)}</a>" if d else e(t)
+    cited = "".join(f"<tr><td class='n'>{c['n']}</td><td>{e(c['first'])}</td><td class='n'>{e(c['year'])}</td><td>{link(c['title'], doi.get(c['title']))}</td>"
+                    f"<td class='n'>{c['n_off']}</td><td class='n'>{c['n_nime']}</td></tr>" for c in ci.get("cited", [])[:150])
+    jpath = HERE / "data" / "journal_candidates.json"
+    jc = json.loads(jpath.read_text()) if jpath.exists() else None
+    journals = "".join(f"<tr><td class='n'>{r['score']:.3f}</td><td>{e(r['source'])}</td><td class='n'>{r['year']}</td>"
+                       f"<td>{link(r['title'], r['doi'])}</td><td>{e(', '.join(r['authors'][:3]))}</td></tr>"
+                       for r in (jc["top"][:150] if jc else []))
+    jsec = "" if not jc else f"""
+<section><h3>NIME-related articles in journals and proceedings</h3><p>Every article Crossref lists for {e(', '.join(sorted(s for s in jc['by_source'] if s not in ('CHI', 'TEI'))))}, and music-related papers in the CHI and TEI proceedings, {jc['items']} research articles in all, scored by how much closer they are to the archives than to the rest of the sweep. As a check, the {jc['check']['curated_cmj']} CMJ articles already in off-NIME rank at a median percentile of {jc['check']['curated_median_percentile']} among {jc['check']['cmj_articles']} CMJ articles, and {jc['check']['curated_share_in_top_quarter']}% fall in the top quarter. {jc['n_candidates']} articles in neither archive score at least as high as the median curated article; the full list is in <code>candidates_journals.bib</code>.</p>
+<div class="chartbox"><table><tr><th>Score</th><th>Source</th><th>Year</th><th>Title</th><th>Authors</th></tr>{journals}</table></div></section>"""
     citing = "".join(f"<tr><td class='n'>{c['n']}</td><td class='n'>{e(c['year'])}</td><td>{e(c['title'])}</td><td>{e(c['venue'])}</td></tr>"
                      for c in ci.get("citing", [])[:100])
     local = "".join(f"<tr><td class='n'>{r['score']:.3f}</td><td>{e(r['set'])}</td><td class='n'>{e(r['year'])}</td><td>{e(r['title'][:140])}</td>"
                     f"<td>{e(r['nearest'][0][:90])}</td></tr>" for r in loc["top"][:100])
     chk = loc["check"]
     g["missing_html"] = f"""
-<section><h3>Cited by the archives, but in neither</h3><p>Works cited by at least five archive papers, from {cs.get('parsed', {}).get('entries', 0)} parsed references. Titles are parsed from reference strings and may be imperfect. The full list is in <code>candidates_cited.tsv</code>.</p>
+<section><h3>Cited by the archives, but in neither</h3><p>Works cited by at least five archive papers, from {cs.get('parsed', {}).get('entries', 0)} parsed references. Titles are parsed from reference strings and may be imperfect. Titles link to the DOI where Crossref found one. The full list is in <code>candidates_cited.bib</code>.</p>
 <div class="chartbox"><table><tr><th>Cited by</th><th>First author</th><th>Year</th><th>Title</th><th>Off-NIME citers</th><th>NIME citers</th></tr>{cited}</table></div></section>
-<section><h3>Outside NIME, citing many archive entries</h3><p>Journal articles, chapters and conference papers outside NIME that cite at least five archive entries (Semantic Scholar forward citations). These are candidates for extending off-NIME past 2012.</p>
-<div class="chartbox"><table><tr><th>Cites</th><th>Year</th><th>Title</th><th>Venue</th></tr>{citing}</table></div></section>
-<section><h3>NIME-related papers in the local conference archive</h3><p>Papers in the local ICMC, DAFx, SMC, ISMIR, ICMPC and workshop folders that are in neither archive, ranked by similarity to their ten nearest archive entries. As a check, the {chk['curated_found_locally']} curated off-NIME ICMC papers found locally rank at a median percentile of {chk['curated_median_percentile']} among {chk['icmc_texts']} ICMC texts, and {chk['curated_share_in_top_quarter']}% of them fall in the top quarter. Titles are guessed from the first page.</p>
+<section><h3>Outside NIME, citing many archive entries</h3><p>Journal articles, chapters and conference papers outside NIME that cite at least five archive entries (Semantic Scholar forward citations). These are candidates for continuing off-NIME past its current end.</p>
+<div class="chartbox"><table><tr><th>Cites</th><th>Year</th><th>Title</th><th>Venue</th></tr>{citing}</table></div></section>{jsec}
+<section><h3>NIME-related papers in the local conference archive</h3><p>Papers in a local archive of ICMC, DAFx, SMC, ISMIR, ICMPC and workshop folders that are in neither archive, ranked by similarity to their ten nearest archive entries. As a check, the {chk['curated_found_locally']} curated off-NIME ICMC papers found locally rank at a median percentile of {chk['curated_median_percentile']} among {chk['icmc_texts']} ICMC texts, and {chk['curated_share_in_top_quarter']}% of them fall in the top quarter. Titles are guessed from the first page.</p>
 <div class="chartbox"><table><tr><th>Score</th><th>Set</th><th>Year</th><th>Title (guessed)</th><th>Nearest archive entry</th></tr>{local}</table></div></section>
 """
     data = json.dumps(g, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (HERE / "tools" / "viewer_template.html").read_text()
-    out = HERE / "output" / "nime-atlas.html"
-    out.write_text(tpl.replace("/*DATA*/null", data))
-    print(f"{out} {out.stat().st_size / 1e6:.1f} MB")
+    page = tpl.replace("/*DATA*/null", data)
+    # the same page, in the analysis folder and at /atlas/ on the off-NIME website
+    for out in [HERE / "output" / "nime-atlas.html", HERE.parent / "atlas" / "index.html"]:
+        out.parent.mkdir(exist_ok=True)
+        out.write_text(page)
+        print(f"{out} {out.stat().st_size / 1e6:.1f} MB")
 
 
 if __name__ == "__main__":
