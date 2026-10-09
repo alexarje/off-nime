@@ -1,0 +1,424 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NIME Literature Atlas</title>
+<style>
+:root {
+  color-scheme: light;
+  --surface-0: #f5f4f0; --surface-1: #fcfcfb; --line: #dedcd5;
+  --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #7a7974;
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --context: #c4c2ba; --edge: rgba(60,60,55,0.10);
+  --accent: #2a78d6; --seq-lo: #cde2fb; --seq-hi: #0d366b;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    color-scheme: dark;
+    --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
+    --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --context: #4a4945; --edge: rgba(230,230,220,0.10);
+    --accent: #3987e5; --seq-lo: #184f95; --seq-hi: #cde2fb;
+  }
+}
+:root[data-theme="dark"] {
+  color-scheme: dark;
+  --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
+  --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --context: #4a4945; --edge: rgba(230,230,220,0.10);
+  --accent: #3987e5; --seq-lo: #184f95; --seq-hi: #cde2fb;
+}
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--surface-0); color: var(--text-primary);
+  font: 14px/1.45 system-ui, -apple-system, "Segoe UI", sans-serif; }
+header { padding: 16px 20px 8px; }
+h1 { font-size: 20px; margin: 0 0 2px; font-weight: 600; }
+.sub { color: var(--text-secondary); margin: 0; max-width: 70ch; }
+nav { display: flex; gap: 4px; padding: 8px 20px 0; flex-wrap: wrap; border-bottom: 1px solid var(--line); }
+nav button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 8px 12px;
+  color: var(--text-secondary); font: inherit; cursor: pointer; }
+nav button[aria-selected="true"] { color: var(--text-primary); border-color: var(--accent); }
+.controls { display: flex; gap: 12px; flex-wrap: wrap; align-items: center; padding: 10px 20px; }
+.controls label { color: var(--text-secondary); font-size: 13px; }
+select, input[type=search] { font: inherit; background: var(--surface-1); color: var(--text-primary);
+  border: 1px solid var(--line); border-radius: 6px; padding: 5px 8px; }
+input[type=search] { min-width: 220px; }
+main { display: grid; grid-template-columns: minmax(0, 1fr) 340px; gap: 0; height: calc(100vh - 170px); min-height: 480px; }
+.stage { position: relative; background: var(--surface-1); border-right: 1px solid var(--line); overflow: hidden; }
+canvas { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; }
+aside { overflow: auto; padding: 14px 18px; background: var(--surface-0); }
+aside h2 { font-size: 15px; margin: 0 0 6px; }
+aside .meta { color: var(--text-secondary); font-size: 13px; }
+aside ul { padding-left: 18px; margin: 6px 0 12px; }
+aside li { margin: 3px 0; }
+aside a { color: var(--accent); }
+.legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--text-secondary); padding: 0 20px 8px; }
+.legend span { display: inline-flex; align-items: center; gap: 6px; }
+.legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+.legend .ramp { width: 90px; height: 10px; border-radius: 3px; }
+#tip { position: fixed; pointer-events: none; background: var(--surface-1); color: var(--text-primary);
+  border: 1px solid var(--line); border-radius: 6px; padding: 6px 9px; font-size: 12px; max-width: 320px;
+  box-shadow: 0 2px 10px rgba(0,0,0,.15); display: none; z-index: 5; }
+#tip .m { color: var(--text-secondary); }
+.charts { padding: 16px 20px; display: grid; gap: 28px; }
+.charts h3 { margin: 0 0 4px; font-size: 15px; }
+.charts p { margin: 0 0 8px; color: var(--text-secondary); max-width: 80ch; }
+.chartbox { background: var(--surface-1); border: 1px solid var(--line); border-radius: 8px; padding: 12px; overflow-x: auto; }
+svg text { fill: var(--text-secondary); font-size: 11px; }
+table { border-collapse: collapse; font-size: 13px; width: 100%; }
+th, td { text-align: left; padding: 4px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { color: var(--text-secondary); font-weight: 600; }
+td.n { text-align: right; font-variant-numeric: tabular-nums; }
+.hidden { display: none !important; }
+.hint { color: var(--text-muted); font-size: 12px; }
+@media (max-width: 800px) {
+  main { grid-template-columns: 1fr; height: auto; }
+  .stage { height: 70vh; border-right: 0; border-bottom: 1px solid var(--line); }
+  header, nav, .controls, .legend, .charts { padding-left: 16px; padding-right: 16px; }
+  input[type=search] { min-width: 0; width: 100%; }
+}
+</style>
+</head>
+<body>
+<header>
+  <h1>NIME Literature Atlas</h1>
+  <p class="sub" id="subtitle"></p>
+</header>
+<nav role="tablist">
+  <button role="tab" data-view="papers" aria-selected="true">Paper map</button>
+  <button role="tab" data-view="authors" aria-selected="false">Co-author network</button>
+  <button role="tab" data-view="cites" aria-selected="false">Citation network</button>
+  <button role="tab" data-view="trends" aria-selected="false">Trends</button>
+  <button role="tab" data-view="missing" aria-selected="false">Missing works</button>
+</nav>
+
+<div id="graphview">
+  <div class="controls">
+    <label id="colourctl">Colour by
+      <select id="colour">
+        <option value="archive">Archive</option>
+        <option value="year">Year</option>
+        <option value="topic">One topic</option>
+        <option value="channel">One channel</option>
+      </select>
+    </label>
+    <select id="topicsel" class="hidden" aria-label="Topic"></select>
+    <select id="channelsel" class="hidden" aria-label="Channel"></select>
+    <label>Years <input id="y0" type="number" style="width:5em"> to <input id="y1" type="number" style="width:5em"></label>
+    <input type="search" id="search" placeholder="Search titles and authors">
+    <span class="hint">Drag to pan, scroll or pinch to zoom, click a point for details.</span>
+  </div>
+  <div class="legend" id="legend"></div>
+  <main>
+    <div class="stage"><canvas id="cv"></canvas></div>
+    <aside id="side"></aside>
+  </main>
+</div>
+
+<div id="trendview" class="charts hidden"></div>
+<div id="missingview" class="charts hidden"></div>
+<div id="tip"></div>
+
+<script>
+const DATA = /*DATA*/null;
+const $ = s => document.querySelector(s);
+const css = v => getComputedStyle(document.documentElement).getPropertyValue(v).trim();
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+
+const P = DATA.papers, byId = new Map(P.map((p, i) => [p.id, i]));
+const T = DATA.topics;
+const ARCH = p => p.ar === "off-nime" ? 1 : (p.ds === "NIME papers" || p.ds === "NIME alt" ? 0 : 2);
+const ARCH_NAMES = ["NIME papers", "Off-NIME archive", "NIME music and installations"];
+const years = P.map(p => p.y), YMIN = Math.min(...years), YMAX = Math.max(...years);
+$("#y0").value = YMIN; $("#y1").value = YMAX;
+
+// citation adjacency among corpus entries
+const cites = new Map(), citedBy = new Map();
+for (const [a, b] of DATA.citations.edges || []) {
+  if (!cites.has(a)) cites.set(a, []); cites.get(a).push(b);
+  if (!citedBy.has(b)) citedBy.set(b, []); citedBy.get(b).push(a);
+}
+const papersOfAuthor = new Map();
+P.forEach((p, i) => p.ak.forEach(k => { if (!papersOfAuthor.has(k)) papersOfAuthor.set(k, []); papersOfAuthor.get(k).push(i); }));
+
+$("#subtitle").textContent = DATA.subtitle;
+T.forEach(t => $("#topicsel").insertAdjacentHTML("beforeend", `<option value="${t.id}">${esc(t.terms.slice(0, 4).join(", "))}</option>`));
+[...new Set(P.map(p => p.ch))].sort().forEach(c => $("#channelsel").insertAdjacentHTML("beforeend", `<option>${esc(c)}</option>`));
+
+// ---------- canvas with pan and zoom ----------
+const cv = $("#cv"), ctx = cv.getContext("2d");
+let W = 0, H = 0, DPR = 1, view = "papers", zoom = 1, ox = 0, oy = 0, selected = null, hover = null;
+function resize() {
+  const r = cv.getBoundingClientRect(); DPR = window.devicePixelRatio || 1;
+  W = r.width; H = r.height; cv.width = W * DPR; cv.height = H * DPR; draw();
+}
+const PAD = 24;
+const sx = x => PAD + x * (W - 2 * PAD) * zoom + ox, sy = y => PAD + y * (H - 2 * PAD) * zoom + oy;
+
+let nodes = [], edges = [];
+function buildNodes() {
+  const y0 = +$("#y0").value, y1 = +$("#y1").value, q = $("#search").value.trim().toLowerCase();
+  const match = s => !q || s.toLowerCase().includes(q);
+  if (view === "papers") {
+    nodes = P.map((p, i) => ({ i, x: p.x, y: p.yy, r: 2.6, kind: "paper",
+      on: p.y >= y0 && p.y <= y1 && match(p.t + " " + p.a.join(" ")) }));
+    edges = [];
+  } else if (view === "authors") {
+    const A = DATA.authors;
+    nodes = A.map((a, i) => ({ i, x: a.x, y: a.y, r: 1.6 + Math.sqrt(a.p) * 1.1, kind: "author",
+      on: a.l >= y0 && a.f <= y1 && match(a.n) }));
+    const idx = new Map(A.map((a, i) => [a.k, i]));
+    edges = DATA.aedges.map(([u, v, w]) => [idx.get(u), idx.get(v), w]);
+  } else {
+    const C = DATA.cnodes;
+    nodes = C.map((c, i) => ({ i, x: c.x, y: c.y, r: 1.8 + Math.sqrt(c.d) * 0.9, kind: "cite",
+      on: (c.y0 ?? y0) >= y0 && (c.y0 ?? y1) <= y1 && match(c.t + " " + (c.a || "")) }));
+    edges = DATA.cedges;
+  }
+}
+function colourOf(n) {
+  const mode = $("#colour").value;
+  if (n.kind === "author") { const a = DATA.authors[n.i]; return a.o && a.ni ? css("--s3") : a.o ? css("--s2") : css("--s1"); }
+  if (n.kind === "cite") { const c = DATA.cnodes[n.i]; return c.g === 2 ? css("--s3") : c.g === 1 ? css("--s2") : css("--s1"); }
+  const p = P[n.i];
+  if (mode === "archive") return [css("--s1"), css("--s2"), css("--s3")][ARCH(p)];
+  if (mode === "year") return seq((p.y - YMIN) / (YMAX - YMIN));
+  if (mode === "topic") return p.tp === +$("#topicsel").value ? css("--accent") : css("--context");
+  if (mode === "channel") return p.ch === $("#channelsel").value ? css("--accent") : css("--context");
+}
+function hex2rgb(h) { const n = parseInt(h.slice(1), 16); return [n >> 16, (n >> 8) & 255, n & 255]; }
+function seq(t) {
+  const a = hex2rgb(css("--seq-lo")), b = hex2rgb(css("--seq-hi"));
+  return `rgb(${a.map((v, k) => Math.round(v + (b[k] - v) * t)).join(",")})`;
+}
+function emphasised(n) {
+  const mode = $("#colour").value;
+  if (n.kind !== "paper") return false;
+  const p = P[n.i];
+  return (mode === "topic" && p.tp === +$("#topicsel").value) || (mode === "channel" && p.ch === $("#channelsel").value);
+}
+function draw() {
+  if (!W) return;
+  ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+  ctx.clearRect(0, 0, W, H);
+  ctx.lineWidth = 1;
+  ctx.strokeStyle = css("--edge");
+  ctx.beginPath();
+  for (const [u, v] of edges) {
+    if (!nodes[u]?.on || !nodes[v]?.on) continue;
+    ctx.moveTo(sx(nodes[u].x), sy(nodes[u].y)); ctx.lineTo(sx(nodes[v].x), sy(nodes[v].y));
+  }
+  ctx.stroke();
+  const surf = css("--surface-1"), ctxCol = css("--context");
+  const order = nodes.filter(n => !n.on).concat(nodes.filter(n => n.on && !emphasised(n)), nodes.filter(n => n.on && emphasised(n)));
+  for (const n of order) {
+    const r = n.r * Math.min(Math.max(Math.sqrt(zoom), 1), 3);
+    ctx.beginPath(); ctx.arc(sx(n.x), sy(n.y), r, 0, 7);
+    ctx.fillStyle = n.on ? colourOf(n) : ctxCol;
+    ctx.globalAlpha = n.on ? 0.9 : 0.25;
+    ctx.fill();
+    if (n.on && r > 3) { ctx.globalAlpha = 1; ctx.strokeStyle = surf; ctx.lineWidth = 1; ctx.stroke(); }
+  }
+  ctx.globalAlpha = 1;
+  if (selected !== null) highlightSelection();
+  labelBig();
+}
+const topicCentres = T.map(t => {
+  const xs = [], ys = [];
+  P.forEach(p => { if (p.tp === t.id) { xs.push(p.x); ys.push(p.yy); } });
+  const med = a => a.sort((u, v) => u - v)[Math.floor(a.length / 2)];
+  return { x: med(xs), y: med(ys), label: t.terms.slice(0, 2).join(", ") };
+});
+function haloText(t, x, y) {
+  ctx.lineWidth = 3; ctx.strokeStyle = css("--surface-1"); ctx.strokeText(t, x, y); ctx.fillText(t, x, y);
+}
+function labelBig() {
+  if (view === "papers") {
+    // topic names at the median position of the entries whose strongest topic it is
+    ctx.font = "600 12px system-ui"; ctx.fillStyle = css("--text-primary"); ctx.textAlign = "center";
+    topicCentres.forEach(c => haloText(c.label, sx(c.x), sy(c.y)));
+    ctx.textAlign = "start";
+    return;
+  }
+  const big = nodes.filter(n => n.on).sort((a, b) => b.r - a.r).slice(0, Math.round(14 * Math.sqrt(zoom)));
+  ctx.font = "11px system-ui"; ctx.fillStyle = css("--text-secondary");
+  for (const n of big) {
+    const label = n.kind === "author" ? DATA.authors[n.i].n : DATA.cnodes[n.i].s;
+    haloText(label, sx(n.x) + n.r + 3, sy(n.y) + 4);
+  }
+}
+function highlightSelection() {
+  const n = nodes[selected]; if (!n) return;
+  const nb = neighbours(selected);
+  ctx.strokeStyle = css("--accent"); ctx.lineWidth = 1.2; ctx.globalAlpha = 0.7;
+  ctx.beginPath();
+  for (const j of nb) { ctx.moveTo(sx(n.x), sy(n.y)); ctx.lineTo(sx(nodes[j].x), sy(nodes[j].y)); }
+  ctx.stroke(); ctx.globalAlpha = 1;
+  ctx.beginPath(); ctx.arc(sx(n.x), sy(n.y), n.r * 1.6 + 4, 0, 7); ctx.lineWidth = 2; ctx.stroke();
+}
+function neighbours(k) {
+  if (view === "papers") {
+    const id = P[k].id;
+    return [...(cites.get(id) || []), ...(citedBy.get(id) || [])].map(x => byId.get(x)).filter(x => x !== undefined);
+  }
+  return edges.filter(e => e[0] === k || e[1] === k).map(e => e[0] === k ? e[1] : e[0]);
+}
+function pick(mx, my) {
+  let best = null, bd = 100;
+  for (let k = 0; k < nodes.length; k++) {
+    const n = nodes[k]; if (!n.on) continue;
+    const d = (sx(n.x) - mx) ** 2 + (sy(n.y) - my) ** 2;
+    const rr = Math.max(n.r * Math.sqrt(zoom), 6) ** 2;
+    if (d < rr && d < bd) { bd = d; best = k; }
+  }
+  return best;
+}
+// pointer handling
+let drag = null; const pts = new Map(); let pinch0 = null;
+cv.addEventListener("pointerdown", e => { cv.setPointerCapture(e.pointerId); pts.set(e.pointerId, [e.offsetX, e.offsetY]);
+  drag = { x: e.offsetX, y: e.offsetY, ox, oy, moved: false };
+  if (pts.size === 2) { const [a, b] = [...pts.values()]; pinch0 = { d: Math.hypot(a[0] - b[0], a[1] - b[1]), zoom, ox, oy }; } });
+cv.addEventListener("pointermove", e => {
+  if (pts.has(e.pointerId)) pts.set(e.pointerId, [e.offsetX, e.offsetY]);
+  if (pts.size === 2 && pinch0) {
+    const [a, b] = [...pts.values()], d = Math.hypot(a[0] - b[0], a[1] - b[1]);
+    zoomAt((a[0] + b[0]) / 2, (a[1] + b[1]) / 2, pinch0.zoom * d / pinch0.d / zoom); return;
+  }
+  if (drag && pts.size === 1) {
+    const dx = e.offsetX - drag.x, dy = e.offsetY - drag.y;
+    if (Math.abs(dx) + Math.abs(dy) > 3) drag.moved = true;
+    if (drag.moved) { ox = drag.ox + dx; oy = drag.oy + dy; draw(); return; }
+  }
+  const k = pick(e.offsetX, e.offsetY);
+  if (k !== hover) { hover = k; }
+  showTip(k, e.clientX, e.clientY);
+});
+cv.addEventListener("pointerup", e => { pts.delete(e.pointerId); pinch0 = null;
+  if (drag && !drag.moved) { selected = pick(e.offsetX, e.offsetY); showSide(); draw(); } drag = null; });
+cv.addEventListener("pointerleave", () => { $("#tip").style.display = "none"; });
+cv.addEventListener("wheel", e => { e.preventDefault(); zoomAt(e.offsetX, e.offsetY, Math.exp(-e.deltaY * 0.0015)); }, { passive: false });
+function zoomAt(mx, my, f) {
+  const nz = Math.min(Math.max(zoom * f, 0.5), 40); f = nz / zoom;
+  ox = mx - (mx - ox - PAD) * f - PAD; oy = my - (my - oy - PAD) * f - PAD;
+  // keep the mapping x -> PAD + x*span*zoom + ox consistent
+  zoom = nz; draw();
+}
+function describe(k) {
+  if (view === "papers") { const p = P[k]; return `<b>${esc(p.t)}</b><div class="m">${esc(p.a.slice(0, 4).join(", "))}${p.a.length > 4 ? " et al." : ""} · ${p.y} · ${esc(p.ch)}</div>`; }
+  if (view === "authors") { const a = DATA.authors[k]; return `<b>${esc(a.n)}</b><div class="m">${a.p} entries (${a.o} off-NIME, ${a.ni} NIME), ${a.f}–${a.l}</div>`; }
+  const c = DATA.cnodes[k]; return `<b>${esc(c.t)}</b><div class="m">${esc(c.a || "")} ${c.y0 ?? ""} · cited by ${c.d} archive papers${c.g === 2 ? " · not in either archive" : ""}</div>`;
+}
+function showTip(k, x, y) {
+  const tip = $("#tip");
+  if (k === null) { tip.style.display = "none"; return; }
+  tip.innerHTML = describe(k); tip.style.display = "block";
+  const w = tip.offsetWidth; tip.style.left = Math.min(x + 14, innerWidth - w - 8) + "px"; tip.style.top = (y + 14) + "px";
+}
+function paperLine(i) { const p = P[i]; return `<li>${p.u ? `<a href="${esc(p.u)}" target="_blank" rel="noopener">${esc(p.t)}</a>` : esc(p.t)} <span class="meta">(${p.y}, ${esc(p.ch)})</span></li>`; }
+function showSide() {
+  const side = $("#side");
+  if (selected === null) { side.innerHTML = defaultSide(); return; }
+  if (view === "papers") {
+    const p = P[selected], c = (cites.get(p.id) || []).map(x => byId.get(x)), cb = (citedBy.get(p.id) || []).map(x => byId.get(x));
+    const t = T[p.tp];
+    side.innerHTML = `<h2>${esc(p.t)}</h2><p class="meta">${esc(p.a.join(", "))}<br>${p.y} · ${esc(p.v || p.ch)}<br>Dataset: ${esc(p.ds)}${t ? `<br>Topic: ${esc(t.terms.slice(0, 5).join(", "))}` : ""}${DATA.citations.cc?.[p.id] != null ? `<br>Semantic Scholar citations: ${DATA.citations.cc[p.id]}` : ""}</p>
+      ${p.u ? `<p><a href="${esc(p.u)}" target="_blank" rel="noopener">Open the paper</a></p>` : ""}
+      ${c.length ? `<h2>Cites in the archives (${c.length})</h2><ul>${c.map(paperLine).join("")}</ul>` : ""}
+      ${cb.length ? `<h2>Cited by in the archives (${cb.length})</h2><ul>${cb.sort((a, b) => P[a].y - P[b].y).map(paperLine).join("")}</ul>` : ""}`;
+  } else if (view === "authors") {
+    const a = DATA.authors[selected], ps = (papersOfAuthor.get(a.k) || []).sort((x, y) => P[x].y - P[y].y);
+    const co = neighbours(selected).map(j => DATA.authors[j].n).sort();
+    side.innerHTML = `<h2>${esc(a.n)}</h2><p class="meta">${a.p} entries, ${a.f}–${a.l}</p><h2>Entries</h2><ul>${ps.map(paperLine).join("")}</ul>${co.length ? `<h2>Co-authors shown (${co.length})</h2><p class="meta">${esc(co.join(", "))}</p>` : ""}`;
+  } else {
+    const c = DATA.cnodes[selected];
+    const citers = (c.c || []).map(id => byId.get(id)).filter(x => x !== undefined).sort((a, b) => P[a].y - P[b].y);
+    side.innerHTML = `<h2>${esc(c.t)}</h2><p class="meta">${esc(c.a || "")} ${c.y0 ?? ""}${c.v ? " · " + esc(c.v) : ""}<br>${c.g === 2 ? "Not in either archive." : c.g === 1 ? "In the off-NIME archive." : "In the NIME proceedings."}</p>
+      ${c.u ? `<p><a href="${esc(c.u)}" target="_blank" rel="noopener">Look it up</a></p>` : ""}
+      <h2>Cited by (${citers.length})</h2><ul>${citers.map(paperLine).join("")}</ul>`;
+  }
+}
+function defaultSide() {
+  const s = DATA.side[view] || "";
+  return s;
+}
+function legend() {
+  const L = $("#legend"), mode = $("#colour").value;
+  const dot = (v, t) => `<span><i style="background:${css(v)}"></i>${esc(t)}</span>`;
+  if (view === "authors") L.innerHTML = dot("--s1", "NIME only") + dot("--s2", "Off-NIME only") + dot("--s3", "Both archives") + `<span>Size: number of entries. Lines: co-authorship.</span>`;
+  else if (view === "cites") L.innerHTML = dot("--s1", "NIME proceedings") + dot("--s2", "Off-NIME archive") + dot("--s3", "Cited, but in neither archive") + `<span>Size: times cited by archive papers.</span>`;
+  else if (mode === "archive") L.innerHTML = ARCH_NAMES.map((n, k) => dot(["--s1", "--s2", "--s3"][k], n)).join("");
+  else if (mode === "year") L.innerHTML = `<span>${YMIN} <i class="ramp" style="background:linear-gradient(90deg,${css("--seq-lo")},${css("--seq-hi")})"></i> ${YMAX}</span>`;
+  else L.innerHTML = dot("--accent", "Selected") + dot("--context", "Other entries");
+}
+function refresh() { buildNodes(); legend(); draw(); }
+function setView(v) {
+  view = v; selected = null; zoom = 1; ox = 0; oy = 0;
+  document.querySelectorAll("nav button").forEach(b => b.setAttribute("aria-selected", b.dataset.view === v));
+  const graph = ["papers", "authors", "cites"].includes(v);
+  $("#graphview").classList.toggle("hidden", !graph);
+  $("#trendview").classList.toggle("hidden", v !== "trends");
+  $("#missingview").classList.toggle("hidden", v !== "missing");
+  $("#colourctl").classList.toggle("hidden", v !== "papers");
+  syncSelectors();
+  if (graph) { resize(); refresh(); showSide(); }
+}
+function syncSelectors() {
+  const m = $("#colour").value, pv = view === "papers";
+  $("#topicsel").classList.toggle("hidden", !(pv && m === "topic"));
+  $("#channelsel").classList.toggle("hidden", !(pv && m === "channel"));
+}
+document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
+["#colour", "#topicsel", "#channelsel"].forEach(s => $(s).addEventListener("change", () => { syncSelectors(); refresh(); }));
+["#y0", "#y1", "#search"].forEach(s => $(s).addEventListener("input", refresh));
+addEventListener("resize", resize);
+new ResizeObserver(resize).observe($(".stage"));
+
+// ---------- trends ----------
+function stackedYears() {
+  const ys = []; for (let y = YMIN; y <= YMAX; y++) ys.push(y);
+  const cnt = ys.map(y => [0, 0, 0]);
+  P.forEach(p => cnt[p.y - YMIN][ARCH(p)]++);
+  const max = Math.max(...cnt.map(c => c[0] + c[1] + c[2]));
+  const w = Math.max(760, ys.length * 11), h = 240, m = { l: 36, b: 22, t: 8 };
+  const bw = (w - m.l) / ys.length;
+  let s = `<svg width="${w}" height="${h}" role="img" aria-label="Entries per year by archive">`;
+  for (let g = 0; g <= max; g += max > 300 ? 100 : 50) {
+    const y = h - m.b - g / max * (h - m.b - m.t);
+    s += `<line x1="${m.l}" x2="${w}" y1="${y}" y2="${y}" stroke="var(--line)"/><text x="${m.l - 4}" y="${y + 4}" text-anchor="end">${g}</text>`;
+  }
+  ys.forEach((y, k) => {
+    let base = h - m.b;
+    [1, 0, 2].forEach(a => {
+      const v = cnt[k][a]; if (!v) return;
+      const bh = v / max * (h - m.b - m.t);
+      s += `<rect x="${m.l + k * bw + 1}" y="${base - bh + 1}" width="${Math.max(bw - 2, 1)}" height="${Math.max(bh - 2, 0.5)}" rx="1.5" fill="var(--s${[2, 1, 3][a === 1 ? 0 : a === 0 ? 1 : 2]})"><title>${y} · ${ARCH_NAMES[a]}: ${v}</title></rect>`;
+      base -= bh;
+    });
+    if (y % 5 === 0) s += `<text x="${m.l + k * bw + bw / 2}" y="${h - 6}" text-anchor="middle">${y}</text>`;
+  });
+  return s + "</svg>";
+}
+function topicHeat(arch) {
+  const rows = DATA.share[arch], periods = Object.keys(rows).map(Number).sort((a, b) => a - b);
+  const cw = 46, rh = 20, lw = 270, h = T.length * rh + 26, w = lw + periods.length * cw;
+  const max = Math.max(...periods.flatMap(p => rows[p].share));
+  let s = `<svg width="${w}" height="${h}" role="img" aria-label="Topic share by period">`;
+  T.forEach((t, r) => {
+    s += `<text x="${lw - 6}" y="${r * rh + 14}" text-anchor="end">${esc(t.terms.slice(0, 3).join(", "))}</text>`;
+    periods.forEach((p, c) => {
+      const v = rows[p].share[r];
+      s += `<rect x="${lw + c * cw + 1}" y="${r * rh + 1}" width="${cw - 2}" height="${rh - 2}" rx="2" fill="${seq(v / max)}"><title>${p}–${p + 4}: ${(v * 100).toFixed(1)}% of ${rows[p].n} entries</title></rect>`;
+    });
+  });
+  periods.forEach((p, c) => s += `<text x="${lw + c * cw + cw / 2}" y="${T.length * rh + 16}" text-anchor="middle">${p}</text>`);
+  return s + "</svg>";
+}
+$("#trendview").innerHTML = DATA.trend_html
+  .replace("{{years}}", stackedYears())
+  .replace("{{heat_off}}", topicHeat("off-nime"))
+  .replace("{{heat_nime}}", topicHeat("nime"));
+$("#missingview").innerHTML = DATA.missing_html;
+setView(["papers", "authors", "cites", "trends", "missing"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "papers");
+</script>
+</body>
+</html>

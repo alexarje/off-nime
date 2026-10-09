@@ -1,0 +1,7 @@
+bibtexparser==1.4.3
+networkx
+scikit-learn
+requests
+numpy
+pandas
+python-louvain
