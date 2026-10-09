@@ -16,6 +16,9 @@ cap 1G "crossref.py resolve"
 cap 2G "crossref.py sweep"
 cap 4G local_candidates.py
 cap 4G score_journals.py
+cap 2G build_cited.py
+cap 1G "offnime_dois.py --apply"
 cap 4G analyse.py
+cap 1G export.py
 cap 1G build_viewer.py
 cap 1G report.py

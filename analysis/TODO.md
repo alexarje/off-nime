@@ -2,23 +2,26 @@
 
 ## Now
 
-- [ARJ] Vet the top of `output/candidates_cited.bib` and `output/candidates_journals.bib`; accepted
-  entries go into a new `bibs/Cited/` dataset (recommended) or Extras. Anything under `bibs/`
-  appears in the website's table.
-- [ARJ] Decide whether to propose the analysis to IDMIL/off-nime as a pull request.
+- [ARJ] Vet `bibs/Cited/cited.bib` (170 works admitted by rule) and remove what does not belong.
+- [ARJ] Read the top of `output/borderline.tsv`: relevant reviews with short titles miss the
+  closeness bar there.
+- [ARJ] Check `output/offnime_dois_review.tsv` (near-miss DOI matches for off-NIME entries).
+- [ARJ] Ask the ICMA or Michigan Publishing for a metadata export of the ICMC proceedings
+  (recommended); the online archive and DBLP both block scripts with bot checks.
 - [ARJ] Pushes to the fork do not trigger the Pages workflow; enabling workflows in the fork's
   Actions tab may fix it. Until then, deploy with `gh workflow run` (see HANDOVER.md).
-- [ARJ] Get a Semantic Scholar API key, then rerun `tools/fetch_s2.py` to finish the 1,059
-  off-NIME title lookups (it resumes from the cache).
+- [ARJ] Get a Semantic Scholar API key to finish the remaining off-NIME title lookups.
+- Pull request to IDMIL/off-nime: on hold at Alexander's request.
 
 ## Next
 
-- [ME] Score the full ICMC archive at quod.lib.umich.edu with the local-candidates method.
-- [ME] Cross-read the journal sweep against the forward-citation list; a paper on both is a
-  strong candidate.
+- [ME] Sweep the Zenodo communities of open music-technology conferences (ICLC, WAC, SMC,
+  Audio Mostly) through the Zenodo API, scored like the journal sweep.
+- [ME] Abstracts for off-NIME entries from Crossref and Semantic Scholar, to sharpen the topic map.
+- [ME] Snowball: fetch the reference lists of the Cited entries from Crossref and count what they
+  cite that neither archive holds.
 
 ## Later
 
-- [ME] Snowball: rerun the citation step over accepted candidates until few new works appear.
-- [ME] Improve the reference parser's recall (53% against Semantic Scholar), mainly two-column
-  interleaving from pdftotext; GROBID would be the stronger option.
+- [ME] Improve the reference parser's recall (53% against Semantic Scholar); GROBID would help.
+- [ME] Non-English sources: SBCM (Brazil), JIM (France) and CIM (Italy) proceedings.

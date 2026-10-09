@@ -1,0 +1,225 @@
+id	file	year	title	doi
+off-nime:Andersen1978	bibs/CMJ/1978.bib	1978	A Digital Sound Synthesizer Keyboard	10.2307/3679452
+off-nime:buxton1978sssp	bibs/CMJ/1978.bib	1978	An Introduction to the SSSP Digital Synthesizer	10.2307/3680371
+off-nime:Holtzman1979	bibs/CMJ/1979.bib	1979	An Automated Digital Sound Synthesis Instrument	10.2307/3680284
+off-nime:Haynes1980	bibs/CMJ/1980.bib	1980	The Musician-Machine Interface in Digital Sound Synthesis	10.2307/3679464
+off-nime:Mathews1980	bibs/CMJ/1980.bib	1980	The Sequential Drum	10.2307/3679465
+off-nime:buxton1980conducting	bibs/CMJ/1980.bib	1980	A Microcomputer-Based Conducting System	10.2307/3679437
+off-nime:buxton1982objed	bibs/CMJ/1982.bib	1982	Objed and the Design of Timbral Resources	10.2307/3679676
+off-nime:Cadoz1984	bibs/CMJ/1984.bib	1984	Responsive Input Devices and Sound Synthesis by Stimulation of Instrumental Mechanisms: The Cordis System	10.2307/3679813
+off-nime:Yunik1985	bibs/CMJ/1985.bib	1985	A Digital Flute	10.2307/3679657
+off-nime:Lohner1985	bibs/CMJ/1985.bib	1985	Interview with Robert Moog	10.2307/3679623
+off-nime:Roads1986	bibs/CMJ/1986.bib	1986	The Second STEIM Symposium on Interactive Composition in Live Electronic Music	10.2307/3679484
+off-nime:Gualtieri1986	bibs/CMJ/1986.bib	1986	MIDI Output Interface to a Parallel Printer Port	10.2307/3680262
+off-nime:Lohner1986	bibs/CMJ/1986.bib	1986	The UPIC System: A User's Report	10.2307/3680095
+off-nime:pressing90	bibs/CMJ/1990.bib	1990	Cybernetic Issues in Interactive Performance Systems	10.2307/3680113
+off-nime:rubine90	bibs/CMJ/1990.bib	1990	Programmable Finger-tracking Instrument Controllers	10.2307/3680114
+off-nime:knapp90	bibs/CMJ/1990.bib	1990	A Bioelectric Controller for Computer Music Applications	10.2307/3680115
+off-nime:chabot90	bibs/CMJ/1990.bib	1990	Gesture Interfaces and a Software Toolkit for Performance with Electronics	10.2307/3679708
+off-nime:krefeld90	bibs/CMJ/1990.bib	1990	The Hand in the Web: An Interview with Michel Waisvisz	10.2307/3679709
+off-nime:cadoz90	bibs/CMJ/1990.bib	1990	A Modular Feedback Keyboard Design	10.2307/3679711
+off-nime:moog90	bibs/CMJ/1990.bib	1990	Evolution of the Keyboard Interface: The Bösendorfer 290 SE Recording Piano and the Moog Multiply-Touch-Sensitive Keyboards	10.2307/3679712
+off-nime:bosi90	bibs/CMJ/1990.bib	1990	An Interactive Real-Time System for the Control of Sound Localization	10.2307/3680791
+off-nime:tanaka90	bibs/CMJ/1991.bib	1991	CyberArts International	10.2307/3680387
+off-nime:pennycook91	bibs/CMJ/1991.bib	1991	Machine Songs II: The PRAESCIO Series - Composition-Driven Interactive Software	10.2307/3680762
+off-nime:mathews91	bibs/CMJ/1991.bib	1991	The Radio Baton and Conductor Program, or: Pitch, the Most Important and Least Expressive Part of Music	10.2307/3681070
+off-nime:wessel91	bibs/CMJ/1991.bib	1991	Instruments That Learn, Refined Controllers, Source Model Loudspeakers	10.2307/3681079
+off-nime:bauer92	bibs/CMJ/1992.bib	1992	GAMS: An Integrated Media Controller System	10.2307/3680491
+off-nime:czeiszperger92	bibs/CMJ/1992.bib	1992	CyberArts International	10.2307/3680853
+off-nime:jaffe94	bibs/CMJ/1994.bib	1994	The Computer-Extended Ensemble	10.2307/3680445
+off-nime:wright94	bibs/CMJ/1994.bib	1994	A Comparison of MIDI and ZIPI	10.2307/3681361
+off-nime:hirano96	bibs/CMJ/1996.bib	1996	A Review of Electronic Musical Instruments	10.2307/3680819
+off-nime:paradiso97	bibs/CMJ/1997.bib	1997	Musical Applications of Electric Field Sensing	10.2307/3681109
+off-nime:bongers98	bibs/CMJ/1998.bib	1998	An Interview with Sensorband	10.2307/3681041
+off-nime:haken98	bibs/CMJ/1998.bib	1998	An Indiscrete Music Keyboard	10.2307/3681043
+off-nime:siegel98	bibs/CMJ/1998.bib	1998	The Challenges of Interactive Dance: An Overview and Case Study	10.2307/3680892
+off-nime:camurri00	bibs/CMJ/2000.bib	2000	EyesWeb: Toward Gesture and Affect Recognition in Interactive Dance and Music Systems	10.1162/014892600559182
+off-nime:ystad01	bibs/CMJ/2001.bib	2001	A Virtually Real Flute	10.1162/014892601750302552
+off-nime:manzanares01	bibs/CMJ/2001.bib	2001	SICIB: An Interactive Music Composition System Using Body Movements	10.1162/014892601750302561
+off-nime:weinberg01	bibs/CMJ/2001.bib	2001	The Squeezables: Toward an Expressive and Interdependent Multi-player Musical Instrument	10.1162/014892601750302570
+off-nime:Bode1961	bibs/Extras/extras.bib	1961	New Tool for the Exploration of Unknown Sound Resources for Composers	10.1121/1.1936948
+off-nime:Mathews1963	bibs/Extras/extras.bib	1963	The Digital Computer as a Musical Instrument	10.1126/science.142.3592.553
+off-nime:Macfadyen1964	bibs/Extras/extras.bib	1964	Electronic Melodic Instruments	10.1049/ree.1964.0067
+off-nime:Howe1966	bibs/Extras/extras.bib	1966	Music and Electronics: A Report	10.2307/832214
+off-nime:Chadabe1967	bibs/Extras/extras.bib	1967	New Approaches to Analog-Studio Design	10.2307/832412
+off-nime:Luening1968	bibs/Extras/extras.bib	1968	An Unfinished History of Electronic Music	10.2307/3392376
+off-nime:MathewsMooreRisset1974	bibs/Extras/extras.bib	1974	Computers and Future Music	10.1126/science.183.4122.263
+off-nime:McCarty1975	bibs/Extras/extras.bib	1975	Electronic Music Systems: Structure, Control, Product	10.2307/832086
+off-nime:appleton1999reflections	bibs/ISIDM/final.bib	1999	Reflections of a former perfomer of electroacoustic music	10.1080/07494469900640301
+off-nime:boulez1988computers	bibs/ISIDM/final.bib	1988	Computers in music	10.1038/scientificamerican0488-44
+off-nime:chadabe1999performer	bibs/ISIDM/final.bib	1999	The performer is us	10.1080/07494469900640321
+off-nime:chafe1999interplayer	bibs/ISIDM/final.bib	1999	Interplay(er) machines	10.1080/07494469900640371
+off-nime:chusid1999beethoven	bibs/ISIDM/final.bib	1999	Beethoven-in-a-Box: Raymond Scott's Electronium	10.1080/07494469900640291
+off-nime:eaton1999this	bibs/ISIDM/final.bib	1999	This is an instrument!	10.1080/07494469900640311
+off-nime:harvey1999metaphysics	bibs/ISIDM/final.bib	1999	The metaphysics of live electronics	10.1080/07494469900640351
+off-nime:mathews1970groove	bibs/ISIDM/final.bib	1970	GROOVE - a Program to Compose, Store, and Edit Functions of Time	10.1145/362814.362817
+off-nime:risset1999composing	bibs/ISIDM/final.bib	1999	Composing in real-time?	10.1080/07494469900640331
+off-nime:rowe1999aesthetics	bibs/ISIDM/final.bib	1999	The aesthetics of interactive music systems	10.1080/07494469900640361
+off-nime:stroppa1999live	bibs/ISIDM/final.bib	1999	Live electronics or… live music? Towards a critique of interaction	10.1080/07494469900640341
+off-nime:subotnick1999use	bibs/ISIDM/final.bib	1999	The use of computer technology in an interactive or 'real-time' performance environment	10.1080/07494469900640391
+off-nime:theremin1999recollections	bibs/ISIDM/final.bib	1999	Recollections	10.1080/07494469900640281
+off-nime:waisvisz1999riding	bibs/ISIDM/final.bib	1999	Riding the Sphinx - lines about 'live'	10.1080/07494469900640401
+off-nime:alexandraki2010exploring	bibs/ISIDM/final.bib	2010	Exploring New Perspectives in Network Music Performance: The DIAMOUSES Framework	10.1162/comj.2010.34.2.66
+off-nime:anderson2008microsound	bibs/ISIDM/final.bib	2008	Microsound in public space: compositional methods to enhance site-specific sound	10.1017/s1355771808000071
+off-nime:andean2011ecological	bibs/ISIDM/final.bib	2011	Ecological Psychology and the Electroacoustic Concert Context	10.1017/s1355771811000070
+off-nime:belet2003live	bibs/ISIDM/final.bib	2003	Live performance interaction for humans and machines in the early twenty-first century: One composer's aesthetics for composition and performance practice	10.1017/s1355771803000281
+off-nime:boltz2009audiovisual	bibs/ISIDM/final.bib	2009	Audiovisual Interactions: The Impact of Visual Information on Music Perception and Memory	10.1525/mp.2009.27.1.43
+off-nime:bown2009understanding	bibs/ISIDM/final.bib	2009	Understanding Interaction in Contemporary Digital Music: from instruments to behavioural objects	10.1017/s1355771809000296
+off-nime:brown2009interacting	bibs/ISIDM/final.bib	2009	Interacting with Generative Music through Live Coding	10.1080/07494460802663991
+off-nime:brown2011being	bibs/ISIDM/final.bib	2011	Being Among the Living: On the interrelations between performers, witnesses and environment in As I Have Now Memoyre	10.1017/s1355771811000124
+off-nime:camurri1999music	bibs/ISIDM/final.bib	1999	Music content processing and multimedia: Case studies and emerging applications of intelligent interactive systems	10.1076/0929-8215(199912)28:04;1-o;ft351
+off-nime:canazza2003abstract	bibs/ISIDM/final.bib	2003	An abstract control space for communication of sensory expressive intentions in music performance	10.1076/jnmr.32.3.281.16862
+off-nime:cascella2008carl	bibs/ISIDM/final.bib	2008	Carl Michael von Hausswolff	10.1017/s1355771808000046
+off-nime:cerana2000gesture	bibs/ISIDM/final.bib	2000	Gesture Control of Musical processes: A MAX Environment for Buchla's Lightning	10.1017/s1355771800001023
+off-nime:coulter2010electroacoustic	bibs/ISIDM/final.bib	2010	Electroacoustic Music with Moving Images: the art of media pairing	10.1017/s1355771809990239
+off-nime:cseres2009between	bibs/ISIDM/final.bib	2009	In Between as a Permanent Status: Milan Adamciak's Version of Intermedia	10.1162/lmj.2009.19.31
+off-nime:dipper2009interactive	bibs/ISIDM/final.bib	2009	Interactive Interfaces: Installations produced at the ZKMIMA	10.1017/s1355771809990100
+off-nime:drummond2009understanding	bibs/ISIDM/final.bib	2009	Understanding Interactive Systems	10.1017/s1355771809000235
+off-nime:eigenfeldt2011real	bibs/ISIDM/final.bib	2011	Real-time Composition as Performance Ecosystem	10.1017/s1355771811000094
+off-nime:essl2009interactivity	bibs/ISIDM/final.bib	2009	Interactivity for Mobile Music-Making	10.1017/s1355771809000302
+off-nime:frengel2010multidimensional	bibs/ISIDM/final.bib	2010	A Multidimensional Approach to Relationships between Live and Non-live Sound Sources in Mixed Works	10.1017/s1355771810000087
+off-nime:friberg1991generative	bibs/ISIDM/final.bib	1991	Generative rules for music performance: A formal description of a rule system	10.2307/3680917
+off-nime:friberg1991performance	bibs/ISIDM/final.bib	1991	Performance Rules for Computer-Controlled Contemporary Keyboard Music	10.2307/3680916
+off-nime:garnett2001aesthetics	bibs/ISIDM/final.bib	2001	The Aesthetics of Interactive Computer Music	10.1162/014892601300126089
+off-nime:gluck2005sounds	bibs/ISIDM/final.bib	2005	Sounds of a community: Cultural identity and interactive art	10.1162/lmj.2005.15.1.37
+off-nime:goudeseune2002interpolated	bibs/ISIDM/final.bib	2002	Interpolated Mappings for Musical Instruments	10.1017/s1355771802002029
+off-nime:green2011agility	bibs/ISIDM/final.bib	2011	Agility and Playfulness: Technology and skill in the performance ecosystem	10.1017/s1355771811000082
+off-nime:grossmann2008tip	bibs/ISIDM/final.bib	2008	The tip of the iceberg: laptop music and the information-technological transformation of music	10.1017/s1355771808000022
+off-nime:gurevich2011digital	bibs/ISIDM/final.bib	2011	Digital Musical Interactions: Performer-system relationships and their perception by spectators	10.1017/s1355771811000112
+off-nime:hashimoto2005grasping	bibs/ISIDM/final.bib	2005	A Grasping Device to Sense Hand Gesture for Expressive Sound Generation	10.1080/09298210500124232
+off-nime:hunt2002mapping	bibs/ISIDM/final.bib	2002	Mapping performer parameters to synthesis engines	10.1017/s1355771802002030
+off-nime:jean2008visual	bibs/ISIDM/final.bib	2008	The Visual Keyboard: Real-Time Feet Tracking for the Control of Musical Meta-Instruments	10.1016/j.image.2008.04.013
+off-nime:johnston2008designing	bibs/ISIDM/final.bib	2008	Designing and evaluating virtual musical instruments: facilitating conversational user interaction	10.1016/j.destud.2008.07.005
+off-nime:jordanous2009investigating	bibs/ISIDM/final.bib	2009	Investigating the Role of Score Following in Automatic Musical Accompaniment	10.1080/09298210903180245
+off-nime:katayose1993learning	bibs/ISIDM/final.bib	1993	Learning Performance Rules in a Music Interpretation System	10.1007/bf01830715
+off-nime:katayose2004ifp	bibs/ISIDM/final.bib	2004	iFP: A Music Interface Using an Expressive Performance Template	10.1007/978-3-540-28643-1_70
+off-nime:kimboyle2009network	bibs/ISIDM/final.bib	2009	Network Musics: Play, Engagement and the Democratization of Performance	10.1080/07494460903422198
+off-nime:kirlik2004human	bibs/ISIDM/final.bib	2004	Human-technology Interaction and Music Perception and Performance: Toward the Robust Design of Sociotechnical Systems	10.1109/jproc.2004.825881
+off-nime:lusted1996controlling	bibs/ISIDM/final.bib	1996	Controlling Computers with Neural Signals	10.1038/scientificamerican1096-82
+off-nime:magnusson2009epistemic	bibs/ISIDM/final.bib	2009	Of Epistemic Tools: Musical Instruments as Cognitive Extensions	10.1017/s1355771809000272
+off-nime:mion2010modeling	bibs/ISIDM/final.bib	2010	Modeling Expression with Perceptual Audio Features to Enhance User Interaction	10.1162/comj.2010.34.1.65
+off-nime:obrenovic2005flexible	bibs/ISIDM/final.bib	2005	A flexible system for creating music while interacting with the computer	10.1145/1101149.1101355
+off-nime:overholt2011advancements	bibs/ISIDM/final.bib	2011	Advancements in Actuated Musical Instruments	10.1017/s1355771811000100
+off-nime:paradiso1999brain	bibs/ISIDM/final.bib	1999	The Brain Opera Technology: New Instruments and Gestural Sensors for Musical Interaction and Performance	10.1076/jnmr.28.2.130.3119
+off-nime:petersen2008development	bibs/ISIDM/final.bib	2008	Development of a Real-Time Instrument Tracking System for Enabling the Musical Interaction with the Waseda Flutist Robot	10.1109/iros.2008.4650831
+off-nime:petersen2009development	bibs/ISIDM/final.bib	2009	Development of a Aural Real-Time Rhythmical and Harmonic Tracking to Enable the Musical Interaction with the Waseda Flutist Robot	10.1109/iros.2009.5354550
+off-nime:petersen2010musical	bibs/ISIDM/final.bib	2010	Musical-based interaction system for the Waseda Flutist Robot	10.1007/s10514-010-9180-5
+off-nime:pope1993real	bibs/ISIDM/final.bib	1993	Real-Time Performance via User Interfaces to Musical Structures	10.1080/09298219308570632
+off-nime:rasamimanana2011modular	bibs/ISIDM/final.bib	2011	Modular Musical Objects Towards Embodied Control of Digital Music	10.1145/1935701.1935704
+off-nime:richards2008getting	bibs/ISIDM/final.bib	2008	Getting the Hands Dirty	10.1162/lmj.2008.18.25
+off-nime:risset1996real	bibs/ISIDM/final.bib	1996	Real-time performance interaction with a computer-controlled acoustic piano	10.2307/3681273
+off-nime:sapir2002gestural	bibs/ISIDM/final.bib	2002	Gestural Control of Digital Audio Environments	10.1076/jnmr.31.2.119.8097
+off-nime:suzuki2004robotic	bibs/ISIDM/final.bib	2004	Robotic Interface for Embodied Interaction Via Dance and Musical Performance	10.1109/jproc.2004.825886
+off-nime:spasov2011music	bibs/ISIDM/final.bib	2011	Music Composition as an Act of Cognition: ENACTIV - Interactive Multi-modal Composing System	10.1017/s1355771810000452
+off-nime:ungvary2000designing	bibs/ISIDM/final.bib	2000	Designing Musical Cyberinstruments with body and soul in mind	10.1076/jnmr.29.3.245.3088
+off-nime:whalley2009software	bibs/ISIDM/final.bib	2009	Software Agents in Music and Sound Art Research/Creative Work: Current State adn a Possible Direction	10.1017/s1355771809000260
+off-nime:weinberg2005voice	bibs/ISIDM/final.bib	2005	Voice Networks: The Human Voice as a Creative Medium for Musical Collaboration	10.1162/lmj.2005.15.1.23
+off-nime:weinberg2006interactive	bibs/ISIDM/final.bib	2006	Interactive Sonification: Aesthetics, Functionality and Performance	10.1162/lmj.2006.16.9
+off-nime:yamaguchi2009grasping	bibs/ISIDM/final.bib	2009	Grasping Interface with Photo Sensor for a Musical Instrument	10.1007/978-3-642-02577-8_59
+off-nime:bongers1998tactual	bibs/ISIDM/final.bib	1998	Tactual display of sound properties in electronic musical instruments	10.1016/s0141-9382(98)00013-4
+off-nime:dunn2010measurement	bibs/ISIDM/final.bib	2010	Measurement and Data Analysis for Engineering and Science	10.1201/b14890
+off-nime:davidson1976haptic	bibs/ISIDM/final.bib	1976	Haptic perception	10.1093/jpepsy/1.3.21
+off-nime:fletcher1996force	bibs/ISIDM/final.bib	1996	Force Transduction Materials for Human-Technology Interfaces	10.1147/sj.353.0630
+off-nime:hayward2007it	bibs/ISIDM/final.bib	2007	Do it yourself haptics: Part I	10.1109/m-ra.2007.907921
+off-nime:hayward2008it	bibs/ISIDM/final.bib	2008	Do it yourself haptics: Part II [Tutorial]	10.1109/m-ra.2007.914919
+off-nime:marshall2006evaluation	bibs/ISIDM/final.bib	2006	Evaluation of Sensors as Input Devices for Computer Music Interfaces	10.1007/11751069_12
+off-nime:marshall2009sensor	bibs/ISIDM/final.bib	2009	Sensor Choice for Parameter Modulations in Digital Musical Instruments: Empirical Evidence from Pitch Modulation	10.1080/09298210903085865
+off-nime:paradiso1997electronic	bibs/ISIDM/final.bib	1997	Electronic Music: New Ways to play	10.1109/6.642965
+off-nime:verplaetse1996inertial	bibs/ISIDM/final.bib	1996	Inertial Proprioceptive Devices: Self-Motion-Sensing Toys and Tools	10.1147/sj.353.0639
+off-nime:vlasic2007practical	bibs/ISIDM/final.bib	2007	Practical Motion Capture in Everyday Surroundings	10.1145/1275808.1276421
+off-nime:accot2001scale	bibs/ISIDM/final.bib	2001	Scale Effects in Steering Law Tasks	10.1145/365024.365027
+off-nime:akamatsu1995comparison	bibs/ISIDM/final.bib	1995	A Comparison of Tactile, Auditory and Visual Feedback in a Pointing Task using a Mouse-Type Device	10.1080/00140139508925152
+off-nime:akamatsu1996movement	bibs/ISIDM/final.bib	1996	Movement Characteristics Using a Mouse with Tactile and Force Feedback	10.1006/ijhc.1996.0063
+off-nime:balakrishnan1997performance	bibs/ISIDM/final.bib	1997	Performance Differences in the Fingers, Wrist and Forearm in Computer Input Control	10.1145/258549.258764
+off-nime:bongers1999exploring	bibs/ISIDM/final.bib	1999	Exploring Novel Ways of Interaction in Musical Performance	10.1145/317561.317576
+off-nime:borchers1998design	bibs/ISIDM/final.bib	1998	Design Patterns for Interactive Musical Systems	10.1109/93.713303
+off-nime:buxton1986theres	bibs/ISIDM/final.bib	1986	There's More Interaction than Meets the Eye: Some Issues in Manual Input	10.1201/b15703-15
+off-nime:card1978evaluation	bibs/ISIDM/final.bib	1978	Evaluation of Mouse, Rate-controlled Isometric Joystick, Step keys, and Text keys for Text Selection on a CRT	10.1080/00140137808931762
+off-nime:card1991morphological	bibs/ISIDM/final.bib	1991	A Morphological Analysis of the Design Space of Input Devices	10.1145/123078.128726
+off-nime:chabot1993listen	bibs/ISIDM/final.bib	1993	To Listen and to See: Making and Using Electronic Instruments	10.2307/1513263
+off-nime:chadabe1977some	bibs/ISIDM/final.bib	1977	Some reflections on the Nature of the Landscape within which Computer Music Systems are Designed	10.2307/3679605
+off-nime:collins1991low	bibs/ISIDM/final.bib	1991	Low Brass: the Evolution of the Trombone Propelled Electronics	10.2307/1513120
+off-nime:fels1998musikalscope	bibs/ISIDM/final.bib	1998	MusiKalscope: A Graphical Musical Instrument	10.1109/93.713302
+off-nime:guiard2001disentangling	bibs/ISIDM/final.bib	2001	Disentangling Relative from Absolute Amplitude in Fitts' Law Experiments	10.1145/634253.634254
+off-nime:harrison1998squeeze	bibs/ISIDM/final.bib	1998	Squeeze Me, Hold Me, Tilt Me! An Exploration of Manipulative User Interfaces	10.1145/274644.274647
+off-nime:hinckley1997cooperative	bibs/ISIDM/final.bib	1997	Cooperative Bimanual Action	10.1145/258549.258571
+off-nime:hinckley1998interaction	bibs/ISIDM/final.bib	1998	Interaction and Modeling Techniques for Desktop Two-Handed Input	10.1145/288392.288572
+off-nime:hinckley1998two	bibs/ISIDM/final.bib	1998	Two-Handed Virtual Manipulation	10.1145/292834.292849
+off-nime:hummels1998intuitive	bibs/ISIDM/final.bib	1998	An Intuitive Two-Handed Gestural interface for Computer Supported Product Design	10.1007/bfb0053000
+off-nime:hunt1999radicala	bibs/ISIDM/final.bib	1999	Radical User Interfaces for Real-time Control	10.1109/eurmic.1999.794755
+off-nime:jacob1994integrality	bibs/ISIDM/final.bib	1994	Integrality and Separability of Input Devices	10.1145/174630.174631
+off-nime:kabbash1993human	bibs/ISIDM/final.bib	1993	Human Performance Using Computer Input Devices in the Preferred and Non-Preferred Hands	10.1145/169059.169414
+off-nime:linz1996towards	bibs/ISIDM/final.bib	1996	Towards the Design of a Real-Time Interactive Performance Sound System	10.2307/1513329
+off-nime:mackenzie1992extending	bibs/ISIDM/final.bib	1992	Extending Fitts' Law to Two Dimensional Tasks	10.1145/142750.142794
+off-nime:mackinlay1990semantic	bibs/ISIDM/final.bib	1990	A Semantic Analysis of the Design Space of Input Devices	10.1207/s15327051hci0502&3_2
+off-nime:marrin1997possibilities	bibs/ISIDM/final.bib	1997	Possibilities for the Digital Baton as a General-Purpose Gestural Interface	10.1145/1120212.1120409
+off-nime:mulder1996getting	bibs/ISIDM/final.bib	1996	Getting a Grip on Alternate Controllers: Addressing the Variability of Gestural Expression in Musical Instrument Design	10.2307/1513302
+off-nime:naugle1998digital	bibs/ISIDM/final.bib	1998	Digital Dancing	10.1109/93.735864
+off-nime:overholt2009musical	bibs/ISIDM/final.bib	2009	The Musical Interface Technology Design Space	10.1017/s1355771809000326
+off-nime:paradiso1996interactive	bibs/ISIDM/final.bib	1996	The Interactive Ballon: Sensing, Actuation, and Behavior in a Common Object	10.1147/sj.353.0473
+off-nime:paradiso2002passive	bibs/ISIDM/final.bib	2002	Passive Acoustic Knock Tracking for Interactive Windows	10.1145/506443.506570
+off-nime:pennycook1985computer	bibs/ISIDM/final.bib	1985	Computer-Music Interfaces: A Survey	10.1145/4468.4470
+off-nime:ryan1991some	bibs/ISIDM/final.bib	1991	Some Remarks on Musical Instrument Design at STEIM	10.1080/07494469100640021
+off-nime:smith1996field	bibs/ISIDM/final.bib	1996	Field Mice: Extracting Hand Geometry from Electric Field Measurements	10.1147/sj.353.0587
+off-nime:vertegaal1996comparison	bibs/ISIDM/final.bib	1996	Comparison of Input Devices in an ISEE Direct Timbre Manipulation Task	10.1016/0953-5438(95)01015-7
+off-nime:wanderley2004gestural	bibs/ISIDM/final.bib	2004	Gestural Control of Sound Synthesis	10.1109/jproc.2004.825882
+off-nime:zhai1996influence	bibs/ISIDM/final.bib	1996	The Influence of Muscle Groups on Performance of Multiple Degree-of-Freedom Input	10.1145/238386.238534
+off-nime:arfib2002strategies	bibs/ISIDM/final.bib	2002	Strategies of Mapping between Gesture data and Synthesis Model Parameters using Perceptual Spaces	10.1017/s1355771802002054
+off-nime:burtner2002metasaxophone	bibs/ISIDM/final.bib	2002	The Metasaxophone: concept, implementation, and mapping strategies for a new computer music instrument	10.1017/s1355771802002108
+off-nime:dahlstedt2008dynamic	bibs/ISIDM/final.bib	2008	Dynamic Mapping Strategies for Expressive Synthesis Performance and Improvisation	10.1007/978-3-642-02518-1_16
+off-nime:doornbusch2002composers	bibs/ISIDM/final.bib	2002	Composers' Views on Mapping in Algorithmic Composition	10.1017/s1355771802002066
+off-nime:fels2002mapping	bibs/ISIDM/final.bib	2002	Mapping Transparency through Metaphor: towards more expressive musical instruments	10.1017/s1355771802002042
+off-nime:levitin2002control	bibs/ISIDM/final.bib	2002	Control Parameters for Musical Instruments: a foundation for new mappings of gesture to sound	10.1017/s135577180200208x
+off-nime:myatt2002strategies	bibs/ISIDM/final.bib	2002	Strategies for Interaction in Construction 3	10.1017/s1355771802002078
+off-nime:ng2002sensing	bibs/ISIDM/final.bib	2002	Sensing and Mapping for Interactive Performance	10.1017/s1355771802002091
+off-nime:nichols2002vbow	bibs/ISIDM/final.bib	2002	The vBow: a virtual violin bow controller for mapping gesture to synthesis with haptic feedback	10.1017/s135577180200211x
+off-nime:vertegaal1994isee	bibs/ISIDM/final.bib	1994	ISEE: An Intuitive Sound Editing Environment	10.2307/3680440
+off-nime:wessel1979timbre	bibs/ISIDM/final.bib	1979	Timbre Space as a Musical Control Structure	10.2307/3680283
+off-nime:amatriain2007clam	bibs/ISIDM/final.bib	2007	CLAM: A Framework for Audio and Music Application Development	10.1109/ms.2007.8
+off-nime:anderson1999using	bibs/ISIDM/final.bib	1999	Using Music Performance Software with Flexible Control Interfaces for Live Performance by Severely Disabled Musicians	10.1109/eurmic.1999.794757
+off-nime:camurri2004analysis	bibs/ISIDM/final.bib	2004	Analysis of Expressive Gesture: The Eyesweb Expressive Gesture Processing Library	10.1007/978-3-540-24598-8_42
+off-nime:cook2002real	bibs/ISIDM/final.bib	2002	Real Sound Synthesis for Interactive Applications	10.1201/b19597
+off-nime:dechelle1999jmax	bibs/ISIDM/final.bib	1999	jMax: An Environment for Real-Time Musical Applications	10.1162/014892699559887
+off-nime:huron2002music	bibs/ISIDM/final.bib	2002	Music Information Processing Using the Humdrum Toolkit: Concepts, Examples, and Lessons	10.1162/014892602760137158
+off-nime:manning1999evolution	bibs/ISIDM/final.bib	1999	The evolution of interactive graphical control interfaces for music applications	10.1017/s1355771899001065
+off-nime:porcaro1998synthbuilder	bibs/ISIDM/final.bib	1998	SynthBuilder: A Graphical Rapid-Prototyping Tool for the Development of Music Synthesis and Effects Patches on Multiple Platforms	10.2307/3680962
+off-nime:rowe2001machine	bibs/ISIDM/final.bib	2001	Machine Musicianship	10.7551/mitpress/4361.001.0001
+off-nime:schumacher2010spatial	bibs/ISIDM/final.bib	2010	Spatial Sound Synthesis in Computer-Aided Composition	10.1017/s1355771810000300
+off-nime:aylward2007compact	bibs/ISIDM/final.bib	2007	A compact, high-speed, wearable sensor network for biomotion capture and interactive media	10.1109/ipsn.2007.4379698
+off-nime:bayliss2005new	bibs/ISIDM/final.bib	2005	New shapes on the dance floor: influencing ambient sound and vision with computationally augmented poi	10.1386/padm.1.1.67/1
+off-nime:brightman1990computer	bibs/ISIDM/final.bib	1990	Computer Dancemakers	10.2307/1575341
+off-nime:birringer1999contemporary	bibs/ISIDM/final.bib	1999	Contemporary Performance/Technology	10.1353/tj.1999.0079
+off-nime:birringer2003performance	bibs/ISIDM/final.bib	2003	Performance Systems	10.1080/10137548.2003.9687764
+off-nime:camurri2004multimodal	bibs/ISIDM/final.bib	2004	Multimodal analysis of expressive gesture in music and dance performances	10.1007/978-3-540-24598-8_3
+off-nime:crampton2007dance	bibs/ISIDM/final.bib	2007	Dance, Dance Evolution: Accelerometer Sensor Networks as Input to Video Games	10.1109/have.2007.4371597
+off-nime:davcev2003augmented	bibs/ISIDM/final.bib	2003	Augmented Reality Environment for Dance Learning	10.1109/itre.2003.1270600
+off-nime:deng2011real	bibs/ISIDM/final.bib	2011	Real-time mocap dance recognition for an interactive dancing game	10.1002/cav.397
+off-nime:feldmeier2004giveaway	bibs/ISIDM/final.bib	2004	Giveaway wireless sensors for large-group interaction	10.1145/985921.986046
+off-nime:fujimoto2009motion	bibs/ISIDM/final.bib	2009	A Motion Recognition Method for a Wearable Dancing Musical Instrument	10.1109/iswc.2009.22
+off-nime:forest1988communication	bibs/ISIDM/final.bib	1988	Communication esthetics, interactive participation and artistic systems of communication and expression	10.2307/1511394
+off-nime:gidney1983artists	bibs/ISIDM/final.bib	1983	The Artist's use of telecommunications: a review	10.2307/1574959
+off-nime:herbisonevans1988dance	bibs/ISIDM/final.bib	1988	Dance, Video, Notation and Computers	10.2307/1578415
+off-nime:held1992telepresence	bibs/ISIDM/final.bib	1992	Telepresence	10.1121/1.404500
+off-nime:kac1992aspects	bibs/ISIDM/final.bib	1992	Aspects of the Aesthetics of Telecomommunications	10.1145/131340.260550
+off-nime:kahlich1992dance	bibs/ISIDM/final.bib	1992	Dance Technology – Moving into the Future	10.1017/s0149767700012213
+off-nime:kim2008shadow	bibs/ISIDM/final.bib	2008	The Shadow Dancer: A New Dance Interface with Interactive Shoes	10.1109/cw.2008.127
+off-nime:kwon2005combining	bibs/ISIDM/final.bib	2005	Combining Body Sensors and Visual Sensors for Motion Training	10.1145/1178477.1178490
+off-nime:latulipe2008dance	bibs/ISIDM/final.bib	2008	Dance. Draw: exquisite interaction	10.14236/ewic/hci2008.31
+off-nime:liang2009performance	bibs/ISIDM/final.bib	2009	Performance-driven motion choreographing with accelerometers	10.1002/cav.311
+off-nime:loveless1999utterance	bibs/ISIDM/final.bib	1999	Utterance 6 Live and Media Performance—the Next Frontier	10.1080/13528165.1999.10871672
+off-nime:majoe2009towards	bibs/ISIDM/final.bib	2009	Towards An Interactive Multimedia Experience For Club Music And Dance	10.1145/1821748.1821773
+off-nime:nakamura2005dance	bibs/ISIDM/final.bib	2005	Dance Training System with Active Vibro-Devices and a Mobile Image Display	10.1109/iros.2005.1545565
+off-nime:newman2004videogames	bibs/ISIDM/final.bib	2004	Videogames	10.4324/9780203642900
+off-nime:paradiso2000design	bibs/ISIDM/final.bib	2000	Design and Implementation of Expressive Footwear	10.1147/sj.393.0511
+off-nime:politis1990computers	bibs/ISIDM/final.bib	1990	Computers and dance: a bibliography	10.2307/1578471
+off-nime:popat2002dance	bibs/ISIDM/final.bib	2002	Dance-Making on the Internet: Can Online Choreographic Projects Foster Creativity in the User-Participant?	10.1162/002409402753689281
+off-nime:rohr1994towards	bibs/ISIDM/final.bib	1994	Towards model-based recognition of human movements in image sequences	10.1006/ciun.1994.1006
+off-nime:shiratori2006dancing	bibs/ISIDM/final.bib	2006	Dancing-To-Music Character Animation	10.1111/j.1467-8659.2006.00964.x
+off-nime:slater1994depth	bibs/ISIDM/final.bib	1994	Depth of presence in virtual environment	10.1162/pres.1994.3.2.130
+off-nime:smith2004i	bibs/ISIDM/final.bib	2004	I Can See Tomorrow In Your Dance: A Study of Dance Dance Revolution and Music Video Games	10.1111/j.0022-4146.2004.00011.x
+off-nime:soga2009automatic	bibs/ISIDM/final.bib	2009	Automatic Composition for Contemporary Dance Using 3D Motion Clips: Experiment on Dance Training and System Evaluation	10.1109/cw.2009.37
+off-nime:srinivasan2005pressure	bibs/ISIDM/final.bib	2005	A pressure sensing floor for interactive media applications	10.1145/1178477.1178526
+off-nime:ungvary1992nuntius	bibs/ISIDM/final.bib	1992	Nuntius – A Computer System for the Interactive Composition and Analysis of Music and Dance	10.2307/1575623
+off-nime:wechsler1997computers	bibs/ISIDM/final.bib	1997	Computers and Art: a Dancer's Perspective	10.1109/44.605946
+off-nime:wechsler1998computers	bibs/ISIDM/final.bib	1998	Computers and Dance: Back to the Future?	10.2307/1477888
+off-nime:yang2006collaborative	bibs/ISIDM/final.bib	2006	Collaborative Dancing in Tele-Immersive Environment	10.1145/1180639.1180793

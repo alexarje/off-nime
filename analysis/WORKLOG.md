@@ -46,3 +46,29 @@ of the list (check: median 76th percentile, 53% in the top quarter) but let gene
 through, and a curated lower-quartile threshold admitted 4,168 items. The final rule needs the
 curated median contrast and the curated lower-quartile closeness: 459 candidates. The Crossref
 resolver's second pass, with the raw reference string, raised DOIs from 174 to 206 of 352.
+
+## 2026-10-09, evening
+
+Built `bibs/Cited/cited.bib` with `tools/build_cited.py`: works with a DOI, in neither archive,
+at least as close to the archives as the curated CMJ lower quartile, and either cited by five or
+more archive papers, citing ten or more archive entries, or found in the journal sweep as well.
+The site shows them under a Cited tab via a `collection` field. `build_corpus.py` skips
+`bibs/Cited/`, so the curated archives remain the reference.
+
+The Crossref resolver matched "The Technology of Computer Music" (Mathews 1969) to a 1971 review
+with the same title; it now requires the first author to match, which removed 18 matches (206 to
+188 of 352).
+
+Added DOIs to 224 off-NIME entries with `tools/offnime_dois.py --apply` (275 of 916 now have one).
+The first run converted the CRLF line endings of `ISIDM/theses-tech-reports.bib` and indented
+lines in unindented files; it was reverted, and the script now keeps each file's endings and
+indentation. A technical report took its journal version's DOI, so the script now also requires
+the same kind of publication (242 to 224 accepted). Check: all 39 entries with a JSTOR URL agree
+with their DOI (35 the JSTOR DOI, 4 the MIT Press DOI for the same CMJ article).
+
+With the new DOIs, Semantic Scholar found 210 more off-NIME entries in three batch calls, and
+their forward citations raised links within off-NIME from 68 to 335. The quod.lib.umich.edu ICMC
+archive and dblp.org both answer scripts with bot challenges, so the full ICMC sweep is blocked.
+
+The atlas lists search matches as keyboard-reachable buttons in the side panel, and Escape clears
+a selection. Exports: `output/collection.csv` and CSL-JSON `output/collection.json`.

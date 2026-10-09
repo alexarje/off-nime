@@ -86,12 +86,16 @@ The off-NIME archive holds {{n_dups}} pairs of entries that share a title. Each 
 
 I would extend off-NIME along the three directions the lists measure, and in this order.
 
-1. Curate the backward list first. The works cited by ten or more archive papers are the field's shared foundations, and they need the least judgement to accept. `candidates_cited.bib` is ready BibTeX, with DOIs where Crossref has them and a note of how many archive papers cite each work. Accepted entries would go in a new `bibs/Cited/` dataset; anything under `bibs/` appears in the website's table, which is why the candidates stay in `analysis/output/` until they are vetted. [ARJ: a separate Cited dataset (recommended), or merge into Extras?]
+1. Vet the Cited dataset and the borderline list. `bibs/Cited/cited.bib` holds {{c_adm}} works admitted by fixed rules: each has a DOI, so its metadata comes from Crossref rather than from a parsed reference string; each is in neither archive; each is at least as close to the archives in wording as the lower quartile of the curated CMJ articles; and each is cited by at least {{c_min_cited}} archive papers ({{c_by_cited}} works), cites at least {{c_min_citing}} archive entries ({{c_by_cites}}), or turned up in the journal sweep as well as on one of those lists ({{c_by_sweep}}). The website shows them under their own Cited tab. [`borderline.tsv`](output/borderline.tsv) lists {{c_border}} works with a DOI that fall short of one rule. Its top rows are clearly relevant reviews that miss the closeness bar only because their titles are short, so it needs a human reading. [ARJ: vet the top of the borderline list, and remove anything from Cited that does not belong.]
 2. Use the forward list to continue off-NIME past {{off_y1}}. Its top entries are mostly theses and journal articles that position themselves against NIME. The Crossref sweep gives a systematic list alongside the citation-driven one, and the two can be read together: an article that appears in both is a strong candidate.
-3. Mine the local archive. ICMC 2000–2008 is present locally in full, and the score shortlists {{loc_above_icmc}} ICMC papers. The full ICMC archive is online at the University of Michigan library, so the same scoring could run over every ICMC year.
+3. Mine the local archive. ICMC 2000–2008 is present locally in full, and the score shortlists {{loc_above_icmc}} ICMC papers. The full ICMC archive at the University of Michigan library, and ICMC's listing in DBLP, both sit behind bot checks, so they cannot be read by a script. [ARJ: ask the ICMA or Michigan Publishing for a metadata export of the ICMC proceedings (recommended), or extend the local copy year by year?]
 4. Snowball. Each accepted candidate brings its own reference list; repeating the citation step until a round yields few new works cited by five or more archive papers would close the backward list.
 5. Give every off-NIME entry a DOI or Semantic Scholar identifier, and an abstract where one exists. Topic modelling and citation matching both suffer most from titles-only entries. The Semantic Scholar title lookup is in `tools/fetch_s2.py` and resumes from its cache, but it needs an API key to finish in reasonable time. [ARJ: request a Semantic Scholar API key (recommended), or use OpenAlex's free daily allowance over several days?]
 6. Decide where the result lives. The off-NIME site and the NIME bibliography share a format; a joined export with an `archive` field, as `data/corpus.json` already is, would let the NIME website show both. [ARJ: propose this to the IDMIL maintainers as a pull request (recommended), or keep it in this fork for now?]
+
+### Exports
+
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its {{x_rows}} entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 
@@ -99,7 +103,7 @@ Author keys merge people who share a surname and initial, and split people who p
 
 ## Data and code
 
-The scripts are in `analysis/tools/` and run from `analysis/.venv` in this order: `build_corpus.py`, `fetch_s2.py`, `fetch_citing.py`, `fetch_texts.py`, `extract_local.py`, `parse_refs.py`, `citations.py`, `local_candidates.py`, `analyse.py`, `build_viewer.py`, `report.py`. Downloaded texts and caches are in `analysis/data/` and are not committed. The atlas is `analysis/output/nime-atlas.html`; the candidate lists are the three `.tsv` files beside it.
+The scripts are in `analysis/tools/` and run from `analysis/.venv` in this order: `build_corpus.py`, `fetch_s2.py`, `fetch_citing.py`, `fetch_texts.py`, `extract_local.py`, `parse_refs.py`, `citations.py`, `crossref.py`, `local_candidates.py`, `score_journals.py`, `build_cited.py`, `offnime_dois.py`, `analyse.py`, `export.py`, `build_viewer.py` and `report.py`; `run.sh` runs them in that order. Downloaded texts and caches are in `analysis/data/` and are not committed. The atlas is `analysis/output/nime-atlas.html`; the candidate lists are the three `.tsv` files beside it.
 
 ## Contributor roles
 

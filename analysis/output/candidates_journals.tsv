@@ -1,12 +1,10 @@
 score	source	year	title	authors	doi	nearest_archive_entry
-0.2135	Contemporary Music Review	1999	“This is an instrument!”	John Eaton	10.1080/07494469900640311	What is a Musical Instrument?
-0.2021	Contemporary Music Review	2013	Instrumental Gesture in<i>StreicherKreis</i>	Florence Baschet	10.1080/07494467.2013.774222	Instrumental gesture and musical composition
 0.179	Contemporary Music Review	1991	The UPIC as a performance instrument	Pierre Bernard	10.1080/07494469100640051	The New UPIC System
 0.1666	Journal of New Music Research	2002	The Basics of Scratching	Kjetil Falkenberg Hansen	10.1076/jnmr.31.4.357.14171	Mapping Strategies in DJ Scratching
-0.1399	Computer Music Journal	2001	From <i>Dance!</i> to “Dance”: Distance and Digits	Simon Emmerson	10.1162/014892601300126070	The Digital Dance Interface
+0.1399	Computer Music Journal	2001	From Dance! to “Dance”: Distance and Digits	Simon Emmerson	10.1162/014892601300126070	The Digital Dance Interface
 0.1383	Computer Music Journal	2020	Electronic_Khipu_: Thinking in Experimental Sound from an Ancestral Andean Interface	Laddy Patricia Cadavid Hinojosa	10.1162/comj_a_00561	Knotting the memory//Encoding the Khipu_: Reuse of an ancient Andean device as a NIME
-0.1356	Journal of New Music Research	2018	Symbaline: An electromagnetically actuated wine glass instrument	Lior Arbel; Yoav Y. Schechner; Noam Amir	10.1080/09298215.2018.1465983	The Hummellaphone: An Electromagnetically Actuated Instrument and Open-Source Toolkit
-0.1212	Contemporary Music Review	2019	Choreography in R. Murray Schafer's <i>The Crown of Ariadne—</i>Technical or Theatrical?	Rosanna Moore	10.1080/07494467.2019.1706348	Distributed Choreography in a Video-Conference Environment
+0.1341	Journal of New Music Research	2018	Symbaline: An electromagnetically actuated wine glass instrument	Lior Arbel; Yoav Y. Schechner; Noam Amir	10.1080/09298215.2018.1465983	The Hummellaphone: An Electromagnetically Actuated Instrument and Open-Source Toolkit
+0.1212	Contemporary Music Review	2019	Choreography in R. Murray Schafer's The Crown of Ariadne—Technical or Theatrical?	Rosanna Moore	10.1080/07494467.2019.1706348	Distributed Choreography in a Video-Conference Environment
 0.1201	Computer Music Journal	1986	Elementi di Informatica Musicale	Marco Stroppa; Goffredo Haus	10.2307/3680303	Geste et pensée musicale: de l'outil à l'instrument
 0.1071	Journal of New Music Research	2002	The Exbow MetaSax: Compositional Applications of Bowed String Physical Models Using Instrument Controller Subsititution	Matthew Burtner; Stefania Serafin	10.1076/jnmr.31.2.131.8093	An Alternative Controller for a Virtual Bowed String Instrument
 0.1067	Contemporary Music Review	2010	The Real-Time-Score: Nucleus and Fluid Opus	Gerhard E. Winkler	10.1080/07494467.2010.509598	Tangible sound : musical instrument using fluid media
@@ -16,6 +14,7 @@ score	source	year	title	authors	doi	nearest_archive_entry
 0.0875	Computer Music Journal	2015	Designing Musical Instruments for the Browser	Charles Roberts; Graham Wakefield; Matthew Wright; JoAnn Kuchera-Morin	10.1162/comj_a_00283	The Web Browser As Synthesizer And Interface
 0.0868	Computer Music Journal	2015	Expressive Robotic Guitars: Developments in Musical Robotics for Chordophones	Jim Murphy; James McVay; Paul Mathews; Dale A. Carnegie; Ajay Kapur	10.1162/comj_a_00285	Designing and Building Expressive Robotic Guitars
 0.0843	Computer Music Journal	1995	3-D Sound for Virtual Reality and Multimedia	Dave Madole; Durand Begault	10.2307/3680997	Virtual Reality Technology
+0.0816	Computer Music Journal	1985	TM +, Trio instrumental electroacoustique	Joseph Paul Taylor; Dufour; Geslin; Cuniot; Mion; Parmegiani	10.2307/3679660	Étude et réalisation de dispositifs de captation du jeu instrumental
 0.0803	Computer Music Journal	2020	Construction and Performance Applications of an Augmented Violin: TRAVIS II	Chantelle Ko; Lora Oehlberg	10.1162/comj_a_00563	Touch Responsive Augmented Violin Interface System II: Integrating Sensors into a 3D Printed Fingerboard
 0.078	Personal and Ubiquitous Computing	1998	Palmtop programmable appliance controls	Diomidis Spinellis	10.1007/bf01581842	Programmable Finger-tracking Instrument Controllers
 0.0743	Computer Music Journal	2020	Performer Experience on a Continuous Keyboard Instrument	Giulio Moro; Andrew P. McPherson	10.1162/comj_a_00565	A platform for low-latency continuous keyboard sensing and sound generation
@@ -29,36 +28,33 @@ score	source	year	title	authors	doi	nearest_archive_entry
 0.0647	Computer Music Journal	1994	Journees d'Informatique Musicale (JIM '94)	Myriam Desainte-Catherine	10.2307/3681363	Entre l'idée et l'œuvre. Parcours de l'informatique musicale
 0.0647	Computer Music Journal	1996	JIM'95: Journees d'Informatique Musicale	Francois Pachet	10.2307/3681276	Entre l'idée et l'œuvre. Parcours de l'informatique musicale
 0.0647	Computer Music Journal	1997	JIM'96: Third Journees d'Informatique Musicale	Marc Chemillier; Gerard Assayag	10.2307/3681017	Entre l'idée et l'œuvre. Parcours de l'informatique musicale
-0.0582	Computer Music Journal	1985	TM +, Trio instrumental electroacoustique	Joseph Paul Taylor; Dufour; Geslin; Cuniot; Mion; Parmegiani	10.2307/3679660	Étude et réalisation de dispositifs de captation du jeu instrumental
 0.0572	Journal of New Music Research	2024	Human–machine agencies in live coding for music performance	Anna Xambó; Gerard Roma	10.1080/09298215.2024.2442355	A Live Coding Performance
 0.0568	Journal of New Music Research	2000	Expressiveness and Physicality in Interaction*	Antonio Camurri; Paolo Coletta; Matteo Ricchetti; Gualtiero Volpe	10.1076/jnmr.29.3.187.3094	Cognition and Physicality in Musical CyberInstruments
-0.0549	Contemporary Music Review	1999	The performer is us	Joel Chadabe	10.1080/07494469900640321	The performer is us
+0.0556	Contemporary Music Review	2006	Haptic sensation and instrumental transgression	Pedro Rebelo	10.1080/07494460600647402	Étude et réalisation de dispositifs de captation du jeu instrumental
+0.0537	Personal and Ubiquitous Computing	2006	Accelerometer-based gesture control for a design environment	Juha Kela; Panu Korpipää; Jani Mäntyjärvi; Sanna Kallio; Giuseppe Savino; Luca Jozzo	10.1007/s00779-005-0033-8	Gesture -- Music
 0.0536	CHI	2026	MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR	Tianyu Xu; Sieun Kim; Qianhui Zheng; Ruoyu Xu; Tejasvi Ravi; Anuva Kulkarni	10.1145/3772318.3791929	Audio-Visual Instruments in Live Performance
 0.0535	Journal of New Music Research	2010	The Magaloff Project: An Interim Report	Sebastian Flossmann; Werner Goebl; Maarten Grachten; Bernhard Niedermayer; Gerhard Widmer	10.1080/09298215.2010.523469	The Augmented Violin Project: Research, Composition and Performance Report
 0.0526	Computer Music Journal	2015	ChucK: A Strongly Timed Computer Music Language	Ge Wang; Perry R. Cook; Spencer Salazar	10.1162/comj_a_00324	ChucK: A Concurrent, On-the-fly Audio Programming Language
 0.0525	Computer Music Journal	1991	A Satirical Look at the DAT Copyright Suit		10.2307/3680380	A look at performer/machine interaction using real-time systems
-0.0478	Organised Sound	2002	Strategies for interaction in <i>construction 3</i>	Tony Myatt	10.1017/s1355771802002078	Strategies for Interaction in Construction 3
-0.0469	Personal and Ubiquitous Computing	2006	Accelerometer-based gesture control for a design environment	Juha Kela; Panu Korpipää; Jani Mäntyjärvi; Sanna Kallio; Giuseppe Savino; Luca Jozzo	10.1007/s00779-005-0033-8	Gesture -- Music
 0.0459	Organised Sound	2013	massMobile: towards a flexible framework for large-scale participatory collaborations in live performances	Nathan Weitzner; Jason Freeman; Yan-Ling Chen; Stephen Garrett	10.1017/s1355771812000222	massMobile -an Audience Participation Framework
 0.0408	Computer Music Journal	2016	Virtual Reality Musical Instruments: State of the Art, Design Principles, and Future Directions	Stefania Serafin; Cumhur Erkut; Juraj Kojs; Niels C. Nilsson; Rolf Nordahl	10.1162/comj_a_00372	Immersive virtual reality technology
-0.0389	Contemporary Music Review	2016	The Creative Process of
-                    <i>Sculpting the Air</i>
-                    by Jesper Nordin:          Conceiving and Performing a Concerto for Conductor with Live Electronics	Baptiste Bacot; François-Xavier Féron	10.1080/07494467.2016.1257569	Sound Sculpting: Performing with Virtual Musical Instruments
+0.0401	Contemporary Music Review	2016	‘Beyond the Dance Floor’? Gendered Publics and Creative Practices in Electronic Dance Music	Christabel Stirling	10.1080/07494467.2016.1176772	Digital Culture – the View from the Dance Floor
+0.0389	Contemporary Music Review	2016	The Creative Process of Sculpting the Air by Jesper Nordin: Conceiving and Performing a Concerto for Conductor with Live Electronics	Baptiste Bacot; François-Xavier Féron	10.1080/07494467.2016.1257569	Sound Sculpting: Performing with Virtual Musical Instruments
 0.0383	Journal of New Music Research	2010	The Magnetic Resonator Piano: Electronic Augmentation of an Acoustic Grand Piano	Andrew McPherson	10.1080/09298211003695587	A Meta-Action for the Grand Piano
 0.0382	Leonardo Music Journal	1998	A Performer-Controlled Live Sound-Processing System: New Developments and Implementations of the Expanded Instrument System	David Gamper; Pauline Oliveros	10.2307/1513397	The expanded instrument system (EIS)
-0.038	Contemporary Music Review	2016	‘Beyond the Dance Floor’? Gendered Publics and Creative Practices in Electronic Dance Music	Christabel Stirling	10.1080/07494467.2016.1176772	Digital Culture – the View from the Dance Floor
-0.0365	Contemporary Music Review	2006	Haptic sensation and instrumental transgression	Pedro Rebelo	10.1080/07494460600647402	Étude et réalisation de dispositifs de captation du jeu instrumental
 0.0365	Personal and Ubiquitous Computing	2023	Towards conscientiousness-based graphical user interface design guidelines	Tomás Alves; Daniel Nunes; Daniel Gonçalves; Joana Henriques-Calado; Sandra Gama	10.1007/s00779-022-01693-x	Graphical marionette
 0.0357	ACM Transactions on Computer-Human Interaction	2000	Supporting presence in collaborative environments by haptic force feedback	Eva-Lotta Sallnäs; Kirsten Rassmus-Gröhn; Calle Sjöström	10.1145/365058.365086	Haptic feedback in a computer music performance interface
 0.0352	TEI	2016	Navigation of Pitch Space on a Digital Musical Instrument with Dynamic Tactile Feedback	Robert Jack; Tony Stockman; Andrew McPherson	10.1145/2839462.2839503	Tactile Audio Feedback
 0.0344	Personal and Ubiquitous Computing	2005	The design of the SensVest	James F. Knight; Anthony Schwirtz; Fotis Psomadelis; Chris Baber; Huw W. Bristow; Theodoros N. Arvanitis	10.1007/s00779-004-0269-8	The SensOrg: Time-complexity and the Design of a Musical Cyberinstrument
 0.0327	Contemporary Music Review	1991	Designing interactive computer-based music installations	David Behrman	10.1080/07494469100640131	A Computer-Based System for the Performance of Electroacoustic Music
-0.0315	Organised Sound	2005	<i>Public Sound Objects</i>: a shared environment for networked music practice on the Web	ALVARO BARBOSA	10.1017/s135577180500097x	Network Latency Adaptive Tempo in the Public Sound Objects System
+0.0315	Organised Sound	2005	Public Sound Objects: a shared environment for networked music practice on the Web	ALVARO BARBOSA	10.1017/s135577180500097x	Network Latency Adaptive Tempo in the Public Sound Objects System
 0.0306	Contemporary Music Review	2010	Real-time Score Generation for Extensible Open Forms	David Kim-Boyle	10.1080/07494467.2010.509588	Ensemble: An Extensible Real-time Music Performance Environment
 0.0306	Personal and Ubiquitous Computing	1999	The Musical Playpen: An immersive digital musical instrument	Gil Weinberg	10.1007/bf01305338	The Digital Computer as a Musical Instrument
 0.029	Organised Sound	1997	The UPIC system as an instrument of learning	PETER NELSON	10.1017/s1355771897000083	The New UPIC System
 0.0274	Computer Music Journal	1987	Pour en finir avec le pouvoir d'orphee/Dedans, dehors	David Keane; Bernard Parmegiani	10.2307/3680247	Coupleur gestuel rétroactif pour la commande et le contrôle de sons de synthèse
 0.027	Computer Music Journal	1982	The Computer Audio Research Laboratory at UCSD	F. Richard Moore	10.2307/3680355	Computer audio research laboratory report
+0.0269	Journal of New Music Research	2009	Enaction and Music: Anticipating a New Alliance between Dynamic Instrumental Arts	Annie Luciani	10.1080/09298210903325600	Étude et réalisation de dispositifs de captation du jeu instrumental
+0.0265	Computer Music Journal	1980	Rosenboom and Buchla: Collaboration and Performance	Grant Groberg; Rosenboom; Buchla	10.2307/3679443	A History of Buchla's Musical Instruments
 0.0265	Computer Music Journal	2013	Real-Time Music Notation in Mixed Laptop–Acoustic Ensembles	Sang Won Lee; Jason Freeman	10.1162/comj_a_00202	Real-Time Music Notation, Collaborative Improvisation, and Laptop Ensembles
 0.026	Journal of New Music Research	2009	Ergotic Sounds: A New Way to Improve Playability, Believability and Presence of Virtual Musical Instruments	Annie Luciani; Jean-Loup Florens; Damien Couroussé; Julien Castet	10.1080/09298210903359187	The Virtual Embodied: Presence, Practice, Technology
 0.0255	Personal and Ubiquitous Computing	2011	Fiber optic sensors for wearable applications	Jyri Rantala; Jaana Hännikäinen; Jukka Vanhala	10.1007/s00779-010-0303-y	Optoelectronic Acquisition and Control Board for Musical Applications
@@ -68,26 +64,25 @@ score	source	year	title	authors	doi	nearest_archive_entry
 0.0214	Computer Music Journal	1996	Implosions: Kolbeinn Bjarnason, flute	Jeanette Beaurelais; H. Hallgrimsson; T. Hauksson; H. Sollberger; K. Huber; B. Ferneyhough	10.2307/3681340	A Digital Flute
 0.0204	Journal of New Music Research	2020	Modular reality: Analogues of patching in immersive space	Michael Palumbo; Alexander Zonta; Graham Wakefield	10.1080/09298215.2019.1706583	Immersive virtual reality technology
 0.02	Computer Music Journal	1995	3-D Sound Spatialization using Ambisonic Techniques	David G. Malham; Anthony Myatt	10.2307/3680991	Echology
-0.02	Computer Music Journal	1980	Rosenboom and Buchla: Collaboration and Performance	Grant Groberg; Rosenboom; Buchla	10.2307/3679443	A History of Buchla's Musical Instruments
+0.0194	Computer Music Journal	1996	Computers for Performers: Crossing the Boundaries for the Future	Mari Kimura	10.2307/3680413	Computers and Future Music
 0.0191	Personal and Ubiquitous Computing	2015	On free-hand TV control: experimental results on user-elicited gestures with Leap Motion	Ionuţ-Alexandru Zaiţi; Ştefan-Gheorghe Pentiuc; Radu-Daniel Vatavu	10.1007/s00779-015-0863-y	Lovers Leap
 0.0187	Journal of New Music Research	2020	Playing technique classification for bowed string instruments from raw audio	A. B. Kruger; J. P. Jacobs	10.1080/09298215.2020.1784957	An Alternative Controller for a Virtual Bowed String Instrument
 0.0184	TEI	2021	TempoWatch: a Wearable Music Control Interface for Dance Instructors	Josef Roth; Jan Ehlers; Christopher Getschmann; Florian Echtler	10.1145/3430524.3442461	The Serendiptichord: A Wearable Instrument for Contemporary Dance Performance
 0.0176	CHI	2025	Real-time Semantic Full-Body Haptic Feedback Converted from Sound for Virtual Reality Gameplay	Gyeore Yun; Seungmoon Choi	10.1145/3706598.3713355	Virtual Reality Technology
-0.0171	Contemporary Music Review	1993	The question of timbre and harmonic vibratos in<i>Les Laudes</i>(0p.5) for organ	Jean-Louis Florentz	10.1080/07494469300640211	Les ordinateurs et la danse: retour vers l'avenier?
+0.0173	Contemporary Music Review	2006	Invisible performance and the virtuosic body	Adam Overton	10.1080/07494460600647659	Live Performance and Virtuosic Pitch-Bend Technique for the Synthesizer
 0.017	Personal and Ubiquitous Computing	2009	Location-free haptic interaction for large-area social applications	Tomohiro Amemiya; Taro Maeda; Hideyuki Ando	10.1007/s00779-008-0198-z	Human haptic perception: Basics and applications
 0.0167	Journal of New Music Research	2017	PLXTRM: Prediction-Led eXtended-guitar Tool for Real-time Music applications and live performance	Tim Vets; Jonas Degrave; Luc Nijs; Federica Bressan; Marc Leman	10.1080/09298215.2017.1288747	jMax: An Environment for Real-Time Musical Applications
 0.0152	Computer Music Journal	1990	The Art of Digital Audio	Philip Greenspun; John Watkinson	10.2307/3680121	Music---Science and Art
-0.0148	Computer Music Journal	1996	Computers for Performers: Crossing the Boundaries for the Future	Mari Kimura	10.2307/3680413	Computers and Future Music
 0.0143	Leonardo Music Journal	1997	The Evolution of the Musical Keyboard	Jacob Duringer	10.2307/1513252	An Indiscrete Music Keyboard
 0.0139	Computer Music Journal	2017	Tangible Distributed Computer Music for Youth	R. Benjamin Shapiro; Annie Kelly; Matthew Ahrens; Ben Johnson; Heather Politi; Rebecca Fiebrink	10.1162/comj_a_00420	BlockyTalky: A Physical and Distributed Computer Music Toolkit for Kids
 0.0138	Journal of New Music Research	2001	Perceptually Motivated Approaches to Music Restoration	Patrick J. Wolfe; Simon J. Godsill	10.1076/jnmr.30.1.83.7122	Personify: A Toolkit for Perceptually Meaningful Sonification
-0.0137	Journal of New Music Research	2009	Enaction and Music: Anticipating a New Alliance between Dynamic Instrumental Arts	Annie Luciani	10.1080/09298210903325600	Étude et réalisation de dispositifs de captation du jeu instrumental
 0.0134	Computer Music Journal	1997	Errata: Musical Applications of Electric Field Sensing		10.2307/3681126	Musical Applications of Electric Field Sensing
 0.0122	CHI	2026	Virtual Playing, Real Touch: The Haptics of Musical Instruments	Shivang Gupta; Xinyi Yang; Emma Jane Pretty; Zhenxing Li; Juho Hamari; Nannan Xi	10.1145/3772363.3799160	Do it yourself haptics: Part I
 0.0106	TEI	2015	Motors, Music and Motion	Jakob Bak; William Verplank; David Gauthier	10.1145/2677199.2680590	Music via Motion: Transdomain Mapping of Motion and Sound for Interactive Performances
 0.0102	Computer Music Journal	1981	Composing with Computers: A Progress Report	Lejaren Hiller	10.2307/3679501	Hyperinstruments - a Progress Report 1987 - 1991
-0.0088	Contemporary Music Review	2019	Composing Clémence in <i>L’amour de loin</i>	Joy H. Calico	10.1080/07494467.2019.1596639	System Composing
+0.0088	Contemporary Music Review	2019	Composing Clémence in L’amour de loin	Joy H. Calico	10.1080/07494467.2019.1596639	System Composing
 0.008	Journal of New Music Research	2006	Mapping strategies for gestural and adaptive control of digital audio effects	Vincent Verfaille; Marcelo M. Wanderley; Philippe Depalle	10.1080/09298210600696881	Mapping Strategies for Musical Performance
+0.0078	Journal of New Music Research	1994	Spatial sound movement in the instrumental music of Iannis Xenakis	Maria Anna Harley	10.1080/09298219408570661	Étude et réalisation de dispositifs de captation du jeu instrumental
 0.0074	Computer Music Journal	1989	The Kansei Music System	Haruhiro Katayose; Seiji Inokuchi	10.2307/3679555	KANSEI analysis of dance performance
 0.0072	Personal and Ubiquitous Computing	2014	Crowds, citizens and sensors: process and practice for mobilising learning	Juliet Sprake; Peter Rogers	10.1007/s00779-013-0715-6	Sensors
 0.007	Personal and Ubiquitous Computing	2015	Design of a motion-based gestural menu-selection interface for a self-portrait camera	Shaowei Chu; Jiro Tanaka	10.1007/s00779-014-0776-1	The Accordiatron: A Gestural Interface for Interactive Music
@@ -95,7 +90,6 @@ score	source	year	title	authors	doi	nearest_archive_entry
 0.0048	Personal and Ubiquitous Computing	2017	An e-coaching ecosystem: design and effectiveness analysis of the engagement of remote coaching on athletes	Ludovico Boratto; Salvatore Carta; Fabrizio Mulas; Paolo Pilloni	10.1007/s00779-017-1026-0	Real-time Composition as Performance Ecosystem
 0.0047	Contemporary Music Review	2006	Videomusicvideo—composing across media	Christine McCombe	10.1080/07494460600760973	System Composing
 0.0035	Organised Sound	1996	Sculpting a sound space with information properties	STEPHEN BARRASS	10.1017/s1355771896000040	Sound Sculpting: Manipulating Sound through Virtual Sculpting
-0.003	Contemporary Music Review	2006	Invisible performance and the virtuosic body	Adam Overton	10.1080/07494460600647659	Live Performance and Virtuosic Pitch-Bend Technique for the Synthesizer
 0.0028	CHI	1983	Finished musical scores from the keyboard	Alan D. Talbot	10.1145/800173.809742	An Indiscrete Music Keyboard
 0.0028	CHI	2015	Use of Sound to Provide Occluded Visual Information in Touch Gestural Interface	BoYu Gao; HyungSeok Kim; Hasup Lee; Jooyoung Lee; Jee-In Kim	10.1145/2702613.2732817	Gestural and Visual Approaches to Performance
 0.0025	Computer Music Journal	1984	Interactive Composing: An Overview	Joel Chadabe	10.2307/3679894	Interactive composing
@@ -108,28 +102,26 @@ score	source	year	title	authors	doi	nearest_archive_entry
 0.001	Computer Music Journal	1984	Dynamic Timbre Control for Real-Time Digital Synthesis	Keith W. Schindler	10.2307/3679895	Timbre et causalité
 0.0007	Journal of New Music Research	2020	Concordia: A musical XR instrument for playing the solar system	Kelly Snook; Tarik Barri; Monica Bolles; Petter Ericson; Carl Fravel; Joachim Goßmann	10.1080/09298215.2020.1714666	What is a Musical Instrument?
 0.0006	Journal of New Music Research	2009	A Cross-modal Heuristic for Periodic Pattern Analysis of Samba Music and Dance	Luiz Naveda; Marc Leman	10.1080/09298210903105432	Representation of Samba dance gestures, using a multi-modal analysis approach
+-0.0005	Computer Music Journal	2011	OMChroma: Compositional Control of Sound Synthesis	Carlos Agon; Jean Bresson; Marco Stroppa	10.1162/comj_a_00057	Connectionist models for real-time control of synthesis and compositional algorithms
 -0.0007	Journal of New Music Research	2004	Sho-So-In: Control of a Physical Model of the Sho by Means of Automatic Feature Extraction from Real Sounds	Takafumi Hikichi; Naotoshi Osaka; Fumitada Itakura	10.1080/0929821052000343831	"It's SHO time"
 -0.0009	TEI	2021	An Interactive Garment for Orchestra Conducting: IoT-enabled Textile &amp; Machine Learning to Direct Musical Performance	Berit Greinke; Giorgia Petri; Pauline Vierne; Paul Biessmann; Alexandra Börner; Kaspar Schleiser	10.1145/3430524.3442451	A Microcomputer-Based Conducting System
 -0.0014	Computer Music Journal	2005	Creating Visual Music in Jitter: Approaches and Techniques	Randy Jones; Ben Nevile	10.1162/014892605775179900	Gestural and Visual Approaches to Performance
 -0.0016	Contemporary Music Review	2017	‘The Blast Has Arrived at the Body’: Wolfgang Rihm’s Creative Explosion of 1981	Richard E. McGregor	10.1080/07494467.2017.1399669	ReMembering the Body
 -0.0017	Computer Music Journal	2014	Hacking Choreography: Dance and Live Coding	Kate Sicchio	10.1162/comj_a_00218	A Live Coding Performance
 -0.0019	Contemporary Music Review	1991	SOUND = SPACE: an interactive musical environment	Rolf Gehlhaar	10.1080/07494469100640061	Integrated Interactive Music Performance Environment
--0.0021	Personal and Ubiquitous Computing	2023	What is it like to be a bot? Variable perspective embodied telepresence for crowdsourcing robot movements	Michael Suguitan; Guy Hoffman	10.1007/s00779-022-01684-y	Telepresence
 -0.0022	Contemporary Music Review	2023	Approaches for Working with the Body in the Design of Electronic Music Performance Systems	Jenn Kirby	10.1080/07494467.2023.2277564	New Approaches to Analog-Studio Design
 -0.0027	Personal and Ubiquitous Computing	2003	The BTRC Bluetooth remote control system	Fridtjof Feldbusch; Alexander Paar; Manuel Odendahl; Ivan Ivanov	10.1007/s00779-003-0235-x	CodeBLUE: a bluetooth interactive dance club system
--0.0031	Computer Music Journal	2011	OMChroma: Compositional Control of Sound Synthesis	Carlos Agon; Jean Bresson; Marco Stroppa	10.1162/comj_a_00057	Connectionist models for real-time control of synthesis and compositional algorithms
+-0.0034	Personal and Ubiquitous Computing	2023	What is it like to be a bot? Variable perspective embodied telepresence for crowdsourcing robot movements	Michael Suguitan; Guy Hoffman	10.1007/s00779-022-01684-y	Telepresence
 -0.0035	CHI	2002	User performance and haptic design issues for a force-feedback sound editing interface	Lonny L. Chu	10.1145/506468.506473	A Multi-Instrument, Force-Feedback Keyboard
 -0.0041	Organised Sound	2023	Live Coding Patterns and a Toolkit for Pure Data	Andrew R. Brown	10.1017/s1355771823000365	A Live Coding Performance
--0.0042	Journal of New Music Research	2011	<i>The Chameleon Guitar</i>—Guitar with a Replaceable Resonator	Amit Zoran; Joseph A. Paradiso	10.1080/09298215.2011.554609	Virtual Air Guitar
+-0.0042	Journal of New Music Research	2011	The Chameleon Guitar—Guitar with a Replaceable Resonator	Amit Zoran; Joseph A. Paradiso	10.1080/09298215.2011.554609	Virtual Air Guitar
 -0.0047	Computer Music Journal	1980	Simulating Musical Skills by Digital Computer	John Rothgeb	10.2307/3680081	Simulating Performance on a Bowed Instrument
 -0.0047	Personal and Ubiquitous Computing	2004	Heckel?s law: conclusions from the user interface design of a music appliance?the bassoon	Nigel Derrett	10.1007/s00779-004-0279-6	Scale Effects in Steering Law Tasks
 -0.0049	Journal of New Music Research	2020	Virtual 3D environments as composition and performance spaces	Marko Ciciliani	10.1080/09298215.2019.1703013	The science of virtual reality and virtual environments
 -0.005	Personal and Ubiquitous Computing	2009	Exploring mindlessness as an explanation for the media equation: a study of stereotyping in computer tutorials	Daniel Johnson; John Gardner	10.1007/s00779-007-0193-9	La scena digital: Nuovi media per la danza
 -0.0052	Journal of New Music Research	2011	The 3D Printed Flute: Digital Fabrication and Design of Musical Instruments	Amit Zoran	10.1080/09298215.2011.621541	A Digital Flute
--0.0052	Journal of New Music Research	2024	Ways of knowing, ways of writing: technical practice research in new musical instrument design	Teresa Pelinski; Andrew McPherson; Rebecca Fiebrink	10.1080/09298215.2024.2442348	Live Writing: Gloomy Streets
 -0.0058	Personal and Ubiquitous Computing	2008	The enchanting potential of technology: a dialogical case study of enchantment and the Internet	Mórna Ní Chonchúir; John McCarthy	10.1007/s00779-007-0157-0	On the Internet
 -0.0062	Journal of New Music Research	2020	Dance to your own drum: Identification of musical genre and individual dancer from motion capture using machine learning	Emily Carlson; Pasi Saari; Birgitta Burger; Petri Toiviainen	10.1080/09298215.2020.1711778	Virtual dance and music environment using motion capture
--0.0062	Personal and Ubiquitous Computing	2016	Bend Passwords: using gestures to authenticate on flexible devices	Sana Maqsood; Sonia Chiasson; Audrey Girouard	10.1007/s00779-016-0928-6	Remembering performance gestures
 -0.0063	Journal of New Music Research	2024	Musical intra-actions with digital musical instruments	Koray Tahiroğlu	10.1080/09298215.2024.2442350	Physical Interface Design for Digital Musical Instruments
 -0.0066	TEI	2014	Embedded audio without beeps	Dan Overholt; Nikolaj "DZL" Møbius	10.1145/2540930.2567904	Spatial Audio Approaches for Embedded Sound Art Installations with Loudspeaker Line Arrays
 -0.0068	Organised Sound	2012	Composing for a Networked, Pulse-Based, Laptop Orchestra	David Ogborn	10.1017/s1355771811000513	Composing for Laptop Orchestra
@@ -137,7 +129,6 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0073	CHI	2020	A Gesturally Controlled Virtual Musical Instruments for Chinese Guqin	Meng Zhang; Jiawan Zhang	10.1109/ichci51889.2020.00028	A real-time workstation for complex physical models of multi-sensorial and gesturally controlled instrumants
 -0.0074	Journal of New Music Research	2002	Composing Sounds: Developing Tools for Refined Control of Timbre in Music	Johannes Kretz	10.1076/jnmr.31.3.257.14185	System Composing
 -0.0076	Journal of New Music Research	2010	Experimenting with Fandom, Live Music, and the Internet: Applying Insights from Music Fan Culture to New Media Production	Tim Wall; Andrew Dubber	10.1080/09298215.2010.489645	New Media Culture in Europe
--0.0082	Journal of New Music Research	1994	Spatial sound movement in the instrumental music of Iannis Xenakis	Maria Anna Harley	10.1080/09298219408570661	Étude et réalisation de dispositifs de captation du jeu instrumental
 -0.0085	Journal of New Music Research	2021	Ever-shifting roles in building, composing and performing with digital musical instruments	Koray Tahiroğlu	10.1080/09298215.2021.1900275	Designing Constraints: Composing and Performing with Digital Musical Systems
 -0.0085	Personal and Ubiquitous Computing	2022	Exploring the human factors in moral dilemmas of autonomous vehicles	Muhammad Umair Shah; Umair Rehman; Farkhund Iqbal; Hassan Ilahi	10.1007/s00779-022-01685-x	Roboser - An Autonomous Interactive Musical Composition System
 -0.0086	TEI	2026	TESI: A Toolkit for Tangible and Embodied Sound Interaction	Francesco Di Maggio; Bart Hengeveld; Mathias Funk; Rebecca Fiebrink	10.1145/3731459.3779334	reacTIVision: a computer-vision framework for table-based tangible interaction
@@ -155,13 +146,15 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0117	Contemporary Music Review	2006	A conceptual tool for improvisation	Tim Sayer	10.1080/07494460600647634	Towards a New Conceptual Framework for Digital Musical Instruments
 -0.0119	Journal of New Music Research	2004	On Technology and Art: Xenakis at Work	Michael Hamman	10.1080/0929821042000310595	Music---Science and Art
 -0.0122	Journal of New Music Research	2010	JackTrip: Under the Hood of an Engine for Network Audio	Juan-Pablo Cáceres; Chris Chafe	10.1080/09298215.2010.481361	Network audio performance and installation
--0.0123	Personal and Ubiquitous Computing	2007	Easy doesn’t do it: skill and expression in tangible aesthetics	Tom Djajadiningrat; Ben Matthews; Marcelle Stienstra	10.1007/s00779-006-0137-9	Aspects of the Aesthetics of Telecomommunications
 -0.0126	Computer Music Journal	2003	Cell-Utes and Flutter-Tongued Cats: Sound Morphing Using Loris and the Reassigned Bandwidth-Enhanced Model	Kelly Fitz; Lippold Haken; Susanne Lefvert; Corbin Champion; Mike O'Donnell	10.1162/014892603322482529	Parameterized Morphing as a Mapping Technique for Sound Synthesis
+-0.0129	Contemporary Music Review	2013	Instruments from an Instrument: Schaefferian ‘Instrumental Analysis’ and Berio'sSequenza Vfor Solo Trombone	John Dack	10.1080/07494467.2013.849872	Live Electronics in Luciano Berio's Music
 -0.0133	Computer Music Journal	1995	ZIPI Standard Too Generous with Tractors on the Freeway	Jim Guthrie	10.2307/3680644	Communication of musical gesture using the AES/EBU digital audio standard
 -0.0135	Journal of New Music Research	2017	Interactive-compositional Authoring of Sound Spatialization	Jérémie Garcia; Thibaut Carpentier; Jean Bresson	10.1080/09298215.2016.1230632	Echology
 -0.0135	Contemporary Music Review	2020	Singing the Body: Postmodern Orality and the Female Body in the Nigerian Hip Hop Nation	Yomi Olusegun-Joseph	10.1080/07494467.2020.1753477	ReMembering the Body
 -0.0137	Computer Music Journal	2000	Gen: A Lisp Music Environment	Guillermo Pozzati	10.1162/014892600559443	Integrated Interactive Music Performance Environment
+-0.0141	Contemporary Music Review	1996	Future applications of sound art and design to architectural and natural environments	Max Eastley	10.1080/07494469600640641	Music---Science and Art
 -0.0142	Contemporary Music Review	2002	Being expressive of what's there	Ursula Oppens	10.1080/07494460216641	Analysis of Expressive Gesture: The Eyesweb Expressive Gesture Processing Library
+-0.0143	Personal and Ubiquitous Computing	2007	Easy doesn’t do it: skill and expression in tangible aesthetics	Tom Djajadiningrat; Ben Matthews; Marcelle Stienstra	10.1007/s00779-006-0137-9	Aspects of the Aesthetics of Telecomommunications
 -0.015	Journal of New Music Research	2003	Collaborative Musical Experiences for Novices	Tina Blaine; Sidney Fels	10.1076/jnmr.32.4.411.18850	JamSpace: Designing A Collaborative Networked Music Space for Novices
 -0.0152	CHI	2007	Hand Gesture Recognition To Understand Musical Conducting Action	Hongmo Je; Jiman Kim; Daijin Kim	10.1109/roman.2007.4415073	A Microcomputer-Based Conducting System
 -0.0154	CHI	2023	DuoRhythmo: Design and remote user experience evaluation (UXE) of a collaborative accessible digital musical interface (CADMI) for people with ALS (PALS)	Balazs Andras Ivanyi; Truls Bendik Tjemsland; Christian Vasileios Tsalidis de Zabala; Lilla Julia Toth; Marcus Alexander Dyrholm; Scott James Naylor	10.1145/3544548.3581285	An Evaluation of the User Interface in Digital Audio Systems
@@ -173,13 +166,13 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0165	Personal and Ubiquitous Computing	2006	Interactive lounge: an interdisciplinary approach to the design of a gestural interaction device	Duan Varan; Andrew Turk; Sam Bucolo; Deb Polson; Margot Brereton; Jared Donovan	10.1007/s00779-005-0010-2	The Accordiatron: A Gestural Interface for Interactive Music
 -0.0166	Contemporary Music Review	2013	Haptic Augmentation of the Hybrid Piano	Lauren Hayes	10.1080/07494467.2013.849877	Morphosis for piano
 -0.0169	CHI	2021	Enhancing Multimodal Interaction Between Performers and Audience Members During Live Music Performances	Kouyou Otsu; Jinglong Yuan; Hisato Fukuda; Yoshinori Kobayashi; Yoshinori Kuno; Keiichi Yamazaki	10.1145/3411763.3451584	Multimodal analysis of expressive gesture in music and dance performances
--0.0171	Computer Music Journal	1991	Animal: Graphical Data Definition and Manipulation in Real Time	Eric Lindemann; Maurizio de Cecco	10.2307/3680768	Graphical marionette
 -0.0172	CHI	2008	Toward enabling a natural interaction between human musicians and musical performance robots: Implementation of a real-time gestural interface	Klaus Petersen; Jorge Solis; Atsuo Takanishi	10.1109/roman.2008.4600689	Real-Time Gestural Control
 -0.0174	Personal and Ubiquitous Computing	2002	Where Does the Mouse Go? An Investigation into the Placement of a Body-Attached TouchPad Mouse for Wearable Computers	B. Thomas; K. Grimmer; J. Zucco,; S. Milanese	10.1007/s007790200009	Movement Characteristics Using a Mouse with Tactile and Force Feedback
 -0.018	Computer Music Journal	1981	Composing from a Geometric Model: "Five-Leaf Rose"	Gary S. Kendall	10.2307/3679507	System Composing
 -0.0181	Leonardo Music Journal	2002	Pleasure Beats: Rhythm and the Aesthetics of Current Electronic Music	Ben Neill	10.1162/096112102762295052	Aesthetics of Live Electronic Music
 -0.0181	Personal and Ubiquitous Computing	1999	Using digital but physical surrogates to mediate awareness, communication and privacy in media spaces	Saul Greenberg; Hideaki Kuzuoka	10.1007/bf01540552	La scena digital: Nuovi media per la danza
 -0.0184	Journal of New Music Research	2005	Expressiveness and Digital Musical Instrument Design	Daniel Arfib; Jean-Michel Couturier; Loïc Kessous	10.1080/09298210500124273	Understanding Musical Expressiveness using Interactive Multimedia Platforms
+-0.0185	Computer Music Journal	2005	The Instrumental Remodeling of Elements of Musical Electronics in Moon Veiled by Clouds	David Bessell	10.1162/comj.2005.29.1.21	MIRROR OF THE MOON
 -0.0186	CHI	1997	A computer participant in musical improvisation	William F. Walker	10.1145/258549.258629	Computer noh system
 -0.0187	CHI	2015	Deformable Interfaces for Performing Music	Giovanni Maria Troiano; Esben Warming Pedersen; Kasper Hornbæk	10.1145/2702123.2702492	Squeeze, Twist, Stretch: Exploring Deformable Digital Musical Interfaces Design Through Non-Functional Prototypes
 -0.0189	CHI	2002	A flexible 3d sound system for interactive applications	Lalya Gaye	10.1145/506621.506625	Real Sound Synthesis for Interactive Applications
@@ -190,11 +183,11 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0193	Leonardo Music Journal	2006	Acoustic, Electric and Virtual Noise: The Cultural Identity of the Guitar	Gavin Carfoot	10.1162/lmj.2006.16.35	An Approach to Instrument Augmentation : the Electric Guitar
 -0.0193	Personal and Ubiquitous Computing	2001	Broadband Cellular Radio Telecommunication Technologies in Distance Learning: A Human Factors Field Study	Filomena Papa; Sandra Spedaletti	10.1007/s007790170002	Radio Healer
 -0.0194	Journal of New Music Research	2009	Supra-Instrumental Interactions and Gestures	Claude Cadoz	10.1080/09298210903137641	Remembering performance gestures
--0.0195	Contemporary Music Review	2003	Generative Music and Laptop Performance	Nick Collins	10.1080/0749446032000156919	Generative Techniques in Hypermedia Performance
--0.0195	Contemporary Music Review	2013	Instruments from an Instrument: Schaefferian ‘Instrumental Analysis’ and Berio's<i>Sequenza V</i>for Solo Trombone	John Dack	10.1080/07494467.2013.849872	Live Electronics in Luciano Berio's Music
 -0.0195	Contemporary Music Review	2017	Percussionist-Centred Design for Touchscreen Digital Musical Instruments	Charles P. Martin	10.1080/07494467.2017.1370794	Physical Interface Design for Digital Musical Instruments
 -0.0197	Contemporary Music Review	2018	A Managed Risk: Mediated Musicianships in a Networked Laptop Orchestra	Patrick Valiquet	10.1080/07494467.2017.1402458	Composing for Laptop Orchestra
 -0.0197	Personal and Ubiquitous Computing	2002	Accessing Context in Wearable Computers	Juha Lehikoinen; Riku Suomela	10.1007/s007790200006	Computers in music
+-0.0198	Contemporary Music Review	2003	Generative Music and Laptop Performance	Nick Collins	10.1080/0749446032000156919	Generative Techniques in Hypermedia Performance
+-0.0199	Computer Music Journal	1991	Animal: Graphical Data Definition and Manipulation in Real Time	Eric Lindemann; Maurizio de Cecco	10.2307/3680768	Graphical marionette
 -0.0199	Personal and Ubiquitous Computing	2009	A visibility control system for collaborative digital table	Satoshi Sakurai; Yoshifumi Kitamura; Sriram Subramanian; Fumio Kishino	10.1007/s00779-009-0243-6	Round Table
 -0.0199	CHI	2012	Acquisition of social abilities through musical tangible user interface	Lilia Villafuerte; Milena Markova; Sergi Jorda	10.1145/2212776.2212847	reacTIVision: a computer-vision framework for table-based tangible interaction
 -0.02	CHI	2026	MoSound: An Interactive Tool for Generative Sound Design in Motion Graphics	Jialin Huang; Prem Seetharaman; Timothy Richard Langlois; Li-Yi Wei; Rubaiat Habib Kazi; Yotam Gingold	10.1145/3772318.3791162	Music via Motion: Transdomain Mapping of Motion and Sound for Interactive Performances
@@ -210,10 +203,10 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0224	Personal and Ubiquitous Computing	2014	Innovative wearable interfaces: an exploratory analysis of paper-based interfaces with camera-glasses device unit	Yun Zhou; Tao Xu; Bertrand David; René Chalon	10.1007/s00779-013-0697-4	A Real-Time Synthesis Unit
 -0.0224	Personal and Ubiquitous Computing	2024	Feasibility and performance enhancement of collaborative control of unmanned ground vehicles via virtual reality	Ziming Li; Yiming Luo; Jialin Wang; Yushan Pan; Lingyun Yu; Hai-Ning Liang	10.1007/s00779-024-01799-4	Virtual Reality Technology
 -0.0229	Computer Music Journal	1993	Computers and Musical Style	Richard Brush; Michael Hauser; Glenn Spencer; Jim Standish; David Cope	10.2307/3680579	Computers in music
--0.023	Contemporary Music Review	1996	Future applications of sound art and design to architectural and natural environments	Max Eastley	10.1080/07494469600640641	Music---Science and Art
 -0.023	Contemporary Music Review	2006	Improvisation and the orchestra: A composer reflects	George E. Lewis	10.1080/07494460600989812	The Ningen Dogs Orchestra
 -0.0232	Personal and Ubiquitous Computing	2021	Triggers and connection-making for serendipity via user interface in recommender systems	Ahmad Hassan Afridi; Fatma Outay	10.1007/s00779-020-01371-w	An Evaluation of the User Interface in Digital Audio Systems
 -0.0234	Personal and Ubiquitous Computing	2002	Overcoming the Lack of Screen Space on Mobile Computers	Stephen Brewster	10.1007/s007790200019	Computers in music
+-0.0236	Computer Music Journal	1996	Singing Voice Synthesis: History, Current Work, and Future Directions	Perry R. Cook	10.2307/3680822	Current Directions in Computer Music Research
 -0.0237	Personal and Ubiquitous Computing	2012	A study on automatic recognition of object use exploiting motion correlation of wireless sensors	Stephan Bosch; Raluca Marin-Perianu; Paul Havinga; Arie Horst; Mihai Marin-Perianu; Andrei Vasilescu	10.1007/s00779-011-0451-8	Giveaway wireless sensors for large-group interaction
 -0.024	Computer Music Journal	1995	Improving Graphical User Interfaces for Computer Music Applications	Jim Stevenson; David H. Jameson	10.2307/3680984	The evolution of interactive graphical control interfaces for music applications
 -0.024	Personal and Ubiquitous Computing	2021	Point-cloud avatars to improve spatial communication in immersive collaborative virtual environments	Guillaume Gamelin; Amine Chellali; Samia Cheikh; Aylen Ricca; Cedric Dumas; Samir Otmane	10.1007/s00779-020-01431-1	Immersive virtual reality technology
@@ -223,15 +216,16 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0244	Computer Music Journal	2003	Commuted Waveguide Synthesis of the Clavichord	Vesa Välimäki; Cumhur Erkut	10.1162/01489260360613353	Tbone : an interactive waveguide brass instrument synthesis workbench for the NeXT machine
 -0.0244	Computer Music Journal	1978	[A Xenharmonist's Message to the Computer Musicians]	Ivor Darreg	10.2307/3680213	Computer noh system
 -0.025	Personal and Ubiquitous Computing	2023	Visual saliency model based on crowdsourcing eye tracking data and its application in visual design	Shiwei Cheng; Jing Fan; Yilin Hu	10.1007/s00779-020-01463-7	EyeMusic: Making Music with the Eyes
+-0.0254	Leonardo Music Journal	1997	To Be and Not to Be: Aspects of the Interaction between Instrumental and Electronic Compositional Methods	Flo Menezes	10.2307/1513239	Étude et réalisation de dispositifs de captation du jeu instrumental
+-0.0256	Contemporary Music Review	2022	The Extensions of Opera: Radio, Internet, and Immersion	Anna Schürmer	10.1080/07494467.2022.2087390	Radio Healer
 -0.0257	TEI	2019	Tangible Signals - Physical Representation of Sound and Haptic Control Feedback	Jens Vetter	10.1145/3294109.3302958	Haptic feedback in a computer music performance interface
 -0.026	Leonardo Music Journal	1991	Max: Interactive Graphic Programming Environment	Richard Zvonar; Miller Puckette; David Zicarelli	10.2307/1513148	Impromptu: An Interactive Programming Environment for Composition and Performance
--0.0267	Computer Music Journal	1996	Singing Voice Synthesis: History, Current Work, and Future Directions	Perry R. Cook	10.2307/3680822	Current Directions in Computer Music Research
+-0.0261	Journal of New Music Research	2024	Ways of knowing, ways of writing: technical practice research in new musical instrument design	Teresa Pelinski; Andrew McPherson; Rebecca Fiebrink	10.1080/09298215.2024.2442348	Live Writing: Gloomy Streets
 -0.0267	Computer Music Journal	1992	Algorithms and Structures for Synthesis Using Physical Models	Gianpaolo Borin; Giovanni De Poli; Augusto Sarti	10.2307/3680467	Connectionist models for real-time control of synthesis and compositional algorithms
 -0.027	CHI	2013	Towards a more flexible and creative music mixing interface	Steven Gelineck; Morten Büchert; Jesper Andersen	10.1145/2468356.2468487	GCOMP : graphic control of mixing and processing
--0.0272	Computer Music Journal	2002	An Acoustic Analysis of Col Legno Articulation in Iannis Xenakis's <i>Nomos Alpha</i>	Evan Jones	10.1162/014892602753633551	On Mapping N Articulation onto M Synthesiser-Control Parameters
+-0.0272	Computer Music Journal	2002	An Acoustic Analysis of Col Legno Articulation in Iannis Xenakis's Nomos Alpha	Evan Jones	10.1162/014892602753633551	On Mapping N Articulation onto M Synthesiser-Control Parameters
 -0.0272	Computer Music Journal	1984	Definitions of Computer Art	Otto Laske	10.2307/3679768	Music---Science and Art
 -0.0272	Leonardo Music Journal	1991	Trends in New Acoustic Musical Instrument Design	Bart Hopkin	10.2307/1513114	Trends in Gestural Control of Music
--0.0275	Computer Music Journal	2005	The Instrumental Remodeling of Elements of Musical Electronics in <i>Moon Veiled by Clouds</i>	David Bessell	10.1162/comj.2005.29.1.21	MIRROR OF THE MOON
 -0.0276	Journal of New Music Research	2022	Mapping timing and intensity strategies in drum-kit performance of a simple back-beat pattern	Guilherme Schmidt Câmara; George Sioros; Anne Danielsen	10.1080/09298215.2022.2150649	Mapping Strategies for Musical Performance
 -0.0276	Personal and Ubiquitous Computing	2002	Data Structures in the Design of Interfaces	G. Marsden; H. Thimbleby; M. Jones; P. Gillary	10.1007/s007790200012	Real-Time Performance via User Interfaces to Musical Structures
 -0.0279	CHI	2015	An Evaluation of Multidimensional Controllers for Sound Design Tasks	Robert Tubb; Simon Dixon	10.1145/2702123.2702499	A Multidimensional Approach to Relationships between Live and Non-live Sound Sources in Mixed Works
@@ -242,31 +236,26 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0286	Personal and Ubiquitous Computing	2007	Towards a Multimodal Interaction Space: categorisation and applications	Bert Bongers; Gerrit C. van der Veer	10.1007/s00779-006-0138-8	A Multimodal System for Gesture Recognition in Interactive Music Performance
 -0.0287	TEI	2026	SonicSlate: A Walkable Flat-Panel Speaker Interface for Embodied Sound Interaction	Ismael Rasa; Burcu Nimet Dumlu; Carlos García Fernández; Takatoshi Yoshida; Kouta Minamizawa	10.1145/3731459.3773319	Robotic Interface for Embodied Interaction Via Dance and Musical Performance
 -0.029	Journal of New Music Research	2011	Interacting with 3D Reactive Widgets for Musical Performance	Florent Berthaut; Myriam Desainte-Catherine; Martin Hachet	10.1080/09298215.2011.602693	Interacting with latter-day musical
+-0.0294	Journal of New Music Research	1995	Compositional methods in interactive performance environments	Richard Povall	10.1080/09298219508570677	New environments for interactive dance
 -0.0297	Leonardo Music Journal	1996	The "Electric Swaying Orchestra": A Music Machine with Certain Creative Powers	Peter Bosch; Simone Simons	10.2307/1513332	The Ningen Dogs Orchestra
 -0.0297	Leonardo Music Journal	1997	Experiences in Digital Terrain: Using Digital Elevation Models for Music and Interactive Multimedia	Bill Thibault; Scot Gresham-Lancaster	10.2307/1513240	The Pond : Interactive Multimedia Installation
 -0.0299	Contemporary Music Review	2026	Social Strategies in Composing for Improvisers: Compositional Voice in/as Ensemble Microtradition	Moss Freed	10.1080/07494467.2026.2725959	System Composing
--0.0299	CHI	2024	Three Ways to Destroy a Sound	Yann Seznec	10.1145/3677045.3685496	Electronic Music: New Ways to play
 -0.0301	Personal and Ubiquitous Computing	2014	User interaction with everyday lighting systems	S. A. M. Offermans; H. A. van Essen; J. H. Eggen	10.1007/s00779-014-0759-2	A performance instrument for lighting
 -0.0303	CHI	2009	Note Recognition of Polyphonic Music Based on Timbre Model	Lixin Shi; Junxing Zhang; Min Li	10.1109/ihmsc.2009.52	A Model for Human-Computer Interaction Based on the Recognition of Musical Gestures
--0.0305	Organised Sound	1996	Composing at the intersection of time and frequency	MICHAEL CLARKE	10.1017/s1355771896000052	System Composing
--0.0306	CHI	2025	EuterPen: Unleashing Creative Expression in Music Score Writing	Vincent Cavez; Catherine Letondal; Caroline Appert; Emmanuel Pietriga	10.1145/3706598.3713488	Live Writing: Gloomy Streets
 -0.0307	Journal of New Music Research	2012	Music Theoretic and Perception-based Features for Audio Key Determination	Björn Schuller; Benedikt Gollan	10.1080/09298215.2011.618543	SBASS-1 features
--0.0308	Contemporary Music Review	2011	The Emergence of Spectra in Gérard Grisey's Compositional Process: From<i>Dérives</i>(1973–74) to<i>Les espaces acoustiques</i>(1974–85)	François-Xavier Féron	10.1080/07494467.2011.665582	Les ordinateurs et la danse: retour vers l'avenier?
--0.0309	Leonardo Music Journal	1992	Integrated Creativity: Transcending the Boundaries of Visual Art, Music and Literature	Joan Truckenbrod	10.2307/1513214	Dance and Technology III: Transcending Boundaries. Proceedings of the Third Annual Conference
 -0.0309	Contemporary Music Review	2009	Split Levels: Symbolic to Sub-symbolic Interactive Music Systems	Robert Rowe	10.1080/07494460802664015	Interactive Dance/Music Systems
 -0.0312	Computer Music Journal	1982	The Lucasfilm Real-Time Console for Recording Studios and Performance of Computer Music	John Snell	10.2307/3680197	Real-time console for live performance of computer music and for recording studios
--0.0312	Leonardo Music Journal	2003	Regenerative Feedback in the Medium of Radio: <i>Study 1.0 (FM) for Radio Transceiver</i>	Matthew Burtner	10.1162/096112104322750764	Radio Healer
+-0.0312	Leonardo Music Journal	2003	Regenerative Feedback in the Medium of Radio: Study 1.0 (FM) for Radio Transceiver	Matthew Burtner	10.1162/096112104322750764	Radio Healer
 -0.0314	Computer Music Journal	1991	Extending an Interactive Music Environment	Rupert C. Nieberle; Markus Freericks	10.2307/3680915	Integrated Interactive Music Performance Environment
--0.0315	Journal of New Music Research	1995	Compositional methods in interactive performance environments	Richard Povall	10.1080/09298219508570677	New environments for interactive dance
 -0.0318	CHI	2011	A toolkit for designing interactive musical agents	Aengus Martin; Craig T. Jin; Oliver Bown	10.1145/2071536.2071567	A toolkit for interactive digital art
+-0.0321	Organised Sound	1996	Composing at the intersection of time and frequency	MICHAEL CLARKE	10.1017/s1355771896000052	System Composing
+-0.0323	CHI	2020	Cultural Interpretation of Chanting Music of Fuyu Zhengjie Temple of Dulbert		10.38007/proceedings.0000211	Interpretation and Space
 -0.0327	CHI	2021	Emotion Musical Prosody for Robotic Groups and Entitativity	Richard Savery; Amit Rogel; Gil Weinberg	10.1109/ro-man50785.2021.9515314	Toward Robotic Musicianship
 -0.0328	Personal and Ubiquitous Computing	1999	The new media paradigm: Users as creators of content	Sharon Springel	10.1007/bf01305341	The Language of New Media
+-0.0332	CHI	2026	Wearable Sound Technologies for Understanding and Shaping Bodily Perception and Emotional States in Depressive Symptomatology	Inés Fernández Vallejo; Jorge López Castroman; Bigna Lenggenhager; Elena Márquez Segura; Ana Tajadura-Jiménez	10.1145/3772363.3799345	Understanding and Evaluating User Centred Design in Wearable Expressions
 -0.0336	CHI	2021	Spatial audio music player for web	; Leischner Vojtěch; Míkovec Zdeněk; 	10.37789/rochi.2021.1.1.19	Cathedral : an interactive work for the web
 -0.0339	Computer Music Journal	1990	Cool Shoes Drummer Drum Machine Sequencer Software for IBM PCs	Joseph Rothstein	10.2307/3679971	Human Sequencer
 -0.0339	Computer Music Journal	2011	Parametric Electric Guitar Synthesis	Niklas Lindroos; Henri Penttinen; Vesa Välimäki	10.1162/comj_a_00066	An Approach to Instrument Augmentation : the Electric Guitar
--0.0341	CHI	2020	Cultural Interpretation of Chanting Music of Fuyu Zhengjie Temple of Dulbert		10.38007/proceedings.0000211	Interpretation and Space
--0.0343	Leonardo Music Journal	1997	To Be and Not to Be: Aspects of the Interaction between Instrumental and Electronic Compositional Methods	Flo Menezes	10.2307/1513239	Étude et réalisation de dispositifs de captation du jeu instrumental
--0.0343	Contemporary Music Review	2003	The (Anti-)Laptop Aesthetic	Timothy Jaeger	10.1080/0749446032000156982	A Software System for Laptop Performance and Improvisation
 -0.0343	Personal and Ubiquitous Computing	2023	Federated Learning Intellectual Capital Platform	Chengying He; Bin Xiao; Xi Chen; Qingzhen Xu; Jianwu Lin	10.1007/s00779-021-01590-9	Learning How to Dance Using a Web 3D Platform
 -0.0346	Contemporary Music Review	1989	Composing strategies and pedagogy	Simon Emmerson	10.1080/07494468900640091	System Composing
 -0.0349	Computer Music Journal	2016	Tornado Project: Trios for Flute, Clarinet, and Computer	Ross Feller	10.1162/comj_r_00360	A Digital Flute
@@ -286,22 +275,21 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0379	Personal and Ubiquitous Computing	2000	Comparison of speech input and manual control of in-car devices while on the move	Robert Graham; Chris Carter	10.1007/bf01324122	Integrality and Separability of Input Devices
 -0.0381	Contemporary Music Review	2022	Iterative Processes: Notating, Composing, and Performing as Journey Forms	Lauren Redhead	10.1080/07494467.2022.2080459	System Composing
 -0.0382	Leonardo Music Journal	1998	Mirror Symmetry in Music	E. V. Sintsov; S. S. Goncharenko; L. V. Aleksandrova	10.2307/1513411	Symmetry in Dance
--0.0383	Leonardo Music Journal	2002	Electric Body Manipulation as Performance Art: A Historical Perspective	Arthur Elsenaar; Remko Scha	10.1162/096112102762295089	ReMembering the Body
 -0.0383	Leonardo Music Journal	2010	Programming Machines and People: Techniques for Live Improvisation with Electronics	Chapman Welch	10.1162/lmj_a_00008	The metaphysics of live electronics
 -0.0383	Personal and Ubiquitous Computing	2014	Understanding the effects of contextual constraints on performative behaviour in interactive media installations	Luke Hespanhol; Martin Tomitsch	10.1007/s00779-014-0765-4	Remediation: Understanding New Media
 -0.0384	Contemporary Music Review	2005	Sounding the net: Recent sonic works for the internet and computer networks	Peter Traub	10.1080/07494460500296136	net.art 2.0. new materials towards net art
 -0.0386	Computer Music Journal	1989	Integrated Media Systems Digital Dyaxis: A Digital Audio Workstation	Curtis Roads	10.2307/3680029	La scena digital: Nuovi media per la danza
 -0.0387	Contemporary Music Review	2013	Towards Musical Interaction: Sam Hayden's Compositions for E-Violin and Computer	Sam Hayden; Mieko Kanno	10.1080/07494467.2013.849876	Two Compositions for Interactive Dance
 -0.0389	Personal and Ubiquitous Computing	2010	Remote navigation of a mobile robot in an RFID-augmented environment	Mika Luimula; Kirsti Sääskilahti; Timo Partala; Sakari Pieskä; Juha Alaspää	10.1007/s00779-009-0238-3	Interactive multimodal mobile robot for musical performance
+-0.0391	CHI	2025	EuterPen: Unleashing Creative Expression in Music Score Writing	Vincent Cavez; Catherine Letondal; Caroline Appert; Emmanuel Pietriga	10.1145/3706598.3713488	Live Writing: Gloomy Streets
 -0.0392	CHI	2023	Lyric App Framework: A Web-based Framework for Developing Interactive Lyric-driven Musical Applications	Jun Kato; Masataka Goto	10.1145/3544548.3580931	reacTIVision: a computer-vision framework for table-based tangible interaction
 -0.0398	Personal and Ubiquitous Computing	2007	Understanding movement for interaction design: frameworks and approaches	Lian Loke; Astrid T. Larssen; Toni Robertson; Jenny Edwards	10.1007/s00779-006-0132-1	New Approaches to Analog-Studio Design
+-0.0399	Leonardo Music Journal	2002	Electric Body Manipulation as Performance Art: A Historical Perspective	Arthur Elsenaar; Remko Scha	10.1162/096112102762295089	ReMembering the Body
 -0.0399	Personal and Ubiquitous Computing	2012	Human motion recognition using a wireless sensor-based wearable system	John Paul Varkey; Dario Pompili; Theodore A. Walls	10.1007/s00779-011-0455-4	A Motion Recognition Method for a Wearable Dancing Musical Instrument
 -0.0402	Personal and Ubiquitous Computing	2018	Advancing researches on IoT systems and intelligent applications	Yunchuan Sun; Junsheng Zhang; Rongfang Bie; Jiguo Yu	10.1007/s00779-018-1159-9	The intelligent stage
 -0.0403	Computer Music Journal	1998	Cecilia: A Production Interface to Csound	Jean Piche; Alexandre Burton	10.2307/3680964	Phrases from Paul Lansky's Six Fantasies
 -0.0405	Contemporary Music Review	2009	Composing Sound Structures with Rules	Paul Berg	10.1080/07494460802664049	System Composing
 -0.0406	Computer Music Journal	1981	Computer Music, Composition Musicale par Ordinateur., Report on an International Project Including a Workshop at Aarhus, Denmark in 1978	D. Laszlo; Marc Battier; Barry Truax	10.2307/3679510	Geste et pensée musicale: de l'outil à l'instrument
--0.0406	CHI	2025	MultiBezel: Adding Multi-Touch to a Smartwatch Bezel to Control Music	Marvin Reuter; Ali Ünal; Jan Felipe Kolodziejski Ribeiro; David Petersen; Matthias Böhmer	10.1145/3706599.3720156	Synthesis and Control on Large Scale Multi-Touch Sensing Displays
--0.0407	CHI	2026	Wearable Sound Technologies for Understanding and Shaping Bodily Perception and Emotional States in Depressive Symptomatology	Inés Fernández Vallejo; Jorge López Castroman; Bigna Lenggenhager; Elena Márquez Segura; Ana Tajadura-Jiménez	10.1145/3772363.3799345	Understanding and Evaluating User Centred Design in Wearable Expressions
 -0.0408	Computer Music Journal	1979	Brass Tone Synthesis by Spectrum Evolution Matching with Nonlinear Functions	James Beauchamp	10.2307/3680282	Low Brass: the Evolution of the Trombone Propelled Electronics
 -0.0408	Journal of New Music Research	2002	Synthesizing Expressive Music Through the Language of Conducting	Teresa Marrin Nakra	10.1076/jnmr.31.1.11.8102	A Microcomputer-Based Conducting System
 -0.0408	CHI	2024	To Touch, or Not to Touch: Evaluating Manual Page Turning Modalities for Digital Sheet Music During Piano Play	Kathrin Probst; Daniel Beinmonyu Ockiya	10.1145/3640471.3680242	Touch back keyboard
@@ -315,13 +303,13 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0416	Contemporary Music Review	1991	Live electronics in denmark	Wayne Siegel	10.1080/07494469100640211	The metaphysics of live electronics
 -0.0417	Journal of New Music Research	2007	Evaluation Issue of KANSEI Technology and Sound and Music Computing Projects at Waseda University	Shuji Hashimoto	10.1080/09298210701859289	Musical Performance Control Using Gesture: Toward Kansei Technology for Art
 -0.0419	Computer Music Journal	1992	The Well-Tempered Object: Musical Applications of Object-Oriented Software Technology	Stephen Smoliar; Stephen Travis Pope	10.2307/3680498	La flûte-MIDI, l'histoire et quelques applications
--0.0419	Journal of New Music Research	2003	Using Contemporary Technology in Live Performance: The Dilemma of the Performer	W. Andrew Schloss	10.1076/jnmr.32.3.239.16866	Contemporary Performance/Technology
 -0.0419	Personal and Ubiquitous Computing	2010	Design and implementation of a VoiceXML-driven wiki application for assistive environments on the web	Constantinos Kolias; Vassilis Kolias; Ioannis Anagnostopoulos; Georgios Kambourakis; Eleftherios Kayafas	10.1007/s00779-009-0274-z	Cathedral : an interactive work for the web
 -0.042	CHI	2022	Combining Spatial and Non-Spatial Sonification for Sound Localization in Virtual Environment: a Subjective Study	Qi Song; Naiming Yao; Zihao Feng; Hui Chen; Hongan Wang	10.1145/3491101.3519853	An Interactive Real-Time System for the Control of Sound Localization
 -0.0422	Personal and Ubiquitous Computing	2012	RFID-driven situation awareness on TangiSense, a table interacting with tangible objects	Sébastien Kubicki; Sophie Lepreux; Christophe Kolski	10.1007/s00779-011-0442-9	Interacting with latter-day musical
 -0.0423	Personal and Ubiquitous Computing	2003	Schminky: The design of a caf� based digital experience	Josephine Reid; Richard Hull; Tom Melamed; Duncan Speakman	10.1007/s00779-003-0224-0	The SensOrg: Time-complexity and the Design of a Musical Cyberinstrument
 -0.0426	Journal of New Music Research	2001	3-D Audio with Video Tracking for Multimedia Environments	Jos� Javier L�pez; Alberto Gonz�lez	10.1076/jnmr.30.3.271.7475	Gestural Control of Digital Audio Environments
 -0.0427	Computer Music Journal	1981	Sound Generation in Winds, Strings, Computers	John Strawn; E. Jansson; J. Sundberg	10.2307/3679514	Computers in music
+-0.0427	Contemporary Music Review	2003	The (Anti-)Laptop Aesthetic	Timothy Jaeger	10.1080/0749446032000156982	A Software System for Laptop Performance and Improvisation
 -0.0428	Journal of New Music Research	1996	Formalization of generative structures within stravinsky's “The rite of spring”	Adriano De Matteis; Goffredo Haus	10.1080/09298219608570697	Generative Techniques in Hypermedia Performance
 -0.043	Contemporary Music Review	2005	Lines of net music	Golo Föllmer	10.1080/07494460500296102	net.art 2.0. new materials towards net art
 -0.0435	Contemporary Music Review	2024	Silent Towns: Telematic Media for Remote Ensemble Performance	Jonathan Heilbron; Callum G’Froerer; Aaron Wyatt	10.1080/07494467.2026.2637930	The Computer-Extended Ensemble
@@ -330,30 +318,26 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0438	Personal and Ubiquitous Computing	2006	A mobile pet wearable computer and mixed reality system for human–poultry interaction through the internet	Shang Ping Lee; Adrian David Cheok; Teh Keng Soon James; Goh Pae Lyn Debra; Chio Wen Jie; Wang Chuang	10.1007/s00779-005-0051-6	On the Internet
 -0.0439	Computer Music Journal	1996	Recent Developments in Computer Sound Analysis and Synthesis	Xavier Rodet	10.2307/3681272	Implementation and Developments of Interfaces for Music Performance Through Analysis of Improvised Dance Movements
 -0.0439	Personal and Ubiquitous Computing	2022	Continuous touch gesture recognition based on RNNs for capacitive proximity sensors	David Castells-Rufas; Juan Borrego-Carazo; Jordi Carrabina; Jordi Naqui; Ernesto Biempica	10.1007/s00779-020-01472-6	A Multimodal System for Gesture Recognition in Interactive Music Performance
--0.0442	Computer Music Journal	1984	Marice Stith Plays Contemporary Literature for Trumpet	Conrad Cummings; Marice Stith	10.2307/3679821	Trumpet and Trumpet Player: Model and Simulation in a Musical Context
+-0.0444	Journal of New Music Research	2003	Using Contemporary Technology in Live Performance: The Dilemma of the Performer	W. Andrew Schloss	10.1076/jnmr.32.3.239.16866	Contemporary Performance/Technology
 -0.0446	Computer Music Journal	1999	A Physical Model of the Classical Guitar, Including the Player's Touch	Giuseppe Cuzzucoli; Vincenzo Lombardo	10.1162/014892699559751	The timbre space of the classical guitar and its relationship with the plucking techniques
--0.0448	Contemporary Music Review	1994	Controlling parameterized compositional data in stella and common music	Heinrich Taube	10.1080/07494469400640421	Parameterized Morphing as a Mapping Technique for Sound Synthesis
--0.0449	Contemporary Music Review	2022	The Extensions of Opera: Radio, Internet, and Immersion	Anna Schürmer	10.1080/07494467.2022.2087390	Radio Healer
--0.045	Computer Music Journal	2000	The Aesthetics of Failure: “Post-Digital” Tendencies in Contemporary Computer Music	Kim Cascone	10.1162/014892600559489	The Aesthetics of Interactive Computer Music
 -0.0453	Contemporary Music Review	2018	A Radical Iconography of the Violin: The Art of the Possible and the Realms of the Improbable	Anthony Derek Bond OAM	10.1080/07494467.2018.1548732	Radical User Interfaces for Real-time Control
 -0.0456	Computer Music Journal	2003	Computer Music and the Linux Operating System: A Report from the Front	Dave Phillips	10.1162/014892603322730488	Music and Electronics: A Report
--0.0457	Contemporary Music Review	2022	What Does ASMR Sound Like? Composing the Proxemic Intimate Zone in Contemporary Music	Giulia Accornero	10.1080/07494467.2022.2087377	System Composing
--0.0458	Personal and Ubiquitous Computing	2002	Evaluating Interface Design Choices on WAP Phones: Navigation and Selection	Luca Chittaro; Paolo Dal Cin	10.1007/s007790200023	Touch in User Interface Navigation
 -0.046	Personal and Ubiquitous Computing	2008	A calendar based Internet content pre-caching agent for small computing devices	Andreas Komninos; Mark D. Dunlop	10.1007/s00779-007-0153-4	On the Internet
--0.0461	CHI	2022	A Music Tangible User Interface for the Cognitive and Motor Rehabilitation of Elderly People	Adriano Baratè; Helene Korsten; Luca A. Ludovico	10.5220/0011395900003323	The SensOrg: A Musical Cyberinstrument with a Cognitive Ergonomical Touch
+-0.0462	Computer Music Journal	2000	The Aesthetics of Failure: “Post-Digital” Tendencies in Contemporary Computer Music	Kim Cascone	10.1162/014892600559489	The Aesthetics of Interactive Computer Music
 -0.0464	Computer Music Journal	2021	You Nakai: Reminded by the Instruments	Ezra J. Teboul	10.1162/comj_r_00597	Physical Interface Design for Digital Musical Instruments
--0.0464	Contemporary Music Review	2009	The Non-Hierarchical Rhythmical Language of<i>Ngeche for Piano and Electronics</i>	Johannes Kretz	10.1080/07494460903322448	Morphosis for piano
+-0.0464	Contemporary Music Review	2009	The Non-Hierarchical Rhythmical Language ofNgeche for Piano and Electronics	Johannes Kretz	10.1080/07494460903322448	Morphosis for piano
 -0.0466	Contemporary Music Review	2015	Dwelling in Movement: Panorama, Tourism and Performance	Charissa Granger	10.1080/07494467.2015.1077566	Ndial Performance
--0.0468	Contemporary Music Review	2024	<i>Deine Zauber binden wieder, was die Mode streng geteilt … </i>
-                    Conducting Beethoven’s Ninth as a Case of Public Music Education	Wiebe Koopal; Thomas De Baets; Joris Vlieghe	10.1080/07494467.2023.2196649	A Microcomputer-Based Conducting System
+-0.0468	Contemporary Music Review	2024	Deine Zauber binden wieder, was die Mode streng geteilt … Conducting Beethoven’s Ninth as a Case of Public Music Education	Wiebe Koopal; Thomas De Baets; Joris Vlieghe	10.1080/07494467.2023.2196649	A Microcomputer-Based Conducting System
 -0.0469	Computer Music Journal	1990	Audio Matrix 16 Patch Bay by 360 Systems	Joseph Rothstein	10.2307/3679973	The MATRIX: A New Musical Instrument for Interactive Performance
 -0.0469	Contemporary Music Review	2007	Context, agency and Chineseness: The music of Law Wing Fai	Frederick Lau	10.1080/07494460701652996	Scale Effects in Steering Law Tasks
+-0.0471	CHI	2022	A Music Tangible User Interface for the Cognitive and Motor Rehabilitation of Elderly People	Adriano Baratè; Helene Korsten; Luca A. Ludovico	10.5220/0011395900003323	The SensOrg: A Musical Cyberinstrument with a Cognitive Ergonomical Touch
 -0.0477	Computer Music Journal	1989	MUSIC4BF for Macintosh Systems	Graeme Gerrard	10.2307/3680006	Performance Systems
 -0.0477	Personal and Ubiquitous Computing	2023	Diversification in session-based news recommender systems	Alireza Gharahighehi; Celine Vens	10.1007/s00779-021-01606-4	Performance Systems
 -0.0482	Computer Music Journal	1983	Rhythms for Computer and Percussion	Edward LePoulin; Joel Chadabe	10.2307/3679598	Computer noh system
+-0.0484	Contemporary Music Review	2022	What Does ASMR Sound Like? Composing the Proxemic Intimate Zone in Contemporary Music	Giulia Accornero	10.1080/07494467.2022.2087377	System Composing
 -0.0484	Personal and Ubiquitous Computing	2006	The experience of enchantment in human–computer interaction	John McCarthy; Peter Wright; Jayne Wallace; Andy Dearden	10.1007/s00779-005-0055-2	Computer noh system
 -0.0487	Computer Music Journal	1998	APB Tools Sigma1 Surround Matrix Mixer for ProTools TDM	Jack Garland	10.2307/3681166	The MATRIX: A New Musical Instrument for Interactive Performance
--0.0489	Organised Sound	2004	Simon Emmerson (ed.), <i>Music, Electronic Media and Culture</i>. Ashgate, Aldershot, 2000. ISBN 0-7546-0109-9 (hardback).	Peter Nelson	10.1017/s1355771804230308	New Media Culture in Europe
+-0.0489	Organised Sound	2004	Simon Emmerson (ed.), Music, Electronic Media and Culture. Ashgate, Aldershot, 2000. ISBN 0-7546-0109-9 (hardback).	Peter Nelson	10.1017/s1355771804230308	New Media Culture in Europe
 -0.0489	Journal of New Music Research	2010	Schenkerian Analysis by Computer: A Proof of Concept	Alan Marsden	10.1080/09298215.2010.503898	The Gmebaphone Concept and the Cybernéphone Instrument
 -0.0492	Computer Music Journal	1989	Computers in Music Research	Lelio Camilleri	10.2307/3679855	Computers in music
 -0.0492	Contemporary Music Review	1989	Computer music as cognitive approach: Simulation, timbre and formal processes	Jean-Baptiste Barrière	10.1080/07494468900640241	Timbre et causalité
@@ -361,7 +345,6 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0493	Contemporary Music Review	2024	Searching for the Unusual: New Methods of Composing for Gamelan	Wayan Sudirana	10.1080/07494467.2024.2391158	System Composing
 -0.0493	Personal and Ubiquitous Computing	2007	The case of sculpting atmospheres: towards design principles for expressive tangible interaction in control of ambient systems	Philip Ross; David V. Keyson	10.1007/s00779-005-0062-3	Sound Sculpting: Manipulating Sound through Virtual Sculpting
 -0.0493	Personal and Ubiquitous Computing	2011	An embedded system for real-time navigation and remote command of a trained canine	Winard R. Britt; Jeffrey Miller; Paul Waggoner; David M. Bevly; John A. Hamilton	10.1007/s00779-010-0298-4	SINFONIE : numerical process command with gestural input control
--0.0493	CHI	2006	Interface Devices and Software Tools for Expressive Music Creation	Shuji Hashimoto	10.1109/roman.2006.314483	Integrality and Separability of Input Devices
 -0.0495	Computer Music Journal	1994	Computer Analysis of Player Piano Rolls	Zoltan Janosy	10.2307/3681176	The Development of a Piano Player
 -0.0496	CHI	2026	Beyond Faders: Understanding 6DoF Gesture Ecologies in Music Mixing	Jeremy Wertheim Co Chen; Rendell Christian Ngo; Cedric Matthew Yu; Hans Emilio Lumagui; Ethan Badayos; Jordan Aiko Deja	10.1145/3772363.3799265	Gesture -- Music
 -0.0496	CHI	2011	Obfuscating authentication through haptics, sound and light	Andrea Bianchi; Ian Oakley; Dong-Soo Kwon	10.1145/1979742.1979709	Do it yourself haptics: Part I
@@ -370,11 +353,11 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0497	Computer Music Journal	2006	A Fuzzy-Logic Mapper for Audiovisual Media	Rodrigo F. Cádiz	10.1162/comj.2006.30.1.67	La scena digital: Nuovi media per la danza
 -0.0499	Personal and Ubiquitous Computing	2011	Space art: aesthetics design as psychological support	Ayako Ono; Irene Lia Schlacht	10.1007/s00779-010-0325-5	Music---Science and Art
 -0.0501	Leonardo Music Journal	1991	The "Airplayer" Series: Manipulation of Light, Sound and Space through Technology	Sara Garden Armstrong; Robert Ross	10.2307/1513117	The Musical Interface Technology Design Space
+-0.0503	Computer Music Journal	1984	Marice Stith Plays Contemporary Literature for Trumpet	Conrad Cummings; Marice Stith	10.2307/3679821	Trumpet and Trumpet Player: Model and Simulation in a Musical Context
 -0.0503	Contemporary Music Review	2019	Beyond Skill Acquisition: Improvisation, Interdisciplinarity, and Enactive Music Cognition	Lauren Hayes	10.1080/07494467.2019.1684059	Cognition and Physicality in Musical CyberInstruments
 -0.0503	Personal and Ubiquitous Computing	2010	Design ideas for IT in public spaces	Steinar Kristoffersen; Ingunn Bratteberg	10.1007/s00779-009-0255-2	Performance factors in control of hight- dimentional spaces
 -0.0504	Contemporary Music Review	2005	Acoustic lexemes for organizing internet audio	Michael A. Casey	10.1080/07494460500296169	On the Internet
 -0.0506	Computer Music Journal	1996	PowerWave 32 Sound Card for IBM PC-Compatible Computers	Angelo Bello	10.2307/3680427	Computers in music
--0.0506	Contemporary Music Review	2005	Composing with media: Zero in time and space	Randall Packer	10.1080/07494460500296185	System Composing
 -0.0508	Journal of New Music Research	2016	An Automatic Test Framework for Interactive Music Systems	Florent Jacquemard; Clement Poncelet	10.1080/09298215.2016.1173707	A Turing Test for B-Keeper : Evaluating an Interactive
 -0.051	Personal and Ubiquitous Computing	2001	Understanding and Using Context	Anind K. Dey	10.1007/s007790170019	Understanding Interactive Systems
 -0.0511	Journal of New Music Research	2001	An Overview of New Techniques and Effects in Model-based Sound Synthesis	Matti Karjalainen; Tero Tolonen; Vesa V�lim�ki; Cumhur Erkut; Mikael Laurson; Jarmo Hiipakka	10.1076/jnmr.30.3.203.7471	An Overview of the Structured Sound Synthesis Project
@@ -385,10 +368,9 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0517	Organised Sound	1998	Music In The Air: a theoretical model and software system for music analysis and composition	ROBERT SPALDING NEWCOMB	10.1017/s1355771898009121	Nuntius – A Computer System for the Interactive Composition and Analysis of Music and Dance
 -0.0517	Personal and Ubiquitous Computing	2010	Space and places: when interacting with and in physical space becomes a meaningful experience	Laura Lentini; Françoise Decortis	10.1007/s00779-009-0267-y	Interacting with latter-day musical
 -0.0517	Personal and Ubiquitous Computing	1999	From ?website? to ?on-line presence?: From ?internet? to ?information society?	Peter Thomas	10.1007/bf01540549	A Study of On-line Collaborative Choreography Using Life Forms and Internet Communication
--0.0518	Contemporary Music Review	2003	The Object of Performance: Aural Performativity in Contemporary Laptop Music	Caleb Stuart	10.1080/0749446032000156955	Contemporary Performance/Technology
--0.0518	Personal and Ubiquitous Computing	2021	The current state of research on people, culture and cybersecurity	Jongkil Jay Jeong; Gillian Oliver; Eunsuk Kang; Sadie Creese; Peter Thomas	10.1007/s00779-021-01591-8	Software Agents in Music and Sound Art Research/Creative Work: Current State adn a Possible Direction
+-0.0518	Contemporary Music Review	2005	Composing with media: Zero in time and space	Randall Packer	10.1080/07494460500296185	System Composing
 -0.0518	CHI	2010	Audio-visual interactions in product sound design	Elif Özcan; René van Egmond	10.1117/12.856312	Electronic Music Systems: Structure, Control, Product
--0.052	Contemporary Music Review	1994	Evolution of timbres through the use of<i>Tabula Vigilans</i>on the MIDAS system	Ross Kirk; Richard Orton; Andy Hunt; Anna Katrami	10.1080/07494469400640431	MIDAS: MIC Interactive Dance System
+-0.052	Contemporary Music Review	1994	Evolution of timbres through the use ofTabula Vigilanson the MIDAS system	Ross Kirk; Richard Orton; Andy Hunt; Anna Katrami	10.1080/07494469400640431	MIDAS: MIC Interactive Dance System
 -0.0522	Computer Music Journal	2003	A Physical Model of a Single-Reed Wind Instrument, Including Actions of the Player	Eric Ducasse	10.1162/01489260360613344	A meta-wind-instrument physical model, and a meta-controller for real-time performance control
 -0.0522	Computer Music Journal	1983	Digital Synthesis of Plucked-String and Drum Timbres	Kevin Karplus; Alex Strong	10.2307/3680062	The Musician-Machine Interface in Digital Sound Synthesis
 -0.0523	Personal and Ubiquitous Computing	2024	E-textiles for emotion interaction: a scoping review of trends and opportunities	Mengqi Jiang; Yimin Wang; Vijayakumar Nanjappan; Ziqian Bai; Hai-Ning Liang	10.1007/s00779-024-01793-w	Trends in Gestural Control of Music
@@ -400,13 +382,12 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0529	Computer Music Journal	1994	Music and Computers: NEMO Composers' Panel Discussion	Stephen Travis Pope	10.2307/3681183	Computers in music
 -0.0529	Leonardo Music Journal	1991	"Transmission Two: The Great Excursion (TT:TGE)": The Aesthetic, Art and Science of a Composition for Radio	Larry Austin; Charles Boone; Xavier Serra	10.2307/1513127	Radio Healer
 -0.0529	Contemporary Music Review	2011	The Silent Network—The Music of Wandelweiser	G. Douglas Barrett	10.1080/07494467.2011.676895	TresnaNet Musical Generation based on Network Protocols
--0.0534	Personal and Ubiquitous Computing	2016	Connected dominating set construction in cognitive radio networks	Jiguo Yu; Wenchao Li; Xiuzhen Cheng; Mohammed Atiquzzaman; Hua Wang; Li Feng	10.1007/s00779-016-0944-6	Radio Healer
 -0.0534	CHI	2022	A New Interactive Music System by Fusion of Melody Morphing and Body Movements	Hiroya Miura; Masatoshi Hamanaka	10.1145/3491101.3519876	SICIB: An Interactive Music Composition System Using Body Movements
 -0.0535	Contemporary Music Review	2021	Are Classical Musicians Excluded from Improvisation? Cultural Hegemony and the Effects of Ideology on Musicians’ Attitudes Towards Improvisation	Jonathan Ayerst	10.1080/07494467.2021.2001945	PadMaster : an improvisation environment for real-time performance
--0.0536	Contemporary Music Review	2023	Developing Live-Interactive Approaches to New Music for Organ and Electronics Through Collaboration	Lauren Redhead	10.1080/07494467.2023.2277545	New Approaches to Analog-Studio Design
 -0.0542	Computer Music Journal	1999	SAOL: The MPEG-4 Structured Audio Orchestra Language	Eric D. Scheirer; Barry L. Vercoe	10.1162/014892699559742	The Ningen Dogs Orchestra
 -0.0543	Journal of New Music Research	2015	A Low-Cost Real-Time Tracking System for Violin	Laurel S. Pardue; Christopher Harte; Andrew P. McPherson	10.1080/09298215.2015.1087575	Making of VITESSIMO for Augmented Violin : Compositional Process and Performance
 -0.0545	Leonardo Music Journal	1994	Megalopolis Aborigines: The Tokyo-Osaka Action Art Ensemble's 1992 Tour	Christophe Charles	10.2307/1513189	The Computer-Extended Ensemble
+-0.0545	CHI	2006	Interface Devices and Software Tools for Expressive Music Creation	Shuji Hashimoto	10.1109/roman.2006.314483	Integrality and Separability of Input Devices
 -0.0546	Contemporary Music Review	1996	Sudden music: Improvising across the electronic abyss	David Rothenberg	10.1080/07494469600640041	Electronic Music
 -0.0549	Journal of New Music Research	2003	Electromagnetic Tagging for Electronic Music Interfaces	Joseph A. Paradiso; Laurel S. Pardue; Kai-Yuh Hsiao; Ari Y. Benbasat	10.1076/jnmr.32.4.395.18858	Electronic Music
 -0.0549	Personal and Ubiquitous Computing	2020	Student model construction of intelligent teaching system based on Bayesian network	Lan Wu	10.1007/s00779-019-01311-3	The intelligent stage
@@ -417,6 +398,8 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0555	Personal and Ubiquitous Computing	2018	Wearing-independent hand gesture recognition method based on EMG armband	Yingwei Zhang; Yiqiang Chen; Hanchao Yu; Xiaodong Yang; Wang Lu; Hong Liu	10.1007/s00779-018-1152-3	Video Based Recognition of Hand Gestures by Neural Networks for the Control of Sound and Music
 -0.0556	Leonardo Music Journal	1996	The Theremin Enthusiasts Club International	Dan Gillard	10.2307/1513310	Virtual mutant Theremin
 -0.0556	TEI	2021	Playing by Ear: Designing for the Physical in a Sound-Based Virtual Reality Narrative	Daniel Harley; Aneesh P. Tarun; Bonnie J. Stinson; Tudor Tibu; Ali Mazalek	10.1145/3430524.3440635	Virtual Reality Technology
+-0.0557	Personal and Ubiquitous Computing	2016	Connected dominating set construction in cognitive radio networks	Jiguo Yu; Wenchao Li; Xiuzhen Cheng; Mohammed Atiquzzaman; Hua Wang; Li Feng	10.1007/s00779-016-0944-6	Radio Healer
+-0.0559	Journal of New Music Research	1998	Combining instrument and performance models for high‐quality music synthesis	Roger B. Dannenberg; Istvan Derenyi	10.1080/09298219808570747	SqueezeVox : a new controller for vocal synthesis models
 -0.0561	Contemporary Music Review	1994	Pierre Schaeffer and the significance of radiophonic art	John Dack	10.1080/07494469400640251	Music---Science and Art
 -0.0561	Personal and Ubiquitous Computing	2004	From turtles to Tangible Programming Bricks: explorations in physical language design	TimothyS. McNerney	10.1007/s00779-004-0295-6	Cognitive Issues in Computer Music Programming
 -0.0562	Computer Music Journal	1991	Computers in Music Research Conference	Arvid O. Vollsnes	10.2307/3681081	Computers in music
@@ -427,13 +410,11 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0566	Contemporary Music Review	2005	Copyright issues in internet music	Andy Harrower	10.1080/07494460500296151	On the Internet
 -0.0569	Personal and Ubiquitous Computing	1997	Metronaut: A wearable computer with sensing and global communication capabilities	Asim Smailagic; Richard Martin; Bohuslav Rychlik; Joseph Rowlands; Berend Ozceri	10.1007/bf01682029	The SoundLab : a wearable computer music instrument
 -0.0569	CHI	2001	Tangible bits and malleable atoms in the design of a computer music instrument	Roel Vertegaal; Tamas Ungvary	10.1145/634246.634251	THE Fairlight computer musical instrument
--0.0571	Journal of New Music Research	2019	Musical agents: A typology and state of the art towards Musical Metacreation	Kıvanç Tatar; Philippe Pasquier	10.1080/09298215.2018.1511736	Metacreation: Art and Artificial Life
 -0.0572	CHI	2017	Wearable bass tactile sound systems and immersion	Cassandra Drempetic; Leigh Ellen Potter	10.1145/3152771.3156175	Virtual Art: From Illusion to Immersion
 -0.0574	Personal and Ubiquitous Computing	2007	Movement-based interaction in camera spaces: a conceptual framework	Eva Eriksson; Thomas Riisgaard Hansen; Andreas Lykke-Olesen	10.1007/s00779-006-0134-z	Towards a New Conceptual Framework for Digital Musical Instruments
 -0.0574	CHI	2001	New interfaces for musical expression	Ivan Poupyrev; Michael J. Lyons; Sidney Fels; Tina Blaine (Bean)	10.1145/634342.634348	BioSensorFusion : new interfaces for interactive multimedia art
 -0.0575	Computer Music Journal	1977	The Simulation of Moving Sound Sources	John M. Chowning	10.2307/3679609	Dance Technology – Moving into the Future
 -0.0575	Computer Music Journal	1978	The Egg: A Purely Digital Real Time Polyphonic Sound Synthesizer	Michael Manthey	10.2307/3680220	A Digital Sound Synthesizer Keyboard
--0.0575	Contemporary Music Review	2016	Gestures in Contemporary Music Performance: A Method to Assist the          Performer’s Artistic Process	Giusy Caruso; Esther Coorevits; Luc Nijs; Marc Leman	10.1080/07494467.2016.1257292	Contemporary Performance/Technology
 -0.0575	CHI	2005	Symbolic objects in a networked gestural sound interface	Eric Kabisch; Amanda Williams; Paul Dourish	10.1145/1056808.1056954	The Accordiatron: A Gestural Interface for Interactive Music
 -0.0577	Contemporary Music Review	2017	Lachenmann’s Complex Musical Aspects: Timbre as Interiority or Utopia of Communication?	David Michael McCarthy	10.1080/07494467.2018.1427196	Timbre et causalité
 -0.0577	Personal and Ubiquitous Computing	2011	Space anthropology: physical and cultural adaptation in outer space	Melchiorre Masali; Marinella Ferrino; Monica Argenta; Franca Ligabue Stricker	10.1007/s00779-010-0324-6	The Musical Interface Technology Design Space
@@ -442,8 +423,15 @@ score	source	year	title	authors	doi	nearest_archive_entry
 -0.0582	Computer Music Journal	1997	Digidesign Audiomedia III for Windows Computers	Joseph Rothstein	10.2307/3681119	Computers in music
 -0.0585	Computer Music Journal	1990	On Music's Changing Relation to Visual Art	John Whitney	10.2307/3679954	Music---Science and Art
 -0.0585	Contemporary Music Review	2005	Abnormal Playing Techniques in the String Quartets of Helmut Lachenmann	David Alberman	10.1080/0749446042000293592	Musical applications of new, multi-axis guitar string sensors
--0.0587	Journal of New Music Research	2015	Expressive Timbre and Timing in Rhythmic Performance: Analysis of Steve Reich’s
-                    <i>Clapping Music</i>	William A. Sethares; Godfried T. Toussaint	10.1080/09298215.2014.935736	Timbre et causalité
--0.0588	Journal of New Music Research	2006	<i>The Virtual Flute</i>: an advanced fingering guide generated via machine intelligence	Andrew Botros; John Smith; Joe Wolfe	10.1080/09298210601045559	A Digital Flute
--0.0588	Journal of New Music Research	2023	The cognitive, affective, and motoric correlates of rhythmic complexity	Ève Poudrier; Daniel Shanahan	10.1080/09298215.2025.2453697	Towards an Affective Gesture Interface for Expressive Music Performance
+-0.0587	Journal of New Music Research	2015	Expressive Timbre and Timing in Rhythmic Performance: Analysis of Steve Reich’s Clapping Music	William A. Sethares; Godfried T. Toussaint	10.1080/09298215.2014.935736	Timbre et causalité
+-0.0588	Journal of New Music Research	2006	The Virtual Flute: an advanced fingering guide generated via machine intelligence	Andrew Botros; John Smith; Joe Wolfe	10.1080/09298210601045559	A Digital Flute
+-0.0591	CHI	2024	Three Ways to Destroy a Sound	Yann Seznec	10.1145/3677045.3685496	Electronic Music: New Ways to play
 -0.0592	Personal and Ubiquitous Computing	2010	Identifying and facilitating social interaction with a wearable wireless sensor network	Joseph A. Paradiso; Jonathan Gips; Mathew Laibowitz; Sajid Sadi; David Merrill; Ryan Aylward	10.1007/s00779-009-0239-2	Giveaway wireless sensors for large-group interaction
+-0.0594	Contemporary Music Review	1991	Observations on live electronics	Brian Bevelander	10.1080/07494469100640161	The metaphysics of live electronics
+-0.0594	Contemporary Music Review	2003	The Object of Performance: Aural Performativity in Contemporary Laptop Music	Caleb Stuart	10.1080/0749446032000156955	Contemporary Performance/Technology
+-0.0597	Computer Music Journal	1995	MATLAB 4.1 with Signal Processing Toolbox for Macintosh Computers	Erica Faber	10.2307/3680609	Computers in music
+-0.0597	Contemporary Music Review	2004	Toward a New Aesthetic Quality. On Helmut Lachenmann's Aesthetics of Material1	Peter Ruzicka	10.1080/0749446042000285717	Aspects of the Aesthetics of Telecomommunications
+-0.0598	Computer Music Journal	1990	Hologramophone Research Pixound for Commodore Amiga Computers	Larry Johnson	10.2307/3680804	Computers in music
+-0.0598	Computer Music Journal	1991	Hologramophone Research Hyperchord for Commodore Amiga Computers	Larry Johnson	10.2307/3680395	Computers in music
+-0.0599	Computer Music Journal	2008	Andrew R. Brown: Computers in Music Education: Amplifying Musicality	Matthew McCabe	10.1162/comj.2008.32.3.105	Computers in music
+-0.06	Contemporary Music Review	2009	Tapping into the Internet as an Acoustical/Musical Medium	Chris Chafe	10.1080/07494460903422362	On the Internet

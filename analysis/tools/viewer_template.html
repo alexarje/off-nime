@@ -53,6 +53,11 @@ aside .meta { color: var(--text-secondary); font-size: 13px; }
 aside ul { padding-left: 18px; margin: 6px 0 12px; }
 aside li { margin: 3px 0; }
 aside a { color: var(--accent); }
+aside:focus { outline: none; }
+.hits { list-style: none; padding: 0; }
+button.hit { background: none; border: 0; padding: 3px 0; text-align: left; color: var(--accent); font: inherit; cursor: pointer; }
+button.hit:hover, button.hit:focus-visible { text-decoration: underline; }
+nav button:focus-visible, select:focus-visible, input:focus-visible { outline: 2px solid var(--accent); outline-offset: 1px; }
 .legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--text-secondary); padding: 0 20px 8px; }
 .legend span { display: inline-flex; align-items: center; gap: 6px; }
 .legend i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
@@ -112,8 +117,8 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
   </div>
   <div class="legend" id="legend"></div>
   <main>
-    <div class="stage"><canvas id="cv"></canvas></div>
-    <aside id="side"></aside>
+    <div class="stage"><canvas id="cv" role="img" aria-label="Network drawing; use the search box to list entries as text"></canvas></div>
+    <aside id="side" aria-live="polite" tabindex="-1"></aside>
   </main>
 </div>
 
@@ -340,9 +345,21 @@ function showSide() {
   }
 }
 function defaultSide() {
-  const s = DATA.side[view] || "";
-  return s;
+  const q = $("#search").value.trim();
+  if (!q) return DATA.side[view] || "";
+  // a text list of the matches, so the atlas works from the keyboard and with a screen reader
+  const hits = nodes.map((n, k) => [n, k]).filter(([n]) => n.on).slice(0, 60);
+  const label = k => view === "papers" ? `${P[k].t} (${P[k].y})` : view === "authors" ? DATA.authors[k].n : `${DATA.cnodes[k].t} (${DATA.cnodes[k].y0 ?? ""})`;
+  const total = nodes.filter(n => n.on).length;
+  return `<h2>${total} matches</h2>${total > 60 ? "<p class='meta'>The first 60 are listed.</p>" : ""}<ul class="hits">${hits.map(([n, k]) => `<li><button class="hit" data-k="${k}">${esc(label(k))}</button></li>`).join("")}</ul>`;
 }
+$("#side").addEventListener("click", e => {
+  const b = e.target.closest("button.hit"); if (!b) return;
+  selected = +b.dataset.k; showSide(); draw();
+  const n = nodes[selected]; zoom = Math.max(zoom, 3);
+  ox = W / 2 - PAD - n.x * (W - 2 * PAD) * zoom; oy = H / 2 - PAD - n.y * (H - 2 * PAD) * zoom; draw();
+  $("#side").focus();
+});
 function legend() {
   const L = $("#legend"), mode = $("#colour").value;
   const dot = (v, t) => `<span><i style="background:${css(v)}"></i>${esc(t)}</span>`;
@@ -371,8 +388,10 @@ function syncSelectors() {
 }
 document.querySelectorAll("nav button").forEach(b => b.addEventListener("click", () => setView(b.dataset.view)));
 ["#colour", "#topicsel", "#channelsel"].forEach(s => $(s).addEventListener("change", () => { syncSelectors(); refresh(); }));
-["#y0", "#y1", "#search"].forEach(s => $(s).addEventListener("input", refresh));
+["#y0", "#y1", "#search"].forEach(s => $(s).addEventListener("input", () => { refresh(); if (selected === null) showSide(); }));
 addEventListener("resize", resize);
+// Escape clears the selection and returns to the list of matches
+addEventListener("keydown", e => { if (e.key === "Escape" && selected !== null) { selected = null; showSide(); draw(); } });
 new ResizeObserver(resize).observe($(".stage"));
 
 // ---------- trends ----------

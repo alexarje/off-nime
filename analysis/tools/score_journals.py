@@ -25,6 +25,9 @@ K = 10
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     items = json.loads((HERE / "data" / "journals.json").read_text())
+    for it in items:
+        it["title"] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", it["title"])).strip()
+        it["authors"] = [re.sub(r"\s+", " ", a).strip() for a in it["authors"]]
     items = [it for it in items if it["year"] and not re.match(r"(front matter|back matter|editor|announcement|"
                                                                 r"letters?\b|about the|contributors|index|books? received|"
                                                                 r"news|products of interest|erratum|correction)", it["title"], re.I)]
@@ -93,7 +96,7 @@ def main():
                       ("pages", (it["pages"] or "").replace("-", "--") or None), ("doi", it["doi"])]
             f.write(f"@{kind}{{{key},\n" + ",\n".join(f"  {k} = {{{re.sub(r'[{}]', '', str(v))}}}" for k, v in fields if v)
                     + "\n}\n\n")
-    summary = {"check": check, "threshold": round(thresh, 4), "items": len(items),
+    summary = {"check": check, "threshold": round(thresh, 4), "near_min": round(near_min, 4), "items": len(items),
                "by_source": dict(Counter(it["source"] for it in items)),
                "in_corpus": sum(1 for it in items if it["in_corpus"]),
                "candidates": dict(Counter(it["source"] for it in cands)), "n_candidates": len(cands),

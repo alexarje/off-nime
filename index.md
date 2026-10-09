@@ -11,7 +11,7 @@ layout: page
 
 This website contains a table of <span id="blurb-count"></span> vetted off-NIME references deemed to be relevant to the NIME community. This includes materials from conferences that predated NIME (CMJ, ICMC; so-called ["prehistoric NIME"](https://nime.org/proceedings/2023/nime2023_8.pdf)) as well as concurrent conferences, publications, and books, currently from around 1955 to 2012. 
 
-There are three primary datasets, represented by the radio buttons just above the table: CMJ, ICMC, and ISIDM ([the Interactive Systems and Instrument Design in Music Working Group](https://www.sensorwiki.org/isidm)). If you would like to get involved with cleaning any references, or with adding new datasets/features, feel free to [submit a PR on the GitHub repo](https://github.com/IDMIL/off-nime/pulls).
+There are three primary datasets, represented by the radio buttons just above the table: CMJ, ICMC, and ISIDM ([the Interactive Systems and Instrument Design in Music Working Group](https://www.sensorwiki.org/isidm)). A fourth dataset, Cited, holds works that are cited by many NIME and off-NIME papers, or that cite many of them, selected by the rules in the [report](analysis/REPORT.html). If you would like to get involved with cleaning any references, or with adding new datasets/features, feel free to [submit a PR on the GitHub repo](https://github.com/IDMIL/off-nime/pulls).
 
 Other features of this table include the search bar, column sorting (click the header to sort), and the download all button below.
 
@@ -35,7 +35,8 @@ An [interactive atlas](atlas/) places these entries beside the NIME proceedings 
     <input type="radio" id="html" name="table-tab" checked="checked" onclick="filterTable(''); setNumEntries();"><label for="html">All</label>
     <input type="radio" id="html" name="table-tab" onclick="filterTable('Computer Music Journal'); setNumEntries();"><label for="html">CMJ</label>
     <input type="radio" id="html" name="table-tab" onclick="filterTable('International Computer Music Conference'); setNumEntries();"><label for="html">ICMC</label>
-    <input type="radio" id="html" name="table-tab" onclick="notFilterTable(['Computer Music Journal', 'International Computer Music Conference']); setNumEntries();"><label for="html">ISIDM + Extras</label>
+    <input type="radio" id="html" name="table-tab" onclick="notFilterTable(['Computer Music Journal', 'International Computer Music Conference', '(Cited)']); setNumEntries();"><label for="html">ISIDM + Extras</label>
+    <input type="radio" id="html" name="table-tab" onclick="filterTable('(Cited)'); setNumEntries();"><label for="html">Cited</label>
 </div>
 
 <div class="scrollableTable">

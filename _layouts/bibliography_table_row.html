@@ -16,6 +16,7 @@
         {% assign sz = entry.type | size %}
         {{ entry.type | slice: 0 | upcase }}{{ entry.type | slice: 1, sz - 1 }}
     {% endif %}
+    {% if entry.collection %}<span class="collection">({{ entry.collection }})</span>{% endif %}
 </td>
 <td>
     {% if entry.journal %}

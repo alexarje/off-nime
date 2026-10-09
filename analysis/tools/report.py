@@ -62,7 +62,15 @@ def main():
     journals = sorted(k for k in jc["by_source"] if k not in ("CHI", "TEI"))
     resolved = json.loads((HERE / "data" / "cited_resolved.json").read_text())
     cr_ok = sum(1 for r in resolved if r.get("doi"))
+    cst = json.loads((HERE / "data" / "cited_stats.json").read_text())
+    import csv as _csv
+    with open(HERE / "output" / "collection.csv") as fh:
+        x_rows = sum(1 for _ in _csv.reader(fh)) - 1
+    from build_cited import MIN_CITED, MIN_CITING
     v = {
+        "c_adm": cst["admitted"], "c_border": cst["borderline"], "c_by_cited": cst["admitted_by"]["cited_by"],
+        "c_by_cites": cst["admitted_by"]["cites"], "c_by_sweep": cst["admitted_by"]["sweep"],
+        "c_min_cited": MIN_CITED, "c_min_citing": MIN_CITING, "x_rows": x_rows,
         "j_cands": jc["n_candidates"], "j_nsources": len(journals),
         "j_sources": ", ".join(journals[:-1]) + " and " + journals[-1],
         "j_items": jc["items"], "j_abs": jc["with_abstract"], "j_cur": jc["check"]["curated_cmj"],

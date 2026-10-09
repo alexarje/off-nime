@@ -76,6 +76,15 @@ def bib_escape(s):
     return re.sub(r"[{}]", "", str(s))
 
 
+def author_ok(it, first):
+    """The parsed first author must be among the hit's authors or editors, since works with the
+    same title by different people are common (a book and a review of it, for instance)."""
+    if not first:
+        return True
+    names = {letters(a.get("family", "")) for a in (it.get("author") or []) + (it.get("editor") or [])}
+    return letters(first.split()[-1]) in names
+
+
 def resolve():
     rows = [l.split("\t") for l in (HERE / "output" / "candidates_cited.tsv").read_text().splitlines()[1:]]
     out, n_ok = [], 0
@@ -89,7 +98,7 @@ def resolve():
             t = (it.get("title") or [""])[0]
             ratio = SequenceMatcher(None, letters(t), letters(title)).ratio()
             y = item_year(it)
-            if ratio >= 0.9 and (not year or not y or abs(int(year) - y) <= 2):
+            if ratio >= 0.9 and (not year or not y or abs(int(year) - y) <= 2) and author_ok(it, first):
                 best = (it, ratio)
                 break
         if not best and len(f) > 7 and f[7]:
@@ -101,7 +110,7 @@ def resolve():
             for it in (d or {}).get("message", {}).get("items", []):
                 t = letters((it.get("title") or [""])[0])
                 y = item_year(it)
-                if len(t) >= 15 and t in raw and (not year or not y or abs(int(year) - y) <= 2):
+                if len(t) >= 15 and t in raw and (not year or not y or abs(int(year) - y) <= 2) and author_ok(it, first):
                     best = (it, 1.0)
                     break
         rec = {"cited_by": int(cited_by), "title": title, "first": first, "year": year}

@@ -64,6 +64,8 @@ def main():
         print(f"DOI batch {i // 100 + 1}: {sum(p is not None for p in res)}/{len(chunk)} found", file=sys.stderr)
         time.sleep(3)
 
+    if "--doi-only" in sys.argv:
+        return
     for n, r in enumerate(by_title):
         hit = call("GET", f"{API}/paper/search/match", params={"query": r["title"][:300], "fields": "paperId,title,year"})
         p = None

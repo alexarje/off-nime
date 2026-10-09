@@ -110,6 +110,9 @@ def records():
     files = []
     for p in sorted(OFF.rglob("*.bib")):
         dataset = p.relative_to(OFF).parts[0]
+        # Cited is derived from this analysis; the curated archives stay the reference it is measured against
+        if dataset == "Cited":
+            continue
         files.append(("off-nime", dataset, p))
     for sub, ds in [("paper_proceedings", "NIME papers"), ("music_proceedings", "NIME music"),
                     ("installation_proceedings", "NIME installations"), ("alt_proceedings", "NIME alt")]:

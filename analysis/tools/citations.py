@@ -108,12 +108,12 @@ def main():
     with open(HERE / "output" / "candidates_cited.tsv", "w") as f:
         f.write("cited_by\tcited_by_off_nime\tcited_by_nime\tyear\tfirst_author\ttitle\tfirst_cited\texample_reference\n")
         for c in cited:
-            f.write("\t".join(str(x) for x in [c["n"], c["n_off"], c["n_nime"], c["year"] or "", c["first"],
+            f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in [c["n"], c["n_off"], c["n_nime"], c["year"] or "", c["first"],
                                                  c["title"], c["first_cited"], c["example"]]) + "\n")
     with open(HERE / "output" / "candidates_citing.tsv", "w") as f:
         f.write("cites_archive_entries\tyear\ttitle\tauthors\tvenue\ttypes\tdoi\ts2_id\n")
         for o in citing_out:
-            f.write("\t".join(str(x) for x in [o["n"], o["year"] or "", o["title"], "; ".join(o["authors"]),
+            f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in [o["n"], o["year"] or "", o["title"], "; ".join(o["authors"]),
                                                  o["venue"], ",".join(o["types"]), o["doi"] or "", o["pid"]]) + "\n")
 
     # citation network for the viewer: archive entries with any citation link, plus the most cited missing works
