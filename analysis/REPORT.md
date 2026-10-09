@@ -248,6 +248,12 @@ The fifth list comes from one round of snowballing. 126 of the 169 Cited works h
 | 5 | 2009 | N.H. Rasamimanana | Effort-based Analysis of Bowing Movements: Evidence of Anticipation Effects |
 | 5 | 2005 | Wright M. | Open Sound Control: an enabling technology for musical networking |
 
+### Theses
+
+PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. 36 NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave 6122 distinct theses, of which 366 are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+
+Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the 35 English theses known to cite the archives: closeness at their lower quartile and contrast at their median. With contrast at the lower quartile, a reading of sampled titles found many off-topic theses (music education, club culture, signal processing); with contrast at the median, few, which is why the median is used. As a check on a separate population, the searches found 9 of the 32 theses already in off-NIME, and the rules would admit 6 of them (66.7%). [`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 416 admitted theses, 37 of them because they cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
+
 ### Data quality
 
 The off-NIME archive holds 5 pairs of entries that share a title. Each pair is two publications: a conference paper and its journal version, reports in two issues of a journal, or two different papers with the same title.
@@ -281,7 +287,7 @@ I would extend off-NIME along the three directions the lists measure, and in thi
 
 ### Exports
 
-The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 4105 entries names its archive and dataset and, for archive entries, its strongest topic.
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 4521 entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 

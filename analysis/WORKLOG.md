@@ -92,3 +92,20 @@ quarter).
 #2: one snowball round from the Cited works' Crossref reference lists. Proceedings names pooled
 unrelated papers under one key and journal versions of archive papers slipped through; both are
 now excluded, and works counted by DOI and by title are merged. 120 candidates.
+
+## 2026-10-09, late night: theses (#5)
+
+`tools/theses.py`: 36 queries to OpenAlex (type dissertation; searches cost $0.001 against a
+$0.10 daily allowance, so two pages of 200 per query) and DataCite, plus a DataCite title lookup
+of the untyped forward-list works (37 resolved to theses): 6,122 distinct theses.
+
+French abstracts scored high against the few French titles in the archives, since French
+function words are not English stop words; a cancer thesis from Montréal scored 0.33. Theses are
+now scored on their English abstract where a repository gives several, and non-English theses
+(366) go to a separate list for #4. Journal-sweep thresholds admitted 3 of 9 known off-NIME
+theses, so thresholds are calibrated on the 35 English theses that cite the archives. Contrast at
+their lower quartile admitted 851, of which about a quarter looked off topic in my reading of 80
+titles; contrast at the median admits 416 (my reading: roughly one in eight off topic, mostly
+acoustics and dance studies), and 6 of the 9 known off-NIME theses. The school comes from the
+author's institution in OpenAlex, or from the parenthesis in a repository name; aggregators
+(Zenodo, NORA, ERA, LA Referencia) remain.

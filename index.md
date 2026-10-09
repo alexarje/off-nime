@@ -9,9 +9,9 @@ layout: page
 
 ## What is this resource?
 
-This website contains a table of <span id="blurb-count"></span> off-NIME references relevant to the NIME community: vetted datasets, and a Cited dataset selected by rule. This includes materials from conferences that predated NIME (CMJ, ICMC; so-called ["prehistoric NIME"](https://nime.org/proceedings/2023/nime2023_8.pdf)) as well as concurrent conferences, publications, and books, from around 1955 to 2012 in the vetted datasets and to the present in Cited. 
+This website contains a table of <span id="blurb-count"></span> off-NIME references relevant to the NIME community: vetted datasets, and Cited and Theses datasets selected by rule. This includes materials from conferences that predated NIME (CMJ, ICMC; so-called ["prehistoric NIME"](https://nime.org/proceedings/2023/nime2023_8.pdf)) as well as concurrent conferences, publications, and books, from around 1955 to 2012 in the vetted datasets and to the present in Cited and Theses. 
 
-There are three primary datasets, represented by the radio buttons just above the table: CMJ, ICMC, and ISIDM ([the Interactive Systems and Instrument Design in Music Working Group](https://www.sensorwiki.org/isidm)). A fourth dataset, Cited, holds works that are cited by many NIME and off-NIME papers, or that cite many of them, selected by the rules in the [report](analysis/REPORT.html). If you would like to get involved with cleaning any references, or with adding new datasets/features, feel free to [submit a PR on the GitHub repo](https://github.com/IDMIL/off-nime/pulls). To suggest a missing work, [fill in the suggestion form](https://github.com/alexarje/off-nime/issues/new?template=suggest-entry.yml).
+There are three primary datasets, represented by the radio buttons just above the table: CMJ, ICMC, and ISIDM ([the Interactive Systems and Instrument Design in Music Working Group](https://www.sensorwiki.org/isidm)). A fourth dataset, Cited, holds works that are cited by many NIME and off-NIME papers, or that cite many of them, selected by the rules in the [report](analysis/REPORT.html), and a fifth, Theses, holds PhD and master's theses found in OpenAlex and DataCite by the same rules. If you would like to get involved with cleaning any references, or with adding new datasets/features, feel free to [submit a PR on the GitHub repo](https://github.com/IDMIL/off-nime/pulls). To suggest a missing work, [fill in the suggestion form](https://github.com/alexarje/off-nime/issues/new?template=suggest-entry.yml).
 
 Other features of this table include the search bar, column sorting (click the header to sort), and the download all button below.
 
@@ -35,8 +35,9 @@ An [interactive atlas](atlas/) places these entries beside the NIME proceedings 
     <input type="radio" id="tab-all" name="table-tab" checked="checked" onclick="filterTable(''); setNumEntries();"><label for="tab-all">All</label>
     <input type="radio" id="tab-cmj" name="table-tab" onclick="filterTable('Computer Music Journal'); setNumEntries();"><label for="tab-cmj">CMJ</label>
     <input type="radio" id="tab-icmc" name="table-tab" onclick="filterTable('International Computer Music Conference'); setNumEntries();"><label for="tab-icmc">ICMC</label>
-    <input type="radio" id="tab-isidm" name="table-tab" onclick="notFilterTable(['Computer Music Journal', 'International Computer Music Conference', '(Cited)']); setNumEntries();"><label for="tab-isidm">ISIDM + Extras</label>
+    <input type="radio" id="tab-isidm" name="table-tab" onclick="notFilterTable(['Computer Music Journal', 'International Computer Music Conference', '(Cited)', '(Theses)']); setNumEntries();"><label for="tab-isidm">ISIDM + Extras</label>
     <input type="radio" id="tab-cited" name="table-tab" onclick="filterTable('(Cited)'); setNumEntries();"><label for="tab-cited">Cited</label>
+    <input type="radio" id="tab-theses" name="table-tab" onclick="filterTable('(Theses)'); setNumEntries();"><label for="tab-theses">Theses</label>
 </div>
 
 <div class="scrollableTable">

@@ -69,7 +69,13 @@ def main():
     from build_cited import MIN_CITED, MIN_CITING
     sb = json.loads((HERE / "data" / "snowball.json").read_text())
     sb_rows = [l.split("\t") for l in (HERE / "output" / "candidates_snowball.tsv").read_text().splitlines()[1:]]
+    th = json.loads((HERE / "data" / "theses_stats.json").read_text())
+    from theses import QUERIES
     v = {
+        "th_q": len(QUERIES), "th_n": th["theses"], "th_ne": th["non_english"], "th_cal": th["calibration_theses"],
+        "th_known": th["check"]["found_by_searches"], "th_off": th["check"]["off_nime_theses"],
+        "th_adm": th["check"]["would_admit"], "th_pct": th["check"]["would_admit_pct"],
+        "th_admitted": th["admitted"], "th_cites": th["admitted_by_cites"],
         "sb_refs": sb["with_reference_lists"], "sb_cited": sb["cited_works"], "sb_cands": len(sb_rows),
         "sb_min": sb["min_sources"],
         "sb_table": table(["Cited by Cited works", "Year", "First author", "Title"], [r[:4] for r in sb_rows[:15]]),

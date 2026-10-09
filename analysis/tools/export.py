@@ -27,17 +27,19 @@ def main():
     topic = {p["id"]: p["tp"] for p in graph["papers"]}
     labels = {t["id"]: ", ".join(t["terms"][:3]) for t in graph["topics"]}
     rows = [dict(r, collection=r["dataset"]) for r in corpus]
-    cited = HERE.parent / "bibs" / "Cited" / "cited.bib"
-    if cited.exists():
+    for name in ("Cited", "Theses"):
+        cited = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
+        if not cited.exists():
+            continue
         parser = BibTexParser(common_strings=True)
         parser.customization = convert_to_unicode
         for e in bibtexparser.loads(cited.read_text(), parser=parser).entries:
             au = split_authors(e.get("author") or e.get("editor") or "")
-            rows.append({"id": e["ID"], "archive": "cited", "dataset": "Cited", "collection": "Cited",
+            rows.append({"id": e["ID"], "archive": name.lower(), "dataset": name, "collection": name,
                          "type": e["ENTRYTYPE"], "year": int(e["year"]) if e.get("year", "").isdigit() else None,
                          "title": e.get("title", ""), "names": [n for _, n in au],
                          "venue": e.get("journal") or e.get("booktitle") or e.get("publisher") or e.get("school") or "",
-                         "channel": "", "doi": e.get("doi"), "url": None, "note": e.get("note", "")})
+                         "channel": "", "doi": e.get("doi"), "url": e.get("url"), "note": e.get("note", "")})
     with open(HERE / "output" / "collection.csv", "w", newline="") as f:
         w = csv.writer(f)
         w.writerow(["id", "archive", "dataset", "type", "year", "authors", "title", "venue", "channel", "doi", "url",

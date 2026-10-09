@@ -17,8 +17,11 @@
 
 - [ME] Second snowball round (#2): fetch reference lists of the accepted snowball works.
 - [ME] Audio Mostly and MOCO (ACM, Crossref) are not on Zenodo; add them to the Crossref sweep.
-- [ME] Theses (#5): resolve the theses on the forward list to repository records.
-- [ME] Non-English sources (#4): SBCM, JIM and CIM proceedings.
+- [ME] Theses (#5): more OpenAlex queries on later days (daily allowance); fix aggregator
+  school names (Zenodo, NORA, ERA, LA Referencia) from the thesis records.
+- [ARJ] Skim `bibs/Theses/theses.bib` (416, selected by rule) and `output/candidates_theses.tsv`.
+- [ME] Non-English sources (#4): SBCM, JIM and CIM proceedings; 366 non-English theses are
+  listed in `output/candidates_theses_non_english.tsv`.
 
 ## Later
 

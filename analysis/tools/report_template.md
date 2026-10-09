@@ -76,6 +76,12 @@ The fifth list comes from one round of snowballing. {{sb_refs}} of the {{sb_cite
 
 {{sb_table}}
 
+### Theses
+
+PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. {{th_q}} NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave {{th_n}} distinct theses, of which {{th_ne}} are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+
+Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the {{th_cal}} English theses known to cite the archives: closeness at their lower quartile and contrast at their median. With contrast at the lower quartile, a reading of sampled titles found many off-topic theses (music education, club culture, signal processing); with contrast at the median, few, which is why the median is used. As a check on a separate population, the searches found {{th_known}} of the {{th_off}} theses already in off-NIME, and the rules would admit {{th_adm}} of them ({{th_pct}}%). [`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the {{th_admitted}} admitted theses, {{th_cites}} of them because they cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
+
 ### Data quality
 
 The off-NIME archive holds {{n_dups}} pairs of entries that share a title. Each pair is two publications: a conference paper and its journal version, reports in two issues of a journal, or two different papers with the same title.
