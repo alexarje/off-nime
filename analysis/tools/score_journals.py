@@ -1,5 +1,5 @@
-"""Score the Crossref journal and proceedings sweep, and the Zenodo conference records, against the
-joined archives.
+"""Score the Crossref journal and proceedings sweep, the Zenodo conference records and the JIM and
+SBCM proceedings (by their English text) against the joined archives.
 
 Each article (title and, where Crossref has it, abstract) is scored by its mean cosine
 similarity to its ten nearest archive entries, leaving out the entry for the article itself.
@@ -28,9 +28,10 @@ def main():
     items = json.loads((HERE / "data" / "journals.json").read_text())
     for it in items:
         it["background"] = True
-    zen = HERE / "data" / "zenodo.json"
-    if zen.exists():
-        items += [dict(it, background=False) for it in json.loads(zen.read_text())]
+    for extra in ("zenodo.json", "nonenglish.json"):
+        f = HERE / "data" / extra
+        if f.exists():
+            items += [dict(it, background=False) for it in json.loads(f.read_text())]
     for it in items:
         it["title"] = re.sub(r"\s+", " ", re.sub(r"<[^>]+>", "", it["title"])).strip()
         it["authors"] = [re.sub(r"\s+", " ", a).strip() for a in it["authors"]]
@@ -102,7 +103,9 @@ def main():
             fields = [("author", " and ".join(it["authors"])), ("title", it["title"]),
                       ("journal" if kind == "article" else "booktitle", it["container"]), ("year", it["year"]),
                       ("volume", it["volume"]), ("number", it["issue"]),
-                      ("pages", (it["pages"] or "").replace("-", "--") or None), ("doi", it["doi"])]
+                      ("pages", (it["pages"] or "").replace("-", "--") or None), ("doi", it["doi"]),
+                      ("url", it.get("url") if not it["doi"] else None),
+                      ("note", f"Original title: {it['title_orig']}" if it.get("title_orig") and it["title_orig"] != it["title"] else None)]
             f.write(f"@{kind}{{{key},\n" + ",\n".join(f"  {k} = {{{re.sub(r'[{}]', '', str(v))}}}" for k, v in fields if v)
                     + "\n}\n\n")
     summary = {"check": check, "threshold": round(thresh, 4), "near_min": round(near_min, 4), "items": len(items),

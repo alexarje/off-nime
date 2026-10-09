@@ -17,6 +17,7 @@ cap 4G citations.py
 cap 1G "crossref.py resolve"
 cap 2G "crossref.py sweep"
 cap 1G zenodo.py
+cap 1G nonenglish.py
 cap 4G local_candidates.py
 cap 4G score_journals.py
 cap 2G build_cited.py

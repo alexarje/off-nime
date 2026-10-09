@@ -109,3 +109,10 @@ titles; contrast at the median admits 416 (my reading: roughly one in eight off 
 acoustics and dance studies), and 6 of the 9 known off-NIME theses. The school comes from the
 author's institution in OpenAlex, or from the parenthesis in a repository name; aggregators
 (Zenodo, NORA, ERA, LA Referencia) remain.
+
+## 2026-10-09, non-English proceedings (#4)
+
+`tools/nonenglish.py` fetches JIM from HAL (collection JIM, 823 records) and SBCM from SBC OpenLib
+over OAI-PMH (131 records, recent editions only), and scores the ones with English text with the
+journal sweep (JIM 28 candidates, SBCM 10; the CMJ check is unchanged). Older SBCM proceedings
+(1994–2019) are whole-volume PDFs on compmus.ime.usp.br/sbcm; CIM is not yet covered.

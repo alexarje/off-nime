@@ -70,8 +70,13 @@ def main():
     sb = json.loads((HERE / "data" / "snowball.json").read_text())
     sb_rows = [l.split("\t") for l in (HERE / "output" / "candidates_snowball.tsv").read_text().splitlines()[1:]]
     th = json.loads((HERE / "data" / "theses_stats.json").read_text())
+    ne = json.loads((HERE / "data" / "nonenglish_stats.json").read_text())
+    jim = next(v for k, v in ne.items() if k.startswith("JIM"))
+    sbcm = next(v for k, v in ne.items() if k.startswith("SBCM"))
     from theses import QUERIES
     v = {
+        "ne_jim": jim["records"], "ne_jim_en": jim["with_english"], "ne_sbcm": sbcm["records"],
+        "ne_sbcm_en": sbcm["with_english"],
         "th_q": len(QUERIES), "th_n": th["theses"], "th_ne": th["non_english"], "th_cal": th["calibration_theses"],
         "th_known": th["check"]["found_by_searches"], "th_off": th["check"]["off_nime_theses"],
         "th_adm": th["check"]["would_admit"], "th_pct": th["check"]["would_admit_pct"],
