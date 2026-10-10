@@ -121,3 +121,23 @@ Added Audio Mostly, MOCO, DIS and Creativity and Cognition to the Crossref proce
 (888 records). The contrast background had been all of `journals.json`, so new proceedings would
 have shifted every score; it is now the seven journals only (CMJ check: median 75th percentile,
 51% in the top quarter). Sweep candidates 758; Cited 184; snowball 124.
+
+## 2026-10-10
+
+Theses (#5): 39 more OpenAlex queries and deeper pages for the capped ones, with a guard that
+stops at the daily allowance: 13,257 distinct theses. The scoring step was killed by the 3 GB cap
+(OOM, as intended) and reran at 8 GB. With closeness at the calibration lower quartile, 578 were
+admitted, of which about half of the new ones looked off topic in a sample of 30 (the broader
+queries bring in music education, performance practice and general computing); with closeness at
+the median, 297 are admitted, about 5 of 30 off topic, and the check is unchanged (6 of 9).
+
+SBCM (#4): volumes 2007, 2009, 2013, 2015 and 2017 split into 140 papers by their Abstract
+headings (`tools/sbcm_volumes.py`); 1994–1998 are scans without text and need OCR. The PDFs were
+not kept; the texts are in data/sbcm_text/.
+
+On request, added ISMIR (2,593 papers from the ismir/conference-archive JSON), DAFx (1,706 from
+the dafx.de archive, with abstracts), CMMR (401 Springer chapters in Crossref, by volume title;
+2023 and 2025 from Zenodo); SMC was already complete on Zenodo (2004–2025). CHI and the other ACM
+proceedings are now searched with 12 terms and cursor paging (CHI 511 to 1,262 papers; Audio
+Mostly 2,607). The title filter matched "sing" inside "using"; it now matches whole words.
+Sweep candidates 1,037; Cited 192; snowball 129.

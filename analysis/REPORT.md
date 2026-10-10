@@ -8,7 +8,7 @@ data: NIME-bibliography (paper, music, installation and alt proceedings) and off
 
 ## Abstract
 
-The NIME proceedings and the off-NIME archive together hold 3936 entries: 3020 from the NIME conference (2001–2026) and 916 from earlier and concurrent publications (1955–2013). This report asks how complete the two archives are as a record of the field, measured by what their papers cite and what cites them. From 32167 references parsed out of 2199 paper texts, and from Semantic Scholar's forward citations, there are 9571 citation links between archive entries. 355 works are cited by at least five archive papers but held by neither archive, and 1209 works outside NIME cite at least five archive entries. Further lists rank papers as NIME-related but missing: 338 in a local archive of conference proceedings, 758 from a sweep of 15 journals and conference series, the music papers of six ACM proceedings and the Zenodo communities of open music-technology conferences, and 124 found by snowballing from the reference lists of the Cited works. Together they are a curation queue for extending off-NIME backwards, sideways and past its current end in 2013. An [interactive atlas](../atlas/) of the papers, authors and citations accompanies the report.
+The NIME proceedings and the off-NIME archive together hold 3936 entries: 3020 from the NIME conference (2001–2026) and 916 from earlier and concurrent publications (1955–2013). This report asks how complete the two archives are as a record of the field, measured by what their papers cite and what cites them. From 32167 references parsed out of 2199 paper texts, and from Semantic Scholar's forward citations, there are 9571 citation links between archive entries. 355 works are cited by at least five archive papers but held by neither archive, and 1209 works outside NIME cite at least five archive entries. Further lists rank papers as NIME-related but missing: 338 in a local archive of conference proceedings, 1037 from a sweep of 18 journals and conference series, the music papers of six ACM proceedings and the Zenodo communities of open music-technology conferences, and 129 found by snowballing from the reference lists of the Cited works. Together they are a curation queue for extending off-NIME backwards, sideways and past its current end in 2013. An [interactive atlas](../atlas/) of the papers, authors and citations accompanies the report.
 
 ## Data
 
@@ -51,7 +51,7 @@ Semantic Scholar holds the NIME papers but returns their reference lists elided 
 
 The local conference archive was scored separately. Each of its 1339 paper texts (ICMC, DAFx, SMC, ISMIR, ICMPC and workshops; duplicates, programme books and whole volumes removed) is represented by its first page and scored by its mean cosine similarity to its ten nearest archive entries, leaving out a paper's own archive entry where it has one. As a check that the score can fail, the 44 curated off-NIME ICMC papers present locally were scored in the same way. They rank at a median percentile of 73.6 among 685 ICMC texts, and 50.0% of them fall in the top quarter, against 50 and 25 by chance. A candidate is listed as above threshold when it scores at least as high as the lowest quarter of the curated papers.
 
-A sweep through Crossref, Zenodo, HAL (for JIM) and SBC OpenLib (for SBCM) covered every article in ACM Transactions on Computer-Human Interaction, Computer Music Journal, Computer Music Multidisciplinary Research, Contemporary Music Review, International Conference on Live Coding, JIM (Journées d'Informatique Musicale), Journal of New Music Research, Leonardo Music Journal, Nordic Sound and Music Computing, Organised Sound, Personal and Ubiquitous Computing, SBCM (Brazilian Symposium on Computer Music), Sound and Music Computing, TENOR (music notation) and Web Audio Conference, and music-related papers in the CHI, TEI, Audio Mostly, MOCO, DIS and Creativity and Cognition proceedings: 11807 research articles of at least four title words, 5116 of them with an abstract. Short titles such as record and product reviews score high on closeness alone, since they share common words with everything, so these articles are scored by contrast: closeness to the archives minus closeness to the rest of the sweep. Here the check is the 101 Computer Music Journal articles already curated into off-NIME. They rank at a median percentile of 75.2 among 1623 CMJ articles, and 50.5% fall in the top quarter. A candidate needs at least the curated median contrast and at least the curated lower-quartile closeness, so that general HCI articles far from the music-heavy sweep do not pass on contrast alone.
+A sweep through Crossref, Zenodo, HAL (for JIM) and SBC OpenLib (for SBCM) covered every article in ACM Transactions on Computer-Human Interaction, CMMR, Computer Music Journal, Computer Music Multidisciplinary Research, Contemporary Music Review, DAFx, ISMIR, International Conference on Live Coding, JIM (Journées d'Informatique Musicale), Journal of New Music Research, Leonardo Music Journal, Nordic Sound and Music Computing, Organised Sound, Personal and Ubiquitous Computing, SBCM (Brazilian Symposium on Computer Music), Sound and Music Computing, TENOR (music notation) and Web Audio Conference, and music-related papers in the CHI, TEI, Audio Mostly, MOCO, DIS and Creativity and Cognition proceedings: 18012 research articles of at least four title words, 7900 of them with an abstract. Short titles such as record and product reviews score high on closeness alone, since they share common words with everything, so these articles are scored by contrast: closeness to the archives minus closeness to the rest of the sweep. Here the check is the 101 Computer Music Journal articles already curated into off-NIME. They rank at a median percentile of 75.2 among 1623 CMJ articles, and 50.5% fall in the top quarter. A candidate needs at least the curated median contrast and at least the curated lower-quartile closeness, so that general HCI articles far from the music-heavy sweep do not pass on contrast alone.
 
 The works on the backward list were looked up in Crossref by title, first author and year, accepting a hit whose title matches at a ratio of at least 0.9 and whose year is within two. 190 of 355 (53.5%) were found; the rest have no Crossref record, as with arXiv preprints and older conference papers, or titles parsed too poorly to match.
 
@@ -203,40 +203,40 @@ The third list holds papers in the local conference archive that score as NIME-r
 | 0.212 | ICMC | 2001 | Real Time Extended Physical Models for the Composer and Performer |
 | 0.210 | ICMC | 2000 | Qualitative and Quantitive Assessment of a Virtual Bowed String Instrument |
 
-The fourth list holds journal and proceedings papers that score as NIME-related, in [`candidates_journals.bib`](output/candidates_journals.bib) (758 papers: 139 from Sound and Music Computing, 110 from Computer Music Journal, 84 from Personal and Ubiquitous Computing, 73 from CHI, 73 from Contemporary Music Review, 67 from Journal of New Music Research, 62 from Audio Mostly, 28 from JIM (Journées d'Informatique Musicale), 23 from Leonardo Music Journal, 22 from International Conference on Live Coding, 16 from MOCO, 11 from Organised Sound, 10 from SBCM (Brazilian Symposium on Computer Music), 10 from TEI, 9 from DIS, 8 from Computer Music Multidisciplinary Research, 8 from Creativity and Cognition, 2 from ACM Transactions on Computer-Human Interaction, 2 from TENOR (music notation), 1 from Web Audio Conference).
+The fourth list holds journal and proceedings papers that score as NIME-related, in [`candidates_journals.bib`](output/candidates_journals.bib) (1037 papers: 139 from Sound and Music Computing, 128 from CHI, 128 from Audio Mostly, 110 from Computer Music Journal, 84 from Personal and Ubiquitous Computing, 73 from Contemporary Music Review, 67 from Journal of New Music Research, 64 from ISMIR, 48 from CMMR, 28 from JIM (Journées d'Informatique Musicale), 25 from DAFx, 23 from Leonardo Music Journal, 22 from International Conference on Live Coding, 22 from SBCM (Brazilian Symposium on Computer Music), 21 from MOCO, 15 from TEI, 11 from Organised Sound, 8 from DIS, 8 from Computer Music Multidisciplinary Research, 8 from Creativity and Cognition, 2 from ACM Transactions on Computer-Human Interaction, 2 from TENOR (music notation), 1 from Web Audio Conference).
 
 | Score | Source | Year | Title |
 |---|---|---|---|
+| 0.247 | CHI | 2009 | Audio or tactile feedback |
 | 0.230 | MOCO | 2014 | Non-tactile Gestural Control in Musical Performance |
+| 0.198 | ISMIR | 2007 | A Demonstration of the SyncPlayer System. |
 | 0.174 | Computer Music Journal | 2001 | From Dance! to “Dance”: Distance and Digits |
 | 0.171 | CHI | 2026 | MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR |
 | 0.168 | Contemporary Music Review | 1991 | The UPIC as a performance instrument |
 | 0.167 | Journal of New Music Research | 2002 | The Basics of Scratching |
+| 0.154 | CMMR | 2014 | Vibrotactile Feedback for an Open Air Music Controller |
 | 0.147 | MOCO | 2024 | DanceCraft: A Music-Reactive Real-time Dance Improv System |
 | 0.141 | JIM (Journées d'Informatique Musicale) | 1998 | Analyse et Synthese des sons musicaux par la methode PSOLA |
 | 0.141 | Computer Music Journal | 2020 | Electronic_Khipu_: Thinking in Experimental Sound from an Ancestral Andean Interface |
-| 0.131 | CHI | 2008 | The sound of touch |
 | 0.131 | CHI | 2007 | The sound of touch |
+| 0.131 | CHI | 2008 | The sound of touch |
 | 0.128 | Journal of New Music Research | 2018 | Symbaline: An electromagnetically actuated wine glass instrument |
 | 0.126 | JIM (Journées d'Informatique Musicale) | 2024 | VIVO: Video Analysis for Corpus-based Audio--Visual Synthesis |
 | 0.122 | Contemporary Music Review | 2019 | Choreography in R. Murray Schafer's The Crown of Ariadne—Technical or Theatrical? |
+| 0.121 | DAFx | 2001 | Expressive Controllers For Bowed String Physical Models |
 | 0.120 | Computer Music Journal | 1986 | Elementi di Informatica Musicale |
+| 0.119 | DAFx | 2001 | TONETABLE: A Multi-User, Mixed-Media, Interactive Installation |
 | 0.115 | DIS | 2023 | Unlogical instrument: Material-driven gesture-controlled sound installation |
-| 0.115 | International Conference on Live Coding | 2020 | Disabled Approaches to LiveCoding, Cripping the Code |
-| 0.108 | JIM (Journées d'Informatique Musicale) | 2003 | OMClouds, petits nuages de contrainte dans OpenMusic |
-| 0.108 | Journal of New Music Research | 2002 | The Exbow MetaSax: Compositional Applications of Bowed String Physical Models Using Instrument Controller Subsititution |
-| 0.107 | Contemporary Music Review | 2010 | The Real-Time-Score: Nucleus and Fluid Opus |
-| 0.102 | Computer Music Journal | 2017 | Real-Time Timbre Classification for Tabletop Hand Drumming |
 
-The fifth list comes from one round of snowballing. 141 of the 184 Cited works have reference lists in Crossref, and [`candidates_snowball.tsv`](output/candidates_snowball.tsv) holds the 124 works that at least 3 of them cite and that neither archive nor Cited holds. Proceedings and journal names are not counted as works, and a work cited both by DOI and by title is counted once.
+The fifth list comes from one round of snowballing. 149 of the 192 Cited works have reference lists in Crossref, and [`candidates_snowball.tsv`](output/candidates_snowball.tsv) holds the 129 works that at least 3 of them cite and that neither archive nor Cited holds. Proceedings and journal names are not counted as works, and a work cited both by DOI and by title is counted once.
 
 | Cited by Cited works | Year | First author | Title |
 |---|---|---|---|
 | 13 | 2007 | Leman M. | Embodied Music Cognition and Mediation Technology |
 | 10 |  |  | Musical gestures: Sound, movement, and meaning |
+| 7 | 2001 | P. Dourish | Where the action is: the foundations of embodied interaction |
 | 7 | 2003 | COLLINS | Live coding in laptop performance |
 | 6 | 2015 | McPherson Andrew | An Environment for Submillisecond-Latency Audio and Sensor Processing on BeagleBone Black. In Audio Engineering Society Convention 138 |
-| 6 | 2001 | P. Dourish | Where the action is: the foundations of embodied interaction |
 | 6 | 1986 | Dolson | The Phase Vocoder: A Tutorial |
 | 6 | 2000 | Lewis | Too Many Notes: Computers, Complexity and Culture in Voyager |
 | 6 | 2003 | Gaver | Ambiguity as a resource for design |
@@ -245,8 +245,8 @@ The fifth list comes from one round of snowballing. 141 of the 184 Cited works h
 | 6 |  |  | Instruments and Players: Some Thoughts on Digital Lutherie. |
 | 6 | 1954 | Fitts | The information capacity of the human motor system in controlling the amplitude of movement. |
 | 6 | 2009 | G. Paine | Towards Unified Design Guidelines for New Interfaces for Musical Expression |
+| 6 | 2006 | Essl G. | An enactive approach to the design of new tangible musical instruments |
 | 6 | 2010 | T. Bianco | Gesture in Embodied Communication and Human-Computer Interaction |
-| 5 |  |  | Mapping through listening |
 
 ### Non-English proceedings
 
@@ -254,9 +254,9 @@ JIM and SBCM records are scored by their English title and abstract, which the r
 
 ### Theses
 
-PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. 36 NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave 6122 distinct theses, of which 366 are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. 72 NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave 13257 distinct theses, of which 1273 are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
 
-Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the 35 English theses known to cite the archives: closeness at their lower quartile and contrast at their median. With contrast at the lower quartile, a reading of sampled titles found many off-topic theses (music education, club culture, signal processing); with contrast at the median, few, which is why the median is used. As a check on a separate population, the searches found 9 of the 32 theses already in off-NIME, and the rules would admit 6 of them (66.7%). [`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 416 admitted theses, 37 of them because they cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
+Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the 35 English theses known to cite the archives: closeness and contrast both at their median. Lower thresholds admitted many more theses, but a reading of sampled titles found many of them off topic (music education, performance practice, club culture, general computing), while recall on the check set below did not change. As a check on a separate population, the searches found 9 of the 32 theses already in off-NIME, and the rules would admit 6 of them (66.7%). [`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 297 admitted theses, 37 of them because they cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
 
 ### Data quality
 
@@ -282,7 +282,7 @@ The off-NIME archive holds 5 pairs of entries that share a title. Each pair is t
 
 I would extend off-NIME along the three directions the lists measure, and in this order.
 
-1. Vet the Cited dataset and the borderline list. `bibs/Cited/cited.bib` holds 184 works admitted by fixed rules: each has a DOI, so its metadata comes from Crossref rather than from a parsed reference string; each is in neither archive; each is at least as close to the archives in wording as the lower quartile of the curated CMJ articles; and each is cited by at least 5 archive papers (82 works), cites at least 10 archive entries (122), or turned up in the journal sweep as well as on one of those lists (63). The website shows them under their own Cited tab. [`borderline.tsv`](output/borderline.tsv) lists 615 works with a DOI that fall short of one rule. Its top rows are clearly relevant reviews that miss the closeness bar only because their titles are short, so it needs a human reading. [ARJ: vet the top of the borderline list, and remove anything from Cited that does not belong.]
+1. Vet the Cited dataset and the borderline list. `bibs/Cited/cited.bib` holds 192 works admitted by fixed rules: each has a DOI, so its metadata comes from Crossref rather than from a parsed reference string; each is in neither archive; each is at least as close to the archives in wording as the lower quartile of the curated CMJ articles; and each is cited by at least 5 archive papers (82 works), cites at least 10 archive entries (130), or turned up in the journal sweep as well as on one of those lists (73). The website shows them under their own Cited tab. [`borderline.tsv`](output/borderline.tsv) lists 607 works with a DOI that fall short of one rule. Its top rows are clearly relevant reviews that miss the closeness bar only because their titles are short, so it needs a human reading. [ARJ: vet the top of the borderline list, and remove anything from Cited that does not belong.]
 2. Use the forward list to continue off-NIME past 2013. Its top entries are mostly theses and journal articles that position themselves against NIME. The Crossref sweep gives a systematic list alongside the citation-driven one, and the two can be read together: an article that appears in both is a strong candidate.
 3. Mine the local archive. ICMC 2000–2008 is present locally in full, and the score shortlists 229 ICMC papers. The full ICMC archive at the University of Michigan library, and ICMC's listing in DBLP, both sit behind bot checks, so they cannot be read by a script. [ARJ: ask the ICMA or Michigan Publishing for a metadata export of the ICMC proceedings (recommended), or extend the local copy year by year?]
 4. Snowball. Each accepted candidate brings its own reference list; repeating the citation step until a round yields few new works cited by five or more archive papers would close the backward list.
@@ -291,7 +291,7 @@ I would extend off-NIME along the three directions the lists measure, and in thi
 
 ### Exports
 
-The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 4536 entries names its archive and dataset and, for archive entries, its strongest topic.
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 4425 entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 

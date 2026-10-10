@@ -8,8 +8,8 @@ Sources:
   DataCite by title, since most of them are theses.
 
 Every English thesis is scored like the journal sweep (closeness to the archives and contrast
-against the journal background), with thresholds set at the lower quartile (closeness) and median (contrast) of
-the theses that cite the archives, and admitted when it passes both, or when it cites at least MIN_CITES archive
+against the journal background), with thresholds set at the median closeness and median contrast of the theses
+that cite the archives, and admitted when it passes both, or when it cites at least MIN_CITES archive
 entries. Non-English theses go to a separate list. The check: the theses already in off-NIME that the
 searches find are scored the same way, and the share of them the rules would admit is reported.
 Writes bibs/Theses/theses.bib, output/candidates_theses.tsv and data/theses_stats.json.
@@ -34,7 +34,9 @@ CACHE.mkdir(parents=True, exist_ok=True)
 OUT = HERE.parent / "bibs" / "Theses" / "theses.bib"
 K = 10
 MIN_CITES = 3
-OPENALEX_PAGES = 2
+NEAR_Q = 50  # percentile of the calibration theses used as the closeness threshold
+OPENALEX_PAGES = 4
+BUDGET = {"remaining": 1.0}  # OpenAlex's remaining daily allowance in USD, read from response headers
 QUERIES = [
     "musical interface", "musical interfaces", "digital musical instrument", "digital musical instruments",
     "new interfaces for musical expression", "gestural control music", "musical gesture", "music interaction",
@@ -46,6 +48,16 @@ QUERIES = [
     "interactive sonification", "physical computing music", "machine learning musical instrument",
     "tangible music", "interactive dance sound", "virtual reality musical instrument", "mobile music",
     "robotic musical instrument", "music technology performance", "electroacoustic performance technology",
+    "music performance technology design", "real-time audio interaction", "audio-visual performance",
+    "sound art interaction", "music and dance technology", "body movement sound", "gesture recognition music",
+    "music information retrieval interaction", "generative music interactive", "algorithmic composition interactive",
+    "improvisation computer system", "musical agents", "co-creative music system", "collaborative music making technology",
+    "music for children technology", "music therapy technology", "assistive music technology", "disability music technology",
+    "wearable music", "e-textile sound", "biosignals music", "brain-computer interface music", "eye tracking music",
+    "smartphone instrument", "web audio", "spatial audio interaction", "immersive audio performance",
+    "electronic music performance", "turntablism DJ technology", "circuit bending", "modular synthesizer",
+    "musical expression computer", "expressive performance control", "user study musical instrument",
+    "evaluation digital musical instruments", "musician interaction design",
 ]
 
 
@@ -57,7 +69,11 @@ def cached(url, params, headers=None, pause=1.0):
     wait = 5
     for _ in range(6):
         try:
+            if "openalex" in url and BUDGET["remaining"] < 0.003:
+                return None
             r = requests.get(url, params=params, headers=headers or {}, timeout=90)
+            if "openalex" in url and r.headers.get("x-ratelimit-remaining-usd"):
+                BUDGET["remaining"] = float(r.headers["x-ratelimit-remaining-usd"])
             if r.status_code == 200:
                 f.write_text(r.text)
                 time.sleep(pause)
@@ -220,7 +236,7 @@ def main():
     # of contrast among the English theses known to cite the archives (the forward list). The
     # off-NIME theses are a separate population and serve as the check.
     calib = [t for t in theses if t.get("cites", 0) >= 1 and t["english"] and not t["known"]]
-    near_min = float(np.percentile([t["near"] for t in calib], 25))
+    near_min = float(np.percentile([t["near"] for t in calib], NEAR_Q))
     # contrast at the median: at the lower quartile, a reading of sampled titles found many off-topic
     # theses (music education, club culture, signal processing)
     con_min = float(np.percentile([t["score"] for t in calib], 50))

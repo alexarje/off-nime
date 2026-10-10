@@ -44,6 +44,12 @@ PROCEEDINGS = {
 }
 
 
+TERMS = ["music", "musical", "sound", "sonic", "audio", "instrument", "musician", "composer", "sonification",
+         "rhythm", "singing", "DJ"]
+TITLE = re.compile(r"music|sound|sonic|sonif|audio|instrument|musician|composer|composition|rhythm|singing|singer|\bsong|\bdj\b|drum|"
+                   r"piano|guitar|violin|synth|acoustic|auditory|listening|beat", re.I)
+
+
 def get(url, params):
     key = hashlib.sha1((url + json.dumps(params, sort_keys=True)).encode()).hexdigest()
     f = CACHE / f"{key}.json"
@@ -174,17 +180,26 @@ def sweep():
                     break
                 cursor = msg["next-cursor"]
         print(f"{name}: {len(seen)}", file=sys.stderr, flush=True)
+    # proceedings are searched by term, paging with a cursor while a page still yields matching titles
     for name, ct in PROCEEDINGS.items():
         n = 0
-        for q in ["music", "musical", "sound"]:
-            d = get(f"{API}/works", {"query.container-title": ct, "query.bibliographic": q, "rows": 1000,
-                                     "filter": "type:proceedings-article", "select": sel})
-            for it in (d or {}).get("message", {}).get("items", []):
-                c = " ".join(it.get("container-title") or [])
-                t = " ".join(it.get("title") or [])
-                if re.search(ct.split()[0], c, re.I) and re.search(r"music|sound|sonic|audio|instrument", t, re.I):
-                    items.append((name, it))
-                    n += 1
+        for q in TERMS:
+            cursor = "*"
+            for _ in range(5):
+                d = get(f"{API}/works", {"query.container-title": ct, "query.bibliographic": q, "rows": 1000,
+                                         "filter": "type:proceedings-article", "select": sel, "cursor": cursor})
+                msg = (d or {}).get("message", {})
+                hits = 0
+                for it in msg.get("items", []):
+                    c = " ".join(it.get("container-title") or [])
+                    t = " ".join(it.get("title") or [])
+                    if re.search(ct.split()[0], c, re.I) and TITLE.search(t):
+                        items.append((name, it))
+                        n += 1
+                        hits += 1
+                if hits < 20 or not msg.get("next-cursor") or len(msg.get("items", [])) < 1000:
+                    break
+                cursor = msg["next-cursor"]
         print(f"{name}: {n}", file=sys.stderr, flush=True)
     out, seen = [], set()
     for name, it in items:

@@ -30,7 +30,7 @@ def main():
     from crossref import JOURNALS
     for it in items:
         it["background"] = it["source"] in JOURNALS
-    for extra in ("zenodo.json", "nonenglish.json"):
+    for extra in ("zenodo.json", "nonenglish.json", "sbcm_volumes.json", "proceedings_extra.json"):
         f = HERE / "data" / extra
         if f.exists():
             items += [dict(it, background=False) for it in json.loads(f.read_text())]

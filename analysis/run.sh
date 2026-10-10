@@ -18,6 +18,8 @@ cap 1G "crossref.py resolve"
 cap 2G "crossref.py sweep"
 cap 1G zenodo.py
 cap 1G nonenglish.py
+cap 1G sbcm_volumes.py      # needs data/sbcm_text/ (see HANDOVER)
+cap 1G more_proceedings.py
 cap 4G local_candidates.py
 cap 4G score_journals.py
 cap 2G build_cited.py
