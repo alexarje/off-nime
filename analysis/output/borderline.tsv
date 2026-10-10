@@ -27,7 +27,6 @@ cites 5–9 archive entries	0.862	0.2764	-0.0711		9	2023	Composing Interface Con
 cites 5–9 archive entries	0.296	0.2598	-0.1841		9	2016	Music, Mind, and Embodiment: 11th International Symposium, CMMR 2015, Plymouth, UK, June 16-19, 2015, Revised Selected Papers	10.1007/978-3-319-46282-0
 not about NIME topics by the title classifier	0.315	0.2391	-0.0634		9	2016	BOEUF: A Unified Framework for Modeling and Designing Digital Orchestras	10.1007/978-3-319-46282-0_10
 cites 5–9 archive entries	0.96	0.321	0.0098		9	2014	Mapping and interaction strategies for performing environmental sound	10.1109/sive.2014.7006286
-cites 5–9 archive entries	0.952	0.2408	-0.0474		9	2016	A survey of robotic musicianship	10.1145/2818994
 cites 5–9 archive entries	0.732	0.2768	-0.1041		9	2018	User-independent Accelerometer Gesture Recognition for Participatory Mobile Music	10.17743/jaes.2018.0026
 cites 5–9 archive entries	0.845	0.2558	-0.1488		9	2011	Digital Music Performance for Mobile Devices Based on Magnetic Interaction	10.1109/tim.2011.2164283
 cites 5–9 archive entries	0.99	0.3648	0.0064		9	2014	Playing vibrotactile music: A comparison between the Vibrochord and a piano keyboard	10.1016/j.ijhcs.2014.01.003
@@ -149,7 +148,6 @@ cites 5–9 archive entries	0.97	0.1871	-0.1509		7	2021	Surveying digital musica
 cites 5–9 archive entries	0.866	0.1852	-0.1726		7	2014	Generative Music for Live Performance: Experiences with real-time notation	10.1017/s1355771814000260
 cites 5–9 archive entries	0.715	0.1604	-0.0471		7	2025	Performance Practice of Interactive Music for Clarinet and Computer with an Examination of Five Works by American Composers	10.12794/metadc33219
 cites 5–9 archive entries	0.963	0.0	0.0		7	2019	ARCAA: a Framework to Analyse the Artefact Ecology in Computer Music Performance	10.1145/3359852.3359870
-cites 5–9 archive entries	0.988	0.2805	0.0296		7	2014	Scenography of immersive virtual musical instruments	10.1109/sive.2014.7006285
 cites 5–9 archive entries	0.584	0.1459	-0.0257		7	2008	Haptic Interaction Design for Everyday Interfaces	10.1518/155723408x342826
 cites 5–9 archive entries	0.973	0.1256	-0.0253		7	2023	Keyboard-type optical fiber musical interface	10.1117/1.oe.63.1.016101
 cites 5–9 archive entries	0.798	0.2583	-0.0074		7	2024	Selection as Tapping: An evaluation of 3D input techniques for timing tasks in musical Virtual Reality	10.1016/j.ijhcs.2024.103231
@@ -303,7 +301,6 @@ cites 5–9 archive entries	0.984	0.1585	-0.0234		5	2026	A Review of String Inst
 cites 5–9 archive entries	0.581	0.1382	-0.0143		5	2026	Inverse and indirect mappings in embodied AI systems in everyday environments	10.3389/fcomp.2025.1603769
 cites 5–9 archive entries	0.94	0.1238	-0.019		5	2023	Banging Interaction: A Ubimus-Design Strategy for the Musical Internet	10.3390/fi15040125
 cites 5–9 archive entries	0.275	0.1916	-0.1787		5	2021	Ubiquitous Music-Making Systems: A Critical Overview of Current Practices	10.1145/3478384.3478391
-cites 5–9 archive entries	0.973	0.1504	-0.1235		5	2019	The Role of Nonlinear Dynamics in Musicians' Interactions with Digital and Acoustic Musical Instruments	10.1162/comj_a_00535
 cites 5–9 archive entries	0.981	0.2065	-0.1814		5	2019	Fun with interfaces (SVG interfaces for musical expression)	10.1145/3331543.3342579
 cites 5–9 archive entries	0.038	0.2706	-0.3232		5	2011	Convergent Trends Toward Ubiquitous Music	10.1080/09298215.2011.594514
 cites 5–9 archive entries	0.533	0.2471	-0.0344		5	2006	Performance Evaluation of Vision-Based High DOF Human Movement Tracking: A Survey And Human Computer Interaction Perspective	10.1109/cvprw.2006.157
@@ -335,7 +332,6 @@ cites 5–9 archive entries	0.651	0.1455	-0.0751		5	2019	Improving networked mus
 cites 5–9 archive entries	0.087	0.3451	-0.0673		5	2016	Music and HCI	10.1145/2851581.2856479
 cites 5–9 archive entries	0.993	0.1697	-0.1266		5	2020	ScreenPlay: A topic-theory-inspired interactive system	10.1017/s1355771819000499
 cites 5–9 archive entries	0.917	0.1254	-0.1891		5	2020	From 8-bit punk to 8-bit avant-garde: designing an embedded platform to control vintage sound chips	10.1145/3411109.3411148
-cites 5–9 archive entries	0.979	0.1559	0.0091		5	2020	Exploring the motivations for building new digital musical instruments	10.1177/1029864918802983
 cites 5–9 archive entries	0.023	0.1773	-0.361		5	2018	Co-design of a Smart Cajón	10.17743/jaes.2018.0007
 cites 5–9 archive entries	0.175	0.4342	0.0153		5	2018	Understanding media multiplicities	10.1016/j.entcom.2017.11.001
 cites 5–9 archive entries	0.992	0.2233	-0.1177		5	2017	Interfacing Sound: Visual Representation of Sound in Musical Software Instruments	10.1007/978-981-10-2951-6_11

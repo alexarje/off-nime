@@ -85,7 +85,13 @@ def main():
     bk = json.loads((HERE / "data" / "books.json").read_text())
     vols = json.loads((HERE / "data" / "sbcm_volumes.json").read_text())
     hist = re.findall(r"note = \{([^}]*)\}", (HERE.parent / "bibs" / "Historical" / "historical.bib").read_text())
+    zo = json.loads((HERE / "data" / "zotero_stats.json").read_text())
+    rs = json.loads((HERE / "data" / "refs.json").read_text())["stats"]
     v = {
+        "oa_with": rs["with_openalex"], "oa_int": rs["internal_openalex"], "oa_ext": rs["external_openalex"],
+        "oa_vol": rs["openalex_volume_skipped"], "oa_chap": rs["chapter_citations"],
+        "zo_p": zo["tier_p"], "zo_tier": zo["tier"], "zo_ne": zo["tier_not_english"], "zo_near": zo["tier_near_match"],
+        "zo_n": len(re.findall(r"^@", (HERE.parent / "bibs" / "Zotero" / "zotero.bib").read_text(), re.M)),
         "hi_n": len(hist), "hi_ok": sum("Found in" in n for n in hist), "hi_cited": sum("Cited by" in n for n in hist),
         "hi_pat": sum(n.startswith("Patent") for n in hist),
         "hi_refs": len((HERE / "output" / "candidates_historical.tsv").read_text().splitlines()) - 1,

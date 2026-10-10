@@ -87,11 +87,13 @@ def bib_escape(s):
 
 
 def author_ok(it, first):
-    """The parsed first author must be among the hit's authors or editors, since works with the
-    same title by different people are common (a book and a review of it, for instance)."""
+    """The parsed first author must be the hit's first author or one of its editors, since works with
+    the same title by different people are common: a review of a book, which Crossref records with
+    the reviewer first and the book's authors after (Silver's review of Lakoff and Johnson)."""
     if not first:
         return True
-    names = {letters(a.get("family", "")) for a in (it.get("author") or []) + (it.get("editor") or [])}
+    authors = it.get("author") or []
+    names = {letters(a.get("family", "")) for a in authors[:1] + (it.get("editor") or [])}
     return letters(first.split()[-1]) in names
 
 

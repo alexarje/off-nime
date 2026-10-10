@@ -13,6 +13,7 @@ cap 1G fetch_s2.py          # slow without an API key; Ctrl-C after the DOI phas
 cap 1G fetch_citing.py
 cap 2G fetch_texts.py
 cap 2G extract_local.py     # needs the Seagate Hub disk mounted
+cap 2G openalex_refs.py     # reference lists for entries without text; small daily OpenAlex allowance
 cap 2G parse_refs.py
 cap 4G citations.py
 cap 1G "crossref.py resolve"
@@ -32,6 +33,7 @@ cap 1G snowball.py
 cap 1G historical.py
 cap 3G theses.py
 cap 1G "offnime_dois.py --apply"
+[ -f ~/Zotero/zotero.sqlite ] && cap 2G zotero_check.py   # the maintainer's library; writes bibs/Zotero
 cap 1G merge_trl.py         # after the TRL/ARL agents have written data/trl/out_*.jsonl
 cap 1G readiness_figure.py
 cap 4G analyse.py

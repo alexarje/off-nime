@@ -325,6 +325,14 @@ function showTip(k, x, y) {
   const w = tip.offsetWidth; tip.style.left = Math.min(x + 14, innerWidth - w - 8) + "px"; tip.style.top = (y + 14) + "px";
 }
 function paperLine(i) { const p = P[i]; return `<li>${p.u ? `<a href="${esc(p.u)}" target="_blank" rel="noopener">${esc(p.t)}</a>` : esc(p.t)} <span class="meta">(${p.y}, ${esc(p.ch)})</span></li>`; }
+function refList(id) {
+  const r = DATA.pr?.[id];
+  if (!r) return `<p class="meta">No reference list: the text could not be read and OpenAlex has none.</p>`;
+  const [n, oa, xs] = r;
+  const src = oa ? "from OpenAlex" : "parsed from the paper text";
+  return `<h2>Other references (${xs.length})</h2><p class="meta">${n} references ${src}; those not listed above or here could not be keyed (parsed titles may be imperfect).</p>`
+    + (xs.length ? `<ul>${xs.map(i => { const [t, y, a] = DATA.xr[i]; return `<li>${esc(t)} <span class="meta">(${a ? esc(a[0].toUpperCase() + a.slice(1)) + ", " : ""}${y ?? "n.d."})</span></li>`; }).join("")}</ul>` : "");
+}
 function showSide() {
   const side = $("#side");
   if (selected === null) { side.innerHTML = defaultSide(); return; }
@@ -334,7 +342,8 @@ function showSide() {
     side.innerHTML = `<h2>${esc(p.t)}</h2><p class="meta">${esc(p.a.join(", "))}<br>${p.y} · ${esc(p.v || p.ch)}<br>Dataset: ${esc(p.ds)}${t ? `<br>Topic: ${esc(t.terms.slice(0, 5).join(", "))}` : ""}${p.trl ? `<br>Estimated TRL ${p.trl}` : ""}${p.arl ? ` · ARL ${p.arl}` : ""}${DATA.citations.cc?.[p.id] != null ? `<br>Semantic Scholar citations: ${DATA.citations.cc[p.id]}` : ""}</p>
       ${p.u ? `<p><a href="${esc(p.u)}" target="_blank" rel="noopener">Open the paper</a></p>` : ""}
       ${c.length ? `<h2>Cites in the archives (${c.length})</h2><ul>${c.map(paperLine).join("")}</ul>` : ""}
-      ${cb.length ? `<h2>Cited by in the archives (${cb.length})</h2><ul>${cb.sort((a, b) => P[a].y - P[b].y).map(paperLine).join("")}</ul>` : ""}`;
+      ${cb.length ? `<h2>Cited by in the archives (${cb.length})</h2><ul>${cb.sort((a, b) => P[a].y - P[b].y).map(paperLine).join("")}</ul>` : ""}
+      ${refList(p.id)}`;
   } else if (view === "authors") {
     const a = DATA.authors[selected], ps = (papersOfAuthor.get(a.k) || []).sort((x, y) => P[x].y - P[y].y);
     const co = neighbours(selected).map(j => DATA.authors[j].n).sort();

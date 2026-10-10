@@ -171,6 +171,11 @@ def text_sources(corpus):
     return src, how
 
 
+EDITED = re.compile(r"\(eds?\.?\)|\beds?\.|\beditors?\b|\bedited by\b|\bhrsg\b", re.I)
+VENUE = re.compile(r"proceedings|journal|conference|symposium|association|press\b|publishing|university|transactions|"
+                   r"\binterfaces for musical expression\b|\bcomputer music\b", re.I)
+
+
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     sources, how = text_sources(corpus)
@@ -185,6 +190,10 @@ def main():
     edges = set()
     clusters = defaultdict(list)
     per_paper = {}
+    by_doi = {r["doi"].lower(): r["id"] for r in corpus if r.get("doi")}
+    oa = HERE / "data" / "openalex_refs.json"
+    oa = json.loads(oa.read_text()) if oa.exists() else {}
+    raws = []  # (citer, raw reference) for the chapter rule below
     stats.update({f"source_{k}": v for k, v in how.items()})
     for r in corpus:
         f = sources.get(r["id"])
@@ -202,7 +211,7 @@ def main():
             continue
         stats["with_entries"] += 1
         stats["entries"] += len(entries)
-        n_int = 0
+        n_int, refs_out = 0, []
         for e in entries:
             p = parse(e)
             le = letters(e)
@@ -225,7 +234,61 @@ def main():
                 stats["external_keyed"] += 1
             else:
                 stats["unkeyed"] += 1
-        per_paper[r["id"]] = {"n": len(entries), "internal": n_int}
+            if hit and hit != r["id"]:
+                refs_out.append(hit)
+            elif k:
+                refs_out.append("k:" + k)
+            raws.append((r["id"], e))
+        per_paper[r["id"]] = {"n": len(entries), "internal": n_int, "refs": refs_out, "source": "text"}
+
+    # entries with no readable text: reference lists from OpenAlex (tools/openalex_refs.py)
+    for rid, refs in oa.items():
+        if rid in per_paper:
+            continue
+        n_int, refs_out = 0, []
+        for x in refs:
+            # OpenAlex holds some whole volumes as works ("Proceedings of the ... Conference")
+            if re.match(r"(the )?(\d{4} )?proceedings\b|(\d+(st|nd|rd|th) )?international conference\b", x["title"], re.I):
+                stats["openalex_volume_skipped"] += 1
+                continue
+            k = title_key(x["title"])
+            hit = by_doi.get(x["doi"]) if x["doi"] else None
+            hit = hit or (tkeys[k][0] if k and k in tkeys else None)
+            if hit and hit != rid:
+                edges.add((rid, hit))
+                n_int += 1
+                stats["internal_openalex"] += 1
+                refs_out.append(hit)
+            elif k:
+                clusters[k].append({"citer": rid, "year": x["year"], "first": x["first"], "title": x["title"],
+                                    "raw": f"{x['first'].title()} ({x['year']}). {x['title']}." + (f" doi:{x['doi']}" if x["doi"] else "")})
+                stats["external_openalex"] += 1
+                refs_out.append("k:" + k)
+        stats["with_openalex"] += 1
+        per_paper[rid] = {"n": len(refs), "internal": n_int, "refs": refs_out, "source": "openalex"}
+
+    # a chapter cited "In A NIME Reader, pages ..." is keyed by the chapter's title; count it for
+    # the book too when the book's main title follows "In" or an editor mark in the reference
+    via = defaultdict(set)
+    books = {k: items for k, items in clusters.items() if len({i["citer"] for i in items}) >= 3}
+    for k, items in books.items():
+        main = Counter(i["title"] for i in items).most_common(1)[0][0].split(":")[0]
+        words = re.findall(r"[A-Za-z]+", main)
+        # only edited books, whose own references mostly name editors, and no venue-like titles
+        # ("Computer Music Journal", "New Interfaces for Musical Expression")
+        edited = sum(bool(EDITED.search(i["raw"])) for i in items) / len(items)
+        if len("".join(words)) < 10 or edited < 0.5 or VENUE.search(main):
+            continue
+        pat = re.compile(r"(\bin\b|\beds?\b|\beditors?\b)[^\n]{0,120}?\b" + r"\W+".join(words) + r"\b", re.I)
+        own = {i["citer"] for i in items}
+        for citer, raw in raws:
+            if citer not in own and pat.search(raw):
+                via[k].add(citer)
+    stats["chapter_citations"] = sum(len(v) for v in via.values())
+    for k, citers in via.items():
+        for c in citers:
+            clusters[k].append({"citer": c, "year": None, "first": None, "title": books[k][0]["title"], "raw": ""})
+            per_paper[c]["refs"].append("k:" + k)
 
     ext = []
     for k, items in clusters.items():
@@ -238,10 +301,15 @@ def main():
             "year": Counter(i["year"] for i in items if i["year"]).most_common(1)[0][0] if any(i["year"] for i in items) else None,
             "first": Counter(i["first"] for i in items if i["first"]).most_common(1)[0][0] if any(i["first"] for i in items) else "",
             "n": len(citers), "citers": citers,
-            "example": items[0]["raw"],
+            "example": next(i["raw"] for i in items if i["raw"]),
         })
     ext.sort(key=lambda e: -e["n"])
-    out = {"stats": dict(stats), "edges": sorted(edges), "external": ext, "per_paper": per_paper}
+    # a title, year and first author for every keyed reference, for the per-paper lists in the atlas
+    titles = {k: [Counter(i["title"] for i in items).most_common(1)[0][0],
+                  Counter(i["year"] for i in items if i["year"]).most_common(1)[0][0] if any(i["year"] for i in items) else None,
+                  Counter(i["first"] for i in items if i["first"]).most_common(1)[0][0] if any(i["first"] for i in items) else ""]
+              for k, items in clusters.items()}
+    out = {"stats": dict(stats), "edges": sorted(edges), "external": ext, "per_paper": per_paper, "titles": titles}
     (HERE / "data" / "refs.json").write_text(json.dumps(out, ensure_ascii=False))
     print(json.dumps(stats))
     for e in ext[:50]:

@@ -1,47 +1,49 @@
 cited_by_cited_works	year	first_author	title	doi
-24	2007	Leman M.	Embodied Music Cognition and Mediation Technology	10.7551/mitpress/7476.001.0001
-14	1978	JJ Gibson	The Ecological Approach to the Visual Perception of Pictures	10.2307/1574154
-13			Using thematic analysis in psychology	10.1191/1478088706qp063oa
+26	2007	M Leman	Embodied music cognition and mediation technology	10.7551/mitpress/7476.001.0001
+16	1978	JJ Gibson	The Ecological Approach to the Visual Perception of Pictures	10.2307/1574154
+14			Using thematic analysis in psychology	10.1191/1478088706qp063oa
+12			Ambiguity as a resource for design	10.1145/642611.642653
+12	2007	Magnusson	The acoustic, the digital and the body	10.1145/1279740.1279757
 12	2004	Fels	Designing for intimacy: creating new interfaces for musical expression	10.1109/jproc.2004.825887
-11			Ambiguity as a resource for design	10.1145/642611.642653
-11	2007	Magnusson	The acoustic, the digital and the body	10.1145/1279740.1279757
 10			New interfaces for musical expression	10.1145/634067.634348
+9			Design: Cultural Probes	10.1145/291224.291235
 9	2005	Latour B.	Reassembling the Social:An Introduction to Actor-Network-Theory: An Introduction to Actor-Network-Theory	10.1093/oso/9780199256044.001.0001
-9	2017	Cook	2001: Principles for Designing Computer Music Controllers	10.1007/978-3-319-47214-0_1
 8	1998	C Small	Musicking: The meanings of performing and listening	
 8	2005	Collins N.	Audio Engineering Society Convention	
 8			Sonic Writing: Technologies of Material, Symbolic, and Signal Inscriptions	10.5040/9781501313899
-8			Design: Cultural Probes	10.1145/291224.291235
+8			Too Many Notes: Computers, Complexity, and Culture in Voyager	10.1162/096112100570585
+8	2015	Katan	Using Interactive Machine Learning to Support Interface Development Through Workshops with Disabled People	10.1145/2702123.2702474
+8	2011	Fiebrink	Human model evaluation in interactive supervised learning	10.1145/1978942.1978965
+8	2008	Rocchesso	Sonic interaction design	10.1145/1358628.1358969
 8			Spectromorphology: Explaining Sound-Shapes	10.1017/s1355771897009059
 7	2009	Jensenius A. R.	Musical Gestures: Sound, Movement, and Meaning	
 7	2015	McPherson Andrew	An Environment for Submillisecond-Latency Audio and Sensor Processing on BeagleBone Black. In Audio Engineering Society Convention 138	
-7			Too Many Notes: Computers, Complexity, and Culture in Voyager	10.1162/096112100570585
+7	1990	DA Norman	The design of everyday things	
 7	2019	Frauenberger	Entanglement hci the next wave?	10.1145/3364998
-7	2015	Katan	Using Interactive Machine Learning to Support Interface Development Through Workshops with Disabled People	10.1145/2702123.2702474
-7	2008	Rocchesso	Sonic interaction design	10.1145/1358628.1358969
+7			Adaptive gesture recognition with variation estimation for interactive systems	10.1145/2643204
+7			When Second Wave HCI Meets Third Wave Challenges	10.1145/1182475.1182476
 6	2006	Braun Virginia	Using thematic analysis in psychology. Qualitative research in psychology 3, 2	
+6	1987	LA Suchman	Plans and situated actions: the problem of human–machine communication	
 6	1971	Xenakis Iannis	Formalized Music: Thought and Mathematics in Composition. Bloomington and	
-6	1990	Norman	The Design of Everyday Things	
 6	2010	Godøy	Chunking in Music by Coarticulation	10.3813/aaa.918323
 6			Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning	10.2307/j.ctv12101zq
 6	1986	Dolson	The Phase Vocoder: A Tutorial	10.2307/3680093
+6	2003	Fails	Interactive machine learning	10.1145/604045.604056
 6			“Entangling entanglement: a diffractive dialogue on hci and musical interactions,”	10.1145/3613904.3642171
-6			Adaptive gesture recognition with variation estimation for interactive systems	10.1145/2643204
-6	2013	Françoise	A multimodal probabilistic model for gesture--based control of sound synthesis	10.1145/2502081.2502184
+6	2000	Blaine	The Jam-O-Drum interactive music system	10.1145/347642.347705
 6			Performance-led research in the wild	10.1145/2491500.2491502
 6			The Space between the Notes: Adding Expressive Pitch Control to the Piano Keyboard.	10.1145/2470654.2481302
 6	2013	Kirsh	Embodied cognition and the magical future of interaction design	10.1145/2442106.2442109
-6	2011	Fiebrink R. A.	Human model evaluation in interactive supervised learning	10.1145/1978942.1978965
-6			When Second Wave HCI Meets Third Wave Challenges	10.1145/1182475.1182476
 6			Staying open to interpretation: engaging multiple meanings in design and evaluation	10.1145/1142405.1142422
+6			Communicating Expressiveness and Affect in Multimodal Interactive Systems	10.1109/mmul.2005.2
 6	2004	A Hunt	Multiple Media Interfaces for Music Therapy	10.1109/mmul.2004.12
 6			Music At Hand: Instruments, Bodies, and Cognition	10.1093/acprof:oso/9780190271114.001.0001
 6	2009	N.H. Rasamimanana	Effort-based Analysis of Bowing Movements: Evidence of Anticipation Effects	10.1080/09298210902731386
+6	1980	JA Russell	A circumplex model of affect.	10.1037/h0077714
 6	2010	T. Bianco	Gesture in Embodied Communication and Human-Computer Interaction	10.1007/978-3-642-12553-9_12
 5		A.	Trends in gestural control of music, Wanderley	
 5	1991	Karjalainen	Transmission Line Modeling and Real-Time Synthesis of String and Wind Instruments,	
 5	1989	Boei	R. A. et al. Gesture Sensing via Capacitive Moments. Work Project No. 311401-(2099,2399) AT&T Bell Laboratories	
-5		Suchman Lucy A	Plans and situated actions: The problem of human-machine communication	
 5	1987	Serra Smith	PARSHL: Analysis/Synthesis Program for Non-Harmonic Sounds Based on a Sinusoidal Representation.	
 5	2000	Verplank B.	p: 368--371	
 5		J.	Musical Applications of Digital Waveguides	
@@ -51,25 +53,22 @@ cited_by_cited_works	year	first_author	title	doi
 5		Sidney	Fels and Kenji Mase. Iamascope: A Graphical Musical Instrument. Computers and Graphics	
 5	2002		} Burzik, A. 2002. Practising in Flow---The Secret of the Masters	
 5			Blues pour saqueboute: Hugh Le Caine pionnier de la musique électronique.	
-5	1997		Any Sound You Can Imagine: Making Music / Consuming Technology	
 5				10.5555/1142215.1142241
 5	2005	Tarabella	Music, communication, technology	10.22323/2.04010305
 5	1993	Gaver	What in the World Do We Hear?: An Ecological Approach to Auditory Event Perception	10.1207/s15326969eco0501_1
-5	2003	Fails	Interactive machine learning	10.1145/604045.604056
 5	2002	Bellotti	Making sense of sensing systems	10.1145/503376.503450
-5	2000	Blaine	The Jam-O-Drum interactive music system	10.1145/347642.347705
 5	1997	H Ishii	“Tangible bits: towards seamless interfaces between people, bits, and atoms,”	10.1145/258549.258715
 5			Autobiographical Design in HCI Research: Designing and Learning Through Use-It-Yourself.	10.1145/2317956.2318034
 5	2012	Gaver	What should we expect from research through design?	10.1145/2207676.2208538
 5	1986	McAulay	Speech analysis/Synthesis based on a sinusoidal representation	10.1109/tassp.1986.1164910
-5			Communicating Expressiveness and Affect in Multimodal Interactive Systems	10.1109/mmul.2005.2
 5	2018	Turchet	Internet of Musical Things: Vision and Challenges	10.1109/access.2018.2872625
-5	1980	JA Russell	A circumplex model of affect.	10.1037/h0077714
 5			Instrumental Listening: Sonic Gesture as Design Principle	10.1017/s1355771809000284
 4	2017	Tuuri Kai	Who Controls Who? Embodied Control Within Human-Technology Choreographies. Interacting with Computers	
 4			The Use of Linear Prediction of Speech in Computer Music Applications 	
+4	2005	Borgo	Sync or Swarm: Improvising Music In A Complex Age	
 4	1988	Norman	The Psychology of Everyday Things	
 4		J.	pp. 526--534	
+4	2007	Waters	Performance ecosystems: Ecological approaches to musical interaction	
 4	2015	Karana Elvin	Material driven design (MDD): A method to design for material experiences	
 4	1975		} Makhoul, J. 1975. "Linear Prediction: A Tutorial Review	
 4	1994	Larouche	} Larouche, J. & J. Meillier 1994. "Multichannel Excitation/ Filter Modeling of Percussive Sounds with Application to the Piano	
@@ -87,6 +86,7 @@ cited_by_cited_works	year	first_author	title	doi
 4				10.5555/1085152.1085156
 4	2021	Caillon	Rave: a variational autoencoder for fast and high-quality neural audio synthesis	10.48550/arxiv.2111.05011
 4	2017	Joseph Malloch	The Routledge Companion to Embodied Music Interaction	10.4324/9781315621364-48
+4	1973	Johansson	Visual perception of biological motion and a model for its analysis	10.3758/bf03212378
 4	2016	Vamvakousis	The EyeHarp: A gaze-controlled digital musical instrument	10.3389/fpsyg.2016.00906
 4	1983	Jaffe	Extensions of the Karplus-Strong Plucked-String Algorithm	10.2307/3680063
 4			The museum of music: a history of mechanical instruments	10.2307/3391092
@@ -98,8 +98,10 @@ cited_by_cited_works	year	first_author	title	doi
 4	2007	Bongers	Electronic Musical Instruments: Experiences of a New Luthier	10.1162/lmj.2007.17.9
 4			How I Learned to Love a Program That Does Nothing	10.1162/014892602320991365
 4			Sense and sensibility: evaluation and interactive art	10.1145/642611.642654
+4	2000	Bowers	Simple interfaces to complex sound in improvised music	10.1145/633292.633364
 4	2023	Mudd	Playing with Feedback: Unpredictability, Immediacy, and Entangled Agency in the No-input Mixing Desk	10.1145/3544548.3580662
-4			A survey of robotic musicianship	10.1145/2818994
+4	2019	Fdili Alaoui	Making an Interactive Dance Piece	10.1145/3322276.3322289
+4	2016	Blythe	Anti-Solutionist Strategies	10.1145/2858036.2858482
 4			Third-Wave HCI, 10 Years Later: Participation and Sharing	10.1145/2804405
 4	2015	Vallgårda	Interaction Design as a Bricolage Practice	10.1145/2677199.2680594
 4	2014	Cherry	Quantifying the creativity support of digital tools through the creativity support index	10.1145/2617588
@@ -112,6 +114,7 @@ cited_by_cited_works	year	first_author	title	doi
 4	2010	Bhat	TouchTone: An electronic musical instrument for children with hemiplegic cerebral palsy.	10.1145/1709886.1709955
 4	2010	Robles	Texturing the "material turn" in interaction design	10.1145/1709886.1709911
 4			Creativity support tools: accelerating discovery and innovation	10.1145/1323688.1323689
+4			On the oscillations of musical instruments	10.1121/1.390157
 4	2007	T. Artieres	Online Handwritten Shape Recognition Using Segmental Hidden Markov Models	10.1109/tpami.2007.38
 4	2008	Fraser	Walk the Walk, Talk the Talk	10.1109/iswc.2008.4911601
 4	2019	Turchet	Smart Musical Instruments: Vision, Design Principles, and Future Directions	10.1109/access.2018.2876891
@@ -126,6 +129,7 @@ cited_by_cited_works	year	first_author	title	doi
 4			Situated Learning: Legitimate Peripheral Participation	10.1017/cbo9780511815355
 4	1988		Development of NASA-TLX (Task Load Index): Results of Empirical and Theoretical Research	10.1016/s0166-4115(08)62386-9
 4			Designing for creative engagement	10.1016/j.destud.2008.07.009
+4	2005	Valbom L.	WAVE: Sound and music in an immersive environment	10.1016/j.cag.2005.09.004
 4	1985	A.M. Liberman	The motor theory of speech perception revised	10.1016/0010-0277(85)90021-6
 4	2004	J.-L. Florens	Gesture-Based Communication in Human-Computer Interaction	10.1007/978-3-540-24598-8_45
 3	1978	Sudnow D.	Ways of the Hand: The Organization of Improvised Conduct	
@@ -133,11 +137,9 @@ cited_by_cited_works	year	first_author	title	doi
 3	1966	Schaeffer	Traité des objets musicaux	
 3	2007	Harrison	The Three Paradigms of HCI.	
 3	2000	Glinsky Albert	Theremin: Ether Music and Espionage	
-3	2005	Borgo	Sync or Swarm: Improvising Music In A Complex Age	
 3	1961	J. Cage	Silence: Lectures and Writings	
 3		Akrich Madeleine	Shaping technology - Building Society: Studies in Sociotechnical Change	
 3	1987	Latour	Science in Action: How to Follow Scientists and Engineers through Society	
-3	2007	Waters	Performance ecosystems: Ecological approaches to musical interaction	
 3	1977	Gibson J. J.	Perceiving, Acting, and Knowing: Toward an Ecological Psychology	
 3		Fiebrink Rebecca	Oxford Handbook of Algorithmic Music	
 3	2006		New Digital Musical Instruments	
@@ -160,7 +162,6 @@ cited_by_cited_works	year	first_author	title	doi
 3	2020	Born	Diversifying MIR: Knowledge and Real-World Challenges, and New Interdisciplinary Futures	10.5334/tismir.58
 3	2004	Boden	The creative mind: myths & mechanisms	10.4324/9780203508527
 3	2012	Sigrist	Augmented visual, auditory, haptic, and multimodal feedback in motor learning: A review	10.3758/s13423-012-0333-8
-3	1973	Johansson	Visual perception of biological motion and a model for its analysis	10.3758/bf03212378
 3	2018	Höök	Embracing First-Person Perspectives in Soma-Based Design	10.3390/informatics5010008
 3	2014	Maes	Action-based effects on music perception	10.3389/fpsyg.2013.01008
 3	2016	Bevilacqua	Sensori-Motor Learning with Movement Sonification: Perspectives from Recent Interdisciplinary Studies	10.3389/fnins.2016.00385
@@ -168,14 +169,16 @@ cited_by_cited_works	year	first_author	title	doi
 3	1992	Buchanan	Wicked Problems in Design Thinking	10.2307/1511637
 3	2015	Leman	The Role of Embodiment in the Perception of Music	10.18061/emr.v9i3-4.4498
 3	2018	Dickens	Facilitating Accessibility in Performance: Participatory Design for Digital Musical Instruments	10.17743/jaes.2018.0010
+3	2006	Z Eitan	How Music Moves	10.1525/mp.2006.23.3.221
 3	1995	Born	Rationalizing Culture: IRCAM, Boulez, and the Institutionalization of the Musical Avant-garde	10.1525/9780520916845
 3	2006	E Miranda	Brain-computer music interface for composition and performance	10.1515/ijdhd.2006.5.2.119
 3	1998	Stiegler B.	Technics and time, 1: The fault of Epimetheus	10.1515/9781503616738
 3	2013	Dubus	A Systematic Review of Mapping Strategies for the Sonification of Physical Quantities	10.1371/journal.pone.0082491
+3	2010	Bijsterveld	Composing claims on musical instrument development: A science and technology studies' contribution	10.1179/030801810x12723585301039
 3	2011	Miranda	Brain-Computer Music Interfacing (BCMI): From Basic Research to the Real World of Special Needs	10.1177/1943862111399290
 3	2011	DeCuir-Gunby	Developing and Using a Codebook for the Analysis of Interview Data: An Example from a Professional Development Research Project	10.1177/1525822x10388468
 3	2011	Thompson	Exploring relationships between pianists’ body movements, their expressive intentions, and structural elements of the music	10.1177/1029864911423457
-3	1993	Davidson	Visual Perception of Performance Manner in the Movements of Solo Musicians	10.1177/030573569302100201
+3	2004		“Breaking into a World of Perfection: Innovation in Today’s Classical Musical Instruments.”	10.1177/0306312704047171
 3	1997	J Pressing	Some Perspectives on Performed Sound and Music in Virtual Environments	10.1162/pres.1997.6.4.482
 3	2011	Hamilton	Social Composition: Musical Data Systems for Expressive Mobile Music	10.1162/lmj_a_00062
 3	2010	Dudas	Comprovisation: the various facets of composed improvisation within interactive performance systems	10.1162/lmj_a_00009
@@ -185,29 +188,30 @@ cited_by_cited_works	year	first_author	title	doi
 3	2001	J. Haueisen	Involuntary Motor Activity in Pianists Evoked by Music Perception	10.1162/08989290152541449
 3	2007	Sanger	Bayesian Filtering of Myoelectric Signals	10.1152/jn.00936.2006
 3	2004	G Rizzolatti	THE MIRROR-NEURON SYSTEM	10.1146/annurev.neuro.27.070203.144230
-3	2000	Bowers	Simple interfaces to complex sound in improvised music	10.1145/633292.633364
 3	2024	Reed	Sonic Entanglements with Electromyography: Between Bodies, Signals, and Representations	10.1145/3643834.3661572
 3			“CO/DA: live-coding movement-sound interactions for dance improvisation,”	10.1145/3491102.3501916
 3			Unpacking non-dualistic design: the soma design case	10.1145/3462448
 3			“Articulating soma experiences using trajectories,”	10.1145/3411764.3445482
 3	2019	Boem	Non-Rigid HCI	10.1145/3322276.3322347
-3	2019	Fdili Alaoui	Making an Interactive Dance Piece	10.1145/3322276.3322289
 3	2019	Speicher	What is Mixed Reality?	10.1145/3290605.3300767
 3	2019	Frich	Mapping the Landscape of Creativity Support Tools in HCI	10.1145/3290605.3300619
 3			A functional taxonomy of music generation systems	10.1145/3108242
 3	2017	Höök	Soma-Based Design Theory	10.1145/3027063.3027082
 3			ImproteK: Introducing Scenarios into Human–Computer Music Improvisation	10.1145/3022635
-3	2016	Blythe	Anti-Solutionist Strategies	10.1145/2858036.2858482
 3	2016	Martin	Intelligent Agents and Networked Buttons Improve Free-Improvised Ensemble Music-Making on Touch-Screens	10.1145/2858036.2858269
 3	2015	Chiang	Oncall Piano Sensei	10.1145/2788940.2794353
 3	2015	Graham-Knight	Adaptive music technology using the Kinect	10.1145/2769493.2769583
+3	2014	Andersen	The deliberate cargo cult	10.1145/2598510.2598596
 3	2014	Caramiaux	The Role of Sound Source Perception in Gestural Sound Description	10.1145/2536811
 3	2013	Xambó	Let's jam the Reactable: peer learning during musical improvisation with a tabletop tangible interface	10.1145/2530541
 3	2013	Tzanetakis	Blending the physical and the virtual in music technology	10.1145/2502081.2502238
 3	2013	Griffin	Priming creativity through improvisation on an adaptive musical instrument	10.1145/2466627.2466630
 3			The Role of Cultural Forms in Tangible Interaction Design	10.1145/2460625.2460643
 3	2012	Alaoui	Movement qualities as interaction modality	10.1145/2317956.2318071
+3	1986	Buxton	A study in two-handed input	10.1145/22627.22390
+3	2012	Rasamimanana	The urban musical game	10.1145/2212776.2212377
 3	2011	McPherson A.	Multidimensional gesture sensing at the piano keyboard	10.1145/1978942.1979355
+3	2010	Höök	Transferring qualities from horseback riding to design	10.1145/1868914.1868943
 3	2010	Holland	Feeling the beat where it counts	10.1145/1709886.1709892
 3	2009	Wobbrock	User-defined gestures for surface computing	10.1145/1518701.1518866
 3	2007	Zimmerman	“Research through design as a method for interaction design research in HCI,”	10.1145/1240624.1240704
@@ -215,8 +219,9 @@ cited_by_cited_works	year	first_author	title	doi
 3	2002	E Kohler	Hearing Sounds, Understanding Actions: Action Representation in Mirror Neurons	10.1126/science.1070311
 3			Perception of Touch Quality in Piano Tones.	10.1121/1.4896461
 3	1999	Friberg	Does music performance allude to locomotion? A model of final ritardandi derived from measurements of stopping runners	10.1121/1.426687
-3			On the oscillations of musical instruments	10.1121/1.390157
 3	2011	Gillespie	Embodied cognition as a motivating perspective for haptic interaction design: A position paper	10.1109/whc.2011.5945533
+3	2005	Shengli Fu	Audio/visual mapping with cross-modal hidden Markov models	10.1109/tmm.2005.843341
+3	2011	Zen	Continuous Stochastic Feature Mapping Based on Trajectory HMMs	10.1109/tasl.2010.2049685
 3	2017	Wu	Open symphony: creative participation for audiences of live music performances	10.1109/mmul.2017.19
 3	2013	Paine	New Musical Instrument Design Considerations	10.1109/mmul.2013.60
 3	2011	Huang	Piano AR: A Markerless Augmented Reality Based Piano Teaching System	10.1109/ihmsc.2011.82
@@ -236,6 +241,7 @@ cited_by_cited_works	year	first_author	title	doi
 3	2004	Rolvsjord	Therapy as Empowerment: Clinical and political Implications of Empowerment Philosophy in Mental Health Practises of Music Therapy	10.1080/08098130409478107
 3	2019	Samuels	Performance without Barriers: Improvising with Inclusive and Accessible Digital Musical Instruments	10.1080/07494467.2019.1684061
 3	2013	Waters	Touching at a Distance: Resistance, Tactility, Proxemics and the Development of a Hybrid Virtual/Physical Performance System	10.1080/07494467.2013.775818
+3	1987	Y Guiard	Asymmetric Division of Labor in Human Skilled Bimanual Action	10.1080/00222895.1987.10735426
 3	2010	Chafe	Effect of Temporal Separation on Synchronization in Rhythmic Performance	10.1068/p6465
 3	2001	G. Rizzolatti	Neurophysiological mechanisms underlying the understanding and imitation of action	10.1038/35090060
 3	2000	Juslin	Cue utilization in communication of emotion in music performance: Relating performance to perception.	10.1037/0096-1523.26.6.1797
@@ -244,16 +250,17 @@ cited_by_cited_works	year	first_author	title	doi
 3	1998	Boone	Children's decoding of emotion in expressive body movement: The development of cue attunement.	10.1037/0012-1649.34.5.1007
 3			Shaping Minds Musically	10.1023/b:bttj.0000047596.75297.ee
 3	2003	Dourish	The appropriation of interactive technologies: some lessons from placeless documents	10.1023/a:1026149119426
+3	2001	Choi	Hidden Markov Model Inversion for Audio-to-Visual Conversion in an MPEG-4 Facial Animation System	10.1023/a:1011171430700
 3	2005	KAPUR	Interactive Network Performance: a dream worth dreaming?	10.1017/s1355771805000956
+3	2004	BLACKWELL	Self-organised music	10.1017/s1355771804000214
 3	2003	Scipio	‘Sound is the interface’: from interactive to ecosystemic signal processing	10.1017/s1355771803000244
+3			Composing instrument control dynamics	10.1017/s1355771802003059
 3	2004	Kendon	Gesture Visible Action as Utterance	10.1017/cbo9780511807572
+3	1998	J Cassell	Computer vision in human–machine interaction	10.1017/cbo9780511569937.013
 3	2003	Camurri	Recognizing emotion from dance movement: comparison of spectator recognition and automated techniques	10.1016/s1071-5819(03)00050-8
 3	2003	Anderson	Embodied Cognition: A field guide	10.1016/s0004-3702(03)00054-7
 3	2010	J. Bloit	Modeling and segmentation of audio descriptor profiles with segmental models	10.1016/j.patrec.2009.11.003
 3	2006	Moeslund	A survey of advances in vision-based human motion capture and analysis	10.1016/j.cviu.2006.08.002
-3	2006	VINES	Cross-modal interactions in the perception of musical performance	10.1016/j.cognition.2005.09.003
-3	2005	Valbom L.	WAVE: Sound and music in an immersive environment	10.1016/j.cag.2005.09.004
-3			From Expressive Gesture to Sound: The Development of an Embodied Mapping Trajectory Inside a Musical Interface	10.1007/s12193-009-0027-3
 3	2020	Molero	A novel approach to learning music and piano based on mixed reality and gamification	10.1007/s11042-020-09678-9
 3	2015	SS Rautaray	Vision based hand gesture recognition for human computer interaction: a survey	10.1007/s10462-012-9356-9
 3	2008	Goebl	Tactile feedback and timing accuracy in piano performance	10.1007/s00221-007-1252-1

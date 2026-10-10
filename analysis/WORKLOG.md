@@ -209,3 +209,16 @@ and year, which first gave Dudley's 1939 vocoder article and patent the count of
 speaker paper; hand-chosen works now get no count when a work from the reference lists shares
 author and year. TRL and ARL for the 60 came from a 22nd agent batch (7 low confidence). New site
 tab, report section and heatmap group.
+
+Reference lists from OpenAlex for 452 entries with a DOI and no text (360 had lists, 7,187
+references), and a chapter rule for edited books: A NIME Reader went from 8 to 29 citing archive
+papers. The atlas paper panel lists each paper's other references. Portuguese OCR of SBCM
+1994–1998 with the system language packs: the splitter finds the same 222 SBCM papers as the
+English-only run. Crossref resolution of cited works now requires the cited first author to be
+the record's first author; JSTOR book reviews (of Musicking, Flow, Mindstorms, Lakoff and
+Johnson) had been taken for the books. The Zotero check at first counted every short title as in
+the collection (both sides had no title key); fixed, the library has 2,358 of 9,251 items in the
+collection. The top tier (probability at least 0.9) became the Zotero dataset at Alexander's
+request; the classifier scored a Norwegian article on stave churches at 0.93, so titles not in
+English are left out. TRL batches 23 and 24 cover the new entries.
+

@@ -6,6 +6,10 @@
 - [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
   (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in
   `tools/historical_seeds.txt`.
+- [ARJ] Vet `bibs/Zotero/zotero.bib` (528 works from your library, title classifier only); the
+  library also holds works on other fields, and a few may have slipped through.
+- [ARJ] Ask the NIME steering committee to deposit the 2021 and 2022 proceedings on Zenodo
+  (recommended), so that their texts can be read like the other years.
 - [ARJ] Read Cited and Background and move what is on the wrong side (title classifier, 88% accurate).
 - [ARJ] NIME bibliography: review `output/nime_missing_abstracts.tsv`; check the 2005 "NIME papers" that look
   like artworks and the front-matter entries among the 2019 music entries.
@@ -27,8 +31,10 @@
 - [ME] Theses (#5): more OpenAlex queries on later days (daily allowance); fix aggregator
   school names (Zenodo, NORA, ERA, LA Referencia) from the thesis records.
 - [ARJ] Skim `bibs/Theses/theses.bib` (416, selected by rule) and `output/candidates_theses.tsv`.
-- [ME] 366 non-English theses are listed in `output/candidates_theses_non_english.tsv`;
-  Portuguese OCR for SBCM 1994–1998 needs the tesseract Portuguese pack.
+- [ME] 366 non-English theses are listed in `output/candidates_theses_non_english.tsv`.
+- [ARJ] The atlas paper map shows only the NIME proceedings and the curated off-NIME archives,
+  which end in 2011–2013. Add the rule-selected datasets and Zotero to the map (recommended), so
+  that later off-NIME work appears there too.
 - [ME] One TRL estimate is duplicated in the batches (off-nime:Chadabe1975); harmless, the
   merge keeps the last.
 

@@ -3,7 +3,7 @@
 Currently the CIM (Colloquio di Informatica Musicale) proceedings, 1979–2024, listed on the AIMI
 website and served by the LIM in Milan. Each volume's text goes to data/volumes_text/CIM_<year>.txt
 with form feeds between pages; the PDF is deleted. A volume whose text layer yields under
-TEXT_MIN characters per page is read with tesseract (English; the Italian pack is not installed).
+TEXT_MIN characters per page is read with tesseract (Italian and English; needs the tesseract-ocr-ita package).
 Volumes already extracted are skipped, so the job can be stopped and resumed.
 """
 import re
@@ -41,7 +41,7 @@ def extract(pdf, dest):
         imgs = sorted(Path(tmp).glob("p-*.pgm"))
         with open(dest, "w") as f:
             for img in imgs:
-                r = subprocess.run(["tesseract", str(img), "-", "-l", "eng"], capture_output=True, text=True,
+                r = subprocess.run(["tesseract", str(img), "-", "-l", "ita+eng"], capture_output=True, text=True,
                                    timeout=600)
                 f.write(r.stdout + "\f")
                 img.unlink()

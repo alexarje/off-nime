@@ -24,6 +24,8 @@ Authors are keyed on surname and first initial, with accents removed, so that "M
 
 References were split from each text's last References heading on numbered markers, or on author–year line starts where there are none, and matched to the archives on a title key (significant words run together, 32 letters) or on the archive title appearing in the reference string. Unmatched references were clustered on the same key. {{unkeyed}} references ({{unkeyed_pct}}) yielded no usable title.
 
+Entries with a DOI but no readable text (the NIME papers of 2021 and 2022, which are on PubPub and not on Zenodo, and most of the off-NIME archive) take their reference lists from OpenAlex instead: {{oa_with}} entries, giving {{oa_int}} links into the archives and {{oa_ext}} references to other works. OpenAlex records that are whole proceedings volumes ({{oa_vol}}) are skipped, since a link to a volume says nothing about which paper is cited. A chapter cited in an edited book also counts as a citation of the book when the book's own references name its editors and its title is not a venue name; this adds {{oa_chap}} citations, for example of A NIME Reader.
+
 Two checks bound the parser's quality. A parsed link from a paper to one published more than a year later must be wrong; of {{parsed_edges}} parsed links, {{later}} do so. Recall was measured against the {{recall_n}} links that Semantic Scholar's own reference lists give for papers the parser also read: the parser finds {{recall}}% of them. Most misses come from pdftotext interleaving the two columns of a page, which breaks a reference in half. The citation network therefore merges the parsed links with Semantic Scholar's links in both directions.
 
 Semantic Scholar holds the NIME papers but returns their reference lists elided at the publisher's request; only {{s2_refs}} entries came with references. Forward citations are not elided, and they give the second candidate list.
@@ -91,6 +93,10 @@ Books were searched in Crossref ({{bk_q}} queries for books, edited volumes and 
 ### The Historical dataset
 
 The reference parser reads years back to 1700 when a reference has no later year, and finds {{hi_refs}} works from before 1955 cited by archive papers, from Hornbostel and Sachs to Fitts. Most are general science or psychology; those on musical instruments, their classification and electronic or mechanical sound production form the Historical dataset, together with standard precursors that papers name without always citing in full (Mersenne, Helmholtz, Cahill's Telharmonium patent, Busoni, Theremin's patent). The cut-off is 1957, the year of the first MUSIC program. Of the {{hi_n}} works, {{hi_cited}} are cited by archive papers and {{hi_pat}} are patents. Each is checked against Crossref (articles, which gives the DOI), Open Library (books) or Google Patents (patents, which gives the title and issue year); {{hi_ok}} pass, and the rest carry a note asking for vetting. The seed list is in `tools/historical_seeds.txt` and the cited works in `candidates_historical.tsv`.
+
+### The Zotero dataset
+
+The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are {{zo_tier}} works with a NIME-topic probability of at least {{zo_p}}, a scholarly item type and a year. Of these, {{zo_ne}} have titles that are not in English, where the classifier is unreliable, and {{zo_near}} match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining {{zo_n}} form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
 
 ### Theses
 

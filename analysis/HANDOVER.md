@@ -20,6 +20,16 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
 - `../bibs/Historical/historical.bib`: precursors before 1957, built by `tools/historical.py`
   from the hand-edited seed list `tools/historical_seeds.txt` (edit the seeds, not the bib);
   lookups cached in `data/historical_lookup.json`.
+- `../bibs/Zotero/zotero.bib`: works on NIME topics from Alexander's Zotero library that the
+  collection lacks, written by `tools/zotero_check.py` (title-classifier probability at least 0.9).
+  It reads a copy of `~/Zotero/zotero.sqlite`, so `run.sh` skips it on other machines; the full
+  candidate list, `data/zotero_candidates.tsv`, stays private.
+- `tools/trl_batch.py` writes the next `data/trl/in_NN.jsonl` for entries without a TRL/ARL
+  estimate; an agent following `tools/trl_rubric.md` writes `out_NN.jsonl`, and `merge_trl.py`
+  merges them.
+- The NIME paper draft on TRL and ARL is in
+  `~/UiO Dropbox/alexanje@uio.no/writing/2-Artistic readyness level (NIME)/paper/`; its
+  `analysis.py` reads `data/trl.json` and the validation sheet.
 - `tools/`: the pipeline; `run.sh` runs it in order.
 - `data/` (not committed): the corpus, the Semantic Scholar cache (`s2/`, `s2_citing/`), the
   paper texts from nime.org (`text/`) and from the local archive (`local_text/`), and the
@@ -33,6 +43,10 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   ISMIR, ICMPC and workshops. 406 files there are zero bytes, mostly `ICMC/2000/Authors`.
 - Crossref REST API, without a token (one request per second).
 - Open Library search API (books) and Google Patents pages (patents), for the Historical checks.
+- OpenAlex works API (`tools/openalex_refs.py`): reference lists for entries with a DOI and no
+  text, including NIME 2021–2022, which are on PubPub (behind a bot check) and not on Zenodo.
+  A small free daily allowance; the script stops early and resumes from its cache.
+- tesseract with the system Portuguese and Italian packs (`tesseract-ocr-por`, `-ita`).
 - Semantic Scholar Graph API, without a key. NIME reference lists are elided by the publisher;
   forward citations are not.
 

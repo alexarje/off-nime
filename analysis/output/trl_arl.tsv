@@ -3954,7 +3954,6 @@ cited:buxton1997artistsandtheart	Cited	1997	Artists and the art of the luthier	1
 cited:cook1997physicallyinform	Cited	1997	Physically Informed Sonic Modeling (PhISM): Synthesis of Percussive Sounds	3	fundamental			medium	abstract	Physically informed percussion synthesis models
 cited:fels1998glovetalkiianeur	Cited	1998	Glove-TalkII-a neural-network interface which maps gestures to parallel formant speech synthesizer controls	4	applied			high	abstract	Glove-TalkII gesture-to-speech system, evaluated
 cited:greshamlancaster1998theaestheticsand	Cited	1998	The Aesthetics and History of the Hub: The Effects of Changing Technology on Network Computer Music	1	fundamental	5	development	medium	abstract	Aesthetic and history of network music group Hub
-cited:fletcher1998thephysicsofmusi	Cited	1998	The Physics of Musical Instruments	1	fundamental			low	title	Title only; acoustics textbook
 cited:fels1999iamascopeagraphi	Cited	1999	Iamascope: a graphical musical instrument	6	applied	4	development	low	title	Title only; graphical instrument, likely public demonstration
 cited:paradiso2000sensorsystemsfor	Cited	2000	Sensor systems for interactive surfaces	3	fundamental			high	abstract	Four sensor systems for interactive surfaces, prototypes
 cited:cascone2000theaestheticsoff	Cited	2000	The Aesthetics of Failure: “Post-Digital” Tendencies in Contemporary Computer Music	1	fundamental	5	development	medium	abstract	Essay on post-digital glitch aesthetics
@@ -4195,7 +4194,6 @@ cited:sullivan2022fromfictiontofun	Cited	2022	From Fiction to Function: Imaginin
 cited:ilsar2022inclusiveimprovi	Cited	2022	Inclusive Improvisation: Exploring the Line between Listening and Playing Music	5	applied	6	development	high	abstract	Inclusive improvisation sessions with ADMI
 cited:koutsomichalis2022instrumentsthata	Cited	2022	Instruments that are more than instruments (and other stories)	1	fundamental	5	development	medium	abstract	Autoethnographic treatise on instrument-hood
 cited:blackwell2022livecodingausers	Cited	2022	Live Coding: A User's Manual	1	fundamental	7	dissemination	medium	abstract	Introductory book on live coding practice
-cited:auslander2022liveperformancei	Cited	2022	Live performance in a mediatized culture	1	fundamental			high	abstract	Theoretical chapter on liveness
 cited:nordmoen2022makingspaceforma	Cited	2022	Making space for material entanglements: A diffractive analysis of woodwork and the practice of making an interactive system	2	fundamental			medium	abstract	Diffractive analysis of making practice
 cited:zheng2022materialmatterse	Cited	2022	Material Matters: Exploring Materiality in Digital Musical Instruments Design	2	fundamental			high	abstract	Exploration of materiality in instrument design ideation
 cited:siwiak2022metaflutedevelop	Cited	2022	MetaFlute: Developing Tools to Observe Micro-Timing and Physical Movements in Flute Playing	4	applied			medium	abstract	Thesis developing flute sensing tools
@@ -4255,19 +4253,13 @@ cited:hu2026nudgingthesomase	Cited	2026	Nudging the Somas: Exploring How Live-Co
 cited:wu2026slimeuiexploring	Cited	2026	SlimeUI: Exploring Non-Newtonian Fluid as a Deformable Interface for Digital Musical Expression	3	fundamental	4	development	high	abstract	Slime as novel deformable instrument substrate
 background:fitts1954theinformationca	Background	1954	The information capacity of the human motor system in controlling the amplitude of movement.	1	fundamental			low	title	Classic motor control study; no abstract
 background:grey1977multidimensional	Background	1977	Multidimensional perceptual scaling of musical timbres	1	fundamental			high	abstract	Perceptual timbre scaling experiments
-background:baldwin1978biofeedbackandth	Background	1978	Biofeedback and the Arts: Results of Early Experiments	1	fundamental	5	development	low	title	Early biofeedback arts experiments; no abstract
 background:russell1980acircumplexmodel	Background	1980	A circumplex model of affect.	1	fundamental			low	title	Psychological affect model; no abstract
 background:reynolds1987flocksherdsandsc	Background	1987	Flocks, herds and schools: A distributed behavioral model	3	fundamental			high	abstract	Flocking simulation model shown to work
-background:gilman1989athousandplateau	Background	1989	A Thousand Plateaus: Capitalism and Schizophrenia	1	fundamental			high	abstract	Philosophy book; no technology
-background:buchanan1991flowthepsycholog	Background	1991	Flow: The Psychology of Optimal Experience	1	fundamental			low	title	Psychology of flow book; no abstract
-background:varela1991theembodiedmindc	Background	1991	The Embodied Mind: Cognitive Science and Human Experience	1	fundamental			high	abstract	Cognitive science and experience theory
-background:shere1993formalizedmusict	Background	1993	Formalized Music: Thought and Mathematics in Composition	1	fundamental	5	development	low	title	Composition theory book; no abstract
 background:smalley1997spectromorpholog	Background	1997	Spectromorphology: explaining sound-shapes	1	fundamental			high	abstract	Theory of electroacoustic sound-shapes
 background:karjalainen1998pluckedstringmod	Background	1998	Plucked-String Models: From the Karplus-Strong Algorithm to Digital Waveguides and beyond	2	fundamental			high	abstract	Review of plucked-string synthesis models
 background:sutton1998reinforcementlea	Background	1998	Reinforcement Learning: An Introduction	1	fundamental			low	title	Reinforcement learning textbook; no abstract
 background:gaver1999designculturalpr	Background	1999	Design: Cultural probes	1	fundamental			medium	abstract	Design method of cultural probes; conceptual
 background:post2000ebroiderydesigna	Background	2000	E-broidery: Design and fabrication of textile-based computing	4	applied			medium	abstract	Textile electronics fabricated and described; lab-validated
-background:keil2000musickingthemean	Background	2000	Musicking: The Meanings of Performing and Listening					high	abstract	Theory of musicking; no technology
 background:lewis2000toomanynotescomp	Background	2000	Too Many Notes: Computers, Complexity and Culture in Voyager	7	industrial	8	dissemination	medium	abstract	Voyager interactive system performed repeatedly over years
 background:bellotti2002makingsenseofsen	Background	2002	Making sense of sensing systems: five questions for designers and researchers	1	fundamental			high	abstract	Conceptual design questions for sensing interfaces
 background:essl2003ongenderinnewmus	Background	2003	On gender in new music interface technology	1	fundamental			high	abstract	Literature analysis of gender in interface field
@@ -4290,7 +4282,6 @@ background:sanfilippo2013feedbacksystemsa	Background	2013	Feedback Systems: An A
 background:bryankinns2013mutualengagement	Background	2013	Mutual engagement and collocation with shared representations	4	applied			low	title	Study of shared representations; no abstract
 background:benford2013performanceledre	Background	2013	Performance-Led Research in the Wild	6	applied	7	dissemination	high	abstract	Artist-led performances deployed and studied publicly
 background:caramiaux2015adaptivegesturer	Background	2015	Adaptive Gesture Recognition with Variation Estimation for Interactive Systems	4	applied			high	abstract	Gesture recognition system evaluated
-background:robertson2015participatorydes	Background	2015	Participatory Design	1	fundamental			low	title	Handbook chapter on participatory design
 background:mcfee2015librosaaudioandm	Background	2015	librosa: Audio and Music Signal Analysis in Python	9	industrial			high	abstract	Widely adopted audio analysis library
 background:born2016gendercreativity	Background	2016	Gender, Creativity and Education in Digital Musics and Sound Art					medium	abstract	Social study of gender in music education
 background:haraway2016stayingwiththetr	Background	2016	Staying with the Trouble: Making Kin in the Chthulucene					low	title	Philosophy book, no abstract
@@ -4870,3 +4861,599 @@ historical:laposky1953oscillonsele	Historical	1953	Oscillons: Electronic abstrac
 historical:eby1953electronicor	Historical	1953	Electronic organs: A complete catalogue, textbook and manual	8	industrial			medium	title	Catalogue and manual of commercial organs
 historical:olson1955electronicmu	Historical	1955	Electronic music synthesizer	5	applied			medium	title	Synthesizer built and tested in use at RCA
 historical:caine1956electronicmu	Historical	1956	Electronic music	2	fundamental			low	title	Overview of electronic music, mainly concepts
+cited:moore1983thecomputermusic	Cited	1983	The Computer Music Journal, 1977-1981	1	fundamental			low	title	Journal review history
+cited:loy1985foundationsofcom	Cited	1985	Foundations of Computer Music	1	fundamental			medium	title	Computer music textbook
+cited:loy1985musiciansmakeast	Cited	1985	Musicians Make a Standard: The MIDI Phenomenon	9	industrial			medium	title	MIDI standard history
+cited:zimmerman1986ahandgestureinte	Cited	1986	A hand gesture interface device	3	fundamental			high	abstract	Glove interface device prototype
+cited:mackenzie1991acomparisonofinp	Cited	1991	A comparison of input devices in element pointing and dragging tasks	4	applied			medium	title	Input device comparison experiment
+cited:morita1991acomputermusicsy	Cited	1991	A computer music system that follows a human conductor	4	applied			medium	title	Conductor-following system evaluated
+cited:lindemann1991thearchitectureo	Cited	1991	The Architecture of the IRCAM Musical Workstation	4	applied			medium	title	Workstation architecture description
+cited:fletcher1991thephysicsofmusi	Cited	1991	The Physics of Musical Instruments	1	fundamental			medium	title	Acoustics textbook
+cited:mackenzie1992fittslawasaresea	Cited	1992	Fitts' Law as a Research and Design Tool in Human-Computer Interaction	1	fundamental			medium	title	Fitts law design review
+cited:davidson1993visualperception	Cited	1993	Visual Perception of Performance Manner in the Movements of Solo Musicians	1	fundamental			high	abstract	Perception study of performer movement
+cited:feyereisen1994handandmindwhatg	Cited	1994	Hand and Mind: What Gestures Reveal about Thought	1	fundamental			medium	title	Gesture psychology book review
+cited:hinckley1994passiverealworld	Cited	1994	Passive real-world interface props for neurosurgical visualization	4	applied			medium	title	Interface props prototype tested
+cited:kabbash1994twohandedinputin	Cited	1994	Two-handed input in a compound task	4	applied			medium	title	Two-handed input experiment
+cited:jord1999faustmusiconline	Cited	1999	Faust Music On Line: An Approach to Real-Time Collective Composition on the Internet	6	applied	7	dissemination	medium	abstract	Online collective composition system
+cited:paine2002interactivitywhe	Cited	2002	Interactivity, where to from here?	1	fundamental	3	exploration	high	abstract	Reflection on interactive music design
+cited:maynesaminzade2002techniquesforint	Cited	2002	Techniques for interactive audience participation	5	applied			medium	title	Audience participation techniques tested
+cited:camurri2003eyeswebtowardges	Cited	2003	EyesWeb-toward gesture and affect recognition in dance/music interactive systems	7	industrial	5	development	medium	title	EyesWeb used in dance-music systems
+cited:collins2003generativemusica	Cited	2003	Generative Music and Laptop Performance	1	fundamental	4	development	medium	title	Laptop performance discussion
+cited:stuart2003theobjectofperfo	Cited	2003	The Object of Performance: Aural Performativity in Contemporary Laptop Music	1	fundamental			medium	title	Aesthetics of laptop music
+cited:vines2006crossmodalintera	Cited	2006	Cross-modal interactions in the perception of musical performance	1	fundamental			high	title	Perception experiment on performance
+cited:djajadiningrat2007easydoesntdoitsk	Cited	2007	Easy doesn’t do it: skill and expression in tangible aesthetics	1	fundamental			medium	title	Tangible aesthetics theory
+cited:sears2007thehumancomputer	Cited	2007	The Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies and Emerging Applications, Second Edition	9	industrial			medium	title	HCI handbook
+cited:kusuda2008toyotasviolinpla	Cited	2008	Toyota's violin‐playing robot	4	applied			high	abstract	Violin-playing robot report
+cited:bilbao2009numericalsoundsy	Cited	2009	Numerical Sound Synthesis: Finite Difference Schemes and Simulation in Musical Acoustics	2	fundamental			medium	title	Sound synthesis textbook
+cited:maes2010fromexpressivege	Cited	2010	From expressive gesture to sound: The development of an embodied mapping trajectory inside a musical interface	4	applied	4	development	medium	title	Gesture mapping trajectory in interface
+cited:mooney2011frameworksandaff	Cited	2011	Frameworks and affordances: Understanding the tools of music-making	1	fundamental			high	abstract	Conceptual model of tools
+cited:jensenius2012exploringmicromo	Cited	2012	Exploring Micromovements with Motion Capture and Sonification	3	fundamental	3	exploration	medium	title	Motion capture sonification exploration
+cited:hertz2012zombiemediacircu	Cited	2012	Zombie Media: Circuit Bending Media Archaeology into an Art Method	2	fundamental	6	development	high	abstract	Circuit bending as art method
+cited:franoise2013amultimodalproba	Cited	2013	A multimodal probabilistic model for gesture--based control of sound synthesis	3	fundamental			medium	title	Probabilistic gesture mapping model
+cited:wyse2013theviabilityofth	Cited	2013	The Viability of the Web Browser as a Computer Music Platform	4	applied			high	abstract	Web browser platform assessment
+cited:magnusson2014herdingcatsobser	Cited	2014	Herding Cats: Observing Live Coding in the Wild	1	fundamental	5	development	high	abstract	Live coding observation
+cited:berthaut2014scenographyofimm	Cited	2014	Scenography of immersive virtual musical instruments	3	fundamental	3	exploration	medium	title	Immersive instrument scenography
+cited:bretan2016asurveyofrobotic	Cited	2016	A survey of robotic musicianship	1	fundamental			high	title	Survey of robotic musicianship
+cited:aaron2016thedevelopmentof	Cited	2016	The development of Sonic Pi and its use in educational partnerships: Co-creating pedagogies for learning computer programming	8	industrial	7	dissemination	high	abstract	Sonic Pi released and used in schools
+cited:cook2017principlesfordes	Cited	2017	2001: Principles for Designing Computer Music Controllers	1	fundamental			medium	title	Design principles for controllers
+cited:blaine2017contextsofcollab	Cited	2017	2003: Contexts of Collaborative Musical Experiences	1	fundamental			medium	title	Collaborative music contexts reflection
+cited:andersen2017theinstrumentast	Cited	2017	The Instrument as the Source of New in New Music	1	fundamental	3	exploration	high	abstract	Conceptual instrument design essay
+cited:chamberlain2018surfingwithsound	Cited	2018	Surfing with Sound: An Ethnography of the Art of No-Input Mixing: Starting to Understand Risk, Control and Feedback in Musical Performance	1	fundamental	5	development	medium	title	Ethnography of no-input mixing
+cited:amc2019hyperrealinstrum	Cited	2019	Hyperreal Instruments: Bridging VR and Digital Fabrication to Facilitate New Forms of Musical Expression	3	fundamental	5	development	high	abstract	VR and fabrication instrument design
+cited:mudd2019theroleofnonline	Cited	2019	The Role of Nonlinear Dynamics in Musicians' Interactions with Digital and Acoustic Musical Instruments	4	applied			high	abstract	Nonlinear dynamics in instrument interaction
+cited:emerson2020exploringthemoti	Cited	2020	Exploring the motivations for building new digital musical instruments	1	fundamental			high	abstract	Survey of builder motivations
+cited:caramiaux2021artificialintell	Cited	2021	Artificial Intelligence in Music and Performance: A Subjective Art-Research Inquiry	3	fundamental	6	development	medium	title	Art-research inquiry on AI music
+background:shannon1948amathematicalthe	Background	1948	A Mathematical Theory of Communication	1	fundamental			high	title	Foundational information theory
+background:meyer1961emotionandmeanin	Background	1961	Emotion and Meaning in Music	1	fundamental			high	title	Music psychology book
+background:jaffe1983extensionsofthek	Background	1983	Extensions of the Karplus-Strong Plucked-String Algorithm	3	fundamental			medium	title	Synthesis algorithm extensions
+background:child1984agenerativetheor	Background	1984	A Generative Theory of Tonal Music	1	fundamental			medium	title	Music theory book
+background:guiard1987asymmetricdivisi	Background	1987	Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model	1	fundamental			medium	title	Motor behaviour model
+background:keislar1987historyandprinci	Background	1987	History and Principles of Microtonal Keyboards	1	fundamental			medium	title	History of microtonal keyboards
+background:hammer1987thelanguageofele	Background	1987	The Language of Electroacoustic Music	1	fundamental			medium	title	Electroacoustic music language
+background:rabiner1990atutorialonhidde	Background	1990	A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition	2	fundamental			medium	title	Statistical method tutorial
+background:weiser1991thecomputerforth	Background	1991	The Computer for the 21st Century	2	fundamental			medium	title	Ubiquitous computing vision
+background:verrillo1992vibrationsensati	Background	1992	Vibration Sensation in Humans	1	fundamental			high	abstract	Vibrotactile sensation research
+background:bregman1994auditorysceneana	Background	1994	Auditory Scene Analysis: The Perceptual Organization of Sound	1	fundamental			high	title	Auditory perception book
+background:wren1997pfinderrealtimet	Background	1997	Pfinder: real-time tracking of the human body	4	applied			medium	title	Body tracking system evaluated
+background:myers2000pastpresentandfu	Background	2000	Past, present, and future of user interface software tools	1	fundamental			medium	abstract	Review of UI tool history
+background:juslin2001musicandemotiont	Background	2001	Music And Emotion: Theory and research	1	fundamental			high	abstract	Music emotion theory
+background:zicarelli2002howilearnedtolov	Background	2002	How I Learned to Love a Program That Does Nothing	9	industrial			medium	title	Max reflection essay
+background:huron2006sweetanticipatio	Background	2006	Sweet Anticipation: Music and the Psychology of Expectation	1	fundamental			high	abstract	Psychological theory of expectation
+background:grindlay2008hapticguidancebe	Background	2008	Haptic Guidance Benefits Musical Motor Learning	4	applied			medium	title	Haptic guidance learning experiment
+background:gaver2012whatshouldweexpe	Background	2012	What should we expect from research through design?	1	fundamental			medium	title	Research through design theory
+background:wallis2013amateurmusicians	Background	2013	Amateur Musicians, Long-Term Engagement, and HCI	1	fundamental			medium	title	Amateur musician engagement discussion
+background:norman2016thedesignofevery	Background	2016	The Design of Everyday Things	9	industrial			medium	title	Design textbook
+background:varela2017theembodiedmindc	Background	2017	The Embodied Mind: Cognitive Science and Human Experience	1	fundamental			high	abstract	Cognitive science book
+background:hattwick2017thevibropixelsas	Background	2017	The Vibropixels: A Scalable Wireless Tactile Display System	4	applied			medium	title	Wireless tactile display system
+background:hayes2019beyondskillacqui	Background	2019	Beyond Skill Acquisition: Improvisation, Interdisciplinarity, and Enactive Music Cognition	1	fundamental			medium	title	Enactive music cognition theory
+zotero:marey1895movement	Zotero	1895	Movement	1	fundamental			medium	title	Historical movement study book
+zotero:lamb1965postureandge	Zotero	1965	Posture and Gesture	1	fundamental			low	title	Posture and gesture book
+zotero:bowers1972encyclopedia	Zotero	1972	Encyclopedia of Automatic Musical Instruments	1	fundamental			high	title	Encyclopedia of automatic instruments
+zotero:kaegi1978vosimanewsou	Zotero	1978	Vosim-a new sound synthesis system	3	fundamental			medium	title	Synthesis system proposal
+zotero:blacking1979theperformin	Zotero	1979	The Performing arts: music and dance	1	fundamental			low	title	Anthropology of performing arts
+zotero:anderton1980electronicpr	Zotero	1980	Electronic projects for musicians	3	fundamental			low	title	Electronics project book
+zotero:laban1980masteryofmov	Zotero	1980	Mastery of Movement	1	fundamental			medium	title	Movement analysis book
+zotero:mcintyre1981aperiodicity	Zotero	1981	Aperiodicity in bowed-string motion	1	fundamental			medium	title	Bowed-string acoustics study
+zotero:applebaum1986theartandsci	Zotero	1986	The Art and Science of String Performance	1	fundamental			medium	abstract	String pedagogy book
+zotero:kronman1987isthemusical	Zotero	1987	Is the musical ritard an allusion to physical motion	1	fundamental			low	title	Music and motion theory
+zotero:krasner1988acookbookfor	Zotero	1988	A cookbook for using the model-view controller user interface paradigm in Smalltalk-80	9	industrial			medium	title	MVC paradigm guide
+zotero:sundberg1988computersynt	Zotero	1988	Computer synthesis of music performance	3	fundamental			medium	title	Performance synthesis rules
+zotero:moog1988themusiciana	Zotero	1988	The Musician: Alive and well in the world of electronics	1	fundamental			low	title	Essay on musician and electronics
+zotero:boie1989gesturesensi	Zotero	1989	Gesture Sensing via Capacitive Moments	3	fundamental			medium	title	Capacitive gesture sensing
+zotero:palmer1989mappingmusic	Zotero	1989	Mapping musical thought to musical performance.	1	fundamental			medium	title	Performance cognition study
+zotero:allum1990afferentcont	Zotero	1990	Afferent Control of Posture and Locomotion	1	fundamental			low	title	Posture control physiology
+zotero:askenfelt1990fromtouchtos	Zotero	1990	From touch to string vibrations. I: Timing in the grand piano action	4	applied			medium	title	Piano action measurements
+zotero:teck1990movementtomu	Zotero	1990	Movement to Music: Musicians in the Dance Studio	1	fundamental			medium	abstract	Book on dance musicians
+zotero:kendall1990thecommunica	Zotero	1990	The communication of musical expression	1	fundamental			medium	title	Expression communication study
+zotero:askenfelt1991fromtouchtos	Zotero	1991	From touch to string vibrations. II: The motion of the key and hammer	4	applied			medium	title	Piano key hammer measurements
+zotero:winkler1991interactives	Zotero	1991	Interactive signal processing for acoustic instruments	3	fundamental			medium	title	Signal processing for acoustic instruments
+zotero:blades1992percussionin	Zotero	1992	Percussion Instruments and Their History	1	fundamental			low	title	Percussion history book
+zotero:hodgins1992relationship	Zotero	1992	Relationships between score and choreography in twentieth-century dance: music, movement, and metaphor	1	fundamental			low	title	Dance score history
+zotero:parsons1992theparsonsda	Zotero	1992	The Parsons Dance Company	1	fundamental			low	title	Dance company entry
+zotero:pope1993machinetongu	Zotero	1993	Machine Tongues XV: Three Packages for Software Sound Synthesis	8	industrial			medium	title	Software synthesis packages review
+zotero:hiller1993musicalcompo	Zotero	1993	Musical composition with a high-speed digital computer	3	fundamental	5	development	medium	title	Early computer composition
+zotero:todd1993vestibularfe	Zotero	1993	Vestibular Feedback in Musical Performance: Response to "Somatosensory Feedback in Musical Performance" (Edited by Sundberg and Verrillo)	1	fundamental			medium	title	Vestibular feedback commentary
+zotero:davidson1994expressivemo	Zotero	1994	Expressive Movements in Musical Performance	1	fundamental			medium	title	Performer movement study
+zotero:seifert1994mechanicalse	Zotero	1994	Mechanical sensors based on surface acoustic waves	4	applied			medium	title	Surface acoustic wave sensors
+zotero:bargar1994modelbasedin	Zotero	1994	Model-based interactive sound for an immersive virtual environment	3	fundamental			medium	title	Interactive sound in virtual environment
+zotero:davies1994musicalmeani	Zotero	1994	Musical Meaning and Expression	1	fundamental			medium	title	Music philosophy book
+zotero:burtner1994themetasaxop	Zotero	1994	The Metasaxophone: Design of a New Computer Music Controller	6	applied	6	development	medium	title	Metasaxophone controller design
+zotero:markussen1995etteoribaser	Zotero	1995	Et teoribaseret handlingsgrundlag for betjeningsdesign	1	fundamental			low	title	Danish operation design theory
+zotero:anon1995experimental	Zotero	1995	Experimental Musical Instruments	1	fundamental			low	title	Experimental instruments newsletter
+zotero:todd1995thekinematic	Zotero	1995	The kinematics of musical expression	4	applied			medium	title	Kinematic expression measurements
+zotero:steiglitz1996adspprimerwi	Zotero	1996	A DSP primer: with applications to digital audio and computer music	1	fundamental			medium	title	DSP textbook
+zotero:palmer1996anatomyofape	Zotero	1996	Anatomy of a performance: Sources of musical expression	1	fundamental			medium	title	Performance expression study
+zotero:wishart1996onsonicart	Zotero	1996	On Sonic Art	1	fundamental	5	development	medium	abstract	Sonic art book
+zotero:mccartney1996supercollide	Zotero	1996	SuperCollider: A new real-time synthesis language	8	industrial			medium	title	SuperCollider language introduced
+zotero:sloboda1996theyoungperf	Zotero	1996	The young performing musician	1	fundamental			low	title	Young musician development chapter
+zotero:engel1997anticipatory	Zotero	1997	Anticipatory and sequential motor control in piano playing	1	fundamental			medium	title	Piano motor control study
+zotero:dodge1997computermusi	Zotero	1997	Computer music: synthesis, composition, and performance	1	fundamental			medium	title	Computer music textbook
+zotero:dannenberg1997machinetongu	Zotero	1997	Machine tongues XIX: Nyquist, a language for composition and sound synthesis	8	industrial			medium	title	Nyquist language described
+zotero:palmer1997musicperform	Zotero	1997	Music performance.	1	fundamental			medium	title	Music performance review
+zotero:anon1997musicalsigna	Zotero	1997	Musical signal processing	1	fundamental			low	title	Signal processing volume
+zotero:paradiso1997opticaltrack	Zotero	1997	Optical tracking for music and dance performance	5	applied	5	development	medium	title	Optical tracking in performance
+zotero:mott1997soundmapping	Zotero	1997	Sound Mapping: An Assertion of Place, Interface `97	2	fundamental	4	development	low	title	Sound mapping art project
+zotero:fritts1997theuniversit	Zotero	1997	The University of Iowa Musical Instrument Samples	8	industrial			medium	title	Released instrument sample set
+zotero:pavlovic1997visualinterp	Zotero	1997	Visual interpretation of hand gestures for human-computer interaction: A review	1	fundamental			high	title	Hand gesture literature review
+zotero:cook1997picoiforseas	Zotero	1997	“Pico I,” for Seashells and Interactive Electronics	6	applied	7	dissemination	medium	title	Interactive electronics piece
+zotero:jorda1998agraphicalan	Zotero	1998	A graphical and net oriented approach to interactive sonic composition and real-time synthesis for low cost computer systems	3	fundamental			medium	title	Graphical net-based composition approach
+zotero:mulder1998designofgest	Zotero	1998	Design of Gestural Constraints Using Virtual Musical Instruments	4	applied			medium	title	Gestural constraints thesis
+zotero:keller1998ecologically	Zotero	1998	Ecologically-based granular synthesis	3	fundamental			medium	title	Granular synthesis method
+zotero:burk1998jsynarealtim	Zotero	1998	JSyn–a real-time synthesis API for Java	8	industrial			medium	title	Java synthesis API released
+zotero:clarke1998thebodyinper	Zotero	1998	The Body in Performance	1	fundamental			medium	title	Body in performance essay
+zotero:lopez1998vocemanappli	Zotero	1998	Vocem: An Application for Real-Time Granular Synthesis	6	applied			medium	title	Granular synthesis application
+zotero:essl1999bandedwavegu	Zotero	1999	Banded waveguides: Towards physical modeling of bowed bar percussion instruments	3	fundamental			medium	title	Physical modelling waveguide method
+zotero:kasai1999butohdanceme	Zotero	1999	Butoh Dance Method for Psychosomatic Exploration	1	fundamental	3	exploration	low	title	Butoh exploration method
+zotero:weinberg1999expressivedi	Zotero	1999	Expressive Digital Musical Instruments for Children	4	applied			medium	title	Instruments for children thesis
+zotero:laeng1999handednessef	Zotero	1999	Handedness effects on playing a reversed or normal keyboard	1	fundamental			medium	title	Handedness experiment
+zotero:gillespie1999hapticmanipu	Zotero	1999	Haptic Manipulation	1	fundamental			low	title	Haptic manipulation chapter
+zotero:camurri1999kanseianalys	Zotero	1999	KANSEI analysis of movement in dance/music interactive systems	3	fundamental	4	development	medium	title	Movement analysis in interactive systems
+zotero:furniss1999motioncaptur	Zotero	1999	Motion capture	1	fundamental			low	title	Motion capture web note
+zotero:cox1999themetaphori	Zotero	1999	The Metaphoric Logic of Musical Motion and Space	1	fundamental			medium	abstract	Music metaphor thesis
+zotero:resina1999themusicians	Zotero	1999	The Musiciansí Software Mall:A Set of Composition and Performance Oriented Applications for Sound Synthesis	6	applied			medium	title	Software applications set for synthesis
+zotero:cook1999thesynthesis	Zotero	1999	The Synthesis ToolKit (STK)	8	industrial			medium	title	STK toolkit released
+zotero:mccartney2000anewflexible	Zotero	2000	A New, Flexible Framework for Audio and Image Synthesis	6	applied			medium	title	Synthesis framework presented
+zotero:camurri2000arealtimepla	Zotero	2000	A Real-time Platform for Interactive Performance	6	applied	6	development	medium	title	Platform for interactive performance
+zotero:winters2000biomechanics	Zotero	2000	Biomechanics and Neural Control of Posture and Movement	1	fundamental			medium	abstract	Biomechanics textbook
+zotero:choi2000gesturalprim	Zotero	2000	Gestural primitives and the context for computational processing in an interactive performance system	3	fundamental	4	development	medium	title	Gestural primitives in performance system
+zotero:lin2000jammasteramu	Zotero	2000	Jam Master, a Music Composing Interface	4	applied			medium	title	Composing interface evaluated
+zotero:fmol2000liveatmetron	Zotero	2000	Live at Metronom	2	fundamental	7	dissemination	low	title	Live album recording
+zotero:anon2000mappingofcon	Zotero	2000	Mapping of Control Variables to Musical Variables. Interactive Systems and Instrument Design in Music Working Group	2	fundamental			low	title	Mapping thesis on instrument design
+zotero:camurri2000movementandg	Zotero	2000	Movement and gesture in intelligent interactive music systems	3	fundamental			medium	title	Gesture in interactive music systems
+zotero:levin2000painterlyint	Zotero	2000	Painterly interfaces for audiovisual performance	6	applied	6	development	medium	title	Painterly interfaces thesis
+zotero:omodhrain2000playingbyfee	Zotero	2000	Playing by Feel: Incorporating Haptic Feedback into Computer-Based Musical Instruments	4	applied			medium	title	Haptic feedback instruments thesis
+zotero:avizienis2000scalableconn	Zotero	2000	Scalable connectivity processor for computer music performance systems	3	fundamental			medium	title	Connectivity processor design
+zotero:rossing2000scienceofper	Zotero	2000	Science of percussion instruments	1	fundamental			medium	title	Percussion acoustics book
+zotero:konemann2000theillustrat	Zotero	2000	The Illustrated Encyclopedia of Musical Instruments: From All Eras and Regions of the World	1	fundamental			low	title	Instrument encyclopedia
+zotero:weinberg2000theembroider	Zotero	2000	The embroidered musical ball: a squeezable instrument for expressive performance	4	applied			medium	title	Squeezable instrument prototype
+zotero:gallo2000thepowerofam	Zotero	2000	The power of a musical instrument: Franklin, the Mozarts, Mesmer, and the glass armonica	1	fundamental			high	abstract	Historical account of armonica
+zotero:neda2000thesoundofma	Zotero	2000	The sound of many hands clapping	1	fundamental			medium	title	Physics of clapping
+zotero:dahlstedt2001amutasynthin	Zotero	2001	A MutaSynth in parameter space: interactive composition through evolution	3	fundamental	5	development	medium	title	Evolutionary synth composition
+zotero:moeslund2001asurveyofcom	Zotero	2001	A Survey of Computer Vision-Based Human Motion Capture	1	fundamental			high	title	Survey of vision motion capture
+zotero:goudeseune2001aviolincontr	Zotero	2001	A Violin Controller for real-time Audio Synthesis	4	applied			medium	title	Violin controller built
+zotero:poupyrev2001augmentedrea	Zotero	2001	Augmented Reality Interface for Electronic Music Performance	3	fundamental	5	development	medium	title	AR interface for performance
+zotero:chaigne2001bookreviewsc	Zotero	2001	Book review: Science of percussion instruments – Rossing, T. D.	1	fundamental			high	title	Book review of acoustics
+zotero:miranda2001composingmus	Zotero	2001	Composing music with computers	1	fundamental			medium	title	Computer music book
+zotero:dahlstedt2001creatingande	Zotero	2001	Creating and exploring huge parameter spaces: Interactive evolution as a tool for sound generation	3	fundamental	4	development	medium	title	Interactive evolution for sound
+zotero:dahlstedt2001creatingandeb	Zotero	2001	Creating and exploring the huge space called sound: interactive evolution as a composition tool	3	fundamental	4	development	medium	title	Interactive evolution for composition
+zotero:tanaka2001globalstring	Zotero	2001	Global String: A Musical Instrument for Hybrid Space	6	applied	7	dissemination	medium	title	Global String instrument installation
+zotero:brown2001instrument	Zotero	2001	Instrument	1	fundamental			high	abstract	Encyclopedia entry
+zotero:dahl2001istheplayerm	Zotero	2001	Is the player more influenced by the auditory than the tactile feedback from the instrument	4	applied			medium	title	Feedback perception experiment
+zotero:canazza2001kinematicsen	Zotero	2001	Kinematics-energy space for expressive interaction in music performance	3	fundamental			medium	title	Kinematics-energy expression space
+zotero:jensenius2001laserdancean	Zotero	2001	Laser Dance and the Sound of Naked Piano	6	applied	7	dissemination	medium	title	Laser dance and piano performance
+zotero:davison2001markerlessmo	Zotero	2001	Markerless motion capture of complex full-body movement for character animation	3	fundamental			medium	title	Markerless capture method
+zotero:avanzini2001musicalinstr	Zotero	2001	Musical instrument modeling: the case of the piano	3	fundamental			medium	title	Piano modelling
+zotero:poupyrev2001newinterface	Zotero	2001	New Interfaces for Musical Expression	1	fundamental			medium	title	NIME workshop overview
+zotero:madden2001preparationf	Zotero	2001	Preparation for interactive live computer performance in collaboration with a symphony orchestra	6	applied	7	dissemination	medium	title	Live performance with orchestra
+zotero:anon2001rimmtherealt	Zotero	2001	RIMM The Real-time Interactive MultiMedia project	3	fundamental			low	title	Multimedia project description
+zotero:garnett2001technologica	Zotero	2001	Technological Advances for Conducting a Virtual Ensemble	4	applied			medium	title	Virtual ensemble conducting technology
+zotero:lyons2001themouthesiz	Zotero	2001	The Mouthesizer: A facial gesture musical interface	3	fundamental			medium	title	Facial gesture interface
+zotero:young2001usingthewebf	Zotero	2001	Using the Web for Live Interactive Music	6	applied			medium	title	Web for live music
+zotero:bevilacqua20023dmotioncapt	Zotero	2002	3D motion capture data: motion analysis and mapping to music	3	fundamental			medium	title	Motion capture mapping to music
+zotero:serafin2002analysisands	Zotero	2002	Analysis and synthesis unusual friction-driven musical instruments	3	fundamental			medium	title	Friction instrument synthesis
+zotero:friberg2002automaticrea	Zotero	2002	Automatic real-time extraction of musical expression	3	fundamental			medium	title	Real-time expression extraction
+zotero:castagne2002creatingmusi	Zotero	2002	Creating Music by Means of Physical Thinking: The Musician Oriented GENESIS Environment	6	applied			medium	title	Physical modelling environment
+zotero:opie2002granularsynt	Zotero	2002	Granular Synthesis: Experiments In Live Performance	6	applied	6	development	medium	title	Granular live performance experiments
+zotero:puckette2002maxatsevente	Zotero	2002	Max at seventeen	9	industrial			medium	title	Max history
+zotero:zicarellid2002maxmsp	Zotero	2002	Max/MSP	9	industrial			low	title	Max/MSP software entry
+zotero:music2002meaningmotio	Zotero	2002	Meaning, Motion and Gesture	1	fundamental			low	title	Gesture meaning title
+zotero:pladott2002meaningmotio	Zotero	2002	Meaning, Motion and Gesture In Psychedelic Trance Music	1	fundamental			medium	title	Trance music gesture thesis
+zotero:gadd2002metamuseanov	Zotero	2002	MetaMuse: a novel control metaphor for granular synthesis	3	fundamental			medium	title	Granular control metaphor
+zotero:overholt2002musicalmappi	Zotero	2002	Musical Mapping and Synthesis for the MATRIX Interface	3	fundamental	3	exploration	medium	title	Mapping for MATRIX interface
+zotero:hermann2002realtimecont	Zotero	2002	Real-Time Control of Sonification Models with a Haptic Interface	4	applied			medium	title	Haptic sonification control
+zotero:jehan2002sparkleranau	Zotero	2002	Sparkler: An Audio-Driven Interactive Live Computer Performance for Symphony Orchestra	6	applied	7	dissemination	medium	title	Orchestra interactive performance
+zotero:young2002thehyperbowa	Zotero	2002	The Hyperbow: A Precision Violin Interface	5	applied			high	abstract	Hyperbow measurement instrument
+zotero:anon2002thesciencean	Zotero	2002	The Science and Psychology of Music Performance: Creative Strategies for Teaching and Learning	1	fundamental			medium	title	Performance psychology book
+zotero:guettler2002thebowedstri	Zotero	2002	The bowed string: on the development of Helmholtz motion and on the creation of anomalous low frequencies	1	fundamental			high	abstract	Bowed string physics thesis
+zotero:dixon2002theperforman	Zotero	2002	The performance worm: Real time visualisation of expression based on langner’s tempo-loudness animation	3	fundamental			medium	title	Expression visualisation tool
+zotero:mcelligott2002forsefieldsf	Zotero	2002	‘ForSe FIElds’-Force Sensors for Interactive Environments	4	applied			medium	title	Force sensors for environments
+zotero:johnson2003somethingint	Zotero	2003	"Something in the Way She Moves"-Metaphors of Musical Motion	1	fundamental			medium	title	Metaphor analysis
+zotero:serafin2003bowedstringp	Zotero	2003	Bowed string physical model validation through use of a bow controller and examination of bow strokes	4	applied			medium	title	Bow controller model validation
+zotero:guedes2003controllingm	Zotero	2003	Controlling Musical Tempo from Dance Movement in Real-Time: A Possible Approach	3	fundamental	4	development	medium	title	Dance-controlled tempo approach
+zotero:opie2003creationofar	Zotero	2003	Creation of a Real-Time Granular Synthesis Instrument for Live Performance	6	applied	6	development	medium	title	Granular instrument for live use
+zotero:ciufo2003designconcep	Zotero	2003	Design concepts and control strategies for interactive improvisational music systems	2	fundamental	4	development	medium	title	Improvisation system design concepts
+zotero:juslin2003fivefacetsof	Zotero	2003	Five Facets of Musical Expression: A Psychologist's Perspective on Music Performance	1	fundamental			high	abstract	Psychological expression framework
+zotero:sawchuk2003fromremoteme	Zotero	2003	From remote media immersion to distributed immersive performance	4	applied			medium	title	Distributed immersive performance
+zotero:rasamimanana2003gestureanaly	Zotero	2003	Gesture Analysis of Bow Strokes Using an Augmented Violin	4	applied			medium	title	Augmented violin bow gestures
+zotero:dean2003hyperimprovi	Zotero	2003	Hyperimprovisation: computer-interactive sound improvisation	1	fundamental	5	development	medium	title	Improvisation book
+zotero:lorenzojr2003intelligentm	Zotero	2003	Intelligent MIDI Sequencing with Hamster Control	3	fundamental			medium	title	MIDI sequencing with hamster
+zotero:jorda2003interactivem	Zotero	2003	Interactive music systems for everyone: exploring visual feedback as a way for creating more intuitive, efficient and learnable instruments	4	applied			medium	title	Visual feedback for interactive music
+zotero:brown2003limbposition	Zotero	2003	Limb Position Drift: Implications for Control of Posture and Movement	1	fundamental			high	title	Neurophysiology of limb drift
+zotero:overholt2003onmusicalges	Zotero	2003	On Musical Gestures and New Performance Interfaces for Electronic Music	2	fundamental	4	development	medium	title	Gestures and performance interfaces
+zotero:bachyrita2003sensorysubst	Zotero	2003	Sensory substitution and the human–machine interface	1	fundamental			medium	title	Sensory substitution review
+zotero:dahl2003strikingmove	Zotero	2003	Striking movements: Movement strategies and expression in percussive playing	1	fundamental			medium	title	Percussive movement study
+zotero:nichols2003thevbowanexp	Zotero	2003	The Vbow: An Expressive Musical Controller Haptic Human-Computer Interface	4	applied			medium	title	Vbow haptic controller
+zotero:discipio2003soundisthein	Zotero	2003	‘Sound is the interface’: from interactive to ecosystemic signal processing	3	fundamental	5	development	medium	title	Ecosystemic signal processing
+zotero:schrader2004asenseofdanc	Zotero	2004	A Sense of Dance: Exploring Your Movement Potential	1	fundamental			low	title	Dance book
+zotero:wang2004chuckaprogra	Zotero	2004	ChucK: a programming language for on-the-fly, real-time audio synthesis and multimedia	8	industrial			medium	title	ChucK language released
+zotero:miranda2004computersoun	Zotero	2004	Computer sound design: synthesis techniques and programming	1	fundamental			medium	title	Sound design textbook
+zotero:arfib2004designanduse	Zotero	2004	Design and use of some new digital musical instruments	6	applied	6	development	medium	title	New digital instruments designed and used
+zotero:paradiso2004electronicco	Zotero	2004	Electronic Controllers for Musical Performance and Interaction	1	fundamental			medium	title	Controller overview chapter
+zotero:dahl2004expressivene	Zotero	2004	Expressiveness of musician’s body movements in performances on marimba	1	fundamental			medium	title	Marimba movement study
+zotero:juslin2004fivemythsabo	Zotero	2004	Five myths about expressivity in music performance and what to do about them	1	fundamental			medium	title	Expressivity myths
+zotero:merrill2004flexigesture	Zotero	2004	FlexiGesture: A sensor-rich real-time adaptive gesture and affordance learning platform for electronic music control	4	applied			medium	title	Gesture learning platform
+zotero:fernstrom2004humancompute	Zotero	2004	Human-computer interaction design based on interactive sonification-hearing actions or instruments/agents	2	fundamental			medium	title	Interactive sonification design
+zotero:henry2004physicalmode	Zotero	2004	Physical modeling for pure data (PMPD) and real time interaction with an audio synthesis	8	industrial			medium	title	pmpd library released
+zotero:kolesnik2004recognitiona	Zotero	2004	Recognition, analysis and performance with expressive conducting gestures	4	applied			medium	title	Conducting gesture recognition
+zotero:repp2004rhythmicmove	Zotero	2004	Rhythmic movement is attracted more strongly to auditory than to visual rhythms	1	fundamental			high	abstract	Sensorimotor synchronisation experiment
+zotero:warusfel2004soundsourcer	Zotero	2004	Sound Source Radiation Synthesis: from Stage Performance to Domestic Rendering	4	applied			medium	title	Radiation synthesis rendering
+zotero:henry2004usingphysica	Zotero	2004	Using Physical Modelling for Pure Data (pmpd) with an audio and video synthesis	8	industrial			medium	title	pmpd library for Pd
+zotero:paradiso2004wearablewire	Zotero	2004	Wearable wireless sensing for interactive media	4	applied			medium	title	Wearable wireless sensing
+zotero:pottier2004gmuanintegra	Zotero	2004	“GMU”–An Integrated Microsound Synthesis System	6	applied			medium	title	Microsound synthesis system
+zotero:benbasat2005acompactmodu	Zotero	2005	A Compact Modular Wireless Sensor Platform	4	applied			medium	title	Wireless sensor platform
+zotero:bevilacqua2005agesturefoll	Zotero	2005	A gesture follower for performing arts	5	applied	5	development	medium	title	Gesture follower tested in performing arts
+zotero:musil2005alibraryforr	Zotero	2005	A library for realtime 3d binaural sound reproduction in pure data (pd)	8	industrial			medium	title	Binaural Pd library
+zotero:grierson2005audiovisualc	Zotero	2005	Audiovisual Composition	6	applied	7	dissemination	medium	abstract	Audio-video composition thesis
+zotero:freeman2005auracleavoic	Zotero	2005	Auracle: a voice-controlled, networked sound instrument	6	applied	6	development	medium	title	Voice-controlled networked instrument
+zotero:jensenius2005buildinglowc	Zotero	2005	Building Low-Cost Music Controllers	6	applied			medium	title	Low-cost controller building
+zotero:marshall2005buildingausb	Zotero	2005	Building a USB sensor interface using the ATMEL ATmega16 and the Human Interface Device standard	3	fundamental			medium	title	USB sensor interface build
+zotero:steiner2005buildingyour	Zotero	2005	Building your own instrument with Pd	6	applied			medium	title	Instrument building in Pd
+zotero:ghazala2005circuitbendi	Zotero	2005	Circuit-bending: build your own alien instruments	8	industrial	5	development	medium	title	Circuit-bending guide book
+zotero:momeni2005composingins	Zotero	2005	Composing Instruments: Inventing and Performing with Generative Computer-based Instruments	6	applied	7	dissemination	medium	abstract	Generative instrument composition thesis
+zotero:miranda2005compositiona	Zotero	2005	Composition as Game Strategy: Making Music by Playing Board Games Against Evolved Artificial Neural Networks	3	fundamental	4	development	medium	title	Game-based composition method
+zotero:gambetta2005conductingou	Zotero	2005	Conducting Outside the Box: Creating a Fresh Approach to Conducting Gesture Through the Principles of Laban Movement Analysis	1	fundamental	3	exploration	medium	title	Conducting gesture approach
+zotero:zbyszynski2005controlofvst	Zotero	2005	Control of VST Plug-Ins Using OSC	6	applied			medium	title	VST control using OSC
+zotero:baader2005coordination	Zotero	2005	Coordination of bowing and fingering in violin playing	1	fundamental			medium	title	Violin motor coordination study
+zotero:seitz2005dalcrozetheb	Zotero	2005	Dalcroze, the body, movement and musicality	1	fundamental			medium	title	Dalcroze theory
+zotero:jensenius2005developingto	Zotero	2005	Developing tools for studying musical gestures within the Max/MSP/Jitter environment	8	industrial			high	abstract	Musical Gestures Toolbox
+zotero:jorda2005digitalluthe	Zotero	2005	Digital Lutherie : Crafting musical computers for new musics' performance and improvisation	1	fundamental	6	development	medium	title	Digital lutherie thesis
+zotero:brooks2005enhancedgest	Zotero	2005	Enhanced gesture capture in virtual interactive space (VIS)	4	applied			high	abstract	Gesture capture with affordable device
+zotero:volpe2005expressivege	Zotero	2005	Expressive Gesture in Performing Arts and New Media: The Present and the Future	1	fundamental			medium	title	Expressive gesture review
+zotero:wei2005gestureandre	Zotero	2005	Gesture and response in field-based performance	3	fundamental	4	development	medium	title	Field-based performance gestures
+zotero:friberg2005homeconducti	Zotero	2005	Home conducting: Control the overall musical expression with gestures	4	applied			medium	title	Home conducting system
+zotero:guedes2005mappingmovem	Zotero	2005	Mapping Movement to Musical Rhythm: A Study in Interactive Dance	3	fundamental	5	development	medium	title	Movement-rhythm mapping dance study
+zotero:dykstraerickson2005michelwaisvi	Zotero	2005	Michel Waisvisz: the man and the hands.	1	fundamental			medium	title	Profile of Waisvisz
+zotero:fenza2005physicalmove	Zotero	2005	Physical movement and musical gestures: a multilevel mapping strategy	2	fundamental			medium	title	Multilevel mapping strategy
+zotero:yuille2005sonicinterac	Zotero	2005	Sonic Interaction Design: frameworks for designing interactive sound environments	6	applied	6	development	high	abstract	Interactive sound projects exegesis
+zotero:kabisch2005sonicpanoram	Zotero	2005	Sonic panoramas: experiments with interactive landscape image sonification	3	fundamental	5	development	high	abstract	Landscape image sonification
+zotero:livingstone2005tactilecompo	Zotero	2005	TACTILE COMPOSITION SYSTEMS FOR COLLABORATIVE FREE SOUND	4	applied	5	development	medium	title	Tactile composition systems
+zotero:knapp2005theintegralm	Zotero	2005	The integral Music controller: Introducing a Direct Emotional Interface to gestural control of sound synthesis.	4	applied			medium	title	Emotional interface controller
+zotero:overholt2005theovertonev	Zotero	2005	The overtone violin: A new computer music instrument	4	applied			medium	title	Overtone violin instrument
+zotero:luciani2006abasicgestur	Zotero	2006	A Basic Gesture and Motion Format for Virtual Reality Multisensory Applications	2	fundamental			medium	title	Gesture format proposal
+zotero:aylward2006acompactwire	Zotero	2006	A Compact, Wireless, Wearable Sensor Network for Interactive Dance Ensembles	6	applied	6	development	medium	title	Wearable sensor network for dance
+zotero:couturier2006amodelforgra	Zotero	2006	A model for graphical interaction applied to gestural control of sound	2	fundamental			medium	title	Graphical interaction model
+zotero:hermann2006acoumotionan	Zotero	2006	AcouMotion – An Interactive Sonification System for Acoustic Motion Control	4	applied			high	abstract	Interactive sonification system
+zotero:wessel2006anenactiveap	Zotero	2006	An enactive approach to computer music performance	1	fundamental			medium	title	Enactive approach to performance
+zotero:caplan2006defendingmus	Zotero	2006	Defending Musical Perdurantism	1	fundamental			high	title	Philosophy of musical works
+zotero:malloch2006examiningdes	Zotero	2006	Examining Design Goals of Digital Musical Instruments	1	fundamental			high	abstract	Model for categorising instruments
+zotero:lepecki2006exhaustingda	Zotero	2006	Exhausting Dance: Performance and the Politics of Movement	1	fundamental			high	abstract	Dance politics book
+zotero:vannort2006exploringthe	Zotero	2006	Exploring the effect of mapping trajectories on musical performance	4	applied			medium	title	Mapping trajectory experiment
+zotero:wiesendanger2006fingeringand	Zotero	2006	Fingering and Bowing in Violinists: A Motor Control Approach	1	fundamental			medium	title	Violin motor control study
+zotero:jung2006frommotionca	Zotero	2006	From motion capture to action capture: a review of imitation learning techniques and their application to VR-based character animation	1	fundamental			high	title	Review of imitation learning
+zotero:graugaard2006gestureandem	Zotero	2006	Gesture and Emotion in Interactive Music: Artistic and Technological Challenges	1	fundamental	5	development	medium	title	Gesture and emotion challenges
+zotero:jerde2006handmovement	Zotero	2006	Hand Movements and Musical Performance	1	fundamental			medium	title	Hand movement study
+zotero:jackson2006harmonioustr	Zotero	2006	Harmonious triads: physicists, musicians, and instrument makers in nineteenth-century Germany	1	fundamental			medium	title	Historical account of instrument makers
+zotero:abrashev2006illustratede	Zotero	2006	Illustrated encyclopedia of musical instruments: From all eras and regions of the world	1	fundamental			low	title	Instrument encyclopedia
+zotero:eikenes2006interfacefor	Zotero	2006	Interface for arranging sound in space	4	applied			medium	abstract	Spatial sound arrangement interface
+zotero:place2006jamomaamodul	Zotero	2006	Jamoma - A modular standard for structuring patches in Max	8	industrial			medium	title	Jamoma modular standard
+zotero:moen2006kinaesthetic	Zotero	2006	KinAesthetic Movement Interaction: Designing for the Pleasure of Motion	3	fundamental	3	exploration	medium	title	Movement interaction design thesis
+zotero:dahl2006lookingatmov	Zotero	2006	Looking at movement gesture: Examples from drumming and percussion	1	fundamental			medium	title	Drumming gesture analysis
+zotero:blom2006makingthemus	Zotero	2006	Making the music dance: dance connotations in Norwegian fiddling	1	fundamental			medium	title	Fiddling dance connotations study
+zotero:james2006movementbase	Zotero	2006	Movement-based interactive dance performance	6	applied	7	dissemination	medium	title	Interactive dance performance system
+zotero:london2006musicalrhyth	Zotero	2006	Musical Rhythm: Motion, Pace and Gesture	1	fundamental			medium	title	Rhythm and gesture chapter
+zotero:marshall2006onthedevelop	Zotero	2006	On the development of a system for gesture control of spatialization	3	fundamental			medium	title	Spatialisation gesture control system
+zotero:friberg2006overviewofth	Zotero	2006	Overview of the KTH rule system for musical performance	8	industrial			medium	title	KTH rule system overview
+zotero:lossius2006soundinstall	Zotero	2006	Sound Installations and Other Cross-Diciplinary Projects Project Summary-Research Fellowship in the Arts	1	fundamental	6	development	low	title	Research fellowship summary
+zotero:yeo2006thebluetooth	Zotero	2006	The bluetooth radio ball interface (BRBI): a wireless interface for music/sound control and motion sonification	4	applied			medium	title	Bluetooth ball interface
+zotero:levin2006thetableisth	Zotero	2006	The table is the score: An augmented-reality interface for real-time, tangible, spectrographic performance	6	applied	6	development	medium	title	Tangible AR performance interface
+zotero:collins2006towardsauton	Zotero	2006	Towards Autonomous Agents for Live Computer Music: Realtime Machine Listening and Interactive Music Systems	4	applied	6	development	high	abstract	Autonomous agents for live music
+zotero:gomez2006towardsaquan	Zotero	2006	Towards a quantitative description of instrumental gestures in excitation-continuous musical instruments	3	fundamental			medium	title	Instrumental gesture description
+zotero:ng20073daugmentedm	Zotero	2007	3d augmented mirror: a multimodal interface for string instrument learning and teaching with gesture support	4	applied			medium	title	Augmented mirror for string learning
+zotero:toplap2007aprehistoryo	Zotero	2007	A Prehistory of Live Coding	1	fundamental			medium	title	Live coding history
+zotero:young2007amethodology	Zotero	2007	A methodology for investigation of bowed string performance through measurement of violin bowing technique	4	applied			high	abstract	Violin bowing measurement method
+zotero:jensenius2007actionsoundd	Zotero	2007	Action–Sound: Developing Methods and Tools to Study Music-Related Body Movement	6	applied			high	abstract	Thesis on tools for body movement
+zotero:burger2007displayingex	Zotero	2007	Displaying expression in musical performance by means of a mobile robot	3	fundamental	4	development	medium	title	Mobile robot showing expression
+zotero:martins2007emergentrhyt	Zotero	2007	Emergent rhythmic phrases in an A-Life environment	3	fundamental			medium	title	A-life rhythm generation
+zotero:zhang2007evolvingexpr	Zotero	2007	Evolving expressive music performance through interaction of artificial agent performers	3	fundamental			medium	title	Agent-evolved performance
+zotero:thompson2007expressivege	Zotero	2007	Expressive Gestures in Piano Performance	1	fundamental			high	abstract	Piano gesture thesis
+zotero:maestre2007extendinggdi	Zotero	2007	Extending GDIF for instrumental gestures: the case of violin performance	2	fundamental			high	abstract	GDIF extension proposal
+zotero:vannort2007extractionof	Zotero	2007	Extraction of Gestural Meaning from a Fabric-Based Instrument	4	applied			medium	title	Fabric instrument gesture extraction
+zotero:marshall2007gesturecontr	Zotero	2007	Gesture Control of Spatialization	3	fundamental			medium	title	Spatialisation gesture control
+zotero:marshall2007gesturecontrb	Zotero	2007	Gesture control of sound spatialization for live musical performance	4	applied	5	development	medium	title	Spatialisation control in live performance
+zotero:marschall2007machinecompo	Zotero	2007	Machine Composition - Between Lisp and Max	3	fundamental	5	development	medium	abstract	Machine composition lisp Max
+zotero:marschall2007machinecompob	Zotero	2007	Machine Composition-Between Lisp and Max: Between AI and Music. Lisp, Max, maxlisp and other recombinations	3	fundamental	5	development	medium	title	Machine composition recombination
+zotero:carot2007networkedmus	Zotero	2007	Networked music performance: State of the art	1	fundamental			medium	title	Networked performance state of art
+zotero:waters2007performancee	Zotero	2007	Performance Ecosystems: Ecological approaches to musical interaction	3	fundamental	5	development	medium	title	Ecological performance ecosystems
+zotero:steiner2007progressrepo	Zotero	2007	Progress report on the Mapping Library for Pd	8	industrial			medium	title	Mapping library for Pd
+zotero:tsuruta2007realtimereco	Zotero	2007	Real-Time Recognition of Body Motion for Virtual Dance Collaboration System	4	applied			medium	title	Dance motion recognition system
+zotero:hermann2007relevancebas	Zotero	2007	Relevance-based interactive optimization of sonification	3	fundamental			medium	title	Interactive sonification optimisation
+zotero:lossius2007soundspacebo	Zotero	2007	Sound - Space - Body : Reflections on Artistic Practice	1	fundamental	6	development	medium	title	Reflections on artistic practice
+zotero:pulkki2007spatialsound	Zotero	2007	Spatial sound reproduction with directional audio coding	8	industrial			medium	title	Spatial reproduction method
+zotero:rasamimanana2007stringbowing	Zotero	2007	String bowing gestures at varying bow stroke frequencies: A case study	4	applied			medium	title	Bowing gesture case study
+zotero:essl2007thedesignspa	Zotero	2007	The Design Space of Sensing-Based Interaction for Mobile Music Performance	2	fundamental			medium	title	Design space mobile music
+zotero:nymoen2007thenymophone	Zotero	2007	The Nymophone2 – a study of a new multidimensionally controllable musical instrument	6	applied	6	development	high	abstract	Nymophone2 instrument evaluation
+zotero:dannenberg2007thecarnegiem	Zotero	2007	The carnegie mellon laptop orchestra	7	industrial	7	dissemination	medium	title	Laptop orchestra
+zotero:jorda2007thereactable	Zotero	2007	The reacTable: Exploring the Synergy Between Live Music Performance and Tabletop Tangible Interfaces	7	industrial	7	dissemination	high	abstract	reacTable used in live music
+zotero:peters2007trakhueintui	Zotero	2007	Trakhue - Intuitive Gestural Control of Live Electronics	4	applied	5	development	medium	title	Gestural live electronics control
+zotero:castellano2007usercentered	Zotero	2007	User-centered control of audio and visual expressive feedback by full-body movements	4	applied			high	abstract	Full-body expressive feedback system
+zotero:huang2007visualandhap	Zotero	2007	Visual and haptic feedback contribute to tuning and online control during object manipulation	1	fundamental			high	title	Motor control experiment
+zotero:brown2007aacellinprac	Zotero	2007	aa-cell in practice: An approach to musical live coding	6	applied	7	dissemination	medium	title	Live coding approach in practice
+zotero:bukvic2007munger1towar	Zotero	2007	munger1: Towards a cross-platform swiss-army knife of real-time granular synthesis	8	industrial			medium	title	Granular synth released
+zotero:diazmarino2008avisualprogr	Zotero	2008	A visual programming language for live video sonification	4	applied			medium	title	Video sonification language
+zotero:costalonga2008agentbasedgu	Zotero	2008	Agent-based guitar performance simulation	3	fundamental			medium	title	Guitar performance simulation
+zotero:mitchell2008basicsynthcr	Zotero	2008	BasicSynth: creating a music synthesizer in software	8	industrial			medium	title	Software synthesiser book
+zotero:lossius2008controllings	Zotero	2008	Controlling Spatial Sound Within an Installation Art Context	6	applied	7	dissemination	medium	title	Spatial sound installation art
+zotero:kirisits2008creativeinte	Zotero	2008	Creative Interactions—The Mobile Music Workshops 2004–2008	6	applied	5	development	medium	title	Mobile music workshops
+zotero:hollinger2008designoffmri	Zotero	2008	Design of fMRI-compatible electronic musical interfaces	4	applied			high	abstract	fMRI compatible interfaces
+zotero:miranda2008digitalsound	Zotero	2008	Digital Sound Synthesis for Multimedia Audio	1	fundamental			medium	title	Synthesis encyclopedia overview
+zotero:varni2008emotionalent	Zotero	2008	Emotional entrainment in music performance	4	applied			medium	title	Entrainment analysis method
+zotero:place2008flexiblecont	Zotero	2008	Flexible Control of Composite Parameters in Max/Msp	6	applied			high	abstract	Max parameter control tool
+zotero:dahlstedt2008freeflightin	Zotero	2008	Free flight in parameter space: A dynamic mapping strategy for expressive free impro	3	fundamental	5	development	medium	title	Dynamic mapping for improvisation
+zotero:peters2008hapticillusi	Zotero	2008	Haptic Illusions in Sonic Interaction	4	applied			medium	title	Haptic illusion experiments
+zotero:schmeder2008implementati	Zotero	2008	Implementation and applications of open sound control timestamps	8	industrial			medium	title	OSC timestamps implementation
+zotero:frisk2008improvisatio	Zotero	2008	Improvisation, Computers and Interaction Rethinking Human-Computer Interaction Through Music	1	fundamental	6	development	high	abstract	Thesis on improvisation and computers
+zotero:dahl2008motorcontrol	Zotero	2008	Motor control in drumming: Influence of movement pattern on contact force and sound characteristics	1	fundamental			medium	title	Drumming motor control study
+zotero:overholt2008musicalinter	Zotero	2008	Musical Interface Technology: Multimodal Control of Multidimensional Parameter Spaces for Electroacoustic Music Performance	6	applied	6	development	medium	title	Musical interface thesis
+zotero:hosale2008nonlinearmed	Zotero	2008	Nonlinear Media as Interactive Narrative	1	fundamental	6	development	high	abstract	Artist thesis on interactive narrative
+zotero:demoucron2008onthecontrol	Zotero	2008	On the Control of Virtual Violins: Physical Modelling and Control of Bowed String Instruments	4	applied			high	abstract	Virtual violin control thesis
+zotero:nymoen2008smatechnical	Zotero	2008	SMA Technical Report The Nymophone2 - a study of a new multidimensionally controllable musical instrument	4	applied			high	abstract	Technical report on Nymophone2
+zotero:peters2008spatialsound	Zotero	2008	Spatial sound rendering in Max/MSP with ViMiC	8	industrial			medium	title	ViMiC spatial rendering
+zotero:wang2008thechuckaudi	Zotero	2008	The ChucK Audio Programming Language: An Strongly-timed and On-the-fly Environ/mentality	8	industrial			high	abstract	ChucK language thesis
+zotero:brown2008theneuroscie	Zotero	2008	The Neuroscience of Dance	1	fundamental			medium	title	Neuroscience popular article
+zotero:winter2009biomechanics	Zotero	2009	Biomechanics and motor control of human movement	1	fundamental			medium	title	Biomechanics textbook
+zotero:wilmers2009bowsenseanop	Zotero	2009	Bowsense – an Open Wireless Motion Sensing Platform	8	industrial			medium	title	Open wireless sensing platform
+zotero:cottle2009computermusi	Zotero	2009	Computer Music with examples in SuperCollider 3	1	fundamental			medium	title	SuperCollider textbook
+zotero:miranda2009computermusi	Zotero	2009	Computer music meets unconventional computing: towards sound synthesis with in vitro neuronal networks	3	fundamental	3	exploration	medium	title	Neuronal network sound synthesis
+zotero:rocchesso2009designingcon	Zotero	2009	Designing continuous sonic interaction	1	fundamental			medium	title	Continuous sonic interaction design
+zotero:saffer2009designingges	Zotero	2009	Designing gestural interfaces	1	fundamental			medium	title	Gestural interface design book
+zotero:robertson2009eisensteinon	Zotero	2009	Eisenstein on the Audiovisual: The Montage of Music, Image and Sound in Cinema	1	fundamental			high	abstract	Film music theory book
+zotero:gody2009geometryande	Zotero	2009	Geometry and Effort in Gestural Renderings of Musical Sound	1	fundamental			high	abstract	Gesture rendering of sound study
+zotero:pauletto2009interactives	Zotero	2009	Interactive sonification of complex data	1	fundamental			medium	title	Sonification of complex data
+zotero:johnston2009interfacesfo	Zotero	2009	Interfaces for musical expression based on simulated physical models	4	applied	6	development	high	abstract	Physical model instruments thesis
+zotero:kotz2009maxneuhausso	Zotero	2009	Max Neuhaus: Sound into Space	1	fundamental	7	dissemination	low	title	Sound art catalogue
+zotero:knapp2009measuremento	Zotero	2009	Measurement of Motion and Emotion during Musical Performance	4	applied			medium	title	Motion and emotion measurement
+zotero:demoucron2009measuringbow	Zotero	2009	Measuring bow force in bowed string performance: Theory and implementation of a bow force sensor	4	applied			high	title	Bow force sensor implementation
+zotero:schoonderwaldt2009mechanicsand	Zotero	2009	Mechanics and acoustics of violin bowing: Freedom, constraints and control in performance	4	applied			high	abstract	Violin bowing mechanics thesis
+zotero:jensenius2009motioncaptur	Zotero	2009	Motion capture studies of action-sound couplings in sonic interaction	3	fundamental			medium	title	Mocap action-sound studies
+zotero:freed2009musicalappli	Zotero	2009	Musical applications and design techniques for the gametrak tethered spatial position controller	6	applied			medium	title	Gametrak musical applications
+zotero:dalessandro2009realtimeanda	Zotero	2009	Realtime and Accurate Musical Control of Expression in Voice Synthesis	4	applied			medium	title	Voice synthesis control thesis
+zotero:jensenius2009reduceddispl	Zotero	2009	Reduced displays of multidimensional motion capture data sets of musical performance	3	fundamental			high	abstract	Reduced displays of mocap data
+zotero:miller2009schizophonic	Zotero	2009	Schizophonic Performance: Guitar Hero, Rock Band, and Virtual Virtuosity	1	fundamental			medium	title	Game performance cultural study
+zotero:leman2009sharingmusic	Zotero	2009	Sharing Musical Expression Through Embodied Listening: A Case Study Based on Chinese Guqin Music	1	fundamental			medium	title	Embodied listening case study
+zotero:schoon2009sonification	Zotero	2009	Sonification in Music	1	fundamental			high	abstract	Sonification in music framing
+zotero:palmer2009synchronizat	Zotero	2009	Synchronization of motion and timing in clarinet performance	1	fundamental			medium	title	Clarinet motion timing study
+zotero:goebl2009synchronizat	Zotero	2009	Synchronization of timing and motion among performing musicians	1	fundamental			medium	title	Ensemble synchronisation study
+zotero:watson2009thebiologyof	Zotero	2009	The Biology of Musical Performance and Performance-Related Injury	1	fundamental			low	title	Performance injury book
+zotero:riisjr2009theeboyinstr	Zotero	2009	The eBoy instrument	6	applied	6	development	high	abstract	eBoy instrument developed
+zotero:schoonderwaldt2009theplayerand	Zotero	2009	The player and the bowed string: Coordination and control of bowing parameters in violin and viola performance	1	fundamental			medium	title	Bowing parameters study
+zotero:tremblay2009thinkinginsi	Zotero	2009	Thinking Inside the Box: A New Integrated Approach to Mixed Music Composition and Performance	6	applied	7	dissemination	high	abstract	Mixed music project
+zotero:peters2009vimicvirtual	Zotero	2009	ViMiC - Virtual Microphone Control for Max/MSP	8	industrial			medium	title	ViMiC Max release
+zotero:leslie2009wavefieldsyn	Zotero	2009	Waveﬁeld synthesis for interactive sound installations	6	applied	7	dissemination	high	abstract	Wavefield synthesis installations
+zotero:savard2009whengestures	Zotero	2009	When gestures are perceived through sounds: A framework for sonification of musicians’ ancillary gestures	2	fundamental	4	development	medium	title	Sonification framework proposal
+zotero:monache2010atoolkitfore	Zotero	2010	A toolkit for explorations in sonic interaction design	8	industrial			medium	title	Toolkit for sonic interaction design
+zotero:jensenius2010avideobaseda	Zotero	2010	A video based analysis system for realtime control of concatenative sound synthesis and spatialisation	4	applied			high	abstract	Video analysis control system
+zotero:dannenberg2010aurafxasimpl	Zotero	2010	AuraFX: a Simple and Flexible Approach to Interactive Audio Effect-Based Composition and Performance	6	applied	5	development	high	abstract	Audio effect composition tool
+zotero:bresin2010expressiveso	Zotero	2010	Expressive Sonification of Footstep Sounds	4	applied			medium	title	Footstep sonification
+zotero:gody2010gestureaffor	Zotero	2010	Gesture Affordances of Musical Sound	1	fundamental			medium	title	Gesture affordance chapter
+zotero:bouenard2010gesturecontr	Zotero	2010	Gesture Control of Sound Synthesis: Analysis and Classification of Percussion Gestures	4	applied			medium	title	Percussion gesture classification
+zotero:dahl2010gesturesinpe	Zotero	2010	Gestures in Performance	1	fundamental			low	title	Book chapter on gesture
+zotero:leslie2010grainstickac	Zotero	2010	Grainstick: A collaborative, interactive sound installation	6	applied	7	dissemination	high	title	Grainstick installation
+zotero:yang2010lightupcreat	Zotero	2010	Light up! Creating an interactive digital artwork based on Arduino and Max/MSP design	6	applied	7	dissemination	high	title	Interactive artwork built
+zotero:thelle2010makingsensor	Zotero	2010	Making Sensors Make Sense: Challenges in the Development of Digital Musical Instruments	1	fundamental			medium	title	Challenges in sensor use
+zotero:anon2010musicalgestu	Zotero	2010	Musical Gestures: Sound, Movement, and Meaning	1	fundamental			medium	abstract	Edited book on musical gestures
+zotero:jacucci2010participarte	Zotero	2010	ParticipArt: Exploring participation in interactive art installations	6	applied	6	development	high	abstract	Interactive installation participation
+zotero:smithiii2010physicalaudi	Zotero	2010	Physical audio signal processing: For virtual musical instruments and audio effects	1	fundamental			medium	title	Signal processing textbook
+zotero:rothenberg2010playingintot	Zotero	2010	Playing into the Machine: Improvising across the Electronic Abyss	1	fundamental	6	development	medium	title	Improvisation with machines essay
+zotero:welch2010programmingm	Zotero	2010	Programming Machines and People: Techniques for Live Improvisation with Electronics	1	fundamental	6	development	medium	title	Live electronics improvisation techniques
+zotero:nicolls2010seekingoutth	Zotero	2010	Seeking out the spaces between: Using improvisation in collaborative composition with interactive technology	1	fundamental	6	development	medium	title	Improvisation in composition essay
+zotero:ferguson2010themcgilldig	Zotero	2010	The McGill Digital Orchestra: An interdisciplinary project on digital musical instruments	7	industrial	7	dissemination	medium	title	Digital orchestra project
+zotero:vandyck2010theimpactoft	Zotero	2010	The impact of the bass drum on body movement in spontaneous dance	1	fundamental			medium	title	Dance movement experiment
+zotero:mcpherson2010towardacompu	Zotero	2010	Toward a Computationally-Enhanced Acoustic Grand Piano	3	fundamental			medium	title	Augmented piano proposal
+zotero:essl2010urmusanenvir	Zotero	2010	UrMus-an environment for mobile instrument design and performance	8	industrial			medium	title	Mobile instrument environment
+zotero:leman2010whystudymusi	Zotero	2010	Why study musical gestures	1	fundamental			low	title	Musical gesture rationale
+zotero:chan2011avirtualreal	Zotero	2011	A virtual reality dance training system using motion capture technology	4	applied			medium	title	VR dance training system
+zotero:magnusson2011confessionso	Zotero	2011	Confessions of a live coder	1	fundamental	7	dissemination	medium	title	Live coder reflections
+zotero:roberts2011controlsoftw	Zotero	2011	Control: Software for End-User Interface Programming and Interactive Performance	8	industrial			medium	title	Control app released
+zotero:dequay2011dancejockeyp	Zotero	2011	Dance Jockey: Performing Electronic Music by Dancing	6	applied	7	dissemination	high	abstract	Dance Jockey performance
+zotero:morin2011espacedeconc	Zotero	2011	Espace de conception et modèle d'interaction multi-tactile gestuel : un environnement de développement pour enrichir le modèle. (Design space and multi-touch gestural interaction model : a framework to enhance the model)	3	fundamental			low	title	Multitouch development environment
+zotero:roberts2011gibberliveco	Zotero	2011	Gibber: Live Coding Audio In The Browser	8	industrial			medium	title	Gibber browser live coding
+zotero:collins2011livecodingof	Zotero	2011	Live Coding of Consequence	1	fundamental	6	development	medium	title	Live coding reflection
+zotero:eriksson2011mocapinspeln	Zotero	2011	Mocap-inspelningskompendium för kursen Introduktion till Motion Capture	1	fundamental			low	title	Mocap course compendium
+zotero:mcpherson2011multidimensi	Zotero	2011	Multidimensional Gesture Sensing at the Piano Keyboard	4	applied			medium	title	Piano keyboard gesture sensing
+zotero:mazzola2011musicalperfo	Zotero	2011	Musical Performance	1	fundamental			low	title	Music performance chapter
+zotero:overholt2011nimeeducatio	Zotero	2011	NIME Education : Using the CUI32 for Musical Interaction Design	8	industrial			high	abstract	CUI32 teaching platform
+zotero:anon2011proceedingso	Zotero	2011	Proceedings of the International Conference on New Interfaces for Musical Expression	1	fundamental			low	title	NIME proceedings volume
+zotero:anon2011programbooko	Zotero	2011	Program book of the International Conference on New Interfaces for Musical Expression	1	fundamental			low	title	NIME programme book
+zotero:knapp2011themeasureme	Zotero	2011	The Measurement of Performer and Audience Emotional State as a New Means of Computer Music Interaction: A Performance Case Study	4	applied			medium	title	Emotional state measurement interaction
+zotero:sheetsjohnstone2011theprimacyof	Zotero	2011	The Primacy of Movement	1	fundamental			high	abstract	Philosophy of movement book
+zotero:hermann2011thesonificat	Zotero	2011	The Sonification Handbook	1	fundamental			medium	title	Sonification handbook
+zotero:fiebrink2011thewekinator	Zotero	2011	The Wekinator: Software for using machine learning to build real-time interactive systems	8	industrial			medium	title	Wekinator software
+zotero:bianchini2011virtualsound	Zotero	2011	Virtual sound: sound synthesis and signal processing : theory and practice with csound	1	fundamental			medium	abstract	Csound textbook
+zotero:hertz2012artafternewm	Zotero	2012	Art After New Media: Exploring Black Boxes, Tactics and Archaeologies	1	fundamental	6	development	medium	title	New media art essay
+zotero:bental2012characterisi	Zotero	2012	Characterising musical gestures	1	fundamental			medium	title	Gesture characterisation study
+zotero:ogborn2012composingfor	Zotero	2012	Composing for a networked, pulse-based, laptop orchestra	6	applied	7	dissemination	high	title	Laptop orchestra composition
+zotero:lyon2012designingaud	Zotero	2012	Designing audio objects for Max/MSP and Pd	1	fundamental			medium	title	Audio object design book
+zotero:tanaka2012gesturalmusi	Zotero	2012	Gestural Musical Affordances	1	fundamental			medium	title	Gestural affordances concept
+zotero:brinkmann2012makingmusica	Zotero	2012	Making Musical Apps: Real-time Audio Synthesis on Android and iOS	8	industrial			medium	title	Mobile audio app book
+zotero:behrends2012movinginando	Zotero	2012	Moving in and out of synchrony: A concept for a new intervention fostering empathy through interactional movement and dance	4	applied	5	development	medium	title	Empathy intervention concept
+zotero:miller2012playingalong	Zotero	2012	Playing along: digital games, YouTube, and virtual performance	1	fundamental			medium	title	Game performance book
+zotero:blau2012quietudeinin	Zotero	2012	Quietude in Intercultural Performance: Phillip Zarrilli’s Told by the Wind and Yôjirô Okamura’s Aminadab	1	fundamental	6	development	medium	title	Intercultural performance analysis
+zotero:wakefield2012realtimemeta	Zotero	2012	Real-Time Meta-Programming for Interactive Computational Arts	6	applied	6	development	medium	title	Meta-programming environment thesis
+zotero:holopainen2012selforganise	Zotero	2012	Self-organised Sound with Autonomous Instruments: Aesthetics and experiments	6	applied	6	development	high	abstract	Autonomous instruments aesthetics
+zotero:knees2012soundtracksa	Zotero	2012	Sound/tracks: artistic real-time sonification of train journeys	6	applied	7	dissemination	high	title	Train journey sonification artwork
+zotero:polli2012soundscapeso	Zotero	2012	Soundscape, sonification, and sound activism	1	fundamental	6	development	medium	abstract	Sound activism argument
+zotero:kronlachner2012thekinectsen	Zotero	2012	THE KINECT SENSOR AS HUMAN-MACHINE-INTERFACE IN AUDIO-VISUAL ART PROJECTS	5	applied	6	development	medium	title	Kinect in art projects
+zotero:schacher2012thebodyinele	Zotero	2012	The Body in Electronic Music Performance	1	fundamental	6	development	high	abstract	Body presence discussion
+zotero:hugill2012thedigitalmu	Zotero	2012	The digital musician	1	fundamental			low	title	Digital musician book
+zotero:dalgleish2013acontemporar	Zotero	2013	A Contemporary Approach to Expressiveness in the Design of Digital Musical Instruments	2	fundamental			medium	title	Expressiveness design approach
+zotero:malloch2013aframeworkan	Zotero	2013	A Framework and Tools for Mapping of Digital Musical Instruments	6	applied			medium	title	Mapping framework and tools thesis
+zotero:dubus2013asystematicr	Zotero	2013	A systematic review of mapping strategies for the sonification of physical quantities	1	fundamental			high	title	Systematic review of mappings
+zotero:tzanetakis2013blendingthep	Zotero	2013	Blending the physical and the virtual in music technology: from interface design to multi-modal signal processing	2	fundamental			medium	title	Physical-virtual music technology overview
+zotero:basanta2013compositiona	Zotero	2013	Compositional Strategies in Light and Sound Installations	6	applied	7	dissemination	high	abstract	Light and sound installations
+zotero:hall2013coreaspectso	Zotero	2013	Core Aspects of Dance: Condillac and Mead on Gesture	1	fundamental			medium	title	Dance gesture philosophy
+zotero:linn2013linnstrument	Zotero	2013	LinnStrument and other new expressive musical controllers	9	industrial			medium	title	LinnStrument commercial controller
+zotero:chandra2013marketbasedc	Zotero	2013	Market-based Control in Interactive Music Environments	4	applied	5	development	high	abstract	SoloJam participatory music system
+zotero:palmer2013musicperform	Zotero	2013	Music performance: Movement and coordination	1	fundamental			medium	title	Performance coordination review
+zotero:desouza2013musicalinstr	Zotero	2013	Musical Instruments, Bodies, and Instruments	1	fundamental			medium	title	Instrument embodiment thesis
+zotero:jensenius2013nonrealtimes	Zotero	2013	Non-Realtime Sonification of Motiongrams	3	fundamental			high	abstract	Motiongram sonification implementation
+zotero:bevilacqua2013signimemusic	Zotero	2013	SIG NIME: Music, Technology, and Human-Computer Interaction	1	fundamental			high	abstract	SIG proposal
+zotero:tsay2013sightoversou	Zotero	2013	Sight over sound in the judgment of music performance	1	fundamental			medium	title	Perception of performance judgement
+zotero:rossing2013thescienceof	Zotero	2013	The Science of Sound: Pearson New International Edition	1	fundamental			medium	title	Acoustics textbook
+zotero:jenkins2013ipadmusicint	Zotero	2013	iPad music: in the studio and on stage	1	fundamental	5	development	medium	title	iPad music book
+zotero:garcia2014abstracoesan	Zotero	2014	Abstrações: an audiovisual installation based on motion recognizing	6	applied	7	dissemination	high	title	Audio-video installation
+zotero:wanderley2014advancesinth	Zotero	2014	Advances in the Design of Mapping for Computer Music	1	fundamental			medium	title	Mapping design review
+zotero:schacher2014corporeality	Zotero	2014	Corporeality, Actions and Perceptions in Gestural Performance of Digital Music	1	fundamental	5	development	medium	title	Gestural performance discussion
+zotero:bluff2014creativecont	Zotero	2014	Creative Control of Granular Synthesis Using Fluid Simulation &amp; Motion Tracking	4	applied	6	development	medium	title	Granular control with fluid simulation
+zotero:deweppe2014engagingaudi	Zotero	2014	Engaging Audiences through a Participatory Design Approach with the Interactive Music Installation'SoundField'	6	applied	7	dissemination	high	title	Participatory installation design
+zotero:keller2014ensembleperf	Zotero	2014	Ensemble Performance: Interpersonal Alignment of Musical Expression	1	fundamental			medium	title	Ensemble alignment review
+zotero:visi2014gestureinper	Zotero	2014	Gesture in performance with traditional musical instruments and electronics: Use of embodied music cognition and multimodal motion capture to design gestural mapping strategies	4	applied	6	development	medium	title	Gesture in performance with electronics
+zotero:koehly2014inhousedevel	Zotero	2014	In-House Development of Paper Force Sensors for Musical Applications	4	applied			medium	title	Paper force sensors built
+zotero:mota2014influenceofe	Zotero	2014	Influence of Expressive Coupling in Ensemble Performance on Musicians’ Body Movement	1	fundamental			medium	title	Ensemble movement study
+zotero:gawthrop2014intermittent	Zotero	2014	Intermittent Control in Man and Machine	1	fundamental			medium	abstract	Control theory review
+zotero:ogborn2014livecodingin	Zotero	2014	Live coding in a scalable, participatory laptop orchestra	7	industrial	7	dissemination	high	title	Live coding laptop orchestra
+zotero:parkinson2014makingdatasi	Zotero	2014	Making Data Sing: Embodied Approaches to Sonification	1	fundamental			medium	title	Embodied sonification chapter
+zotero:lyon2014mappingincom	Zotero	2014	Mapping in Computer Chamber Music: A Case Study	6	applied	7	dissemination	high	title	Mapping case study in chamber music
+zotero:skogstad2014methodsandte	Zotero	2014	Methods and Technologies for Using Body Motion for Real-Time Musical Interaction	6	applied			high	abstract	Body motion methods thesis
+zotero:alemi2014movainteract	Zotero	2014	Mova: Interactive Movement Analytics Platform	6	applied			medium	title	Movement analytics platform
+zotero:ka14ssner2014musiciansare	Zotero	2014	Musicians are more consistent: Gestural cross-modal mappings of pitch, loudness and tempo in real-time	4	applied			high	title	Cross-modal mapping experiment
+zotero:donnarumma2014notesonbimod	Zotero	2014	Notes on Bimodal Muscle Sensing for the Sonification of Indeterminate Motion	3	fundamental	5	development	medium	title	Muscle sensing sonification notes
+zotero:gopinath2014oxfordhandbo	Zotero	2014	Oxford Handbook of Mobile Music	1	fundamental			medium	title	Mobile music handbook
+zotero:branje2014playingvibro	Zotero	2014	Playing vibrotactile music: A comparison between the Vibrochord and a piano keyboard	4	applied			high	title	Vibrotactile instrument comparison
+zotero:attenberger2014remotehandaw	Zotero	2014	RemoteHand: A wireless myoelectric interface	4	applied			medium	title	Wireless myoelectric interface
+zotero:boem2014sculptonamal	Zotero	2014	SCULPTON: A MALLEABLE TANGIBLE INTERFACE FOR SOUND SCULPTING	3	fundamental			medium	title	Malleable tangible interface
+zotero:cox2014sonicwonderl	Zotero	2014	Sonic Wonderland: A Scientific Odyssey of Sound	1	fundamental			medium	abstract	Popular science book on sound
+zotero:anon2014theoxfordhan	Zotero	2014	The Oxford handbook of interactive audio	1	fundamental			medium	title	Interactive audio handbook
+zotero:goodwin2014theintelligi	Zotero	2014	The intelligibility of gesture within a framework of co-operative action	1	fundamental			medium	title	Gesture co-operative action theory
+zotero:vail2014thesynthesiz	Zotero	2014	The synthesizer: a comprehensive guide to understanding, programming, playing, and recording the ultimate electronic music instrument	1	fundamental			low	title	Synthesiser guide book
+zotero:schacher2014watchthisexp	Zotero	2014	Watch This! Expressive Movement in Electronic Music Performance	1	fundamental	6	development	medium	title	Expressive movement discussion
+zotero:wikipedia2014zetainstrume	Zotero	2014	Zeta Instrument Processor Interface	9	industrial			low	title	Commercial MIDI interface entry
+zotero:naveda2014topostoolkit	Zotero	2014	“Topos” toolkit for Pure Data: exploring the spatial features of dance gestures for interactive musical applications	8	industrial			medium	title	Topos toolkit for Pd
+zotero:lahdeoja2015anaugmentedg	Zotero	2015	An Augmented Guitar With Active Acoustics	4	applied	5	development	medium	title	Augmented guitar with active acoustics
+zotero:bachrach2015audienceentr	Zotero	2015	Audience entrainment during live contemporary dance performance: Physiological and cognitive measures	1	fundamental			medium	title	Audience entrainment measurements
+zotero:taylor2015braidawebins	Zotero	2015	BRAID: A Web Instrument Builder with Embedded Code Blocks	8	industrial			medium	title	Web instrument builder
+zotero:martinezpadro2015developmento	Zotero	2015	Development of a FM/Granular Synthesizer with Non-Standard control Interface	3	fundamental	5	development	medium	title	Synthesiser with custom interface
+zotero:lee2015expressitani	Zotero	2015	Express It!: An Interactive System for Visualizing Expressiveness of Conductor's Gestures	4	applied			high	abstract	Conductor gesture visualisation system
+zotero:didonato2015gspatlivesou	Zotero	2015	GSPAT: Live sound spatialisation using gestural control	3	fundamental			medium	title	Gestural sound spatialisation
+zotero:taylor2015gesturecaptu	Zotero	2015	Gesture Capture, Processing, and Asynchronous Playback within Web Audio Instruments.	3	fundamental			medium	title	Gesture capture in web audio
+zotero:visi2015instrumental	Zotero	2015	Instrumental Movements of Neophytes: Analysis of Movement Periodicities, Commonalities and Individualities in Mimed Violin Performance	4	applied			medium	title	Movement analysis of novices
+zotero:manzo2015interactivec	Zotero	2015	Interactive composition: strategies using Ableton Live and Max for Live	1	fundamental	5	development	medium	title	Ableton composition strategies
+zotero:anon2015keywordsinso	Zotero	2015	Keywords in sound	1	fundamental			medium	title	Sound studies book
+zotero:green2015leonardospec	Zotero	2015	Leonardo Special Section: Practice-Based Research and New Interfaces for Musical Expression: The Situation of Practice-Led Research around NIME, and Two Methodological Suggestions for Improved Communication	1	fundamental	6	development	medium	title	Practice-based research NIME overview
+zotero:maclennan2015mappinghowst	Zotero	2015	Mapping how students conceptualize ancillary movements in instrumental music performance	1	fundamental			medium	abstract	Student movement conceptualisation
+zotero:bertrand2015musicalacous	Zotero	2015	Musical Acoustics & Instrument Design: When Engineering Meets Music	1	fundamental			medium	title	Instrument acoustics overview
+zotero:anon2015programmingf	Zotero	2015	Programming for musicians and digital artists: creating music with ChucK	1	fundamental			medium	title	ChucK book
+zotero:ferguson2015realtimeteac	Zotero	2015	Real-time teaching of musicianship and audio engineering using LOLA–LOw LAtency audio/video streaming	8	industrial			medium	title	LOLA teaching use
+zotero:napoli2015suggestionsf	Zotero	2015	Suggestions For A Parametric Typology Of Dance	1	fundamental			medium	title	Dance typology proposal
+zotero:seibert2015towardsanena	Zotero	2015	Towards an Enactive Swimming Sonification: Exploring Multisensory Design and Musical Interpretation	3	fundamental	5	development	medium	title	Swimming sonification exploration
+zotero:chaigne2016acousticsofm	Zotero	2016	Acoustics of Musical Instruments	1	fundamental			high	abstract	Acoustics textbook
+zotero:morais2016applicationo	Zotero	2016	Application of Myo Armband System to Control a Robot Interface.	4	applied			medium	title	Myo armband robot control
+zotero:donnarumma2016configuringc	Zotero	2016	Configuring Corporeality: Performing bodies, vibrations and new musical instruments.	6	applied	7	dissemination	medium	abstract	Thesis on bodies and new instruments
+zotero:faria2016exercisingmu	Zotero	2016	Exercising musicianship anew through soundpainting: speaking music through sound gestures	1	fundamental	6	development	medium	abstract	Soundpainting thesis
+zotero:frid2016interactives	Zotero	2016	Interactive Sonification of Spontaneous Movement of Children—Cross-Modal Mapping and the Perception of Body Movement Qualities through Sound	4	applied			high	abstract	Sonification studies with children
+zotero:barrett2016interactives	Zotero	2016	Interactive Spatial Sonification of Multidimensional Data for Composition and Auditory Display	4	applied	6	development	medium	abstract	Spatial sonification approach
+zotero:derrico2016interfaceaes	Zotero	2016	Interface Aesthetics. Sound, Software, and the Ecology of Digital Audio Production	1	fundamental			medium	title	Software aesthetics book
+zotero:nelson2016junkyardjamb	Zotero	2016	Junkyard jam band: DIY musical instruments and noisemakers	8	industrial	5	development	medium	abstract	DIY instrument projects book
+zotero:collins2016livecodingan	Zotero	2016	Live coding and teaching SuperCollider.	7	industrial	5	development	high	abstract	Teaching SuperCollider with live coding
+zotero:dannenberg2016o2rethinking	Zotero	2016	O2: Rethinking Open Sound Control	3	fundamental			high	abstract	O2 protocol proposal
+zotero:johnston2016opportunitie	Zotero	2016	Opportunities for Practice-Based Research in Musical Instrument Design	1	fundamental			medium	title	Practice-based research opportunities
+zotero:lepecki2016singularitie	Zotero	2016	Singularities: Dance in the Age of Performance	1	fundamental			medium	abstract	Dance theory book
+zotero:coop2016sonification	Zotero	2016	Sonification, Musification, and Synthesis of Absolute Program Music	3	fundamental	5	development	medium	abstract	Sonification of program music
+zotero:chabot2016spatializeds	Zotero	2016	Spatialized sound reproduction for telematic music performances in an immersive virtual environment	4	applied			medium	title	Telematic sound reproduction thesis
+zotero:laland2016theevolution	Zotero	2016	The evolution of dance	1	fundamental			medium	title	Evolution of dance review
+zotero:aho2016thetangiblei	Zotero	2016	The tangible in music: the tactile learning of a musical instrument	1	fundamental			medium	abstract	Tactile learning book chapter
+zotero:grau2016whypeopledan	Zotero	2016	Why people dance – evolution, sociality and dance	1	fundamental			medium	abstract	Dance evolution essay
+zotero:anon2017animereaderf	Zotero	2017	A NIME Reader: Fifteen Years of New Interfaces	1	fundamental			high	abstract	NIME anthology
+zotero:young2017anarmmounted	Zotero	2017	An arm-mounted inertial controller for 6DOF input: Design and evaluation	4	applied			high	title	Arm-mounted controller evaluated
+zotero:rostami2017biosensedand	Zotero	2017	Bio-Sensed and Embodied Participation in Interactive Performance	6	applied	6	development	high	abstract	Biosensed interactive performance
+zotero:hug2017cltktyclacke	Zotero	2017	CLTKTY? CLACK! Exploring Design and Interpretation of Sound for Interactive Commodities	4	applied	4	development	medium	title	Sound design for commodities
+zotero:parkinson2017demonstratin	Zotero	2017	Demonstrating Interactive Machine Learning Tools for Rapid Prototyping of Gestural Instruments in the Browser	6	applied			medium	title	ML tools demonstration
+zotero:bellona2017empiricallyi	Zotero	2017	Empirically Informed Sound Synthesis Application for Enhancing the Perception of Expressive Robotic Movement	4	applied			medium	title	Robot sound synthesis application
+zotero:himberg2017entrainmenta	Zotero	2017	Entrainment and Mutual Adaptation in Musical Movement and Dance	1	fundamental			medium	title	Entrainment chapter
+zotero:jakubowski2017extractingco	Zotero	2017	Extracting Coarse Body Movements from Video in Music Performance: A Comparison of Automated Computer Vision Techniques with Motion Capture Data	4	applied			high	abstract	Video motion extraction comparison
+zotero:enders2017fromidiophon	Zotero	2017	From Idiophone to Touchpad. The Technological Development to the Virtual Musical Instrument	1	fundamental			medium	title	Instrument history chapter
+zotero:dyer2017mappingsonif	Zotero	2017	Mapping sonification for perception and action in motor skill learning	1	fundamental			high	title	Sonification motor learning review
+zotero:anon2017musicalinstr	Zotero	2017	Musical Instruments in the 21st Century	1	fundamental			low	title	Instruments book
+zotero:visi2017musicalinstr	Zotero	2017	Musical instruments, body movement, space, and motion data: music as an emergent multimodal choreography	1	fundamental	6	development	medium	title	Music as choreography essay
+zotero:wang2017thelaptoporc	Zotero	2017	The Laptop Orchestra	9	industrial	7	dissemination	high	abstract	Laptop orchestra chapter
+zotero:cupellini2017thesoundmoti	Zotero	2017	The Sound Motion Controller: A Distributed System for Interactive Music Performance	4	applied			medium	title	Distributed performance controller
+zotero:markovic2018adaptiveinte	Zotero	2018	Adaptive Interface for Mapping Body Movements to Sounds	4	applied			high	abstract	Adaptive mapping interface
+zotero:robertson2018audiovisualr	Zotero	2018	Audiovisual Rhythm: Eisenstein's Laboratory of Music, Image and Sound	1	fundamental			high	abstract	Film rhythm theory book
+zotero:bressan2018betweenartis	Zotero	2018	Between artistic creativity and documentation: An experiment on interaction with an installation for music-making	5	applied	5	development	high	abstract	Installation interaction experiment
+zotero:bryant2018corispezzati	Zotero	2018	Cori spezzati in Composition and Sound	1	fundamental			high	abstract	Renaissance music history
+zotero:bell2018dawnofthedaw	Zotero	2018	Dawn of the DAW: The Studio as Musical Instrument	1	fundamental			high	abstract	Studio history book
+zotero:morreale2018effectofinst	Zotero	2018	Effect of Instrument Structure Alterations on Violin Performance	1	fundamental			high	abstract	Violin alteration experiment
+zotero:malloch2018generalizedm	Zotero	2018	Generalized Multi-Instance Control Mapping for Interactive Media Systems	3	fundamental			medium	title	Mapping method for media
+zotero:kinoshita2018investigatio	Zotero	2018	INVESTIGATION OF PLEASANTNESS IN THE MANIPULATION OF DEFORMABLE INTERFACES FOR MUSICAL EXPRESSION	4	applied			high	abstract	Deformable interface study
+zotero:ahmed2018interactiona	Zotero	2018	Interaction and Interactivity: In the Context of Digital Interactive Art Installation	1	fundamental	6	development	high	abstract	Interaction concepts in art
+zotero:dannenberg2018languagesfor	Zotero	2018	Languages for Computer Music	1	fundamental			high	abstract	Computer music languages review
+zotero:bye2018midipolyphon	Zotero	2018	MIDI Polyphonic Expression: A Bridge Between Acoustic and Electronic Instrument Experience?	1	fundamental			medium	abstract	MPE controllers discussion
+zotero:dahl2018modoscalibra	Zotero	2018	Modosc: a library of real-time movement descriptors for marker-based motion capture	8	industrial			high	abstract	Modosc library released
+zotero:puttke2018motionanalys	Zotero	2018	Motion Analysis as Pedagogic Tool in Dance	1	fundamental			medium	abstract	Dance pedagogy motion analysis
+zotero:weiss2018motiontypeso	Zotero	2018	Motion types of ancillary gestures in clarinet playing and their influence on the perception of musical performance	1	fundamental			high	abstract	Clarinet gesture perception study
+zotero:goebl2018movementandt	Zotero	2018	Movement and Touch in Piano Performance	1	fundamental			high	abstract	Piano movement overview
+zotero:silverthorne2018musicartandp	Zotero	2018	Music, Art and Performance from Liszt to Riot Grrrl: The Musicalization of Art	1	fundamental			high	abstract	Art and music history book
+zotero:anon2018musicalhapti	Zotero	2018	Musical Haptics	1	fundamental			low	title	Haptics book
+zotero:demos2018musiciansbod	Zotero	2018	Musicians body sway embodies musical structure and expression: A recurrence-based approach	1	fundamental			high	abstract	Body sway analysis
+zotero:tveit2018onusingthela	Zotero	2018	On using the laptop in improvisation. - Constrained interfaces, engaging instruments	1	fundamental	6	development	medium	title	Laptop improvisation thesis
+zotero:bjrn2018patchtweakex	Zotero	2018	Patch & Tweak - Exploring Modular Synthesis	8	industrial			medium	abstract	Modular synth book
+zotero:bachmann2018reviewofthre	Zotero	2018	Review of Three-Dimensional Human-Computer Interaction with Focus on the Leap Motion Controller	1	fundamental			high	abstract	Leap Motion review
+zotero:aristidou2018stylebasedmo	Zotero	2018	Style-based motion analysis for dance composition	3	fundamental	3	exploration	high	abstract	Motion analysis for dance composition
+zotero:bin2018theshowmustg	Zotero	2018	The Show Must Go Wrong: Towards an understanding of audience perception of error in digital musical instrument performance	4	applied			medium	title	Audience error perception thesis
+zotero:hffding2019aphenomenolo	Zotero	2019	A phenomenology of musical absorption	1	fundamental			high	title	Phenomenology of absorption
+zotero:gonzalezsanchez2019characterizi	Zotero	2019	Characterizing Movement Fluency in Musical Performance: Toward a Generic Measure for Technology Enhanced Learning	3	fundamental			high	abstract	Fluency measure proposal
+zotero:barbosa2019directmanipu	Zotero	2019	Direct Manipulation for Musical Interfaces Based on Visual Software: Design and Evaluation	4	applied			medium	abstract	Visual software interface evaluation
+zotero:weibezahn2019einszweianin	Zotero	2019	Eins, Zwei - An Interactive Space For Rhythm And Movement	6	applied	6	development	medium	title	Interactive space for rhythm
+zotero:carlson2019empathyentra	Zotero	2019	Empathy, Entrainment, and Perceived Interaction in Complex Dyadic Dance Movement	1	fundamental			high	abstract	Dance empathy study
+zotero:donahue2019enablingnewm	Zotero	2019	Enabling New Musical Interactions with Machine Learning	4	applied			medium	abstract	Machine learning interaction thesis
+zotero:stonge2019engagingwith	Zotero	2019	Engaging with Robotic Swarms: Commands from Expressive Motion	4	applied			medium	title	Swarm motion commands
+zotero:polfreman2019forcemotionc	Zotero	2019	Force & Motion: Conducting to the Click	3	fundamental			medium	title	Conducting force study
+zotero:kontogeorgakopoulos2019gamelancodes	Zotero	2019	Game|lan:Co-designing and co-creating an Orchestra of Digital Musical Instruments within the Fab Lab Network	6	applied	6	development	high	abstract	Co-designed digital instrument orchestra
+zotero:neuhoff2019issonificati	Zotero	2019	Is Sonification Doomed to Fail?	1	fundamental			high	abstract	Sonification position paper
+zotero:sioros2019mappingtimin	Zotero	2019	MAPPING TIMING STRATEGIES IN DRUM PERFORMANCE	1	fundamental			high	abstract	Drummer timing experiment
+zotero:lan2019quaverseries	Zotero	2019	QuaverSeries: A Live Coding Environment for Music Performance Using Web Technologies	8	industrial	7	dissemination	medium	title	Live coding environment released
+zotero:turchet2019smartmandoli	Zotero	2019	Smart Mandolin and Musical Haptic Gilet: effects of vibro-tactile stimuli during live music performance	5	applied	5	development	high	abstract	Haptic stimuli in live performance
+zotero:petersen2019theeffectoft	Zotero	2019	The effect of the cutoff frequency on the sound production of a clarinet-like instrument	4	applied			medium	title	Clarinet-like acoustics experiment
+zotero:garber2020audiostellar	Zotero	2020	AudioStellar, an open source corpus-based musical instrument for latent sound structure discovery and sonic experimentation	8	industrial	5	development	high	abstract	Open-source corpus-based instrument
+zotero:nestor2020breaththenew	Zotero	2020	Breath: The New Science of a Lost Art	1	fundamental			high	abstract	Popular science book
+zotero:erdem2020exploringrel	Zotero	2020	Exploring relationships between effort, motion, and sound in new musical instruments	4	applied			high	abstract	Guitar action-sound instrument study
+zotero:frid2020hapticmusice	Zotero	2020	HAPTIC MUSIC - EXPLORING WHOLE-BODY VIBRATIONS AND TACTILE SOUND FOR A MULTISENSORY MUSIC INSTALLATION	6	applied	6	development	high	abstract	Haptic music installation composition
+zotero:shimada2020physcapphysi	Zotero	2020	PhysCap: physically plausible monocular 3D motion capture in real time	3	fundamental			high	abstract	Monocular motion capture algorithm
+zotero:bishop2020reliabilityo	Zotero	2020	Reliability of two IR Motion Capture Systems in a Music Performance Setting	4	applied			high	abstract	Mocap reliability comparison
+zotero:bishop2020reliabilityob	Zotero	2020	Reliability of two infrared motion capture systems in a music performance setting	4	applied			high	title	Mocap reliability comparison
+zotero:joshi2020substituting	Zotero	2020	Substituting Restorative Benefits of Being Outdoors through Interactive Augmented Spatial Soundscapes	4	applied			medium	title	Spatial soundscape system
+zotero:wang2020thestudyofma	Zotero	2020	The Study of Mapping Strategies Between the Excitators of the Single-Reed Woodwind and the Bowed String	3	fundamental			high	abstract	Mapping strategy study
+zotero:erdem2020towardsplayi	Zotero	2020	Towards Playing in the ‘Air’: Modeling Motion–Sound Energy Relationships in Electric Guitar Performance Using Deep Neural Networks	4	applied			high	abstract	Motion-sound energy modelling
+zotero:aly2021appropriatin	Zotero	2021	Appropriating Biosensors as Embodied Control Structures in Interactive Music Systems	1	fundamental			high	abstract	Scoping review of biosensors
+zotero:bown2021beyondthecre	Zotero	2021	Beyond the Creative Species: Making Machines That Make Art and Music	1	fundamental			high	abstract	Computational creativity book
+zotero:wu2021chapter8anou	Zotero	2021	Chapter 8: An Outlook on Future Digital Musical Instruments In book , Routledge Press, 2021	1	fundamental			high	abstract	Instrument outlook chapter
+zotero:mice2021embodiedcogn	Zotero	2021	Embodied Cognition in Performers of Large Acoustic Instruments as a Method of Designing New Large Digital Musical Instruments	2	fundamental			medium	title	Design method from embodied cognition
+zotero:wallace2021learningembo	Zotero	2021	Learning Embodied Sound-Motion Mappings: Evaluating AI-Generated Dance Improvisation	4	applied	5	development	high	title	AI dance improvisation evaluation
+zotero:reyes2021memoryinmoti	Zotero	2021	Memory in Motion: UrbanTheater Company's Back in the Day and the Chicago Latinx Dance Crews of the 1980s	1	fundamental			medium	title	Dance history article
+zotero:keltystephen2021multifractal	Zotero	2021	Multifractality distinguishes reactive from proactive cascades in postural control	1	fundamental			high	abstract	Postural control analysis
+zotero:anon2021musicalinstr	Zotero	2021	Musical Instruments: Acoustics and Vibration	1	fundamental			medium	abstract	Acoustics special volume
+zotero:dellanna2021musicalinter	Zotero	2021	Musical interaction reveals music as embodied language	1	fundamental			medium	title	Embodied language study
+zotero:laczko2021reflectionso	Zotero	2021	Reflections on the Development of the Musical Gestures Toolbox for Python	8	industrial			high	abstract	Musical Gestures Toolbox Python
+zotero:mainsbridge2021somabasednon	Zotero	2021	Soma-Based Nonphysical Instrument Design in Electronic Music Performance	1	fundamental	6	development	high	abstract	Soma-based instrument design
+zotero:sullivan2021surveyingdig	Zotero	2021	Surveying digital musical instrument use in active practice	7	industrial			high	abstract	DMI use in practice survey
+zotero:vionnet2021thebirthofge	Zotero	2021	The Birth of Gesture. ‘I’m not dancing alone’	1	fundamental	6	development	medium	title	Gesture essay in dance
+zotero:tullberg2021windandwooda	Zotero	2021	Wind and Wood: Affordances of Musical Instruments: The Example of the Simple-System Flute	1	fundamental			high	abstract	Flute affordances dissertation
+zotero:lachmair2022actioncontro	Zotero	2022	Action-control mappings of interfaces in virtual reality: A study of embodied interaction	4	applied			high	title	VR interaction mapping study
+zotero:erdem2022controllingo	Zotero	2022	Controlling or Being Controlled? Exploring Embodiment, Agency and Artificial Intelligence in Interactive Music Performance	4	applied	6	development	high	abstract	AI interaction thesis
+zotero:tomascalderon2022embodiedgest	Zotero	2022	Embodied Gestures	1	fundamental			medium	abstract	Book about musical gestures
+zotero:tsang2022exploringasp	Zotero	2022	Exploring aspects of place through sound mapping	3	fundamental	4	development	medium	abstract	Sound mapping of place
+zotero:jensenius2022gesturesinen	Zotero	2022	Gestures in ensemble performance	1	fundamental			high	abstract	Ensemble gesture review
+zotero:baalman2022justaquestio	Zotero	2022	Just a Question of Mapping: Ins and outs of composing with realtime data	1	fundamental	6	development	medium	title	Mapping real-time data essay
+zotero:remachevinueza2022mappingmonop	Zotero	2022	Mapping Monophonic MIDI Tracks to Vibrotactile Stimuli Using Tactile Illusions	3	fundamental			high	abstract	Tactile illusion mapping algorithm
+zotero:cavdir2022performersus	Zotero	2022	Performers’ use of space and body in movement interaction with a movement-based digital musical instrument	4	applied	5	development	high	abstract	Performer space use study
+zotero:szorkovszky2022rapidrhythmi	Zotero	2022	Rapid rhythmic entrainment in bio-inspired central pattern generators	3	fundamental			high	abstract	Entrainment model in robots
+zotero:brandtsegg2022towardsapitc	Zotero	2022	Towards a pitch map for vibrotactile feedback instruments	3	fundamental			medium	title	Pitch map for vibrotactile
+zotero:cameron2022undetectable	Zotero	2022	Undetectable very-low frequency sound increases dancing at a live concert	5	applied			high	title	Infrasound live concert study
+zotero:guiottonaifovino2023edukoidevelo	Zotero	2023	Edukoi: developing an interactive sonification tool for astronomy between entertainment and education	4	applied			medium	title	Astronomy sonification tool
+zotero:haugen2023instructedti	Zotero	2023	Instructed timing and body posture in guitar and bass playing in groove performance	1	fundamental			high	abstract	Guitar timing study
+zotero:beadling2023listenerperc	Zotero	2023	Listener perception of spatialised audio for embodied interaction in sonification	4	applied			medium	title	Spatialised audio perception study
+zotero:almeida2023recordingand	Zotero	2023	Recording and analysing physical control variables used in clarinet playing: A musical instrument performance capture and analysis toolbox (MIPCAT)	4	applied			high	abstract	Clarinet control measurement
+zotero:reinsch2023soneculesapy	Zotero	2023	Sonecules: A Python Sonification Architecture	8	industrial			high	abstract	Python sonification toolkit
+zotero:moura2024increasedbod	Zotero	2024	Increased body movement equals better performance? Not always! Musical style determines motion degree perceived as optimal in music performance	1	fundamental			high	abstract	Motion perception study
+zotero:gody2024motionshapes	Zotero	2024	Motion shapes for sound shaping	1	fundamental			high	abstract	Perspective on motion and sound
+zotero:tahiroglu2024musicalintra	Zotero	2024	Musical intra-actions with digital musical instruments	1	fundamental			high	abstract	Intra-action conceptual article
+zotero:laczko2024synthmapsmap	Zotero	2024	SYNTH MAPS: MAPPING THE NON-PROPORTIONAL RELATIONSHIPS BETWEEN SYNTHESIZER PARAMETERS AND SYNTHESIZED SOUND	3	fundamental			high	abstract	Synth parameter mapping
+zotero:anon2024sonicdesigne	Zotero	2024	Sonic Design: Explorations Between Art and Science	1	fundamental	6	development	low	title	Art-science edited volume
+zotero:karbasi2024zrobexplorin	Zotero	2024	ZRob: Exploring Rhythmic Patterns and Emergent Behaviour in Robotic Drumming	4	applied			medium	title	Robotic drumming exploration
+zotero:czepiel2025audiovisualc	Zotero	2025	Audio-visual concert performances synchronize audience's heart rates	1	fundamental			high	abstract	Audience heart rate study
+zotero:iversen2025laptopcomput	Zotero	2025	Laptop computer as instrument in music performance lessons: issues and opportunities	1	fundamental			high	abstract	Laptop teaching discussion
+zotero:oflaherty2025sonification	Zotero	2025	Sonification Mappings for Sensing Tree Stress: A DIY Approach	3	fundamental	5	development	medium	title	Tree stress sonification mappings
+zotero:upham2025whenandhowth	Zotero	2025	When and How the Audience Moves	1	fundamental			high	abstract	Audience motion study
+zotero:serdar2026performative	Zotero	2026	Performative Togetherness in networked music–dance performance	1	fundamental	6	development	medium	abstract	Networked performance analysis
+cited:thberge1999anysoundyoucanim	Cited	1999	Any Sound You Can Imagine: Making Music/Consuming Technology	1	fundamental			medium	title	Sociological study of music technology consumption
+cited:simonsen2012routledgeinterna	Cited	2012	Routledge International Handbook of Participatory Design	1	fundamental			medium	title	Handbook of participatory design methods
+background:papert1982mindstorms	Background	1982	Mindstorms	1	fundamental			medium	title	Theory of computers in children's learning

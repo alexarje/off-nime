@@ -27,12 +27,24 @@ def main():
                      f"({st['year_range']['off-nime'][0]}–{st['year_range']['off-nime'][1]}), with {st['authors']} authors "
                      f"and {cs.get('internal_edges', 0)} citation links between them.")
     g["cnodes"], g["cedges"] = ci.pop("cnodes", []), ci.pop("cedges", [])
+    # each entry's references outside the archives, as indices into one shared table of titles
+    refs = json.loads((HERE / "data" / "refs.json").read_text())
+    xr, xi, pr = [], {}, {}
+    for pid, pp in refs["per_paper"].items():
+        ks = [r[2:] for r in pp.get("refs", []) if r.startswith("k:") and r[2:] in refs.get("titles", {})]
+        for k in ks:
+            if k not in xi:
+                xi[k] = len(xr)
+                t, y, a = refs["titles"][k]
+                xr.append([t[:160], y, a])
+        pr[pid] = [pp["n"], 1 if pp.get("source") == "openalex" else 0, sorted({xi[k] for k in ks}, key=lambda i: xr[i][0].lower())]
+    g["xr"], g["pr"] = xr, pr
     g["side"] = {
         "papers": f"<h2>Paper map</h2><p class='meta'>Each point is an entry, placed so that entries with similar "
                   f"wording in title, keywords and abstract lie close together (t-SNE on TF-IDF). Off-NIME entries "
                   f"have titles only, so their positions are less certain. The {len(g['topics'])} topics come from "
                   f"a non-negative matrix factorisation of the same text; choose one under Colour by.</p>"
-                  f"<p class='meta'>Click an entry to see what it cites, and is cited by, within the two archives.</p>",
+                  f"<p class='meta'>Click an entry to see what it cites and what cites it, within the two archives, and its other references.</p>",
         "authors": f"<h2>Co-author network</h2><p class='meta'>The {st['mapped_authors']} authors with at least two "
                    f"entries, of {st['authors']} in all. {st['authors_both']} authors appear in both archives. "
                    f"Names are matched on surname and first initial, so a few different people share a node.</p>",
@@ -101,7 +113,7 @@ def main():
         groups = {"All": None, "NIME papers": {"NIME papers", "NIME alt"},
                   "NIME concerts and installations": {"NIME music", "NIME installations"},
                   "Off-NIME archive": {"CMJ", "ICMC", "ISIDM", "Extras"},
-                  "Cited, Related and Theses": {"Cited", "Related", "Theses"}, "Background": {"Background"}, "Historical": {"Historical"}}
+                  "Cited, Related and Theses": {"Cited", "Related", "Theses"}, "Background": {"Background"}, "Historical": {"Historical"}, "Zotero": {"Zotero"}}
         mats = {}
         for name, ds in groups.items():
             m = [[0] * 10 for _ in range(10)]  # [arl 0..9][trl 0..9], 0 = none
