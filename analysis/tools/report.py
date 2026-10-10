@@ -85,6 +85,8 @@ def main():
     bk = json.loads((HERE / "data" / "books.json").read_text())
     v = {
         "bk_q": len(_books.QUERIES), "bk_n": len(bk), "bk_adm": sum(b["admit"] for b in bk), "bk_p": _books.MIN_P,
+        "tr_76": sum(1 for x in json.loads((HERE / "data" / "trl.json").read_text())
+                     if x["dataset"] in ("NIME papers", "NIME alt") and x["trl"] == 6 and x["arl"] == 7),
         "tr_n": trs["checks"]["estimates"], "tr_title": trs["basis"].get("title", 0),
         "tr_art": trs["checks"]["artworks_arl_7_plus_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
         "tr_noarl": trs["checks"]["nime_papers_without_arl_pct"],

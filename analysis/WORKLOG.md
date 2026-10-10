@@ -185,3 +185,9 @@ reading), added to Related as book entries and classified for TRL and ARL in a 2
 Thesis schools: aggregator names (Zenodo, NORA, HAL, LA Referencia) are replaced by the
 university where the repository domain names one, otherwise left empty (67 empty).
 SBCM 1994–1998: OCR running (tesseract, English only; the Portuguese pack is not installed).
+
+TRL against ARL: a heatmap in the atlas's Trends tab (selectable by group) and a static SVG in the
+report (`tools/readiness_figure.py`), at Alexander's request. CIM: all 21 volumes on
+cim.lim.di.unimi.it (1979–2024) have text layers; the splitter now reads Sommario and Riassunto
+headings. History: the reference parser only accepts years from 1940, so pre-1940 works
+(Hornbostel and Sachs 1914, Russolo 1913, Helmholtz 1863) are invisible to the citation counts.

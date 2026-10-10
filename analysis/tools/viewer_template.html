@@ -444,6 +444,35 @@ $("#trendview").innerHTML = DATA.trend_html
   .replace("{{heat_off}}", topicHeat("off-nime"))
   .replace("{{heat_nime}}", topicHeat("nime"));
 $("#missingview").innerHTML = DATA.missing_html;
+function readinessHeat(name) {
+  const m = DATA.readiness[name], cw = 46, rh = 30, lw = 150, top = 26, bottom = 46;
+  const cols = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0], rows = [9, 8, 7, 6, 5, 4, 3, 2, 1, 0];
+  const w = lw + cols.length * cw + 10, h = top + rows.length * rh + bottom;
+  const max = Math.max(1, ...rows.flatMap(a => cols.map(t => m[a][t])));
+  const total = rows.reduce((s, a) => s + cols.reduce((u, t) => u + m[a][t], 0), 0);
+  const bandA = a => a === 0 ? "none" : a <= 3 ? "exploration" : a <= 6 ? "development" : "dissemination";
+  let svg = `<svg width="${w}" height="${h}" role="img" aria-label="TRL against ARL for ${esc(name)}">`;
+  cols.forEach((t, c) => svg += `<text x="${lw + c * cw + cw / 2}" y="${top - 8}" text-anchor="middle">${t || "none"}</text>`);
+  svg += `<text x="${lw + 4.5 * cw}" y="${h - 12}" text-anchor="middle">TRL: fundamental 1–3 · applied 4–6 · industrial 7–9</text>`;
+  rows.forEach((a, r) => {
+    svg += `<text x="${lw - 8}" y="${top + r * rh + rh / 2 + 4}" text-anchor="end">ARL ${a || "none"}${a ? " · " + bandA(a) : ""}</text>`;
+    cols.forEach((t, c) => {
+      const v = m[a][t], x = lw + c * cw, y = top + r * rh;
+      svg += `<rect x="${x + 1}" y="${y + 1}" width="${cw - 2}" height="${rh - 2}" rx="2" fill="${v ? seq(Math.sqrt(v / max)) : "var(--surface-0)"}"><title>TRL ${t || "none"}, ARL ${a || "none"}: ${v} entries (${(100 * v / total).toFixed(1)}%)</title></rect>`;
+      if (v && v / max > 0.15) svg += `<text x="${x + cw / 2}" y="${y + rh / 2 + 4}" text-anchor="middle" style="fill:${Math.sqrt(v / max) > 0.55 ? "var(--surface-1)" : "var(--text-primary)"}">${v}</text>`;
+    });
+  });
+  [3, 6].forEach(k => {
+    svg += `<line x1="${lw + k * cw}" x2="${lw + k * cw}" y1="${top}" y2="${top + 9 * rh}" stroke="var(--text-muted)" stroke-dasharray="3 3"/>`;
+    svg += `<line x1="${lw}" x2="${lw + 9 * cw}" y1="${top + (9 - k) * rh}" y2="${top + (9 - k) * rh}" stroke="var(--text-muted)" stroke-dasharray="3 3"/>`;
+  });
+  $("#readiness").innerHTML = svg + `<p class="hint">${total} entries. Dashed lines separate the bands; hover a cell for its count.</p>`;
+}
+if (DATA.readiness) {
+  Object.keys(DATA.readiness).forEach(n => $("#rgroup").insertAdjacentHTML("beforeend", `<option>${esc(n)}</option>`));
+  $("#rgroup").addEventListener("change", () => readinessHeat($("#rgroup").value));
+  readinessHeat("All");
+}
 setView(["papers", "authors", "cites", "trends", "missing"].includes(location.hash.slice(1)) ? location.hash.slice(1) : "papers");
 </script>
 </body>

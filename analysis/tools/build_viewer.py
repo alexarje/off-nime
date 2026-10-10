@@ -52,6 +52,9 @@ def main():
 <section><h3>Entries per year</h3><p>Off-NIME entries end around 2012; the NIME proceedings start in 2001.</p>
 <div class="legend" style="padding:0 0 6px"><span><i style="background:var(--s2)"></i>Off-NIME archive</span><span><i style="background:var(--s1)"></i>NIME papers</span><span><i style="background:var(--s3)"></i>NIME music and installations</span></div>
 <div class="chartbox">{{{{years}}}}</div></section>
+<section><h3>Technology and artistic readiness</h3><p>Estimated TRL against estimated ARL, as numbers of entries; darker is more. "None" means no technology (TRL) or no artistic component (ARL). The estimates come from language-model agents reading title and abstract; see the report.</p>
+<div class="controls" style="padding:0 0 8px"><label>Group <select id="rgroup"></select></label></div>
+<div class="chartbox" id="readiness"></div></section>
 <section><h3>Topic share by five-year period, off-NIME archive</h3><p>Mean topic weight of the entries in each period; darker is a larger share. Periods with fewer than 10 entries are left out.</p><div class="chartbox">{{{{heat_off}}}}</div></section>
 <section><h3>Topic share by five-year period, NIME proceedings</h3><div class="chartbox">{{{{heat_nime}}}}</div></section>
 <section><h3>Topics</h3><p>Entries counted by their strongest topic.</p><div class="chartbox"><table><tr><th>#</th><th>Terms</th><th>Off-NIME</th><th>NIME</th></tr>{topics}</table></div></section>
@@ -92,6 +95,21 @@ def main():
         g["missing_html"] += f"""
 <section><h3>Cited by the Cited works</h3><p>One round of snowballing: works that at least three of the Cited works cite in their Crossref reference lists, and that neither archive nor Cited holds. The full list is in <code>candidates_snowball.tsv</code>.</p>
 <div class="chartbox"><table><tr><th>Cited by</th><th>Year</th><th>First author</th><th>Title</th></tr>{body}</table></div></section>"""
+    # TRL x ARL counts per group of datasets, for the readiness heatmap
+    tp = HERE / "data" / "trl.json"
+    if tp.exists():
+        groups = {"All": None, "NIME papers": {"NIME papers", "NIME alt"},
+                  "NIME concerts and installations": {"NIME music", "NIME installations"},
+                  "Off-NIME archive": {"CMJ", "ICMC", "ISIDM", "Extras"},
+                  "Cited, Related and Theses": {"Cited", "Related", "Theses"}, "Background": {"Background"}}
+        mats = {}
+        for name, ds in groups.items():
+            m = [[0] * 10 for _ in range(10)]  # [arl 0..9][trl 0..9], 0 = none
+            for x in json.loads(tp.read_text()):
+                if ds is None or x["dataset"] in ds:
+                    m[x["arl"] or 0][x["trl"] or 0] += 1
+            mats[name] = m
+        g["readiness"] = mats
     data = json.dumps(g, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
     tpl = (HERE / "tools" / "viewer_template.html").read_text()
     page = tpl.replace("/*DATA*/null", data)
