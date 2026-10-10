@@ -81,7 +81,10 @@ def main():
     per = trs["nime_papers_trl_band_by_period"]
     pk = sorted(per, key=int)
     share = lambda p, b: pct(per[p].get(b, 0), sum(per[p].values()))
+    import books as _books
+    bk = json.loads((HERE / "data" / "books.json").read_text())
     v = {
+        "bk_q": len(_books.QUERIES), "bk_n": len(bk), "bk_adm": sum(b["admit"] for b in bk), "bk_p": _books.MIN_P,
         "tr_n": trs["checks"]["estimates"], "tr_title": trs["basis"].get("title", 0),
         "tr_art": trs["checks"]["artworks_arl_7_plus_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
         "tr_noarl": trs["checks"]["nime_papers_without_arl_pct"],

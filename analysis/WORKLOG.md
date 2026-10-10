@@ -175,3 +175,13 @@ at ARL 7+ 96.8%, Background at TRL 1–3 80.0%, NIME papers without ARL 52.0%. A
 problems in the NIME bibliography: "NIME papers" entries without abstracts that look like
 artworks ("Thresholds", "Sensity", 2005), and front matter among the music entries ("NIME 2019
 Concert Program", "Program Committee Members").
+
+Books: a Crossref book search (34 queries) judged by the title classifier alone admitted
+accounting manuals, flooring standards and dental guides, since the classifier only knows
+music-technology and HCI titles. Requiring music or sound vocabulary still admitted mostly
+musicology and Grove and ANB encyclopedia entries; requiring technology vocabulary as well, and
+dropping reference-book records and standards, leaves 93 books (about four in five on topic in my
+reading), added to Related as book entries and classified for TRL and ARL in a 21st batch.
+Thesis schools: aggregator names (Zenodo, NORA, HAL, LA Referencia) are replaced by the
+university where the repository domain names one, otherwise left empty (67 empty).
+SBCM 1994–1998: OCR running (tesseract, English only; the Portuguese pack is not installed).

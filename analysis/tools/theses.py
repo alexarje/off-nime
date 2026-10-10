@@ -34,6 +34,15 @@ CACHE.mkdir(parents=True, exist_ok=True)
 OUT = HERE.parent / "bibs" / "Theses" / "theses.bib"
 K = 10
 MIN_CITES = 3
+AGGREGATOR = re.compile(r"zenodo|nora|la referencia|\bhal\b|^era$|figshare|core|base|openaire|datacite|"
+                        r"networked digital library|ndltd|oatd|dart-europe|ethos|proquest", re.I)
+SCHOOL_ALIASES = {"McGill": "McGill University"}
+DOMAINS = {"duo.uio.no": "University of Oslo", "ntnuopen.ntnu.no": "Norwegian University of Science and Technology",
+           "bora.uib.no": "University of Bergen", "munin.uit.no": "UiT The Arctic University of Norway",
+           "nmh.brage": "Norwegian Academy of Music", "uia.brage": "University of Agder", "oda.oslomet.no": "OsloMet",
+           "diva-portal.org": "", "theses.hal.science": "", "era.ed.ac.uk": "University of Edinburgh",
+           "era.library.ualberta.ca": "University of Alberta", "escholarship.mcgill.ca": "McGill University",
+           "qmro.qmul.ac.uk": "Queen Mary University of London", "pearl.plymouth.ac.uk": "University of Plymouth"}
 NEAR_Q = 50  # percentile of the calibration theses used as the closeness threshold
 OPENALEX_PAGES = 4
 BUDGET = {"remaining": 1.0}  # OpenAlex's remaining daily allowance in USD, read from response headers
@@ -267,6 +276,12 @@ def main():
             school = t["school"] or ""
             m = re.search(r"\(([^()]*(?:Univ|Institut|College|School|McGill|École|Hochschule)[^()]*)\)\s*$", school)
             school = m.group(1) if m else school
+            school = SCHOOL_ALIASES.get(school, school)
+            if AGGREGATOR.search(school):
+                # an aggregator is not the awarding institution: use the repository's domain where it
+                # names one, otherwise leave the school empty
+                dom = re.search(r"https?://([^/]+)", t["url"] or "")
+                school = next((v for k, v in DOMAINS.items() if dom and k in dom.group(1)), "")
             fields = [("author", " and ".join(authors)), ("title", t["title"]), ("school", school),
                       ("year", t["year"]), ("doi", t["doi"] if t["doi"] else None),
                       ("url", t["url"] if not t["doi"] else None),

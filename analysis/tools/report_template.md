@@ -84,6 +84,10 @@ JIM and SBCM records are scored by their English title and abstract, which the r
 
 The candidates from the sweep are too mixed to publish as they stand: a reading of sampled titles found many off topic (compilers, game audio, music recommendation). A strict tier, with contrast at least the upper quartile of the curated CMJ articles and closeness at least their median, held few off-topic titles in a second reading. [`bibs/Related/related.bib`](../bibs/Related/related.bib) holds the {{rel_n}} papers of that tier that Cited and Theses do not already hold, with one copy of any title found in two venues. The website shows them under a Related tab.
 
+### Books
+
+Books were searched in Crossref ({{bk_q}} queries for books, edited volumes and monographs). They rarely carry abstracts, so they are judged by the title classifier, after two filters learnt from reading the results: the title must name music or sound and must also name technology, since musicology, instrument history and encyclopedia entries otherwise dominate. Of {{bk_n}} books that pass the filters, {{bk_adm}} with a NIME-topic probability of at least {{bk_p}} join the Related dataset as book entries; the full list is [`candidates_books.tsv`](output/candidates_books.tsv). Books that the archives cite, such as Sound Actions and A NIME Reader, are in Cited.
+
 ### Theses
 
 PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. {{th_q}} NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave {{th_n}} distinct theses, of which {{th_ne}} are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).

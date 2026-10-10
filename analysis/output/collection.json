@@ -114638,7 +114638,6 @@
 "given": "Sylvie"
 }
 ],
-"container-title": "HAL (Le Centre pour la Communication Scientifique Directe)",
 "URL": "https://hal.science/tel-01267452",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -114743,7 +114742,6 @@
 "given": "P."
 }
 ],
-"container-title": "HAL (Le Centre pour la Communication Scientifique Directe)",
 "URL": "https://hal.science/tel-02577179v1",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -115000,7 +114998,6 @@
 "given": "Jordi"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.3739281",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -115164,7 +115161,6 @@
 "given": "Esteban"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.3743136",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -115185,7 +115181,7 @@
 "given": "Anne-Marie"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.13140/rg.2.1.3586.1527",
 "note": "Collection: Theses. Found in OpenAlex; cites 6 archive entries; selected by similarity to the archives",
 "issued": {
@@ -115206,7 +115202,6 @@
 "given": "Sylvain"
 }
 ],
-"container-title": "HAL (Le Centre pour la Communication Scientifique Directe)",
 "URL": "https://hal.science/tel-01195868v1",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -115227,7 +115222,7 @@
 "given": "Elliot"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/54889",
 "note": "Collection: Theses. Found in OpenAlex; cites 13 archive entries",
 "issued": {
@@ -115248,7 +115243,6 @@
 "given": "Sylvain Le"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.3743120",
 "note": "Collection: Theses. Found in DataCite; cites 7 archive entries; selected by similarity to the archives",
 "issued": {
@@ -115311,7 +115305,6 @@
 "given": "Catriona Mairi"
 }
 ],
-"container-title": "ERA",
 "URL": "http://hdl.handle.net/1842/6920",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -115373,7 +115366,6 @@
 "given": "Hélcio"
 }
 ],
-"container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "URL": "https://repositorio.ufu.br/handle/123456789/14655",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -115586,7 +115578,6 @@
 "given": "Takaaki"
 }
 ],
-"container-title": "Institutional Repositories DataBase (IRDB)",
 "DOI": "10.15083/00002393",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -115649,7 +115640,7 @@
 "given": "Joseph W."
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/17421",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -115752,7 +115743,7 @@
 "given": "Carmine"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/16792",
 "note": "Collection: Theses. Found in OpenAlex; cites 15 archive entries; selected by similarity to the archives",
 "issued": {
@@ -115773,7 +115764,6 @@
 "given": "Jordi"
 }
 ],
-"container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "DOI": "10.5281/zenodo.3685557",
 "note": "Collection: Theses. Found in OpenAlex; cites 20 archive entries",
 "issued": {
@@ -115857,7 +115847,6 @@
 "given": "Eirik"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "URL": "http://hdl.handle.net/10852/10086",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -116045,7 +116034,6 @@
 "given": "Alexandre"
 }
 ],
-"container-title": "HAL (Le Centre pour la Communication Scientifique Directe)",
 "URL": "https://theses.hal.science/tel-00497292",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -116150,7 +116138,6 @@
 "given": "Sebastián"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.3753106",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -116388,7 +116375,6 @@
 "given": "Alexandros"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.3754056",
 "note": "Collection: Theses. Found in DataCite; cites 11 archive entries",
 "issued": {
@@ -116409,7 +116395,7 @@
 "given": "Rodolphe"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/45923",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -116686,7 +116672,6 @@
 "given": "Evangelos"
 }
 ],
-"container-title": "ERA",
 "URL": "http://hdl.handle.net/1842/10434",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -116875,7 +116860,6 @@
 "given": "Even"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "URL": "http://hdl.handle.net/10852/34609",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -117131,7 +117115,6 @@
 "given": "Gerard"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.10498818",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -117152,7 +117135,6 @@
 "given": "Håkon"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "URL": "http://hdl.handle.net/10852/38489",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -117215,7 +117197,6 @@
 "given": "Kristian"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "URL": "http://hdl.handle.net/10852/34354",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -117278,7 +117259,6 @@
 "given": "Lionel"
 }
 ],
-"container-title": "HAL (Le Centre pour la Communication Scientifique Directe)",
 "URL": "https://theses.hal.science/tel-00926980",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -117537,7 +117517,7 @@
 "given": "Tami"
 }
 ],
-"container-title": "ERA",
+"container-title": "University of Edinburgh",
 "URL": "https://era.ed.ac.uk/bitstream/1842/9478/2/Gadir2014.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -117600,7 +117580,6 @@
 "given": "Andrés"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.3699140",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -118018,7 +117997,6 @@
 "given": "Jackes Douglas Nunes"
 }
 ],
-"container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "URL": "http://repositorio.bc.ufg.br/tede/handle/tede/4935",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -118459,7 +118437,6 @@
 "given": "Bo"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "URL": "http://hdl.handle.net/10852/51118",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119198,7 +119175,6 @@
 "given": "Tejaswinee"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "DOI": "10.13140/rg.2.2.10863.79525",
 "note": "Collection: Theses. Found in OpenAlex; cites 6 archive entries",
 "issued": {
@@ -119219,7 +119195,6 @@
 "given": "Hilmar"
 }
 ],
-"container-title": "NORA - Norwegian Open Research Archives",
 "URL": "https://hdl.handle.net/11250/2678159",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119323,7 +119298,6 @@
 "given": "Aikaterini"
 }
 ],
-"container-title": "ERA",
 "URL": "http://hdl.handle.net/1842/36042",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119767,7 +119741,6 @@
 "given": "Marcio Albano Hermelino"
 }
 ],
-"container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "URL": "https://hdl.handle.net/20.500.12733/2744",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119788,7 +119761,6 @@
 "given": "Linderson Christian Sales de"
 }
 ],
-"container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "URL": "https://repositorio.ufpb.br/jspui/handle/123456789/28196",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119851,7 +119823,7 @@
 "given": "Johnty Yizhong"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/37632",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119914,7 +119886,6 @@
 "given": "Adam Pultz"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.8017965",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -119935,7 +119906,6 @@
 "given": "Nicholas"
 }
 ],
-"container-title": "Zenodo",
 "DOI": "10.5281/zenodo.8380627",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
@@ -119956,7 +119926,7 @@
 "given": "Brady"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/39164",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -119998,7 +119968,7 @@
 "given": "Jonathan"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/1370",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -120061,7 +120031,7 @@
 "given": "Phillip"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/33747",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -120082,7 +120052,6 @@
 "given": "Marcos Vinícius"
 }
 ],
-"container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "URL": "https://repositorio.bc.ufg.br/bitstreams/bbff4aff-ba74-437a-8ef2-023b1b1c21b3/download",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -120145,7 +120114,7 @@
 "given": "Diego I Quiroz"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/13234",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -120354,7 +120323,7 @@
 "given": "Martin"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "URL": "https://hdl.handle.net/20.500.14905/72506",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -120585,7 +120554,7 @@
 "given": "Max"
 }
 ],
-"container-title": "McGill",
+"container-title": "McGill University",
 "DOI": "10.82308/32797",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -120913,7 +120882,6 @@
 "id": "thesis:anon2026howdoesmusiccomp",
 "type": "thesis",
 "title": "How does music composed by a musician compare to music composed by a dancer using motion capture, in terms of expressing a prompt?",
-"container-title": "Figshare",
 "URL": "https://figshare.com/articles/thesis/How_does_music_composed_by_a_musician_compare_to_music_composed_by_a_dancer_using_motion_capture_in_terms_of_expressing_a_prompt_/32614422",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
@@ -124123,6 +124091,2095 @@
 "date-parts": [
 [
 2023
+]
+]
+}
+},
+{
+"id": "related:jhnichen2025changingmusi",
+"type": "book",
+"title": "Changing Musical Instruments and AI; Musical Instruments in Public Life",
+"author": [
+{
+"family": "Jähnichen",
+"given": "Gisa"
+}
+],
+"container-title": "Logos Verlag Berlin",
+"DOI": "10.30819/5987",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.933)",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "related:rveillac2019electronicmu",
+"type": "book",
+"title": "Electronic Music Machines: The New Musical Instruments",
+"author": [
+{
+"family": "Réveillac",
+"given": "Jean‐Michel"
+}
+],
+"container-title": "Wiley",
+"DOI": "10.1002/9781119618089",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.996)",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "related:waksman2001instrumentso",
+"type": "book",
+"title": "Instruments of Desire: The Electric Guitar and the Shaping of Musical Experience",
+"author": [
+{
+"family": "Waksman",
+"given": "Steve"
+}
+],
+"container-title": "Harvard University Press",
+"DOI": "10.2307/j.ctv1p6hq8n",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.96)",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "related:snchezjara2021eltextomusic",
+"type": "book",
+"title": "El texto musical en la esfera digital: Características, funcionalidades y aplicación como recurso formativo en instituciones de educación musical",
+"author": [
+{
+"family": "Sánchez-Jara",
+"given": "Javier Merchán"
+}
+],
+"container-title": "Ediciones Universidad de Salamanca",
+"DOI": "10.14201/0mv0011",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.823)",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "related:emmerson2011combiningthe",
+"type": "book",
+"title": "Combining the Acoustic and the Digital: Music for Instruments and Computers or Prerecorded Sound",
+"author": [
+{
+"family": "Emmerson",
+"given": "Simon"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199792030.013.0009",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.986)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:bullock2018designingint",
+"type": "book",
+"title": "Designing Interfaces for Musical Algorithms",
+"author": [
+{
+"family": "Bullock",
+"given": "Jamie"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780190226992.013.10",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.857)",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "related:koozin2024embodiedexpr",
+"type": "book",
+"title": "Embodied Expression in Popular Music: A Theory of Musical Gesture and Agency",
+"author": [
+{
+"family": "Koozin",
+"given": "Timothy"
+}
+],
+"container-title": "Oxford University PressNew York",
+"DOI": "10.1093/oso/9780197692981.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.904)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:weinberg2020roboticmusic",
+"type": "book",
+"title": "Robotic Musicianship: Embodied Artificial Creativity and Mechatronic Musical Expression",
+"author": [
+{
+"family": "Weinberg",
+"given": "Gil"
+},
+{
+"family": "Bretan",
+"given": "Mason"
+},
+{
+"family": "Hoffman",
+"given": "Guy"
+},
+{
+"family": "Driscoll",
+"given": "Scott"
+}
+],
+"container-title": "Springer International Publishing",
+"DOI": "10.1007/978-3-030-38930-7",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.995)",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "related:canfer2023musictechnol",
+"type": "book",
+"title": "Music Technology in Live Performance: Tools, Techniques, and Interaction",
+"author": [
+{
+"family": "Canfer",
+"given": "Tim"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003370406",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.983)",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "related:stover2026makingmusict",
+"type": "book",
+"title": "Making Music Together: Analytical Perspectives on Musical Interaction",
+"author": [
+{
+"family": "Stover",
+"given": "Chris"
+},
+{
+"family": "Michaelsen",
+"given": "Garrett"
+}
+],
+"container-title": "Oxford University PressNew York",
+"DOI": "10.1093/oso/9780197806050.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.812)",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "related:redhead2024interactivet",
+"type": "book",
+"title": "Interactive Technologies and Music Making: Transmutable Music",
+"author": [
+{
+"family": "Redhead",
+"given": "Tracy"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003273554",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.934)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:manzo2011maxmspjitter",
+"type": "book",
+"title": "Max/MSP/Jitter for Music: A Practical Guide to Developing Interactive Music Systems for Education and More",
+"author": [
+{
+"family": "Manzo",
+"given": "V. J"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oso/9780199777679.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.959)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:korsgaard2017musicvideoaf",
+"type": "book",
+"title": "Music Video after MTV: Audiovisual Studies, New Media, and Popular Music",
+"author": [
+{
+"family": "Korsgaard",
+"given": "Mathias Bonde"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781315617565",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.89)",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "related:king2016newperspecti",
+"type": "book",
+"title": "New Perspectives on Music and Gesture",
+"author": [
+{
+"family": "King",
+"given": "Elaine"
+},
+{
+"family": "Gritten",
+"given": "Anthony"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781315598048",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.828)",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "related:geronazzo2023sonicinterac",
+"type": "book",
+"title": "Sonic Interactions in Virtual Environments",
+"author": [
+{
+"family": "Geronazzo",
+"given": "Michele"
+},
+{
+"family": "Serafin",
+"given": "Stefania"
+}
+],
+"container-title": "Springer International Publishing",
+"DOI": "10.1007/978-3-031-04021-4",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.85)",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "related:whittington2011thesonicplay",
+"type": "book",
+"title": "The Sonic Playpen: Sound Design and Technology in Pixar’s Animated Shorts",
+"author": [
+{
+"family": "Whittington",
+"given": "William"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780195388947.013.0087",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.914)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:hagood2019hushmediaand",
+"type": "book",
+"title": "Hush: Media and Sonic Self-Control",
+"author": [
+{
+"family": "Hagood",
+"given": "Mack"
+}
+],
+"container-title": "Duke University Press",
+"DOI": "10.1215/9781478004479",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.918)",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "related:grimshaw2015sonicvirtual",
+"type": "book",
+"title": "Sonic Virtuality: Sound as Emergent Perception",
+"author": [
+{
+"family": "Grimshaw",
+"given": "Mark"
+},
+{
+"family": "Garner",
+"given": "Tom"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/acprof:oso/9780199392834.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.954)",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "related:ikoniadou2014therhythmice",
+"type": "book",
+"title": "The Rhythmic Event: Art, Media, and the Sonic",
+"author": [
+{
+"family": "Ikoniadou",
+"given": "Eleni"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/9886.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.913)",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "related:kennedy2015chaosmediaas",
+"type": "book",
+"title": "Chaos Media: A Sonic Economy of Digital Space",
+"author": [
+{
+"family": "Kennedy",
+"given": "Stephen"
+}
+],
+"container-title": "Bloomsbury Publishing Inc",
+"DOI": "10.5040/9781501310065",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.812)",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "related:bloustien2017sonicsynergi",
+"type": "book",
+"title": "Sonic Synergies: Music, Technology, Community, Identity",
+"author": [
+{
+"family": "Bloustien",
+"given": "Gerry"
+},
+{
+"family": "Peters",
+"given": "Margaret"
+},
+{
+"family": "Luckman",
+"given": "Susan"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781315087825",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.83)",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "related:hermes2021performingel",
+"type": "book",
+"title": "Performing Electronic Music Live",
+"author": [
+{
+"family": "Hermes",
+"given": "Kirsten"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9780367340759",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.958)",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "related:anon2015thedigitalev",
+"type": "book",
+"title": "The Digital Evolution of Live Music",
+"container-title": "Elsevier",
+"DOI": "10.1016/c2014-0-01417-7",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.872)",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "related:sallis2017liveelectron",
+"type": "book",
+"title": "Live Electronic Music: Composition, Performance, Study",
+"author": [
+{
+"family": "Sallis",
+"given": "Friedemann"
+},
+{
+"family": "Bertolani",
+"given": "Valentina"
+},
+{
+"family": "Burle",
+"given": "Jan"
+},
+{
+"family": "Zattra",
+"given": "Laura"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781315776989",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.957)",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "related:manning2013electronican",
+"type": "book",
+"title": "Electronic and Computer Music",
+"author": [
+{
+"family": "Manning",
+"given": "Peter"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/acprof:oso/9780199746392.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.979)",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "related:brett2021thecreativee",
+"type": "book",
+"title": "The Creative Electronic Music Producer",
+"author": [
+{
+"family": "Brett",
+"given": "Thomas"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003022466",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.809)",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "related:payling2023electronicvi",
+"type": "book",
+"title": "Electronic Visual Music: The Elements of Audiovisual Creativity",
+"author": [
+{
+"family": "Payling",
+"given": "Dave"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/b23058",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.85)",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "related:peters2012bodilyexpres",
+"type": "book",
+"title": "Bodily Expression in Electronic Music",
+"author": [
+{
+"family": "Peters",
+"given": "Deniz"
+},
+{
+"family": "Eckel",
+"given": "Gerhard"
+},
+{
+"family": "Dorschel",
+"given": "Andreas"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203145098",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.807)",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
+"id": "related:collins2020handmadeelec",
+"type": "book",
+"title": "Handmade Electronic Music: The Art of Hardware Hacking",
+"author": [
+{
+"family": "Collins",
+"given": "Nicolas"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780429264818",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.931)",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "related:skjerseth2026preprogramme",
+"type": "book",
+"title": "Preprogrammed: How Electronic Presets Changed Music and Media",
+"author": [
+{
+"family": "Skjerseth",
+"given": "Amy"
+}
+],
+"container-title": "University of California Press",
+"DOI": "10.1525/luminos.282",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.827)",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "related:jacobs2014filmrhythmaf",
+"type": "book",
+"title": "Film Rhythm after Sound: Technology, Music, and Performance",
+"author": [
+{
+"family": "Jacobs",
+"given": "Lea"
+}
+],
+"container-title": "University of California Press",
+"DOI": "10.1525/9780520960015",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.943)",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "related:snoman2026sounddesigna",
+"type": "book",
+"title": "Sound Design and Synthesis for Electronic and Modern Music: Beyond the Drop",
+"author": [
+{
+"family": "Snoman",
+"given": "Rick"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003716808",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.887)",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "related:ciabattoni2024dantesperfor",
+"type": "book",
+"title": "Dante’s Performance: Music, Dance, and Drama in the “Commedia”",
+"author": [
+{
+"family": "Ciabattoni",
+"given": "Francesco"
+}
+],
+"container-title": "De Gruyter",
+"DOI": "10.1515/9783111406497",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.957)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:sanden2013livenessinmo",
+"type": "book",
+"title": "Liveness in Modern Music: Musicians, Technology, and the Perception of Performance",
+"author": [
+{
+"family": "Sanden",
+"given": "Paul"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203078518",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.894)",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "related:weinel2018innersoundal",
+"type": "book",
+"title": "Inner Sound: Altered States of Consciousness in Electronic Music and Audio-Visual Media",
+"author": [
+{
+"family": "Weinel",
+"given": "Jonathan"
+}
+],
+"container-title": "Oxford University PressNew York",
+"DOI": "10.1093/oso/9780190671181.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.926)",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "related:hepworthsawyer2019innovationin",
+"type": "book",
+"title": "Innovation in Music : Performance, Production, Technology and Business",
+"author": [
+{
+"family": "Hepworth-Sawyer",
+"given": "Russ"
+},
+{
+"family": "Hodgson",
+"given": "Jay"
+},
+{
+"family": "Paterson",
+"given": "Justin"
+},
+{
+"family": "Toulson",
+"given": "Rob"
+}
+],
+"container-title": "Taylor & Francis",
+"DOI": "10.26530/oapen_1005168",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.833)",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "related:tenney2017computermusi",
+"type": "book",
+"title": "Computer Music Experiences, 1961–1964",
+"author": [
+{
+"family": "Tenney",
+"given": "James"
+}
+],
+"container-title": "University of Illinois Press",
+"DOI": "10.5406/illinois/9780252038723.003.0003",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.899)",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "related:lazzarini2017computermusi",
+"type": "book",
+"title": "Computer Music Instruments",
+"author": [
+{
+"family": "Lazzarini",
+"given": "Victor"
+}
+],
+"container-title": "Springer International Publishing",
+"DOI": "10.1007/978-3-319-63504-0",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.991)",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "related:wishart2011computermusi",
+"type": "book",
+"title": "Computer Music: Some Reflections",
+"author": [
+{
+"family": "Wishart",
+"given": "Trevor"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199792030.013.0007",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.911)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:lennox2011spatializati",
+"type": "book",
+"title": "Spatialization and Computer Music",
+"author": [
+{
+"family": "Lennox",
+"given": "Peter"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199792030.013.0013",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.988)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:cope2001virtualmusic",
+"type": "book",
+"title": "Virtual Music: Computer Synthesis of Musical Style",
+"author": [
+{
+"family": "Cope",
+"given": "David"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/7106.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.941)",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "related:miranda2007evolutionary",
+"type": "book",
+"title": "Evolutionary Computer Music",
+"author": [
+{
+"family": "Miranda",
+"given": "Eduardo Reck"
+},
+{
+"family": "Biles",
+"given": "John Al"
+}
+],
+"container-title": "Springer London",
+"DOI": "10.1007/978-1-84628-600-1",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.922)",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "related:dean2011theoxfordhan",
+"type": "book",
+"title": "The Oxford Handbook of Computer Music",
+"author": [
+{
+"family": "Dean",
+"given": "Roger T."
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199792030.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.959)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:guillaume2006musicandacou",
+"type": "book",
+"title": "Music and Acoustics: From Instrument to Computer",
+"author": [
+{
+"family": "Guillaume",
+"given": "Philippe"
+}
+],
+"container-title": "Wiley",
+"DOI": "10.1002/9780470612446",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.968)",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "related:dean2011envisagingim",
+"type": "book",
+"title": "Envisaging Improvisation in Future Computer Music",
+"author": [
+{
+"family": "Dean",
+"given": "Roger T."
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199792030.013.0006",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.949)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:keislar2011ahistoricalv",
+"type": "book",
+"title": "A Historical View of Computer Music Technology",
+"author": [
+{
+"family": "Keislar",
+"given": "Douglas"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199792030.013.0002",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.812)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:lazzarini2019computermusi",
+"type": "book",
+"title": "Computer Music Instruments II: Realtime and Object-Oriented Audio",
+"author": [
+{
+"family": "Lazzarini",
+"given": "Victor"
+}
+],
+"container-title": "Springer International Publishing",
+"DOI": "10.1007/978-3-030-13712-0",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.996)",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "related:nelson2015thesoundofin",
+"type": "book",
+"title": "The Sound of Innovation: Stanford and the Computer Music Revolution",
+"author": [
+{
+"family": "Nelson",
+"given": "Andrew J."
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/10086.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.825)",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "related:miranda2025advancesinqu",
+"type": "book",
+"title": "Advances in Quantum Computer Music",
+"author": [
+{
+"family": "Miranda",
+"given": "Eduardo Reck"
+}
+],
+"container-title": "WORLD SCIENTIFIC",
+"DOI": "10.1142/14025",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.814)",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "related:gabrielli2016wirelessnetw",
+"type": "book",
+"title": "Wireless Networked Music Performance",
+"author": [
+{
+"family": "Gabrielli",
+"given": "Leonardo"
+},
+{
+"family": "Squartini",
+"given": "Stefano"
+}
+],
+"container-title": "Springer Singapore",
+"DOI": "10.1007/978-981-10-0335-6",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.901)",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "related:turowski2026gamefulcompo",
+"type": "book",
+"title": "Gameful Compositions in Interactive Computer Music",
+"author": [
+{
+"family": "Turowski",
+"given": "Paul"
+},
+{
+"family": "Hutchinson",
+"given": "Simon"
+},
+{
+"family": "Fukuda",
+"given": "Takuto"
+}
+],
+"container-title": "Springer Nature Switzerland",
+"DOI": "10.1007/978-3-032-12682-5",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.925)",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "related:politis2016digitaltools",
+"type": "book",
+"title": "Digital Tools for Computer Music Production and Distribution",
+"author": [
+{
+"family": "Politis",
+"given": "Dionysios"
+},
+{
+"family": "Tsalighopoulos",
+"given": "Miltiadis"
+},
+{
+"family": "Iglezakis",
+"given": "Ioannis"
+}
+],
+"container-title": "IGI Global",
+"DOI": "10.4018/978-1-5225-0264-7",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.888)",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "related:ng2008interactivem",
+"type": "book",
+"title": "Interactive Multimedia Music Technologies",
+"author": [
+{
+"family": "Ng",
+"given": "Kia"
+},
+{
+"family": "Nesi",
+"given": "Paolo"
+}
+],
+"container-title": "IGI Global",
+"DOI": "10.4018/978-1-59904-150-6",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.919)",
+"issued": {
+"date-parts": [
+[
+2008
+]
+]
+}
+},
+{
+"id": "related:harrison2024interactives",
+"type": "book",
+"title": "Interactive Sound and Music: Beyond Pressing Play",
+"author": [
+{
+"family": "Harrison",
+"given": "Lucy Ann"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003344148",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.876)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:rowe2016childrenscre",
+"type": "book",
+"title": "Children's Creative Music-Making with Reflexive Interactive Technology",
+"author": [
+{
+"family": "Rowe",
+"given": "Victoria"
+},
+{
+"family": "Triantafyllaki",
+"given": "Angeliki"
+},
+{
+"family": "Pachet",
+"given": "Francois"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781315679952",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.925)",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "related:collins2017frompacmanto",
+"type": "book",
+"title": "From Pac-Man to Pop Music: Interactive Audio in Games and New Media",
+"author": [
+{
+"family": "Collins",
+"given": "Karen"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781351217743",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.969)",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "related:dwinal2020interactivev",
+"type": "book",
+"title": "Interactive Visual Ideas for Musical Classroom Activities: Tips for Music Teachers",
+"author": [
+{
+"family": "Dwinal",
+"given": "Catherine"
+}
+],
+"container-title": "Oxford University PressNew York",
+"DOI": "10.1093/oso/9780190929855.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.801)",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "related:greher2014computationa",
+"type": "book",
+"title": "Computational Thinking in Sound: Teaching the Art and Science of Music and Technology",
+"author": [
+{
+"family": "Greher",
+"given": "Gena R."
+},
+{
+"family": "Heines",
+"given": "Jesse M."
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oso/9780199826179.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.898)",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "related:herbst2021gearacquisit",
+"type": "book",
+"title": "Gear Acquisition Syndrome: Consumption of Instruments and Technology in Popular Music",
+"author": [
+{
+"family": "Herbst",
+"given": "Jan-Peter"
+},
+{
+"family": "Menze",
+"given": "Jonas"
+}
+],
+"container-title": "University of Huddersfield Press",
+"DOI": "10.5920/gearacquisition.fulltext",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.84)",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "related:edstrom2024soundampmusi",
+"type": "book",
+"title": "Sound &amp; Music Projects for Eurorack and Beyond: Explorations in Teensy® Microcontroller Technology",
+"author": [
+{
+"family": "Edstrom",
+"given": "Brent"
+}
+],
+"container-title": "Oxford University PressNew York, NY",
+"DOI": "10.1093/9780197514504.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.802)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:duckworth2013virtualmusic",
+"type": "book",
+"title": "Virtual Music: How the Web Got Wired for Sound",
+"author": [
+{
+"family": "Duckworth",
+"given": "William"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203626160",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.835)",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "related:sexton2007musicsoundan",
+"type": "book",
+"title": "Music, Sound and Multimedia: From the Live to the Virtual",
+"author": [
+{
+"family": "Sexton",
+"given": "Jamie"
+}
+],
+"container-title": "Edinburgh University Press",
+"DOI": "10.3366/edinburgh/9780748625338.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.952)",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "related:butler2014playingwiths",
+"type": "book",
+"title": "Playing with Something That Runs: Technology, Improvisation, and Composition in DJ and Laptop Performance",
+"author": [
+{
+"family": "Butler",
+"given": "Mark J."
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/acprof:oso/9780195393613.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.976)",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "related:craninckx1998wirelesscmos",
+"type": "book",
+"title": "Wireless CMOS Frequency Synthesizer Design",
+"author": [
+{
+"family": "Craninckx",
+"given": "J."
+},
+{
+"family": "Steyaert",
+"given": "M."
+}
+],
+"container-title": "Springer US",
+"DOI": "10.1007/978-1-4757-2870-5",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.867)",
+"issued": {
+"date-parts": [
+[
+1998
+]
+]
+}
+},
+{
+"id": "related:pirkle2021designingsof",
+"type": "book",
+"title": "Designing Software Synthesizer Plugins in C++: With Audio DSP",
+"author": [
+{
+"family": "Pirkle",
+"given": "Will C."
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003052203",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.928)",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "related:oconnor2023darkwavesthe",
+"type": "book",
+"title": "Dark Waves: The Synthesizer and the Dystopian Sound of Britain (1977-80)",
+"author": [
+{
+"family": "O'Connor",
+"given": "Neil"
+}
+],
+"container-title": "Rowman & Littlefield Publishers",
+"DOI": "10.5771/9781538165317",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.953)",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "related:mcmillan2023digitalimmig",
+"type": "book",
+"title": "Digital Immigrants and Media Integration: The Smartphone Is the Synthesizer",
+"author": [
+{
+"family": "McMillan",
+"given": "Sally J."
+}
+],
+"container-title": "Lexington Books",
+"DOI": "10.5771/9781666919349",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.848)",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "related:staszewski2006alldigitalfr",
+"type": "book",
+"title": "All‐Digital Frequency Synthesizer in Deep‐Submicron CMOS",
+"author": [
+{
+"family": "Staszewski",
+"given": "Robert Bogdan"
+},
+{
+"family": "Balsara",
+"given": "Poras T."
+}
+],
+"container-title": "Wiley",
+"DOI": "10.1002/0470041951",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.836)",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "related:solis2011musicalrobot",
+"type": "book",
+"title": "Musical Robots and Interactive Multimodal Systems",
+"author": [
+{
+"family": "Solis",
+"given": "Jorge"
+},
+{
+"family": "Ng",
+"given": "Kia"
+}
+],
+"container-title": "Springer Berlin Heidelberg",
+"DOI": "10.1007/978-3-642-22291-7",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.932)",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "related:cruise1998principlesof",
+"type": "book",
+"title": "Principles of Space Instrument Design",
+"author": [
+{
+"family": "Cruise",
+"given": "A. M."
+},
+{
+"family": "Bowles",
+"given": "J. A."
+},
+{
+"family": "Patrick",
+"given": "T. J."
+},
+{
+"family": "Goodall",
+"given": "C. V."
+}
+],
+"container-title": "Cambridge University Press",
+"DOI": "10.1017/cbo9780511584503",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.954)",
+"issued": {
+"date-parts": [
+[
+1998
+]
+]
+}
+},
+{
+"id": "related:schmidt2023aphilosophyo",
+"type": "book",
+"title": "A Philosophy of Ambient Sound: Materiality, Technology, Art and the Sonic Environment",
+"author": [
+{
+"family": "Schmidt",
+"given": "Ulrik"
+}
+],
+"container-title": "Springer Nature Singapore",
+"DOI": "10.1007/978-981-99-1755-6",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.876)",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "related:burzynska2026thesensoryte",
+"type": "book",
+"title": "The Sensory Terroir of Crossmodal Art: Connecting the Senses through Wine and Sound",
+"author": [
+{
+"family": "Burzynska",
+"given": "Jo"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781003563976",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.956)",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "related:anderson2025sounddesignf",
+"type": "book",
+"title": "Sound Design for the Visual Storyteller: Creating Sound for Visual Media",
+"author": [
+{
+"family": "Anderson",
+"given": "Christopher D."
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003373094",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.84)",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "related:rosati2024playwithsoun",
+"type": "book",
+"title": "Play with Sound: Manual for Electronic Musicians and Other Sound Explorers",
+"author": [
+{
+"family": "Rosati",
+"given": "Tommaso"
+},
+{
+"family": "Hsu",
+"given": "Timothy"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003493372",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.895)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:sinclair2020principlesof",
+"type": "book",
+"title": "Principles of Game Audio and Sound Design: Sound Design and Audio Implementation for Interactive and Immersive Media",
+"author": [
+{
+"family": "Sinclair",
+"given": "Jean-Luc"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781315184432",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.874)",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "related:holman2013soundfordigi",
+"type": "book",
+"title": "Sound for Digital Video",
+"author": [
+{
+"family": "Holman",
+"given": "Tomlinson"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780080468402",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.851)",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "related:russ2012soundsynthes",
+"type": "book",
+"title": "Sound Synthesis and Sampling",
+"author": [
+{
+"family": "Russ",
+"given": "Martin"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780080481043",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.917)",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
+"id": "related:filimowicz2019foundationsi",
+"type": "book",
+"title": "Foundations in Sound Design for Interactive Media: A Multidisciplinary Approach",
+"author": [
+{
+"family": "Filimowicz",
+"given": "Michael"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9781315106342",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.801)",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "related:wilde2004audioprogram",
+"type": "book",
+"title": "Audio Programming for Interactive Games",
+"author": [
+{
+"family": "Wilde",
+"given": "Martin"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780080472065",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.922)",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "related:cullen2020learnaudioel",
+"type": "book",
+"title": "Learn Audio Electronics with Arduino: Practical Audio Circuits with Arduino Control",
+"author": [
+{
+"family": "Cullen",
+"given": "Charlie"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9780429197499",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.864)",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "related:eagle2005instantdigit",
+"type": "book",
+"title": "Instant Digital Audio",
+"author": [
+{
+"family": "Eagle",
+"given": "Douglas Spotted"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780080948966",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.835)",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "related:bailey2013networktechn",
+"type": "book",
+"title": "Network Technology for Digital Audio",
+"author": [
+{
+"family": "Bailey",
+"given": "Andy"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780080512556",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.813)",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "related:anon1992digitalaudio",
+"type": "book",
+"title": "Digital Audio and Compact Disc Technology",
+"container-title": "Elsevier",
+"DOI": "10.1016/c2013-0-04541-0",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.906)",
+"issued": {
+"date-parts": [
+[
+1992
+]
+]
+}
+},
+{
+"id": "related:zlzer2008digitalaudio",
+"type": "book",
+"title": "Digital Audio Signal Processing",
+"author": [
+{
+"family": "Zölzer",
+"given": "Udo"
+}
+],
+"container-title": "Wiley",
+"DOI": "10.1002/9780470680018",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.888)",
+"issued": {
+"date-parts": [
+[
+2008
+]
+]
+}
+},
+{
+"id": "related:dean2018theoxfordhan",
+"type": "book",
+"title": "The Oxford Handbook of Algorithmic Music",
+"author": [
+{
+"family": "Dean",
+"given": "Roger T."
+},
+{
+"family": "McLean",
+"given": "Alex"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780190226992.001.0001",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.827)",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "related:ogborn2018networkmusic",
+"type": "book",
+"title": "Network Music and the Algorithmic Ensemble",
+"author": [
+{
+"family": "Ogborn",
+"given": "David"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780190226992.013.7",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.855)",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "related:simoni2018theaudiencer",
+"type": "book",
+"title": "The Audience Reception of Algorithmic Music",
+"author": [
+{
+"family": "Simoni",
+"given": "Mary"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780190226992.013.14",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.813)",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "related:riis2016machinemusic",
+"type": "book",
+"title": "Machine Music: A Media Archaeological Excavation",
+"author": [
+{
+"family": "RIIS",
+"given": "MORTEN"
+}
+],
+"container-title": "Aarhus University Press",
+"DOI": "10.2307/jj.608224",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.892)",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "related:thurlow2025machinemusic",
+"type": "book",
+"title": "Machine Music: How AI is Transforming Music's Next Act",
+"author": [
+{
+"family": "Thurlow",
+"given": "Drew"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003499350",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.801)",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "related:amc2026virtualreali",
+"type": "book",
+"title": "Virtual Reality Audio: A Guide to Immersive Sound in Virtual Experiences",
+"author": [
+{
+"family": "Çamcı",
+"given": "Anıl"
+},
+{
+"family": "Corey",
+"given": "Jason"
+}
+],
+"container-title": "Focal Press",
+"DOI": "10.4324/9781003048022",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.856)",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "related:thorley2016virtualmusic",
+"type": "book",
+"title": "Virtual Music, Virtual Money",
+"author": [
+{
+"family": "Thorley",
+"given": "Mark"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/oxfordhb/9780199321285.013.31",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.841)",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "related:casanelles2024thehyperorch",
+"type": "book",
+"title": "The Hyperorchestra: Screen Music and Virtual Musical Ensembles",
+"author": [
+{
+"family": "Casanelles",
+"given": "Sergi"
+}
+],
+"container-title": "Springer Nature Switzerland",
+"DOI": "10.1007/978-3-031-75193-6",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.917)",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "related:drymonitis2024digitalelect",
+"type": "book",
+"title": "Digital Electronics for Musicians: Build Intuitive Electronics and Electroacoustic Music Interfaces",
+"author": [
+{
+"family": "Drymonitis",
+"given": "Alexandros"
+}
+],
+"container-title": "Apress",
+"DOI": "10.1007/979-8-8688-0394-9",
+"note": "Collection: Related. Book selected by title (NIME-topic probability 0.884)",
+"issued": {
+"date-parts": [
+[
+2024
 ]
 ]
 }

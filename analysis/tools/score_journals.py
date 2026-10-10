@@ -39,16 +39,17 @@ def write_bib(path, items, collection=None):
             while key in keys:
                 key += "b"
             keys.add(key)
-            kind = "article" if it["type"] == "journal-article" else "inproceedings"
-            fields = [("author", " and ".join(it["authors"])), ("title", it["title"]),
-                      ("journal" if kind == "article" else "booktitle", it["container"]), ("year", it["year"]),
+            kind = "article" if it["type"] == "journal-article" else "book" if it["type"] == "book" else "inproceedings"
+            fields = [("editor" if it.get("editors_only") else "author", " and ".join(it["authors"])), ("title", it["title"]),
+                      ("journal" if kind == "article" else "publisher" if kind == "book" else "booktitle", it["container"]),
+                      ("year", it["year"]),
                       ("volume", it["volume"]), ("number", it["issue"]),
                       ("pages", (it["pages"] or "").replace("-", "--") or None), ("doi", it["doi"]),
                       ("url", it.get("url") if not it["doi"] else None),
                       ("abstract", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", it["abstract"]))[:3000] if it.get("abstract") else None),
                       ("collection", collection),
                       ("note", "; ".join(x for x in [f"Original title: {it['title_orig']}" if it.get("title_orig") and it["title_orig"] != it["title"] else "",
-                                                    f"Selected by similarity to the archives (score {it['score']})" if collection else ""] if x) or None)]
+                                                    (f"Book selected by title (NIME-topic probability {it['score']})" if it["type"] == "book" else f"Selected by similarity to the archives (score {it['score']})") if collection else ""] if x) or None)]
             f.write(f"@{kind}{{{key},\n" + ",\n".join(f"  {k} = {{{re.sub(r'[{}]', '', str(v))}}}" for k, v in fields if v)
                     + "\n}\n\n")
 
@@ -139,6 +140,16 @@ def main():
             continue
         seen_t.add(k)
         related.append(it)
+    # books found by tools/books.py join Related as book entries
+    bp = HERE / "data" / "books.json"
+    if bp.exists():
+        for b in json.loads(bp.read_text()):
+            if b["admit"] and b["doi"] not in taken and title_key(b["title"]) not in taken | seen_t:
+                seen_t.add(title_key(b["title"]))
+                related.append({"title": b["title"], "authors": b["authors"] or b["editors"], "year": b["year"],
+                                "doi": b["doi"], "type": "book", "container": b["publisher"], "volume": None,
+                                "issue": None, "pages": None, "score": b["p_nime"], "abstract": "",
+                                "editors_only": not b["authors"]})
     write_bib(HERE.parent / "bibs" / "Related" / "related.bib", related, collection="Related")
     with open(HERE / "output" / "candidates_journals.tsv", "w") as f:
         f.write("score\tsource\tyear\ttitle\tauthors\tdoi\tnearest_archive_entry\n")
