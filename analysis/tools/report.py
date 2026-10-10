@@ -21,6 +21,23 @@ def pct(a, b):
     return f"{100 * a / b:.1f}%"
 
 
+def availability():
+    """Per dataset: entries, and the share with a full text, an abstract and a reference list,
+    from the columns export.py writes to output/collection.csv."""
+    import csv as _csv
+    from collections import defaultdict
+    rows = list(_csv.DictReader(open(HERE / "output" / "collection.csv")))
+    by = defaultdict(list)
+    for r in rows:
+        by[r["dataset"]].append(r)
+    out = ["| Dataset | Entries | Full text | Abstract | Reference list |", "|---|---:|---:|---:|---:|"]
+    for d in sorted(by, key=lambda d: -len(by[d])):
+        g = by[d]
+        sh = lambda col: f"{round(100 * sum(bool(r[col]) for r in g) / len(g))}%"
+        out.append(f"| {d} | {len(g)} | {sh('full_text')} | {sh('abstract')} | {sh('reference_list')} |")
+    return "\n".join(out)
+
+
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     by_id = {r["id"]: r for r in corpus}
@@ -90,6 +107,7 @@ def main():
     v = {
         "sb2_seeds": sb["round2"]["seeds"], "sb2_p": sb["round2"]["min_p"],
         "sb2_refs": sb["round2"]["with_reference_lists"], "sb2_cands": sb["round2"]["candidates"],
+        "gr_with": rs.get("with_grobid", 0),
         "oa_with": rs["with_openalex"], "oa_int": rs["internal_openalex"], "oa_ext": rs["external_openalex"],
         "oa_vol": rs["openalex_volume_skipped"], "oa_chap": rs["chapter_citations"],
         "zo_p": zo["tier_p"], "zo_tier": zo["tier"], "zo_ne": zo["tier_not_english"], "zo_near": zo["tier_near_match"],
@@ -157,6 +175,7 @@ def main():
         "e_on": eb.get("off-nime->nime", 0), "e_oo": eb.get("off-nime->off-nime", 0),
         "e_no_pct": pct(eb.get("nime->off-nime", 0), nime_out),
         "later": cs["checks"]["parsed_to_later_paper"], "parsed_edges": cs["checks"]["parsed_edges"],
+        "miss": round(100 - cs["checks"]["recall_against_s2"], 1), "avail_table": availability(),
         "recall": cs["checks"]["recall_against_s2"], "recall_n": cs["checks"]["s2_edges_in_parsed_papers"],
         "most_cited_table": table(["Title", "Year", "Channel", "Cited by"], ci["most_cited_internal"][:15]),
         "n_cited": cs["cited_candidates"],

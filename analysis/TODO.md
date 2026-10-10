@@ -2,6 +2,13 @@
 
 ## Now
 
+- [ARJ] Export the NIME 2022 paper collections from PubPub (the export failed on 2026-10-10), then
+  run `tools/pubpub_package.py 2022` and `tools/grobid_refs.py`.
+- [ARJ] Decide on the Zenodo deposit of the 2021 proceedings (zips and CHECK.md in the archive's
+  `2021/zenodo/`); 7 bibliography papers are missing from the export, probably in a collection
+  that was not exported. [Recommendation: one record per year, the PubPub DOIs as related
+  identifiers, with the steering committee's agreement.]
+
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
 - [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
   (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in
@@ -38,4 +45,3 @@
 
 ## Later
 
-- [ME] Improve the reference parser's recall (53% against Semantic Scholar); GROBID would help.

@@ -13,6 +13,7 @@ cap 1G fetch_s2.py          # slow without an API key; Ctrl-C after the DOI phas
 cap 1G fetch_citing.py
 cap 2G fetch_texts.py
 cap 2G extract_local.py     # needs the Seagate Hub disk mounted
+cap 2G grobid_refs.py      # needs GROBID running (~/tools/grobid-start.sh); hours on a first run
 cap 2G openalex_refs.py     # reference lists for entries without text; small daily OpenAlex allowance
 cap 2G parse_refs.py
 cap 4G citations.py

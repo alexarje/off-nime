@@ -39,17 +39,31 @@ def main():
                          "type": e["ENTRYTYPE"], "year": int(e["year"]) if e.get("year", "").isdigit() else None,
                          "title": e.get("title", ""), "names": [n for _, n in au],
                          "venue": e.get("journal") or e.get("booktitle") or e.get("publisher") or e.get("school") or "",
-                         "channel": "", "doi": e.get("doi"), "url": e.get("url"), "note": e.get("note", "")})
+                         "channel": "", "doi": e.get("doi"), "url": e.get("url"), "note": e.get("note", ""),
+                         "abstract": e.get("abstract", "")})
+    # what each entry offers the analysis: a full text, an abstract, a reference list and its source
+    from parse_refs import text_sources
+    texts, _ = text_sources(corpus)
+    kind = lambda path: ("OCR copy" if "/OCR/" in str(path) else "local ICMC file" if "/ICMC/" in str(path)
+                         else "downloaded PDF")
+    per = json.loads((HERE / "data" / "refs.json").read_text())["per_paper"]
+    for r in rows:
+        r["full_text"] = kind(texts[r["id"]]) if r["id"] in texts else ""
+        r["has_abstract"] = "yes" if len((r.get("abstract") or "").strip()) >= 80 else ""
+        r["references"] = {"text": "parsed from text", "grobid": "GROBID", "openalex": "OpenAlex"}.get(
+            (per.get(r["id"]) or {}).get("source"), "") if (per.get(r["id"]) or {}).get("n") else ""
     with open(HERE / "output" / "collection.csv", "w", newline="") as f:
         w = csv.writer(f)
         trl = {m["id"]: m for m in json.loads((HERE / "data" / "trl.json").read_text())} if (HERE / "data" / "trl.json").exists() else {}
         w.writerow(["id", "archive", "dataset", "type", "year", "authors", "title", "venue", "channel", "doi", "url",
-                     "topic", "trl_estimate", "trl_band", "arl_estimate", "arl_band", "estimate_confidence"])
+                     "topic", "trl_estimate", "trl_band", "arl_estimate", "arl_band", "estimate_confidence",
+                     "full_text", "abstract", "reference_list"])
         for r in rows:
             w.writerow([r["id"], r["archive"], r["dataset"], r["type"], r["year"] or "", "; ".join(r["names"]),
                         r["title"], r["venue"], r["channel"], r["doi"] or "", r["url"] or "",
                         labels.get(topic.get(r["id"]), "")] +
-                       [(trl.get(r["id"]) or {}).get(k) or "" for k in ("trl", "trl_band", "arl", "arl_band", "confidence")])
+                       [(trl.get(r["id"]) or {}).get(k) or "" for k in ("trl", "trl_band", "arl", "arl_band", "confidence")] +
+                       [r["full_text"], r["has_abstract"], r["references"]])
     csl = []
     for r in rows:
         item = {"id": r["id"], "type": CSL.get(r["type"], "document"), "title": r["title"],

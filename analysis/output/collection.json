@@ -105868,7 +105868,7 @@
 ],
 "container-title": "The Journal of the Acoustical Society of America",
 "DOI": "10.1121/1.382848",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.938",
+"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.938",
 "issued": {
 "date-parts": [
 [
@@ -105893,7 +105893,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3680062",
-"note": "Collection: Cited. Cited by 13 archive papers; found in the journal sweep; NIME-topic probability 0.83",
+"note": "Collection: Cited. Cited by 14 archive papers; found in the journal sweep; NIME-topic probability 0.83",
 "issued": {
 "date-parts": [
 [
@@ -105919,6 +105919,27 @@
 "date-parts": [
 [
 1983
+]
+]
+}
+},
+{
+"id": "cited:chadabe1984interactivecompo",
+"type": "article-journal",
+"title": "Interactive Composing: An Overview",
+"author": [
+{
+"family": "Chadabe",
+"given": "Joel"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.2307/3679894",
+"note": "Collection: Cited. Cited by 12 archive papers; found in the journal sweep; NIME-topic probability 0.879",
+"issued": {
+"date-parts": [
+[
+1984
 ]
 ]
 }
@@ -105964,7 +105985,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3679619",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.626",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.626",
 "issued": {
 "date-parts": [
 [
@@ -106011,6 +106032,31 @@
 }
 },
 {
+"id": "cited:buxton1986astudyintwohande",
+"type": "article-journal",
+"title": "A study in two-handed input",
+"author": [
+{
+"family": "Buxton",
+"given": "W."
+},
+{
+"family": "Myers",
+"given": "B."
+}
+],
+"container-title": "ACM SIGCHI Bulletin",
+"DOI": "10.1145/22339.22390",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.562",
+"issued": {
+"date-parts": [
+[
+1986
+]
+]
+}
+},
+{
 "id": "cited:askenfelt1986measurementofbow",
 "type": "article-journal",
 "title": "Measurement of bow motion and bow force in violin playing",
@@ -106022,32 +106068,11 @@
 ],
 "container-title": "The Journal of the Acoustical Society of America",
 "DOI": "10.1121/1.393841",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.979",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.979",
 "issued": {
 "date-parts": [
 [
 1986
-]
-]
-}
-},
-{
-"id": "cited:askenfelt1988measurementofthe",
-"type": "article-journal",
-"title": "Measurement of the bowing parameters in violin playing",
-"author": [
-{
-"family": "Askenfelt",
-"given": "Anders"
-}
-],
-"container-title": "The Journal of the Acoustical Society of America",
-"DOI": "10.1121/1.2025927",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.885",
-"issued": {
-"date-parts": [
-[
-1988
 ]
 ]
 }
@@ -106064,11 +106089,32 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3679938",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.974",
+"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.974",
 "issued": {
 "date-parts": [
 [
 1988
+]
+]
+}
+},
+{
+"id": "cited:askenfelt1989measurementofthe",
+"type": "article-journal",
+"title": "Measurement of the bowing parameters in violin playing. II: Bow–bridge distance, dynamic range, and limits of bow force",
+"author": [
+{
+"family": "Askenfelt",
+"given": "Anders"
+}
+],
+"container-title": "The Journal of the Acoustical Society of America",
+"DOI": "10.1121/1.398230",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.889",
+"issued": {
+"date-parts": [
+[
+1989
 ]
 ]
 }
@@ -106085,7 +106131,7 @@
 ],
 "container-title": "Indiana University Press",
 "DOI": "10.2979/3108.0",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.677",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.677",
 "issued": {
 "date-parts": [
 [
@@ -106143,7 +106189,7 @@
 ],
 "container-title": "Computer",
 "DOI": "10.1109/2.84835",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.941",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.941",
 "issued": {
 "date-parts": [
 [
@@ -106164,7 +106210,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3680767",
-"note": "Collection: Cited. Cited by 16 archive papers; found in the journal sweep; NIME-topic probability 0.903",
+"note": "Collection: Cited. Cited by 19 archive papers; found in the journal sweep; NIME-topic probability 0.903",
 "issued": {
 "date-parts": [
 [
@@ -106207,26 +106253,30 @@
 }
 },
 {
-"id": "cited:fletcher1991thephysicsofmusi",
-"type": "book",
-"title": "The Physics of Musical Instruments",
+"id": "cited:lee1992lttitlegtneuraln",
+"type": "paper-conference",
+"title": "&lt;title&gt;Neural networks for simultaneous classification and parameter estimation in musical instrument control&lt;/title&gt;",
 "author": [
 {
-"family": "Fletcher",
-"given": "Neville H."
+"family": "Lee",
+"given": "Michael"
 },
 {
-"family": "Rossing",
-"given": "Thomas D."
+"family": "Freed",
+"given": "Adrian"
+},
+{
+"family": "Wessel",
+"given": "David"
 }
 ],
-"container-title": "Springer New York",
-"DOI": "10.1007/978-1-4612-2980-3",
-"note": "Collection: Cited. Cited by 15 archive papers; NIME-topic probability 0.984",
+"container-title": "SPIE Proceedings",
+"DOI": "10.1117/12.139949",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.692",
 "issued": {
 "date-parts": [
 [
-1991
+1992
 ]
 ]
 }
@@ -106347,7 +106397,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3680567",
-"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.694",
+"note": "Collection: Cited. Cited by 16 archive papers; NIME-topic probability 0.694",
 "issued": {
 "date-parts": [
 [
@@ -106372,7 +106422,36 @@
 ],
 "container-title": "IEEE Transactions on Neural Networks",
 "DOI": "10.1109/72.182690",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.887",
+"note": "Collection: Cited. Cited by 15 archive papers; NIME-topic probability 0.887",
+"issued": {
+"date-parts": [
+[
+1993
+]
+]
+}
+},
+{
+"id": "cited:horner1993machinetonguesxv",
+"type": "article-journal",
+"title": "Machine Tongues XVI: Genetic Algorithms and Their Application to FM Matching Synthesis",
+"author": [
+{
+"family": "Horner",
+"given": "Andrew"
+},
+{
+"family": "Beauchamp",
+"given": "James"
+},
+{
+"family": "Haken",
+"given": "Lippold"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.2307/3680541",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.572",
 "issued": {
 "date-parts": [
 [
@@ -106393,7 +106472,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3680568",
-"note": "Collection: Cited. Cited by 10 archive papers; found in the journal sweep; NIME-topic probability 0.968",
+"note": "Collection: Cited. Cited by 12 archive papers; found in the journal sweep; NIME-topic probability 0.968",
 "issued": {
 "date-parts": [
 [
@@ -106430,7 +106509,7 @@
 ],
 "container-title": "Perspectives of New Music",
 "DOI": "10.2307/833053",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.705",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.705",
 "issued": {
 "date-parts": [
 [
@@ -106451,36 +106530,11 @@
 ],
 "container-title": "Psychology of Music",
 "DOI": "10.1177/030573569302100201",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.816",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.816",
 "issued": {
 "date-parts": [
 [
 1993
-]
-]
-}
-},
-{
-"id": "cited:feyereisen1994handandmindwhatg",
-"type": "article-journal",
-"title": "Hand and Mind: What Gestures Reveal about Thought",
-"author": [
-{
-"family": "Feyereisen",
-"given": "Pierre"
-},
-{
-"family": "McNeill",
-"given": "David"
-}
-],
-"container-title": "The American Journal of Psychology",
-"DOI": "10.2307/1423299",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.55",
-"issued": {
-"date-parts": [
-[
-1994
 ]
 ]
 }
@@ -106538,11 +106592,90 @@
 ],
 "container-title": "Conference companion on Human factors in computing systems - CHI '94",
 "DOI": "10.1145/259963.260425",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.549",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.549",
 "issued": {
 "date-parts": [
 [
 1994
+]
+]
+}
+},
+{
+"id": "cited:zimmerman1995applyingelectric",
+"type": "paper-conference",
+"title": "Applying electric field sensing to human-computer interfaces",
+"author": [
+{
+"family": "Zimmerman",
+"given": "Thomas G."
+},
+{
+"family": "Smith",
+"given": "Joshua R."
+},
+{
+"family": "Paradiso",
+"given": "Joseph A."
+},
+{
+"family": "Allport",
+"given": "David"
+},
+{
+"family": "Gershenfeld",
+"given": "Neil"
+}
+],
+"container-title": "Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95",
+"DOI": "10.1145/223904.223940",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.817",
+"issued": {
+"date-parts": [
+[
+1995
+]
+]
+}
+},
+{
+"id": "cited:smith1996physicalmodeling",
+"type": "article-journal",
+"title": "Physical Modeling Synthesis Update",
+"author": [
+{
+"family": "Smith",
+"given": "Julius O."
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.2307/3681331",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.847",
+"issued": {
+"date-parts": [
+[
+1996
+]
+]
+}
+},
+{
+"id": "cited:blauert1996spatialhearingth",
+"type": "book",
+"title": "Spatial Hearing: The Psychophysics of Human Sound Localization",
+"author": [
+{
+"family": "Blauert",
+"given": "Jens"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/6391.001.0001",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.581",
+"issued": {
+"date-parts": [
+[
+1996
 ]
 ]
 }
@@ -106559,7 +106692,7 @@
 ],
 "container-title": "ACM SIGGRAPH Computer Graphics",
 "DOI": "10.1145/248307.248315",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.571",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.571",
 "issued": {
 "date-parts": [
 [
@@ -106580,7 +106713,28 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3681012",
-"note": "Collection: Cited. Cited by 14 archive papers; NIME-topic probability 0.895",
+"note": "Collection: Cited. Cited by 16 archive papers; NIME-topic probability 0.895",
+"issued": {
+"date-parts": [
+[
+1997
+]
+]
+}
+},
+{
+"id": "cited:pressing1997someperspectives",
+"type": "article-journal",
+"title": "Some Perspectives on Performed Sound and Music in Virtual Environments",
+"author": [
+{
+"family": "Pressing",
+"given": "Jeff"
+}
+],
+"container-title": "Presence: Teleoperators and Virtual Environments",
+"DOI": "10.1162/pres.1997.6.4.482",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.647",
 "issued": {
 "date-parts": [
 [
@@ -106605,7 +106759,7 @@
 ],
 "container-title": "IEEE Transactions on Neural Networks",
 "DOI": "10.1109/72.655042",
-"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.948",
+"note": "Collection: Cited. Cited by 21 archive papers; NIME-topic probability 0.948",
 "issued": {
 "date-parts": [
 [
@@ -106626,11 +106780,57 @@
 ],
 "container-title": "Leonardo Music Journal",
 "DOI": "10.2307/1513398",
-"note": "Collection: Cited. Cited by 18 archive papers; NIME-topic probability 0.722",
+"note": "Collection: Cited. Cited by 20 archive papers; NIME-topic probability 0.722",
 "issued": {
 "date-parts": [
 [
 1998
+]
+]
+}
+},
+{
+"id": "cited:fletcher1998thephysicsofmusi",
+"type": "book",
+"title": "The Physics of Musical Instruments",
+"author": [
+{
+"family": "Fletcher",
+"given": "Neville H."
+},
+{
+"family": "Rossing",
+"given": "Thomas D."
+}
+],
+"container-title": "Springer New York",
+"DOI": "10.1007/978-0-387-21603-4",
+"note": "Collection: Cited. Cited by 20 archive papers; NIME-topic probability 0.984",
+"issued": {
+"date-parts": [
+[
+1998
+]
+]
+}
+},
+{
+"id": "cited:polli1999activevisioncont",
+"type": "article-journal",
+"title": "Active Vision: Controlling Sound with Eye Movements",
+"author": [
+{
+"family": "Polli",
+"given": "Andrea"
+}
+],
+"container-title": "Leonardo",
+"DOI": "10.1162/002409499553479",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.845",
+"issued": {
+"date-parts": [
+[
+1999
 ]
 ]
 }
@@ -106668,7 +106868,7 @@
 ],
 "container-title": "Leonardo Music Journal",
 "DOI": "10.1162/096112199750316730",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.505",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.505",
 "issued": {
 "date-parts": [
 [
@@ -106693,11 +106893,74 @@
 ],
 "container-title": "Computers &amp; Graphics",
 "DOI": "10.1016/s0097-8493(99)00037-0",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.991",
+"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.991",
 "issued": {
 "date-parts": [
 [
 1999
+]
+]
+}
+},
+{
+"id": "cited:wanderley1999nonobviousperfor",
+"type": "chapter",
+"title": "Non-obvious Performer Gestures in Instrumental Music",
+"author": [
+{
+"family": "Wanderley",
+"given": "Marcelo M."
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/3-540-46616-9_3",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.862",
+"issued": {
+"date-parts": [
+[
+1999
+]
+]
+}
+},
+{
+"id": "cited:goto1999theaestheticsand",
+"type": "article-journal",
+"title": "The Aesthetics and Technological Aspects of Virtual Musical Instruments: The Case of the SuperPolm MIDI Violin",
+"author": [
+{
+"family": "Goto",
+"given": "Suguru"
+}
+],
+"container-title": "Leonardo Music Journal",
+"DOI": "10.1162/096112199750316901",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.987",
+"issued": {
+"date-parts": [
+[
+1999
+]
+]
+}
+},
+{
+"id": "cited:fels2000intimacyandembod",
+"type": "paper-conference",
+"title": "Intimacy and embodiment: implications for art and technology",
+"author": [
+{
+"family": "Fels",
+"given": "Sidney"
+}
+],
+"container-title": "Proceedings of the 2000 ACM workshops on Multimedia",
+"DOI": "10.1145/357744.357749",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.756",
+"issued": {
+"date-parts": [
+[
+2000
 ]
 ]
 }
@@ -106730,7 +106993,7 @@
 ],
 "container-title": "IBM Systems Journal",
 "DOI": "10.1147/sj.393.0892",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.875",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.875",
 "issued": {
 "date-parts": [
 [
@@ -106751,11 +107014,177 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/014892600559489",
-"note": "Collection: Cited. Cited by 23 archive papers; found in the journal sweep; NIME-topic probability 0.608",
+"note": "Collection: Cited. Cited by 20 archive papers; found in the journal sweep; NIME-topic probability 0.608",
 "issued": {
 "date-parts": [
 [
 2000
+]
+]
+}
+},
+{
+"id": "cited:weinberg2000theembroideredmu",
+"type": "paper-conference",
+"title": "The embroidered musical ball: a squeezable instrument for expressive performance",
+"author": [
+{
+"family": "Weinberg",
+"given": "Gili"
+},
+{
+"family": "Orth",
+"given": "Maggie"
+},
+{
+"family": "Russo",
+"given": "Peter"
+}
+],
+"container-title": "CHI '00 extended abstracts on Human factors in computer systems - CHI '00",
+"DOI": "10.1145/633451.633457",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.992",
+"issued": {
+"date-parts": [
+[
+2000
+]
+]
+}
+},
+{
+"id": "cited:lazzaro2001acasefornetworkm",
+"type": "paper-conference",
+"title": "A case for network musical performance",
+"author": [
+{
+"family": "Lazzaro",
+"given": "John"
+},
+{
+"family": "Wawrzynek",
+"given": "John"
+}
+],
+"container-title": "Proceedings of the 11th international workshop on Network and operating systems support for digital audio and video",
+"DOI": "10.1145/378344.378367",
+"note": "Collection: Cited. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.933",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "cited:juslin2001communicatingemo",
+"type": "chapter",
+"title": "Communicating Emotion In Music Performance: A Review And Theoretical Framework",
+"author": [
+{
+"family": "Juslin",
+"given": "Patrik N"
+}
+],
+"container-title": "Music And Emotion",
+"DOI": "10.1093/oso/9780192631886.003.0014",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.539",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "cited:yonezawa2001contextawaresens",
+"type": "paper-conference",
+"title": "Context-aware sensor-doll as a music expression device",
+"author": [
+{
+"family": "Yonezawa",
+"given": "Tomoko"
+},
+{
+"family": "Clarkson",
+"given": "Brian"
+},
+{
+"family": "Yasumura",
+"given": "Michiaki"
+},
+{
+"family": "Mase",
+"given": "Kenji"
+}
+],
+"container-title": "CHI '01 extended abstracts on Human factors in computer systems - CHI '01",
+"DOI": "10.1145/634246.634249",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.579",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "cited:poupyrev2001newinterfacesfor",
+"type": "paper-conference",
+"title": "New interfaces for musical expression",
+"author": [
+{
+"family": "Poupyrev",
+"given": "Ivan"
+},
+{
+"family": "Lyons",
+"given": "Michael J."
+},
+{
+"family": "Fels",
+"given": "Sidney"
+},
+{
+"family": "(Bean)",
+"given": "Tina Blaine"
+}
+],
+"container-title": "CHI '01 extended abstracts on Human factors in computer systems - CHI '01",
+"DOI": "10.1145/634342.634348",
+"note": "Collection: Cited. Cited by 7 archive papers; found in the journal sweep; NIME-topic probability 0.992",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "cited:gabrielsson2001theinfluenceofmu",
+"type": "chapter",
+"title": "The Influence Of Musical Structure On Emotional Expression",
+"author": [
+{
+"family": "Gabrielsson",
+"given": "Alf"
+},
+{
+"family": "Lindström",
+"given": "Erik"
+}
+],
+"container-title": "Music And Emotion",
+"DOI": "10.1093/oso/9780192631886.003.0010",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.518",
+"issued": {
+"date-parts": [
+[
+2001
 ]
 ]
 }
@@ -106772,11 +107201,32 @@
 ],
 "container-title": "The MIT Press",
 "DOI": "10.7551/mitpress/7221.001.0001",
-"note": "Collection: Cited. Cited by 29 archive papers; NIME-topic probability 0.766",
+"note": "Collection: Cited. Cited by 38 archive papers; NIME-topic probability 0.766",
 "issued": {
 "date-parts": [
 [
 2001
+]
+]
+}
+},
+{
+"id": "cited:maclean2002designingwithhap",
+"type": "paper-conference",
+"title": "Designing with haptic feedback",
+"author": [
+{
+"family": "MacLean",
+"given": "K.E."
+}
+],
+"container-title": "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)",
+"DOI": "10.1109/robot.2000.844146",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.949",
+"issued": {
+"date-parts": [
+[
+2002
 ]
 ]
 }
@@ -106793,7 +107243,40 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771802003096",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.801",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.801",
+"issued": {
+"date-parts": [
+[
+2002
+]
+]
+}
+},
+{
+"id": "cited:hunt2002musictherapyande",
+"type": "paper-conference",
+"title": "Music therapy and electronic technology",
+"author": [
+{
+"family": "Hunt",
+"given": "A."
+},
+{
+"family": "Kirk",
+"given": "R."
+},
+{
+"family": "Abbotson",
+"given": "M."
+},
+{
+"family": "Abbotson",
+"given": "R."
+}
+],
+"container-title": "Proceedings of the 26th Euromicro Conference. EUROMICRO 2000. Informatics: Inventing the Future",
+"DOI": "10.1109/eurmic.2000.874506",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.586",
 "issued": {
 "date-parts": [
 [
@@ -106847,7 +107330,28 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771802003023",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.989",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.989",
+"issued": {
+"date-parts": [
+[
+2002
+]
+]
+}
+},
+{
+"id": "cited:wanderley2002quantitativeanal",
+"type": "chapter",
+"title": "Quantitative Analysis of Non-obvious Performer Gestures",
+"author": [
+{
+"family": "Wanderley",
+"given": "Marcelo M."
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/3-540-47873-6_26",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.684",
 "issued": {
 "date-parts": [
 [
@@ -106868,7 +107372,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/014892602320991383",
-"note": "Collection: Cited. Cited by 28 archive papers; NIME-topic probability 0.747",
+"note": "Collection: Cited. Cited by 42 archive papers; NIME-topic probability 0.747",
 "issued": {
 "date-parts": [
 [
@@ -106897,7 +107401,7 @@
 ],
 "container-title": "ACM SIGGRAPH 2002 conference abstracts and applications",
 "DOI": "10.1145/1242073.1242270",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.984",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.984",
 "issued": {
 "date-parts": [
 [
@@ -106922,7 +107426,32 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1076/jnmr.32.4.411.18850",
-"note": "Collection: Cited. Cited by 19 archive papers; cites 14 archive entries; found in the journal sweep; NIME-topic probability 0.957",
+"note": "Collection: Cited. Cited by 23 archive papers; cites 14 archive entries; found in the journal sweep; NIME-topic probability 0.957",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:juslin2003communicationofe",
+"type": "article-journal",
+"title": "Communication of emotions in vocal expression and music performance: Different channels, same code?",
+"author": [
+{
+"family": "Juslin",
+"given": "Patrik N."
+},
+{
+"family": "Laukka",
+"given": "Petri"
+}
+],
+"container-title": "Psychological Bulletin",
+"DOI": "10.1037/0033-2909.129.5.770",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.594",
 "issued": {
 "date-parts": [
 [
@@ -106943,7 +107472,7 @@
 ],
 "container-title": "Leonardo Music Journal",
 "DOI": "10.1162/096112104322750791",
-"note": "Collection: Cited. Cited by 28 archive papers; NIME-topic probability 0.838",
+"note": "Collection: Cited. Cited by 37 archive papers; NIME-topic probability 0.838",
 "issued": {
 "date-parts": [
 [
@@ -106986,6 +107515,31 @@
 }
 },
 {
+"id": "cited:holmes2003electronicandexp",
+"type": "book",
+"title": "Electronic and Experimental Music",
+"author": [
+{
+"family": "Holmes",
+"given": "Thom"
+},
+{
+"family": "Holmes",
+"given": "Thom"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203427064",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.531",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
 "id": "cited:camurri2003eyeswebtowardges",
 "type": "paper-conference",
 "title": "EyesWeb-toward gesture and affect recognition in dance/music interactive systems",
@@ -107005,7 +107559,44 @@
 ],
 "container-title": "Proceedings IEEE International Conference on Multimedia Computing and Systems",
 "DOI": "10.1109/mmcs.1999.779275",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.885",
+"note": "Collection: Cited. Cited by 14 archive papers; NIME-topic probability 0.885",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:sawchuk2003fromremotemediai",
+"type": "paper-conference",
+"title": "From remote media immersion to Distributed Immersive Performance",
+"author": [
+{
+"family": "Sawchuk",
+"given": "A. A."
+},
+{
+"family": "Chew",
+"given": "E."
+},
+{
+"family": "Zimmermann",
+"given": "R."
+},
+{
+"family": "Papadopoulos",
+"given": "C."
+},
+{
+"family": "Kyriakakis",
+"given": "C."
+}
+],
+"container-title": "Proceedings of the 2003 ACM SIGMM workshop on Experiential telepresence - ETP '03",
+"DOI": "10.1145/982484.982506",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.908",
 "issued": {
 "date-parts": [
 [
@@ -107026,7 +107617,32 @@
 ],
 "container-title": "Contemporary Music Review",
 "DOI": "10.1080/0749446032000156919",
-"note": "Collection: Cited. Cited by 7 archive papers; found in the journal sweep; NIME-topic probability 0.746",
+"note": "Collection: Cited. Cited by 8 archive papers; found in the journal sweep; NIME-topic probability 0.746",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:fails2003interactivemachi",
+"type": "paper-conference",
+"title": "Interactive machine learning",
+"author": [
+{
+"family": "Fails",
+"given": "Jerry Alan"
+},
+{
+"family": "Olsen",
+"given": "Dan R."
+}
+],
+"container-title": "Proceedings of the 8th international conference on Intelligent user interfaces",
+"DOI": "10.1145/604045.604056",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.875",
 "issued": {
 "date-parts": [
 [
@@ -107059,7 +107675,110 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s135577180300030x",
-"note": "Collection: Cited. Cited by 22 archive papers; NIME-topic probability 0.969",
+"note": "Collection: Cited. Cited by 29 archive papers; NIME-topic probability 0.969",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:paradiso2003passiveacoustics",
+"type": "paper-conference",
+"title": "Passive acoustic sensing for tracking knocks atop large interactive displays",
+"author": [
+{
+"family": "Paradiso",
+"given": "J.A."
+},
+{
+"family": "Leo",
+"given": "Che King"
+},
+{
+"family": "Checka",
+"given": "N."
+},
+{
+"family": "Hsiao",
+"given": "Kaijen"
+}
+],
+"container-title": "Proceedings of IEEE Sensors",
+"DOI": "10.1109/icsens.2002.1037150",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.604",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:camurri2003recognizingemoti",
+"type": "article-journal",
+"title": "Recognizing emotion from dance movement: comparison of spectator recognition and automated techniques",
+"author": [
+{
+"family": "Camurri",
+"given": "Antonio"
+},
+{
+"family": "Lagerlöf",
+"given": "Ingrid"
+},
+{
+"family": "Volpe",
+"given": "Gualtiero"
+}
+],
+"container-title": "International Journal of Human-Computer Studies",
+"DOI": "10.1016/s1071-5819(03)00050-8",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.852",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:kaneda2003subjectofmakingm",
+"type": "paper-conference",
+"title": "Subject of making music performance robots and their ensemble",
+"author": [
+{
+"family": "Kaneda",
+"given": "T."
+},
+{
+"family": "Fujisawa",
+"given": "S."
+},
+{
+"family": "Yoshida",
+"given": "T."
+},
+{
+"family": "Yoshitani",
+"given": "Y."
+},
+{
+"family": "Nishi",
+"given": "T."
+},
+{
+"family": "Hiroguchi",
+"given": "K."
+}
+],
+"container-title": "FIE'99 Frontiers in Education. 29th Annual Frontiers in Education Conference. Designing the Future of Science and Engineering Education. Conference Proceedings (IEEE Cat. No.99CH37011",
+"DOI": "10.1109/fie.1999.841583",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.959",
 "issued": {
 "date-parts": [
 [
@@ -107080,7 +107799,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1076/jnmr.32.3.333.16861",
-"note": "Collection: Cited. Cited by 23 archive papers; NIME-topic probability 0.877",
+"note": "Collection: Cited. Cited by 32 archive papers; NIME-topic probability 0.877",
 "issued": {
 "date-parts": [
 [
@@ -107101,7 +107820,7 @@
 ],
 "container-title": "Contemporary Music Review",
 "DOI": "10.1080/0749446032000156955",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.63",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.63",
 "issued": {
 "date-parts": [
 [
@@ -107122,7 +107841,28 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1076/jnmr.32.3.239.16866",
-"note": "Collection: Cited. Cited by 16 archive papers; found in the journal sweep; NIME-topic probability 0.965",
+"note": "Collection: Cited. Cited by 25 archive papers; found in the journal sweep; NIME-topic probability 0.965",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:levin2003tonesfromoutofno",
+"type": "article-journal",
+"title": "“Tones from out of Nowhere”: Rudolph Pfenninger and the Archaeology of Synthetic Sound",
+"author": [
+{
+"family": "Levin",
+"given": "Thomas Y."
+}
+],
+"container-title": "Grey Room",
+"DOI": "10.1162/152638103322446460",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.856",
 "issued": {
 "date-parts": [
 [
@@ -107147,7 +107887,99 @@
 ],
 "container-title": "Harvard University Press",
 "DOI": "10.4159/9780674042162",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.715",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.715",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:fels2004designingforinti",
+"type": "article-journal",
+"title": "Designing for Intimacy: Creating New Interfaces for Musical Expression",
+"author": [
+{
+"family": "Fels",
+"given": "S."
+}
+],
+"container-title": "Proceedings of the IEEE",
+"DOI": "10.1109/jproc.2004.825887",
+"note": "Collection: Cited. Cited by 14 archive papers; cites 8 archive entries; NIME-topic probability 0.989",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:beaudouinlafon2004designinginterac",
+"type": "paper-conference",
+"title": "Designing interaction, not interfaces",
+"author": [
+{
+"family": "Beaudouin-Lafon",
+"given": "Michel"
+}
+],
+"container-title": "Proceedings of the working conference on Advanced visual interfaces",
+"DOI": "10.1145/989863.989865",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.843",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:camurri2004gesturebasedcomm",
+"type": "book",
+"title": "Gesture-Based Communication in Human-Computer Interaction",
+"author": [
+{
+"family": "Camurri",
+"given": "Antonio"
+},
+{
+"family": "Volpe",
+"given": "Gualtiero"
+}
+],
+"container-title": "Springer Berlin Heidelberg",
+"DOI": "10.1007/b95740",
+"note": "Collection: Cited. Cited by 20 archive papers; NIME-topic probability 0.612",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:levin2004insituspeechvisu",
+"type": "paper-conference",
+"title": "In-situ speech visualization in real-time interactive installation and performance",
+"author": [
+{
+"family": "Levin",
+"given": "Golan"
+},
+{
+"family": "Lieberman",
+"given": "Zachary"
+}
+],
+"container-title": "Proceedings of the 3rd international symposium on Non-photorealistic animation and rendering",
+"DOI": "10.1145/987657.987659",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.938",
 "issued": {
 "date-parts": [
 [
@@ -107168,7 +108000,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/0929821042000317886",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 29 archive entries; NIME-topic probability 0.8",
+"note": "Collection: Cited. Cited by 16 archive papers; cites 29 archive entries; NIME-topic probability 0.8",
 "issued": {
 "date-parts": [
 [
@@ -107222,7 +108054,49 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/0929821042000317877",
-"note": "Collection: Cited. Cited by 11 archive papers; found in the journal sweep; NIME-topic probability 0.993",
+"note": "Collection: Cited. Cited by 12 archive papers; found in the journal sweep; NIME-topic probability 0.993",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:machover2004shapingmindsmusi",
+"type": "article-journal",
+"title": "Shaping Minds Musically",
+"author": [
+{
+"family": "Machover",
+"given": "T"
+}
+],
+"container-title": "BT Technology Journal",
+"DOI": "10.1023/b:bttj.0000047596.75297.ee",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.688",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:boden2004thecreativemind",
+"type": "book",
+"title": "The Creative Mind",
+"author": [
+{
+"family": "Boden",
+"given": "Margaret A."
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203508527",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.5",
 "issued": {
 "date-parts": [
 [
@@ -107255,7 +108129,7 @@
 ],
 "container-title": "The Second IEEE and ACM International Symposium on Mixed and Augmented Reality, 2003. Proceedings.",
 "DOI": "10.1109/ismar.2003.1240749",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.861",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.861",
 "issued": {
 "date-parts": [
 [
@@ -107280,11 +108154,65 @@
 ],
 "container-title": "Soft Computing",
 "DOI": "10.1007/s00500-004-0385-4",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.705",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.705",
 "issued": {
 "date-parts": [
 [
 2004
+]
+]
+}
+},
+{
+"id": "cited:smith2004virtualacousticm",
+"type": "article-journal",
+"title": "Virtual Acoustic Musical Instruments: Review and Update",
+"author": [
+{
+"family": "Smith",
+"given": "Julius O."
+}
+],
+"container-title": "Journal of New Music Research",
+"DOI": "10.1080/0929821042000317859",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.981",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:camurri2005communicatingexp",
+"type": "article-journal",
+"title": "Communicating expressiveness and affect in multimodal interactive systems",
+"author": [
+{
+"family": "Camurri",
+"given": "A."
+},
+{
+"family": "Volpe",
+"given": "G."
+},
+{
+"family": "Poli",
+"given": "G. De"
+},
+{
+"family": "Leman",
+"given": "M."
+}
+],
+"container-title": "IEEE Multimedia",
+"DOI": "10.1109/mmul.2005.2",
+"note": "Collection: Cited. Cited by 8 archive papers; cites 5 archive entries; NIME-topic probability 0.642",
+"issued": {
+"date-parts": [
+[
+2005
 ]
 ]
 }
@@ -107313,7 +108241,7 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/1054972.1055074",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.815",
+"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.815",
 "issued": {
 "date-parts": [
 [
@@ -107342,7 +108270,165 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298210500124273",
-"note": "Collection: Cited. Cited by 8 archive papers; cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.993",
+"note": "Collection: Cited. Cited by 11 archive papers; cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.993",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:tanaka2005facilitatingcoll",
+"type": "paper-conference",
+"title": "Facilitating collective musical creativity",
+"author": [
+{
+"family": "Tanaka",
+"given": "Atau"
+},
+{
+"family": "Tokui",
+"given": "Nao"
+},
+{
+"family": "Momeni",
+"given": "Ali"
+}
+],
+"container-title": "Proceedings of the 13th annual ACM international conference on Multimedia",
+"DOI": "10.1145/1101149.1101177",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.52",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:gallagher2005howthebodyshapes",
+"type": "book",
+"title": "How the Body Shapes the Mind",
+"author": [
+{
+"family": "Gallagher",
+"given": "Shaun"
+}
+],
+"container-title": "Oxford University PressOxford",
+"DOI": "10.1093/0199271941.001.0001",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.566",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:kapur2005interactivenetwo",
+"type": "article-journal",
+"title": "Interactive Network Performance: a dream worth dreaming?",
+"author": [
+{
+"family": "KAPUR",
+"given": "AJAY"
+},
+{
+"family": "WANG",
+"given": "GE"
+},
+{
+"family": "DAVIDSON",
+"given": "PHILIP"
+},
+{
+"family": "COOK",
+"given": "PERRY R."
+}
+],
+"container-title": "Organised Sound",
+"DOI": "10.1017/s1355771805000956",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.897",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:avanzini2005interactivesimul",
+"type": "article-journal",
+"title": "Interactive Simulation of rigid body interaction with friction-induced sound generation",
+"author": [
+{
+"family": "Avanzini",
+"given": "F."
+},
+{
+"family": "Serafin",
+"given": "S."
+},
+{
+"family": "Rocchesso",
+"given": "D."
+}
+],
+"container-title": "IEEE Transactions on Speech and Audio Processing",
+"DOI": "10.1109/tsa.2005.852984",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.878",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:miranda2005interfacingthebr",
+"type": "article-journal",
+"title": "Interfacing the Brain Directly with Musical Systems: On Developing Systems for Making Music with Brain Signals",
+"author": [
+{
+"family": "Miranda",
+"given": "Eduardo Reck"
+},
+{
+"family": "Brouse",
+"given": "Andrew"
+}
+],
+"container-title": "Leonardo",
+"DOI": "10.1162/0024094054762133",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.824",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:han2005lowcostmultitouc",
+"type": "paper-conference",
+"title": "Low-cost multi-touch sensing through frustrated total internal reflection",
+"author": [
+{
+"family": "Han",
+"given": "Jefferson Y."
+}
+],
+"container-title": "Proceedings of the 18th annual ACM symposium on User interface software and technology",
+"DOI": "10.1145/1095034.1095054",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.815",
 "issued": {
 "date-parts": [
 [
@@ -107363,7 +108449,28 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771805000932",
-"note": "Collection: Cited. Cited by 23 archive papers; cites 13 archive entries; NIME-topic probability 0.915",
+"note": "Collection: Cited. Cited by 37 archive papers; cites 13 archive entries; NIME-topic probability 0.915",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "cited:hajdu2005quintetnetanenvi",
+"type": "article-journal",
+"title": "Quintet.net: An Environment for Composing and Performing Music on the Internet",
+"author": [
+{
+"family": "Hajdu",
+"given": "Georg"
+}
+],
+"container-title": "Leonardo",
+"DOI": "10.1162/leon.2005.38.1.23",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.858",
 "issued": {
 "date-parts": [
 [
@@ -107400,7 +108507,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298210500123895",
-"note": "Collection: Cited. Cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.948",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.948",
 "issued": {
 "date-parts": [
 [
@@ -107437,11 +108544,40 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298210500124208",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.851",
+"note": "Collection: Cited. Cited by 12 archive papers; NIME-topic probability 0.851",
 "issued": {
 "date-parts": [
 [
 2005
+]
+]
+}
+},
+{
+"id": "cited:aylward2006acompactwireless",
+"type": "paper-conference",
+"title": "A Compact, Wireless, Wearable Sensor Network for Interactive Dance Ensembles",
+"author": [
+{
+"family": "Aylward",
+"given": "R."
+},
+{
+"family": "Lovell",
+"given": "S.D."
+},
+{
+"family": "Paradiso",
+"given": "J.A."
+}
+],
+"container-title": "International Workshop on Wearable and Implantable Body Sensor Networks (BSN'06)",
+"DOI": "10.1109/bsn.2006.1",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.984",
+"issued": {
+"date-parts": [
+[
+2006
 ]
 ]
 }
@@ -107462,7 +108598,57 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s135577180600152x",
-"note": "Collection: Cited. Cited by 12 archive papers; cites 14 archive entries; NIME-topic probability 0.955",
+"note": "Collection: Cited. Cited by 15 archive papers; cites 14 archive entries; NIME-topic probability 0.955",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "cited:jensenius2006buildinglowcostm",
+"type": "chapter",
+"title": "Building Low-Cost Music Controllers",
+"author": [
+{
+"family": "Jensenius",
+"given": "Alexander Refsum"
+},
+{
+"family": "Koehly",
+"given": "Rodolphe"
+},
+{
+"family": "Wanderley",
+"given": "Marcelo M."
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/11751069_11",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.966",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "cited:schwarz2006concatenativesou",
+"type": "article-journal",
+"title": "Concatenative sound synthesis: The early years",
+"author": [
+{
+"family": "Schwarz",
+"given": "Diemo"
+}
+],
+"container-title": "Journal of New Music Research",
+"DOI": "10.1080/09298210600696857",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.78",
 "issued": {
 "date-parts": [
 [
@@ -107505,6 +108691,39 @@
 }
 },
 {
+"id": "cited:bartlette2006effectofnetworkl",
+"type": "article-journal",
+"title": "Effect of Network Latency on Interactive Musical Performance",
+"author": [
+{
+"family": "Bartlette",
+"given": "Christopher"
+},
+{
+"family": "Headlam",
+"given": "Dave"
+},
+{
+"family": "Bocko",
+"given": "Mark"
+},
+{
+"family": "Velikic",
+"given": "Gordana"
+}
+],
+"container-title": "Music Perception",
+"DOI": "10.1525/mp.2006.24.1.49",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
 "id": "cited:gody2006gesturalsonorous",
 "type": "article-journal",
 "title": "Gestural-Sonorous Objects: embodied extensions of Schaeffer's conceptual apparatus",
@@ -107516,7 +108735,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771806001439",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.588",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.588",
 "issued": {
 "date-parts": [
 [
@@ -107545,7 +108764,32 @@
 ],
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/11678816_17",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.824",
+"note": "Collection: Cited. Cited by 12 archive papers; cites 6 archive entries; NIME-topic probability 0.824",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "cited:lupone2006grancassaandthea",
+"type": "chapter",
+"title": "Gran Cassa and the Adaptive Instrument Feed-Drum",
+"author": [
+{
+"family": "Lupone",
+"given": "Michelangelo"
+},
+{
+"family": "Seno",
+"given": "Lorenzo"
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/11751069_14",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.956",
 "issued": {
 "date-parts": [
 [
@@ -107567,6 +108811,56 @@
 "container-title": "Psychology of Music",
 "DOI": "10.1177/0305735606061850",
 "note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.875",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "cited:rebelo2006hapticsensationa",
+"type": "article-journal",
+"title": "Haptic sensation and instrumental transgression",
+"author": [
+{
+"family": "Rebelo",
+"given": "Pedro"
+}
+],
+"container-title": "Contemporary Music Review",
+"DOI": "10.1080/07494460600647402",
+"note": "Collection: Cited. Cited by 6 archive papers; found in the journal sweep; NIME-topic probability 0.74",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "cited:patten2006interactiontechn",
+"type": "paper-conference",
+"title": "Interaction techniques for musical performance with tabletop tangible interfaces",
+"author": [
+{
+"family": "Patten",
+"given": "James"
+},
+{
+"family": "Recht",
+"given": "Ben"
+},
+{
+"family": "Ishii",
+"given": "Hiroshi"
+}
+],
+"container-title": "Proceedings of the 2006 ACM SIGCHI international conference on Advances in computer entertainment technology",
+"DOI": "10.1145/1178823.1178856",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.946",
 "issued": {
 "date-parts": [
 [
@@ -107605,6 +108899,35 @@
 }
 },
 {
+"id": "cited:friberg2006overviewofthekth",
+"type": "article-journal",
+"title": "Overview of the KTH rule system for musical performance",
+"author": [
+{
+"family": "Friberg",
+"given": "Anders"
+},
+{
+"family": "Bresin",
+"given": "Roberto"
+},
+{
+"family": "Sundberg",
+"given": "Johan"
+}
+],
+"container-title": "Advances in Cognitive Psychology",
+"DOI": "10.2478/v10053-008-0052-x",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.929",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
 "id": "cited:gody2006playingairinstru",
 "type": "chapter",
 "title": "Playing “Air Instruments”: Mimicry of Sound-Producing Gestures by Novices and Experts",
@@ -107624,7 +108947,7 @@
 ],
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/11678816_29",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.976",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.976",
 "issued": {
 "date-parts": [
 [
@@ -107657,7 +108980,7 @@
 ],
 "container-title": "15th IEEE International Workshops on Enabling Technologies: Infrastructure for Collaborative Enterprises (WETICE'06)",
 "DOI": "10.1109/wetice.2006.68",
-"note": "Collection: Cited. Cited by 16 archive papers; NIME-topic probability 0.994",
+"note": "Collection: Cited. Cited by 25 archive papers; NIME-topic probability 0.994",
 "issued": {
 "date-parts": [
 [
@@ -107678,7 +109001,7 @@
 ],
 "container-title": "IEEE Signal Processing Magazine",
 "DOI": "10.1109/msp.2007.323274",
-"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.732",
+"note": "Collection: Cited. Cited by 17 archive papers; NIME-topic probability 0.732",
 "issued": {
 "date-parts": [
 [
@@ -107707,7 +109030,53 @@
 ],
 "container-title": "Personal and Ubiquitous Computing",
 "DOI": "10.1007/s00779-006-0137-9",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.573",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.573",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "cited:dahlstedt2007evolutionincreat",
+"type": "chapter",
+"title": "Evolution in Creative Sound Design",
+"author": [
+{
+"family": "DAHLSTEDT",
+"given": "PALLE"
+}
+],
+"container-title": "Evolutionary Computer Music",
+"DOI": "10.1007/978-1-84628-600-1_4",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.684",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "cited:collins2007thecambridgecomp",
+"type": "book",
+"title": "The Cambridge Companion to Electronic Music",
+"author": [
+{
+"family": "Collins",
+"given": "Nick"
+},
+{
+"family": "d'Escrivan",
+"given": "Julio"
+}
+],
+"container-title": "Cambridge University Press",
+"DOI": "10.1017/ccol9780521868617",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 7 archive entries; NIME-topic probability 0.518",
 "issued": {
 "date-parts": [
 [
@@ -107736,7 +109105,36 @@
 ],
 "container-title": "CRC Press",
 "DOI": "10.1201/9781410615862",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.669",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.669",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "cited:shibuya2007towarddeveloping",
+"type": "paper-conference",
+"title": "Toward Developing a Violin Playing Robot - Bowing by Anthropomorphic Robot Arm and Sound Analysis",
+"author": [
+{
+"family": "Shibuya",
+"given": "Koji"
+},
+{
+"family": "Matsuda",
+"given": "Shoji"
+},
+{
+"family": "Takahara",
+"given": "Akira"
+}
+],
+"container-title": "RO-MAN 2007 - The 16th IEEE International Symposium on Robot and Human Interactive Communication",
+"DOI": "10.1109/roman.2007.4415188",
+"note": "Collection: Cited. Cited by 6 archive papers; found in the journal sweep; NIME-topic probability 0.903",
 "issued": {
 "date-parts": [
 [
@@ -107761,7 +109159,7 @@
 ],
 "container-title": "Music Perception",
 "DOI": "10.1525/mp.2007.24.5.433",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.84",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.84",
 "issued": {
 "date-parts": [
 [
@@ -107790,7 +109188,7 @@
 ],
 "container-title": "Nature Reviews Neuroscience",
 "DOI": "10.1038/nrn2152",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.638",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.638",
 "issued": {
 "date-parts": [
 [
@@ -107811,11 +109209,40 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s135577180700180x",
-"note": "Collection: Cited. Cited by 21 archive papers; NIME-topic probability 0.903",
+"note": "Collection: Cited. Cited by 19 archive papers; NIME-topic probability 0.903",
 "issued": {
 "date-parts": [
 [
 2007
+]
+]
+}
+},
+{
+"id": "cited:berdahl2008activecontrolofa",
+"type": "article-journal",
+"title": "Active control of a vibrating string",
+"author": [
+{
+"family": "Berdahl",
+"given": "Edgar"
+},
+{
+"family": "Niemeyer",
+"given": "Guenter"
+},
+{
+"family": "Smith",
+"given": "Julius O."
+}
+],
+"container-title": "The Journal of the Acoustical Society of America",
+"DOI": "10.1121/1.2934997",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.911",
+"issued": {
+"date-parts": [
+[
+2008
 ]
 ]
 }
@@ -107861,7 +109288,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj.2008.32.3.25",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 5 archive entries; NIME-topic probability 0.919",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 5 archive entries; NIME-topic probability 0.919",
 "issued": {
 "date-parts": [
 [
@@ -107882,7 +109309,7 @@
 ],
 "container-title": "International Journal of Arts and Technology",
 "DOI": "10.1504/ijart.2008.022363",
-"note": "Collection: Cited. Cites 12 archive entries; NIME-topic probability 0.945",
+"note": "Collection: Cited. Cited by 7 archive papers; cites 12 archive entries; NIME-topic probability 0.945",
 "issued": {
 "date-parts": [
 [
@@ -107996,6 +109423,39 @@
 }
 },
 {
+"id": "cited:nanayakkara2009anenhancedmusica",
+"type": "paper-conference",
+"title": "An enhanced musical experience for the deaf: design and evaluation of a music display and a haptic chair",
+"author": [
+{
+"family": "Nanayakkara",
+"given": "Suranga"
+},
+{
+"family": "Taylor",
+"given": "Elizabeth"
+},
+{
+"family": "Wyse",
+"given": "Lonce"
+},
+{
+"family": "Ong",
+"given": "S H."
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1518701.1518756",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.818",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
 "id": "cited:fels2009creatingnewinter",
 "type": "paper-conference",
 "title": "Creating new interfaces for musical expression: introduction to NIME",
@@ -108044,7 +109504,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298210903359187",
-"note": "Collection: Cited. Cited by 8 archive papers; found in the journal sweep; NIME-topic probability 0.966",
+"note": "Collection: Cited. Cited by 10 archive papers; found in the journal sweep; NIME-topic probability 0.966",
 "issued": {
 "date-parts": [
 [
@@ -108077,7 +109537,7 @@
 ],
 "container-title": "International Journal of Human-Computer Studies",
 "DOI": "10.1016/j.ijhcs.2009.05.007",
-"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.75",
+"note": "Collection: Cited. Cited by 18 archive papers; NIME-topic probability 0.75",
 "issued": {
 "date-parts": [
 [
@@ -108102,7 +109562,36 @@
 ],
 "container-title": "The Journal of the Acoustical Society of America",
 "DOI": "10.1121/1.3227640",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.964",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.964",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
+"id": "cited:marshall2009gesturecontrolof",
+"type": "chapter",
+"title": "Gesture Control of Sound Spatialization for Live Musical Performance",
+"author": [
+{
+"family": "Marshall",
+"given": "Mark T."
+},
+{
+"family": "Malloch",
+"given": "Joseph"
+},
+{
+"family": "Wanderley",
+"given": "Marcelo M."
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/978-3-540-92865-2_25",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 5 archive entries; NIME-topic probability 0.998",
 "issued": {
 "date-parts": [
 [
@@ -108123,7 +109612,57 @@
 ],
 "container-title": "Wiley",
 "DOI": "10.1002/9780470749012",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.794",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.794",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
+"id": "cited:fyans2009spectatorunderst",
+"type": "paper-conference",
+"title": "Spectator understanding of error in performance",
+"author": [
+{
+"family": "Fyans",
+"given": "A. Cavan"
+},
+{
+"family": "Gurevich",
+"given": "Michael"
+},
+{
+"family": "Stapleton",
+"given": "Paul"
+}
+],
+"container-title": "CHI '09 Extended Abstracts on Human Factors in Computing Systems",
+"DOI": "10.1145/1520340.1520600",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.829",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
+"id": "cited:cadoz2009suprainstrumenta",
+"type": "article-journal",
+"title": "Supra-Instrumental Interactions and Gestures",
+"author": [
+{
+"family": "Cadoz",
+"given": "Claude"
+}
+],
+"container-title": "Journal of New Music Research",
+"DOI": "10.1080/09298210903137641",
+"note": "Collection: Cited. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.877",
 "issued": {
 "date-parts": [
 [
@@ -108165,11 +109704,69 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771809000259",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.929",
+"note": "Collection: Cited. Cited by 19 archive papers; NIME-topic probability 0.929",
 "issued": {
 "date-parts": [
 [
 2009
+]
+]
+}
+},
+{
+"id": "cited:wobbrock2009userdefinedgestu",
+"type": "paper-conference",
+"title": "User-defined gestures for surface computing",
+"author": [
+{
+"family": "Wobbrock",
+"given": "Jacob O."
+},
+{
+"family": "Morris",
+"given": "Meredith Ringel"
+},
+{
+"family": "Wilson",
+"given": "Andrew D."
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1518701.1518866",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.643",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
+"id": "cited:monache2010atoolkitforexplo",
+"type": "paper-conference",
+"title": "A toolkit for explorations in sonic interaction design",
+"author": [
+{
+"family": "Monache",
+"given": "Stefano Delle"
+},
+{
+"family": "Polotti",
+"given": "Pietro"
+},
+{
+"family": "Rocchesso",
+"given": "Davide"
+}
+],
+"container-title": "Proceedings of the 5th Audio Mostly Conference: A Conference on Interaction with Sound",
+"DOI": "10.1145/1859799.1859800",
+"note": "Collection: Cited. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.901",
+"issued": {
+"date-parts": [
+[
+2010
 ]
 ]
 }
@@ -108206,7 +109803,32 @@
 ],
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/978-3-642-12553-9_7",
-"note": "Collection: Cited. Cited by 16 archive papers; NIME-topic probability 0.919",
+"note": "Collection: Cited. Cited by 19 archive papers; NIME-topic probability 0.919",
+"issued": {
+"date-parts": [
+[
+2010
+]
+]
+}
+},
+{
+"id": "cited:freeman2010creativecollabor",
+"type": "article-journal",
+"title": "Creative collaboration between audiences and musicians inFlock",
+"author": [
+{
+"family": "Freeman",
+"given": "Jason"
+},
+{
+"family": "Godfrey",
+"given": "Mark"
+}
+],
+"container-title": "Digital Creativity",
+"DOI": "10.1080/14626261003786244",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.872",
 "issued": {
 "date-parts": [
 [
@@ -108244,6 +109866,35 @@
 "container-title": "Journal on Multimodal User Interfaces",
 "DOI": "10.1007/s12193-009-0027-3",
 "note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.999",
+"issued": {
+"date-parts": [
+[
+2010
+]
+]
+}
+},
+{
+"id": "cited:pernerwilson2010handcraftingtext",
+"type": "paper-conference",
+"title": "Handcrafting textile interfaces from a kit-of-no-parts",
+"author": [
+{
+"family": "Perner-Wilson",
+"given": "Hannah"
+},
+{
+"family": "Buechley",
+"given": "Leah"
+},
+{
+"family": "Satomi",
+"given": "Mika"
+}
+],
+"container-title": "Proceedings of the fifth international conference on Tangible, embedded, and embodied interaction",
+"DOI": "10.1145/1935701.1935715",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.629",
 "issued": {
 "date-parts": [
 [
@@ -108293,7 +109944,7 @@
 ],
 "container-title": "Routledge",
 "DOI": "10.4324/9780203863411",
-"note": "Collection: Cited. Cited by 24 archive papers; NIME-topic probability 0.955",
+"note": "Collection: Cited. Cited by 28 archive papers; NIME-topic probability 0.955",
 "issued": {
 "date-parts": [
 [
@@ -108339,7 +109990,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771810000312",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.666",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.666",
 "issued": {
 "date-parts": [
 [
@@ -108360,7 +110011,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298211003695587",
-"note": "Collection: Cited. Cited by 28 archive papers; found in the journal sweep; NIME-topic probability 0.974",
+"note": "Collection: Cited. Cited by 35 archive papers; found in the journal sweep; NIME-topic probability 0.974",
 "issued": {
 "date-parts": [
 [
@@ -108474,6 +110125,31 @@
 }
 },
 {
+"id": "cited:roberts2011compositionforco",
+"type": "paper-conference",
+"title": "Composition for conductor and audience: new uses for mobile devices in the concert hall",
+"author": [
+{
+"family": "Roberts",
+"given": "Charles"
+},
+{
+"family": "Hollerer",
+"given": "Tobias"
+}
+],
+"container-title": "Proceedings of the 24th annual ACM symposium adjunct on User interface software and technology",
+"DOI": "10.1145/2046396.2046425",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.884",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
 "id": "cited:mooney2011frameworksandaff",
 "type": "article-journal",
 "title": "Frameworks and affordances: Understanding the tools of music-making",
@@ -108547,7 +110223,32 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298215.2011.602693",
-"note": "Collection: Cited. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.97",
+"note": "Collection: Cited. Cited by 10 archive papers; found in the journal sweep; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "cited:hoffman2011interactiveimpro",
+"type": "article-journal",
+"title": "Interactive improvisation with a robotic marimba player",
+"author": [
+{
+"family": "Hoffman",
+"given": "Guy"
+},
+{
+"family": "Weinberg",
+"given": "Gil"
+}
+],
+"container-title": "Autonomous Robots",
+"DOI": "10.1007/s10514-011-9237-0",
+"note": "Collection: Cited. Cited by 8 archive papers; cites 5 archive entries; NIME-topic probability 0.995",
 "issued": {
 "date-parts": [
 [
@@ -108594,6 +110295,43 @@
 }
 },
 {
+"id": "cited:odowichuk2011sensorfusiontowa",
+"type": "paper-conference",
+"title": "Sensor fusion: Towards a fully expressive 3D music control interface",
+"author": [
+{
+"family": "Odowichuk",
+"given": "Gabrielle"
+},
+{
+"family": "Trail",
+"given": "Shawn"
+},
+{
+"family": "Driessen",
+"given": "Peter"
+},
+{
+"family": "Nie",
+"given": "Wendy"
+},
+{
+"family": "Page",
+"given": "Wyatt"
+}
+],
+"container-title": "Proceedings of 2011 IEEE Pacific Rim Conference on Communications, Computers and Signal Processing",
+"DOI": "10.1109/pacrim.2011.6033003",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.965",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
 "id": "cited:tanaka2011sensorbasedmusic",
 "type": "book",
 "title": "Sensor-Based Musical Instruments and Interactive Music",
@@ -108605,7 +110343,7 @@
 ],
 "container-title": "Oxford University Press",
 "DOI": "10.1093/oxfordhb/9780199792030.013.0012",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.995",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.995",
 "issued": {
 "date-parts": [
 [
@@ -108665,6 +110403,27 @@
 }
 },
 {
+"id": "cited:tanaka2012biomusetobondage",
+"type": "chapter",
+"title": "BioMuse to Bondage: Corporeal Interaction in Performance and Exhibition",
+"author": [
+{
+"family": "Tanaka",
+"given": "Atau"
+}
+],
+"container-title": "Intimacy Across Visceral and Digital Performance",
+"DOI": "10.1057/9781137283337_13",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.757",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
 "id": "cited:jensenius2012exploringmicromo",
 "type": "chapter",
 "title": "Exploring Micromovements with Motion Capture and Sonification",
@@ -108709,7 +110468,7 @@
 ],
 "container-title": "The Journal of the Acoustical Society of America",
 "DOI": "10.1121/1.3651091",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.993",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.993",
 "issued": {
 "date-parts": [
 [
@@ -108739,6 +110498,31 @@
 "container-title": "2012 IEEE/RSJ International Conference on Intelligent Robots and Systems",
 "DOI": "10.1109/iros.2012.6386148",
 "note": "Collection: Cited. Cites 10 archive entries; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
+"id": "cited:hayes2012imposinganetwork",
+"type": "article-journal",
+"title": "Imposing a Networked Vibrotactile Communication System for Improvisational Suggestion",
+"author": [
+{
+"family": "Hayes",
+"given": "Lauren"
+},
+{
+"family": "Michalakos",
+"given": "Christos"
+}
+],
+"container-title": "Organised Sound",
+"DOI": "10.1017/s1355771811000495",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 5 archive entries; NIME-topic probability 0.851",
 "issued": {
 "date-parts": [
 [
@@ -108854,7 +110638,7 @@
 ],
 "container-title": "Leonardo Music Journal",
 "DOI": "10.1162/lmj_a_00090",
-"note": "Collection: Cited. Cited by 8 archive papers; cites 7 archive entries; NIME-topic probability 0.939",
+"note": "Collection: Cited. Cited by 10 archive papers; cites 7 archive entries; NIME-topic probability 0.939",
 "issued": {
 "date-parts": [
 [
@@ -108929,7 +110713,7 @@
 ],
 "container-title": "Ethnomusicology",
 "DOI": "10.5406/ethnomusicology.56.3.0363",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.687",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.687",
 "issued": {
 "date-parts": [
 [
@@ -109027,6 +110811,31 @@
 }
 },
 {
+"id": "cited:dubus2013asystematicrevie",
+"type": "article-journal",
+"title": "A Systematic Review of Mapping Strategies for the Sonification of Physical Quantities",
+"author": [
+{
+"family": "Dubus",
+"given": "Gaël"
+},
+{
+"family": "Bresin",
+"given": "Roberto"
+}
+],
+"container-title": "PLoS ONE",
+"DOI": "10.1371/journal.pone.0082491",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.911",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
 "id": "cited:franoise2013amultimodalproba",
 "type": "paper-conference",
 "title": "A multimodal probabilistic model for gesture--based control of sound synthesis",
@@ -109046,28 +110855,7 @@
 ],
 "container-title": "Proceedings of the 21st ACM international conference on Multimedia",
 "DOI": "10.1145/2502081.2502184",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.915",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "cited:jensenius2013anactionsoundapp",
-"type": "article-journal",
-"title": "An Action–Sound Approach to Teaching Interactive Music",
-"author": [
-{
-"family": "Jensenius",
-"given": "Alexander Refsum"
-}
-],
-"container-title": "Organised Sound",
-"DOI": "10.1017/s1355771813000095",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.97",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.915",
 "issued": {
 "date-parts": [
 [
@@ -109093,6 +110881,167 @@
 "container-title": "SIGGRAPH Asia 2013 Courses",
 "DOI": "10.1145/2542266.2542283",
 "note": "Collection: Cited. Cites 39 archive entries; NIME-topic probability 0.993",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:bengler2013designingcollabo",
+"type": "paper-conference",
+"title": "Designing collaborative musical experiences for broad audiences",
+"author": [
+{
+"family": "Bengler",
+"given": "Ben"
+},
+{
+"family": "Bryan-Kinns",
+"given": "Nick"
+}
+],
+"container-title": "Proceedings of the 9th ACM Conference on Creativity &amp; Cognition",
+"DOI": "10.1145/2466627.2466633",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.847",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:manning2013electronicandcom",
+"type": "book",
+"title": "Electronic and Computer Music",
+"author": [
+{
+"family": "Manning",
+"given": "Peter"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/acprof:oso/9780199746392.001.0001",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.979",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:nanayakkara2013enhancingmusical",
+"type": "article-journal",
+"title": "Enhancing Musical Experience for the Hearing-Impaired Using Visual and Haptic Displays",
+"author": [
+{
+"family": "Nanayakkara",
+"given": "Suranga Chandima"
+},
+{
+"family": "Wyse",
+"given": "Lonce"
+},
+{
+"family": "Ong",
+"given": "S. H."
+},
+{
+"family": "Taylor",
+"given": "Elizabeth A."
+}
+],
+"container-title": "Human–Computer Interaction",
+"DOI": "10.1080/07370024.2012.697006",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.606",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:sawyer2013formfunctionandp",
+"type": "paper-conference",
+"title": "Form, function and performances in a musical instrument MAKErs camp",
+"author": [
+{
+"family": "Sawyer",
+"given": "Blake"
+},
+{
+"family": "Forsyth",
+"given": "Jason"
+},
+{
+"family": "O'Connor",
+"given": "Taylor"
+},
+{
+"family": "Bortz",
+"given": "Brennon"
+},
+{
+"family": "Finn",
+"given": "Teri"
+},
+{
+"family": "Baum",
+"given": "Liesl"
+},
+{
+"family": "Bukvic",
+"given": "Ivica Ico"
+},
+{
+"family": "Knapp",
+"given": "Benjamin"
+},
+{
+"family": "Webster",
+"given": "Dane"
+}
+],
+"container-title": "Proceeding of the 44th ACM technical symposium on Computer science education",
+"DOI": "10.1145/2445196.2445392",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.808",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:font2013freesoundtechnic",
+"type": "paper-conference",
+"title": "Freesound technical demo",
+"author": [
+{
+"family": "Font",
+"given": "Frederic"
+},
+{
+"family": "Roma",
+"given": "Gerard"
+},
+{
+"family": "Serra",
+"given": "Xavier"
+}
+],
+"container-title": "Proceedings of the 21st ACM international conference on Multimedia",
+"DOI": "10.1145/2502081.2502245",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.541",
 "issued": {
 "date-parts": [
 [
@@ -109214,6 +111163,31 @@
 }
 },
 {
+"id": "cited:franinovi2013sonicinteraction",
+"type": "book",
+"title": "Sonic Interaction Design",
+"author": [
+{
+"family": "Franinović",
+"given": "Karmen"
+},
+{
+"family": "Serafin",
+"given": "Stefania"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/8555.001.0001",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.775",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
 "id": "cited:fabiani2013systemsforintera",
 "type": "chapter",
 "title": "Systems for Interactive Control of Computer Generated Music Performance",
@@ -109308,7 +111282,7 @@
 ],
 "container-title": "Osiris",
 "DOI": "10.1086/671381",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.982",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.982",
 "issued": {
 "date-parts": [
 [
@@ -109338,6 +111312,31 @@
 "container-title": "CHI '13 Extended Abstracts on Human Factors in Computing Systems",
 "DOI": "10.1145/2468356.2468487",
 "note": "Collection: Cited. Cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.905",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:thibodeau2013trumpetaugmentat",
+"type": "article-journal",
+"title": "Trumpet Augmentation and Technological Symbiosis",
+"author": [
+{
+"family": "Thibodeau",
+"given": "Joseph"
+},
+{
+"family": "Wanderley",
+"given": "Marcelo M."
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/comj_a_00185",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.898",
 "issued": {
 "date-parts": [
 [
@@ -109395,7 +111394,7 @@
 ],
 "container-title": "Sensors",
 "DOI": "10.3390/s140813556",
-"note": "Collection: Cited. Cited by 16 archive papers; cites 29 archive entries; NIME-topic probability 0.9",
+"note": "Collection: Cited. Cited by 20 archive papers; cites 29 archive entries; NIME-topic probability 0.9",
 "issued": {
 "date-parts": [
 [
@@ -109433,6 +111432,31 @@
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/978-3-319-12976-1_22",
 "note": "Collection: Cited. Cites 8 archive entries; found in the journal sweep; NIME-topic probability 0.905",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "cited:straebel2014alvinluciersmusi",
+"type": "article-journal",
+"title": "Alvin Lucier'sMusic for Solo Performer: Experimental music beyond sonification",
+"author": [
+{
+"family": "Straebel",
+"given": "Volker"
+},
+{
+"family": "Thoben",
+"given": "Wilm"
+}
+],
+"container-title": "Organised Sound",
+"DOI": "10.1017/s135577181300037x",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.706",
 "issued": {
 "date-parts": [
 [
@@ -109632,7 +111656,7 @@
 ],
 "container-title": "Proceedings of the 2nd ACM SIGPLAN international workshop on Functional art, music, modeling &amp; design",
 "DOI": "10.1145/2633638.2633647",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.992",
+"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.992",
 "issued": {
 "date-parts": [
 [
@@ -109694,7 +111718,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00255",
-"note": "Collection: Cited. Cited by 7 archive papers; cites 7 archive entries; NIME-topic probability 0.925",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 7 archive entries; NIME-topic probability 0.925",
 "issued": {
 "date-parts": [
 [
@@ -109744,7 +111768,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00236",
-"note": "Collection: Cited. Cited by 8 archive papers; cites 8 archive entries; NIME-topic probability 0.8",
+"note": "Collection: Cited. Cited by 14 archive papers; cites 8 archive entries; NIME-topic probability 0.8",
 "issued": {
 "date-parts": [
 [
@@ -109773,7 +111797,7 @@
 ],
 "container-title": "2014 IEEE VR Workshop: Sonic Interaction in Virtual Environments (SIVE)",
 "DOI": "10.1109/sive.2014.7006285",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 7 archive entries; NIME-topic probability 0.988",
+"note": "Collection: Cited. Cited by 8 archive papers; cites 7 archive entries; NIME-topic probability 0.988",
 "issued": {
 "date-parts": [
 [
@@ -109831,7 +111855,40 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298215.2015.1087575",
-"note": "Collection: Cited. Cites 13 archive entries; NIME-topic probability 0.905",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 13 archive entries; NIME-topic probability 0.905",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "cited:long2015acomparativeeval",
+"type": "paper-conference",
+"title": "A comparative evaluation of percussion mechanisms for musical robotics applications",
+"author": [
+{
+"family": "Long",
+"given": "J."
+},
+{
+"family": "Murphy",
+"given": "J.W."
+},
+{
+"family": "Kapur",
+"given": "A."
+},
+{
+"family": "Carnegie",
+"given": "D.A."
+}
+],
+"container-title": "2015 6th International Conference on Automation, Robotics and Applications (ICARA)",
+"DOI": "10.1109/icara.2015.7081143",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.556",
 "issued": {
 "date-parts": [
 [
@@ -109887,6 +111944,27 @@
 }
 },
 {
+"id": "cited:fillwalk2015chromachordavirt",
+"type": "paper-conference",
+"title": "ChromaChord: A virtual musical instrument",
+"author": [
+{
+"family": "Fillwalk",
+"given": "John"
+}
+],
+"container-title": "2015 IEEE Symposium on 3D User Interfaces (3DUI)",
+"DOI": "10.1109/3dui.2015.7131770",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.993",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "cited:wang2015chuckastronglyti",
 "type": "article-journal",
 "title": "ChucK: A Strongly Timed Computer Music Language",
@@ -109906,7 +111984,28 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00324",
-"note": "Collection: Cited. Cited by 15 archive papers; cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.924",
+"note": "Collection: Cited. Cited by 20 archive papers; cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.924",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "cited:roads2015composingelectro",
+"type": "book",
+"title": "Composing Electronic Music: A New Aesthetic",
+"author": [
+{
+"family": "Roads",
+"given": "Curtis"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/acprof:oso/9780195373233.001.0001",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.762",
 "issued": {
 "date-parts": [
 [
@@ -109935,7 +112034,7 @@
 ],
 "container-title": "Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/2702123.2702492",
-"note": "Collection: Cited. Cited by 6 archive papers; found in the journal sweep; NIME-topic probability 0.749",
+"note": "Collection: Cited. Cited by 7 archive papers; found in the journal sweep; NIME-topic probability 0.749",
 "issued": {
 "date-parts": [
 [
@@ -110127,6 +112226,27 @@
 }
 },
 {
+"id": "cited:tanaka2015intentionefforta",
+"type": "article-journal",
+"title": "Intention, Effort, and Restraint: The EMG in Musical Performance",
+"author": [
+{
+"family": "Tanaka",
+"given": "Atau"
+}
+],
+"container-title": "Leonardo",
+"DOI": "10.1162/leon_a_01018",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.903",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "cited:berthaut2015interactionmusic",
 "type": "article-journal",
 "title": "Interaction musicale mumérique. Recréer les signaux du contrôle",
@@ -110171,7 +112291,7 @@
 ],
 "container-title": "ACM Transactions on Computer-Human Interaction",
 "DOI": "10.1145/2687922",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.796",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.796",
 "issued": {
 "date-parts": [
 [
@@ -110270,7 +112390,7 @@
 ],
 "container-title": "Communications of the ACM",
 "DOI": "10.1145/2818994",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 9 archive entries; NIME-topic probability 0.952",
+"note": "Collection: Cited. Cited by 9 archive papers; cites 9 archive entries; NIME-topic probability 0.952",
 "issued": {
 "date-parts": [
 [
@@ -110353,7 +112473,7 @@
 ],
 "container-title": "Leonardo",
 "DOI": "10.1162/leon_a_01118",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.893",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.893",
 "issued": {
 "date-parts": [
 [
@@ -110390,7 +112510,7 @@
 ],
 "container-title": "Proceedings of the 2016 ACM Conference on Designing Interactive Systems",
 "DOI": "10.1145/2901790.2901831",
-"note": "Collection: Cited. Cites 16 archive entries; found in the journal sweep; NIME-topic probability 0.974",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 16 archive entries; found in the journal sweep; NIME-topic probability 0.974",
 "issued": {
 "date-parts": [
 [
@@ -110440,7 +112560,7 @@
 ],
 "container-title": "Proceedings of the Audio Mostly 2016",
 "DOI": "10.1145/2986416.2986428",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.923",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.923",
 "issued": {
 "date-parts": [
 [
@@ -110529,6 +112649,27 @@
 }
 },
 {
+"id": "cited:green2016thesituationofpr",
+"type": "article-journal",
+"title": "The Situation of Practice-Led Research Around NIME, and Two Methodological Suggestions for Improved Communication",
+"author": [
+{
+"family": "Green",
+"given": "Owen"
+}
+],
+"container-title": "Leonardo",
+"DOI": "10.1162/leon_a_01119",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.7",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
 "id": "cited:aaron2016thedevelopmentof",
 "type": "article-journal",
 "title": "The development of Sonic Pi and its use in educational partnerships: Co-creating pedagogies for learning computer programming",
@@ -110548,7 +112689,7 @@
 ],
 "container-title": "Journal of Music, Technology &amp; Education",
 "DOI": "10.1386/jmte.9.1.75_1",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.627",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.627",
 "issued": {
 "date-parts": [
 [
@@ -110610,7 +112751,32 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00372",
-"note": "Collection: Cited. Cited by 22 archive papers; cites 16 archive entries; found in the journal sweep; NIME-topic probability 0.868",
+"note": "Collection: Cited. Cited by 24 archive papers; cites 16 archive entries; found in the journal sweep; NIME-topic probability 0.868",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "cited:gabrielli2016wirelessnetworke",
+"type": "chapter",
+"title": "Wireless Networked Music Performance",
+"author": [
+{
+"family": "Gabrielli",
+"given": "Leonardo"
+},
+{
+"family": "Squartini",
+"given": "Stefano"
+}
+],
+"container-title": "SpringerBriefs in Electrical and Computer Engineering",
+"DOI": "10.1007/978-981-10-0335-6_5",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.901",
 "issued": {
 "date-parts": [
 [
@@ -110631,7 +112797,7 @@
 ],
 "container-title": "Current Research in Systematic Musicology",
 "DOI": "10.1007/978-3-319-47214-0_1",
-"note": "Collection: Cited. Cited by 20 archive papers; NIME-topic probability 0.976",
+"note": "Collection: Cited. Cited by 17 archive papers; NIME-topic probability 0.976",
 "issued": {
 "date-parts": [
 [
@@ -110726,7 +112892,7 @@
 ],
 "container-title": "IEEE MultiMedia",
 "DOI": "10.1109/mmul.2017.18",
-"note": "Collection: Cited. Cited by 9 archive papers; cites 8 archive entries; NIME-topic probability 0.884",
+"note": "Collection: Cited. Cited by 10 archive papers; cites 8 archive entries; NIME-topic probability 0.884",
 "issued": {
 "date-parts": [
 [
@@ -110751,7 +112917,7 @@
 ],
 "container-title": "Springer International Publishing",
 "DOI": "10.1007/978-3-319-47214-0",
-"note": "Collection: Cited. Cited by 29 archive papers; NIME-topic probability 0.99",
+"note": "Collection: Cited. Cited by 40 archive papers; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -110826,7 +112992,7 @@
 ],
 "container-title": "Bloomsbury Publishing Inc",
 "DOI": "10.5040/9781501327636",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.723",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.723",
 "issued": {
 "date-parts": [
 [
@@ -110863,7 +113029,7 @@
 ],
 "container-title": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3025453.3026056",
-"note": "Collection: Cited. Cited by 10 archive papers; cites 8 archive entries; NIME-topic probability 0.881",
+"note": "Collection: Cited. Cited by 13 archive papers; cites 8 archive entries; NIME-topic probability 0.881",
 "issued": {
 "date-parts": [
 [
@@ -110967,7 +113133,7 @@
 ],
 "container-title": "Musical Instruments in the 21st Century",
 "DOI": "10.1007/978-981-10-2951-6_2",
-"note": "Collection: Cited. Cited by 8 archive papers; cites 12 archive entries; NIME-topic probability 0.502",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 12 archive entries; NIME-topic probability 0.502",
 "issued": {
 "date-parts": [
 [
@@ -111013,7 +113179,7 @@
 ],
 "container-title": "Musical Instruments in the 21st Century",
 "DOI": "10.1007/978-981-10-2951-6_10",
-"note": "Collection: Cited. Cited by 8 archive papers; cites 9 archive entries; NIME-topic probability 0.849",
+"note": "Collection: Cited. Cited by 10 archive papers; cites 9 archive entries; NIME-topic probability 0.849",
 "issued": {
 "date-parts": [
 [
@@ -111158,7 +113324,7 @@
 ],
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/978-3-319-67738-5_22",
-"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep; NIME-topic probability 0.93",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 6 archive entries; found in the journal sweep; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -111208,7 +113374,28 @@
 ],
 "container-title": "Proceedings of the 4th International Conference on Movement Computing",
 "DOI": "10.1145/3077981.3078039",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 9 archive entries; NIME-topic probability 0.919",
+"note": "Collection: Cited. Cited by 9 archive papers; cites 9 archive entries; NIME-topic probability 0.919",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "cited:jensenius2017sonicmicrointera",
+"type": "chapter",
+"title": "Sonic Microinteraction in “the Air”",
+"author": [
+{
+"family": "Jensenius",
+"given": "Alexander Refsum"
+}
+],
+"container-title": "The Routledge Companion to Embodied Music Interaction",
+"DOI": "10.4324/9781315621364-47",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.72",
 "issued": {
 "date-parts": [
 [
@@ -111308,7 +113495,7 @@
 ],
 "container-title": "The Routledge Companion to Embodied Music Interaction",
 "DOI": "10.4324/9781315621364-6",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.984",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.984",
 "issued": {
 "date-parts": [
 [
@@ -111409,6 +113596,35 @@
 }
 },
 {
+"id": "cited:tuuri2017whocontrolswhoem",
+"type": "article-journal",
+"title": "Who Controls Who? Embodied Control Within Human–Technology Choreographies",
+"author": [
+{
+"family": "Tuuri",
+"given": "Kai"
+},
+{
+"family": "Parviainen",
+"given": "Jaana"
+},
+{
+"family": "Pirhonen",
+"given": "Antti"
+}
+],
+"container-title": "Interacting with Computers",
+"DOI": "10.1093/iwc/iww040",
+"note": "Collection: Cited. Cited by 9 archive papers; cites 6 archive entries; NIME-topic probability 0.852",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
 "id": "cited:zlatintsi2018awebbasedrealtim",
 "type": "paper-conference",
 "title": "A Web-based Real-Time Kinect Application for Gestural Interaction with Virtual Musical Instruments",
@@ -111485,7 +113701,7 @@
 ],
 "container-title": "Music Perception",
 "DOI": "10.1525/mp.2018.36.1.109",
-"note": "Collection: Cited. Cited by 10 archive papers; cites 6 archive entries; NIME-topic probability 0.979",
+"note": "Collection: Cited. Cited by 11 archive papers; cites 6 archive entries; NIME-topic probability 0.979",
 "issued": {
 "date-parts": [
 [
@@ -111496,17 +113712,17 @@
 },
 {
 "id": "cited:hk2018designingwiththe",
-"type": "book",
-"title": "Designing with the Body: Somaesthetic Interaction Design",
+"type": "paper-conference",
+"title": "Designing with the Body - Somaesthetic Interaction Design",
 "author": [
 {
 "family": "Höök",
 "given": "Kristina"
 }
 ],
-"container-title": "The MIT Press",
-"DOI": "10.7551/mitpress/11481.001.0001",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.521",
+"container-title": "Anais Estendidos do XVII Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais (IHC)",
+"DOI": "10.5753/ihc.2018.4168",
+"note": "Collection: Cited. Cited by 14 archive papers; NIME-topic probability 0.521",
 "issued": {
 "date-parts": [
 [
@@ -111689,7 +113905,7 @@
 ],
 "container-title": "ACM Transactions on Interactive Intelligent Systems",
 "DOI": "10.1145/3211826",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.92",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 6 archive entries; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [
@@ -112050,7 +114266,7 @@
 ],
 "container-title": "Multimodal Technologies and Interaction",
 "DOI": "10.3390/mti3030057",
-"note": "Collection: Cited. Cited by 33 archive papers; cites 17 archive entries; NIME-topic probability 0.993",
+"note": "Collection: Cited. Cited by 38 archive papers; cites 17 archive entries; NIME-topic probability 0.993",
 "issued": {
 "date-parts": [
 [
@@ -112079,7 +114295,7 @@
 ],
 "container-title": "Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3290607.3313037",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.884",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.884",
 "issued": {
 "date-parts": [
 [
@@ -112241,7 +114457,7 @@
 ],
 "container-title": "Proceedings of the 2019 on Designing Interactive Systems Conference",
 "DOI": "10.1145/3322276.3322353",
-"note": "Collection: Cited. Cites 10 archive entries; NIME-topic probability 0.593",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 10 archive entries; NIME-topic probability 0.593",
 "issued": {
 "date-parts": [
 [
@@ -112291,7 +114507,7 @@
 ],
 "container-title": "Springer Series on Cultural Computing",
 "DOI": "10.1007/978-3-319-92069-6_8",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.903",
+"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.903",
 "issued": {
 "date-parts": [
 [
@@ -112349,7 +114565,7 @@
 ],
 "container-title": "Springer Series on Cultural Computing",
 "DOI": "10.1007/978-3-319-92069-6_12",
-"note": "Collection: Cited. Cited by 12 archive papers; cites 48 archive entries; NIME-topic probability 0.988",
+"note": "Collection: Cited. Cited by 14 archive papers; cites 48 archive entries; NIME-topic probability 0.988",
 "issued": {
 "date-parts": [
 [
@@ -112465,7 +114681,7 @@
 ],
 "container-title": "International Journal of Human-Computer Studies",
 "DOI": "10.1016/j.ijhcs.2019.02.008",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.9",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.9",
 "issued": {
 "date-parts": [
 [
@@ -112518,7 +114734,7 @@
 }
 ],
 "DOI": "10.1093/oxfordhb/9780190636234.013.2",
-"note": "Collection: Cited. Cited by 13 archive papers; NIME-topic probability 0.991",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.991",
 "issued": {
 "date-parts": [
 [
@@ -112576,7 +114792,7 @@
 ],
 "container-title": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3290605.3300342",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.564",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.564",
 "issued": {
 "date-parts": [
 [
@@ -112713,7 +114929,7 @@
 ],
 "container-title": "Proceedings of the 15th International Audio Mostly Conference",
 "DOI": "10.1145/3411109.3412297",
-"note": "Collection: Cited. Cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.99",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 5 archive entries; found in the journal sweep; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -112750,7 +114966,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771819000475",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.963",
+"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.963",
 "issued": {
 "date-parts": [
 [
@@ -112796,7 +115012,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00561",
-"note": "Collection: Cited. Cited by 7 archive papers; cites 15 archive entries; found in the journal sweep; NIME-topic probability 0.916",
+"note": "Collection: Cited. Cites 15 archive entries; found in the journal sweep; NIME-topic probability 0.916",
 "issued": {
 "date-parts": [
 [
@@ -112933,7 +115149,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771819000463",
-"note": "Collection: Cited. Cited by 7 archive papers; cites 12 archive entries; NIME-topic probability 0.553",
+"note": "Collection: Cited. Cited by 9 archive papers; cites 12 archive entries; NIME-topic probability 0.553",
 "issued": {
 "date-parts": [
 [
@@ -112958,7 +115174,7 @@
 ],
 "container-title": "Proceedings of the 22nd International ACM SIGACCESS Conference on Computers and Accessibility",
 "DOI": "10.1145/3373625.3416988",
-"note": "Collection: Cited. Cites 12 archive entries; NIME-topic probability 0.997",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 12 archive entries; NIME-topic probability 0.997",
 "issued": {
 "date-parts": [
 [
@@ -113082,7 +115298,7 @@
 ],
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/978-3-030-60114-0_5",
-"note": "Collection: Cited. Cited by 6 archive papers; cites 6 archive entries; NIME-topic probability 0.992",
+"note": "Collection: Cited. Cited by 7 archive papers; cites 6 archive entries; NIME-topic probability 0.992",
 "issued": {
 "date-parts": [
 [
@@ -113490,7 +115706,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771821000029",
-"note": "Collection: Cited. Cited by 9 archive papers; cites 5 archive entries; NIME-topic probability 0.548",
+"note": "Collection: Cited. Cited by 10 archive papers; cites 5 archive entries; NIME-topic probability 0.548",
 "issued": {
 "date-parts": [
 [
@@ -114001,43 +116217,6 @@
 }
 },
 {
-"id": "cited:blackwell2022livecodingausers",
-"type": "book",
-"title": "Live Coding: A User's Manual",
-"author": [
-{
-"family": "Blackwell",
-"given": "Alan F."
-},
-{
-"family": "Cocker",
-"given": "Emma"
-},
-{
-"family": "Cox",
-"given": "Geoff"
-},
-{
-"family": "McLean",
-"given": "Alex"
-},
-{
-"family": "Magnusson",
-"given": "Thor"
-}
-],
-"container-title": "The MIT Press",
-"DOI": "10.7551/mitpress/13770.001.0001",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.8",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
 "id": "cited:nordmoen2022makingspaceforma",
 "type": "paper-conference",
 "title": "Making space for material entanglements: A diffractive analysis of woodwork and the practice of making an interactive system",
@@ -114124,7 +116303,7 @@
 ],
 "container-title": "The MIT Press",
 "DOI": "10.7551/mitpress/14220.001.0001",
-"note": "Collection: Cited. Cited by 16 archive papers; NIME-topic probability 0.996",
+"note": "Collection: Cited. Cited by 17 archive papers; NIME-topic probability 0.996",
 "issued": {
 "date-parts": [
 [
@@ -114445,6 +116624,27 @@
 }
 },
 {
+"id": "cited:mudd2023playingwithfeedb",
+"type": "paper-conference",
+"title": "Playing with Feedback: Unpredictability, Immediacy, and Entangled Agency in the No-input Mixing Desk",
+"author": [
+{
+"family": "Mudd",
+"given": "Tom"
+}
+],
+"container-title": "Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3544548.3580662",
+"note": "Collection: Cited. Cited by 7 archive papers; cites 5 archive entries; NIME-topic probability 0.85",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
 "id": "cited:alonsotrillo2023rethinkinginstru",
 "type": "article-journal",
 "title": "Rethinking Instrumental Interface Design: The MetaBow",
@@ -114667,7 +116867,7 @@
 ],
 "container-title": "Proceedings of the 9th International Conference on Movement and Computing",
 "DOI": "10.1145/3658852.3659072",
-"note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep; NIME-topic probability 0.976",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 6 archive entries; found in the journal sweep; NIME-topic probability 0.976",
 "issued": {
 "date-parts": [
 [
@@ -114998,7 +117198,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298215.2024.2442348",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 11 archive entries; found in the journal sweep; NIME-topic probability 0.932",
+"note": "Collection: Cited. Cited by 7 archive papers; cites 11 archive entries; found in the journal sweep; NIME-topic probability 0.932",
 "issued": {
 "date-parts": [
 [
@@ -115156,31 +117356,6 @@
 "container-title": "Frontiers in Computer Science",
 "DOI": "10.3389/fcomp.2025.1575168",
 "note": "Collection: Cited. Cites 23 archive entries; NIME-topic probability 0.733",
-"issued": {
-"date-parts": [
-[
-2025
-]
-]
-}
-},
-{
-"id": "cited:stefnsdttir2025ofalteredinstrum",
-"type": "article-journal",
-"title": "Of altered instrumental relations: a practice-led inquiry into agency through musical performance with neural audio synthesis and violin",
-"author": [
-{
-"family": "Stefánsdóttir",
-"given": "Halla Steinunn"
-},
-{
-"family": "Magnusson",
-"given": "Thor"
-}
-],
-"container-title": "Frontiers in Computer Science",
-"DOI": "10.3389/fcomp.2025.1578595",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.925",
 "issued": {
 "date-parts": [
 [
@@ -127178,27 +129353,6 @@
 }
 },
 {
-"id": "background:meyer1961emotionandmeanin",
-"type": "book",
-"title": "Emotion and Meaning in Music",
-"author": [
-{
-"family": "Meyer",
-"given": "Leonard B."
-}
-],
-"container-title": "University of Chicago Press",
-"DOI": "10.7208/chicago/9780226521374.001.0001",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.204",
-"issued": {
-"date-parts": [
-[
-1961
-]
-]
-}
-},
-{
 "id": "background:grey1977multidimensional",
 "type": "article-journal",
 "title": "Multidimensional perceptual scaling of musical timbres",
@@ -127210,7 +129364,7 @@
 ],
 "container-title": "The Journal of the Acoustical Society of America",
 "DOI": "10.1121/1.381428",
-"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.46",
+"note": "Collection: Background. Cited by 14 archive papers; NIME-topic probability 0.46",
 "issued": {
 "date-parts": [
 [
@@ -127231,7 +129385,7 @@
 ],
 "container-title": "Journal of Personality and Social Psychology",
 "DOI": "10.1037/h0077714",
-"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.058",
+"note": "Collection: Background. Cited by 19 archive papers; NIME-topic probability 0.058",
 "issued": {
 "date-parts": [
 [
@@ -127252,7 +129406,7 @@
 ],
 "container-title": "Birkhäuser Basel",
 "DOI": "10.1007/978-3-0348-5357-6",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.307",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.307",
 "issued": {
 "date-parts": [
 [
@@ -127277,40 +129431,11 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3680063",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.081",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.081",
 "issued": {
 "date-parts": [
 [
 1983
-]
-]
-}
-},
-{
-"id": "background:child1984agenerativetheor",
-"type": "article-journal",
-"title": "A Generative Theory of Tonal Music",
-"author": [
-{
-"family": "Child",
-"given": "Peter"
-},
-{
-"family": "Lerdahl",
-"given": "Fred"
-},
-{
-"family": "Jackendoff",
-"given": "Ray"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3679778",
-"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.172",
-"issued": {
-"date-parts": [
-[
-1984
 ]
 ]
 }
@@ -127327,7 +129452,7 @@
 ],
 "container-title": "Journal of Motor Behavior",
 "DOI": "10.1080/00222895.1987.10735426",
-"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.429",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.429",
 "issued": {
 "date-parts": [
 [
@@ -127348,7 +129473,7 @@
 ],
 "container-title": "ACM SIGGRAPH Computer Graphics",
 "DOI": "10.1145/37402.37406",
-"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.129",
+"note": "Collection: Background. Cited by 15 archive papers; NIME-topic probability 0.129",
 "issued": {
 "date-parts": [
 [
@@ -127369,7 +129494,28 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3680175",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.341",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.341",
+"issued": {
+"date-parts": [
+[
+1987
+]
+]
+}
+},
+{
+"id": "background:johnson1987thebodyinthemind",
+"type": "book",
+"title": "The Body in the Mind: The Bodily Basis of Meaning, Imagination, and Reason",
+"author": [
+{
+"family": "Johnson",
+"given": "Mark"
+}
+],
+"container-title": "University of Chicago Press",
+"DOI": "10.7208/chicago/9780226177847.001.0001",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.305",
 "issued": {
 "date-parts": [
 [
@@ -127415,11 +129561,78 @@
 ],
 "container-title": "Readings in Speech Recognition",
 "DOI": "10.1016/b978-0-08-051584-7.50027-9",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.046",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.046",
 "issued": {
 "date-parts": [
 [
 1990
+]
+]
+}
+},
+{
+"id": "background:lansky1990aviewfromthebusw",
+"type": "article-journal",
+"title": "A View from the Bus: When Machines Make Music",
+"author": [
+{
+"family": "Lansky",
+"given": "Paul"
+}
+],
+"container-title": "Perspectives of New Music",
+"DOI": "10.2307/833010",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.466",
+"issued": {
+"date-parts": [
+[
+1990
+]
+]
+}
+},
+{
+"id": "background:bregman1990auditorysceneana",
+"type": "book",
+"title": "Auditory Scene Analysis: The Perceptual Organization of Sound",
+"author": [
+{
+"family": "Bregman",
+"given": "Albert S."
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/1486.001.0001",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.168",
+"issued": {
+"date-parts": [
+[
+1990
+]
+]
+}
+},
+{
+"id": "background:lave1991situatedlearning",
+"type": "book",
+"title": "Situated Learning: Legitimate Peripheral Participation",
+"author": [
+{
+"family": "Lave",
+"given": "Jean"
+},
+{
+"family": "Wenger",
+"given": "Etienne"
+}
+],
+"container-title": "Cambridge University Press",
+"DOI": "10.1017/cbo9780511815355",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.075",
+"issued": {
+"date-parts": [
+[
+1991
 ]
 ]
 }
@@ -127436,11 +129649,65 @@
 ],
 "container-title": "Scientific American",
 "DOI": "10.1038/scientificamerican0991-94",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.459",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.459",
 "issued": {
 "date-parts": [
 [
 1991
+]
+]
+}
+},
+{
+"id": "background:varela1991theembodiedmindc",
+"type": "book",
+"title": "The Embodied Mind: Cognitive Science and Human Experience",
+"author": [
+{
+"family": "Varela",
+"given": "Francisco J."
+},
+{
+"family": "Rosch",
+"given": "Eleanor"
+},
+{
+"family": "Thompson",
+"given": "Evan"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/6730.001.0001",
+"note": "Collection: Background. Cited by 17 archive papers; NIME-topic probability 0.303",
+"issued": {
+"date-parts": [
+[
+1991
+]
+]
+}
+},
+{
+"id": "background:mcadams1992perceptionoftimb",
+"type": "article-journal",
+"title": "Perception of timbral analogies",
+"author": [
+{
+"family": "McAdams",
+"given": "Stephen"
+},
+{
+"family": "Cunible",
+"given": "Jean-christophe"
+}
+],
+"container-title": "Philosophical Transactions of the Royal Society of London. Series B: Biological Sciences",
+"DOI": "10.1098/rstb.1992.0072",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.27",
+"issued": {
+"date-parts": [
+[
+1992
 ]
 ]
 }
@@ -127467,26 +129734,47 @@
 }
 },
 {
-"id": "background:bregman1994auditorysceneana",
+"id": "background:green1996usabilityanalysi",
 "type": "article-journal",
-"title": "Auditory Scene Analysis: The Perceptual Organization of Sound",
+"title": "Usability Analysis of Visual Programming Environments: A ‘Cognitive Dimensions’ Framework",
 "author": [
 {
-"family": "Bregman",
-"given": "Albert S."
+"family": "Green",
+"given": "T.R.G."
 },
 {
-"family": "McAdams",
-"given": "Stephen"
+"family": "Petre",
+"given": "M."
 }
 ],
-"container-title": "The Journal of the Acoustical Society of America",
-"DOI": "10.1121/1.408434",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.168",
+"container-title": "Journal of Visual Languages &amp; Computing",
+"DOI": "10.1006/jvlc.1996.0009",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.041",
 "issued": {
 "date-parts": [
 [
-1994
+1996
+]
+]
+}
+},
+{
+"id": "background:juslin1997emotionalcommuni",
+"type": "article-journal",
+"title": "Emotional Communication in Music Performance: A Functionalist Perspective and Some Data",
+"author": [
+{
+"family": "Juslin",
+"given": "Patrik N."
+}
+],
+"container-title": "Music Perception",
+"DOI": "10.2307/40285731",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.459",
+"issued": {
+"date-parts": [
+[
+1997
 ]
 ]
 }
@@ -127536,11 +129824,53 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771897009059",
-"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.307",
+"note": "Collection: Background. Cited by 15 archive papers; NIME-topic probability 0.307",
 "issued": {
 "date-parts": [
 [
 1997
+]
+]
+}
+},
+{
+"id": "background:wenger1998communitiesofpra",
+"type": "book",
+"title": "Communities of Practice: Learning, Meaning, and Identity",
+"author": [
+{
+"family": "Wenger",
+"given": "Etienne"
+}
+],
+"container-title": "Cambridge University Press",
+"DOI": "10.1017/cbo9780511803932",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.115",
+"issued": {
+"date-parts": [
+[
+1998
+]
+]
+}
+},
+{
+"id": "background:lucier1998originsofaformac",
+"type": "article-journal",
+"title": "Origins of a Form: Acoustical Exploration, Science and Incessancy",
+"author": [
+{
+"family": "Lucier",
+"given": "Alvin"
+}
+],
+"container-title": "Leonardo Music Journal",
+"DOI": "10.2307/1513391",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.352",
+"issued": {
+"date-parts": [
+[
+1998
 ]
 ]
 }
@@ -127565,7 +129895,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3681155",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.05",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.05",
 "issued": {
 "date-parts": [
 [
@@ -127590,11 +129920,48 @@
 ],
 "container-title": "IEEE Transactions on Neural Networks",
 "DOI": "10.1109/tnn.1998.712192",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.142",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.142",
 "issued": {
 "date-parts": [
 [
 1998
+]
+]
+}
+},
+{
+"id": "background:assayag1999computerassisted",
+"type": "article-journal",
+"title": "Computer-Assisted Composition at IRCAM: From PatchWork to OpenMusic",
+"author": [
+{
+"family": "Assayag",
+"given": "Gérard"
+},
+{
+"family": "Rueda",
+"given": "Camilo"
+},
+{
+"family": "Laurson",
+"given": "Mikael"
+},
+{
+"family": "Agon",
+"given": "Carlos"
+},
+{
+"family": "Delerue",
+"given": "Olivier"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/014892699559896",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.139",
+"issued": {
+"date-parts": [
+[
+1999
 ]
 ]
 }
@@ -127629,6 +129996,90 @@
 }
 },
 {
+"id": "background:hayles1999howwebecameposth",
+"type": "book",
+"title": "How We Became Posthuman: Virtual Bodies in Cybernetics, Literature, and Informatics",
+"author": [
+{
+"family": "Hayles",
+"given": "N. Katherine"
+}
+],
+"container-title": "University of Chicago Press",
+"DOI": "10.7208/chicago/9780226321394.001.0001",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.284",
+"issued": {
+"date-parts": [
+[
+1999
+]
+]
+}
+},
+{
+"id": "background:schmuckler1999testingmodelsofm",
+"type": "article-journal",
+"title": "Testing Models of Melodic Contour Similarity",
+"author": [
+{
+"family": "Schmuckler",
+"given": "Mark A."
+}
+],
+"container-title": "Music Perception",
+"DOI": "10.2307/40285795",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.011",
+"issued": {
+"date-parts": [
+[
+1999
+]
+]
+}
+},
+{
+"id": "background:brower2000acognitivetheory",
+"type": "article-journal",
+"title": "A Cognitive Theory of Musical Meaning",
+"author": [
+{
+"family": "Brower",
+"given": "Candace"
+}
+],
+"container-title": "Journal of Music Theory",
+"DOI": "10.2307/3090681",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.298",
+"issued": {
+"date-parts": [
+[
+2000
+]
+]
+}
+},
+{
+"id": "background:juslin2000cueutilizationin",
+"type": "article-journal",
+"title": "Cue utilization in communication of emotion in music performance: Relating performance to perception.",
+"author": [
+{
+"family": "Juslin",
+"given": "Patrik N."
+}
+],
+"container-title": "Journal of Experimental Psychology: Human Perception and Performance",
+"DOI": "10.1037/0096-1523.26.6.1797",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.423",
+"issued": {
+"date-parts": [
+[
+2000
+]
+]
+}
+},
+{
 "id": "background:post2000ebroiderydesigna",
 "type": "article-journal",
 "title": "E-broidery: Design and fabrication of textile-based computing",
@@ -127652,7 +130103,53 @@
 ],
 "container-title": "IBM Systems Journal",
 "DOI": "10.1147/sj.393.0840",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.187",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.187",
+"issued": {
+"date-parts": [
+[
+2000
+]
+]
+}
+},
+{
+"id": "background:ullmer2000emergingframewor",
+"type": "article-journal",
+"title": "Emerging frameworks for tangible user interfaces",
+"author": [
+{
+"family": "Ullmer",
+"given": "B."
+},
+{
+"family": "Ishii",
+"given": "H."
+}
+],
+"container-title": "IBM Systems Journal",
+"DOI": "10.1147/sj.393.0915",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.286",
+"issued": {
+"date-parts": [
+[
+2000
+]
+]
+}
+},
+{
+"id": "background:denora2000musicineverydayl",
+"type": "book",
+"title": "Music in Everyday Life",
+"author": [
+{
+"family": "DeNora",
+"given": "Tia"
+}
+],
+"container-title": "Cambridge University Press",
+"DOI": "10.1017/cbo9780511489433",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.075",
 "issued": {
 "date-parts": [
 [
@@ -127702,11 +130199,32 @@
 ],
 "container-title": "Leonardo Music Journal",
 "DOI": "10.1162/096112100570585",
-"note": "Collection: Background. Cited by 23 archive papers; NIME-topic probability 0.285",
+"note": "Collection: Background. Cited by 33 archive papers; NIME-topic probability 0.285",
 "issued": {
 "date-parts": [
 [
 2000
+]
+]
+}
+},
+{
+"id": "background:borchers2001apatternapproach",
+"type": "article-journal",
+"title": "A pattern approach to interaction design",
+"author": [
+{
+"family": "Borchers",
+"given": "Jan O."
+}
+],
+"container-title": "AI &amp; Society",
+"DOI": "10.1007/bf01206115",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.325",
+"issued": {
+"date-parts": [
+[
+2001
 ]
 ]
 }
@@ -127727,11 +130245,40 @@
 ],
 "container-title": "Oxford University PressNew York, NY",
 "DOI": "10.1093/oso/9780192631886.001.0001",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.124",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.124",
 "issued": {
 "date-parts": [
 [
 2001
+]
+]
+}
+},
+{
+"id": "background:hajian2002drumrollincreasi",
+"type": "paper-conference",
+"title": "Drum roll: increasing bandwidth through passive impedance modulation",
+"author": [
+{
+"family": "Hajian",
+"given": "A.Z."
+},
+{
+"family": "Sanchez",
+"given": "D.S."
+},
+{
+"family": "Howe",
+"given": "R.D."
+}
+],
+"container-title": "Proceedings of International Conference on Robotics and Automation",
+"DOI": "10.1109/robot.1997.619304",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.324",
+"issued": {
+"date-parts": [
+[
+2002
 ]
 ]
 }
@@ -127789,11 +130336,61 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/503376.503450",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.403",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.403",
 "issued": {
 "date-parts": [
 [
 2002
+]
+]
+}
+},
+{
+"id": "background:gaver2003ambiguityasareso",
+"type": "paper-conference",
+"title": "Ambiguity as a resource for design",
+"author": [
+{
+"family": "Gaver",
+"given": "William W."
+},
+{
+"family": "Beaver",
+"given": "Jacob"
+},
+{
+"family": "Benford",
+"given": "Steve"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/642611.642653",
+"note": "Collection: Background. Cited by 15 archive papers; NIME-topic probability 0.118",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "background:gody2003motormimeticmusi",
+"type": "article-journal",
+"title": "Motor-Mimetic Music Cognition",
+"author": [
+{
+"family": "Godøy",
+"given": "Rolf Inge"
+}
+],
+"container-title": "Leonardo",
+"DOI": "10.1162/002409403322258781",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.047",
+"issued": {
+"date-parts": [
+[
+2003
 ]
 ]
 }
@@ -127831,7 +130428,72 @@
 ],
 "container-title": "Signs: Journal of Women in Culture and Society",
 "DOI": "10.1086/345321",
-"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.163",
+"note": "Collection: Background. Cited by 13 archive papers; NIME-topic probability 0.163",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "background:hutchinson2003technologyprobes",
+"type": "paper-conference",
+"title": "Technology probes: inspiring design for and with families",
+"author": [
+{
+"family": "Hutchinson",
+"given": "Hilary"
+},
+{
+"family": "Mackay",
+"given": "Wendy"
+},
+{
+"family": "Westerlund",
+"given": "Bo"
+},
+{
+"family": "Bederson",
+"given": "Benjamin B."
+},
+{
+"family": "Druin",
+"given": "Allison"
+},
+{
+"family": "Plaisant",
+"given": "Catherine"
+},
+{
+"family": "Beaudouin-Lafon",
+"given": "Michel"
+},
+{
+"family": "Conversy",
+"given": "Stéphane"
+},
+{
+"family": "Evans",
+"given": "Helen"
+},
+{
+"family": "Hansen",
+"given": "Heiko"
+},
+{
+"family": "Roussel",
+"given": "Nicolas"
+},
+{
+"family": "Eiderbäck",
+"given": "Björn"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/642611.642616",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.227",
 "issued": {
 "date-parts": [
 [
@@ -127866,6 +130528,35 @@
 }
 },
 {
+"id": "background:farbood2004hyperscoreagraph",
+"type": "article-journal",
+"title": "Hyperscore: a graphical sketchpad for novice composers",
+"author": [
+{
+"family": "Farbood",
+"given": "M.M."
+},
+{
+"family": "Pasztor",
+"given": "E."
+},
+{
+"family": "Jennings",
+"given": "K."
+}
+],
+"container-title": "IEEE Computer Graphics and Applications",
+"DOI": "10.1109/mcg.2004.1255809",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.359",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
 "id": "background:beamish2004manipulatingmusi",
 "type": "paper-conference",
 "title": "Manipulating music: multimodal interaction for DJs",
@@ -127885,7 +130576,28 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/985692.985734",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.399",
+"note": "Collection: Background. Cited by 11 archive papers; NIME-topic probability 0.399",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "background:ghazala2004thefolkmusicofch",
+"type": "article-journal",
+"title": "The Folk Music of Chance Electronics: Circuit-Bending the Modern Coconut",
+"author": [
+{
+"family": "Ghazala",
+"given": "Qubais Reed"
+}
+],
+"container-title": "Leonardo Music Journal",
+"DOI": "10.1162/0961121043067271",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.175",
 "issued": {
 "date-parts": [
 [
@@ -127926,7 +130638,28 @@
 ],
 "container-title": "IEEE Transactions on Speech and Audio Processing",
 "DOI": "10.1109/tsa.2005.851998",
-"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.041",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.041",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "background:latour2005reassemblingthes",
+"type": "book",
+"title": "Reassembling the Social: An Introduction to Actor-Network-Theory",
+"author": [
+{
+"family": "Latour",
+"given": "Bruno"
+}
+],
+"container-title": "Oxford University PressOxford",
+"DOI": "10.1093/oso/9780199256044.001.0001",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.003",
 "issued": {
 "date-parts": [
 [
@@ -127947,7 +130680,32 @@
 ],
 "container-title": "Psychonomic Bulletin &amp; Review",
 "DOI": "10.3758/bf03206433",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.317",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.317",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "background:resnick2005somereflectionso",
+"type": "paper-conference",
+"title": "Some reflections on designing construction kits for kids",
+"author": [
+{
+"family": "Resnick",
+"given": "Mitchel"
+},
+{
+"family": "Silverman",
+"given": "Brian"
+}
+],
+"container-title": "Proceedings of the 2005 conference on Interaction design and children",
+"DOI": "10.1145/1109540.1109556",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.285",
 "issued": {
 "date-parts": [
 [
@@ -127976,7 +130734,28 @@
 ],
 "container-title": "Proceedings of the 6th conference on Designing Interactive systems",
 "DOI": "10.1145/1142405.1142429",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.241",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.241",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "background:tanaka2006interactionexper",
+"type": "chapter",
+"title": "Interaction, Experience and the Future of Music",
+"author": [
+{
+"family": "Tanaka",
+"given": "Atau"
+}
+],
+"container-title": "Computer Supported Cooperative Work",
+"DOI": "10.1007/1-4020-4097-0_13",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.345",
 "issued": {
 "date-parts": [
 [
@@ -127997,7 +130776,32 @@
 ],
 "container-title": "Duke University Press",
 "DOI": "10.1215/9780822388128",
-"note": "Collection: Background. Cited by 17 archive papers; NIME-topic probability 0.225",
+"note": "Collection: Background. Cited by 19 archive papers; NIME-topic probability 0.225",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "background:sengers2006stayingopentoint",
+"type": "paper-conference",
+"title": "Staying open to interpretation: engaging multiple meanings in design and evaluation",
+"author": [
+{
+"family": "Sengers",
+"given": "Phoebe"
+},
+{
+"family": "Gaver",
+"given": "Bill"
+}
+],
+"container-title": "Proceedings of the 6th conference on Designing Interactive systems",
+"DOI": "10.1145/1142405.1142422",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.399",
 "issued": {
 "date-parts": [
 [
@@ -128018,7 +130822,7 @@
 ],
 "container-title": "The MIT Press",
 "DOI": "10.7551/mitpress/6575.001.0001",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.43",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.43",
 "issued": {
 "date-parts": [
 [
@@ -128043,7 +130847,7 @@
 ],
 "container-title": "Qualitative Research in Psychology",
 "DOI": "10.1191/1478088706qp063oa",
-"note": "Collection: Background. Cited by 39 archive papers; NIME-topic probability 0.223",
+"note": "Collection: Background. Cited by 40 archive papers; NIME-topic probability 0.223",
 "issued": {
 "date-parts": [
 [
@@ -128085,11 +130889,82 @@
 ],
 "container-title": "The MIT Press",
 "DOI": "10.7551/mitpress/7476.001.0001",
-"note": "Collection: Background. Cited by 36 archive papers; NIME-topic probability 0.225",
+"note": "Collection: Background. Cited by 51 archive papers; NIME-topic probability 0.225",
 "issued": {
 "date-parts": [
 [
 2007
+]
+]
+}
+},
+{
+"id": "background:zimmerman2007researchthroughd",
+"type": "paper-conference",
+"title": "Research through design as a method for interaction design research in HCI",
+"author": [
+{
+"family": "Zimmerman",
+"given": "John"
+},
+{
+"family": "Forlizzi",
+"given": "Jodi"
+},
+{
+"family": "Evenson",
+"given": "Shelley"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1240624.1240704",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.066",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "background:johnson2007themeaningoftheb",
+"type": "book",
+"title": "The Meaning of the Body: Aesthetics of Human Understanding",
+"author": [
+{
+"family": "Johnson",
+"given": "Mark"
+}
+],
+"container-title": "University of Chicago Press",
+"DOI": "10.7208/chicago/9780226026992.001.0001",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.13",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "background:verbeek2008cyborgintentiona",
+"type": "article-journal",
+"title": "Cyborg intentionality: Rethinking the phenomenology of human–technology relations",
+"author": [
+{
+"family": "Verbeek",
+"given": "Peter-Paul"
+}
+],
+"container-title": "Phenomenology and the Cognitive Sciences",
+"DOI": "10.1007/s11097-008-9099-x",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.148",
+"issued": {
+"date-parts": [
+[
+2008
 ]
 ]
 }
@@ -128111,6 +130986,121 @@
 "date-parts": [
 [
 2008
+]
+]
+}
+},
+{
+"id": "background:jacob2008realitybasedinte",
+"type": "paper-conference",
+"title": "Reality-based interaction: a framework for post-WIMP interfaces",
+"author": [
+{
+"family": "Jacob",
+"given": "Robert J.K."
+},
+{
+"family": "Girouard",
+"given": "Audrey"
+},
+{
+"family": "Hirshfield",
+"given": "Leanne M."
+},
+{
+"family": "Horn",
+"given": "Michael S."
+},
+{
+"family": "Shaer",
+"given": "Orit"
+},
+{
+"family": "Solovey",
+"given": "Erin Treacy"
+},
+{
+"family": "Zigelbaum",
+"given": "Jamie"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1357054.1357089",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.34",
+"issued": {
+"date-parts": [
+[
+2008
+]
+]
+}
+},
+{
+"id": "background:buechley2008thelilypadarduin",
+"type": "paper-conference",
+"title": "The LilyPad Arduino: using computational textiles to investigate engagement, aesthetics, and diversity in computer science education",
+"author": [
+{
+"family": "Buechley",
+"given": "Leah"
+},
+{
+"family": "Eisenberg",
+"given": "Mike"
+},
+{
+"family": "Catchen",
+"given": "Jaime"
+},
+{
+"family": "Crockett",
+"given": "Ali"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1357054.1357123",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.482",
+"issued": {
+"date-parts": [
+[
+2008
+]
+]
+}
+},
+{
+"id": "background:sethares2009spectraltoolsfor",
+"type": "article-journal",
+"title": "Spectral Tools for Dynamic Tonality and Audio Morphing",
+"author": [
+{
+"family": "Sethares",
+"given": "William A."
+},
+{
+"family": "Milne",
+"given": "Andrew J."
+},
+{
+"family": "Tiedje",
+"given": "Stefan"
+},
+{
+"family": "Prechtl",
+"given": "Anthony"
+},
+{
+"family": "Plamondon",
+"given": "James"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/comj.2009.33.2.71",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.227",
+"issued": {
+"date-parts": [
+[
+2009
 ]
 ]
 }
@@ -128156,7 +131146,7 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/1978942.1978965",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.207",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.207",
 "issued": {
 "date-parts": [
 [
@@ -128203,6 +131193,31 @@
 }
 },
 {
+"id": "background:gaver2012annotatedportfol",
+"type": "article-journal",
+"title": "Annotated portfolios",
+"author": [
+{
+"family": "Gaver",
+"given": "Bill"
+},
+{
+"family": "Bowers",
+"given": "John"
+}
+],
+"container-title": "Interactions",
+"DOI": "10.1145/2212877.2212889",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.154",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
 "id": "background:neustaedter2012autobiographical",
 "type": "paper-conference",
 "title": "Autobiographical design in HCI research: designing and learning through use-it-yourself",
@@ -128218,7 +131233,7 @@
 ],
 "container-title": "Proceedings of the Designing Interactive Systems Conference",
 "DOI": "10.1145/2317956.2318034",
-"note": "Collection: Background. Cited by 11 archive papers; NIME-topic probability 0.065",
+"note": "Collection: Background. Cited by 14 archive papers; NIME-topic probability 0.065",
 "issued": {
 "date-parts": [
 [
@@ -128243,7 +131258,28 @@
 ],
 "container-title": "Behaviour &amp; Information Technology",
 "DOI": "10.1080/01449290903377103",
-"note": "Collection: Background. Cited by 6 archive papers; cites 8 archive entries; NIME-topic probability 0.053",
+"note": "Collection: Background. Cited by 7 archive papers; cites 8 archive entries; NIME-topic probability 0.053",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
+"id": "background:bowers2012thelogicofannota",
+"type": "paper-conference",
+"title": "The logic of annotated portfolios: communicating the value of 'research through design'",
+"author": [
+{
+"family": "Bowers",
+"given": "John"
+}
+],
+"container-title": "Proceedings of the Designing Interactive Systems Conference",
+"DOI": "10.1145/2317956.2317968",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.126",
 "issued": {
 "date-parts": [
 [
@@ -128264,7 +131300,7 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/2207676.2208538",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.157",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.157",
 "issued": {
 "date-parts": [
 [
@@ -128297,7 +131333,7 @@
 ],
 "container-title": "Springer Series on Cultural Computing",
 "DOI": "10.1007/978-1-4471-2990-5_3",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.192",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.192",
 "issued": {
 "date-parts": [
 [
@@ -128322,7 +131358,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00176",
-"note": "Collection: Background. Cited by 18 archive papers; NIME-topic probability 0.448",
+"note": "Collection: Background. Cited by 23 archive papers; NIME-topic probability 0.448",
 "issued": {
 "date-parts": [
 [
@@ -128408,7 +131444,28 @@
 ],
 "container-title": "ACM Transactions on Computer-Human Interaction",
 "DOI": "10.1145/2491500.2491502",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.087",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.087",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "background:horn2013theroleofcultura",
+"type": "paper-conference",
+"title": "The role of cultural forms in tangible interaction design",
+"author": [
+{
+"family": "Horn",
+"given": "Michael S."
+}
+],
+"container-title": "Proceedings of the 7th International Conference on Tangible, Embedded and Embodied Interaction",
+"DOI": "10.1145/2460625.2460643",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.13",
 "issued": {
 "date-parts": [
 [
@@ -128441,81 +131498,11 @@
 ],
 "container-title": "ACM Transactions on Interactive Intelligent Systems",
 "DOI": "10.1145/2643204",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.381",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.381",
 "issued": {
 "date-parts": [
 [
 2015
-]
-]
-}
-},
-{
-"id": "background:mcfee2015librosaaudioandm",
-"type": "paper-conference",
-"title": "librosa: Audio and Music Signal Analysis in Python",
-"author": [
-{
-"family": "McFee",
-"given": "Brian"
-},
-{
-"family": "Raffel",
-"given": "Colin"
-},
-{
-"family": "Liang",
-"given": "Dawen"
-},
-{
-"family": "Ellis",
-"given": "Daniel"
-},
-{
-"family": "McVicar",
-"given": "Matt"
-},
-{
-"family": "Battenberg",
-"given": "Eric"
-},
-{
-"family": "Nieto",
-"given": "Oriol"
-}
-],
-"container-title": "Proceedings of the Python in Science Conference",
-"DOI": "10.25080/majora-7b98e3ed-003",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.387",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
-"id": "background:born2016gendercreativity",
-"type": "article-journal",
-"title": "Gender, Creativity and Education in Digital Musics and Sound Art",
-"author": [
-{
-"family": "Born",
-"given": "Georgina"
-},
-{
-"family": "Devine",
-"given": "Kyle"
-}
-],
-"container-title": "Contemporary Music Review",
-"DOI": "10.1080/07494467.2016.1177255",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.441",
-"issued": {
-"date-parts": [
-[
-2016
 ]
 ]
 }
@@ -128542,47 +131529,26 @@
 }
 },
 {
-"id": "background:norman2016thedesignofevery",
-"type": "book",
-"title": "The Design of Everyday Things",
+"id": "background:wilde2017embodieddesignid",
+"type": "paper-conference",
+"title": "Embodied Design Ideation Methods: Analysing the Power of Estrangement",
 "author": [
 {
-"family": "Norman",
-"given": "Don"
+"family": "Wilde",
+"given": "Danielle"
+},
+{
+"family": "Vallgårda",
+"given": "Anna"
+},
+{
+"family": "Tomico",
+"given": "Oscar"
 }
 ],
-"container-title": "Vahlen",
-"DOI": "10.15358/9783800648108",
-"note": "Collection: Background. Cited by 20 archive papers; NIME-topic probability 0.027",
-"issued": {
-"date-parts": [
-[
-2016
-]
-]
-}
-},
-{
-"id": "background:varela2017theembodiedmindc",
-"type": "book",
-"title": "The Embodied Mind: Cognitive Science and Human Experience",
-"author": [
-{
-"family": "Varela",
-"given": "Francisco J."
-},
-{
-"family": "Thompson",
-"given": "Evan"
-},
-{
-"family": "Rosch",
-"given": "Eleanor"
-}
-],
-"container-title": "The MIT Press",
-"DOI": "10.7551/mitpress/9780262529365.001.0001",
-"note": "Collection: Background. Cited by 14 archive papers; NIME-topic probability 0.303",
+"container-title": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3025453.3025873",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.222",
 "issued": {
 "date-parts": [
 [
@@ -128611,7 +131577,7 @@
 ],
 "container-title": "Lecture Notes in Computer Science",
 "DOI": "10.1007/978-3-319-58521-5_40",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.449",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.449",
 "issued": {
 "date-parts": [
 [
@@ -128648,7 +131614,7 @@
 ],
 "container-title": "IEEE Access",
 "DOI": "10.1109/access.2018.2872625",
-"note": "Collection: Background. Cited by 6 archive papers; cites 15 archive entries; NIME-topic probability 0.113",
+"note": "Collection: Background. Cited by 14 archive papers; cites 15 archive entries; NIME-topic probability 0.113",
 "issued": {
 "date-parts": [
 [
@@ -128673,11 +131639,48 @@
 ],
 "container-title": "Leonardo",
 "DOI": "10.1162/leon_a_01471",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.216",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.216",
 "issued": {
 "date-parts": [
 [
 2018
+]
+]
+}
+},
+{
+"id": "background:sturm2019artificialintell",
+"type": "article-journal",
+"title": "Artificial Intelligence and Music: Open Questions of Copyright Law and Engineering Praxis",
+"author": [
+{
+"family": "Sturm",
+"given": "Bob L. T."
+},
+{
+"family": "Iglesias",
+"given": "Maria"
+},
+{
+"family": "Ben-Tal",
+"given": "Oded"
+},
+{
+"family": "Miron",
+"given": "Marius"
+},
+{
+"family": "Gómez",
+"given": "Emilia"
+}
+],
+"container-title": "Arts",
+"DOI": "10.3390/arts8030115",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.256",
+"issued": {
+"date-parts": [
+[
+2019
 ]
 ]
 }
@@ -128695,6 +131698,31 @@
 "container-title": "Contemporary Music Review",
 "DOI": "10.1080/07494467.2019.1684059",
 "note": "Collection: Background. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.26",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "background:rossmy2019combshapeasamean",
+"type": "paper-conference",
+"title": "COMB -- Shape as a Meaningful Element of Interaction",
+"author": [
+{
+"family": "Rossmy",
+"given": "Beat"
+},
+{
+"family": "Wiethoff",
+"given": "Alexander"
+}
+],
+"container-title": "Proceedings of the Thirteenth International Conference on Tangible, Embedded, and Embodied Interaction",
+"DOI": "10.1145/3294109.3295646",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.378",
 "issued": {
 "date-parts": [
 [
@@ -128757,7 +131785,7 @@
 ],
 "container-title": "Tempo",
 "DOI": "10.1017/s0040298218000633",
-"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.242",
+"note": "Collection: Background. Cited by 11 archive papers; NIME-topic probability 0.242",
 "issued": {
 "date-parts": [
 [
@@ -128803,7 +131831,7 @@
 ],
 "container-title": "Bloomsbury Publishing Inc",
 "DOI": "10.5040/9781501313899",
-"note": "Collection: Background. Cited by 31 archive papers; NIME-topic probability 0.474",
+"note": "Collection: Background. Cited by 34 archive papers; NIME-topic probability 0.474",
 "issued": {
 "date-parts": [
 [
@@ -128825,6 +131853,72 @@
 "container-title": "ACM Transactions on Computer-Human Interaction",
 "DOI": "10.1145/3364998",
 "note": "Collection: Background. Cited by 19 archive papers; NIME-topic probability 0.097",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "background:louie2020noviceaimusiccoc",
+"type": "paper-conference",
+"title": "Novice-AI Music Co-Creation via AI-Steering Tools for Deep Generative Models",
+"author": [
+{
+"family": "Louie",
+"given": "Ryan"
+},
+{
+"family": "Coenen",
+"given": "Andy"
+},
+{
+"family": "Huang",
+"given": "Cheng Zhi"
+},
+{
+"family": "Terry",
+"given": "Michael"
+},
+{
+"family": "Cai",
+"given": "Carrie J."
+}
+],
+"container-title": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3313831.3376739",
+"note": "Collection: Background. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.411",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "background:lepri2020uselessnotworthl",
+"type": "paper-conference",
+"title": "Useless, not Worthless: Absurd Making as Critical Practice",
+"author": [
+{
+"family": "Lepri",
+"given": "Giacomo"
+},
+{
+"family": "McPherson",
+"given": "Andrew"
+},
+{
+"family": "Bowers",
+"given": "John"
+}
+],
+"container-title": "Proceedings of the 2020 ACM Designing Interactive Systems Conference",
+"DOI": "10.1145/3357236.3395547",
+"note": "Collection: Background. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.414",
 "issued": {
 "date-parts": [
 [
@@ -128863,6 +131957,39 @@
 }
 },
 {
+"id": "background:homewood2021tracingconceptio",
+"type": "paper-conference",
+"title": "Tracing Conceptions of the Body in HCI: From User to More-Than-Human",
+"author": [
+{
+"family": "Homewood",
+"given": "Sarah"
+},
+{
+"family": "Hedemyr",
+"given": "Marika"
+},
+{
+"family": "Ranten",
+"given": "Maja Fagerberg"
+},
+{
+"family": "Kozel",
+"given": "Susan"
+}
+],
+"container-title": "Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3411764.3445656",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.119",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
 "id": "background:morreale2021wheredoesthebuck",
 "type": "article-journal",
 "title": "Where Does the Buck Stop? Ethical and Political Issues with AI in Music Creation",
@@ -128874,7 +132001,7 @@
 ],
 "container-title": "Transactions of the International Society for Music Information Retrieval",
 "DOI": "10.5334/tismir.86",
-"note": "Collection: Background. Cited by 5 archive papers; cites 5 archive entries; NIME-topic probability 0.315",
+"note": "Collection: Background. Cited by 6 archive papers; cites 5 archive entries; NIME-topic probability 0.315",
 "issued": {
 "date-parts": [
 [
@@ -128958,6 +132085,80 @@
 "date-parts": [
 [
 2023
+]
+]
+}
+},
+{
+"id": "background:copet2023simpleandcontrol",
+"type": "paper-conference",
+"title": "Simple and Controllable Music Generation",
+"author": [
+{
+"family": "Copet",
+"given": "Jade"
+},
+{
+"family": "Kreuk",
+"given": "Felix"
+},
+{
+"family": "Gat",
+"given": "Itai"
+},
+{
+"family": "Remez",
+"given": "Tal"
+},
+{
+"family": "Kant",
+"given": "David"
+},
+{
+"family": "Synnaeve",
+"given": "Gabriel"
+},
+{
+"family": "Adi",
+"given": "Yossi"
+},
+{
+"family": "Defossez",
+"given": "Alexandre"
+}
+],
+"container-title": "Advances in Neural Information Processing Systems 36",
+"DOI": "10.52202/075280-2066",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.13",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "background:morrison2024entanglingentang",
+"type": "paper-conference",
+"title": "Entangling Entanglement: A Diffractive Dialogue on HCI and Musical Interactions",
+"author": [
+{
+"family": "Morrison",
+"given": "Landon"
+},
+{
+"family": "McPherson",
+"given": "Andrew"
+}
+],
+"container-title": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3613904.3642171",
+"note": "Collection: Background. Cited by 13 archive papers; cites 19 archive entries; NIME-topic probability 0.413",
+"issued": {
+"date-parts": [
+[
+2024
 ]
 ]
 }
@@ -132094,35 +135295,6 @@
 }
 },
 {
-"id": "zotero:weinberg2000theembroider",
-"type": "paper-conference",
-"title": "The embroidered musical ball: a squeezable instrument for expressive performance",
-"author": [
-{
-"family": "Weinberg",
-"given": "Gili"
-},
-{
-"family": "Orth",
-"given": "Maggie"
-},
-{
-"family": "Russo",
-"given": "Peter"
-}
-],
-"container-title": "CHI'00 extended abstracts on Human factors in computing systems",
-"URL": "http://dl.acm.org/citation.cfm?id=633457",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2000
-]
-]
-}
-},
-{
 "id": "zotero:gallo2000thepowerofam",
 "type": "article-journal",
 "title": "The power of a musical instrument: Franklin, the Mozarts, Mesmer, and the glass armonica",
@@ -132559,38 +135731,6 @@
 "container-title": "Proc. of the worshop on current research directions in computer music. MOSART Research training network",
 "URL": "http://www.researchgate.net/profile/Davide_Rocchesso/publication/223467436_Musical_Instrument_Modeling_the_Case_of_the_Piano/links/02bfe50f470ac20d49000000.pdf",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2001
-]
-]
-}
-},
-{
-"id": "zotero:poupyrev2001newinterface",
-"type": "paper-conference",
-"title": "New Interfaces for Musical Expression",
-"author": [
-{
-"family": "Poupyrev",
-"given": "I."
-},
-{
-"family": "Lyons",
-"given": "M. J."
-},
-{
-"family": "Fels",
-"given": "S."
-},
-{
-"family": "Blaine",
-"given": "T."
-}
-],
-"container-title": "Proceedings of the ACM Conference on Human Factors in Computing Systems (CHI)",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -133319,42 +136459,6 @@
 }
 },
 {
-"id": "zotero:sawchuk2003fromremoteme",
-"type": "paper-conference",
-"title": "From remote media immersion to distributed immersive performance",
-"author": [
-{
-"family": "Sawchuk",
-"given": "Alexander A."
-},
-{
-"family": "Chew",
-"given": "Elaine"
-},
-{
-"family": "Zimmermann",
-"given": "Roger"
-},
-{
-"family": "Papadopoulos",
-"given": "Christos"
-},
-{
-"family": "Kyriakakis",
-"given": "Chris"
-}
-],
-"container-title": "ACM",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
 "id": "zotero:rasamimanana2003gestureanaly",
 "type": "thesis",
 "title": "Gesture Analysis of Bow Strokes Using an Augmented Violin",
@@ -134070,34 +137174,6 @@
 }
 },
 {
-"id": "zotero:jensenius2005buildinglowc",
-"type": "paper-conference",
-"title": "Building Low-Cost Music Controllers",
-"author": [
-{
-"family": "Jensenius",
-"given": "A.R."
-},
-{
-"family": "Koehly",
-"given": "R."
-},
-{
-"family": "Wanderley",
-"given": "Marcelo M.M."
-}
-],
-"container-title": "CMMR 2005",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-2005
-]
-]
-}
-},
-{
 "id": "zotero:marshall2005buildingausb",
 "type": "report",
 "title": "Building a USB sensor interface using the ATMEL ATmega16 and the Human Interface Device standard",
@@ -134664,34 +137740,6 @@
 }
 },
 {
-"id": "zotero:aylward2006acompactwire",
-"type": "paper-conference",
-"title": "A Compact, Wireless, Wearable Sensor Network for Interactive Dance Ensembles",
-"author": [
-{
-"family": "Aylward",
-"given": "Ryan"
-},
-{
-"family": "Lovell",
-"given": "S Daniel"
-},
-{
-"family": "Paradiso",
-"given": "Joseph A"
-}
-],
-"container-title": "International Workshop on Wearable and Implantable Body Sensor Networks",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "zotero:couturier2006amodelforgra",
 "type": "paper-conference",
 "title": "A model for graphical interaction applied to gestural control of sound",
@@ -135226,34 +138274,6 @@
 }
 },
 {
-"id": "zotero:friberg2006overviewofth",
-"type": "article-journal",
-"title": "Overview of the KTH rule system for musical performance",
-"author": [
-{
-"family": "Friberg",
-"given": "A."
-},
-{
-"family": "Bresin",
-"given": "R."
-},
-{
-"family": "Sundberg",
-"given": "J."
-}
-],
-"container-title": "Advances in Cognitive Psychology",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "zotero:lossius2006soundinstall",
 "type": "article-journal",
 "title": "Sound Installations and Other Cross-Diciplinary Projects Project Summary-Research Fellowship in the Arts",
@@ -135634,34 +138654,6 @@
 ],
 "container-title": "7th International Workshop on Gesture in Human-Computer Interaction and Simulation",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "zotero:marshall2007gesturecontrb",
-"type": "paper-conference",
-"title": "Gesture control of sound spatialization for live musical performance",
-"author": [
-{
-"family": "Marshall",
-"given": "Mark T."
-},
-{
-"family": "Malloch",
-"given": "Joseph"
-},
-{
-"family": "Wanderley",
-"given": "Marcelo M."
-}
-],
-"container-title": "International Gesture Workshop",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 1.00",
 "issued": {
 "date-parts": [
 [
@@ -137448,35 +140440,6 @@
 }
 },
 {
-"id": "zotero:monache2010atoolkitfore",
-"type": "paper-conference",
-"title": "A toolkit for explorations in sonic interaction design",
-"author": [
-{
-"family": "Monache",
-"given": "Stefano Delle"
-},
-{
-"family": "Polotti",
-"given": "Pietro"
-},
-{
-"family": "Rocchesso",
-"given": "Davide"
-}
-],
-"container-title": "Proceedings of the 5th Audio Mostly Conference: A Conference on Interaction with Sound",
-"URL": "http://dl.acm.org/citation.cfm?id=1859800",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.90",
-"issued": {
-"date-parts": [
-[
-2010
-]
-]
-}
-},
-{
 "id": "zotero:jensenius2010avideobaseda",
 "type": "paper-conference",
 "title": "A video based analysis system for realtime control of concatenative sound synthesis and spatialisation",
@@ -138918,22 +141881,18 @@
 }
 },
 {
-"id": "zotero:dubus2013asystematicr",
+"id": "zotero:jensenius2013anactionsoun",
 "type": "article-journal",
-"title": "A systematic review of mapping strategies for the sonification of physical quantities",
+"title": "An Action-Sound Approach to Teaching Interactive Music",
 "author": [
 {
-"family": "Dubus",
-"given": "Gaël"
-},
-{
-"family": "Bresin",
-"given": "Roberto"
+"family": "Jensenius",
+"given": "Alexander Refsum"
 }
 ],
-"container-title": "PloS one",
-"URL": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0082491",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
+"container-title": "Organised Sound",
+"DOI": "10.1017/S1355771813000095",
+"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [

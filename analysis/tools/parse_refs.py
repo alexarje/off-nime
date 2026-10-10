@@ -176,6 +176,9 @@ VENUE = re.compile(r"proceedings|journal|conference|symposium|association|press\
                    r"\binterfaces for musical expression\b|\bcomputer music\b", re.I)
 
 
+USE_GROBID = True  # False reproduces the text parser alone, for the recall comparison
+
+
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     sources, how = text_sources(corpus)
@@ -195,29 +198,41 @@ def main():
     oa = json.loads(oa.read_text()) if oa.exists() else {}
     raws = []  # (citer, raw reference) for the chapter rule below
     stats.update({f"source_{k}": v for k, v in how.items()})
+    gr = HERE / "data" / "grobid_refs.json"
+    gr = json.loads(gr.read_text()) if gr.exists() and USE_GROBID else {}
     for r in corpus:
         f = sources.get(r["id"])
         if not f:
             continue
         stats["texts"] += 1
-        text = f.read_text(errors="replace")
-        sec = reference_section(text)
-        if not sec:
-            stats["no_reference_heading"] += 1
-            continue
-        entries = split_entries(sec)
-        if not entries:
-            stats["no_entries"] += 1
-            continue
+        if gr.get(r["id"]):
+            # GROBID read the PDF's layout (tools/grobid_refs.py); the text split is the fallback
+            entries = [(x["raw"] or x["title"], {"title": x["title"], "year": x["year"], "first": x["first"]}, x["doi"])
+                       for x in gr[r["id"]]]
+            # the base counters cover every paper read from its PDF; the _grobid ones the subset by GROBID
+            source, sfx = "grobid", "_grobid"
+            stats["with_grobid"] += 1
+        else:
+            text = f.read_text(errors="replace")
+            sec = reference_section(text)
+            if not sec:
+                stats["no_reference_heading"] += 1
+                continue
+            entries = [(e, parse(e), "") for e in split_entries(sec)]
+            if not entries:
+                stats["no_entries"] += 1
+                continue
+            source, sfx = "text", ""
         stats["with_entries"] += 1
         stats["entries"] += len(entries)
         n_int, refs_out = 0, []
-        for e in entries:
-            p = parse(e)
+        for e, p, doi in entries:
             le = letters(e)
-            hit = None
+            hit = by_doi.get(doi) if doi else None
             k = title_key(p["title"]) if p["title"] else None
-            if k and k in tkeys:
+            if hit:
+                pass
+            elif k and k in tkeys:
                 hit = tkeys[k][0]
             else:
                 for t, tid, ty in titles:
@@ -228,18 +243,21 @@ def main():
                 edges.add((r["id"], hit))
                 n_int += 1
                 stats["internal"] += 1
+                stats["internal_grobid"] += bool(sfx)
             elif k:
                 clusters[k].append({"citer": r["id"], "year": p["year"], "first": p["first"],
                                     "title": p["title"], "raw": e})
                 stats["external_keyed"] += 1
+                stats["external_grobid"] += bool(sfx)
             else:
                 stats["unkeyed"] += 1
+                stats["unkeyed_grobid"] += bool(sfx)
             if hit and hit != r["id"]:
                 refs_out.append(hit)
             elif k:
                 refs_out.append("k:" + k)
             raws.append((r["id"], e))
-        per_paper[r["id"]] = {"n": len(entries), "internal": n_int, "refs": refs_out, "source": "text"}
+        per_paper[r["id"]] = {"n": len(entries), "internal": n_int, "refs": refs_out, "source": source}
 
     # entries with no readable text: reference lists from OpenAlex (tools/openalex_refs.py)
     for rid, refs in oa.items():

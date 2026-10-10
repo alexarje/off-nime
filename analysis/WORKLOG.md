@@ -234,3 +234,12 @@ now. GROBID (#7) is being set up by a separate agent.
 
 
 Zotero tags: a NIME tag or folder now admits an item at any probability (4 more works), and topical tags go into the bib as keywords (70 works), which the paper map reads. Matching short titles on the whole title and year found 63 more library items already in the collection, most of them NIME papers with one- or two-word titles. Of the NIME-tagged items, only Fliperama (NIME 2020) is missing from the NIME bibliography, and it is absent on purpose: the paper was retracted from the proceedings (nime.org serves a retraction notice; Zenodo 10.5281/zenodo.15308623 is marked RETRACTED).
+
+GROBID (#7), installed by a separate agent: recall against Semantic Scholar went from 53.0% to
+85.5% on the same papers, and parsed links into the archives from about 6,000 to 10,300. The
+Crossref resolution of cited works then had 742 clusters to match instead of 461; Cited grew to
+443 and Background to 111, and A NIME Reader is cited by 36 archive papers. Alexander exported the
+NIME 2021 proceedings from PubPub (the 2022 papers export failed); GROBID read the 81 papers that
+match the bibliography, and `tools/pubpub_package.py` packs the export for Zenodo. The export of
+the collection now says, per entry, whether a full text, an abstract and a reference list exist.
+

@@ -30,6 +30,16 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
 - The NIME paper draft on TRL and ARL is in
   `~/UiO Dropbox/alexanje@uio.no/writing/2-Artistic readyness level (NIME)/paper/`; its
   `analysis.py` reads `data/trl.json` and the validation sheet.
+- GROBID 0.9.1 (CRF models only) in `~/tools/grobid-0.9.1`, with a portable JDK 21 in
+  `~/tools/jdk-21.0.12.1+1`. Start with `~/tools/grobid-start.sh` (user unit `grobid`, 8G cap,
+  127.0.0.1:8070 only; not started at boot), stop with `systemctl --user stop grobid`.
+  `tools/grobid_refs.py` caches references in `data/grobid_refs.json`; parse_refs.py prefers them.
+- PubPub exports of NIME 2021 and 2022 (made by hand from the PubPub community dashboard) are in
+  `/media/alexanje/Seagate Hub/arkiv/Conferences/NIME/Paper proceedings/<year>/`.
+  `tools/grobid_refs.py` reads their PDFs; `tools/pubpub_package.py <year>` writes a check
+  (`zenodo/CHECK.md`), a manifest and one zip per collection for a Zenodo deposit.
+- `output/collection.csv` records for every entry whether a full text, an abstract and a
+  reference list were available, and where they came from.
 - `tools/`: the pipeline; `run.sh` runs it in order.
 - `data/` (not committed): the corpus, the Semantic Scholar cache (`s2/`, `s2_citing/`), the
   paper texts from nime.org (`text/`) and from the local archive (`local_text/`), and the
