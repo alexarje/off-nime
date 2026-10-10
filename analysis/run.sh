@@ -22,6 +22,7 @@ cap 1G sbcm_volumes.py      # needs data/sbcm_text/ (see HANDOVER)
 cap 1G more_proceedings.py
 cap 4G local_candidates.py
 cap 4G score_journals.py
+cap 2G topic.py
 cap 2G build_cited.py
 cap 1G snowball.py
 cap 3G theses.py

@@ -76,7 +76,10 @@ def main():
     jim = next(v for k, v in ne.items() if k.startswith("JIM"))
     sbcm = next(v for k, v in ne.items() if k.startswith("SBCM"))
     from theses import QUERIES
+    tp = json.loads((HERE / "data" / "topic_stats.json").read_text())
     v = {
+        "tp_acc": tp["cv_accuracy"], "tp_auc": tp["cv_auc"], "c_bg": cst["background"],
+        "rel_n": jc["related"],
         "ne_jim": jim["records"], "ne_jim_en": jim["with_english"], "ne_sbcm": sbcm["records"],
         "ne_sbcm_en": sbcm["with_english"],
         "th_q": len(QUERIES), "th_n": th["theses"], "th_ne": th["non_english"], "th_cal": th["calibration_theses"],

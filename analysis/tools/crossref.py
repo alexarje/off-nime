@@ -123,13 +123,31 @@ def resolve():
                 if len(t) >= 15 and t in raw and (not year or not y or abs(int(year) - y) <= 2) and author_ok(it, first):
                     best = (it, 1.0)
                     break
+        if not best:
+            # third attempt for books: Crossref keeps the subtitle apart ("Sound Actions" +
+            # "Conceptualizing Musical Instruments") and edited volumes have editors, not authors
+            d = get(f"{API}/works", {"query.bibliographic": f"{title} {first}", "rows": 5,
+                                     "filter": "type:book,type:edited-book,type:monograph,type:reference-book",
+                                     "select": "DOI,title,subtitle,author,editor,issued,published-print,published-online,container-title,type,publisher"})
+            for it in (d or {}).get("message", {}).get("items", []):
+                t = (it.get("title") or [""])[0]
+                full = f"{t} {(it.get('subtitle') or [''])[0]}"
+                ratio = max(SequenceMatcher(None, letters(full), letters(title)).ratio(),
+                            SequenceMatcher(None, letters(t), letters(title)[:len(letters(t))]).ratio() if len(letters(t)) >= 10 else 0)
+                y = item_year(it)
+                if ratio >= 0.9 and (not year or not y or abs(int(year) - y) <= 2) and author_ok(it, first):
+                    best = (it, ratio)
+                    break
         rec = {"cited_by": int(cited_by), "title": title, "first": first, "year": year}
         if best:
             it = best[0]
             n_ok += 1
-            rec.update({"doi": it["DOI"], "cr_title": it["title"][0], "cr_year": item_year(it), "type": it.get("type"),
+            sub = (it.get("subtitle") or [""])[0]
+            rec.update({"doi": it["DOI"], "cr_title": it["title"][0] + (f": {sub}" if sub and sub.lower() not in it["title"][0].lower() else ""),
+                        "cr_year": item_year(it), "type": it.get("type"),
                         "container": (it.get("container-title") or [""])[0], "publisher": it.get("publisher", ""),
                         "authors": [f"{a.get('family', '')}, {a.get('given', '')}".strip(", ") for a in it.get("author", [])],
+                        "editors": [f"{a.get('family', '')}, {a.get('given', '')}".strip(", ") for a in it.get("editor", [])],
                         "pages": it.get("page"), "volume": it.get("volume"), "issue": it.get("issue")})
         out.append(rec)
         if n % 50 == 0:

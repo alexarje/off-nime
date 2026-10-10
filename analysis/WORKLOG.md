@@ -141,3 +141,19 @@ the dafx.de archive, with abstracts), CMMR (401 Springer chapters in Crossref, b
 proceedings are now searched with 12 terms and cursor paging (CHI 511 to 1,262 papers; Audio
 Mostly 2,607). The title filter matched "sing" inside "using"; it now matches whole words.
 Sweep candidates 1,037; Cited 192; snowball 129.
+
+Related dataset: the 1,037 sweep candidates read as roughly two in three on topic in a sample of
+40; a strict tier (contrast at the curated CMJ upper quartile, closeness at the median) read as
+roughly six in seven, 108 papers after removing what Cited and Theses hold.
+
+Books: Sound Actions and A NIME Reader were on the backward list (16 and 8 citers) but not
+resolved, because Crossref keeps subtitles apart and edited volumes have editors, not authors.
+A book pass in the resolver fixes both (199 of 355 resolved).
+
+Cited and Background, at Alexander's request to separate works about NIME topics from works
+that are much cited but not about NIME. The similarity test put Sound Actions, Ocarina and Bela in
+Background, because most cited works have only a title and a title alone scores low. A title
+classifier (`tools/topic.py`: archive titles against TOCHI, Personal and Ubiquitous Computing,
+Contemporary Music Review and ISMIR titles; 87.6% cross-validated accuracy, AUC 0.94) now decides:
+Cited 318, Background 55. Visible errors: a gender-in-NIME paper in Background, The Physics of
+Musical Instruments in Cited.

@@ -1,4 +1,10 @@
-"""Build bibs/Cited/cited.bib from the candidate lists, by rules that can be checked.
+"""Build bibs/Cited/cited.bib and bibs/Background/background.bib from the candidate lists, by rules
+that can be checked.
+
+Cited holds works about NIME topics; Background holds works that many archive papers cite but
+that are not themselves about NIME topics (theory, method, general HCI, musicology), such as Barad
+or Braun and Clarke. "About NIME topics" is decided by the title classifier in tools/topic.py,
+since most cited works have only a title in Crossref.
 
 An entry is admitted when it has a DOI (so its metadata comes from Crossref, not from a parsed
 reference string), is in neither archive, is close to the archives in wording (at least the
@@ -25,6 +31,7 @@ from parse_refs import title_key
 
 HERE = Path(__file__).resolve().parent.parent
 OUT = HERE.parent / "bibs" / "Cited" / "cited.bib"
+BACKGROUND = HERE.parent / "bibs" / "Background" / "background.bib"
 MIN_CITED = 5
 MIN_CITING = 10
 K = 10
@@ -85,24 +92,45 @@ def main():
     items = list(cand.values())
     L = vec.transform([f"{clean(c['cr']['title'][0])}. {clean(c['cr'].get('abstract'))}" for c in items])
     near = np.sort((L @ C.T).toarray(), axis=1)[:, -K:].mean(1)
+    # contrast against the journal background, as in the sweep, so that "about NIME topics" means
+    # the same thing in Cited, Related and Theses
+    journals = json.loads((HERE / "data" / "journals.json").read_text())
+    from crossref import JOURNALS
+    Lb = vec.transform([f"{clean(j['title'])}. {clean(j['abstract'])}" for j in journals if j["source"] in JOURNALS])
+    contrast = near - np.sort((L @ Lb.T).toarray(), axis=1)[:, -K:].mean(1)
 
-    admitted, borderline = [], []
-    for c, a in zip(items, near):
+    admitted, background, borderline = [], [], []
+    from topic import nime_probability
+    titles = []
+    for c in items:
         cr = c["cr"]
-        c["near"] = round(float(a), 4)
-        c["title"] = clean(cr["title"][0])
+        sub = (cr.get("subtitle") or [""])[0]
+        titles.append(clean(cr["title"][0]) + (f": {clean(sub)}" if sub and sub.lower() not in cr["title"][0].lower() else ""))
+    prob = nime_probability(titles)
+    for c, a, con, pr in zip(items, near, contrast, prob):
+        c["p_nime"] = round(float(pr), 3)
+        cr = c["cr"]
+        c["near"], c["contrast"] = round(float(a), 4), round(float(con), 4)
+        sub = (cr.get("subtitle") or [""])[0]
+        c["title"] = clean(cr["title"][0]) + (f": {clean(sub)}" if sub and sub.lower() not in cr["title"][0].lower() else "")
         if title_key(c["title"]) in have_key:
             continue
         w = c["why"]
         counts_ok = (w.get("cited_by", 0) >= MIN_CITED or w.get("cites", 0) >= MIN_CITING
                      or ("sweep" in w and (w.get("cited_by", 0) or w.get("cites", 0) >= 5)))
-        if counts_ok and a >= near_min:
+        # about NIME topics, by the title classifier (tools/topic.py); the similarity scores are
+        # kept for the record, but most cited works have no abstract and cannot be judged by them
+        topical = pr >= 0.5
+        if counts_ok and topical:
             admitted.append(c)
+        elif w.get("cited_by", 0) >= MIN_CITED:
+            # much cited by the archives, but not itself about NIME topics: theory, method, HCI
+            background.append(c)
         elif counts_ok or w.get("cites", 0) >= 5:
-            c["reason"] = "below the closeness bar" if counts_ok else "cites 5–9 archive entries"
+            c["reason"] = "not about NIME topics by the title classifier" if counts_ok else "cites 5–9 archive entries"
             borderline.append(c)
 
-    def bib(c):
+    def bib(c, collection="Cited"):
         cr = c["cr"]
         kind = KINDS.get(cr.get("type"), "misc")
         authors = [f"{clean(a.get('family'))}, {clean(a.get('given'))}".strip(", ") for a in cr.get("author", [])
@@ -112,7 +140,7 @@ def main():
         year = item_year(cr)
         container = clean((cr.get("container-title") or [""])[0])
         sur = re.sub(r"[^a-z]", "", (authors or editors or ["anon"])[0].split(",")[0].lower())
-        key = f"cited:{sur}{year}{re.sub(r'[^a-z]', '', c['title'].lower())[:16]}"
+        key = f"{collection.lower()}:{sur}{year}{re.sub(r'[^a-z]', '', c['title'].lower())[:16]}"
         why = c["why"]
         note = "; ".join(x for x in [f"cited by {why['cited_by']} archive papers" if why.get("cited_by") else "",
                                      f"cites {why['cites']} archive entries" if why.get("cites") else "",
@@ -126,28 +154,30 @@ def main():
                   ("publisher", clean(cr.get("publisher")) if kind in ("book", "incollection", "inproceedings") else ""),
                   ("volume", cr.get("volume")), ("number", cr.get("issue")),
                   ("pages", (cr.get("page") or "").replace("-", "--")), ("doi", c["doi"]),
-                  ("collection", "Cited"), ("note", note[:1].upper() + note[1:])]
+                  ("collection", collection), ("note", (note[:1].upper() + note[1:]) + f"; NIME-topic probability {c['p_nime']}")]
         body = ",\n".join(f"  {k} = {{{clean(v)}}}" for k, v in fields if k and v)
         return f"@{kind}{{{key},\n{body}\n}}\n"
 
-    admitted.sort(key=lambda c: (item_year(c["cr"]) or 0, c["title"]))
-    seen_keys = set()
-    OUT.parent.mkdir(exist_ok=True)
-    with open(OUT, "w") as f:
-        for c in admitted:
-            b = bib(c)
-            k = b.split("{", 1)[1].split(",", 1)[0]
-            if k in seen_keys:
-                b = b.replace(k, k + c["doi"][-4:].replace("/", ""), 1)
-            seen_keys.add(k)
-            f.write(b + "\n")
+    for group, path, name in [(admitted, OUT, "Cited"), (background, BACKGROUND, "Background")]:
+        group.sort(key=lambda c: (item_year(c["cr"]) or 0, c["title"]))
+        seen_keys = set()
+        path.parent.mkdir(exist_ok=True)
+        with open(path, "w") as f:
+            for c in group:
+                b = bib(c, name)
+                k = b.split("{", 1)[1].split(",", 1)[0]
+                if k in seen_keys:
+                    b = b.replace(k, k + c["doi"][-4:].replace("/", ""), 1)
+                seen_keys.add(k)
+                f.write(b + "\n")
     with open(HERE / "output" / "borderline.tsv", "w") as f:
-        f.write("reason\tcloseness\tcited_by\tcites\tyear\ttitle\tdoi\n")
+        f.write("reason\tp_nime\tcloseness\tcontrast\tcited_by\tcites\tyear\ttitle\tdoi\n")
         for c in sorted(borderline, key=lambda c: -(c["why"].get("cited_by", 0) + c["why"].get("cites", 0))):
-            f.write("\t".join(str(x) for x in [c["reason"], c["near"], c["why"].get("cited_by", ""),
+            f.write("\t".join(str(x) for x in [c["reason"], c["p_nime"], c["near"], c["contrast"], c["why"].get("cited_by", ""),
                                                  c["why"].get("cites", ""), item_year(c["cr"]) or "", c["title"],
                                                  c["doi"]]) + "\n")
-    stats = {"near_min": near_min, "candidates_with_doi": len(items), "admitted": len(admitted),
+    stats = {"near_min": near_min, "contrast_min": jc["threshold"], "candidates_with_doi": len(items),
+             "admitted": len(admitted), "background": len(background),
              "borderline": len(borderline),
              "admitted_by": {k: sum(1 for c in admitted if k in c["why"]) for k in ["cited_by", "cites", "sweep"]},
              "types": dict(__import__("collections").Counter(KINDS.get(c["cr"].get("type"), "misc") for c in admitted))}
