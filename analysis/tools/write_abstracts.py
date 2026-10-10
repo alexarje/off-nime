@@ -16,6 +16,8 @@ def main():
     found = json.loads((HERE / "data" / "abstracts.json").read_text())
     found.update({k: v for k, v in json.loads((HERE / "data" / "abstracts_extra.json").read_text()).items()
                   if k.startswith("off-nime:")})
+    from fill_abstracts import page_chrome
+    found = {k: v for k, v in found.items() if not page_chrome(v["abstract"])}
     edited = 0
     for rid, v in found.items():
         r = corpus.get(rid)

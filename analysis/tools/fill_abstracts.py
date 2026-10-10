@@ -20,6 +20,12 @@ from parse_refs import letters, readable
 
 HERE = Path(__file__).resolve().parent.parent
 OUT = HERE / "data" / "abstracts_extra.json"
+# OpenAlex holds some MIT Press landing pages, menus and all, as abstracts
+CHROME = re.compile(r"Cite Icon|Search for other works by this author|You do not currently have access", re.I)
+
+
+def page_chrome(text):
+    return bool(CHROME.search(text or ""))
 
 
 def inverted(ix):
@@ -70,7 +76,7 @@ def main():
         for w in r.json()["results"]:
             d = (w.get("doi") or "").replace("https://doi.org/", "").lower()
             a = inverted(w.get("abstract_inverted_index"))
-            if d in dois and len(a) > 80:
+            if d in dois and len(a) > 80 and not page_chrome(a):
                 found[dois[d]] = {"abstract": a, "source": "OpenAlex"}
         time.sleep(1)
     print(f"OpenAlex: {sum(v['source'] == 'OpenAlex' for v in found.values())}", file=sys.stderr)
@@ -95,6 +101,7 @@ def main():
         f.write("id\tfile\ttitle\tabstract\n")
         for row in rows:
             f.write("\t".join(re.sub(r"\s+", " ", x) for x in row) + "\n")
+    found = {k: v for k, v in found.items() if not page_chrome(v["abstract"])}
     OUT.write_text(json.dumps(found, ensure_ascii=False, indent=0))
     from collections import Counter
     print(json.dumps(Counter(v["source"] for v in found.values())), file=sys.stderr)

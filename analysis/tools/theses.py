@@ -67,6 +67,14 @@ QUERIES = [
     "electronic music performance", "turntablism DJ technology", "circuit bending", "modular synthesizer",
     "musical expression computer", "expressive performance control", "user study musical instrument",
     "evaluation digital musical instruments", "musician interaction design",
+    # second set
+    "digital lutherie", "new musical instruments", "gesture sound mapping", "sound synthesis control",
+    "musical haptics", "augmented reality music", "conducting gesture", "computer music performance",
+    "interactive composition", "sonification interaction", "musical tabletop", "touchscreen music",
+    "breath controller", "electronic percussion interface", "augmented guitar", "violin sensors",
+    "piano sensors", "audience participation music", "game music interaction", "timbre control interface",
+    "embodied music cognition technology", "music performance motion capture", "voice interface music",
+    "music hci", "electronic music instrument design", "musical expressivity technology",
 ]
 
 

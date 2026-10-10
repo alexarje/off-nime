@@ -41,7 +41,7 @@ Paper texts came from three places. 2285 NIME paper PDFs were downloaded from ni
 
 ## Method
 
-Authors are keyed on surname and first initial, with accents removed, so that "Marcelo M. Wanderley" and "M. Wanderley" are one node; the cost is that a few different people share a key. Topics come from a non-negative matrix factorisation (16 components) of TF-IDF vectors over title, keywords and abstract, fitted on papers only and then applied to the concert and installation notes. The paper map is a t-SNE projection of the same vectors. The co-author and citation networks are laid out with ForceAtlas2; the co-author network's small components are packed in a band below its main component.
+Authors are keyed on surname and first initial, with accents removed, so that "Marcelo M. Wanderley" and "M. Wanderley" are one node; the cost is that a few different people share a key. Topics come from a non-negative matrix factorisation (16 components) of TF-IDF vectors over title, keywords and abstract, fitted on papers only and then applied to the concert and installation notes. The paper map is a t-SNE projection of the same vectors; it also places the works of the datasets built around the archives (Cited, Related, Theses, Background, Historical and Zotero), which take their topics from the fitted model without shaping it. The co-author and citation networks are laid out with ForceAtlas2; the co-author network's small components are packed in a band below its main component.
 
 References were split from each text's last References heading on numbered markers, or on author–year line starts where there are none, and matched to the archives on a title key (significant words run together, 32 letters) or on the archive title appearing in the reference string. Unmatched references were clustered on the same key. 4386 references (13.6%) yielded no usable title.
 
@@ -82,24 +82,24 @@ The archives have 4457 authors between them: 1034 in off-NIME and 3720 in NIME. 
 
 | # | Strongest terms | Off-NIME | NIME |
 |---|---|---|---|
-| 1 | physical, acoustic, guitar, string, playing, model | 45 | 206 |
-| 2 | computers dance, environments, dancing, dance movement, analysis, motion sensing | 88 | 64 |
-| 3 | interaction, collaborative, learning, composition, process, musicians | 124 | 737 |
-| 4 | icon, doi, journal, author site, search works, site google | 28 | 3 |
-| 5 | virtual reality, virtual environments, immersive, presence, virtual environment, virtual space | 60 | 128 |
-| 6 | midi controller, controllers, foot controller, gestural controller, baton, alternative | 38 | 131 |
-| 7 | synthesizer, sounds, models, voice, timbre, granular synthesis | 68 | 260 |
-| 8 | sensors, sensor, wireless, software, processing, environment | 63 | 217 |
-| 9 | input devices, input device, mobile, expression, evaluation input, human-computer interaction | 64 | 140 |
-| 10 | installation, network, sonic, multimedia, space, robotic | 21 | 180 |
-| 11 | mapping strategies, mappings, instrumental, motion, controllers, parameters | 53 | 147 |
-| 12 | live coding, live electronics, programming, graphical, audience, audio-visual | 45 | 257 |
-| 13 | gestures, gesture recognition, gesture analysis, space, hand, learning | 61 | 144 |
-| 14 | media, language, understanding, philosophy, reader, revisited | 39 | 89 |
-| 15 | keyboard, touch, piano, modular, synthesizer, polyphonic | 42 | 72 |
-| 16 | haptic feedback, force feedback, tactile feedback, vibrotactile feedback, haptics, visual feedback | 36 | 208 |
+| 1 | interaction, collaborative, process, experience, composition, musicians | 100 | 566 |
+| 2 | computers dance, environments, dancing, dance movement, analysis, motion sensing | 90 | 67 |
+| 3 | gestures, gesture recognition, space, gesture analysis, hand, expressive gesture | 47 | 93 |
+| 4 | virtual reality, virtual environments, immersive, presence, physical, virtual environment | 64 | 143 |
+| 5 | midi controller, controllers, foot controller, gestural controller, alternative, baton | 35 | 141 |
+| 6 | parameters, sounds, model, physical, models, timbre | 66 | 245 |
+| 7 | sensors, sensor, wireless, software, processing, motion | 73 | 233 |
+| 8 | input devices, input device, evaluation input, expression, mobile, human-computer interaction | 70 | 146 |
+| 9 | installation, network, sonic, multimedia, robotic, space | 25 | 185 |
+| 10 | mapping strategies, mappings, gestures, instrumental, controllers, parameters | 57 | 167 |
+| 11 | live coding, live electronics, programming, composition, graphical, audio-visual | 52 | 253 |
+| 12 | machine learning, neural, model, models, training, algorithms | 44 | 231 |
+| 13 | media, language, philosophy, understanding, reader, revisited | 37 | 93 |
+| 14 | keyboard, piano, touch, modular, polyphonic, continuous | 42 | 77 |
+| 15 | haptic feedback, physical, force feedback, tactile feedback, vibrotactile feedback, haptics | 46 | 270 |
+| 16 | synthesizer, program, play, inexpensive, synthesizers, voice | 27 | 73 |
 
-Shares are mean topic weights per five-year period. In the off-NIME archive, the earliest period (1975–1979) is dominated by synthesizer, sounds (26.9%) and keyboard, touch (14.3%). In NIME, from 2000–2004 to 2025–2029, the largest rises are in interaction, collaborative (12.5% to 28.3%) and installation, network (3.2% to 7.5%), and the largest falls in midi controller, controllers (13.1% to 2.4%) and sensors, sensor (11.1% to 6.0%). The trends tab in the atlas shows every topic and period. I would treat the topic model as a map for browsing rather than a finding, since off-NIME entries have titles only.
+Shares are mean topic weights per five-year period. In the off-NIME archive, the earliest period (1975–1979) is dominated by synthesizer, program (22.2%) and parameters, sounds (17.8%). In NIME, from 2000–2004 to 2025–2029, the largest rises are in interaction, collaborative (11.4% to 23.3%) and machine learning, neural (4.0% to 10.6%), and the largest falls in midi controller, controllers (13.2% to 2.5%) and sensors, sensor (11.5% to 6.5%). The trends tab in the atlas shows every topic and period. I would treat the topic model as a map for browsing rather than a finding, since off-NIME entries have titles only.
 
 ### Citations between the archives
 
@@ -230,7 +230,7 @@ The fourth list holds journal and proceedings papers that score as NIME-related,
 | 0.115 | DIS | 2023 | Unlogical instrument: Material-driven gesture-controlled sound installation |
 | 0.115 | International Conference on Live Coding | 2020 | Disabled Approaches to LiveCoding, Cripping the Code |
 
-The fifth list comes from one round of snowballing. 268 of the 360 Cited works have reference lists in Crossref, and [`candidates_snowball.tsv`](output/candidates_snowball.tsv) holds the 282 works that at least 3 of them cite and that neither archive nor Cited holds. Proceedings and journal names are not counted as works, and a work cited both by DOI and by title is counted once.
+The fifth list comes from two rounds of snowballing. 268 of the 360 Cited works have reference lists in Crossref, and [`candidates_snowball.tsv`](output/candidates_snowball.tsv) holds the 282 works that at least 3 of them cite and that neither archive nor Cited holds. Proceedings and journal names are not counted as works, and a work cited both by DOI and by title is counted once. A second round starts from the 95 round-1 works with a DOI and a NIME-topic probability of at least 0.5; 78 of them have reference lists, and only 5 works that they cite are new to both the collection and the first round ([`candidates_snowball2.tsv`](output/candidates_snowball2.tsv)). The literature around the archives is close to closed under citation at this depth.
 
 | Cited by Cited works | Year | First author | Title |
 |---|---|---|---|
@@ -272,7 +272,7 @@ The maintainer's Zotero library was matched against the whole collection by DOI 
 
 ### Theses
 
-PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. 72 NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave 13257 distinct theses, of which 1273 are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. 98 NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave 13257 distinct theses, of which 1273 are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
 
 Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the 35 English theses known to cite the archives: closeness and contrast both at their median. Lower thresholds admitted many more theses, but a reading of sampled titles found many of them off topic (music education, performance practice, club culture, general computing), while recall on the check set below did not change. As a check on a separate population, the searches found 9 of the 32 theses already in off-NIME, and the rules would admit 6 of them (66.7%). [`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 307 admitted theses, 37 of them because they cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
 

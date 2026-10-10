@@ -45,7 +45,10 @@ def topic_model(recs):
                           sublinear_tf=True)
     # Fit on papers only, since concert and installation notes describe pieces rather than research,
     # then project the notes onto the same topics.
-    is_paper = np.array([not r["dataset"].startswith(("NIME music", "NIME installations")) for r in recs])
+    # The datasets added around the archives (Cited, Related and so on) are placed on the map but
+    # do not shape the topics, which describe the two archives.
+    is_paper = np.array([not r["dataset"].startswith(("NIME music", "NIME installations")) and r["archive"] != "added"
+                         for r in recs])
     texts = [text_of(r) for r in recs]
     vec.fit([t for t, ok in zip(texts, is_paper) if ok])
     X = vec.transform(texts)
@@ -136,11 +139,41 @@ def fa2(G, weight=None):
     return {n: np.clip((v - lo) / (hi - lo), -0.03, 1.03) for n, v in pos.items()}
 
 
+ADDED = ("Cited", "Related", "Theses", "Background", "Historical", "Zotero")
+
+
+def added_records():
+    """The datasets built around the archives, read from bibs/, for the paper map only."""
+    import bibtexparser
+    from bibtexparser.bparser import BibTexParser
+    from bibtexparser.customization import convert_to_unicode
+    from build_corpus import split_authors
+    out = []
+    for name in ADDED:
+        f = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
+        if not f.exists():
+            continue
+        parser = BibTexParser(common_strings=True)
+        parser.customization = convert_to_unicode
+        for e in bibtexparser.loads(f.read_text(), parser=parser).entries:
+            m = re.search(r"\d{4}", e.get("year", ""))
+            if not e.get("title") or not m:
+                continue
+            venue = e.get("journal") or e.get("booktitle") or e.get("publisher") or e.get("school") or ""
+            out.append({"id": e["ID"], "archive": "added", "dataset": name, "year": int(m.group(0)),
+                        "title": e["title"], "keywords": "", "abstract": e.get("abstract", ""),
+                        "names": [n for _, n in split_authors(e.get("author") or e.get("editor") or "")],
+                        "authors": [], "channel": venue, "venue": venue, "doi": e.get("doi"), "url": e.get("url")})
+    return out
+
+
 def main():
     recs = json.loads((HERE / "data" / "corpus.json").read_text())
     recs = [r for r in recs if r["title"]]
-    X, W, dom, topics = topic_model(recs)
+    added = added_records()
+    X, W, dom, topics = topic_model(recs + added)
     Y = paper_map(X)
+    W, dom_all, dom = W[:len(recs)], dom, dom[:len(recs)]
 
     # topic share by five-year period and archive, from the topic weights rather than the argmax
     Wn = W / (W.sum(1, keepdims=True) + 1e-12)
@@ -167,11 +200,11 @@ def main():
     if tp.exists():
         trl = {m["id"]: m for m in json.loads(tp.read_text())}
     papers = []
-    for i, r in enumerate(recs):
+    for i, r in enumerate(recs + added):
         papers.append({
             "id": r["id"], "t": r["title"], "y": r["year"], "a": r["names"], "ak": r["authors"],
             "ds": r["dataset"], "ch": r["channel"], "v": r["venue"], "ar": r["archive"],
-            "tp": int(dom[i]), "x": round(float(Y[i, 0]), 4), "yy": round(float(Y[i, 1]), 4),
+            "tp": int(dom_all[i]), "x": round(float(Y[i, 0]), 4), "yy": round(float(Y[i, 1]), 4),
             "u": r["url"] or (f"https://doi.org/{r['doi']}" if r["doi"] else None),
             "trl": (trl.get(r["id"]) or {}).get("trl"), "arl": (trl.get(r["id"]) or {}).get("arl"),
         })

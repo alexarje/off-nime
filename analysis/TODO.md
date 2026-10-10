@@ -27,14 +27,12 @@
 
 ## Next
 
-- [ME] Second snowball round (#2): fetch reference lists of the accepted snowball works.
-- [ME] Theses (#5): more OpenAlex queries on later days (daily allowance); fix aggregator
+- [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
+- [ME] Theses (#5): 26 more queries added; their OpenAlex pages run once the daily allowance
+  resets (a background job is waiting for it); fix aggregator
   school names (Zenodo, NORA, ERA, LA Referencia) from the thesis records.
 - [ARJ] Skim `bibs/Theses/theses.bib` (416, selected by rule) and `output/candidates_theses.tsv`.
 - [ME] 366 non-English theses are listed in `output/candidates_theses_non_english.tsv`.
-- [ARJ] The atlas paper map shows only the NIME proceedings and the curated off-NIME archives,
-  which end in 2011–2013. Add the rule-selected datasets and Zotero to the map (recommended), so
-  that later off-NIME work appears there too.
 - [ME] One TRL estimate is duplicated in the batches (off-nime:Chadabe1975); harmless, the
   merge keeps the last.
 

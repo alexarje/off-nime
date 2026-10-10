@@ -21,11 +21,13 @@ def main():
     cs = ci.get("stats", {})
 
     n_off = sum(1 for p in g["papers"] if p["ar"] == "off-nime")
-    n_nime = len(g["papers"]) - n_off
+    n_nime = sum(1 for p in g["papers"] if p["ar"] == "nime")
+    n_add = sum(1 for p in g["papers"] if p["ar"] == "added")
     g["subtitle"] = (f"{len(g['papers'])} entries: {n_nime} from the NIME proceedings "
                      f"({st['year_range']['nime'][0]}–{st['year_range']['nime'][1]}) and {n_off} from the off-NIME archive "
                      f"({st['year_range']['off-nime'][0]}–{st['year_range']['off-nime'][1]}), with {st['authors']} authors "
-                     f"and {cs.get('internal_edges', 0)} citation links between them.")
+                     f"and {cs.get('internal_edges', 0)} citation links between them, and {n_add} works from the datasets "
+                     f"built around the two archives.")
     g["cnodes"], g["cedges"] = ci.pop("cnodes", []), ci.pop("cedges", [])
     # each entry's references outside the archives, as indices into one shared table of titles
     refs = json.loads((HERE / "data" / "refs.json").read_text())
@@ -41,9 +43,11 @@ def main():
     g["xr"], g["pr"] = xr, pr
     g["side"] = {
         "papers": f"<h2>Paper map</h2><p class='meta'>Each point is an entry, placed so that entries with similar "
-                  f"wording in title, keywords and abstract lie close together (t-SNE on TF-IDF). Off-NIME entries "
+                  f"wording in title, keywords and abstract lie close together (t-SNE on TF-IDF). Many off-NIME entries "
                   f"have titles only, so their positions are less certain. The {len(g['topics'])} topics come from "
-                  f"a non-negative matrix factorisation of the same text; choose one under Colour by.</p>"
+                  f"a non-negative matrix factorisation of the two archives' text; choose one under Colour by. "
+                  f"The works of the datasets built around the archives (Cited, Related, Theses, Background, "
+                  f"Historical and Zotero) are placed on the same map, in yellow when colouring by archive.</p>"
                   f"<p class='meta'>Click an entry to see what it cites and what cites it, within the two archives, and its other references.</p>",
         "authors": f"<h2>Co-author network</h2><p class='meta'>The {st['mapped_authors']} authors with at least two "
                    f"entries, of {st['authors']} in all. {st['authors_both']} authors appear in both archives. "

@@ -222,3 +222,13 @@ collection. The top tier (probability at least 0.9) became the Zotero dataset at
 request; the classifier scored a Norwegian article on stave churches at 0.93, so titles not in
 English are left out. TRL batches 23 and 24 cover the new entries.
 
+The atlas paper map now places the six datasets built around the archives (1,522 works), with
+topics fitted on the archives only, as Alexander asked: the curated off-NIME archives end in
+2011–2013, so later off-NIME work was missing from the map. A topic labelled "icon · doi ·
+journal" turned out to be MIT Press page menus that OpenAlex holds as abstracts for 17 CMJ and
+ISIDM entries, written into the bibs in c36defd; those abstracts are removed and the filler now
+rejects such pages. A second snowball round from the 95 round-1 candidates on NIME topics finds
+only 5 new works cited by three or more of them. 26 more thesis queries reached only DataCite,
+since the day's OpenAlex allowance was spent; the theses build also needs more than 3G of memory
+now. GROBID (#7) is being set up by a separate agent.
+

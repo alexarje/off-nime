@@ -9,7 +9,7 @@
   color-scheme: light;
   --surface-0: #f5f4f0; --surface-1: #fcfcfb; --line: #dedcd5;
   --text-primary: #0b0b0b; --text-secondary: #52514e; --text-muted: #7a7974;
-  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --context: #c4c2ba; --edge: rgba(60,60,55,0.10);
+  --s1: #2a78d6; --s2: #eb6834; --s3: #1baf7a; --s4: #eda100; --context: #c4c2ba; --edge: rgba(60,60,55,0.10);
   --accent: #2a78d6; --seq-lo: #cde2fb; --seq-hi: #0d366b;
 }
 @media (prefers-color-scheme: dark) {
@@ -17,7 +17,7 @@
     color-scheme: dark;
     --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
     --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
-    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --context: #4a4945; --edge: rgba(230,230,220,0.10);
+    --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --context: #4a4945; --edge: rgba(230,230,220,0.10);
     --accent: #3987e5; --seq-lo: #184f95; --seq-hi: #cde2fb;
   }
 }
@@ -25,7 +25,7 @@
   color-scheme: dark;
   --surface-0: #121211; --surface-1: #1a1a19; --line: #33332f;
   --text-primary: #ffffff; --text-secondary: #c3c2b7; --text-muted: #8f8e86;
-  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --context: #4a4945; --edge: rgba(230,230,220,0.10);
+  --s1: #3987e5; --s2: #d95926; --s3: #199e70; --s4: #c98500; --context: #4a4945; --edge: rgba(230,230,220,0.10);
   --accent: #3987e5; --seq-lo: #184f95; --seq-hi: #cde2fb;
 }
 * { box-sizing: border-box; }
@@ -136,8 +136,8 @@ const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;
 
 const P = DATA.papers, byId = new Map(P.map((p, i) => [p.id, i]));
 const T = DATA.topics;
-const ARCH = p => p.ar === "off-nime" ? 1 : (p.ds === "NIME papers" || p.ds === "NIME alt" ? 0 : 2);
-const ARCH_NAMES = ["NIME papers", "Off-NIME archive", "NIME music and installations"];
+const ARCH = p => p.ar === "added" ? 3 : p.ar === "off-nime" ? 1 : (p.ds === "NIME papers" || p.ds === "NIME alt" ? 0 : 2);
+const ARCH_NAMES = ["NIME papers", "Off-NIME archive", "NIME music and installations", "Cited, Related, Theses and other datasets"];
 const years = P.map(p => p.y), YMIN = Math.min(...years), YMAX = Math.max(...years);
 $("#y0").value = YMIN; $("#y1").value = YMAX;
 
@@ -190,7 +190,7 @@ function colourOf(n) {
   if (n.kind === "author") { const a = DATA.authors[n.i]; return a.o && a.ni ? css("--s3") : a.o ? css("--s2") : css("--s1"); }
   if (n.kind === "cite") { const c = DATA.cnodes[n.i]; return c.g === 2 ? css("--s3") : c.g === 1 ? css("--s2") : css("--s1"); }
   const p = P[n.i];
-  if (mode === "archive") return [css("--s1"), css("--s2"), css("--s3")][ARCH(p)];
+  if (mode === "archive") return [css("--s1"), css("--s2"), css("--s3"), css("--s4")][ARCH(p)];
   if (mode === "year") return seq((p.y - YMIN) / (YMAX - YMIN));
   if (mode === "topic") return p.tp === +$("#topicsel").value ? css("--accent") : css("--context");
   if (mode === "channel") return p.ch === $("#channelsel").value ? css("--accent") : css("--context");
@@ -377,7 +377,7 @@ function legend() {
   const dot = (v, t) => `<span><i style="background:${css(v)}"></i>${esc(t)}</span>`;
   if (view === "authors") L.innerHTML = dot("--s1", "NIME only") + dot("--s2", "Off-NIME only") + dot("--s3", "Both archives") + `<span>Size: number of entries. Lines: co-authorship.</span>`;
   else if (view === "cites") L.innerHTML = dot("--s1", "NIME proceedings") + dot("--s2", "Off-NIME archive") + dot("--s3", "Cited, but in neither archive") + `<span>Size: times cited by archive papers.</span>`;
-  else if (mode === "archive") L.innerHTML = ARCH_NAMES.map((n, k) => dot(["--s1", "--s2", "--s3"][k], n)).join("");
+  else if (mode === "archive") L.innerHTML = ARCH_NAMES.map((n, k) => dot(["--s1", "--s2", "--s3", "--s4"][k], n)).join("");
   else if (mode === "trl") L.innerHTML = dot("--s1", "Fundamental (TRL 1–3)") + dot("--s3", "Applied (4–6)") + dot("--s2", "Industrial (7–9)") + dot("--context", "Not estimated") + `<span>Estimated from title and abstract</span>`;
   else if (mode === "arl") L.innerHTML = dot("--s1", "Exploration (ARL 1–3)") + dot("--s3", "Development (4–6)") + dot("--s2", "Dissemination (7–9)") + dot("--context", "No artistic component") + `<span>Estimated from title and abstract</span>`;
   else if (mode === "year") L.innerHTML = `<span>${YMIN} <i class="ramp" style="background:linear-gradient(90deg,${css("--seq-lo")},${css("--seq-hi")})"></i> ${YMAX}</span>`;

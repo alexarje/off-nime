@@ -1,10 +1,12 @@
-"""One round of snowballing from the reference lists of the Cited works.
+"""Two rounds of snowballing from Crossref reference lists.
 
-The Crossref records fetched for bibs/Cited/ include reference lists where publishers deposit
-them. Every cited work is keyed by DOI, or by title when no DOI is given, and counted once per
-citing Cited work. Works already in either archive or in Cited are left out. Writes
-output/candidates_snowball.tsv (works cited by at least MIN_SOURCES Cited works) and
-data/snowball.json.
+Round 1 starts from the Cited works: their Crossref records include reference lists where
+publishers deposit them. Every cited work is keyed by DOI, or by title when no DOI is given, and
+counted once per citing work. Works already in either archive or in Cited are left out, and those
+cited by at least MIN_SOURCES Cited works go to output/candidates_snowball.tsv. Round 2 starts from
+the round-1 candidates that have a DOI and a NIME-topic probability of at least ROUND2_P (the
+title classifier, tools/topic.py), and lists in output/candidates_snowball2.tsv the works they
+cite that are in neither the collection nor round 1. Statistics go to data/snowball.json.
 """
 import json
 import re
@@ -18,6 +20,7 @@ from parse_refs import title_key
 
 HERE = Path(__file__).resolve().parent.parent
 MIN_SOURCES = 3
+ROUND2_P = 0.5
 VENUE = re.compile(r"proceedings|conference|symposium|workshop|extended abstracts|journal|transactions|"
                    r"\bacm\b|\bieee\b|\bicmc\b|\bnime\b|\bchi\b", re.I)
 
@@ -30,11 +33,32 @@ def main():
     for e in cited:
         have_doi.add(e.get("doi", "").lower())
         have_key.add(title_key(e.get("title", "")))
+    seeds = [e.get("doi", "").lower() for e in cited if e.get("doi")]
+    rows, meta, st = snowball(seeds, have_doi, have_key)
+    write(rows, meta, "candidates_snowball.tsv", "cited_by_cited_works")
+    stats = {"cited_works": len(cited), **st}
+    # round 2: the round-1 candidates on NIME topics, as new seeds
+    from topic import nime_probability
+    with_doi = [k for _, k in rows if meta[k]["doi"]]
+    p = nime_probability([meta[k]["title"] or "" for k in with_doi]) if with_doi else []
+    seeds2 = [meta[k]["doi"] for k, pk in zip(with_doi, p) if pk >= ROUND2_P]
+    for _, k in rows:
+        have_key.add(title_key(meta[k]["title"]))
+        if meta[k]["doi"]:
+            have_doi.add(meta[k]["doi"])
+    rows2, meta2, st2 = snowball(seeds2, have_doi, have_key)
+    write(rows2, meta2, "candidates_snowball2.tsv", "cited_by_round1_works")
+    stats["round2"] = {"seeds": len(seeds2), "min_p": ROUND2_P, **st2}
+    (HERE / "data" / "snowball.json").write_text(json.dumps(stats))
+    print(json.dumps(stats))
+    for n, k in rows2[:25]:
+        print(n, meta2[k]["year"], meta2[k]["author"], "|", (meta2[k]["title"] or meta2[k]["raw"])[:80])
 
+
+def snowball(seeds, have_doi, have_key):
     counts, meta = defaultdict(set), {}
     with_refs = 0
-    for e in cited:
-        doi = e.get("doi", "").lower()
+    for doi in seeds:
         rec = (get(f"{API}/works/{doi}", {}) or {}).get("message") or {}
         refs = rec.get("reference") or []
         if refs:
@@ -83,18 +107,18 @@ def main():
     # titles looked up after counting can reveal a version of an archive entry; drop those
     rows = [(n, k) for n, k in rows if not (meta[k]["title"] and title_key(meta[k]["title"]) in have_key)
             and not VENUE.match(meta[k]["title"] or "")]
-    with open(HERE / "output" / "candidates_snowball.tsv", "w") as f:
-        f.write("cited_by_cited_works\tyear\tfirst_author\ttitle\tdoi\n")
+    have_key.discard(None)
+    return rows, meta, {"with_reference_lists": with_refs, "distinct_cited": len(counts), "candidates": len(rows),
+                        "min_sources": MIN_SOURCES}
+
+
+def write(rows, meta, name, col):
+    with open(HERE / "output" / name, "w") as f:
+        f.write(f"{col}\tyear\tfirst_author\ttitle\tdoi\n")
         for n, k in rows:
             m = meta[k]
             f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in [n, m["year"], m["author"], m["title"] or m["raw"][:200],
                                                                   m["doi"]]) + "\n")
-    stats = {"cited_works": len(cited), "with_reference_lists": with_refs, "distinct_cited": len(counts),
-             "candidates": len(rows), "min_sources": MIN_SOURCES}
-    (HERE / "data" / "snowball.json").write_text(json.dumps(stats))
-    print(json.dumps(stats))
-    for n, k in rows[:25]:
-        print(n, meta[k]["year"], meta[k]["author"], "|", (meta[k]["title"] or meta[k]["raw"])[:80])
 
 
 if __name__ == "__main__":

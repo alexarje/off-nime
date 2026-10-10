@@ -20,7 +20,7 @@ Paper texts came from three places. {{src_web}} NIME paper PDFs were downloaded 
 
 ## Method
 
-Authors are keyed on surname and first initial, with accents removed, so that "Marcelo M. Wanderley" and "M. Wanderley" are one node; the cost is that a few different people share a key. Topics come from a non-negative matrix factorisation ({{k_topics}} components) of TF-IDF vectors over title, keywords and abstract, fitted on papers only and then applied to the concert and installation notes. The paper map is a t-SNE projection of the same vectors. The co-author and citation networks are laid out with ForceAtlas2; the co-author network's small components are packed in a band below its main component.
+Authors are keyed on surname and first initial, with accents removed, so that "Marcelo M. Wanderley" and "M. Wanderley" are one node; the cost is that a few different people share a key. Topics come from a non-negative matrix factorisation ({{k_topics}} components) of TF-IDF vectors over title, keywords and abstract, fitted on papers only and then applied to the concert and installation notes. The paper map is a t-SNE projection of the same vectors; it also places the works of the datasets built around the archives (Cited, Related, Theses, Background, Historical and Zotero), which take their topics from the fitted model without shaping it. The co-author and citation networks are laid out with ForceAtlas2; the co-author network's small components are packed in a band below its main component.
 
 References were split from each text's last References heading on numbered markers, or on author–year line starts where there are none, and matched to the archives on a title key (significant words run together, 32 letters) or on the archive title appearing in the reference string. Unmatched references were clustered on the same key. {{unkeyed}} references ({{unkeyed_pct}}) yielded no usable title.
 
@@ -74,7 +74,7 @@ The fourth list holds journal and proceedings papers that score as NIME-related,
 
 {{j_table}}
 
-The fifth list comes from one round of snowballing. {{sb_refs}} of the {{sb_cited}} Cited works have reference lists in Crossref, and [`candidates_snowball.tsv`](output/candidates_snowball.tsv) holds the {{sb_cands}} works that at least {{sb_min}} of them cite and that neither archive nor Cited holds. Proceedings and journal names are not counted as works, and a work cited both by DOI and by title is counted once.
+The fifth list comes from two rounds of snowballing. {{sb_refs}} of the {{sb_cited}} Cited works have reference lists in Crossref, and [`candidates_snowball.tsv`](output/candidates_snowball.tsv) holds the {{sb_cands}} works that at least {{sb_min}} of them cite and that neither archive nor Cited holds. Proceedings and journal names are not counted as works, and a work cited both by DOI and by title is counted once. A second round starts from the {{sb2_seeds}} round-1 works with a DOI and a NIME-topic probability of at least {{sb2_p}}; {{sb2_refs}} of them have reference lists, and only {{sb2_cands}} works that they cite are new to both the collection and the first round ([`candidates_snowball2.tsv`](output/candidates_snowball2.tsv)). The literature around the archives is close to closed under citation at this depth.
 
 {{sb_table}}
 

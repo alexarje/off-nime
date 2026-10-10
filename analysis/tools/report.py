@@ -88,6 +88,8 @@ def main():
     zo = json.loads((HERE / "data" / "zotero_stats.json").read_text())
     rs = json.loads((HERE / "data" / "refs.json").read_text())["stats"]
     v = {
+        "sb2_seeds": sb["round2"]["seeds"], "sb2_p": sb["round2"]["min_p"],
+        "sb2_refs": sb["round2"]["with_reference_lists"], "sb2_cands": sb["round2"]["candidates"],
         "oa_with": rs["with_openalex"], "oa_int": rs["internal_openalex"], "oa_ext": rs["external_openalex"],
         "oa_vol": rs["openalex_volume_skipped"], "oa_chap": rs["chapter_citations"],
         "zo_p": zo["tier_p"], "zo_tier": zo["tier"], "zo_ne": zo["tier_not_english"], "zo_near": zo["tier_near_match"],
