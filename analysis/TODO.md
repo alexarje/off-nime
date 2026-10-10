@@ -11,8 +11,6 @@
 - [ARJ] Ask the NIME steering committee to deposit the 2021 and 2022 proceedings on Zenodo
   (recommended), so that their texts can be read like the other years.
 - [ARJ] Read Cited and Background and move what is on the wrong side (title classifier, 88% accurate).
-- [ARJ] NIME bibliography: Fliperama (Vieira et al., NIME 2020) is in your Zotero library but not in
-  the bibliography; add it.
 - [ARJ] NIME bibliography: review `output/nime_missing_abstracts.tsv`; check the 2005 "NIME papers" that look
   like artworks and the front-matter entries among the 2019 music entries.
 
