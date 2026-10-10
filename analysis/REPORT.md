@@ -268,7 +268,7 @@ The reference parser reads years back to 1700 when a reference has no later year
 
 ### The Zotero dataset
 
-The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are 549 works with a NIME-topic probability of at least 0.9, a scholarly item type and a year. Of these, 10 have titles that are not in English, where the classifier is unreliable, and 11 match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining 528 form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
+The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are 552 works with a scholarly item type, a year, and either a NIME-topic probability of at least 0.9 or a NIME tag or folder in the library (4 works qualify by the tag or folder alone). Short titles, which have no title key, match on the whole title within a year. Of these, 10 have titles that are not in English, where the classifier is unreliable, and 10 match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining 532 form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting; 70 of them carry the library's topical tags as keywords, without the tags that record reading or filing. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
 
 ### Theses
 
@@ -278,7 +278,7 @@ Thresholds borrowed from the journal sweep admitted too few theses, since thesis
 
 ### Technology and artistic readiness
 
-Every entry in both archives and in the four rule-selected datasets, 5458 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1501 of them rest on a title alone. They are estimates, not measurements.
+Every entry in both archives and in the four rule-selected datasets, 5462 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1504 of them rest on a title alone. They are estimates, not measurements.
 
 ![Estimated TRL against ARL, for all entries and for the NIME papers](output/trl_arl_heatmap.svg)
 
@@ -317,7 +317,7 @@ I would extend off-NIME along the three directions the lists measure, and in thi
 
 ### Exports
 
-The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5458 entries names its archive and dataset and, for archive entries, its strongest topic.
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5462 entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 

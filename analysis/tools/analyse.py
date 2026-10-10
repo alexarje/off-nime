@@ -161,7 +161,7 @@ def added_records():
                 continue
             venue = e.get("journal") or e.get("booktitle") or e.get("publisher") or e.get("school") or ""
             out.append({"id": e["ID"], "archive": "added", "dataset": name, "year": int(m.group(0)),
-                        "title": e["title"], "keywords": "", "abstract": e.get("abstract", ""),
+                        "title": e["title"], "keywords": e.get("keywords", ""), "abstract": e.get("abstract", ""),
                         "names": [n for _, n in split_authors(e.get("author") or e.get("editor") or "")],
                         "authors": [], "channel": venue, "venue": venue, "doi": e.get("doi"), "url": e.get("url")})
     return out

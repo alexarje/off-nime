@@ -93,6 +93,7 @@ def main():
         "oa_with": rs["with_openalex"], "oa_int": rs["internal_openalex"], "oa_ext": rs["external_openalex"],
         "oa_vol": rs["openalex_volume_skipped"], "oa_chap": rs["chapter_citations"],
         "zo_p": zo["tier_p"], "zo_tier": zo["tier"], "zo_ne": zo["tier_not_english"], "zo_near": zo["tier_near_match"],
+        "zo_mark": zo["tier_by_mark_only"], "zo_kw": zo["dataset_with_keywords"],
         "zo_n": len(re.findall(r"^@", (HERE.parent / "bibs" / "Zotero" / "zotero.bib").read_text(), re.M)),
         "hi_n": len(hist), "hi_ok": sum("Found in" in n for n in hist), "hi_cited": sum("Cited by" in n for n in hist),
         "hi_pat": sum(n.startswith("Patent") for n in hist),

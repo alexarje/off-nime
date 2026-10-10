@@ -130843,6 +130843,30 @@
 }
 },
 {
+"id": "zotero:putnam1993realtimecomp",
+"type": "paper-conference",
+"title": "Real-time computer control using pattern recognition of the electromyogram",
+"author": [
+{
+"family": "Putnam",
+"given": "William"
+},
+{
+"family": "Knapp",
+"given": "R Benjamin"
+}
+],
+"container-title": "Engineering in Medicine and Biology Society, 1993. Proceedings of the 15\\textsuperscriptth Annual International Conference of the IEEE",
+"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.83",
+"issued": {
+"date-parts": [
+[
+1993
+]
+]
+}
+},
+{
 "id": "zotero:todd1993vestibularfe",
 "type": "article-journal",
 "title": "Vestibular Feedback in Musical Performance: Response to \"Somatosensory Feedback in Musical Performance\" (Edited by Sundberg and Verrillo)",
@@ -137502,6 +137526,26 @@
 }
 },
 {
+"id": "zotero:ashbrook2010enablingmobi",
+"type": "article-journal",
+"title": "Enabling mobile microinteractions",
+"author": [
+{
+"family": "Ashbrook",
+"given": "Daniel Lee"
+}
+],
+"URL": "https://smartech.gatech.edu/handle/1853/33986",
+"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.03",
+"issued": {
+"date-parts": [
+[
+2010
+]
+]
+}
+},
+{
 "id": "zotero:bresin2010expressiveso",
 "type": "paper-conference",
 "title": "Expressive Sonification of Footstep Sounds",
@@ -138024,6 +138068,39 @@
 "date-parts": [
 [
 2010
+]
+]
+}
+},
+{
+"id": "zotero:wolf2011ataxonomyofm",
+"type": "chapter",
+"title": "A taxonomy of microinteractions: Defining microgestures based on ergonomic and scenario-dependent requirements",
+"author": [
+{
+"family": "Wolf",
+"given": "Katrin"
+},
+{
+"family": "Naumann",
+"given": "Anja"
+},
+{
+"family": "Rohs",
+"given": "Michael"
+},
+{
+"family": "Müller",
+"given": "Jörg"
+}
+],
+"container-title": "Human-Computer Interaction - INTERACT 2011",
+"URL": "http://link.springer.com/10.1007/978-3-642-23774-4_45",
+"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.12",
+"issued": {
+"date-parts": [
+[
+2011
 ]
 ]
 }
@@ -139612,7 +139689,7 @@
 ],
 "container-title": "ACM Press",
 "DOI": "10.1145/2617995.2618028",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
+"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -140680,6 +140757,35 @@
 ],
 "container-title": "Routledge",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "zotero:olsen2016whatconstitu",
+"type": "article-journal",
+"title": "What Constitutes a Phrase in Sound-Based Music? A Mixed-Methods Investigation of Perception and Acoustics",
+"author": [
+{
+"family": "Olsen",
+"given": "Kirk N."
+},
+{
+"family": "Dean",
+"given": "Roger T."
+},
+{
+"family": "Leung",
+"given": "Yvonne"
+}
+],
+"container-title": "PLOS ONE",
+"DOI": "10.1371/journal.pone.0167643",
+"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.08",
 "issued": {
 "date-parts": [
 [

@@ -232,3 +232,5 @@ only 5 new works cited by three or more of them. 26 more thesis queries reached 
 since the day's OpenAlex allowance was spent; the theses build also needs more than 3G of memory
 now. GROBID (#7) is being set up by a separate agent.
 
+
+Zotero tags: a NIME tag or folder now admits an item at any probability (4 more works), and topical tags go into the bib as keywords (70 works), which the paper map reads. Matching short titles on the whole title and year found 63 more library items already in the collection, most of them NIME papers with one- or two-word titles. Of the NIME-tagged items, only Fliperama (NIME 2020) is missing from the NIME bibliography.
