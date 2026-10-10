@@ -78,6 +78,17 @@ def main():
         return int(m.group(2)) - int(m.group(1)) + 1 if m else None
     items = [it for it in items if len(re.findall(r"[A-Za-z]{2,}", it["title"])) >= 4
              and (pages(it) is None or pages(it) >= 4)]
+    # only English text can be scored against the English archives: Italian, French or Portuguese
+    # function words are not stop words and would count as shared vocabulary
+    from theses import english_share
+    # a title alone rarely contains English function words, so the test is on the abstract; items
+    # from the non-English venues need English text either way
+    def readable_en(it):
+        nonen = it["source"].startswith(("JIM", "SBCM", "CIM"))
+        if len(it["abstract"]) >= 200 or nonen:
+            return english_share(f"{it['title']} {it['abstract'][:2000]}") >= 0.08
+        return True
+    items = [it for it in items if readable_en(it)]
     by_doi = {r["doi"]: r["id"] for r in corpus if r["doi"]}
     by_key = {title_key(r["title"]): r["id"] for r in corpus if title_key(r["title"])}
     for it in items:

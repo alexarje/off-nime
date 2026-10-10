@@ -191,3 +191,11 @@ report (`tools/readiness_figure.py`), at Alexander's request. CIM: all 21 volume
 cim.lim.di.unimi.it (1979–2024) have text layers; the splitter now reads Sommario and Riassunto
 headings. History: the reference parser only accepts years from 1940, so pre-1940 works
 (Hornbostel and Sachs 1914, Russolo 1913, Helmholtz 1863) are invisible to the citation counts.
+
+SBCM 1994–1998 read by OCR (572 pages); CIM 1979–2024 (21 volumes, all with text layers). The
+splitter gives 717 papers (SBCM 325, CIM 392); letter-spaced running headers were getting into
+titles and are now dropped. Italian abstracts passed the sweep score as French ones had passed
+the thesis score; the sweep now requires English text where there is an abstract and for the
+non-English venues. A first version of that filter dropped title-only English CMJ items (1,623 to
+1,359 in the check); the test now applies to abstracts only, and the check is back to 1,623.
+The TRL merge now covers only entries currently in the collection (4,811).

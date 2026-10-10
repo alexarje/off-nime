@@ -17,6 +17,12 @@ HEADER = re.compile(r"simp[óo]sio brasileiro|computa[çc][ãa]o musical|brazili
                     r"colloquio di informatica musicale|\bcim\b|atti del|informatica musicale", re.I)
 
 
+def letter_spaced(line):
+    """Running headers in some volumes come out letter-spaced ("Pro cee di n gs of th e")."""
+    toks = line.split()
+    return len(toks) >= 4 and sum(len(t) <= 2 for t in toks) / len(toks) > 0.5
+
+
 SOURCES = [("SBCM (Brazilian Symposium on Computer Music)", "SBCM", "sbcm_text", "*.txt"),
            ("CIM (Colloquio di Informatica Musicale)", "CIM", "volumes_text", "CIM_*.txt")]
 
@@ -33,7 +39,8 @@ def main():
                 re.search(r"^\s*(Sommario|SOMMARIO|Riassunto|RIASSUNTO)\b[.:]?", head, re.M)
             if not m:
                 continue
-            lines = [l.strip() for l in head[:m.start()].splitlines() if l.strip() and not HEADER.search(l)]
+            lines = [l.strip() for l in head[:m.start()].splitlines()
+                     if l.strip() and not HEADER.search(l) and not letter_spaced(l)]
             if not lines:
                 continue
             title = []

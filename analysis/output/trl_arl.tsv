@@ -4622,7 +4622,6 @@ related:emmerson2001fromdancetod	Related	2001	From Dance! to “Dance”: Distan
 related:xu2026moxartaudiov	Related	2026	MoXaRt: Audio-Visual Object-Guided Sound Interaction for XR	4	applied			medium	abstract	MoXaRt real-time XR sound separation system, evaluated
 related:bernard1991theupicasape	Related	1991	The UPIC as a performance instrument	7	industrial	7	dissemination	medium	abstract	UPIC used as performance instrument in two works
 related:xu2024dancecraftam	Related	2024	DanceCraft: A Music-Reactive Real-time Dance Improv System	6	applied	5	development	medium	abstract	DanceCraft real-time dance generation system, production-ready
-related:peeters1998analyseetsyn	Related	1998	Analyse et Synthese des sons musicaux par la methode PSOLA	3	fundamental			medium	abstract	PSOLA analysis and synthesis method for voice and music
 related:fayet2024vivovideoana	Related	2024	VIVO: Video Analysis for Corpus-based Audio--Visual Synthesis	4	applied	4	development	medium	abstract	VIVO video analysis for audio-video corpus synthesis
 related:moore2019choreography	Related	2019	Choreography in R. Murray Schafer's The Crown of Ariadne—Technical or Theatrical?			6	development	medium	abstract	Performance practice of a harp work, theatrical and technical
 related:s2001expressiveco	Related	2001	Expressive Controllers For Bowed String Physical Models	3	fundamental			medium	abstract	Gestural controllers for bowed string physical model, proof of concept
@@ -4630,13 +4629,11 @@ related:stroppa1986elementidiin	Related	1986	Elementi di Informatica Musicale	1	
 related:j2001tonetableamu	Related	2001	TONETABLE: A Multi-User, Mixed-Media, Interactive Installation	6	applied	6	development	low	title	TONETABLE multi-user installation; title only
 related:graugaard2006unifyingperf	Related	2006	Unifying Performer and Accompaniment	3	fundamental			low	title	Performer and accompaniment unification; title only
 related:burtner2002theexbowmeta	Related	2002	The Exbow MetaSax: Compositional Applications of Bowed String Physical Models Using Instrument Controller Subsititution	5	applied	7	dissemination	medium	abstract	Exbow MetaSax used compositionally with bowed string models
-related:picciola2022espacessonor	Related	2022	Espaces sonores paradoxaux : Approche des harmoniques hypersphériques et implémentation logicielle, pour une pratique créative de la spatialisation immersive du son en free-party	4	applied	6	development	medium	abstract	Hypersphere harmonics spatialisation software for free-party creative practice
 related:hamilton2014musicalsonif	Related	2014	Musical Sonification of Avatar Physiologies, Virtual Flight and Gesture	3	fundamental	4	development	low	title	Sonification of avatar physiology, flight and gesture; title only
 related:solberg2016opticalorine	Related	2016	Optical or Inertial? Evaluation of Two Motion Capture Systems for Studies of Dancing to Electronic Dance Music	4	applied			medium	title	Two motion capture systems compared for dance studies
 related:shimizu2018adancingrobo	Related	2018	A Dancing Robot Controlled by a Guitar Sound	3	fundamental	4	development	medium	abstract	Robot dancing to guitar sound, amusement content prototype
 related:djennane2002modlesdeprse	Related	2002	Mod?les de présentation d'informations audio 3D pour les usagers mobiles	2	fundamental			medium	abstract	Models for 3D audio information presentation to mobile users
 related:strawn1977unplayedbyhu	Related	1977	Unplayed by Human Hands					low	title	Title only, historical note in Computer Music Journal
-related:sauda2022soutenirencl	Related	2022	Soutenir en Classe L'écoute Active, L'Autonomie Et L'échange en Analyse Musicale Avec la Plateforme Web Dezrann	6	applied			medium	abstract	Dezrann web platform used in classroom music analysis
 related:madole1995dsoundforvir	Related	1995	3-D Sound for Virtual Reality and Multimedia	1	fundamental			medium	abstract	Book review of 3-D sound for VR, overview of technology
 related:taylor1985tmtrioinstru	Related	1985	TM +, Trio instrumental electroacoustique			7	dissemination	low	title	Title only, electroacoustic trio work
 related:sethares2001meterandperi	Related	2001	Meter and Periodicity in Musical Performance	3	fundamental			medium	abstract	Psychoacoustic periodicity method for analysing rhythm, proof of concept
@@ -4644,7 +4641,6 @@ related:branje2010vibrotactile	Related	2010	Vibrotactile Display of Music on the
 related:gao2015useofsoundto	Related	2015	Use of Sound to Provide Occluded Visual Information in Touch Gestural Interface	4	applied			medium	abstract	Sound feedback for occluded touch gestures, user evaluation
 related:forment2026sovaalibreop	Related	2026	Sova: A Libre / Open Source Polyglot and Collaborative Live Coding Environment for Pedagogy and Research on Live Coding	8	industrial			low	title	Sova open-source live coding environment; title only
 related:turchet2019interactives	Related	2019	Interactive sonification and the IoT	2	fundamental			medium	abstract	Concept of IoT for interactive sonification
-related:olivo2022lesinstrumen	Related	2022	Les instruments de musique numériques pour les personnes en situation de handicap cognitif et mental : exemples d'applications via le web	6	applied			medium	abstract	Web-based DMIs for cognitive disability, application examples
 related:s2000amultiratefi	Related	2000	A multirate, finite-width, bow-string interaction model	3	fundamental			medium	abstract	Efficient bow-string interaction model proposed
 related:berger2023exploringthe	Related	2023	Exploring the past with virtual acoustics and virtual reality	5	applied			medium	abstract	Virtual acoustics and VR used to reconstruct historical sites
 related:gupta2026virtualplayi	Related	2026	Virtual Playing, Real Touch: The Haptics of Musical Instruments	4	applied			high	abstract	Virtual haptic feedback for musical instruments compared in study
@@ -4652,7 +4648,6 @@ related:weinel2021synaesthetic	Related	2021	Synaesthetic Audio-Visual Sound Toys
 related:fehr2015indirectionb	Related	2015	Indirection between movement and sound in an interactive sound installation	6	applied	7	dissemination	high	abstract	New interactive sound installation driven by movement qualities
 related:grebel2026designingint	Related	2026	Designing Interactive Movement Sonification For Hip-Hop Dance	4	applied	4	development	medium	abstract	Movement sonification for hip-hop dance, autobiographical design
 related:bartlett1979amicrocomput	Related	1979	A Microcomputer-Controlled Synthesis System for Live Performance	7	industrial	7	dissemination	medium	abstract	Microcomputer synthesis system built for live performance
-related:bouillot2005lemodledecoh	Related	2005	Le Modèle de Cohérence Perceptive pour les Applications Multimédia Interactive et Distribuées	2	fundamental			medium	abstract	Perceptual coherence model for distributed multimedia applications
 related:shakhovskaia2017obrazovaniec	Related	2017	Obrazovanie cherez vsiu zhizn' kak instrument bor'by s bednost'iu v RF					high	abstract	Russian poverty and lifelong education, no music technology
 related:alves2023towardsconsc	Related	2023	Towards conscientiousness-based graphical user interface design guidelines	2	fundamental			low	title	GUI design guidelines proposed; abstract missing
 related:roberts2015sharingtimea	Related	2015	Sharing Time and Code in a Browser-Based Live Coding Environment	6	applied	6	development	high	abstract	Gibber extended for networked live coding performances
@@ -4665,7 +4660,6 @@ related:ahn2026capinstrumen	Related	2026	µCap: Instrumental Music Captions for 
 related:rossi2025athanasiuski	Related	2025	Athanasius Kircher’s Sonic Playground - An Acoustic Virtual Reality Installation	6	applied	7	dissemination	high	abstract	Interactive VR installation with acoustic ray tracing
 related:jin2003individualiz	Related	2003	Individualization in spatial-audio coding	3	fundamental			high	abstract	Novel spatial-audio coding technique described
 related:grani2016gesturalcont	Related	2016	Gestural Control of Wavefield Synthesis	3	fundamental			low	title	Gestural control of wavefield synthesis; no abstract
-related:romerogarca2022estimationde	Related	2022	Estimation de paramètres de resynthèse de sons d'instruments de musique avec des outils de morphologie mathématique	3	fundamental			medium	abstract	Morphology tools for resynthesis parameter estimation, proposed
 related:grant2013meuserecomme	Related	2013	MeUse: Recommending Internet Radio Stations.	3	fundamental			low	title	Radio station recommender; title only
 related:flossmann2010themagaloffp	Related	2010	The Magaloff Project: An Interim Report	5	applied			medium	abstract	Piano performance data acquisition project, interim report
 related:mariadimitra2008towardsadeco	Related	2008	Towards a Decodification of the Graphical Scores of Anestis Logothetis (1921-1994). The Graphical Space of Odysee(1963)			2	exploration	low	title	Graphical score decoding, title only
@@ -4676,7 +4670,6 @@ related:bacot2016thecreativep	Related	2016	The Creative Process of Sculpting the
 related:jap2019realtimemapp	Related	2019	Real-time Mapping of Periodic Dance Movements to Control Tempo in Electronic Dance Music	3	fundamental	4	development	low	title	Dance-driven tempo mapping prototype; no abstract
 related:camurri2004expressivege	Related	2004	Expressive Gestural Control of Sound and Visual Output in Multimodal Interactive Systems	3	fundamental	3	exploration	low	title	Gestural control of sound and visuals; no abstract
 related:m2000extendedperf	Related	2000	Extended performance techniques for a virtual instrument	3	fundamental	4	development	medium	abstract	Extended techniques for bowed string model with metasaxophone
-related:couturier2004etheractionp	Related	2004	Etheraction playing a musical piece using graphical interfaces	3	fundamental	4	development	low	title	Etheraction graphical interfaces for musical piece; title only
 related:brazil2017livecodingco	Related	2017	Live Coding Console with Remote Audience into the web Guilherme Martins Lunhani1 , Flávio Luiz Schiavoni2 Rua Abolição 403 – 18044-070, Sorocaba, SP	3	fundamental			medium	abstract	Web live coding console with remote audience, prototype
 related:bianchi2011obfuscatinga	Related	2011	Obfuscating authentication through haptics, sound and light	3	fundamental			medium	abstract	Five PIN entry systems using haptics, sound and light
 related:correya2020essentiajsaj	Related	2020	Essentia.js: A JavaScript Library for Music and Audio Analysis on the Web	8	industrial			medium	title	Essentia.js released JavaScript audio analysis library
@@ -4816,3 +4809,4 @@ related:amc2026virtualreali	Related	2026	Virtual Reality Audio: A Guide to Immer
 related:thorley2016virtualmusic	Related	2016	Virtual Music, Virtual Money					medium	title	Study of music economy; no technology built
 related:casanelles2024thehyperorch	Related	2024	The Hyperorchestra: Screen Music and Virtual Musical Ensembles	1	fundamental			low	title	Study of screen music and virtual ensembles
 related:drymonitis2024digitalelect	Related	2024	Digital Electronics for Musicians: Build Intuitive Electronics and Electroacoustic Music Interfaces	8	industrial	7	dissemination	low	title	Practical guide to building electronics and interfaces
+related:music1995graphicaldis	Related	1995	Graphical Display of Musical Information i: Durham Music Technology i:	3	fundamental			medium	abstract	Analysis system with example graphical outputs; prototype stage

@@ -81,7 +81,7 @@ def split_entries(sec):
         # an entry that runs on has usually swallowed the other column's body text; its start is
         # still the reference
         p = p[:400]
-        if len(p) >= 25 and re.search(r"(19[4-9]\d|20[0-2]\d)", p):
+        if len(p) >= 25 and re.search(r"(1[7-9]\d\d|20[0-2]\d)", p):
             out.append(p)
     return out
 
@@ -102,8 +102,15 @@ def sentences(s):
     return out
 
 
+def old_year(entry):
+    """A year before 1940, for historical references with no later year in them: outside arXiv
+    identifiers, DOIs, URLs and numeric ranges, which otherwise read as years."""
+    clean = re.sub(r"arxiv[:\s]*\d{4}\.\d+|10\.\d{4,}/\S+|https?://\S+|\d+\s*[-–]\s*\d+|\d{4}\.\d+", " ", entry, flags=re.I)
+    return re.search(r"(?<![\d.])\b(1[7-9][0-3]\d)\b(?![\d.])", clean)
+
+
 def parse(entry):
-    year = re.search(r"\b(19[4-9]\d|20[0-2]\d)[a-z]?\b", entry)
+    year = re.search(r"\b(19[4-9]\d|20[0-2]\d)[a-z]?\b", entry) or old_year(entry)
     q = re.search(r"[“\"']{1,2}([^”\"]{12,250}?)[,.]?[”\"']{1,2}", entry)
     if q and len(q.group(1).split()) >= 2:
         title = q.group(1)

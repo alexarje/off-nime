@@ -121276,27 +121276,6 @@
 }
 },
 {
-"id": "related:peeters1998analyseetsyn",
-"type": "paper-conference",
-"title": "Analyse et Synthese des sons musicaux par la methode PSOLA",
-"author": [
-{
-"family": "Peeters",
-"given": "Geoffroy"
-}
-],
-"container-title": "JIM: Journées d'informatique musicale",
-"URL": "https://hal.science/hal-01161122v1",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.141)",
-"issued": {
-"date-parts": [
-[
-1998
-]
-]
-}
-},
-{
 "id": "related:fayet2024vivovideoana",
 "type": "paper-conference",
 "title": "VIVO: Video Analysis for Corpus-based Audio--Visual Synthesis",
@@ -121472,27 +121451,6 @@
 }
 },
 {
-"id": "related:picciola2022espacessonor",
-"type": "paper-conference",
-"title": "Espaces sonores paradoxaux : Approche des harmoniques hypersphériques et implémentation logicielle, pour une pratique créative de la spatialisation immersive du son en free-party",
-"author": [
-{
-"family": "Picciola",
-"given": "Daniel"
-}
-],
-"container-title": "Sound and Music Computing",
-"DOI": "10.5281/zenodo.6800848",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0981)",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
 "id": "related:hamilton2014musicalsonif",
 "type": "paper-conference",
 "title": "Musical Sonification of Avatar Physiologies, Virtual Flight and Gesture",
@@ -121609,35 +121567,6 @@
 "date-parts": [
 [
 1977
-]
-]
-}
-},
-{
-"id": "related:sauda2022soutenirencl",
-"type": "paper-conference",
-"title": "Soutenir en Classe L'écoute Active, L'Autonomie Et L'échange en Analyse Musicale Avec la Plateforme Web Dezrann",
-"author": [
-{
-"family": "Sauda",
-"given": "Alice"
-},
-{
-"family": "Giraud",
-"given": "Mathieu"
-},
-{
-"family": "Leguy",
-"given": "Emmanuel"
-}
-],
-"container-title": "Sound and Music Computing",
-"DOI": "10.5281/zenodo.6800855",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0866)",
-"issued": {
-"date-parts": [
-[
-2022
 ]
 ]
 }
@@ -121858,27 +121787,6 @@
 }
 },
 {
-"id": "related:olivo2022lesinstrumen",
-"type": "paper-conference",
-"title": "Les instruments de musique numériques pour les personnes en situation de handicap cognitif et mental : exemples d'applications via le web",
-"author": [
-{
-"family": "Olivo",
-"given": "Matteo"
-}
-],
-"container-title": "Sound and Music Computing",
-"DOI": "10.5281/zenodo.6800845",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.079)",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
 "id": "related:s2000amultiratefi",
 "type": "paper-conference",
 "title": "A multirate, finite-width, bow-string interaction model",
@@ -122077,27 +121985,6 @@
 "date-parts": [
 [
 1979
-]
-]
-}
-},
-{
-"id": "related:bouillot2005lemodledecoh",
-"type": "paper-conference",
-"title": "Le Modèle de Cohérence Perceptive pour les Applications Multimédia Interactive et Distribuées",
-"author": [
-{
-"family": "Bouillot",
-"given": "Nicolas"
-}
-],
-"container-title": "Journées Francophones sur la Cohérence des Données en Univers Réparti, Paris - CNAM",
-"URL": "https://hal.science/hal-01125138v1",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0721)",
-"issued": {
-"date-parts": [
-[
-2005
 ]
 ]
 }
@@ -122459,35 +122346,6 @@
 }
 },
 {
-"id": "related:romerogarca2022estimationde",
-"type": "paper-conference",
-"title": "Estimation de paramètres de resynthèse de sons d'instruments de musique avec des outils de morphologie mathématique",
-"author": [
-{
-"family": "Romero-García",
-"given": "Gonzalo"
-},
-{
-"family": "Agón",
-"given": "Carlos"
-},
-{
-"family": "Bloch",
-"given": "Isabelle"
-}
-],
-"container-title": "Sound and Music Computing",
-"DOI": "10.5281/zenodo.6800838",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0592)",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
 "id": "related:grant2013meuserecomme",
 "type": "paper-conference",
 "title": "MeUse: Recommending Internet Radio Stations.",
@@ -122671,6 +122529,30 @@
 }
 },
 {
+"id": "related:music1995graphicaldis",
+"type": "paper-conference",
+"title": "Graphical Display of Musical Information i: Durham Music Technology i:",
+"author": [
+{
+"family": "Music",
+"given": "'school of Engineering 1 Department of"
+},
+{
+"family": "Durham",
+"given": "UK"
+}
+],
+"container-title": "CIM 1995",
+"note": "Collection: Related. Selected by similarity to the archives (score 0.0515)",
+"issued": {
+"date-parts": [
+[
+1995
+]
+]
+}
+},
+{
 "id": "related:jap2019realtimemapp",
 "type": "paper-conference",
 "title": "Real-time Mapping of Periodic Dance Movements to Control Tempo in Electronic Dance Music",
@@ -122745,27 +122627,6 @@
 "date-parts": [
 [
 2000
-]
-]
-}
-},
-{
-"id": "related:couturier2004etheractionp",
-"type": "paper-conference",
-"title": "Etheraction playing a musical piece using graphical interfaces",
-"author": [
-{
-"family": "Couturier",
-"given": "Jean-Michel"
-}
-],
-"container-title": "Journées d'Informatique Musicale - Sound and Music Computing",
-"URL": "https://hal.science/hal-00105743v1",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0468)",
-"issued": {
-"date-parts": [
-[
-2004
 ]
 ]
 }

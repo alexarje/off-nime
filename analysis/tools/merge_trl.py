@@ -48,6 +48,17 @@ def main():
             if x.get("id") in outputs:
                 problems["duplicate id"] += 1
             outputs[x.get("id")] = x
+    # only entries that are in the collection now: the rule-selected datasets change between runs
+    import bibtexparser
+    current = {r["id"] for r in json.loads((HERE / "data" / "corpus.json").read_text())}
+    for name in ("Cited", "Background", "Theses", "Related"):
+        f = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
+        if f.exists():
+            current |= {e["ID"] for e in bibtexparser.load(open(f)).entries}
+    inputs = [it for it in inputs if it["id"] in current]
+    missing = current - {it["id"] for it in inputs}
+    if missing:
+        problems["entries never estimated"] = len(missing)
     merged = []
     for it in inputs:
         x = outputs.get(it["id"])

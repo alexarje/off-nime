@@ -78,7 +78,7 @@ The fifth list comes from one round of snowballing. {{sb_refs}} of the {{sb_cite
 
 ### Non-English proceedings
 
-JIM and SBCM records are scored by their English title and abstract, which the repositories often give beside the original: {{ne_jim_en}} of {{ne_jim}} JIM papers and {{ne_sbcm_en}} of {{ne_sbcm}} SBCM papers have English text. The rest are listed unscored in [`candidates_nonenglish_unscored.tsv`](output/candidates_nonenglish_unscored.tsv). SBC OpenLib holds only the recent SBCM editions; the earlier proceedings, from 1994, are whole-volume PDFs that would need splitting into papers first.
+JIM and SBCM records are scored by their English title and abstract, which the repositories often give beside the original: {{ne_jim_en}} of {{ne_jim}} JIM papers and {{ne_sbcm_en}} of {{ne_sbcm}} SBCM papers have English text. The rest are listed unscored in [`candidates_nonenglish_unscored.tsv`](output/candidates_nonenglish_unscored.tsv). SBC OpenLib holds only the recent SBCM editions; the earlier SBCM proceedings (from 1994) and all CIM proceedings (1979–2024, from the AIMI website) are whole-volume PDFs, split into papers at their Abstract, Sommario or Riassunto headings: {{vol_sbcm}} SBCM and {{vol_cim}} CIM papers. The SBCM volumes from 1994 to 1998 are scans, read by OCR in English only, since the Portuguese language pack is not installed. Only papers with English text are scored.
 
 ### The Related dataset
 

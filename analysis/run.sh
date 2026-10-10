@@ -19,7 +19,9 @@ cap 1G "crossref.py resolve"
 cap 2G "crossref.py sweep"
 cap 1G zenodo.py
 cap 1G nonenglish.py
-cap 1G sbcm_volumes.py      # needs data/sbcm_text/ (see HANDOVER)
+sh tools/sbcm_ocr.sh                  # OCR of the scanned SBCM volumes (slow; skips done volumes)
+cap 3G fetch_volumes.py
+cap 1G sbcm_volumes.py
 cap 1G more_proceedings.py
 cap 4G local_candidates.py
 cap 2G books.py

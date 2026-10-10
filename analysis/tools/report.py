@@ -83,7 +83,9 @@ def main():
     share = lambda p, b: pct(per[p].get(b, 0), sum(per[p].values()))
     import books as _books
     bk = json.loads((HERE / "data" / "books.json").read_text())
+    vols = json.loads((HERE / "data" / "sbcm_volumes.json").read_text())
     v = {
+        "vol_sbcm": sum(r["source"].startswith("SBCM") for r in vols), "vol_cim": sum(r["source"].startswith("CIM") for r in vols),
         "bk_q": len(_books.QUERIES), "bk_n": len(bk), "bk_adm": sum(b["admit"] for b in bk), "bk_p": _books.MIN_P,
         "tr_76": sum(1 for x in json.loads((HERE / "data" / "trl.json").read_text())
                      if x["dataset"] in ("NIME papers", "NIME alt") and x["trl"] == 6 and x["arl"] == 7),
