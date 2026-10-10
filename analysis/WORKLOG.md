@@ -157,3 +157,21 @@ classifier (`tools/topic.py`: archive titles against TOCHI, Personal and Ubiquit
 Contemporary Music Review and ISMIR titles; 87.6% cross-validated accuracy, AUC 0.94) now decides:
 Cited 318, Background 55. Visible errors: a gender-in-NIME paper in Background, The Physics of
 Musical Instruments in Cited.
+
+## 2026-10-10, readiness levels and abstracts
+
+Abstracts: written into the rule-selected bibs from their sources (Theses 299 of 307, Cited
+106 of 318, Background 21 of 55, Related 13 of 108), and found for more entries through OpenAlex by
+DOI (385), local ICMC PDFs (19) and the NIME paper texts (59, uneven: some are body text, so they
+stay in output/nime_missing_abstracts.tsv for review). 238 curated off-NIME entries now carry an
+abstract field (`tools/write_abstracts.py`; the diff is two lines added and one removed per entry).
+
+TRL and ARL: Alexander chose to estimate all entries in this session without a pilot. Rubric in
+`tools/trl_rubric.md` (standard TRL adapted to music technology; ARL from his draft post "From TRL
+to ARL"). 20 Sonnet agents classified 4,724 entries in batches of 237. Several agents shared
+helper-script names in the scratch folder and overwrote each other's files; each reran in a
+private folder, and every output file was checked to match its input id by id. Checks: artworks
+at ARL 7+ 96.8%, Background at TRL 1–3 80.0%, NIME papers without ARL 52.0%. Agents reported data
+problems in the NIME bibliography: "NIME papers" entries without abstracts that look like
+artworks ("Thresholds", "Sensity", 2005), and front matter among the music entries ("NIME 2019
+Concert Program", "Program Committee Members").

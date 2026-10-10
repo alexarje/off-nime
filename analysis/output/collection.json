@@ -114909,6 +114909,27 @@
 }
 },
 {
+"id": "thesis:krstich2003installationarta",
+"type": "thesis",
+"title": "Installation art and viewer participation : a video based study of The dark pool by Janet Cardiff and George Bures Miller",
+"author": [
+{
+"family": "Krstich",
+"given": "Vesna"
+}
+],
+"container-title": "Concordia University",
+"URL": "https://spectrum.library.concordia.ca/2246/1/MQ82656.pdf",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
 "id": "thesis:bossis2003lavocalitartific",
 "type": "thesis",
 "title": "La vocalité artificielle : un nouvel espace pour l'imaginaire : Etude des modèles de simulation et de traitement vocaux dans les répetoires des musiques éléctroacoustique et informatique",
@@ -114940,27 +114961,6 @@
 ],
 "container-title": "University of Malaya Students Repository",
 "URL": "http://studentsrepo.um.edu.my/10216/1/Velan_Ramalingam_(Online_Reference_%26_Tutorial_for_Microprocessor_Subject).pdf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
-"id": "thesis:vnnen2003parametrizationa",
-"type": "thesis",
-"title": "Parametrization, auralization, and authoring of room acoustics for virtual reality applications",
-"author": [
-{
-"family": "Väänänen",
-"given": "Riitta"
-}
-],
-"container-title": "Aalto University",
-"URL": "https://aaltodoc.aalto.fi/handle/123456789/2084",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -115032,6 +115032,27 @@
 }
 },
 {
+"id": "thesis:zhou2005collaborativetel",
+"type": "thesis",
+"title": "Collaborative tele-haptic surgery simulation",
+"author": [
+{
+"family": "Zhou",
+"given": "Jilin"
+}
+],
+"container-title": "University of Ottawa",
+"DOI": "10.20381/ruor-18539",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
 "id": "thesis:saidi2005motioncapturetot",
 "type": "thesis",
 "title": "Motion Capture to the People: A high quality, low budget approach to real time Motion Capture",
@@ -115068,6 +115089,27 @@
 ],
 "container-title": "Americanae (AECID Library)",
 "URL": "http://hdl.handle.net/1843/AAGS-7YMFQS",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "thesis:sheridan2005theconductingbod",
+"type": "thesis",
+"title": "The Conducting Body: The Gestural Vocabulary of Masculinity, Power, Transgression, and Metaphor",
+"author": [
+{
+"family": "Sheridan",
+"given": "Daniel"
+}
+],
+"container-title": "McMaster University",
+"DOI": "10.71548/13136",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -115229,6 +115271,27 @@
 ],
 "container-title": "University of Victoria",
 "URL": "http://hdl.handle.net/1828/267",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "thesis:prez2006gesturebasedsynt",
+"type": "thesis",
+"title": "Gesture based synthesis of bowed string instruments",
+"author": [
+{
+"family": "Pérez",
+"given": "Alfonso"
+}
+],
+"container-title": "Universitat Pompeu Fabra",
+"DOI": "10.5281/zenodo.3743114",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -115420,6 +115483,27 @@
 }
 ],
 "DOI": "10.12794/metadc3941",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "thesis:campbell2007mcurveacrossingb",
+"type": "thesis",
+"title": "MCurve: A crossing-based system for graphical music composition",
+"author": [
+{
+"family": "Campbell",
+"given": "Tristan"
+}
+],
+"container-title": "University of Toronto",
+"URL": "http://gateway.proquest.com/openurl?url_ver=Z39.88-2004=info:ofi/fmt:kev:mtx:dissertation=xri:pqm=xri:pqdiss:MR27449",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -115691,7 +115775,7 @@
 ],
 "container-title": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
 "DOI": "10.5281/zenodo.3685557",
-"note": "Collection: Theses. Found in OpenAlex; cites 20 archive entries; selected by similarity to the archives",
+"note": "Collection: Theses. Found in OpenAlex; cites 20 archive entries",
 "issued": {
 "date-parts": [
 [
@@ -115722,17 +115806,17 @@
 }
 },
 {
-"id": "thesis:tavares2008towardsaninterac",
+"id": "thesis:dsouza2008wirelesssensorsy",
 "type": "thesis",
-"title": "Towards an interactive framework for robot dancing applications",
+"title": "Wireless Sensor Systems for Localised and Intuitive Interaction Applications",
 "author": [
 {
-"family": "Tavares",
-"given": "João Manuel R. S."
+"family": "D'Souza",
+"given": "Mr Matthew"
 }
 ],
-"container-title": "Universidade do Porto",
-"URL": "https://paginas.fe.up.pt/~ee03123/files/Towards_an_Interactive_Framework_for_Robot_Dancing_Applications.pdf",
+"container-title": "The University of Queensland",
+"DOI": "10.14264/159086",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -116145,6 +116229,27 @@
 }
 },
 {
+"id": "thesis:stowell2010makingmusicthrou",
+"type": "thesis",
+"title": "Making music through real-time voice timbre analysis: machine learning and timbral control",
+"author": [
+{
+"family": "Stowell",
+"given": "Dan"
+}
+],
+"container-title": "Institut de l'Information Scientifique et Technique",
+"URL": "http://hdl.handle.net/10068/977621",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2010
+]
+]
+}
+},
+{
 "id": "thesis:wahlman2010pomodoroprojectf",
 "type": "thesis",
 "title": "Pomodoro Project for iPhone - An evaluation of the iPhone platform and a description of techniques for iPhone development.",
@@ -116223,6 +116328,26 @@
 ],
 "container-title": "Universitat Pompeu Fabra",
 "DOI": "10.5281/zenodo.3754100",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "thesis:casey2011arttechnologyand",
+"type": "thesis",
+"title": "Art, Technology And The Future Of Musicianship: Questions Of Balance Between Live Performance And The Recorded Medium In Popular Music",
+"author": [
+{
+"family": "Casey",
+"given": "Brian M."
+}
+],
+"DOI": "10.34719/kbfq1242",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -116375,6 +116500,27 @@
 "container-title": "Technical University of Darmstadt",
 "DOI": "10.26083/tuprints-00002797",
 "note": "Collection: Theses. Found in OpenAlex; cites 8 archive entries; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "thesis:kounovsk2011socialinteractio",
+"type": "thesis",
+"title": "Social interaction of internet users described on the example of online music community",
+"author": [
+{
+"family": "Kounovský",
+"given": "Josef"
+}
+],
+"container-title": "Digital Repository (National Repository of Grey Literature)",
+"URL": "http://www.nusl.cz/ntk/nusl-301447",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
 [
@@ -116976,30 +117122,6 @@
 }
 },
 {
-"id": "thesis:masabanda2013diseodeprototipo",
-"type": "thesis",
-"title": "Diseño de prototipo doméstico de video vigilancia con cámaras IP por internet.",
-"author": [
-{
-"family": "Masabanda",
-"given": "Barreno"
-},
-{
-"family": "Marcelo",
-"given": "Franklin"
-}
-],
-"URL": "https://repositorio.usfq.edu.ec/bitstream/23000/2484/1/106829.pdf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
 "id": "thesis:llorach2013gesturerecogniti",
 "type": "thesis",
 "title": "Gesture Recognition and Interaction with a Glove Controller. BSc Thesis",
@@ -117053,27 +117175,6 @@
 ],
 "container-title": "Aalto University",
 "URL": "https://aaltodoc.aalto.fi/handle/123456789/11341",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "thesis:dubus2013interactivesonif",
-"type": "thesis",
-"title": "Interactive sonification of motion : Design, implementation and control of expressive auditory feedback with mobile devices",
-"author": [
-{
-"family": "Dubus",
-"given": "Gaël"
-}
-],
-"container-title": "KTH Royal Institute of Technology",
-"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-127944",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -117312,27 +117413,6 @@
 ],
 "container-title": "KTH Royal Institute of Technology",
 "URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:lnu:diva-34164",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2014
-]
-]
-}
-},
-{
-"id": "thesis:rugchatjaroen2014articulatorybase",
-"type": "thesis",
-"title": "Articulatory-Based English Consonant Synthesis in 2-D Digital Waveguide Mesh",
-"author": [
-{
-"family": "Rugchatjaroen",
-"given": "Anocha"
-}
-],
-"container-title": "University of Leeds, The University of Sheffield, University of York",
-"URL": "https://etheses.whiterose.ac.uk/7109/1/AnochaRugchatjaroen_FullThesis_Corrected.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -117919,7 +117999,7 @@
 ],
 "container-title": "The Open University",
 "DOI": "10.21954/ou.ro.0000a5e9",
-"note": "Collection: Theses. Found in DataCite; cites 25 archive entries; selected by similarity to the archives",
+"note": "Collection: Theses. Found in DataCite; cites 25 archive entries",
 "issued": {
 "date-parts": [
 [
@@ -118055,6 +118135,27 @@
 }
 },
 {
+"id": "thesis:mainsbridge2016bodyasinstrument",
+"type": "thesis",
+"title": "Body as instrument : an exploration of gestural interface design",
+"author": [
+{
+"family": "Mainsbridge",
+"given": "Mary"
+}
+],
+"container-title": "University of Technology Sydney",
+"URL": "http://hdl.handle.net/10453/43474",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
 "id": "thesis:kritsis2016capturingviolinp",
 "type": "thesis",
 "title": "Capturing Violin Performance Gestures with a Single Camera System",
@@ -118173,6 +118274,26 @@
 ],
 "container-title": "KTH Royal Institute of Technology",
 "URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:ltu:diva-50908",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "thesis:jeras2016interactivesyste",
+"type": "thesis",
+"title": "Interactive system for music visualisation on the web",
+"author": [
+{
+"family": "Jeras",
+"given": "Matija"
+}
+],
+"URL": "http://eprints.fri.uni-lj.si/3525/",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -118371,6 +118492,27 @@
 }
 },
 {
+"id": "thesis:olsen2017expressiveconduc",
+"type": "thesis",
+"title": "Expressive conducting gestures : Reflections on the function of the left hand",
+"author": [
+{
+"family": "Olsen",
+"given": "Espen Myklebust"
+}
+],
+"container-title": "Royal College of Music in Stockholm",
+"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:kmh:diva-2396",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
 "id": "thesis:perez2017gestomusicaleous",
 "type": "thesis",
 "title": "Gesto musical e o uso de interfaces físicas digitais na performance do livre electronics",
@@ -118465,6 +118607,26 @@
 "container-title": "The Open University",
 "DOI": "10.21954/ou.ro.0000cc07",
 "note": "Collection: Theses. Found in OpenAlex; cites 21 archive entries",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "thesis:he2017revisioningguqin",
+"type": "thesis",
+"title": "Re-Visioning Guqin Performance through Interface Design, Digital Measurement, and Signal Processing",
+"author": [
+{
+"family": "He",
+"given": "Jingyin"
+}
+],
+"DOI": "10.26686/wgtn.20388051",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
 [
@@ -118577,17 +118739,16 @@
 }
 },
 {
-"id": "thesis:eskedal2018blomlaokaninquer",
+"id": "thesis:kaltenbrunner2018anabstractionfra",
 "type": "thesis",
-"title": "Blomlaok : an inquery into audio-visual performance",
+"title": "An Abstraction Framework for Tangible Interactive Surfaces",
 "author": [
 {
-"family": "Eskedal",
-"given": "Vilde Marie Føllvik"
+"family": "Kaltenbrunner",
+"given": "Martin"
 }
 ],
-"container-title": "BIBSYS Brage (BIBSYS (Norway))",
-"URL": "http://hdl.handle.net/11250/2579897",
+"DOI": "10.25643/bauhaus-universitaet.3717",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -118609,6 +118770,27 @@
 ],
 "container-title": "Victoria University of Wellington",
 "DOI": "10.26686/wgtn.17068541",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "thesis:erofeeva2018computermediated",
+"type": "thesis",
+"title": "Computer-mediated communication in foreign language learning : case study on the CityCompass application",
+"author": [
+{
+"family": "Erofeeva",
+"given": "Daria"
+}
+],
+"container-title": "Tampere University",
+"URL": "https://trepo.tuni.fi/handle/10024/103957",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -118715,6 +118897,26 @@
 }
 },
 {
+"id": "thesis:carter2018livedexperiences",
+"type": "thesis",
+"title": "Lived experiences of black women special education doctoral students at a predominately white institution",
+"author": [
+{
+"family": "Carter",
+"given": "Jessica Faith"
+}
+],
+"DOI": "10.26153/tsw/1396",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
 "id": "thesis:lee2018musicinmotionast",
 "type": "thesis",
 "title": "Music in Motion: A Study of How the Knowledge of Dance Movements Affects the Interpretation of Music.",
@@ -118768,26 +118970,6 @@
 ],
 "container-title": "University of Victoria",
 "URL": "http://hdl.handle.net/1828/9345",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
-"id": "thesis:putra2018perancanganfilmd",
-"type": "thesis",
-"title": "Perancangan Film Dokumenter Tarian Remo Surabaya Sebagai Pengelana Tarian Khas Jawa Timur",
-"author": [
-{
-"family": "Putra",
-"given": "Kevin Dirgantara"
-}
-],
-"URL": "https://repository.its.ac.id/59308/",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -118965,6 +119147,27 @@
 }
 },
 {
+"id": "thesis:purvis2019cjingcombiningli",
+"type": "thesis",
+"title": "CJing: Combining Live Coding and VJing for Live Visual Performance",
+"author": [
+{
+"family": "Purvis",
+"given": "Jack Voldemars"
+}
+],
+"container-title": "Victoria University of Wellington",
+"DOI": "10.26686/wgtn.17138669.v1",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
 "id": "thesis:carcangiu2019combiningdeclara",
 "type": "thesis",
 "title": "Combining declarative models and computer vision recognition algorithms for stroke gestures",
@@ -119090,26 +119293,6 @@
 }
 },
 {
-"id": "thesis:asprilla2019rancangbangunapl",
-"type": "thesis",
-"title": "RANCANG BANGUN APLIKASI VIRTUAL REALITY SEBAGAI PENGENALAN ALAT MUSIK TRADISIONAL BERBASIS ANDROID MOBILE",
-"author": [
-{
-"family": "Asprilla",
-"given": "Dika"
-}
-],
-"URL": "https://eprints.amikompurwokerto.ac.id/56/",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
 "id": "thesis:kerlund2019realtimelocaliza",
 "type": "thesis",
 "title": "Real-time localization of balls and hands in videos of juggling using a convolutional neural network",
@@ -119131,20 +119314,17 @@
 }
 },
 {
-"id": "thesis:son2019thegrowingpresen",
+"id": "thesis:talianni2019walkingwithsound",
 "type": "thesis",
-"title": "The growing presence of virtual reality in mental health fields",
+"title": "Walking-with-sounds : creative agency, artistic collaboration and the sonic production of acoustic city spaces",
 "author": [
 {
-"family": "Son",
-"given": "Christiana Jihae"
-},
-{
-"family": "Awais",
-"given": "Yasmine J."
+"family": "Talianni",
+"given": "Aikaterini"
 }
 ],
-"DOI": "10.17918/00000649",
+"container-title": "ERA",
+"URL": "http://hdl.handle.net/1842/36042",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -119196,6 +119376,30 @@
 }
 },
 {
+"id": "thesis:adams2020articulatingthed",
+"type": "thesis",
+"title": "Articulating the DancefloorExamining site, interaction and participation in club culture through interdisciplinary creative practice",
+"author": [
+{
+"family": "Adams",
+"given": "McNeill"
+},
+{
+"family": "Jack",
+"given": "Barnaby"
+}
+],
+"URL": "https://etheses.whiterose.ac.uk/28932/",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
 "id": "thesis:marasco2020benditioasystemf",
 "type": "thesis",
 "title": "Bendit_I/O: A System for Extending Mediated and Networked Performance Techniques to Circuit-Bent Devices",
@@ -119228,6 +119432,26 @@
 ],
 "container-title": "University of Leeds, The University of Sheffield, University of York",
 "URL": "https://etheses.whiterose.ac.uk/28901/6/ch5_1a-Rehearsal-09_04_17.mpg",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "thesis:ke2020designingfornewg",
+"type": "thesis",
+"title": "Designing for new generation electronic musical instruments: Strategies to improve interaction, user experience and live performance",
+"author": [
+{
+"family": "Öke",
+"given": "Ethem Hürsu"
+}
+],
+"URL": "https://open.metu.edu.tr/bitstream/handle/11511/69141/12625919.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -119364,6 +119588,27 @@
 }
 },
 {
+"id": "thesis:voillemin2021handgestureandac",
+"type": "thesis",
+"title": "Hand gesture and action recognition, combining computer vision and augmented reality technologies",
+"author": [
+{
+"family": "Voillemin",
+"given": "Théo"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "http://www.theses.fr/2021LILUB010/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
 "id": "thesis:kirkegaard2021integratingdoffo",
 "type": "thesis",
 "title": "Integrating 1-DoF force feedback interactions in self-contained DMIs",
@@ -119427,11 +119672,16 @@
 }
 },
 {
-"id": "thesis:anon2021thecreationrepor",
+"id": "thesis:rangel2021sommovimentoemre",
 "type": "thesis",
-"title": "The Creation Report of Live Coding Performance: “Inner Speech”",
-"container-title": "Chinese Culture University Repository",
-"URL": "https://irlib.pccu.edu.tw//handle/987654321/51159",
+"title": "Som-movimento em relações na dança: um estudo a partir dos processos da Cia Oito Nova Dança",
+"author": [
+{
+"family": "Rangel",
+"given": "Beatriz Mecelis"
+}
+],
+"DOI": "10.11606/d.27.2021.tde-10052022-155714",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -119508,27 +119758,6 @@
 }
 },
 {
-"id": "thesis:oki2021transformerdecod",
-"type": "thesis",
-"title": "Transformer Decoder を用いたポピュラー音楽におけるメロディからの伴奏生成",
-"author": [
-{
-"family": "OKI",
-"given": "Takashi"
-}
-],
-"container-title": "Institutional Repositories DataBase (IRDB)",
-"DOI": "10.32149/00002327",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2021
-]
-]
-}
-},
-{
 "id": "thesis:ferreira2021triaumeevelopmen",
 "type": "thesis",
 "title": "Triaume : evelopment of an augmented musical instrument using capacitive sensing",
@@ -119592,6 +119821,27 @@
 }
 },
 {
+"id": "thesis:li2022adaptivepianoles",
+"type": "thesis",
+"title": "Adaptive Piano Lessons: Support for Music Therapists",
+"author": [
+{
+"family": "Li",
+"given": "Chin Kiu Stefanie"
+}
+],
+"container-title": "The University of Kansas",
+"URL": "https://www.proquest.com/docview/2640243970",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2022
+]
+]
+}
+},
+{
 "id": "thesis:wang2022analysisofwirele",
 "type": "thesis",
 "title": "Analysis of Wireless Interface Latency and Usability for Digital Musical Instruments",
@@ -119634,38 +119884,17 @@
 }
 },
 {
-"id": "thesis:webster2022emptyroomcomposi",
+"id": "thesis:hunt2022empiricalstudies",
 "type": "thesis",
-"title": "Empty Room Composition électroacoustique dans l'espace numérique 3D. Exploration et étude sur les nouvelles techniques de composition et de spatialisation dans un espace numérique 3D.",
+"title": "Empirical studies in end-user computer-generated music composition systems",
 "author": [
 {
-"family": "Webster",
-"given": "Christine"
+"family": "Hunt",
+"given": "Samuel"
 }
 ],
-"container-title": "theses.fr (ABES)",
-"URL": "http://www.theses.fr/2022PA080030/document",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
-"id": "thesis:oddy2022seekingawareness",
-"type": "thesis",
-"title": "Seeking Awareness of Our Selves and the Environment Through Vocal Improvisation in The Singing Field",
-"author": [
-{
-"family": "Oddy",
-"given": "Nicola"
-}
-],
-"container-title": "Carleton University",
-"DOI": "10.22215/etd/2022-15144",
+"container-title": "UWE Research Repository (UWE Bristol)",
+"URL": "https://uwe-repository.worktribe.com/output/7239594",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [
@@ -119802,6 +120031,27 @@
 }
 },
 {
+"id": "thesis:chea2023letsmakehyperpop",
+"type": "thesis",
+"title": "Let’s Make Hyperpop: The Internet Can Make Anyone a Star",
+"author": [
+{
+"family": "Chea",
+"given": "William"
+}
+],
+"container-title": "Auckland University of Technology",
+"URL": "https://hdl.handle.net/10292/16031",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
 "id": "thesis:reimer2023longitudinaleval",
 "type": "thesis",
 "title": "Longitudinal Evaluation of User Experience with Digital Musical Instruments: Development and Demonstration of a New Method",
@@ -119844,27 +120094,6 @@
 }
 },
 {
-"id": "thesis:elizondo2023performativemixi",
-"type": "thesis",
-"title": "Performative Mixing for Immersive Audio",
-"author": [
-{
-"family": "Elizondo",
-"given": "Brian"
-}
-],
-"container-title": "Louisiana State University",
-"DOI": "10.31390/gradschool_dissertations.6333",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
 "id": "thesis:ovalle2023rhythmicaccompan",
 "type": "thesis",
 "title": "Rhythmic Accompaniment Generation with Transformer Neural Networks",
@@ -119877,27 +120106,6 @@
 "container-title": "Universitat Pompeu Fabra",
 "DOI": "10.5281/zenodo.8381048",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
-"id": "thesis:berger2023ifeellikeimteach",
-"type": "thesis",
-"title": "“I FEEL LIKE I’M TEACHING IN A GLADIATOR RING”: BARRIERS AND BENEFITS OF LIVE CODING",
-"author": [
-{
-"family": "Berger",
-"given": "Caroline Palma"
-}
-],
-"container-title": "Digital Repository at the University of Maryland",
-"DOI": "10.13016/dspace/skt5-4x9i",
-"note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
 "date-parts": [
 [
@@ -120065,27 +120273,6 @@
 "container-title": "University of Victoria",
 "URL": "https://hdl.handle.net/1828/20363",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
-"id": "thesis:lampreabarrera2024therematerialise",
-"type": "thesis",
-"title": "The rematerialised voice : a performance study of the classical voice through contemporary vocal techniques, multidisciplinary practices, and feminist and eco-materialist perspectives",
-"author": [
-{
-"family": "Barrera",
-"given": "Stephanie Alexandra Lamprea"
-}
-],
-"container-title": "The University of St Andrews",
-"DOI": "10.17630/sta/1113",
-"note": "Collection: Theses. Found in DataCite; selected by similarity to the archives",
 "issued": {
 "date-parts": [
 [
@@ -120421,6 +120608,27 @@
 ],
 "container-title": "University of Mons",
 "URL": "https://orbi.umons.ac.be/handle/20.500.12907/52109",
+"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "thesis:paynepassmore2025spiritscapesforc",
+"type": "thesis",
+"title": "Spiritscapes: for Chamber Ensemble and Live Electronics",
+"author": [
+{
+"family": "Payne-Passmore",
+"given": "Cerulean"
+}
+],
+"container-title": "University of Pennsylvania",
+"URL": "https://repository.upenn.edu/handle/20.500.14332/61385",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives",
 "issued": {
 "date-parts": [

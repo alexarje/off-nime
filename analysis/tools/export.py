@@ -42,12 +42,14 @@ def main():
                          "channel": "", "doi": e.get("doi"), "url": e.get("url"), "note": e.get("note", "")})
     with open(HERE / "output" / "collection.csv", "w", newline="") as f:
         w = csv.writer(f)
+        trl = {m["id"]: m for m in json.loads((HERE / "data" / "trl.json").read_text())} if (HERE / "data" / "trl.json").exists() else {}
         w.writerow(["id", "archive", "dataset", "type", "year", "authors", "title", "venue", "channel", "doi", "url",
-                     "topic"])
+                     "topic", "trl_estimate", "trl_band", "arl_estimate", "arl_band", "estimate_confidence"])
         for r in rows:
             w.writerow([r["id"], r["archive"], r["dataset"], r["type"], r["year"] or "", "; ".join(r["names"]),
                         r["title"], r["venue"], r["channel"], r["doi"] or "", r["url"] or "",
-                        labels.get(topic.get(r["id"]), "")])
+                        labels.get(topic.get(r["id"]), "")] +
+                       [(trl.get(r["id"]) or {}).get(k) or "" for k in ("trl", "trl_band", "arl", "arl_band", "confidence")])
     csl = []
     for r in rows:
         item = {"id": r["id"], "type": CSL.get(r["type"], "document"), "title": r["title"],

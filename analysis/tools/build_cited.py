@@ -154,6 +154,7 @@ def main():
                   ("publisher", clean(cr.get("publisher")) if kind in ("book", "incollection", "inproceedings") else ""),
                   ("volume", cr.get("volume")), ("number", cr.get("issue")),
                   ("pages", (cr.get("page") or "").replace("-", "--")), ("doi", c["doi"]),
+                  ("abstract", clean(cr.get("abstract"))[:3000]),
                   ("collection", collection), ("note", (note[:1].upper() + note[1:]) + f"; NIME-topic probability {c['p_nime']}")]
         body = ",\n".join(f"  {k} = {{{clean(v)}}}" for k, v in fields if k and v)
         return f"@{kind}{{{key},\n{body}\n}}\n"

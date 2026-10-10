@@ -77,7 +77,17 @@ def main():
     sbcm = next(v for k, v in ne.items() if k.startswith("SBCM"))
     from theses import QUERIES
     tp = json.loads((HERE / "data" / "topic_stats.json").read_text())
+    trs = json.loads((HERE / "data" / "trl_stats.json").read_text())
+    per = trs["nime_papers_trl_band_by_period"]
+    pk = sorted(per, key=int)
+    share = lambda p, b: pct(per[p].get(b, 0), sum(per[p].values()))
     v = {
+        "tr_n": trs["checks"]["estimates"], "tr_title": trs["basis"].get("title", 0),
+        "tr_art": trs["checks"]["artworks_arl_7_plus_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
+        "tr_noarl": trs["checks"]["nime_papers_without_arl_pct"],
+        "tr_p0": pk[0], "tr_p0e": int(pk[0]) + 4, "tr_p1": pk[-2], "tr_p1e": int(pk[-2]) + 4,
+        "tr_f0": share(pk[0], "fundamental"), "tr_f1": share(pk[-2], "fundamental"),
+        "tr_a0": share(pk[0], "applied"), "tr_a1": share(pk[-2], "applied"),
         "tp_acc": tp["cv_accuracy"], "tp_auc": tp["cv_auc"], "c_bg": cst["background"],
         "rel_n": jc["related"],
         "ne_jim": jim["records"], "ne_jim_en": jim["with_english"], "ne_sbcm": sbcm["records"],

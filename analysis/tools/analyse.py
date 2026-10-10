@@ -162,6 +162,10 @@ def main():
     if cpath.exists():
         cites = json.loads(cpath.read_text())
 
+    trl = {}
+    tp = HERE / "data" / "trl.json"
+    if tp.exists():
+        trl = {m["id"]: m for m in json.loads(tp.read_text())}
     papers = []
     for i, r in enumerate(recs):
         papers.append({
@@ -169,6 +173,7 @@ def main():
             "ds": r["dataset"], "ch": r["channel"], "v": r["venue"], "ar": r["archive"],
             "tp": int(dom[i]), "x": round(float(Y[i, 0]), 4), "yy": round(float(Y[i, 1]), 4),
             "u": r["url"] or (f"https://doi.org/{r['doi']}" if r["doi"] else None),
+            "trl": (trl.get(r["id"]) or {}).get("trl"), "arl": (trl.get(r["id"]) or {}).get("arl"),
         })
     authors = [{"k": a, "n": H.nodes[a]["name"], "p": H.nodes[a]["papers"], "o": H.nodes[a]["off"],
                 "ni": H.nodes[a]["nime"], "f": H.nodes[a]["first"], "l": H.nodes[a]["last"],

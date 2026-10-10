@@ -107,6 +107,8 @@ td.n { text-align: right; font-variant-numeric: tabular-nums; }
         <option value="year">Year</option>
         <option value="topic">One topic</option>
         <option value="channel">One channel</option>
+        <option value="trl">Technology readiness (TRL)</option>
+        <option value="arl">Artistic readiness (ARL)</option>
       </select>
     </label>
     <select id="topicsel" class="hidden" aria-label="Topic"></select>
@@ -192,6 +194,7 @@ function colourOf(n) {
   if (mode === "year") return seq((p.y - YMIN) / (YMAX - YMIN));
   if (mode === "topic") return p.tp === +$("#topicsel").value ? css("--accent") : css("--context");
   if (mode === "channel") return p.ch === $("#channelsel").value ? css("--accent") : css("--context");
+  if (mode === "trl" || mode === "arl") { const v = p[mode]; return v ? [css("--s1"), css("--s3"), css("--s2")][Math.floor((v - 1) / 3)] : css("--context"); }
 }
 function hex2rgb(h) { const n = parseInt(h.slice(1), 16); return [n >> 16, (n >> 8) & 255, n & 255]; }
 function seq(t) {
@@ -328,7 +331,7 @@ function showSide() {
   if (view === "papers") {
     const p = P[selected], c = (cites.get(p.id) || []).map(x => byId.get(x)), cb = (citedBy.get(p.id) || []).map(x => byId.get(x));
     const t = T[p.tp];
-    side.innerHTML = `<h2>${esc(p.t)}</h2><p class="meta">${esc(p.a.join(", "))}<br>${p.y} · ${esc(p.v || p.ch)}<br>Dataset: ${esc(p.ds)}${t ? `<br>Topic: ${esc(t.terms.slice(0, 5).join(", "))}` : ""}${DATA.citations.cc?.[p.id] != null ? `<br>Semantic Scholar citations: ${DATA.citations.cc[p.id]}` : ""}</p>
+    side.innerHTML = `<h2>${esc(p.t)}</h2><p class="meta">${esc(p.a.join(", "))}<br>${p.y} · ${esc(p.v || p.ch)}<br>Dataset: ${esc(p.ds)}${t ? `<br>Topic: ${esc(t.terms.slice(0, 5).join(", "))}` : ""}${p.trl ? `<br>Estimated TRL ${p.trl}` : ""}${p.arl ? ` · ARL ${p.arl}` : ""}${DATA.citations.cc?.[p.id] != null ? `<br>Semantic Scholar citations: ${DATA.citations.cc[p.id]}` : ""}</p>
       ${p.u ? `<p><a href="${esc(p.u)}" target="_blank" rel="noopener">Open the paper</a></p>` : ""}
       ${c.length ? `<h2>Cites in the archives (${c.length})</h2><ul>${c.map(paperLine).join("")}</ul>` : ""}
       ${cb.length ? `<h2>Cited by in the archives (${cb.length})</h2><ul>${cb.sort((a, b) => P[a].y - P[b].y).map(paperLine).join("")}</ul>` : ""}`;
@@ -366,6 +369,8 @@ function legend() {
   if (view === "authors") L.innerHTML = dot("--s1", "NIME only") + dot("--s2", "Off-NIME only") + dot("--s3", "Both archives") + `<span>Size: number of entries. Lines: co-authorship.</span>`;
   else if (view === "cites") L.innerHTML = dot("--s1", "NIME proceedings") + dot("--s2", "Off-NIME archive") + dot("--s3", "Cited, but in neither archive") + `<span>Size: times cited by archive papers.</span>`;
   else if (mode === "archive") L.innerHTML = ARCH_NAMES.map((n, k) => dot(["--s1", "--s2", "--s3"][k], n)).join("");
+  else if (mode === "trl") L.innerHTML = dot("--s1", "Fundamental (TRL 1–3)") + dot("--s3", "Applied (4–6)") + dot("--s2", "Industrial (7–9)") + dot("--context", "Not estimated") + `<span>Estimated from title and abstract</span>`;
+  else if (mode === "arl") L.innerHTML = dot("--s1", "Exploration (ARL 1–3)") + dot("--s3", "Development (4–6)") + dot("--s2", "Dissemination (7–9)") + dot("--context", "No artistic component") + `<span>Estimated from title and abstract</span>`;
   else if (mode === "year") L.innerHTML = `<span>${YMIN} <i class="ramp" style="background:linear-gradient(90deg,${css("--seq-lo")},${css("--seq-hi")})"></i> ${YMAX}</span>`;
   else L.innerHTML = dot("--accent", "Selected") + dot("--context", "Other entries");
 }

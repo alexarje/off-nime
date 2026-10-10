@@ -2,6 +2,11 @@
 
 ## Now
 
+- [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
+- [ARJ] Read Cited and Background and move what is on the wrong side (title classifier, 88% accurate).
+- [ARJ] NIME bibliography: review `output/nime_missing_abstracts.tsv`; check the 2005 "NIME papers" that look
+  like artworks and the front-matter entries among the 2019 music entries.
+
 - [ARJ] Vet `bibs/Cited/cited.bib` (170 works admitted by rule) and remove what does not belong.
 - [ARJ] Read the top of `output/borderline.tsv`: relevant reviews with short titles miss the
   closeness bar there.

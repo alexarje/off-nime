@@ -269,7 +269,9 @@ def main():
             school = m.group(1) if m else school
             fields = [("author", " and ".join(authors)), ("title", t["title"]), ("school", school),
                       ("year", t["year"]), ("doi", t["doi"] if t["doi"] else None),
-                      ("url", t["url"] if not t["doi"] else None), ("collection", "Theses"),
+                      ("url", t["url"] if not t["doi"] else None),
+                      ("abstract", re.sub(r"\s+", " ", t["abstract"])[:3000] if t["abstract"] else None),
+                      ("collection", "Theses"),
                       ("note", f"Found in {t['src']}; {why}")]
             body = ",\n".join(f"  {k} = {{{re.sub(r'[{}]', '', str(v))}}}" for k, v in fields if v)
             f.write(f"@phdthesis{{{key},\n{body}\n}}\n\n")

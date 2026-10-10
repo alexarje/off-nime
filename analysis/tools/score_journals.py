@@ -45,6 +45,7 @@ def write_bib(path, items, collection=None):
                       ("volume", it["volume"]), ("number", it["issue"]),
                       ("pages", (it["pages"] or "").replace("-", "--") or None), ("doi", it["doi"]),
                       ("url", it.get("url") if not it["doi"] else None),
+                      ("abstract", re.sub(r"\s+", " ", re.sub(r"<[^>]+>", " ", it["abstract"]))[:3000] if it.get("abstract") else None),
                       ("collection", collection),
                       ("note", "; ".join(x for x in [f"Original title: {it['title_orig']}" if it.get("title_orig") and it["title_orig"] != it["title"] else "",
                                                     f"Selected by similarity to the archives (score {it['score']})" if collection else ""] if x) or None)]

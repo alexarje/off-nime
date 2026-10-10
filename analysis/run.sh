@@ -7,6 +7,7 @@ PY=".venv/bin/python"
 cap() { systemd-run --user --scope -q -p MemoryMax="$1" "$PY" tools/$2; }
 cap 1G build_corpus.py
 cap 1G fetch_abstracts.py
+cap 2G fill_abstracts.py
 cap 1G build_corpus.py      # again, to merge the abstracts
 cap 1G fetch_s2.py          # slow without an API key; Ctrl-C after the DOI phase is fine
 cap 1G fetch_citing.py
@@ -27,6 +28,7 @@ cap 2G build_cited.py
 cap 1G snowball.py
 cap 3G theses.py
 cap 1G "offnime_dois.py --apply"
+cap 1G merge_trl.py         # after the TRL/ARL agents have written data/trl/out_*.jsonl
 cap 4G analyse.py
 cap 1G export.py
 cap 1G build_viewer.py
