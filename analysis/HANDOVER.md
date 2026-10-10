@@ -17,6 +17,9 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   seven journals and the CHI and TEI proceedings.
 - `output/candidates_citing.tsv`: works outside NIME citing five or more archive entries.
 - `output/candidates_local.tsv`: NIME-related papers in the local conference archive.
+- `../bibs/Historical/historical.bib`: precursors before 1957, built by `tools/historical.py`
+  from the hand-edited seed list `tools/historical_seeds.txt` (edit the seeds, not the bib);
+  lookups cached in `data/historical_lookup.json`.
 - `tools/`: the pipeline; `run.sh` runs it in order.
 - `data/` (not committed): the corpus, the Semantic Scholar cache (`s2/`, `s2_citing/`), the
   paper texts from nime.org (`text/`) and from the local archive (`local_text/`), and the
@@ -29,6 +32,7 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   (curated pre-2000 papers and full volumes for 2000, 2001, 2002, 2005 and 2008), DAFx, SMC,
   ISMIR, ICMPC and workshops. 406 files there are zero bytes, mostly `ICMC/2000/Authors`.
 - Crossref REST API, without a token (one request per second).
+- Open Library search API (books) and Google Patents pages (patents), for the Historical checks.
 - Semantic Scholar Graph API, without a key. NIME reference lists are elided by the publisher;
   forward citations are not.
 

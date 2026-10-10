@@ -84,7 +84,11 @@ def main():
     import books as _books
     bk = json.loads((HERE / "data" / "books.json").read_text())
     vols = json.loads((HERE / "data" / "sbcm_volumes.json").read_text())
+    hist = re.findall(r"note = \{([^}]*)\}", (HERE.parent / "bibs" / "Historical" / "historical.bib").read_text())
     v = {
+        "hi_n": len(hist), "hi_ok": sum("Found in" in n for n in hist), "hi_cited": sum("Cited by" in n for n in hist),
+        "hi_pat": sum(n.startswith("Patent") for n in hist),
+        "hi_refs": len((HERE / "output" / "candidates_historical.tsv").read_text().splitlines()) - 1,
         "vol_sbcm": sum(r["source"].startswith("SBCM") for r in vols), "vol_cim": sum(r["source"].startswith("CIM") for r in vols),
         "bk_q": len(_books.QUERIES), "bk_n": len(bk), "bk_adm": sum(b["admit"] for b in bk), "bk_p": _books.MIN_P,
         "tr_76": sum(1 for x in json.loads((HERE / "data" / "trl.json").read_text())

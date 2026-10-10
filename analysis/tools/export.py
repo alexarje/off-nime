@@ -27,7 +27,7 @@ def main():
     topic = {p["id"]: p["tp"] for p in graph["papers"]}
     labels = {t["id"]: ", ".join(t["terms"][:3]) for t in graph["topics"]}
     rows = [dict(r, collection=r["dataset"]) for r in corpus]
-    for name in ("Cited", "Theses", "Related", "Background"):
+    for name in ("Cited", "Theses", "Related", "Background", "Historical"):
         cited = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
         if not cited.exists():
             continue

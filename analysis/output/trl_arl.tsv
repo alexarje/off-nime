@@ -4810,3 +4810,63 @@ related:thorley2016virtualmusic	Related	2016	Virtual Music, Virtual Money					me
 related:casanelles2024thehyperorch	Related	2024	The Hyperorchestra: Screen Music and Virtual Musical Ensembles	1	fundamental			low	title	Study of screen music and virtual ensembles
 related:drymonitis2024digitalelect	Related	2024	Digital Electronics for Musicians: Build Intuitive Electronics and Electroacoustic Music Interfaces	8	industrial	7	dissemination	low	title	Practical guide to building electronics and interfaces
 related:music1995graphicaldis	Related	1995	Graphical Display of Musical Information i: Durham Music Technology i:	3	fundamental			medium	abstract	Analysis system with example graphical outputs; prototype stage
+historical:praetorius1619syntagmamusi	Historical	1619	Syntagma musicum II: De organographia	1	fundamental			high	title	Organological treatise
+historical:mersenne1636harmonieuniv	Historical	1636	Harmonie universelle	1	fundamental			high	title	Theoretical and organological treatise
+historical:kircher1650musurgiauniv	Historical	1650	Musurgia universalis	1	fundamental			high	title	Treatise on music and acoustics, largely theory
+historical:bonanni1722gabinettoarm	Historical	1722	Gabinetto armonico pieno d'istromenti sonori	1	fundamental			high	title	Illustrated catalogue of instruments
+historical:vaucanson1738lemecanismed	Historical	1738	Le mécanisme du fluteur automate	6	applied			medium	title	Automaton built and publicly demonstrated at the Academie
+historical:menabrea1843sketchofthea	Historical	1843	Sketch of the Analytical Engine invented by Charles Babbage, with notes by the translator	2	fundamental			high	title	Description of a proposed machine, not built
+historical:sax1846systemedinst	Historical	1846	Système d'instruments à vent dits saxophones	9	industrial			medium	title	Patent for an instrument family that became widely adopted
+historical:helmholtz1863dielehrevond	Historical	1863	Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik	1	fundamental			high	title	Theory of hearing and music perception
+historical:rayleigh1877thetheoryofs	Historical	1877	The theory of sound	1	fundamental			high	title	Theoretical acoustics treatise
+historical:edison1878improvementi	Historical	1878	Improvement in phonograph or speaking machines	9	industrial			medium	title	Patent for a device that became a commercial product
+historical:mahillon1880cataloguedes	Historical	1880	Catalogue descriptif et analytique du Musée instrumental du Conservatoire royal de musique de Bruxelles	1	fundamental			high	title	Museum catalogue, organological
+historical:berliner1887gramophone	Historical	1887	Gramophone	9	industrial			medium	title	Patent for a device that became a commercial standard
+historical:cahill1897artofandappa	Historical	1897	Art of and apparatus for generating and distributing music electrically	7	industrial			medium	title	Patent for the Telharmonium, later operated in public service
+historical:busoni1907entwurfeiner	Historical	1907	Entwurf einer neuen Ästhetik der Tonkunst	1	fundamental	2	exploration	high	title	Aesthetic essay
+historical:sachs1913reallexikond	Historical	1913	Real-Lexikon der Musikinstrumente	1	fundamental			high	title	Lexicon of instruments
+historical:hornbostel1914systematikde	Historical	1914	Systematik der Musikinstrumente: Ein Versuch	1	fundamental			high	title	Classification scheme for instruments
+historical:plummer1915colormusican	Historical	1915	Color music: A new art created with the aid of science	6	applied	6	development	low	title	Popular account of colour-music performances and devices
+historical:forest1915audionbulbsa	Historical	1915	Audion bulbs as producers of pure musical tones	4	applied			medium	title	Report of audion tone generation shown to work in experiments
+historical:russolo1916lartedeirumo	Historical	1916	L'arte dei rumori	2	fundamental	2	exploration	medium	title	Futurist manifesto proposing noise instruments
+historical:moholynagy1923neuegestaltu	Historical	1923	Neue Gestaltung in der Musik: Möglichkeiten des Grammophons	2	fundamental	2	exploration	medium	title	Proposal for gramophone as a creative medium
+historical:mager1924eineneueepoc	Historical	1924	Eine neue Epoche der Musik durch Radio	2	fundamental			medium	title	Proposal for radio-based music, concept stage
+historical:theremin1928methodofanda	Historical	1928	Method of and apparatus for the generation of sounds	8	industrial			medium	title	Patent for a stable instrument that was manufactured
+historical:ortmann1929thephysiolog	Historical	1929	The physiological mechanics of piano technique	1	fundamental			medium	title	Study of piano technique, not a technology
+historical:trautwein1930elektrischem	Historical	1930	Elektrische Musik	6	applied			medium	title	Describes the Trautonium prototype, publicly demonstrated
+historical:anonymous1932radiosqueals	Historical	1932	Radio squeals turned to music for entire orchestra	3	fundamental			low	title	Popular report of a demonstration of radio-based tones
+historical:blumlein1933improvements	Historical	1933	Improvements in and relating to sound-transmission, sound-recording and sound-reproducing systems	8	industrial			medium	title	Patent for stereo recording later put to use
+historical:hammond1934electricalmu	Historical	1934	Electrical musical instrument	9	industrial			medium	title	Patent for the Hammond organ, commercially successful
+historical:leichtentritt1934mechanicalmu	Historical	1934	Mechanical music in olden times	1	fundamental			high	title	Historical survey of mechanical music
+historical:schaeffner1936originedesin	Historical	1936	Origine des instruments de musique	1	fundamental			high	title	Organological and anthropological study
+historical:mason1936thereminterp	Historical	1936	Theremin "Terpsitone": A new electronic novelty	6	applied			medium	title	Magazine report on a device shown in public performance
+historical:galpin1937atextbookofe	Historical	1937	A textbook of European musical instruments	1	fundamental			high	title	Instrument textbook
+historical:chavez1937towardanewmu	Historical	1937	Toward a new music: Music and electricity	1	fundamental			high	title	Essay on music and electricity
+historical:seashore1938psychologyof	Historical	1938	Psychology of music	1	fundamental			high	title	Psychology of music, empirical studies of perception
+historical:dudley1939thevocoder	Historical	1939	The vocoder	5	applied			medium	title	Description of the vocoder tested in telephony research
+historical:dudley1939asyntheticsp	Historical	1939	A synthetic speaker	6	applied			medium	title	Voder, demonstrated publicly at the 1939 World's Fair
+historical:dudley1939signaltransm	Historical	1939	Signal transmission	4	applied			medium	title	Patent for a buildable signal transmission system
+historical:dudley1940thecarrierna	Historical	1940	The carrier nature of speech	3	fundamental			medium	title	Analysis underlying the vocoder, proof of concept
+historical:sachs1940thehistoryof	Historical	1940	The history of musical instruments	1	fundamental			high	title	History of instruments
+historical:hammond1941electricalmu	Historical	1941	Electrical musical instrument	8	industrial			medium	title	Patent for a commercial instrument
+historical:arnold1942electricalcl	Historical	1942	Electrical clarinet	4	applied			low	title	Patent for a buildable instrument, no evidence of use
+historical:langer1944duophonicele	Historical	1944	Duophonic electrical musical instrument	4	applied			low	title	Patent for a buildable instrument
+historical:gabor1946theoryofcomm	Historical	1946	Theory of communication	1	fundamental			high	title	Theory of signal representation
+historical:schillinger1946theschilling	Historical	1946	The Schillinger system of musical composition	1	fundamental			high	title	Compositional theory
+historical:gabor1947acousticalqu	Historical	1947	Acoustical quanta and the theory of hearing	1	fundamental			high	title	Theory of hearing and signals
+historical:drager1948prinzipeiner	Historical	1948	Prinzip einer Systematik der Musikinstrumente	1	fundamental			high	title	Classification theory for instruments
+historical:blackwood1948ritualandsec	Historical	1948	Ritual and secular uses of vibrating membranes as voice-disguisers	1	fundamental			high	title	Ethnographic study of membrane devices
+historical:miller1948thesolovox	Historical	1948	The Solovox	8	industrial			medium	title	Report on a commercial add-on instrument
+historical:hartsough1948tonecabinetf	Historical	1948	Tone cabinet for electric organs	6	applied			low	title	Patent for a buildable accessory for electric organs
+historical:rhodes1948pianodampeni	Historical	1948	Piano dampening mechanism	6	applied			low	title	Patent for a buildable mechanism
+historical:partch1949genesisofamu	Historical	1949	Genesis of a music	7	industrial	7	dissemination	medium	title	Documents self-built instruments used repeatedly in performance
+historical:meyereppler1949elektronisch	Historical	1949	Elektronische Klangerzeugung: Elektronische Musik und synthetische Sprache	2	fundamental			medium	title	Proposes electronic sound synthesis, largely concept
+historical:sala1949experimentel	Historical	1949	Experimentelle und theoretische Grundlagen des Trautoniums	4	applied			medium	title	Experimental and theoretical grounding of the Trautonium
+historical:sala1950dasmixturtra	Historical	1950	Das Mixtur-Trautonium	6	applied			medium	title	Describes a completed instrument used in concerts
+historical:dunn1950thecalculati	Historical	1950	The calculation of vowel resonances, and an electrical vocal tract	4	applied			medium	title	Electrical vocal tract built and measured in the lab
+historical:cooper1951theinterconv	Historical	1951	The interconversion of audible and visible patterns as a basis for research in the perception of speech	4	applied			medium	title	Pattern playback device evaluated in speech research
+historical:schaeffer1952alarecherche	Historical	1952	À la recherche d'une musique concrète	6	applied	7	dissemination	medium	title	Account of musique concrete studio practice and works
+historical:laposky1953oscillonsele	Historical	1953	Oscillons: Electronic abstractions	4	applied	7	dissemination	medium	title	Electronic abstract images, exhibited work
+historical:eby1953electronicor	Historical	1953	Electronic organs: A complete catalogue, textbook and manual	8	industrial			medium	title	Catalogue and manual of commercial organs
+historical:olson1955electronicmu	Historical	1955	Electronic music synthesizer	5	applied			medium	title	Synthesizer built and tested in use at RCA
+historical:caine1956electronicmu	Historical	1956	Electronic music	2	fundamental			low	title	Overview of electronic music, mainly concepts

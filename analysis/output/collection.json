@@ -127523,5 +127523,1269 @@
 ]
 ]
 }
+},
+{
+"id": "historical:praetorius1619syntagmamusi",
+"type": "book",
+"title": "Syntagma musicum II: De organographia",
+"author": [
+{
+"family": "Praetorius",
+"given": "Michael"
+}
+],
+"container-title": "Elias Holwein, Wolfenbüttel",
+"URL": "https://openlibrary.org/works/OL19087829W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1619
+]
+]
+}
+},
+{
+"id": "historical:mersenne1636harmonieuniv",
+"type": "book",
+"title": "Harmonie universelle",
+"author": [
+{
+"family": "Mersenne",
+"given": "Marin"
+}
+],
+"container-title": "Sebastien Cramoisy, Paris",
+"URL": "https://openlibrary.org/works/OL1380175W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1636
+]
+]
+}
+},
+{
+"id": "historical:kircher1650musurgiauniv",
+"type": "book",
+"title": "Musurgia universalis",
+"author": [
+{
+"family": "Kircher",
+"given": "Athanasius"
+}
+],
+"container-title": "Francesco Corbelletti, Rome",
+"URL": "https://openlibrary.org/works/OL3829013W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1650
+]
+]
+}
+},
+{
+"id": "historical:bonanni1722gabinettoarm",
+"type": "book",
+"title": "Gabinetto armonico pieno d'istromenti sonori",
+"author": [
+{
+"family": "Bonanni",
+"given": "Filippo"
+}
+],
+"container-title": "Giorgio Placho, Rome",
+"note": "Collection: Historical. Chosen by hand as a precursor; Not found in Open Library: vet",
+"issued": {
+"date-parts": [
+[
+1722
+]
+]
+}
+},
+{
+"id": "historical:vaucanson1738lemecanismed",
+"type": "book",
+"title": "Le mécanisme du fluteur automate",
+"author": [
+{
+"family": "Vaucanson",
+"given": "Jacques de"
+}
+],
+"container-title": "Jacques Guerin, Paris",
+"URL": "https://openlibrary.org/works/OL10010468W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1738
+]
+]
+}
+},
+{
+"id": "historical:menabrea1843sketchofthea",
+"type": "article-journal",
+"title": "Sketch of the Analytical Engine invented by Charles Babbage, with notes by the translator",
+"author": [
+{
+"family": "Menabrea",
+"given": "Luigi Federico"
+},
+{
+"family": "Lovelace",
+"given": "Ada"
+}
+],
+"container-title": "Scientific Memoirs",
+"note": "Collection: Historical. Chosen by hand as a precursor; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1843
+]
+]
+}
+},
+{
+"id": "historical:sax1846systemedinst",
+"type": "document",
+"title": "Système d'instruments à vent dits saxophones",
+"author": [
+{
+"family": "Sax",
+"given": "Adolphe"
+}
+],
+"note": "Collection: Historical. Patent FR3226; Chosen by hand as a precursor; Not found in Google Patents: vet",
+"issued": {
+"date-parts": [
+[
+1846
+]
+]
+}
+},
+{
+"id": "historical:helmholtz1863dielehrevond",
+"type": "book",
+"title": "Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik",
+"author": [
+{
+"family": "Helmholtz",
+"given": "Hermann von"
+}
+],
+"container-title": "Friedrich Vieweg, Braunschweig",
+"URL": "https://openlibrary.org/works/OL95296W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1863
+]
+]
+}
+},
+{
+"id": "historical:rayleigh1877thetheoryofs",
+"type": "book",
+"title": "The theory of sound",
+"author": [
+{
+"family": "Rayleigh",
+"given": "John William Strutt"
+}
+],
+"container-title": "Macmillan, London",
+"URL": "https://openlibrary.org/works/OL24184349W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1877
+]
+]
+}
+},
+{
+"id": "historical:edison1878improvementi",
+"type": "document",
+"title": "Improvement in phonograph or speaking machines",
+"author": [
+{
+"family": "Edison",
+"given": "Thomas A."
+}
+],
+"URL": "https://patents.google.com/patent/US200521A/en",
+"note": "Collection: Historical. Patent US200521; Chosen by hand as a precursor; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1878
+]
+]
+}
+},
+{
+"id": "historical:mahillon1880cataloguedes",
+"type": "book",
+"title": "Catalogue descriptif et analytique du Musée instrumental du Conservatoire royal de musique de Bruxelles",
+"author": [
+{
+"family": "Mahillon",
+"given": "Victor-Charles"
+}
+],
+"container-title": "Ad. Hoste, Ghent",
+"URL": "https://openlibrary.org/works/OL11273003W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1880
+]
+]
+}
+},
+{
+"id": "historical:berliner1887gramophone",
+"type": "document",
+"title": "Gramophone",
+"author": [
+{
+"family": "Berliner",
+"given": "Emile"
+}
+],
+"URL": "https://patents.google.com/patent/US372786A/en",
+"note": "Collection: Historical. Patent US372786; Chosen by hand as a precursor; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1887
+]
+]
+}
+},
+{
+"id": "historical:cahill1897artofandappa",
+"type": "document",
+"title": "Art of and apparatus for generating and distributing music electrically",
+"author": [
+{
+"family": "Cahill",
+"given": "Thaddeus"
+}
+],
+"URL": "https://patents.google.com/patent/US580035A/en",
+"note": "Collection: Historical. Patent US580035; Chosen by hand as a precursor; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1897
+]
+]
+}
+},
+{
+"id": "historical:busoni1907entwurfeiner",
+"type": "book",
+"title": "Entwurf einer neuen Ästhetik der Tonkunst",
+"author": [
+{
+"family": "Busoni",
+"given": "Ferruccio"
+}
+],
+"container-title": "Carl Schmidl, Trieste",
+"URL": "https://openlibrary.org/works/OL912755W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1907
+]
+]
+}
+},
+{
+"id": "historical:sachs1913reallexikond",
+"type": "book",
+"title": "Real-Lexikon der Musikinstrumente",
+"author": [
+{
+"family": "Sachs",
+"given": "Curt"
+}
+],
+"container-title": "Julius Bard, Berlin",
+"URL": "https://openlibrary.org/works/OL2594772W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1913
+]
+]
+}
+},
+{
+"id": "historical:hornbostel1914systematikde",
+"type": "article-journal",
+"title": "Systematik der Musikinstrumente: Ein Versuch",
+"author": [
+{
+"family": "Hornbostel",
+"given": "Erich M. von"
+},
+{
+"family": "Sachs",
+"given": "Curt"
+}
+],
+"container-title": "Zeitschrift für Ethnologie",
+"note": "Collection: Historical. Cited by 1 archive paper; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1914
+]
+]
+}
+},
+{
+"id": "historical:plummer1915colormusican",
+"type": "article-journal",
+"title": "Color music: A new art created with the aid of science",
+"author": [
+{
+"family": "Plummer",
+"given": "Harry Chapin"
+}
+],
+"container-title": "Scientific American",
+"DOI": "10.1038/scientificamerican04101915-343",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1915
+]
+]
+}
+},
+{
+"id": "historical:forest1915audionbulbsa",
+"type": "article-journal",
+"title": "Audion bulbs as producers of pure musical tones",
+"author": [
+{
+"family": "Forest",
+"given": "Lee De"
+}
+],
+"container-title": "The Electrical Experimenter",
+"note": "Collection: Historical. Cited by 1 archive paper; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1915
+]
+]
+}
+},
+{
+"id": "historical:russolo1916lartedeirumo",
+"type": "book",
+"title": "L'arte dei rumori",
+"author": [
+{
+"family": "Russolo",
+"given": "Luigi"
+}
+],
+"container-title": "Edizioni futuriste di Poesia, Milan",
+"URL": "https://openlibrary.org/works/OL5110261W",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1916
+]
+]
+}
+},
+{
+"id": "historical:moholynagy1923neuegestaltu",
+"type": "article-journal",
+"title": "Neue Gestaltung in der Musik: Möglichkeiten des Grammophons",
+"author": [
+{
+"family": "Moholy-Nagy",
+"given": "László"
+}
+],
+"container-title": "Der Sturm",
+"note": "Collection: Historical. Chosen by hand as a precursor; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1923
+]
+]
+}
+},
+{
+"id": "historical:mager1924eineneueepoc",
+"type": "book",
+"title": "Eine neue Epoche der Musik durch Radio",
+"author": [
+{
+"family": "Mager",
+"given": "Jörg"
+}
+],
+"container-title": "Berlin",
+"note": "Collection: Historical. Chosen by hand as a precursor; Not found in Open Library: vet",
+"issued": {
+"date-parts": [
+[
+1924
+]
+]
+}
+},
+{
+"id": "historical:theremin1928methodofanda",
+"type": "document",
+"title": "Method of and apparatus for the generation of sounds",
+"author": [
+{
+"family": "Theremin",
+"given": "Leon"
+}
+],
+"URL": "https://patents.google.com/patent/US1661058A/en",
+"note": "Collection: Historical. Patent US1661058; Chosen by hand as a precursor; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1928
+]
+]
+}
+},
+{
+"id": "historical:ortmann1929thephysiolog",
+"type": "book",
+"title": "The physiological mechanics of piano technique",
+"author": [
+{
+"family": "Ortmann",
+"given": "Otto"
+}
+],
+"container-title": "E. P. Dutton, New York",
+"URL": "https://openlibrary.org/works/OL6336323W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1929
+]
+]
+}
+},
+{
+"id": "historical:trautwein1930elektrischem",
+"type": "book",
+"title": "Elektrische Musik",
+"author": [
+{
+"family": "Trautwein",
+"given": "Friedrich"
+}
+],
+"container-title": "Weidmann, Berlin",
+"URL": "https://openlibrary.org/works/OL4076716W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1930
+]
+]
+}
+},
+{
+"id": "historical:anonymous1932radiosqueals",
+"type": "article-journal",
+"title": "Radio squeals turned to music for entire orchestra",
+"container-title": "Popular Science Monthly",
+"note": "Collection: Historical. Cited by 1 archive paper; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1932
+]
+]
+}
+},
+{
+"id": "historical:blumlein1933improvements",
+"type": "document",
+"title": "Improvements in and relating to sound-transmission, sound-recording and sound-reproducing systems",
+"author": [
+{
+"family": "Blumlein",
+"given": "Alan Dower"
+}
+],
+"URL": "https://patents.google.com/patent/GB394325A/en",
+"note": "Collection: Historical. Patent GB394325; Cited by 1 archive paper; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1933
+]
+]
+}
+},
+{
+"id": "historical:hammond1934electricalmu",
+"type": "document",
+"title": "Electrical musical instrument",
+"author": [
+{
+"family": "Hammond",
+"given": "Laurens"
+}
+],
+"URL": "https://patents.google.com/patent/US1956350A/en",
+"note": "Collection: Historical. Patent US1956350; Chosen by hand as a precursor; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1934
+]
+]
+}
+},
+{
+"id": "historical:leichtentritt1934mechanicalmu",
+"type": "article-journal",
+"title": "Mechanical music in olden times",
+"author": [
+{
+"family": "Leichtentritt",
+"given": "Hugo"
+}
+],
+"container-title": "The Musical Quarterly",
+"DOI": "10.1093/mq/xx.1.15",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1934
+]
+]
+}
+},
+{
+"id": "historical:schaeffner1936originedesin",
+"type": "book",
+"title": "Origine des instruments de musique",
+"author": [
+{
+"family": "Schaeffner",
+"given": "André"
+}
+],
+"container-title": "Payot, Paris",
+"URL": "https://openlibrary.org/works/OL1310630W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1936
+]
+]
+}
+},
+{
+"id": "historical:mason1936thereminterp",
+"type": "article-journal",
+"title": "Theremin \"Terpsitone\": A new electronic novelty",
+"author": [
+{
+"family": "Mason",
+"given": "C. P."
+}
+],
+"container-title": "Radio-Craft",
+"note": "Collection: Historical. Cited by 3 archive papers; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1936
+]
+]
+}
+},
+{
+"id": "historical:galpin1937atextbookofe",
+"type": "book",
+"title": "A textbook of European musical instruments",
+"author": [
+{
+"family": "Galpin",
+"given": "Francis W."
+}
+],
+"container-title": "Williams and Norgate, London",
+"URL": "https://openlibrary.org/works/OL6820139W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1937
+]
+]
+}
+},
+{
+"id": "historical:chavez1937towardanewmu",
+"type": "book",
+"title": "Toward a new music: Music and electricity",
+"author": [
+{
+"family": "Chávez",
+"given": "Carlos"
+}
+],
+"container-title": "W. W. Norton, New York",
+"URL": "https://openlibrary.org/works/OL4185444W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1937
+]
+]
+}
+},
+{
+"id": "historical:seashore1938psychologyof",
+"type": "book",
+"title": "Psychology of music",
+"author": [
+{
+"family": "Seashore",
+"given": "Carl E."
+}
+],
+"container-title": "McGraw-Hill, New York",
+"URL": "https://openlibrary.org/works/OL20105097W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1938
+]
+]
+}
+},
+{
+"id": "historical:dudley1939thevocoder",
+"type": "article-journal",
+"title": "The vocoder",
+"author": [
+{
+"family": "Dudley",
+"given": "Homer"
+}
+],
+"container-title": "Bell Laboratories Record",
+"note": "Collection: Historical. Chosen by hand as a precursor; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1939
+]
+]
+}
+},
+{
+"id": "historical:dudley1939asyntheticsp",
+"type": "article-journal",
+"title": "A synthetic speaker",
+"author": [
+{
+"family": "Dudley",
+"given": "Homer"
+},
+{
+"family": "Riesz",
+"given": "R. R."
+},
+{
+"family": "Watkins",
+"given": "S. S. A."
+}
+],
+"container-title": "Journal of the Franklin Institute",
+"DOI": "10.1016/s0016-0032(39)90816-1",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1939
+]
+]
+}
+},
+{
+"id": "historical:dudley1939signaltransm",
+"type": "document",
+"title": "Signal transmission",
+"author": [
+{
+"family": "Dudley",
+"given": "Homer W."
+}
+],
+"URL": "https://patents.google.com/patent/US2151091A/en",
+"note": "Collection: Historical. Patent US2151091; Chosen by hand as a precursor; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1939
+]
+]
+}
+},
+{
+"id": "historical:dudley1940thecarrierna",
+"type": "article-journal",
+"title": "The carrier nature of speech",
+"author": [
+{
+"family": "Dudley",
+"given": "Homer"
+}
+],
+"container-title": "Bell System Technical Journal",
+"DOI": "10.1002/j.1538-7305.1940.tb00843.x",
+"note": "Collection: Historical. Cited by 2 archive papers; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1940
+]
+]
+}
+},
+{
+"id": "historical:sachs1940thehistoryof",
+"type": "book",
+"title": "The history of musical instruments",
+"author": [
+{
+"family": "Sachs",
+"given": "Curt"
+}
+],
+"container-title": "W. W. Norton, New York",
+"URL": "https://openlibrary.org/works/OL2594769W",
+"note": "Collection: Historical. Cited by 3 archive papers; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1940
+]
+]
+}
+},
+{
+"id": "historical:hammond1941electricalmu",
+"type": "document",
+"title": "Electrical musical instrument",
+"author": [
+{
+"family": "Hammond",
+"given": "Laurens"
+},
+{
+"family": "Hanert",
+"given": "John M."
+}
+],
+"URL": "https://patents.google.com/patent/US2233258A/en",
+"note": "Collection: Historical. Patent US2233258; Cited by 1 archive paper; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1941
+]
+]
+}
+},
+{
+"id": "historical:arnold1942electricalcl",
+"type": "document",
+"title": "Electrical clarinet",
+"author": [
+{
+"family": "Arnold",
+"given": "Leo F. J."
+}
+],
+"URL": "https://patents.google.com/patent/US2301184A/en",
+"note": "Collection: Historical. Patent US2301184; Cited by 1 archive paper; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1942
+]
+]
+}
+},
+{
+"id": "historical:langer1944duophonicele",
+"type": "document",
+"title": "Duophonic electrical musical instrument",
+"author": [
+{
+"family": "Langer",
+"given": "Nicholas"
+}
+],
+"URL": "https://patents.google.com/patent/US2365566A/en",
+"note": "Collection: Historical. Patent US2365566; Cited by 1 archive paper; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1944
+]
+]
+}
+},
+{
+"id": "historical:gabor1946theoryofcomm",
+"type": "article-journal",
+"title": "Theory of communication",
+"author": [
+{
+"family": "Gabor",
+"given": "Dennis"
+}
+],
+"container-title": "Journal of the Institution of Electrical Engineers, Part III",
+"DOI": "10.1049/ji-3-2.1946.0076",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1946
+]
+]
+}
+},
+{
+"id": "historical:schillinger1946theschilling",
+"type": "book",
+"title": "The Schillinger system of musical composition",
+"author": [
+{
+"family": "Schillinger",
+"given": "Joseph"
+}
+],
+"container-title": "Carl Fischer, New York",
+"URL": "https://openlibrary.org/works/OL6676227W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1946
+]
+]
+}
+},
+{
+"id": "historical:gabor1947acousticalqu",
+"type": "article-journal",
+"title": "Acoustical quanta and the theory of hearing",
+"author": [
+{
+"family": "Gabor",
+"given": "Dennis"
+}
+],
+"container-title": "Nature",
+"DOI": "10.1038/159591a0",
+"note": "Collection: Historical. Cited by 5 archive papers; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1947
+]
+]
+}
+},
+{
+"id": "historical:drager1948prinzipeiner",
+"type": "book",
+"title": "Prinzip einer Systematik der Musikinstrumente",
+"author": [
+{
+"family": "Dräger",
+"given": "Hans-Heinz"
+}
+],
+"container-title": "Bärenreiter, Kassel",
+"URL": "https://openlibrary.org/works/OL129314W",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1948
+]
+]
+}
+},
+{
+"id": "historical:blackwood1948ritualandsec",
+"type": "article-journal",
+"title": "Ritual and secular uses of vibrating membranes as voice-disguisers",
+"author": [
+{
+"family": "Blackwood",
+"given": "Beatrice"
+},
+{
+"family": "Balfour",
+"given": "Henry"
+}
+],
+"container-title": "Journal of the Royal Anthropological Institute of Great Britain and Ireland",
+"DOI": "10.2307/2844524",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1948
+]
+]
+}
+},
+{
+"id": "historical:miller1948thesolovox",
+"type": "article-journal",
+"title": "The Solovox",
+"author": [
+{
+"family": "Miller",
+"given": "Paul E."
+}
+],
+"container-title": "Radio and Television News",
+"note": "Collection: Historical. Cited by 1 archive paper; Not found in Crossref: vet",
+"issued": {
+"date-parts": [
+[
+1948
+]
+]
+}
+},
+{
+"id": "historical:hartsough1948tonecabinetf",
+"type": "document",
+"title": "Tone cabinet for electric organs",
+"author": [
+{
+"family": "Hartsough",
+"given": "Baron"
+}
+],
+"URL": "https://patents.google.com/patent/US2450139A/en",
+"note": "Collection: Historical. Patent US2450139; Cited by 1 archive paper; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1948
+]
+]
+}
+},
+{
+"id": "historical:rhodes1948pianodampeni",
+"type": "document",
+"title": "Piano dampening mechanism",
+"author": [
+{
+"family": "Rhodes",
+"given": "Harold B."
+}
+],
+"URL": "https://patents.google.com/patent/US2456321A/en",
+"note": "Collection: Historical. Patent US2456321; Cited by 1 archive paper; Found in Google Patents",
+"issued": {
+"date-parts": [
+[
+1948
+]
+]
+}
+},
+{
+"id": "historical:partch1949genesisofamu",
+"type": "book",
+"title": "Genesis of a music",
+"author": [
+{
+"family": "Partch",
+"given": "Harry"
+}
+],
+"container-title": "University of Wisconsin Press, Madison",
+"URL": "https://openlibrary.org/works/OL4785852W",
+"note": "Collection: Historical. Cited by 2 archive papers; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1949
+]
+]
+}
+},
+{
+"id": "historical:meyereppler1949elektronisch",
+"type": "book",
+"title": "Elektronische Klangerzeugung: Elektronische Musik und synthetische Sprache",
+"author": [
+{
+"family": "Meyer-Eppler",
+"given": "Werner"
+}
+],
+"container-title": "Ferd. Dümmlers, Bonn",
+"note": "Collection: Historical. Chosen by hand as a precursor; Not found in Open Library: vet",
+"issued": {
+"date-parts": [
+[
+1949
+]
+]
+}
+},
+{
+"id": "historical:sala1949experimentel",
+"type": "article-journal",
+"title": "Experimentelle und theoretische Grundlagen des Trautoniums",
+"author": [
+{
+"family": "Sala",
+"given": "Oskar"
+}
+],
+"container-title": "Frequenz",
+"DOI": "10.1515/freq.1949.3.1.13",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1949
+]
+]
+}
+},
+{
+"id": "historical:sala1950dasmixturtra",
+"type": "article-journal",
+"title": "Das Mixtur-Trautonium",
+"author": [
+{
+"family": "Sala",
+"given": "Oskar"
+}
+],
+"container-title": "Physikalische Blätter",
+"DOI": "10.1002/phbl.19500060902",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1950
+]
+]
+}
+},
+{
+"id": "historical:dunn1950thecalculati",
+"type": "article-journal",
+"title": "The calculation of vowel resonances, and an electrical vocal tract",
+"author": [
+{
+"family": "Dunn",
+"given": "H. K."
+}
+],
+"container-title": "The Journal of the Acoustical Society of America",
+"DOI": "10.1121/1.1906681",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1950
+]
+]
+}
+},
+{
+"id": "historical:cooper1951theinterconv",
+"type": "article-journal",
+"title": "The interconversion of audible and visible patterns as a basis for research in the perception of speech",
+"author": [
+{
+"family": "Cooper",
+"given": "Franklin S."
+},
+{
+"family": "Liberman",
+"given": "Alvin M."
+},
+{
+"family": "Borst",
+"given": "John M."
+}
+],
+"container-title": "Proceedings of the National Academy of Sciences",
+"DOI": "10.1073/pnas.37.5.318",
+"note": "Collection: Historical. Cited by 2 archive papers; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1951
+]
+]
+}
+},
+{
+"id": "historical:schaeffer1952alarecherche",
+"type": "book",
+"title": "À la recherche d'une musique concrète",
+"author": [
+{
+"family": "Schaeffer",
+"given": "Pierre"
+}
+],
+"container-title": "Éditions du Seuil, Paris",
+"URL": "https://openlibrary.org/works/OL1318243W",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1952
+]
+]
+}
+},
+{
+"id": "historical:laposky1953oscillonsele",
+"type": "book",
+"title": "Oscillons: Electronic abstractions",
+"author": [
+{
+"family": "Laposky",
+"given": "Ben F."
+}
+],
+"container-title": "Sanford Museum, Cherokee",
+"note": "Collection: Historical. Cited by 1 archive paper; Not found in Open Library: vet",
+"issued": {
+"date-parts": [
+[
+1953
+]
+]
+}
+},
+{
+"id": "historical:eby1953electronicor",
+"type": "book",
+"title": "Electronic organs: A complete catalogue, textbook and manual",
+"author": [
+{
+"family": "Eby",
+"given": "Robert L."
+}
+],
+"container-title": "Van Kampen Press, Wheaton",
+"URL": "https://openlibrary.org/works/OL7480671W",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Open Library",
+"issued": {
+"date-parts": [
+[
+1953
+]
+]
+}
+},
+{
+"id": "historical:olson1955electronicmu",
+"type": "article-journal",
+"title": "Electronic music synthesizer",
+"author": [
+{
+"family": "Olson",
+"given": "Harry F."
+},
+{
+"family": "Belar",
+"given": "Herbert"
+}
+],
+"container-title": "The Journal of the Acoustical Society of America",
+"DOI": "10.1121/1.1907975",
+"note": "Collection: Historical. Chosen by hand as a precursor; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1955
+]
+]
+}
+},
+{
+"id": "historical:caine1956electronicmu",
+"type": "article-journal",
+"title": "Electronic music",
+"author": [
+{
+"family": "Caine",
+"given": "Hugh Le"
+}
+],
+"container-title": "Proceedings of the IRE",
+"DOI": "10.1109/jrproc.1956.274925",
+"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
+"issued": {
+"date-parts": [
+[
+1956
+]
+]
+}
 }
 ]

@@ -3,6 +3,9 @@
 ## Now
 
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
+- [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
+  (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in
+  `tools/historical_seeds.txt`.
 - [ARJ] Read Cited and Background and move what is on the wrong side (title classifier, 88% accurate).
 - [ARJ] NIME bibliography: review `output/nime_missing_abstracts.tsv`; check the 2005 "NIME papers" that look
   like artworks and the front-matter entries among the 2019 music entries.
@@ -21,12 +24,13 @@
 ## Next
 
 - [ME] Second snowball round (#2): fetch reference lists of the accepted snowball works.
-- [ME] Split the SBCM 1994–2019 volume PDFs into papers (#4), and find CIM proceedings.
 - [ME] Theses (#5): more OpenAlex queries on later days (daily allowance); fix aggregator
   school names (Zenodo, NORA, ERA, LA Referencia) from the thesis records.
 - [ARJ] Skim `bibs/Theses/theses.bib` (416, selected by rule) and `output/candidates_theses.tsv`.
-- [ME] Non-English sources (#4): SBCM, JIM and CIM proceedings; 366 non-English theses are
-  listed in `output/candidates_theses_non_english.tsv`.
+- [ME] 366 non-English theses are listed in `output/candidates_theses_non_english.tsv`;
+  Portuguese OCR for SBCM 1994–1998 needs the tesseract Portuguese pack.
+- [ME] One TRL estimate is duplicated in the batches (off-nime:Chadabe1975); harmless, the
+  merge keeps the last.
 
 ## Later
 

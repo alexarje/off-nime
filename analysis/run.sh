@@ -29,6 +29,7 @@ cap 4G score_journals.py
 cap 2G topic.py
 cap 2G build_cited.py
 cap 1G snowball.py
+cap 1G historical.py
 cap 3G theses.py
 cap 1G "offnime_dois.py --apply"
 cap 1G merge_trl.py         # after the TRL/ARL agents have written data/trl/out_*.jsonl

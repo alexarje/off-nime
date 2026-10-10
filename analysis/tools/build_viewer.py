@@ -101,7 +101,7 @@ def main():
         groups = {"All": None, "NIME papers": {"NIME papers", "NIME alt"},
                   "NIME concerts and installations": {"NIME music", "NIME installations"},
                   "Off-NIME archive": {"CMJ", "ICMC", "ISIDM", "Extras"},
-                  "Cited, Related and Theses": {"Cited", "Related", "Theses"}, "Background": {"Background"}}
+                  "Cited, Related and Theses": {"Cited", "Related", "Theses"}, "Background": {"Background"}, "Historical": {"Historical"}}
         mats = {}
         for name, ds in groups.items():
             m = [[0] * 10 for _ in range(10)]  # [arl 0..9][trl 0..9], 0 = none

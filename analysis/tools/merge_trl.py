@@ -51,7 +51,7 @@ def main():
     # only entries that are in the collection now: the rule-selected datasets change between runs
     import bibtexparser
     current = {r["id"] for r in json.loads((HERE / "data" / "corpus.json").read_text())}
-    for name in ("Cited", "Background", "Theses", "Related"):
+    for name in ("Cited", "Background", "Theses", "Related", "Historical"):
         f = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
         if f.exists():
             current |= {e["ID"] for e in bibtexparser.load(open(f)).entries}

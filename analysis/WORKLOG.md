@@ -199,3 +199,13 @@ the thesis score; the sweep now requires English text where there is an abstract
 non-English venues. A first version of that filter dropped title-only English CMJ items (1,623 to
 1,359 in the check); the test now applies to abstracts only, and the check is back to 1,623.
 The TRL merge now covers only entries currently in the collection (4,811).
+
+Historical precursors, at Alexander's go-ahead: `tools/historical.py` builds
+`bibs/Historical/historical.bib` from `tools/historical_seeds.txt` (60 works before 1957: 29 from
+the reference lists, the rest chosen by hand). Checks: Crossref for articles, Open Library for
+books, Google Patents for patents; 47 pass. Old Google Patents records carry only the inventor's
+name in lower case as title, so the seed title is kept there. Citation counts go by first author
+and year, which first gave Dudley's 1939 vocoder article and patent the count of his synthetic
+speaker paper; hand-chosen works now get no count when a work from the reference lists shares
+author and year. TRL and ARL for the 60 came from a 22nd agent batch (7 low confidence). New site
+tab, report section and heatmap group.

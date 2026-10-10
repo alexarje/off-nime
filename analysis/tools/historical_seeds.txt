@@ -1,0 +1,67 @@
+# Seeds for bibs/Historical/historical.bib, read by tools/historical.py.
+# One work per line: origin | type | author | year | title | container or publisher | volume | number | pages
+# origin: "cited" (found in the archives' reference lists, output/candidates_historical.tsv) or
+# "canonical" (a standard precursor that papers name without always citing in full).
+# A patent line gives the number in the container column; title and issue year come from
+# Google Patents where it has them, and from the line otherwise; the inventor must match Google's. Every other line is checked against Crossref (articles) or Open Library (books);
+# what fails the check is kept, marked for vetting.
+canonical | book | Praetorius, Michael | 1619 | Syntagma musicum II: De organographia | Elias Holwein, Wolfenbüttel
+canonical | book | Mersenne, Marin | 1636 | Harmonie universelle | Sebastien Cramoisy, Paris
+canonical | book | Kircher, Athanasius | 1650 | Musurgia universalis | Francesco Corbelletti, Rome
+canonical | book | Bonanni, Filippo | 1722 | Gabinetto armonico pieno d'istromenti sonori | Giorgio Placho, Rome
+canonical | book | Vaucanson, Jacques de | 1738 | Le mécanisme du fluteur automate | Jacques Guerin, Paris
+canonical | article | Menabrea, Luigi Federico and Lovelace, Ada | 1843 | Sketch of the Analytical Engine invented by Charles Babbage, with notes by the translator | Scientific Memoirs | 3 | | 666-731
+canonical | patent | Sax, Adolphe | 1846 | Système d'instruments à vent dits saxophones | FR3226
+canonical | book | Helmholtz, Hermann von | 1863 | Die Lehre von den Tonempfindungen als physiologische Grundlage für die Theorie der Musik | Friedrich Vieweg, Braunschweig
+canonical | book | Rayleigh, John William Strutt | 1877 | The theory of sound | Macmillan, London
+canonical | patent | Edison, Thomas A. | | | US200521
+canonical | book | Mahillon, Victor-Charles | 1880 | Catalogue descriptif et analytique du Musée instrumental du Conservatoire royal de musique de Bruxelles | Ad. Hoste, Ghent
+canonical | patent | Berliner, Emile | | | US372786
+canonical | patent | Cahill, Thaddeus | | Art of and apparatus for generating and distributing music electrically | US580035
+canonical | book | Busoni, Ferruccio | 1907 | Entwurf einer neuen Ästhetik der Tonkunst | Carl Schmidl, Trieste
+canonical | book | Sachs, Curt | 1913 | Real-Lexikon der Musikinstrumente | Julius Bard, Berlin
+cited | book | Russolo, Luigi | 1916 | L'arte dei rumori | Edizioni futuriste di Poesia, Milan
+cited | article | Hornbostel, Erich M. von and Sachs, Curt | 1914 | Systematik der Musikinstrumente: Ein Versuch | Zeitschrift für Ethnologie | 46 | 4-5 | 553-590
+cited | article | Plummer, Harry Chapin | 1915 | Color music: A new art created with the aid of science | Scientific American | 112 | 15 | 343-351
+cited | article | De Forest, Lee | 1915 | Audion bulbs as producers of pure musical tones | The Electrical Experimenter | 3 | 8 | 394-395
+canonical | article | Moholy-Nagy, László | 1923 | Neue Gestaltung in der Musik: Möglichkeiten des Grammophons | Der Sturm | 14 | 7
+canonical | book | Mager, Jörg | 1924 | Eine neue Epoche der Musik durch Radio | Berlin
+canonical | patent | Theremin, Leon | | | US1661058
+canonical | book | Ortmann, Otto | 1929 | The physiological mechanics of piano technique | E. P. Dutton, New York
+canonical | book | Trautwein, Friedrich | 1930 | Elektrische Musik | Weidmann, Berlin
+cited | patent | Blumlein, Alan Dower | 1933 | | GB394325
+cited | article | Anonymous | 1932 | Radio squeals turned to music for entire orchestra | Popular Science Monthly | 120 | 6 | 51
+canonical | patent | Hammond, Laurens | | | US1956350
+cited | article | Leichtentritt, Hugo | 1934 | Mechanical music in olden times | The Musical Quarterly | 20 | 1 | 15-26
+canonical | book | Schaeffner, André | 1936 | Origine des instruments de musique | Payot, Paris
+cited | article | Mason, C. P. | 1936 | Theremin "Terpsitone": A new electronic novelty | Radio-Craft | | | 365
+canonical | book | Galpin, Francis W. | 1937 | A textbook of European musical instruments | Williams and Norgate, London
+canonical | book | Chávez, Carlos | 1937 | Toward a new music: Music and electricity | W. W. Norton, New York
+canonical | book | Seashore, Carl E. | 1938 | Psychology of music | McGraw-Hill, New York
+canonical | article | Dudley, Homer | 1939 | The vocoder | Bell Laboratories Record | 18 | | 122-126
+cited | article | Dudley, Homer and Riesz, R. R. and Watkins, S. S. A. | 1939 | A synthetic speaker | Journal of the Franklin Institute | 227 | 6 | 739-764
+canonical | patent | Dudley, Homer W. | | | US2151091
+cited | article | Dudley, Homer | 1940 | The carrier nature of speech | Bell System Technical Journal | 19 | 4 | 495-515
+cited | book | Sachs, Curt | 1940 | The history of musical instruments | W. W. Norton, New York
+cited | patent | Hammond, Laurens and Hanert, John M. | | | US2233258
+cited | patent | Arnold, Leo F. J. | | | US2301184
+cited | patent | Langer, Nicholas | | | US2365566
+cited | article | Gabor, Dennis | 1946 | Theory of communication | Journal of the Institution of Electrical Engineers, Part III | 93 | 26 | 429-457
+canonical | book | Schillinger, Joseph | 1946 | The Schillinger system of musical composition | Carl Fischer, New York
+cited | article | Gabor, Dennis | 1947 | Acoustical quanta and the theory of hearing | Nature | 159 | 4044 | 591-594
+cited | book | Dräger, Hans-Heinz | 1948 | Prinzip einer Systematik der Musikinstrumente | Bärenreiter, Kassel
+cited | article | Blackwood, Beatrice and Balfour, Henry | 1948 | Ritual and secular uses of vibrating membranes as voice-disguisers | Journal of the Royal Anthropological Institute of Great Britain and Ireland | 78 | 1/2 | 45-69
+cited | article | Miller, Paul E. | 1948 | The Solovox | Radio and Television News | | | 61-63
+cited | patent | Hartsough, Baron | | | US2450139
+cited | patent | Rhodes, Harold B. | | | US2456321
+cited | book | Partch, Harry | 1949 | Genesis of a music | University of Wisconsin Press, Madison
+canonical | book | Meyer-Eppler, Werner | 1949 | Elektronische Klangerzeugung: Elektronische Musik und synthetische Sprache | Ferd. Dümmlers, Bonn
+cited | article | Sala, Oskar | 1949 | Experimentelle und theoretische Grundlagen des Trautoniums | Frequenz | 3 | 1 | 13-19
+cited | article | Sala, Oskar | 1950 | Das Mixtur-Trautonium | Physikalische Blätter | 6 | 9 | 390-398
+cited | article | Dunn, H. K. | 1950 | The calculation of vowel resonances, and an electrical vocal tract | The Journal of the Acoustical Society of America | 22 | 6 | 740-753
+cited | article | Cooper, Franklin S. and Liberman, Alvin M. and Borst, John M. | 1951 | The interconversion of audible and visible patterns as a basis for research in the perception of speech | Proceedings of the National Academy of Sciences | 37 | 5 | 318-325
+canonical | book | Schaeffer, Pierre | 1952 | À la recherche d'une musique concrète | Éditions du Seuil, Paris
+cited | book | Laposky, Ben F. | 1953 | Oscillons: Electronic abstractions | Sanford Museum, Cherokee
+cited | book | Eby, Robert L. | 1953 | Electronic organs: A complete catalogue, textbook and manual | Van Kampen Press, Wheaton
+canonical | article | Olson, Harry F. and Belar, Herbert | 1955 | Electronic music synthesizer | The Journal of the Acoustical Society of America | 27 | 3 | 595-612
+cited | article | Le Caine, Hugh | 1956 | Electronic music | Proceedings of the IRE | 44 | 4 | 457-478
