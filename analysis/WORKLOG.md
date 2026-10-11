@@ -295,3 +295,14 @@ line 40 on. Those 474 entries were estimated again from scratch, and `merge_trl.
 batch where more than 25% of the reasons share no word with their entry (about 4% elsewhere). The
 input id of the Rosenboom paper is renamed too. NIME concerts and installations now sit at ARL 6
 (91.4%), and 2.5% reach ARL 7 or more.
+
+The TRL is aligned at the same 6/7 boundary as the ARL: the rubric now says that a device shown
+only at a conference is TRL 6 (5 when the text calls it a study or work in progress), that TRL 7
+needs stated use outside that setting, and that a concert or installation is rated on the setup
+built for it, not on established tools such as Max or Kyma. `tools/trl_revise.py` wrote five
+TRL-only revision batches (`rev_in_07` to `rev_in_11`, 366 entries): NIME music and installations
+at TRL 5 or 7, and NIME papers at TRL 7. `merge_trl.py` applies a TRL-only revision without
+touching the ARL, keeps its reason in a new `trl_reason` column, includes it in the mismatch
+check, and adds the check `artworks_trl_6_pct`. Concerts and installations at TRL 6 went from
+49.6% to 85.1%, and NIME papers at TRL 7 from 123 to 84. The report, Table 1 and the checks and
+results in the paper say so; the paper compiles to 6 pages.

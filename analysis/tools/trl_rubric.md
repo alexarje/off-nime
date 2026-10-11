@@ -15,6 +15,13 @@ publication shows, not what the authors hope for.
 - 8: System complete and qualified. A stable, documented, released tool or instrument (open-source release, product).
 - 9: Proven in operational use. Widely adopted, commercial, or a standard (for example OSC, Max, SuperCollider).
 
+A device or system shown only at a conference (a concert, installation or demo at NIME, ICMC,
+SMC and the like) is TRL 6 when the text presents it as complete and used in public, and TRL 5
+when the text calls it a study, a sketch or a work in progress. TRL 7 needs stated use outside that
+setting: repeated concerts, teaching, or use by other people, including a long performance
+practice on the same device when the text states it. For a concert or installation the TRL rates
+the setup built for the work, not established tools it uses (Max, Kyma, a commercial controller).
+
 TRL band: 1–3 fundamental, 4–6 applied, 7–9 industrial.
 Use null only when no technology is involved at all (for example a musicological study of a score).
 

@@ -14,6 +14,11 @@
   credited with festivals only in a performer's biography (held at 6), and a few weak 7s (a
   university-run festival, works published on the internet, the Danish music museum). The reasons
   are in `output/trl_arl.tsv`.
+- [ARJ] TRL after the alignment at 6/7: close calls are title-only NIME 2010 and 2016 concert
+  entries (now TRL 6, was mostly 5), pieces called a "study" (held at 5), teaching papers kept at 7
+  on courses taught repeatedly, and short abstracts of devices probably used widely but not stated
+  so (LEMUR, Augmented Violin, Samchillian, lowered). The TRL reasons are in the `trl_reason`
+  column of `output/trl_arl.tsv`.
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
 - [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
   (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in

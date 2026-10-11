@@ -27,8 +27,10 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
 - `tools/trl_batch.py` writes the next `data/trl/in_NN.jsonl` for entries without a TRL/ARL
   estimate; an agent following `tools/trl_rubric.md` writes `out_NN.jsonl`, and `merge_trl.py`
   merges them (it also checks that each reason describes its entry). After a rubric change, a
-  revision batch (`rev_in_NN.jsonl`, written by hand, and the agent's `rev_out_NN.jsonl`) replaces
-  the estimates for its ids. Ask agents to key judgements by id, not by line.
+  revision batch (`rev_in_NN.jsonl`, written by `tools/trl_revise.py`, and the agent's
+  `rev_out_NN.jsonl`) replaces the estimates for its ids; a TRL-only revision (`--kind trl`,
+  lines with `trl_reason` and no `arl`) replaces the TRL and keeps the ARL and its reason. Ask
+  agents to key judgements by id, not by line.
 - The NIME paper draft on TRL and ARL is in
   `~/UiO Dropbox/alexanje@uio.no/writing/2-Artistic readyness level (NIME)/paper/`; its
   `analysis.py` reads `data/trl.json` and the validation sheet.

@@ -141,7 +141,7 @@ def main():
                      if x["dataset"] in ("NIME papers", "NIME alt") and x["trl"] == 6 and x["arl"] == 6),
         "tr_artmode": art_mode()[0], "tr_artmode_pct": art_mode()[1],
         "tr_n": trs["checks"]["estimates"], "tr_title": trs["basis"].get("title", 0),
-        "tr_art": trs["checks"]["artworks_arl_5_6_pct"], "tr_art7": trs["checks"]["artworks_arl_7_plus_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
+        "tr_art": trs["checks"]["artworks_arl_5_6_pct"], "tr_art7": trs["checks"]["artworks_arl_7_plus_pct"], "tr_arttrl": trs["checks"]["artworks_trl_6_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
         "tr_noarl": trs["checks"]["nime_papers_without_arl_pct"],
         "tr_p0": pk[0], "tr_p0e": int(pk[0]) + 4, "tr_p1": pk[-2], "tr_p1e": int(pk[-2]) + 4,
         "tr_f0": share(pk[0], "fundamental"), "tr_f1": share(pk[-2], "fundamental"),

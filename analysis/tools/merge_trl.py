@@ -1,14 +1,15 @@
 """Merge and check the TRL and ARL estimates (data/trl/out_*.jsonl, made with tools/trl_rubric.md).
 
 Checks that can fail: every input id has exactly one estimate, levels lie in 1–9, bands agree with
-levels; and three expectations from the rubric itself: concert and installation entries, shown to
-peers at a conference, should mostly sit at ARL 5–6, Background works should mostly sit at TRL 1–3, and papers with no
+levels; and expectations from the rubric itself: concert and installation entries, shown to
+peers at a conference, should mostly sit at ARL 5–6 and TRL 6, Background works should mostly sit at TRL 1–3, and papers with no
 artistic component should have no ARL. Writes data/trl.json, output/trl_arl.tsv,
 data/trl_stats.json and output/trl_validation_sheet.tsv (30 random publications for a human to
 label, which is how agreement is measured).
 
 A revision batch (rev_in_NN.jsonl, rev_out_NN.jsonl) re-estimates entries after a change to the
-rubric; its estimates replace the earlier ones for the same ids.
+rubric; its estimates replace the earlier ones for the same ids. A TRL-only revision (lines with
+trl and trl_reason but no arl) replaces the TRL and keeps the ARL and its reason.
 """
 import json
 import os
@@ -58,7 +59,11 @@ def main():
             if l.strip():
                 x = json.loads(l)
                 problems["revised"] += x.get("id") in outputs
-                outputs[x.get("id")] = dict(x, batch=f.name)
+                if "arl" not in x and "trl_reason" in x and x.get("id") in outputs:
+                    outputs[x["id"]] = dict(outputs[x["id"]], trl=x.get("trl"), trl_band=x.get("trl_band"),
+                                            trl_reason=x["trl_reason"], trl_batch=f.name)
+                else:
+                    outputs[x.get("id")] = dict(x, batch=f.name)
     # only entries that are in the collection now: the rule-selected datasets change between runs
     import bibtexparser
     current = {r["id"] for r in json.loads((HERE / "data" / "corpus.json").read_text())}
@@ -85,6 +90,7 @@ def main():
             problems["arl band corrected"] += 1
         merged.append(dict(it, trl=t, trl_band=TRL_BAND.get(t), arl=a, arl_band=ARL_BAND.get(a),
                            confidence=x.get("confidence"), reason=x.get("reason", ""),
+                           trl_reason=x.get("trl_reason", ""),
                            basis="abstract" if len(it.get("abstract") or "") > 80 else "title"))
     # a batch whose reasons do not describe their entries was attached to the wrong ids: a reason
     # shares no word with its title and abstract in about 4% of entries, and in over half of a
@@ -94,12 +100,13 @@ def main():
     words = lambda t: {w for w in re.findall(r"[a-z]{4,}", (t or "").lower()) if w not in stop}
     per = defaultdict(lambda: [0, 0])
     for it in inputs:
-        x = outputs.get(it["id"])
-        r = words(x.get("reason")) if x else set()
-        # entries with an abstract only: an old or foreign title alone shares few words with any reason
-        if len(r) >= 2 and len(it.get("abstract") or "") > 80:
-            per[x["batch"]][0] += 1
-            per[x["batch"]][1] += not (r & words(f"{it['title']} {(it.get('abstract') or '')[:1500]}"))
+        x = outputs.get(it["id"]) or {}
+        for batch, reason in ((x.get("batch"), x.get("reason")), (x.get("trl_batch"), x.get("trl_reason"))):
+            r = words(reason)
+            # entries with an abstract only: an old or foreign title alone shares few words with any reason
+            if batch and len(r) >= 2 and len(it.get("abstract") or "") > 80:
+                per[batch][0] += 1
+                per[batch][1] += not (r & words(f"{it['title']} {(it.get('abstract') or '')[:1500]}"))
     mismatched = {b: round(100 * bad / n) for b, (n, bad) in per.items() if n >= 20 and bad / n > MISMATCH}
     if mismatched:
         problems["batches with mismatched reasons"] = len(mismatched)
@@ -112,6 +119,7 @@ def main():
         "mismatched_batches_pct": mismatched,
         "artworks_arl_5_6_pct": round(100 * sum(m["arl"] in (5, 6) for m in art) / max(len(art), 1), 1),
         "artworks_arl_7_plus_pct": round(100 * sum((m["arl"] or 0) >= 7 for m in art) / max(len(art), 1), 1),
+        "artworks_trl_6_pct": round(100 * sum(m["trl"] == 6 for m in art) / max(len(art), 1), 1),
         "background_trl_1_3_pct": round(100 * sum((m["trl"] or 1) <= 3 for m in by["Background"]) / max(len(by["Background"]), 1), 1),
         "nime_papers_without_arl_pct": round(100 * sum(m["arl"] is None for m in by["NIME papers"]) / max(len(by["NIME papers"]), 1), 1),
     }
@@ -131,11 +139,11 @@ def main():
     (HERE / "data" / "trl.json").write_text(json.dumps(merged, ensure_ascii=False))
     (HERE / "data" / "trl_stats.json").write_text(json.dumps(stats, indent=1))
     with open(HERE / "output" / "trl_arl.tsv", "w") as f:
-        f.write("id\tdataset\tyear\ttitle\ttrl\ttrl_band\tarl\tarl_band\tconfidence\tbasis\treason\n")
+        f.write("id\tdataset\tyear\ttitle\ttrl\ttrl_band\tarl\tarl_band\tconfidence\tbasis\treason\ttrl_reason\n")
         for m in merged:
             f.write("\t".join(re.sub(r"\s+", " ", str(x if x is not None else "")) for x in
                               [m["id"], m["dataset"], m["year"], m["title"], m["trl"], m["trl_band"], m["arl"],
-                               m["arl_band"], m["confidence"], m["basis"], m["reason"]]) + "\n")
+                               m["arl_band"], m["confidence"], m["basis"], m["reason"], m["trl_reason"]]) + "\n")
     # the sheet is labelled by hand: once any row has a label, it is never rewritten
     sheet = HERE / "output" / "trl_validation_sheet.tsv"
     labelled = sheet.exists() and any(any(c.strip() for c in l.split("\t")[5:7])
