@@ -346,5 +346,5 @@ Licenciatura en música at Universidad Industrial de Santander, and Theses holds
 Theses now has 429 entries and the paper's corpus 5,151.
 
 The entries-per-year chart in the atlas ran from 1619 at one bar per year, about 4,500 pixels wide
-with almost nothing before 1970. It now gives one bar per year from 1970, gathers the 77 earlier
+with almost nothing before 1970. It now gives one bar per year from 1970, gathers the earlier
 entries into one bar at the left, and scales to the width of the page.
