@@ -1,11 +1,14 @@
 """Merge and check the TRL and ARL estimates (data/trl/out_*.jsonl, made with tools/trl_rubric.md).
 
 Checks that can fail: every input id has exactly one estimate, levels lie in 1–9, bands agree with
-levels; and three expectations from the rubric itself: concert and installation entries should
-mostly reach ARL 7 or more, Background works should mostly sit at TRL 1–3, and papers with no
+levels; and three expectations from the rubric itself: concert and installation entries, shown to
+peers at a conference, should mostly sit at ARL 5–6, Background works should mostly sit at TRL 1–3, and papers with no
 artistic component should have no ARL. Writes data/trl.json, output/trl_arl.tsv,
 data/trl_stats.json and output/trl_validation_sheet.tsv (30 random publications for a human to
 label, which is how agreement is measured).
+
+A revision batch (rev_in_NN.jsonl, rev_out_NN.jsonl) re-estimates entries after a change to the
+rubric; its estimates replace the earlier ones for the same ids.
 """
 import json
 import os
@@ -16,6 +19,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 D = HERE / "data" / "trl"
+MISMATCH = 0.25  # share of reasons unrelated to their entry above which a batch is flagged
 TRL_BAND = {1: "fundamental", 2: "fundamental", 3: "fundamental", 4: "applied", 5: "applied", 6: "applied",
             7: "industrial", 8: "industrial", 9: "industrial"}
 ARL_BAND = {1: "exploration", 2: "exploration", 3: "exploration", 4: "development", 5: "development",
@@ -48,7 +52,13 @@ def main():
                 continue
             if x.get("id") in outputs:
                 problems["duplicate id"] += 1
-            outputs[x.get("id")] = x
+            outputs[x.get("id")] = dict(x, batch=o.name)
+    for f in sorted(D.glob("rev_out_*.jsonl")):
+        for l in f.read_text().splitlines():
+            if l.strip():
+                x = json.loads(l)
+                problems["revised"] += x.get("id") in outputs
+                outputs[x.get("id")] = dict(x, batch=f.name)
     # only entries that are in the collection now: the rule-selected datasets change between runs
     import bibtexparser
     current = {r["id"] for r in json.loads((HERE / "data" / "corpus.json").read_text())}
@@ -76,12 +86,31 @@ def main():
         merged.append(dict(it, trl=t, trl_band=TRL_BAND.get(t), arl=a, arl_band=ARL_BAND.get(a),
                            confidence=x.get("confidence"), reason=x.get("reason", ""),
                            basis="abstract" if len(it.get("abstract") or "") > 80 else "title"))
+    # a batch whose reasons do not describe their entries was attached to the wrong ids: a reason
+    # shares no word with its title and abstract in about 4% of entries, and in over half of a
+    # scrambled batch
+    stop = set("the and for with from this that work works piece performance performed system using based "
+               "music musical sound interactive live presented".split())
+    words = lambda t: {w for w in re.findall(r"[a-z]{4,}", (t or "").lower()) if w not in stop}
+    per = defaultdict(lambda: [0, 0])
+    for it in inputs:
+        x = outputs.get(it["id"])
+        r = words(x.get("reason")) if x else set()
+        # entries with an abstract only: an old or foreign title alone shares few words with any reason
+        if len(r) >= 2 and len(it.get("abstract") or "") > 80:
+            per[x["batch"]][0] += 1
+            per[x["batch"]][1] += not (r & words(f"{it['title']} {(it.get('abstract') or '')[:1500]}"))
+    mismatched = {b: round(100 * bad / n) for b, (n, bad) in per.items() if n >= 20 and bad / n > MISMATCH}
+    if mismatched:
+        problems["batches with mismatched reasons"] = len(mismatched)
     by = defaultdict(list)
     for m in merged:
         by[m["dataset"]].append(m)
     art = by["NIME music"] + by["NIME installations"]
     checks = {
         "inputs": len(inputs), "estimates": len(merged), "problems": dict(problems),
+        "mismatched_batches_pct": mismatched,
+        "artworks_arl_5_6_pct": round(100 * sum(m["arl"] in (5, 6) for m in art) / max(len(art), 1), 1),
         "artworks_arl_7_plus_pct": round(100 * sum((m["arl"] or 0) >= 7 for m in art) / max(len(art), 1), 1),
         "background_trl_1_3_pct": round(100 * sum((m["trl"] or 1) <= 3 for m in by["Background"]) / max(len(by["Background"]), 1), 1),
         "nime_papers_without_arl_pct": round(100 * sum(m["arl"] is None for m in by["NIME papers"]) / max(len(by["NIME papers"]), 1), 1),

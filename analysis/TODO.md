@@ -9,6 +9,11 @@
   that was not exported. [Recommendation: one record per year, the PubPub DOIs as related
   identifiers, with the steering committee's agreement.]
 
+- [ARJ] ARL after the threshold change: the agents rated close calls you may want to check, such as
+  premieres with no venue named, university ensembles (Stanford Laptop Orchestra, L2Ork), works
+  credited with festivals only in a performer's biography (held at 6), and a few weak 7s (a
+  university-run festival, works published on the internet, the Danish music museum). The reasons
+  are in `output/trl_arl.tsv`.
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
 - [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
   (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in

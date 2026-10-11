@@ -283,3 +283,15 @@ theses, most of them French, for 497 in all. In `bibs/ICMC/1975.bib` two papers 
 `Chadabe1975`; the Rosenboom paper is now `Rosenboom1975`, and its TRL estimate moved with it.
 The key fix for the Rosenboom 1975 paper went to IDMIL as its own pull request (IDMIL/off-nime#7), from a branch on IDMIL's main.
 Two more small pull requests went to IDMIL from branches on its main: #8 removes four duplicate entries and fixes an author name (the fork's commit 6b9b034), and #9 writes six abbreviated ISIDM page ranges in full ("113--30" read as running backwards) and trims a title; the fork has the same edits.
+
+The ARL threshold moved, at Alexander's suggestion: a concert or installation at an academic
+conference is a peer setting, ARL 5–6, and ARL 7 needs a stated presentation in a professional
+artistic context (festival, concert series, gallery, release). The rubric, Table 1 of the paper and
+the checks say so. Agents re-estimated the 1,061 entries that had been rated ARL 7 or higher, in
+revision batches (`rev_in_NN`, `rev_out_NN`) that `merge_trl.py` applies after the originals.
+They found that the earlier reasons for many entries described other works: batches `out_08` and
+`out_14` had their judgements attached to the wrong ids, scrambled rather than shifted, from about
+line 40 on. Those 474 entries were estimated again from scratch, and `merge_trl.py` now flags a
+batch where more than 25% of the reasons share no word with their entry (about 4% elsewhere). The
+input id of the Rosenboom paper is renamed too. NIME concerts and installations now sit at ARL 6
+(91.4%), and 2.5% reach ARL 7 or more.

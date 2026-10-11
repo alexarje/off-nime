@@ -26,7 +26,9 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   candidate list, `data/zotero_candidates.tsv`, stays private.
 - `tools/trl_batch.py` writes the next `data/trl/in_NN.jsonl` for entries without a TRL/ARL
   estimate; an agent following `tools/trl_rubric.md` writes `out_NN.jsonl`, and `merge_trl.py`
-  merges them.
+  merges them (it also checks that each reason describes its entry). After a rubric change, a
+  revision batch (`rev_in_NN.jsonl`, written by hand, and the agent's `rev_out_NN.jsonl`) replaces
+  the estimates for its ids. Ask agents to key judgements by id, not by line.
 - The NIME paper draft on TRL and ARL is in
   `~/UiO Dropbox/alexanje@uio.no/writing/2-Artistic readyness level (NIME)/paper/`; its
   `analysis.py` reads `data/trl.json` and the validation sheet.

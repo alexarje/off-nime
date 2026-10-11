@@ -38,6 +38,15 @@ def availability():
     return "\n".join(out)
 
 
+def art_mode():
+    """The most common ARL of the NIME concerts and installations, and its share."""
+    from collections import Counter
+    art = [x["arl"] for x in json.loads((HERE / "data" / "trl.json").read_text())
+           if x["dataset"] in ("NIME music", "NIME installations")]
+    level, n = Counter(a for a in art if a).most_common(1)[0]
+    return level, round(100 * n / len(art), 1)
+
+
 def theses_table(th):
     rows = ["| Source | Theses | Admitted |", "|---|---:|---:|"]
     for src, n in sorted(th["by_source"].items(), key=lambda kv: -kv[1]):
@@ -128,8 +137,11 @@ def main():
         "bk_q": len(_books.QUERIES), "bk_n": len(bk), "bk_adm": sum(b["admit"] for b in bk), "bk_p": _books.MIN_P,
         "tr_76": sum(1 for x in json.loads((HERE / "data" / "trl.json").read_text())
                      if x["dataset"] in ("NIME papers", "NIME alt") and x["trl"] == 6 and x["arl"] == 7),
+        "tr_66": sum(1 for x in json.loads((HERE / "data" / "trl.json").read_text())
+                     if x["dataset"] in ("NIME papers", "NIME alt") and x["trl"] == 6 and x["arl"] == 6),
+        "tr_artmode": art_mode()[0], "tr_artmode_pct": art_mode()[1],
         "tr_n": trs["checks"]["estimates"], "tr_title": trs["basis"].get("title", 0),
-        "tr_art": trs["checks"]["artworks_arl_7_plus_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
+        "tr_art": trs["checks"]["artworks_arl_5_6_pct"], "tr_art7": trs["checks"]["artworks_arl_7_plus_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
         "tr_noarl": trs["checks"]["nime_papers_without_arl_pct"],
         "tr_p0": pk[0], "tr_p0e": int(pk[0]) + 4, "tr_p1": pk[-2], "tr_p1e": int(pk[-2]) + 4,
         "tr_f0": share(pk[0], "fundamental"), "tr_f1": share(pk[-2], "fundamental"),
