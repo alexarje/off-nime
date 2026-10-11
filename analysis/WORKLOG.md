@@ -306,3 +306,9 @@ touching the ARL, keeps its reason in a new `trl_reason` column, includes it in 
 check, and adds the check `artworks_trl_6_pct`. Concerts and installations at TRL 6 went from
 49.6% to 85.1%, and NIME papers at TRL 7 from 123 to 84. The report, Table 1 and the checks and
 results in the paper say so; the paper compiles to 6 pages.
+
+A literature search found precedents for estimating the TRL from text and by hand, and
+adaptations of the scale; no arts readiness scale. Six are cited in the paper: Héder and Bruno and
+colleagues under readiness scales, Britt and colleagues and Quilodrán-Casas and colleagues in the
+method, Berkhout and colleagues in the results, and Quilodrán-Casas and Salvador-Carulla and
+colleagues in the limitations. The paper still compiles to 6 pages.

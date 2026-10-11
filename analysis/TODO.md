@@ -19,8 +19,8 @@
   on courses taught repeatedly, and short abstracts of devices probably used widely but not stated
   so (LEMUR, Augmented Violin, Samchillian, lowered). The TRL reasons are in the `trl_reason`
   column of `output/trl_arl.tsv`.
-- [ARJ] Choose which TRL-estimation studies to cite: candidates with notes are in the paper
-  folder, `trl_literature.md` and `trl_literature.bib`.
+- [ARJ] Six studies on estimating and adapting the TRL are now cited in the paper; the other
+  candidates, with notes, are in the paper folder (`trl_literature.md`, `trl_literature.bib`).
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
 - [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
   (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in
