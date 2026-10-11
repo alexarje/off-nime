@@ -6,8 +6,6 @@ True	0.991	2017	Computer Music Instruments	Victor Lazzarini	Springer Internation
 True	0.988	2011	Spatialization and Computer Music	Peter Lennox	Oxford University Press	10.1093/oxfordhb/9780199792030.013.0013
 True	0.986	2011	Combining the Acoustic and the Digital: Music for Instruments and Computers or Prerecorded Sound	Simon Emmerson	Oxford University Press	10.1093/oxfordhb/9780199792030.013.0009
 True	0.983	2023	Music Technology in Live Performance: Tools, Techniques, and Interaction	Tim Canfer	Focal Press	10.4324/9781003370406
-False	0.979	2004	Electronic and Computer Music	Peter Manning	Oxford University Press	10.1093/acprof:oso/9780195144840.001.0001
-True	0.979	2013	Electronic and Computer Music	Peter Manning	Oxford University Press	10.1093/acprof:oso/9780199746392.001.0001
 True	0.976	2014	Playing with Something That Runs: Technology, Improvisation, and Composition in DJ and Laptop Performance	Mark J. Butler	Oxford University Press	10.1093/acprof:oso/9780195393613.001.0001
 True	0.969	2017	From Pac-Man to Pop Music: Interactive Audio in Games and New Media	Karen Collins	Routledge	10.4324/9781351217743
 True	0.968	2006	Music and Acoustics: From Instrument to Computer	Philippe Guillaume	Wiley	10.1002/9780470612446
@@ -32,10 +30,9 @@ True	0.933	2025	Changing Musical Instruments and AI; Musical Instruments in Publ
 True	0.932	2011	Musical Robots and Interactive Multimodal Systems	Jorge Solis; Kia Ng	Springer Berlin Heidelberg	10.1007/978-3-642-22291-7
 True	0.931	2020	Handmade Electronic Music: The Art of Hardware Hacking	Nicolas Collins	Routledge	10.4324/9780429264818
 True	0.928	2021	Designing Software Synthesizer Plugins in C++: With Audio DSP	Will C. Pirkle	Focal Press	10.4324/9781003052203
-True	0.926	2018	Inner Sound: Altered States of Consciousness in Electronic Music and Audio-Visual Media	Jonathan Weinel	Oxford University PressNew York	10.1093/oso/9780190671181.001.0001
+True	0.926	2018	Inner Sound: Altered States of Consciousness in Electronic Music and Audio-Visual Media	Jonathan Weinel	Oxford University Press	10.1093/oso/9780190671181.001.0001
 True	0.925	2026	Gameful Compositions in Interactive Computer Music	Paul Turowski; Simon Hutchinson; Takuto Fukuda	Springer Nature Switzerland	10.1007/978-3-032-12682-5
 True	0.925	2016	Children's Creative Music-Making with Reflexive Interactive Technology	Victoria Rowe; Angeliki Triantafyllaki; Francois Pachet	Routledge	10.4324/9781315679952
-True	0.922	2007	Evolutionary Computer Music	Eduardo Reck Miranda; John Al Biles	Springer London	10.1007/978-1-84628-600-1
 True	0.922	2004	Audio Programming for Interactive Games	Martin Wilde	Routledge	10.4324/9780080472065
 True	0.919	2008	Interactive Multimedia Music Technologies	Kia Ng; Paolo Nesi	IGI Global	10.4018/978-1-59904-150-6
 True	0.918	2019	Hush: Media and Sonic Self-Control	Mack Hagood	Duke University Press	10.1215/9781478004479
@@ -44,9 +41,9 @@ True	0.917	2024	The Hyperorchestra: Screen Music and Virtual Musical Ensembles	S
 True	0.914	2011	The Sonic Playpen: Sound Design and Technology in Pixar’s Animated Shorts	William Whittington	Oxford University Press	10.1093/oxfordhb/9780195388947.013.0087
 True	0.913	2014	The Rhythmic Event: Art, Media, and the Sonic	Eleni Ikoniadou	The MIT Press	10.7551/mitpress/9886.001.0001
 True	0.911	2011	Computer Music: Some Reflections	Trevor Wishart	Oxford University Press	10.1093/oxfordhb/9780199792030.013.0007
+True	0.909	2013	Art of Digital Audio	John Watkinson	Routledge	10.4324/9780080499369
 True	0.906	1992	Digital Audio and Compact Disc Technology		Elsevier	10.1016/c2013-0-04541-0
-True	0.904	2024	Embodied Expression in Popular Music: A Theory of Musical Gesture and Agency	Timothy Koozin	Oxford University PressNew York	10.1093/oso/9780197692981.001.0001
-True	0.901	2016	Wireless Networked Music Performance	Leonardo Gabrielli; Stefano Squartini	Springer Singapore	10.1007/978-981-10-0335-6
+True	0.904	2024	Embodied Expression in Popular Music: A Theory of Musical Gesture and Agency	Timothy Koozin	Oxford University Press	10.1093/oso/9780197692981.001.0001
 True	0.899	2017	Computer Music Experiences, 1961–1964	James Tenney	University of Illinois Press	10.5406/illinois/9780252038723.003.0003
 True	0.898	2014	Computational Thinking in Sound: Teaching the Art and Science of Music and Technology	Gena R. Greher; Jesse M. Heines	Oxford University Press	10.1093/oso/9780199826179.001.0001
 True	0.895	2024	Play with Sound: Manual for Electronic Musicians and Other Sound Explorers	Tommaso Rosati; Timothy Hsu	Focal Press	10.4324/9781003493372
@@ -89,15 +86,16 @@ True	0.823	2021	El texto musical en la esfera digital: Características, funcion
 True	0.814	2025	Advances in Quantum Computer Music	Eduardo Reck Miranda	WORLD SCIENTIFIC	10.1142/14025
 True	0.813	2013	Network Technology for Digital Audio	Andy Bailey	Routledge	10.4324/9780080512556
 True	0.813	2018	The Audience Reception of Algorithmic Music	Mary Simoni	Oxford University Press	10.1093/oxfordhb/9780190226992.013.14
-True	0.812	2026	Making Music Together: Analytical Perspectives on Musical Interaction	Chris Stover; Garrett Michaelsen	Oxford University PressNew York	10.1093/oso/9780197806050.001.0001
+True	0.812	2026	Making Music Together: Analytical Perspectives on Musical Interaction	Chris Stover; Garrett Michaelsen	Oxford University Press	10.1093/oso/9780197806050.001.0001
 True	0.812	2015	Chaos Media: A Sonic Economy of Digital Space	Stephen Kennedy	Bloomsbury Publishing Inc	10.5040/9781501310065
 True	0.812	2011	A Historical View of Computer Music Technology	Douglas Keislar	Oxford University Press	10.1093/oxfordhb/9780199792030.013.0002
 True	0.809	2021	The Creative Electronic Music Producer	Thomas Brett	Focal Press	10.4324/9781003022466
 True	0.807	2012	Bodily Expression in Electronic Music	Deniz Peters; Gerhard Eckel; Andreas Dorschel	Routledge	10.4324/9780203145098
-True	0.802	2024	Sound &amp; Music Projects for Eurorack and Beyond: Explorations in Teensy® Microcontroller Technology	Brent Edstrom	Oxford University PressNew York, NY	10.1093/9780197514504.001.0001
-True	0.801	2020	Interactive Visual Ideas for Musical Classroom Activities: Tips for Music Teachers	Catherine Dwinal	Oxford University PressNew York	10.1093/oso/9780190929855.001.0001
+True	0.802	2024	Sound &amp; Music Projects for Eurorack and Beyond: Explorations in Teensy® Microcontroller Technology	Brent Edstrom	Oxford University Press	10.1093/9780197514504.001.0001
+True	0.801	2020	Interactive Visual Ideas for Musical Classroom Activities: Tips for Music Teachers	Catherine Dwinal	Oxford University Press	10.1093/oso/9780190929855.001.0001
 True	0.801	2019	Foundations in Sound Design for Interactive Media: A Multidisciplinary Approach	Michael Filimowicz	Routledge	10.4324/9781315106342
 True	0.801	2025	Machine Music: How AI is Transforming Music's Next Act	Drew Thurlow	Focal Press	10.4324/9781003499350
+True	0.8	2022	Live Coding: A User's Manual	Alan F. Blackwell; Emma Cocker; Geoff Cox	The MIT Press	10.7551/mitpress/13770.001.0001
 False	0.797	2008	Transdisciplinary Digital Art. Sound, Vision and the New Screen: Digital Art Weeks and Interactive Futures 2006/2007, Zurich, Switzerland and Victoria, BC, Canada. Selected Papers	Randy Adams; Steve Gibson; Stefan Müller Arisona	Springer Berlin Heidelberg	10.1007/978-3-540-79486-8
 False	0.795	2020	Sensing and Making Sense: Photosensitivity and Light-to-sound Translations in Media Art	Graziele Lautenschlaeger	transcript Verlag	10.14361/9783839453315
 False	0.794	2003	Desktop Audio Technology: Digital audio and MIDI principles	Francis Rumsey	Routledge	10.4324/9780080472478
@@ -108,11 +106,9 @@ False	0.786	2020	Phononic Crystals: Artificial Crystals for Sonic, Acoustic, and
 False	0.786	2015	Phononic Crystals: Artificial Crystals for Sonic, Acoustic, and Elastic Waves	Vincent Laude	DE GRUYTER	10.1515/9783110302660
 False	0.785	2023	Robot Sound in Interaction : Analyzing and Designing Sound for Human-Robot Coordination	Hannah Pelikan	Linköping University Electronic Press	10.3384/9789180751179
 False	0.783	2022	Sound and Music for Games: The Basics of Digital Audio for Video Games	Robert Ciesla	Apress	10.1007/978-1-4842-8661-6
-False	0.775	2013	Sonic Interaction Design	Karmen Franinović; Stefania Serafin	The MIT Press	10.7551/mitpress/8555.001.0001
-False	0.769	2022	Switched On: Bob Moog and the Synthesizer Revolution	Albert Glinsky	Oxford University PressNew York	10.1093/oso/9780197642078.001.0001
+False	0.769	2022	Switched On: Bob Moog and the Synthesizer Revolution	Albert Glinsky	Oxford University Press	10.1093/oso/9780197642078.001.0001
 False	0.766	2012	Music Technology and the Project Studio	Dan Hosken	Routledge	10.4324/9780203804902
 False	0.766	2022	High-Speed and High-Performance Direct Digital Frequency Synthesizer Design	Jun-an Zhang; Ruitao Zhang; Guangjun Li	Springer Singapore	10.1007/978-981-16-7266-8
-False	0.762	2015	Composing Electronic Music: A New Aesthetic	Curtis Roads	Oxford University Press	10.1093/acprof:oso/9780195373233.001.0001
 False	0.762	2022	The Art of the Creative Commons: Openness, Networked Value and Peer Production in the Sound Industry	Miłosz Miszczyński	BRILL	10.1163/9789004504240
 False	0.758	2022	INTERACTIVE MUSIC THERAPY WITH PATIENTS SUBMITTED TO ASSISTED FERTILIZATION	Eliamar;Eliamar Aparecida de B. Fleury FLEURY	EDITORA CRV	10.24824/978652512639.5
 False	0.752	2013	Digital Audio Editing	Simon Langford	Routledge	10.4324/9780203512890
@@ -211,13 +207,13 @@ False	0.571	2021	Creative Music Making at Your Fingertips: A Mobile Technology G
 False	0.57	2023	Human-Centred Computer Audition: Sound, Music, and Healthcare	Kun Qian; Gyorgy Fazekas; Björn Wolfgang Schuller	Frontiers Media SA	10.3389/978-2-8325-4196-8
 False	0.57	2022	Music and Technology: A Historical Encyclopedia	James E. Perone	ABC-CLIO, LLC	10.5040/9798400688492
 False	0.569	2017	Raspberry Pi GPU Audio Video Programming	Jan Newmarch	Apress	10.1007/978-1-4842-2472-4
-False	0.563	2026	Music-Machines: A Transatlantic History of German Electronic Music	Sean Nye	Oxford University PressNew York	10.1093/oso/9780190065706.001.0001
+False	0.563	2026	Music-Machines: A Transatlantic History of German Electronic Music	Sean Nye	Oxford University Press	10.1093/oso/9780190065706.001.0001
 False	0.563	2017	This Machine Plays Country Music	Timothy Miller	Oxford University Press	10.1093/oxfordhb/9780190248178.013.27
 False	0.558	2023	Computer Assisted Music and Dramatics: Possibilities and Challenges	Ambuja Salgaonkar; Makarand Velankar	Springer Nature Singapore	10.1007/978-981-99-0887-5
 False	0.555	1995	Music and the Mind Machine: The Psychophysiology and Psychopathology of the Sense of Music	Reinhard Steinberg	Springer Berlin Heidelberg	10.1007/978-3-642-79327-1
 False	0.554	2020	Practical Audio Electronics	Kevin Robinson	Focal Press	10.4324/9780429343056
 False	0.553	2018	Rave On: Global Adventures in Electronic Dance Music	Matthew Collin	University of Chicago Press	10.7208/chicago/9780226595511.001.0001
-False	0.551	2024	TikTok Broadway: Musical Theatre Fandom in the Digital Age	Trevor Boffone	Oxford University PressNew York	10.1093/oso/9780197743676.001.0001
+False	0.551	2024	TikTok Broadway: Musical Theatre Fandom in the Digital Age	Trevor Boffone	Oxford University Press	10.1093/oso/9780197743676.001.0001
 False	0.551	2020	Music Technology in Education: CHANNELING AND CHALLENGING PERSPECTIVES		Cappelen Damm Akademisk/NOASP	10.23865/noasp.108
 False	0.55	2021	Audible Infrastructures: Music, Sound, Media	Kyle Devine; Alexandrine Boudreault-Fournier	Oxford University Press	10.1093/oso/9780190932633.001.0001
 False	0.546	2024	History as Fantasy in Music, Sound, Image, and Media	James Cook; Alexander Kolassa; Alexander Robinson	Routledge	10.4324/9781003291725
@@ -225,19 +221,13 @@ False	0.544	2026	Machine Voices: A Sonic Study of Artificial Intelligence	Edward
 False	0.54	2011	The Voice in Computer Music and Its Relationship to Place, Identity, and Community	Hazel Smith	Oxford University Press	10.1093/oxfordhb/9780199792030.013.0014
 False	0.534	2021	The Evolution of Electronic Dance Music	Ewa Mazierska; Les Gillon; Tony Rigg	Bloomsbury Publishing Plc	10.5040/9781501366390
 False	0.533	2020	Popular Music, Technology, and the Changing Media Ecosystem: From Cassettes to Stream	Tamas Tofalvy; Emília Barna	Springer International Publishing	10.1007/978-3-030-44659-8
-False	0.531	2012	Electronic and Experimental Music	Thom Holmes	Routledge	10.4324/9780203128428
-False	0.531	2008	Electronic and Experimental Music	Thom Holmes; Thom Holmes	Routledge	10.4324/9780203929599
-False	0.531	2003	Electronic and Experimental Music	Thom Holmes; Thom Holmes	Routledge	10.4324/9780203427064
 False	0.531	2011	Introduction: The Many Futures of Computer Music	Roger T. Dean	Oxford University Press	10.1093/oxfordhb/9780199792030.013.0001
 False	0.53	2022	Women's Voices in Digital Media: The Sonic Screen from Film to Memes	Jennifer O’Meara	University of Texas Press	10.7560/324431
 False	0.525	2023	The Possibility Machine: Music and Myth in Las Vegas	Jake Johnson	University of Illinois Press	10.5622/illinois/9780252045417.001.0001
-False	0.518	2017	The Cambridge Companion to Electronic Music	Nick Collins; Julio d'Escrivan	Cambridge University Press	10.1017/9781316459874
-False	0.518	2007	The Cambridge Companion to Electronic Music	Nick Collins; Julio d'Escrivan	Cambridge University Press	10.1017/ccol9780521868617
 False	0.514	2015	Mathematics and Computation in Music: 5th International Conference, MCM 2015, London, UK, June 22-25, 2015, Proceedings	Tom Collins; David Meredith; Anja Volk	Springer International Publishing	10.1007/978-3-319-20603-5
 False	0.51	2016	Creativity: Technology and Music	Hans-Joachim Braun	Peter Lang D	10.3726/978-3-653-07037-8
-False	0.51	2017	The Routledge Companion to Music, Technology, and Education	Andrew King; Evangelos Himonides; S. Alex Ruthmann	Routledge	10.4324/9781315686431
 False	0.506	2023	Participatory Sound Art: Technologies, Aesthetics, Politics	Vadim Keylin	Springer Nature Singapore	10.1007/978-981-99-6357-7
-False	0.505	1998	Analysing Musical Multimedia	Nicholas Cook	Oxford University PressOxford	10.1093/oso/9780198165897.001.0001
+False	0.505	1998	Analysing Musical Multimedia	Nicholas Cook	Oxford University Press	10.1093/oso/9780198165897.001.0001
 False	0.504	2022	The Discourse Community of Electronic Dance Music	Anita Jóri	transcript Verlag	10.14361/9783839457580
 False	0.502	2017	Weekend Societies: Electronic Dance Music Festivals and Event-Cultures	Graham St John	Bloomsbury Publishing Inc	10.5040/9781501311413
 False	0.502	1993	Machine Models of Music	Stephan M. Schwanauer; David Levitt	The MIT Press	10.7551/mitpress/4360.001.0001
@@ -282,8 +272,8 @@ False	0.408	2026	Sonic Infrastructures: Mediating National Cinemas in West and S
 False	0.406	1967	A Bibliography of Electronic Music	Lowell Cross	University of Toronto Press	10.3138/9781442653351
 False	0.405	2017	Computational Intelligence in Music, Sound, Art and Design: 6th International Conference, EvoMUSART 2017, Amsterdam, The Netherlands, April 19–21, 2017, Proceedings	João Correia; Vic Ciesielski; Antonios Liapis	Springer International Publishing	10.1007/978-3-319-55750-2
 False	0.405	2018	Computational Intelligence in Music, Sound, Art and Design: 7th International Conference, EvoMUSART 2018, Parma, Italy, April 4-6, 2018, Proceedings	Antonios Liapis; Juan Jesús Romero Cardalda; Anikó Ekárt	Springer International Publishing	10.1007/978-3-319-77583-8
-False	0.404	2020	Music Learning Today: Digital Pedagogy for Creating, Performing, and Responding to Music	William I. Bauer	Oxford University PressNew York	10.1093/oso/9780197503706.001.0001
-False	0.404	2014	Music Learning Today: Digital Pedagogy for Creating, Performing, and Responding to Music	William I. Bauer	Oxford University PressNew York	10.1093/acprof:oso/9780199890590.001.0001
+False	0.404	2020	Music Learning Today: Digital Pedagogy for Creating, Performing, and Responding to Music	William I. Bauer	Oxford University Press	10.1093/oso/9780197503706.001.0001
+False	0.404	2014	Music Learning Today: Digital Pedagogy for Creating, Performing, and Responding to Music	William I. Bauer	Oxford University Press	10.1093/acprof:oso/9780199890590.001.0001
 False	0.399	2013	Less Noise, More Soul: The Search for Balance in the Art, Technology and Commerce of Music	Flitner David	Hal Leonard Books	10.5040/9798216544555
 False	0.399	2023	Electroacoustic Waves in Piezoelectric Layered Composites	Ara Sergey Avetisyan	Springer International Publishing	10.1007/978-3-031-26731-4
 False	0.395	2022	The Cognitive Continuum of Electronic Music	Anıl Çamcı	Bloomsbury Publishing Inc	10.5040/9781501357152
@@ -313,6 +303,7 @@ False	0.334	1961	Serial Music: A Classified Bibliography of Writings on Twelve-T
 False	0.334	2023	Serial Music: A Classified Bibliography of Writings on Twelve-Tone and Electronic Music	ANN PHILLIPS BASART	University of California Press	10.2307/jj.2430758
 False	0.331	2025	Musical Genre: Assemblage, Abstraction, and Digital Terms	Mads Krogh	Bloomsbury Publishing Plc	10.5040/9798765100110
 False	0.33	2009	Mathematics and Computation in Music	Elaine Chew; Adrian Childs; Ching-Hua Chuan	Springer Berlin Heidelberg	10.1007/978-3-642-02394-1
+False	0.33	2018	Sound and Music Computing		MDPI	10.3390/books978-3-03842-908-1
 False	0.33	2016	Networked Music Cultures	Raphaël Nowak; Andrew Whelan	Palgrave Macmillan UK	10.1057/978-1-137-58290-4
 False	0.327	2017	Independent Music and Digital Technology in the Philippines	Monika E. Schoop	Routledge	10.4324/9781315403267
 False	0.326	2018	The Music Producer’s Survival Guide: Chaos, Creativity, and Career in Independent and Electronic Music	Brian M. Jackson	Routledge	10.4324/9781315519777
@@ -354,14 +345,14 @@ False	0.249	2010	An Introduction to Music Technology	Dan Hosken	Routledge	10.432
 False	0.249	2014	An Introduction to Music Technology	Dan Hosken	Routledge	10.4324/9780203539149
 False	0.248	1982	Bella Coola Indian music: A study of the interaction between Northwest Coast Indian structures and their functional contex	ANTON F. KOLSTEE	Canadian Museum of History	10.2307/j.ctv16r6n
 False	0.248	2022	Introduction to Digital Music with Python Programming: Learning Music with Code	Michael S. Horn; Melanie West; Cameron Roberts	Focal Press	10.4324/9781003033240
-False	0.247	2023	Key Changes: The Ten Times Technology Transformed the Music Industry	Howie Singer; Bill Rosenblatt	Oxford University PressNew York	10.1093/oso/9780197656891.001.0001
+False	0.247	2023	Key Changes: The Ten Times Technology Transformed the Music Industry	Howie Singer; Bill Rosenblatt	Oxford University Press	10.1093/oso/9780197656891.001.0001
 False	0.234	2005	Computer Music Modeling and Retrieval: Second International Symposium, CMMR 2004, Esbjerg, Denmark, May 26-29, 2004. Revised Papers	Uffe Kock Wiil	Springer Berlin Heidelberg	10.1007/b105507
 False	0.232	2013	Jazz and Machine-Age Imperialism: Music, "Race," and Intellectuals in France, 1918-1945	Jeremy Lane	University of Michigan Press	10.3998/mpub.5328915
-False	0.231	2022	Theory and Practice of Technology-Based Music Instruction: Second Edition	Jay Dorfman	Oxford University PressNew York	10.1093/oso/9780197558980.001.0001
+False	0.231	2022	Theory and Practice of Technology-Based Music Instruction: Second Edition	Jay Dorfman	Oxford University Press	10.1093/oso/9780197558980.001.0001
 False	0.219	2024	Collaboration, Engagement, and Tradition in Contemporary and Electronic Music: NoiseFloor Perspectives	Marc Estibeiro; Dave Payling; David Cotter	Focal Press	10.4324/9781003430360
 False	0.216	2024	Broadcasting Fidelity: German Radio and the Rise of Early Electronic Music	Myles W. Jackson	Princeton University Press	10.1515/9780691260846
 False	0.216	2024	Broadcasting Fidelity: German Radio and the Rise of Early Electronic Music	MYLES W. JACKSON	Princeton University Press	10.2307/jj.14736612
-False	0.213	2022	Music and Technology: A Very Short Introduction	Mark Katz	Oxford University PressNew York	10.1093/actrade/9780199946983.001.0001
+False	0.213	2022	Music and Technology: A Very Short Introduction	Mark Katz	Oxford University Press	10.1093/actrade/9780199946983.001.0001
 False	0.209	2018	Machine Learning and Music Generation	José M. Iñesta; Darrell Conklin; Rafael Ramírez-Melendez	Routledge	10.4324/9781351234542
 False	0.203	2018	Basic Music Technology: An Introduction	Guerino Mazzola; Yan Pang; William Heinze	Springer International Publishing	10.1007/978-3-030-00982-3
 False	0.199	2018	Local Identity, World Music 2.0, and Electronic Dance Music	Barbara Rose Lange	Oxford University Press	10.1093/oso/9780190245368.003.0009
@@ -381,7 +372,6 @@ False	0.139	2022	Rethinking the Music Business: Music Contexts, Rights, Data, an
 False	0.138	2025	Audio Augmented Reality: Concepts, Technologies and Narratives	Matias Harju	Focal Press	10.4324/9781003627289
 False	0.137	2026	Examining Secrets and Revelation In Music and Audio Technology Cultures	Samantha Bennett	Cambridge University Press	10.1017/9781009158824
 False	0.108	2021	Native North American Music and Oral Data: A Catalogue of Sound Recordings, 1893-1976	Dorothy Lee	Indiana University Press	10.2979/nativenorthamericanm
-False	0.105	1999	Music, Cognition, and Computerized Sound: An Introduction to Psychoacoustics	Perry R. Cook	The MIT Press	10.7551/mitpress/4808.001.0001
 False	0.104	2018	Structural Networks and the Experience of Musical Time	Jason Yust	Oxford University Press	10.1093/oso/9780190696481.003.0005
 False	0.088	2014	Locating Publics: Forms of Social Order in an Electronic Music Scene	Florian Grote	Springer Fachmedien Wiesbaden	10.1007/978-3-658-05407-6
 False	0.081	1993	Artificial Perception and Music Recognition	Andranick S. Tanguiane	Springer-Verlag	10.1007/bfb0019384

@@ -74,6 +74,11 @@ def get(url, params):
     raise RuntimeError(url)
 
 
+def publisher_name(p):
+    """Crossref runs the place into some publisher names ("Oxford University PressNew York, NY")."""
+    return re.sub(r"(Press)(?=[A-Z]).*$", r"\1", p or "")
+
+
 def item_year(it):
     for k in ("published-print", "published-online", "issued", "created"):
         dp = (it.get(k) or {}).get("date-parts")

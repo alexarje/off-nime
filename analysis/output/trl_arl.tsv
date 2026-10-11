@@ -3963,7 +3963,6 @@ cited:hahn2002pikapikathecolla	Cited	2002	Pikapika – the collaborative composi
 cited:mccartney2002rethinkingthecom	Cited	2002	Rethinking the Computer Music Language: SuperCollider	9	industrial			medium	abstract	SuperCollider language, widely adopted
 cited:blaine2003collaborativemus	Cited	2003	Collaborative Musical Experiences for Novices	5	applied			high	abstract	Collaborative musical instruments for novices, designed and tested
 cited:barbosa2003displacedsoundsc	Cited	2003	Displaced Soundscapes: A Survey of Network Systems for Music and Sonic Art Creation	1	fundamental	5	development	medium	abstract	Survey of network systems for sonic art
-cited:paradiso2003electromagnetict	Cited	2003	Electromagnetic Tagging for Electronic Music Interfaces	4	applied			high	abstract	Electromagnetic tagging interface, real-time prototype
 cited:collins2003livecodinginlapt	Cited	2003	Live coding in laptop performance	1	fundamental	5	development	medium	abstract	Essay on live coding in laptop performance
 cited:pachet2003thecontinuatormu	Cited	2003	The Continuator: Musical Interaction With Style	4	applied			high	abstract	Continuator system for stylistic interaction
 cited:schloss2003usingcontemporar	Cited	2003	Using Contemporary Technology in Live Performance: The Dilemma of the Performer	1	fundamental	5	development	medium	abstract	Reflection on performer dilemma with computers
@@ -4045,7 +4044,6 @@ cited:he2014contemporaryprac	Cited	2014	Contemporary Practices of Extending Trad
 cited:yang2014evaluatinggestur	Cited	2014	Evaluating Gesture-Augmented Keyboard Performance	4	applied			high	abstract	Depth-camera keyboard augmentation compared in user study
 cited:lyons2014howtodesignandbu	Cited	2014	How to design and build musical interfaces	1	fundamental			medium	abstract	Course notes on building musical interfaces
 cited:wigdor2014inputoutputdevic	Cited	2014	Input/Output Devices and Interaction Techniques	1	fundamental			medium	abstract	Handbook chapter surveying input-output devices
-cited:rodrigues2014intonaspacioadig	Cited	2014	Intonaspacio: A Digital Musical Instrument for Exploring Site-Specificities in Sound	3	fundamental	5	development	low	title	Instrument for site-specific sound; title only
 cited:mclean2014makingprogrammin	Cited	2014	Making programming languages to dance to: live coding with tidal	8	industrial	6	development	medium	abstract	Tidal live-coding language, widely used in performance
 cited:vannort2014mappingcontrolst	Cited	2014	Mapping Control Structures for Sound Synthesis: Functional and Topological Perspectives	2	fundamental			high	abstract	Conceptual mapping framework with example applications
 cited:caramiaux2014mappingthroughli	Cited	2014	Mapping Through Listening	3	fundamental			high	abstract	Listening-based mapping approach, design principle
@@ -4101,7 +4099,6 @@ cited:jack2017richgesturereduc	Cited	2017	Rich gesture, reduced control: the inf
 cited:gregorio2017soundandinteract	Cited	2017	Sound and Interaction Design of an Augmented Drum System	3	fundamental	4	development	medium	abstract	Ongoing augmented drum design, sound design developing
 cited:wu2017supportingnonmus	Cited	2017	Supporting Non-Musicians? Creative Engagement with Musical Interfaces	4	applied			high	abstract	Study of non-musicians with interactive systems
 cited:nijs2017themergingofmusi	Cited	2017	The Merging of Musician and Musical Instrument	1	fundamental			high	abstract	Conceptual embodied cognition chapter
-cited:correia2017theroleoflivevis	Cited	2017	The Role of Live Visuals in Audience Understanding of Electronic Music Performances	4	applied			high	abstract	Audience study of live visuals
 cited:donovan2017travelingwavecon	Cited	2017	Traveling wave control of stringed musical instruments	3	fundamental			high	abstract	Traveling wave control applied to string, lab demonstration
 cited:xamb2017turntakingandcha	Cited	2017	Turn-Taking and Chatting in Collaborative Music Live Coding	4	applied	3	exploration	high	abstract	Study of collaborative live coding communication
 cited:zlatintsi2018awebbasedrealtim	Cited	2018	A Web-based Real-Time Kinect Application for Gestural Interaction with Virtual Musical Instruments	3	fundamental			high	abstract	Web-based Kinect application demonstrated
@@ -4243,7 +4240,6 @@ cited:veytizou2026caractrisationde	Cited	2026	Caractérisation des spécificité
 cited:boyer2026continuousaudito	Cited	2026	Continuous auditory feedback for sensorimotor learning	4	applied			medium	abstract	Thesis with experiments on continuous auditory feedback
 cited:davison2026designexploratio	Cited	2026	Design Explorations of Instruments and Interactions with Bidirectional Haptic Couplings	3	fundamental	4	development	medium	abstract	Design explorations of haptic-coupled instruments
 cited:ghomi2026designingexpress	Cited	2026	Designing expressive interaction techniques for novices inspired by expert activities : the case of musical practice	4	applied			medium	abstract	Thesis on expressive interaction techniques for novices
-cited:ismail2026embodiedmusicali	Cited	2026	Embodied Musical Interaction through Everyday Objects	3	fundamental			high	abstract	Poster system for everyday percussive gestures
 cited:hemery2026modelingrecognit	Cited	2026	Modeling, recognition of finger gestures and upper-body movements for musical interaction design	4	applied			medium	abstract	Thesis presenting EMI instrument and gesture recognition
 cited:mcpherson2026notesarentrealan	Cited	2026	Notes aren’t real: An anti-framework for entangled instrument design	1	fundamental			high	abstract	Critical anti-framework on entanglement theories
 cited:hu2026nudgingthesomase	Cited	2026	Nudging the Somas: Exploring How Live-Configurable Mixed Reality Objects Shape Open-Ended Intercorporeal Movements	5	applied	6	development	high	abstract	MR performance system tested with co-located groups
@@ -4525,15 +4521,12 @@ related:forment2026sovaalibreop	Related	2026	Sova: A Libre / Open Source Polyglo
 related:turchet2019interactives	Related	2019	Interactive sonification and the IoT	2	fundamental			medium	abstract	Concept of IoT for interactive sonification
 related:s2000amultiratefi	Related	2000	A multirate, finite-width, bow-string interaction model	3	fundamental			medium	abstract	Efficient bow-string interaction model proposed
 related:berger2023exploringthe	Related	2023	Exploring the past with virtual acoustics and virtual reality	5	applied			medium	abstract	Virtual acoustics and VR used to reconstruct historical sites
-related:gupta2026virtualplayi	Related	2026	Virtual Playing, Real Touch: The Haptics of Musical Instruments	4	applied			high	abstract	Virtual haptic feedback for musical instruments compared in study
 related:weinel2021synaesthetic	Related	2021	Synaesthetic Audio-Visual Sound Toys in Virtual Reality	6	applied	6	development	high	abstract	VR sound toys iterated on Oculus Quest and shown
 related:fehr2015indirectionb	Related	2015	Indirection between movement and sound in an interactive sound installation	6	applied	7	dissemination	high	abstract	New interactive sound installation driven by movement qualities
 related:grebel2026designingint	Related	2026	Designing Interactive Movement Sonification For Hip-Hop Dance	4	applied	4	development	medium	abstract	Movement sonification for hip-hop dance, autobiographical design
 related:bartlett1979amicrocomput	Related	1979	A Microcomputer-Controlled Synthesis System for Live Performance	7	industrial	7	dissemination	medium	abstract	Microcomputer synthesis system built for live performance
-related:shakhovskaia2017obrazovaniec	Related	2017	Obrazovanie cherez vsiu zhizn' kak instrument bor'by s bednost'iu v RF					high	abstract	Russian poverty and lifelong education, no music technology
 related:alves2023towardsconsc	Related	2023	Towards conscientiousness-based graphical user interface design guidelines	2	fundamental			low	title	GUI design guidelines proposed; abstract missing
 related:roberts2015sharingtimea	Related	2015	Sharing Time and Code in a Browser-Based Live Coding Environment	6	applied	6	development	high	abstract	Gibber extended for networked live coding performances
-related:rebelo2006hapticsensat	Related	2006	Haptic sensation and instrumental transgression	1	fundamental	3	exploration	medium	abstract	Essay on haptic sensation and instrument relationship
 related:desaintecatherine1994journeesdinf	Related	1994	Journees d'Informatique Musicale (JIM '94)					low	title	Conference report only
 related:pachet1996jimjourneesd	Related	1996	JIM'95: Journees d'Informatique Musicale					low	title	Conference report only
 related:chemillier1997jimthirdjour	Related	1997	JIM'96: Third Journees d'Informatique Musicale					low	title	Conference report only
@@ -4544,7 +4537,6 @@ related:jin2003individualiz	Related	2003	Individualization in spatial-audio codi
 related:grani2016gesturalcont	Related	2016	Gestural Control of Wavefield Synthesis	3	fundamental			low	title	Gestural control of wavefield synthesis; no abstract
 related:grant2013meuserecomme	Related	2013	MeUse: Recommending Internet Radio Stations.	3	fundamental			low	title	Radio station recommender; title only
 related:flossmann2010themagaloffp	Related	2010	The Magaloff Project: An Interim Report	5	applied			medium	abstract	Piano performance data acquisition project, interim report
-related:mariadimitra2008towardsadeco	Related	2008	Towards a Decodification of the Graphical Scores of Anestis Logothetis (1921-1994). The Graphical Space of Odysee(1963)			2	exploration	low	title	Graphical score decoding, title only
 related:pachet2002playingwithv	Related	2002	Playing with Virtual Musicians: the Continuator in Practice	6	applied	6	development	low	title	Continuator used in practice; title only
 related:kocher2014polytemponet	Related	2014	Polytempo Network: A System for Technology-assisted Conducting	6	applied	6	development	low	title	Polytempo Network conducting system; no abstract
 related:haugen2016evaluatingin	Related	2016	Evaluating Input Devices for Dance Research	4	applied			high	abstract	Three accelerometer devices benchmarked against optical motion capture
@@ -4553,7 +4545,6 @@ related:jap2019realtimemapp	Related	2019	Real-time Mapping of Periodic Dance Mov
 related:camurri2004expressivege	Related	2004	Expressive Gestural Control of Sound and Visual Output in Multimodal Interactive Systems	3	fundamental	3	exploration	low	title	Gestural control of sound and visuals; no abstract
 related:m2000extendedperf	Related	2000	Extended performance techniques for a virtual instrument	3	fundamental	4	development	medium	abstract	Extended techniques for bowed string model with metasaxophone
 related:brazil2017livecodingco	Related	2017	Live Coding Console with Remote Audience into the web Guilherme Martins Lunhani1 , Flávio Luiz Schiavoni2 Rua Abolição 403 – 18044-070, Sorocaba, SP	3	fundamental			medium	abstract	Web live coding console with remote audience, prototype
-related:bianchi2011obfuscatinga	Related	2011	Obfuscating authentication through haptics, sound and light	3	fundamental			medium	abstract	Five PIN entry systems using haptics, sound and light
 related:correya2020essentiajsaj	Related	2020	Essentia.js: A JavaScript Library for Music and Audio Analysis on the Web	8	industrial			medium	title	Essentia.js released JavaScript audio analysis library
 related:mckinney2012yigthefather	Related	2012	Yig, the Father of Serpents: A Real-time Network Music Performance Environment	6	applied	6	development	low	title	Yig network music performance environment; no abstract
 related:baba2012amultitimeli	Related	2012	A Multi-timelines Scheduler and a Rehearsal Function for Improving Users' Sensation of Orchestral Conducting With a Conducting System	4	applied			low	title	Conducting system scheduler and rehearsal function; no abstract
@@ -4572,31 +4563,19 @@ related:weinberg1999themusicalpl	Related	1999	The Musical Playpen: An immersive 
 related:hantrakul2014implementati	Related	2014	Implementations of the Leap Motion device in sound synthesis and interactive live performance	4	applied	6	development	medium	abstract	Leap Motion implementations for synthesis and live performance
 related:fontana2014perceptionof	Related	2014	Perception of Interactive Vibrotactilecues on the Acoustic Grand and Upright Piano	4	applied			low	title	Piano vibrotactile cue perception experiment; no abstract
 related:mountain2005theinternett	Related	2005	The internet: The untended garden					high	abstract	Opinion on internet and live performance, no technology built
-related:mizutani2019thresholdsof	Related	2019	Thresholds of Haptic and Auditory Perception in Midair Facial Stimulation	4	applied			high	abstract	Perceptual thresholds of ultrasound facial stimulation measured
 related:behrman1991designingint	Related	1991	Designing interactive computer-based music installations	1	fundamental	3	exploration	low	title	Installation design discussion; title only
 related:burattini2023theeffectofa	Related	2023	The effect of an audio-video stimulation on emotions: a virtual reality study	4	applied			medium	abstract	VR study of audio-video stimulation effects on emotion
-related:beaurelais1996implosionsko	Related	1996	Implosions: Kolbeinn Bjarnason, flute			7	dissemination	low	title	Flute recording review; title only
 related:kruger2020playingtechn	Related	2020	Playing technique classification for bowed string instruments from raw audio	3	fundamental			high	abstract	SVM classification of bowed string playing techniques
 related:czyzewski2013multimodalhu	Related	2013	Multimodal human-computer interfaces based on advanced video and audio analysis	5	applied			medium	abstract	Multimodal interfaces for education and disabled users, applications
 related:roth2021tempowatchaw	Related	2021	TempoWatch: a Wearable Music Control Interface for Dance Instructors	5	applied			medium	abstract	TempoWatch wearable tested with dance instructors
 related:amento2002thesoundofon	Related	2002	The sound of one hand	4	applied			medium	abstract	Fingertip sound interaction technique discovered and demonstrated
-related:maggio2026tesiatoolkit	Related	2026	TESI: A Toolkit for Tangible and Embodied Sound Interaction	8	industrial			medium	abstract	TESI toolkit for sound interaction design
 related:kimura1996computersfor	Related	1996	Computers for Performers: Crossing the Boundaries for the Future	1	fundamental	6	development	medium	abstract	Personal account of performing with computers
-related:mcpherson2011designandapp	Related	2011	Design and Applications of a Multi-touch Musical Keyboard	3	fundamental	3	exploration	low	title	Multi-touch musical keyboard; no abstract
 related:brandsttter2016gearsforaudi	Related	2016	Gears for audio-visual composition	3	fundamental	3	exploration	medium	abstract	Gears circular tool for audio-video composition, prototype
 related:schramm2016cmsaninterac	Related	2016	3CMS: An Interactive Decision System for Live Performance	3	fundamental	4	development	medium	abstract	3CMS decision system for live performance, designed
 related:fitz2003cellutesandf	Related	2003	Cell-Utes and Flutter-Tongued Cats: Sound Morphing Using Loris and the Reassigned Bandwidth-Enhanced Model	8	industrial	5	development	medium	abstract	Loris sound morphing library and reassigned model
-related:amemiya2009locationfree	Related	2009	Location-free haptic interaction for large-area social applications	3	fundamental			low	title	Location-free haptic interaction; abstract missing
-related:klauer2017sonicinterac	Related	2017	Sonic Interaction Design for Paper Wearables	5	applied	4	development	medium	abstract	Workshop on sonic interaction design for paper wearables
 related:greenspun1990theartofdigi	Related	1990	The Art of Digital Audio	1	fundamental			low	abstract	Book blurb on digital audio
-related:duringer1997theevolution	Related	1997	The Evolution of the Musical Keyboard			3	exploration	medium	abstract	Artist statement on keyboard evolution
 related:chonchir2008theenchantin	Related	2008	The enchanting potential of technology: a dialogical case study of enchantment and the Internet					low	title	Case study of enchantment and the Internet; abstract missing
-related:roads1986thetsukubamu	Related	1986	The Tsukuba Musical Robot	5	applied			low	title	Tsukuba Musical Robot; title only
 related:zhao2024designofanin	Related	2024	Design of an interactive installation for Chu music and dance based on image recognition	3	fundamental	5	development	medium	abstract	Interactive installation design with image recognition for Chu culture
-related:hiller1981composingwit	Related	1981	Composing with Computers: A Progress Report			4	development	low	title	Progress report on composing with computers
-related:hurley2007performanceo	Related	2007	Performance of Philips Audio Fingerprinting under Desynchronisation.	4	applied			medium	title	Audio fingerprinting performance under desynchronisation measured
-related:ilsar2020anewaudiovis	Related	2020	A New Audio-Visual Gestural Instrument for Unlocking Creativity	7	industrial	7	dissemination	high	abstract	AirSticks instrument used professionally worldwide with many mappings
-related:turchet2019haptificatio	Related	2019	Haptification of performer's control gestures in live electronic music performance	6	applied	6	development	high	abstract	Audience haptic wearables tested in concert experiment
 related:burnett2023userexpectat	Related	2023	User Expectation of Room Acoustic Parameters in Virtual Reality Environments	4	applied			high	abstract	Psychoacoustic experiment on reverberation expectations in VR
 related:jhnichen2025changingmusi	Related	2025	Changing Musical Instruments and AI; Musical Instruments in Public Life	1	fundamental			low	title	Edited volume on instruments and AI; conceptual, title only
 related:rveillac2019electronicmu	Related	2019	Electronic Music Machines: The New Musical Instruments	1	fundamental			low	title	Overview of electronic instruments; descriptive book
@@ -4622,7 +4601,6 @@ related:bloustien2017sonicsynergi	Related	2017	Sonic Synergies: Music, Technolog
 related:hermes2021performingel	Related	2021	Performing Electronic Music Live	8	industrial	7	dissemination	low	title	Practical guide to performing live electronic music
 related:anon2015thedigitalev	Related	2015	The Digital Evolution of Live Music	1	fundamental			low	title	Overview of digital changes in live music
 related:sallis2017liveelectron	Related	2017	Live Electronic Music: Composition, Performance, Study	1	fundamental			low	title	Study of live electronic music practice and analysis
-related:manning2013electronican	Related	2013	Electronic and Computer Music	1	fundamental			medium	title	Textbook survey of electronic and computer music history
 related:brett2021thecreativee	Related	2021	The Creative Electronic Music Producer	8	industrial	7	dissemination	low	title	Practical guide to electronic music production
 related:payling2023electronicvi	Related	2023	Electronic Visual Music: The Elements of Audiovisual Creativity	1	fundamental	7	dissemination	low	title	Study of visual music works and creative practice
 related:peters2012bodilyexpres	Related	2012	Bodily Expression in Electronic Music	1	fundamental			medium	title	Theory of bodily expression in electronic music
@@ -4639,7 +4617,6 @@ related:lazzarini2017computermusi	Related	2017	Computer Music Instruments	8	indu
 related:wishart2011computermusi	Related	2011	Computer Music: Some Reflections	1	fundamental			medium	title	Composer reflections on computer music
 related:lennox2011spatializati	Related	2011	Spatialization and Computer Music	1	fundamental			medium	title	Essays on spatialisation in computer music
 related:cope2001virtualmusic	Related	2001	Virtual Music: Computer Synthesis of Musical Style	3	fundamental	6	development	low	title	Computer system composing music in style; works presented
-related:miranda2007evolutionary	Related	2007	Evolutionary Computer Music	3	fundamental	4	development	low	title	Evolutionary computation applied to music; prototype methods
 related:dean2011theoxfordhan	Related	2011	The Oxford Handbook of Computer Music	1	fundamental			medium	title	Handbook of computer music; survey of ideas
 related:guillaume2006musicandacou	Related	2006	Music and Acoustics: From Instrument to Computer	1	fundamental			medium	title	Textbook on acoustics and instruments
 related:dean2011envisagingim	Related	2011	Envisaging Improvisation in Future Computer Music	2	fundamental	3	exploration	low	title	Chapter envisaging future improvisation with computers
@@ -4647,7 +4624,6 @@ related:keislar2011ahistoricalv	Related	2011	A Historical View of Computer Music
 related:lazzarini2019computermusi	Related	2019	Computer Music Instruments II: Realtime and Object-Oriented Audio	8	industrial			medium	title	Textbook on real-time audio programming tools
 related:nelson2015thesoundofin	Related	2015	The Sound of Innovation: Stanford and the Computer Music Revolution	1	fundamental			medium	title	History of Stanford computer music
 related:miranda2025advancesinqu	Related	2025	Advances in Quantum Computer Music	2	fundamental			medium	title	Concepts for quantum computing in music
-related:gabrielli2016wirelessnetw	Related	2016	Wireless Networked Music Performance	4	applied			low	title	Technical volume on networked performance, lab evaluations
 related:turowski2026gamefulcompo	Related	2026	Gameful Compositions in Interactive Computer Music	2	fundamental	3	exploration	low	title	Compositional concepts for gameful interactive music
 related:politis2016digitaltools	Related	2016	Digital Tools for Computer Music Production and Distribution	8	industrial			low	title	Reference on established music production tools
 related:ng2008interactivem	Related	2008	Interactive Multimedia Music Technologies	4	applied			low	title	Edited volume on multimedia music technologies
@@ -4691,7 +4667,6 @@ related:amc2026virtualreali	Related	2026	Virtual Reality Audio: A Guide to Immer
 related:thorley2016virtualmusic	Related	2016	Virtual Music, Virtual Money					medium	title	Study of music economy; no technology built
 related:casanelles2024thehyperorch	Related	2024	The Hyperorchestra: Screen Music and Virtual Musical Ensembles	1	fundamental			low	title	Study of screen music and virtual ensembles
 related:drymonitis2024digitalelect	Related	2024	Digital Electronics for Musicians: Build Intuitive Electronics and Electroacoustic Music Interfaces	8	industrial	7	dissemination	low	title	Practical guide to building electronics and interfaces
-related:music1995graphicaldis	Related	1995	Graphical Display of Musical Information i: Durham Music Technology i:	3	fundamental			medium	abstract	Analysis system with example graphical outputs; prototype stage
 historical:praetorius1619syntagmamusi	Historical	1619	Syntagma musicum II: De organographia	1	fundamental			high	title	Organological treatise
 historical:mersenne1636harmonieuniv	Historical	1636	Harmonie universelle	1	fundamental			high	title	Theoretical and organological treatise
 historical:kircher1650musurgiauniv	Historical	1650	Musurgia universalis	1	fundamental			high	title	Treatise on music and acoustics, largely theory
@@ -5156,7 +5131,6 @@ zotero:bluff2014creativecont	Zotero	2014	Creative Control of Granular Synthesis 
 zotero:deweppe2014engagingaudi	Zotero	2014	Engaging Audiences through a Participatory Design Approach with the Interactive Music Installation'SoundField'	6	applied	7	dissemination	high	title	Participatory installation design
 zotero:keller2014ensembleperf	Zotero	2014	Ensemble Performance: Interpersonal Alignment of Musical Expression	1	fundamental			medium	title	Ensemble alignment review
 zotero:visi2014gestureinper	Zotero	2014	Gesture in performance with traditional musical instruments and electronics: Use of embodied music cognition and multimodal motion capture to design gestural mapping strategies	4	applied	6	development	medium	title	Gesture in performance with electronics
-zotero:koehly2014inhousedevel	Zotero	2014	In-House Development of Paper Force Sensors for Musical Applications	4	applied			medium	title	Paper force sensors built
 zotero:mota2014influenceofe	Zotero	2014	Influence of Expressive Coupling in Ensemble Performance on Musicians’ Body Movement	1	fundamental			medium	title	Ensemble movement study
 zotero:gawthrop2014intermittent	Zotero	2014	Intermittent Control in Man and Machine	1	fundamental			medium	abstract	Control theory review
 zotero:ogborn2014livecodingin	Zotero	2014	Live coding in a scalable, participatory laptop orchestra	7	industrial	7	dissemination	high	title	Live coding laptop orchestra
@@ -5659,3 +5633,40 @@ thesis:zou2025theeffectofasymm	Theses	2025	The Effect of Asymmetrical Device Inp
 thesis:anon2026exploringwassily	Theses	2026	Exploring Wassily Kandinsky’s Colour-Sound Associations Through An Interactive Music Installation	4	applied	6	development	high	abstract	Interactive installation exploring colour–sound associations
 thesis:florio2026thejointdidactic	Theses	2026	The Joint Didactic Action to build the art of dance : Study of the Rite of Spring of Pina Bausch					high	abstract	Didactic analysis of a dance work
 thesis:casciato2007onthechoiceofges	Theses	2007	On the Choice of Gestural Controllers for Musical Applications: An Evaluation of the Lightning II and the Radio Baton	4	applied			low	title	Evaluation of two existing gestural controllers in controlled conditions, title only
+cited:koehly2014inhousedevelopme	Cited	2014	In-House Development of Paper Force Sensors for Musical Applications	4	applied			high	abstract	Paper force sensors prototyped, compared with commercial sensors and used in several music controllers
+cited:harrison2017adaptingthebassg	Cited	2017	Adapting the Bass Guitar for One-Handed Playing	5	applied			low	title	Adapted bass guitar for one-handed playing, likely tested with players
+cited:hunter2025frominstallation	Cited	2025	From Installation to Instrument: A Qualitative Inquiry into Gesture, Expression, and Composition with Soundscape	5	applied	5	development	low	title	Qualitative inquiry with performers into gesture and composition with a soundscape instrument
+related:wu2023unlogicalins	Related	2023	Unlogical instrument: Material-driven gesture-controlled sound installation	6	applied	6	development	low	title	Material-driven gesture-controlled sound installation presented as a design work
+related:lab2003investigatio	Related	2003	INVESTIGATION OF THE PLAYABILITY OF VIRTUAL BOWED STRINGS Stejizizia Serajiiz, Diarza Yourzg CCRMA, Department of Music	3	fundamental			medium	abstract	Bow controller driving a bowed string physical model with preliminary results
+related:s2000interactived	Related	2000	Interactive digital audio environments: gesture as a musical parameter	1	fundamental			medium	abstract	Conceptual discussion of gesture and sound relationships in interactive audio environments
+related:camurri2012theeyeswebhu	Related	2012	The EyesWeb human movement analysis library Stefano Piana	8	industrial			medium	abstract	Motion analysis library released within the open EyesWeb XMI platform
+related:passalenti2019nostringsatt	Related	2019	No Strings Attached: Force and Vibrotactile Feedback in a Guitar Simulation	4	applied			low	title	Guitar simulation with force and vibrotactile feedback, probably evaluated in the lab
+related:kimboyle2010realtimescor	Related	2010	Real-time Score Generation for Extensible Open Forms	5	applied	6	development	low	title	Real-time score generation for open-form works, likely used in performance
+related:maestre2014abowedstring	Related	2014	A Bowed String Physical Model Including Finite-width Thermal Friction and Hair Dynamics	3	fundamental			low	title	Bowed string physical model extended with thermal friction and hair dynamics
+related:yamaguchi2023thedemonstra	Related	2023	The Demonstration of MVP Support System as an AR Realtime Pitch Feedback System	4	applied			low	title	Demonstration of an augmented reality real-time pitch feedback system
+related:tillman2020realtimeopti	Related	2020	Real-Time Optical Motion Capture Balance Sonification System	4	applied			low	title	Real-time balance sonification system built on optical motion capture
+related:bergsland2019vibratechnic	Related	2019	VIBRA - Technical and Artistic Issues in an Interactive Dance Project	6	applied	7	dissemination	low	title	Technical and artistic issues in a performed interactive dance project
+related:burloiu2017structuredin	Related	2017	Structured interaction in the SoundThimble real-time gesture sonification framework	4	applied	4	development	low	title	Gesture sonification framework with structured interaction
+related:leng2017auserdefined	Related	2017	A User-Defined Gesture Set for Music Interaction in Immersive Virtual Environment	3	fundamental			low	title	Elicitation study of a user-defined gesture set for music interaction in virtual reality
+related:andreasen2018navigateasab	Related	2018	Navigate as a Bat. Real-Time Echolocation System in Virtual Reality	4	applied			low	title	Real-time echolocation system in virtual reality, probably tested with users
+related:brandenburg2009wavefieldsyn	Related	2009	Wave Field Synthesis: Basics and Applications	8	industrial			low	title	Overview of wave field synthesis principles and deployed applications
+related:strangio1990rootsoftheco	Related	1990	Roots of the Conductor Program	1	fundamental			low	title	Historical account of the origins of the Conductor Program
+related:dobrian2019expressivege	Related	2019	Expressive Gesture : A technique for the use of gesture descriptors in algorithmic improvisation	3	fundamental	4	development	low	title	Technique for using gesture descriptors in algorithmic improvisation
+related:fiebrink2008supportformi	Related	2008	Support for MIR Prototyping and Real-Time Applications in the ChucK Programming Language.	8	industrial			low	title	Music information retrieval support added to the released ChucK language
+related:rubine1991thevideoharp	Related	1991	The videoharp: an optical scanning MIDI controller	4	applied			low	title	Optical scanning MIDI controller built as a working prototype
+related:temprano2021atmranglesen	Related	2021	A TMR Angle Sensor for Gesture Acquisition and Disambiguation on the Electric Guitar	4	applied			low	title	Angle sensor for gesture acquisition on the electric guitar tested in the lab
+related:magnusson2015codescoresin	Related	2015	Code scores in Live Coding	7	industrial	7	dissemination	medium	abstract	Live coding as notation with the Threnoscope system used in performance
+related:fontana2018evidenceofla	Related	2018	Evidence of Lateralization Cues in Grand and Upright Piano Sounds	4	applied			low	title	Measurement of lateralisation cues in grand and upright piano sounds
+related:katayose1989thekanseimus	Related	1989	The Kansei Music System	3	fundamental			low	title	Kansei music system for sensibility-based music processing
+related:hikichi2004shosoincontr	Related	2004	Sho-So-In: Control of a Physical Model of the Sho by Means of Automatic Feature Extraction from Real Sounds	3	fundamental			low	title	Physical model of the sho controlled by features extracted from recorded sounds
+related:bosman2024soundtrekavi	Related	2024	SoundTrek: A Virtual Reality Audio Perspective-Switching Game	4	applied			low	title	Virtual reality game prototype that switches audio perspective
+related:bosman2022theroleofaud	Related	2022	The Role of Audio in the Diegesis of Virtual Reality Games	1	fundamental			low	title	Study of the role of audio in the diegesis of virtual reality games
+related:manesh2024sharpexplori	Related	2024	SHARP: Exploring Version Control Systems in Live Coding Music	4	applied	4	development	low	title	Version control system for live coding music explored with users
+related:wall2010experimentin	Related	2010	Experimenting with Fandom, Live Music, and the Internet: Applying Insights from Music Fan Culture to New Media Production					low	title	Study of music fan culture applied to new media production
+related:men2021designingpri	Related	2021	Designing Privacy for Collaborative Music Making in Virtual Reality	3	fundamental			low	title	Design exploration of privacy in collaborative music making in virtual reality
+related:caetano2021morphingmusi	Related	2021	Morphing Musical Instrument Sounds with the Sinusoidal Model in the Sound Morphing Toolbox	8	industrial			low	title	Sound morphing toolbox for musical instrument sounds with the sinusoidal model
+related:li2023exploringthe	Related	2023	Exploring the Use of the SoundVizVR Plugin with Game Developers in the Development of Sound-Accessible Virtual Reality Games	5	applied			low	title	Sound accessibility plugin for virtual reality explored with game developers
+related:feldbusch2003thebtrcbluet	Related	2003	The BTRC Bluetooth remote control system	4	applied			low	title	Bluetooth remote control system with no evident musical application
+zotero:anon2007evolutionary	Zotero	2007	Evolutionary computer music	1	fundamental			low	title	Edited book surveying evolutionary computation in computer music
+zotero:mcpherson2011designandapp	Zotero	2011	Design and Applications of a Multi-Touch Musical Keyboard	4	applied	5	development	low	title	Multi-touch sensing keyboard designed and applied in musical contexts
+related:blackwell2022livecodingau	Related	2022	Live Coding: A User's Manual	7	industrial	7	dissemination	low	title	Book surveying established live coding systems and their use in public performance, title only

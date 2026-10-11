@@ -11,7 +11,7 @@ import re
 import sys
 from pathlib import Path
 
-from crossref import API, get, item_year
+from crossref import API, get, item_year, publisher_name
 from parse_refs import title_key
 
 HERE = Path(__file__).resolve().parent.parent
@@ -41,7 +41,8 @@ def main():
     have = set()
     for r in json.loads((HERE / "data" / "corpus.json").read_text()):
         have.add(title_key(r["title"]))
-    for name in ("Cited", "Background", "Theses", "Related", "Historical", "Zotero"):
+    # not Related, which holds the books this script admits
+    for name in ("Cited", "Background", "Theses", "Historical", "Zotero"):
         f = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
         if f.exists():
             for m in re.finditer(r"title = \{([^}]*)\}", f.read_text()):
@@ -58,7 +59,7 @@ def main():
             full = re.sub(r"\s+", " ", f"{t}: {sub}" if sub and sub.lower() not in t.lower() else t).strip()
             books.setdefault(it["DOI"].lower(), {
                 "doi": it["DOI"].lower(), "title": full, "year": item_year(it), "type": it.get("type"),
-                "publisher": it.get("publisher", ""),
+                "publisher": publisher_name(it.get("publisher")),
                 "authors": [f"{a.get('given', '')} {a.get('family', '')}".strip() for a in it.get("author", [])],
                 "editors": [f"{a.get('given', '')} {a.get('family', '')}".strip() for a in it.get("editor", [])],
                 "query": q})

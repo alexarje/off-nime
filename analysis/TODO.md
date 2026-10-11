@@ -35,7 +35,11 @@
 ## Next
 
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
-- [ME] Fix aggregator school names (Zenodo, NORA, ERA, LA Referencia) in the thesis records.
+- [ARJ] Related, from the agent's TRL reading: `related:feldbusch2003thebtrcbluet` (a Bluetooth
+  remote control) looks off topic, and `related:wall2010experimentin`, the virtual-reality game
+  audio papers and the wave field synthesis overview are on the edge. `related:lab2003investigatio`
+  has author and affiliation text in its title, from Crossref. [Recommendation: leave the rule as
+  it is and drop single entries by hand once vetted, as for Theses.]
 - [ARJ] Skim `bibs/Theses/theses.bib` (409, selected by rule) and `output/candidates_theses.tsv`;
   the theses admitted because they cite the archives include some general HCI and VR work.
 - [ME] 1,866 non-English theses are listed in `output/candidates_theses_non_english.tsv`, most of

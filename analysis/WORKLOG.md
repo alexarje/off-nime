@@ -258,3 +258,16 @@ theses it had admitted; the comparison now leaves Theses out. That gives 409 the
 before, with the off-NIME check unchanged at 6 of 9. The run needs about 10 GB; it was killed at
 6 GB. An agent estimated TRL and ARL for the 213 new theses (batch 28).
 The TRL validation sheet is no longer rewritten once any row carries a label.
+
+Thesis school names that were repositories now name the university where the repository belongs
+to one (VTechWorks, KiltHub, TU/e Research Portal and others, and Bath Spa and Eindhoven by DOI
+prefix), and are left empty for national aggregators (INIST, the Czech grey-literature
+repository, RCAAP, Library and Archives Canada). The aggregator pattern matched "base" and "core"
+inside words, which would have emptied a name such as University of Basel. The abstracts that
+`fill_abstracts.py` finds by DOI for Cited, Background and Related were never written into those
+bib files; the builders now use them, and abstract coverage rose from 31% to 65% in Cited, 31% to
+46% in Background and 4% to 27% in Related (most of the rest of Related is books). Rerunning
+`score_journals.py` on the current corpus moved 21 papers out of Related and 31 in near the
+threshold. `books.py` excluded every title already in Related, which holds its own output, so a
+rerun admitted 1 book instead of 92; Related is now left out of that comparison. Crossref runs
+the place into some publisher names ("Oxford University PressNew York"); these are trimmed.

@@ -53,6 +53,13 @@ def from_text(text):
     return a if 150 <= len(a) <= 3000 and words and common / len(words) > 0.04 else ""
 
 
+def by_doi():
+    """The abstracts found by DOI for the rule-selected datasets, for the scripts that write them.
+    Entries new to a dataset get theirs on the next run, since this script reads the bib files."""
+    found = json.loads(OUT.read_text()) if OUT.exists() else {}
+    return {k: v["abstract"] for k, v in found.items() if k.startswith("10.") and not page_chrome(v["abstract"])}
+
+
 def main():
     found = json.loads(OUT.read_text()) if OUT.exists() else {}
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())

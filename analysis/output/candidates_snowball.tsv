@@ -1,5 +1,5 @@
 cited_by_cited_works	year	first_author	title	doi
-25	2007	M Leman	Embodied music cognition and mediation technology	10.7551/mitpress/7476.001.0001
+24	2007	M Leman	Embodied music cognition and mediation technology	10.7551/mitpress/7476.001.0001
 17	1978	JJ Gibson	The Ecological Approach to the Visual Perception of Pictures	10.2307/1574154
 14			Using thematic analysis in psychology	10.1191/1478088706qp063oa
 12			Ambiguity as a resource for design	10.1145/642611.642653
@@ -12,6 +12,7 @@ cited_by_cited_works	year	first_author	title	doi
 8			Design: Cultural Probes	10.1145/291224.291235
 8	2015	Katan	Using Interactive Machine Learning to Support Interface Development Through Workshops with Disabled People	10.1145/2702123.2702474
 8	2011	Fiebrink	Human model evaluation in interactive supervised learning	10.1145/1978942.1978965
+8			When Second Wave HCI Meets Third Wave Challenges	10.1145/1182475.1182476
 8	2005	Latour B.	Reassembling the Social:An Introduction to Actor-Network-Theory: An Introduction to Actor-Network-Theory	10.1093/oso/9780199256044.001.0001
 8			Spectromorphology: Explaining Sound-Shapes	10.1017/s1355771897009059
 7	1990	Csikszentmihalyi	Flow: The Psychology of Optimal Experience	
@@ -19,7 +20,7 @@ cited_by_cited_works	year	first_author	title	doi
 7			Sonic Writing: Technologies of Material, Symbolic, and Signal Inscriptions	10.5040/9781501313899
 7			Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter and Meaning	10.2307/j.ctv12101zq
 7			Adaptive gesture recognition with variation estimation for interactive systems	10.1145/2643204
-7			When Second Wave HCI Meets Third Wave Challenges	10.1145/1182475.1182476
+7	2004	A Hunt	Multiple Media Interfaces for Music Therapy	10.1109/mmul.2004.12
 7	1980	Russell	A circumplex model of affect.	10.1037/h0077714
 6	2006	Braun Virginia	Using thematic analysis in psychology. Qualitative research in psychology 3, 2	
 6	2009	Jensenius A. R.	Musical Gestures: Sound, Movement, and Meaning	
@@ -35,7 +36,6 @@ cited_by_cited_works	year	first_author	title	doi
 6			The Space between the Notes: Adding Expressive Pitch Control to the Piano Keyboard.	10.1145/2470654.2481302
 6	2013	Kirsh	Embodied cognition and the magical future of interaction design	10.1145/2442106.2442109
 6			Staying open to interpretation: engaging multiple meanings in design and evaluation	10.1145/1142405.1142422
-6	2004	A Hunt	Multiple Media Interfaces for Music Therapy	10.1109/mmul.2004.12
 6	2009	N.H. Rasamimanana	Effort-based Analysis of Bowing Movements: Evidence of Anticipation Effects	10.1080/09298210902731386
 6	2010	T. Bianco	Gesture in Embodied Communication and Human-Computer Interaction	10.1007/978-3-642-12553-9_12
 5		A.	Trends in gestural control of music, Wanderley	
@@ -121,6 +121,7 @@ cited_by_cited_works	year	first_author	title	doi
 4	2010	Robles	Texturing the "material turn" in interaction design	10.1145/1709886.1709911
 4	1993	Bier	Toolglass and magic lenses	10.1145/166117.166126
 4			Creativity support tools: accelerating discovery and innovation	10.1145/1323688.1323689
+4	2007	Zimmerman	“Research through design as a method for interaction design research in HCI,”	10.1145/1240624.1240704
 4			Does music performance allude to locomotion? A model of final ritardandi derived from measurements of stopping runners	10.1121/1.426687
 4	2007	T. Artieres	Online Handwritten Shape Recognition Using Segmental Hidden Markov Models	10.1109/tpami.2007.38
 4	2008	Fraser	Walk the Walk, Talk the Talk	10.1109/iswc.2008.4911601
@@ -230,7 +231,6 @@ cited_by_cited_works	year	first_author	title	doi
 3	2011	McPherson A.	Multidimensional gesture sensing at the piano keyboard	10.1145/1978942.1979355
 3	2010	Höök	Transferring qualities from horseback riding to design	10.1145/1868914.1868943
 3	2010	Holland	Feeling the beat where it counts	10.1145/1709886.1709892
-3	2007	Zimmerman	“Research through design as a method for interaction design research in HCI,”	10.1145/1240624.1240704
 3			The reification of metaphor as a design tool	10.1145/1188816.1188820
 3	2006	Klemmer	How bodies matter	10.1145/1142405.1142429
 3	2002	E Kohler	Hearing Sounds, Understanding Actions: Action Representation in Mirror Neurons	10.1126/science.1070311
@@ -295,5 +295,6 @@ cited_by_cited_works	year	first_author	title	doi
 3	2013	McDermott	Should music interaction be easy?	10.1007/978-1-4471-2990-5_2
 3			Towards a Participatory Approach for Interaction Design Based on Conceptual Metaphor Theory: A Case Study from Music Interaction	10.1007/978-1-4471-2990-5_15
 3			The language of electroacoustic music	10.1007/978-1-349-18492-7_5
+3	None	Tanaka	Interaction, Experience and the Future of Music	10.1007/1-4020-4097-0_13
 3	2007	Tam	Movement-to-music computer technology: A developmental play experience for children with severe physical disabilities	10.1002/oti
 3	2008	O’Brien	What is user engagement? a conceptual framework for defining user engagement with technology	10.1002/asi.20801

@@ -24,7 +24,7 @@ cites 5–9 archive entries	0.629	0.2797	-0.1017		9	2020	Advances in Computer Gr
 cites 5–9 archive entries	0.893	0.3112	0.0183		9	2019	A Case Study in Collaborative Learning via Participatory Music Interactive Systems: Interactive Tango Milonga	10.1007/978-3-319-92069-6_18
 cites 5–9 archive entries	0.862	0.2408	-0.107		9	2023	Composing Interface Connections for a Networked Touchscreen Ensemble	10.1109/ieeeconf59510.2023.10335226
 cites 5–9 archive entries	0.296	0.2413	-0.2046		9	2016	Music, Mind, and Embodiment: 11th International Symposium, CMMR 2015, Plymouth, UK, June 16-19, 2015, Revised Selected Papers	10.1007/978-3-319-46282-0
-not about NIME topics by the title classifier	0.315	0.2243	-0.075		9	2016	BOEUF: A Unified Framework for Modeling and Designing Digital Orchestras	10.1007/978-3-319-46282-0_10
+cites 5–9 archive entries	0.315	0.2243	-0.075		9	2016	BOEUF: A Unified Framework for Modeling and Designing Digital Orchestras	10.1007/978-3-319-46282-0_10
 cites 5–9 archive entries	0.96	0.3219	0.0105		9	2014	Mapping and interaction strategies for performing environmental sound	10.1109/sive.2014.7006286
 cites 5–9 archive entries	0.732	0.269	-0.1125		9	2018	User-independent Accelerometer Gesture Recognition for Participatory Mobile Music	10.17743/jaes.2018.0026
 cites 5–9 archive entries	0.845	0.2505	-0.1545		9	2011	Digital Music Performance for Mobile Devices Based on Magnetic Interaction	10.1109/tim.2011.2164283
@@ -34,6 +34,7 @@ cites 5–9 archive entries	0.87	0.3427	-0.0689		9	2019	DrWebusic : Real-time In
 cites 5–9 archive entries	0.845	0.2505	-0.1545		9	2010	Towards digital music performance for mobile devices based on magnetic interaction	10.1109/have.2010.5623990
 cites 5–9 archive entries	0.894	0.2121	-0.0854		9	2022	Mobile Music Development Tools for Creative Coders	10.31390/gradschool_dissertations.4935
 cites 5–9 archive entries	0.45	0.2069	-0.0232		9	2020	Levels of Detail in Visual Augmentation for Novice and Expert Audiences	10.1162/comj_a_00568
+cites 5–9 archive entries	0.882	0.2473	-0.1133		9	2017	The Role of Live Visuals in Audience Understanding of Electronic Music Performances	10.1145/3123514.3123555
 cites 5–9 archive entries	0.388	0.1441	-0.013		9	2019	The Influence of Coauthorship in the Interpretation of Multimodal Interfaces	10.1155/2019/9234812
 cites 5–9 archive entries	0.924	0.1678	-0.0839		9	2023	Suspended Circles: Soma Designing a Musical Instrument	10.1145/3544548.3581488
 cites 5–9 archive entries	0.991	0.4398	0.0883		9	2018	Gestural Control of Augmented Instrumental Performance: A Case Study of the Concert Harp	10.1145/3212721.3212814
@@ -53,7 +54,6 @@ cites 5–9 archive entries	0.944	0.1723	-0.0316		8	2024	The Perceptron: A Multi
 cites 5–9 archive entries	0.879	0.1658	-0.1723		8	2011	Balance Ball Interface for Performing Arts	10.1007/978-3-642-21669-5_52
 cites 5–9 archive entries	0.916	0.0	0.0		8	2010	TOUCHtr4ck: democratic collaborative music	10.1145/1935701.1935773
 cites 5–9 archive entries	0.953	0.2091	-0.0294		8	2025	Augmenting IoMusT Devices with Haptic Feedback: Design Tools and Strategies from Expert T-Stick Performers	10.1109/is264627.2025.11284670
-cites 5–9 archive entries	0.998	0.2173	-0.057		8	2025	From Installation to Instrument: A Qualitative Inquiry into Gesture, Expression, and Composition with Soundscape	10.1145/3771594.3771627
 cites 5–9 archive entries	0.668	0.2274	-0.32		8	2017	Integrating Gesture Data in Computer-aided Composition: A Framework for Representation, Processing and Mapping	10.1080/09298215.2016.1254662
 cites 5–9 archive entries	0.983	0.361	0.0516		8	2026	Construction, manipulation et visualisation de processus sonores dans des environnements virtuels immersifs pour la performance musicale	10.70675/ac9d5250zb14cz4f39z8182z74aa81ef169d
 cites 5–9 archive entries	0.867	0.1814	-0.0954		8	2021	Experiencing Embodied Sonic Meditation Through Body, Voice, and Multimedia Arts	10.1007/978-3-030-72507-5_8
@@ -112,6 +112,7 @@ cites 5–9 archive entries	0.647	0.2949	-0.4105		7	2018	Musical Haptics: Introd
 cites 5–9 archive entries	0.997	0.2222	-0.071		7	2018	A Comparison of Gestural and Touch-Based Interface for Designing a Virtual Percussion Instrument	10.1007/978-981-13-1628-9_24
 cites 5–9 archive entries	0.307	0.1665	-0.0463		7	2015	The Shake Stick	10.7287/peerj.preprints.995v1
 cites 5–9 archive entries	0.976	0.4037	-0.101		7	2008	TheBeatbug– evolution of a musical controller	10.1080/14626260701847373
+cites 5–9 archive entries	0.842	0.2135	-0.2044		7	2003	Electromagnetic Tagging for Electronic Music Interfaces	10.1076/jnmr.32.4.395.18858
 cites 5–9 archive entries	0.896	0.1892	0.0058		7	2020	New Interfaces and Approaches to Machine Learning When Classifying Gestures within Music	10.3390/e22121384
 cites 5–9 archive entries	0.95	0.3076	-0.0761		7	2017	Embodied Music Interaction: Creative Design Synergies Between Music Performance and HCI	10.1057/978-1-349-95241-0_14
 cites 5–9 archive entries	0.941	0.2981	0.0363		7	2022	Tapis Magique: Machine-knitted Electronic Textile Carpet for Interactive Choreomusical Performance and Immersive Environments	10.1145/3527927.3531451
@@ -192,7 +193,6 @@ cites 5–9 archive entries	0.96	0.1476	-0.0908		6	2022	Exploring visual stimuli
 cites 5–9 archive entries	0.989	0.1612	-0.123		6	2020	On making physical the control of audio plugins: the case of the retrologue hardware synthesizer	10.1145/3411109.3411114
 cites 5–9 archive entries	0.716	0.1841	-0.1515		6	2021	Musical agency and an ecological perspective of DMIs: collective embodiment in third wave HCI	10.1007/s00779-020-01429-9
 cites 5–9 archive entries	0.706	0.1958	-0.331		6	2019	An ubiquitous smart guitar system for collaborative musical practice	10.1080/09298215.2019.1637439
-cites 5–9 archive entries	0.951	0.2132	-0.1303		6	2017	Adapting the Bass Guitar for One-Handed Playing	10.1080/09298215.2017.1340485
 cites 5–9 archive entries	0.845	0.1559	-0.2997		6	2013	Electro/Acoustic Improvisation and Deeply Listening Machines	10.1080/09298215.2013.860465
 cites 5–9 archive entries	0.989	0.2979	-0.0187		6	2010	Tailoring tabletop interfaces for musical control	10.1145/1936652.1936751
 cites 5–9 archive entries	0.731	0.1608	-0.0409		6	2014	Rethinking the musical ensemble: A model for collaborative learning in higher education music technology	10.1386/jmte.7.3.279_1
@@ -205,6 +205,7 @@ cites 5–9 archive entries	0.974	0.4197	0.0119		6	2011	Interactive Musical Syst
 cites 5–9 archive entries	0.983	0.1562	0.0435		6	2020	Evaluation of Inertial Sensor Data by a Comparison with Optical Motion Capture Data of Guitar Strumming Gestures	10.3390/s20195722
 cites 5–9 archive entries	0.875	0.0	0.0		6	2007	CaMus 2: collaborative music performance with mobile camera phones	10.1145/1255047.1255086
 cites 5–9 archive entries	0.966	0.2988	-0.0553		6	2018	Gestural systems for the voice: performance approaches and repertoire	10.1080/14626268.2018.1541181
+cites 5–9 archive entries	0.925	0.2655	-0.1038		6	2026	Embodied Musical Interaction through Everyday Objects	10.1145/3803784.3816825
 cites 5–9 archive entries	0.789	0.1884	-0.1463		6	2015	A journey towards the development of a sound-led interdisciplinary performance:Agorá	10.1080/14794713.2014.992220
 cites 5–9 archive entries	0.888	0.2029	-0.0615		6	2024	Designing accessible digital musical instruments for special educational needs schools—A social-ecological design framework	10.1016/j.ijcci.2024.100666
 cites 5–9 archive entries	0.684	0.2535	-0.1369		6	2014	Evaluating computer-based musical instruments from the perspective of listening	10.1145/2636879.2636900
@@ -240,7 +241,6 @@ cites 5–9 archive entries	0.982	0.3308	0.1662		6	2015	Contrôle gestuel de la 
 cites 5–9 archive entries	0.993	0.3383	-0.0081		6	2011	ToCoPlay: Graphical Multi-touch Interaction for Composing and Playing Music	10.1007/978-3-642-23765-2_22
 cites 5–9 archive entries	0.937	0.2445	-0.0875		6	2024	Dance Movement and Sound Cross-Correlation; Synthesis Parameters on the Micro and Meso Musical Time Scales	10.1145/3678299.3678361
 cites 5–9 archive entries	0.834	0.1793	-0.1447		6	2018	Adapting the SoundThimble Movement Sonification System for Young Motion-impaired Users	10.1109/iccp.2018.8516435
-cites 5–9 archive entries	0.922	0.2121	-0.0253		6	2014	In-House Development of Paper Force Sensors for Musical Applications	10.1162/comj_a_00237
 cites 5–9 archive entries	0.976	0.3031	0.027		6	2018	Use the Force: Incorporating Touch Force Sensors into Mobile Music Interaction	10.1007/978-3-030-01692-0_38
 cites 5–9 archive entries	0.966	0.3521	-0.205		6	2019	An Intuitive Interface for Digital Synthesizer by Pseudo-intention Learning	10.1145/3356590.3356598
 cites 5–9 archive entries	0.305	0.2462	-0.0845		6	2016	Wireless Communication Standards for Multimedia Applications	10.1007/978-981-10-0335-6_4
@@ -345,6 +345,7 @@ cites 5–9 archive entries	0.457	0.2033	-0.2517		5	2019	Playsound.space: Improv
 cites 5–9 archive entries	0.382	0.1439	-0.0935		5	2013	‘Click, Play and Save’: The iGamelan as a Tool for Music-culture Sustainability	10.1080/08145857.2013.844497
 cites 5–9 archive entries	0.97	0.0	0.0		5	2010	MagiMusic: using embedded compass (magnetic) sensor for touch-less gesture based interaction with digital music instruments in mobile devices	10.1145/1935701.1935749
 cites 5–9 archive entries	0.932	0.183	-0.0248		5	2013	Anthropomorphic Musical Robots Designed to Produce Physically Embodied Expressive Performances of Music	10.1007/978-1-4471-4123-5_9
+cites 5–9 archive entries	0.997	0.3117	-0.1496		5	2014	Intonaspacio: A Digital Musical Instrument for Exploring Site-Specificities in Sound	10.1007/978-3-319-12976-1_24
 cites 5–9 archive entries	0.478	0.1665	-0.0914		5	2023	From Site-Specific Sampling to Gamification: An exploration of performative engagement with the environment	10.1017/s1355771823000547
 cites 5–9 archive entries	0.575	0.2653	-0.1362		5	2014	Human performance of computational sound models for immersive environments	10.3366/sound.2014.0059
 cites 5–9 archive entries	0.367	0.21	-0.1625		5	2012	Using Narrative Analysis to Map the Control Parameters of Enhanced Operatic Singing	10.1080/09298215.2011.647822

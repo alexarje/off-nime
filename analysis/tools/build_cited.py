@@ -26,10 +26,12 @@ from pathlib import Path
 import numpy as np
 from sklearn.feature_extraction.text import ENGLISH_STOP_WORDS, TfidfVectorizer
 
-from crossref import API, get, item_year
+from crossref import API, get, item_year, publisher_name
+from fill_abstracts import by_doi
 from parse_refs import title_key
 
 HERE = Path(__file__).resolve().parent.parent
+EXTRA = by_doi()
 OUT = HERE.parent / "bibs" / "Cited" / "cited.bib"
 BACKGROUND = HERE.parent / "bibs" / "Background" / "background.bib"
 MIN_CITED = 5
@@ -151,10 +153,10 @@ def main():
                    container),
                   ("school" if kind == "phdthesis" else "institution" if kind == "techreport" else "",
                    clean((cr.get("institution") or [{}])[0].get("name")) if cr.get("institution") else ""),
-                  ("publisher", clean(cr.get("publisher")) if kind in ("book", "incollection", "inproceedings") else ""),
+                  ("publisher", clean(publisher_name(cr.get("publisher"))) if kind in ("book", "incollection", "inproceedings") else ""),
                   ("volume", cr.get("volume")), ("number", cr.get("issue")),
                   ("pages", (cr.get("page") or "").replace("-", "--")), ("doi", c["doi"]),
-                  ("abstract", clean(cr.get("abstract"))[:3000]),
+                  ("abstract", clean(cr.get("abstract") or EXTRA.get((c["doi"] or "").lower()))[:3000]),
                   ("collection", collection), ("note", (note[:1].upper() + note[1:]) + f"; NIME-topic probability {c['p_nime']}")]
         body = ",\n".join(f"  {k} = {{{clean(v)}}}" for k, v in fields if k and v)
         return f"@{kind}{{{key},\n{body}\n}}\n"

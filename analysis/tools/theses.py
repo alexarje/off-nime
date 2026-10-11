@@ -39,9 +39,22 @@ MIN_CITES = 3
 P_MIN = 0.7  # NIME-topic probability of the title, from topic.py
 # off topic on reading, though they pass: the classifier scores some French titles high
 OFF_TOPIC = {"https://dspace.univ-tlemcen.dz/handle/112/3982", "https://hal.science/tel-02599505v1"}
-AGGREGATOR = re.compile(r"zenodo|nora|la referencia|\bhal\b|^era$|figshare|core|base|openaire|datacite|"
-                        r"networked digital library|ndltd|oatd|dart-europe|ethos|proquest", re.I)
-SCHOOL_ALIASES = {"McGill": "McGill University"}
+AGGREGATOR = re.compile(r"zenodo|nora|la referencia|\bhal\b|^era$|figshare|\bcore\b|\bbase\b|openaire|datacite|"
+                        r"networked digital library|ndltd|oatd|dart-europe|ethos|proquest|"
+                        r"institut de l'information scientifique|grey literature|rcaap|library and archives canada|"
+                        r"americanae|open research repository|\birdb\b|^research space$|centrum wiskunde", re.I)
+# repositories that belong to one institution
+SCHOOL_ALIASES = {"McGill": "McGill University", "Griffith Research Online": "Griffith University",
+                  "VTechWorks (Virginia Tech)": "Virginia Tech", "Digital WPI": "Worcester Polytechnic Institute",
+                  "TU/e Research Portal": "Eindhoven University of Technology",
+                  "University of Southern California Digital Library (USC.DL)": "University of Southern California",
+                  "UWE Research Repository (UWE Bristol)": "University of the West of England",
+                  "RMIT University Library": "RMIT University", "Dalarna University Library": "Dalarna University",
+                  "KiltHub Repository": "Carnegie Mellon University",
+                  "eScholarship (California Digital Library)": "University of California",
+                  "ePrints Repository Musi Charitas Catholic University": "Musi Charitas Catholic University"}
+# DOI prefixes that name the awarding institution, for records whose school is an aggregator
+DOI_SCHOOLS = {"10.17870/bathspa": "Bath Spa University", "10.6100/": "Eindhoven University of Technology"}
 DOMAINS = {"duo.uio.no": "University of Oslo", "ntnuopen.ntnu.no": "Norwegian University of Science and Technology",
            "bora.uib.no": "University of Bergen", "munin.uit.no": "UiT The Arctic University of Norway",
            "nmh.brage": "Norwegian Academy of Music", "uia.brage": "University of Agder", "oda.oslomet.no": "OsloMet",
@@ -313,7 +326,8 @@ def main():
                 # an aggregator is not the awarding institution: use the repository's domain where it
                 # names one, otherwise leave the school empty
                 dom = re.search(r"https?://([^/]+)", t["url"] or "")
-                school = next((v for k, v in DOMAINS.items() if dom and k in dom.group(1)), "")
+                school = next((v for k, v in DOMAINS.items() if dom and k in dom.group(1)), "") or \
+                    next((v for k, v in DOI_SCHOOLS.items() if (t["doi"] or "").startswith(k)), "")
             fields = [("author", " and ".join(authors)), ("title", t["title"]), ("school", school),
                       ("year", t["year"]), ("doi", t["doi"] if t["doi"] else None),
                       ("url", t["url"] if not t["doi"] else None),
