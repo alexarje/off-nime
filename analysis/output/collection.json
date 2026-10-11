@@ -105903,27 +105903,6 @@
 }
 },
 {
-"id": "cited:moore1983thecomputermusic",
-"type": "article-journal",
-"title": "The Computer Music Journal, 1977-1981",
-"author": [
-{
-"family": "Moore",
-"given": "F. Richard"
-}
-],
-"container-title": "Journal of Music Theory",
-"DOI": "10.2307/843565",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.872",
-"issued": {
-"date-parts": [
-[
-1983
-]
-]
-}
-},
-{
 "id": "cited:chadabe1984interactivecompo",
 "type": "article-journal",
 "title": "Interactive Composing: An Overview",
@@ -105940,35 +105919,6 @@
 "date-parts": [
 [
 1984
-]
-]
-}
-},
-{
-"id": "cited:loy1985foundationsofcom",
-"type": "article-journal",
-"title": "Foundations of Computer Music",
-"author": [
-{
-"family": "Loy",
-"given": "D. Gareth"
-},
-{
-"family": "Roads",
-"given": "Curtis"
-},
-{
-"family": "Strawn",
-"given": "John"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3679578",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.862",
-"issued": {
-"date-parts": [
-[
-1985
 ]
 ]
 }
@@ -106023,31 +105973,6 @@
 "container-title": "ACM SIGCHI Bulletin",
 "DOI": "10.1145/30851.275628",
 "note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.972",
-"issued": {
-"date-parts": [
-[
-1986
-]
-]
-}
-},
-{
-"id": "cited:buxton1986astudyintwohande",
-"type": "article-journal",
-"title": "A study in two-handed input",
-"author": [
-{
-"family": "Buxton",
-"given": "W."
-},
-{
-"family": "Myers",
-"given": "B."
-}
-],
-"container-title": "ACM SIGCHI Bulletin",
-"DOI": "10.1145/22339.22390",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.562",
 "issued": {
 "date-parts": [
 [
@@ -106115,56 +106040,6 @@
 "date-parts": [
 [
 1989
-]
-]
-}
-},
-{
-"id": "cited:ihde1990technologyandthe",
-"type": "book",
-"title": "Technology and the Lifeworld: From Garden to Earth",
-"author": [
-{
-"family": "Ihde",
-"given": "Don"
-}
-],
-"container-title": "Indiana University Press",
-"DOI": "10.2979/3108.0",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.677",
-"issued": {
-"date-parts": [
-[
-1990
-]
-]
-}
-},
-{
-"id": "cited:mackenzie1991acomparisonofinp",
-"type": "paper-conference",
-"title": "A comparison of input devices in element pointing and dragging tasks",
-"author": [
-{
-"family": "MacKenzie",
-"given": "I. Scott"
-},
-{
-"family": "Sellen",
-"given": "Abigail"
-},
-{
-"family": "Buxton",
-"given": "William A. S."
-}
-],
-"container-title": "Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology - CHI '91",
-"DOI": "10.1145/108844.108868",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.79",
-"issued": {
-"date-parts": [
-[
-1991
 ]
 ]
 }
@@ -106273,27 +106148,6 @@
 "container-title": "SPIE Proceedings",
 "DOI": "10.1117/12.139949",
 "note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.692",
-"issued": {
-"date-parts": [
-[
-1992
-]
-]
-}
-},
-{
-"id": "cited:mackenzie1992fittslawasaresea",
-"type": "article-journal",
-"title": "Fitts' Law as a Research and Design Tool in Human-Computer Interaction",
-"author": [
-{
-"family": "MacKenzie",
-"given": "I. Scott"
-}
-],
-"container-title": "Human–Computer Interaction",
-"DOI": "10.1207/s15327051hci0701_3",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.825",
 "issued": {
 "date-parts": [
 [
@@ -106540,105 +106394,6 @@
 }
 },
 {
-"id": "cited:hinckley1994passiverealworld",
-"type": "paper-conference",
-"title": "Passive real-world interface props for neurosurgical visualization",
-"author": [
-{
-"family": "Hinckley",
-"given": "Ken"
-},
-{
-"family": "Pausch",
-"given": "Randy"
-},
-{
-"family": "Goble",
-"given": "John C."
-},
-{
-"family": "Kassell",
-"given": "Neal F."
-}
-],
-"container-title": "Conference companion on Human factors in computing systems - CHI '94",
-"DOI": "10.1145/259963.260443",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.518",
-"issued": {
-"date-parts": [
-[
-1994
-]
-]
-}
-},
-{
-"id": "cited:kabbash1994twohandedinputin",
-"type": "paper-conference",
-"title": "Two-handed input in a compound task",
-"author": [
-{
-"family": "Kabbash",
-"given": "Paul"
-},
-{
-"family": "Buxton",
-"given": "William"
-},
-{
-"family": "Sellen",
-"given": "Abigail"
-}
-],
-"container-title": "Conference companion on Human factors in computing systems - CHI '94",
-"DOI": "10.1145/259963.260425",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.549",
-"issued": {
-"date-parts": [
-[
-1994
-]
-]
-}
-},
-{
-"id": "cited:zimmerman1995applyingelectric",
-"type": "paper-conference",
-"title": "Applying electric field sensing to human-computer interfaces",
-"author": [
-{
-"family": "Zimmerman",
-"given": "Thomas G."
-},
-{
-"family": "Smith",
-"given": "Joshua R."
-},
-{
-"family": "Paradiso",
-"given": "Joseph A."
-},
-{
-"family": "Allport",
-"given": "David"
-},
-{
-"family": "Gershenfeld",
-"given": "Neil"
-}
-],
-"container-title": "Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95",
-"DOI": "10.1145/223904.223940",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.817",
-"issued": {
-"date-parts": [
-[
-1995
-]
-]
-}
-},
-{
 "id": "cited:smith1996physicalmodeling",
 "type": "article-journal",
 "title": "Physical Modeling Synthesis Update",
@@ -106651,27 +106406,6 @@
 "container-title": "Computer Music Journal",
 "DOI": "10.2307/3681331",
 "note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.847",
-"issued": {
-"date-parts": [
-[
-1996
-]
-]
-}
-},
-{
-"id": "cited:blauert1996spatialhearingth",
-"type": "book",
-"title": "Spatial Hearing: The Psychophysics of Human Sound Localization",
-"author": [
-{
-"family": "Blauert",
-"given": "Jens"
-}
-],
-"container-title": "The MIT Press",
-"DOI": "10.7551/mitpress/6391.001.0001",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.581",
 "issued": {
 "date-parts": [
 [
@@ -107078,27 +106812,6 @@
 }
 },
 {
-"id": "cited:juslin2001communicatingemo",
-"type": "chapter",
-"title": "Communicating Emotion In Music Performance: A Review And Theoretical Framework",
-"author": [
-{
-"family": "Juslin",
-"given": "Patrik N"
-}
-],
-"container-title": "Music And Emotion",
-"DOI": "10.1093/oso/9780192631886.003.0014",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.539",
-"issued": {
-"date-parts": [
-[
-2001
-]
-]
-}
-},
-{
 "id": "cited:yonezawa2001contextawaresens",
 "type": "paper-conference",
 "title": "Context-aware sensor-doll as a music expression device",
@@ -107160,73 +106873,6 @@
 "date-parts": [
 [
 2001
-]
-]
-}
-},
-{
-"id": "cited:gabrielsson2001theinfluenceofmu",
-"type": "chapter",
-"title": "The Influence Of Musical Structure On Emotional Expression",
-"author": [
-{
-"family": "Gabrielsson",
-"given": "Alf"
-},
-{
-"family": "Lindström",
-"given": "Erik"
-}
-],
-"container-title": "Music And Emotion",
-"DOI": "10.1093/oso/9780192631886.003.0010",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.518",
-"issued": {
-"date-parts": [
-[
-2001
-]
-]
-}
-},
-{
-"id": "cited:dourish2001wheretheactionis",
-"type": "book",
-"title": "Where the Action Is: The Foundations of Embodied Interaction",
-"author": [
-{
-"family": "Dourish",
-"given": "Paul"
-}
-],
-"container-title": "The MIT Press",
-"DOI": "10.7551/mitpress/7221.001.0001",
-"note": "Collection: Cited. Cited by 38 archive papers; NIME-topic probability 0.766",
-"issued": {
-"date-parts": [
-[
-2001
-]
-]
-}
-},
-{
-"id": "cited:maclean2002designingwithhap",
-"type": "paper-conference",
-"title": "Designing with haptic feedback",
-"author": [
-{
-"family": "MacLean",
-"given": "K.E."
-}
-],
-"container-title": "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)",
-"DOI": "10.1109/robot.2000.844146",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.949",
-"issued": {
-"date-parts": [
-[
-2002
 ]
 ]
 }
@@ -107436,31 +107082,6 @@
 }
 },
 {
-"id": "cited:juslin2003communicationofe",
-"type": "article-journal",
-"title": "Communication of emotions in vocal expression and music performance: Different channels, same code?",
-"author": [
-{
-"family": "Juslin",
-"given": "Patrik N."
-},
-{
-"family": "Laukka",
-"given": "Petri"
-}
-],
-"container-title": "Psychological Bulletin",
-"DOI": "10.1037/0033-2909.129.5.770",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.594",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
 "id": "cited:barbosa2003displacedsoundsc",
 "type": "article-journal",
 "title": "Displaced Soundscapes: A Survey of Network Systems for Music and Sonic Art Creation",
@@ -107585,31 +107206,6 @@
 "container-title": "Contemporary Music Review",
 "DOI": "10.1080/0749446032000156919",
 "note": "Collection: Cited. Cited by 8 archive papers; found in the journal sweep; NIME-topic probability 0.746",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
-"id": "cited:fails2003interactivemachi",
-"type": "paper-conference",
-"title": "Interactive machine learning",
-"author": [
-{
-"family": "Fails",
-"given": "Jerry Alan"
-},
-{
-"family": "Olsen",
-"given": "Dan R."
-}
-],
-"container-title": "Proceedings of the 8th international conference on Intelligent user interfaces",
-"DOI": "10.1145/604045.604056",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.875",
 "issued": {
 "date-parts": [
 [
@@ -107749,7 +107345,7 @@
 "issued": {
 "date-parts": [
 [
-2003
+1999
 ]
 ]
 }
@@ -107876,27 +107472,6 @@
 "container-title": "Proceedings of the IEEE",
 "DOI": "10.1109/jproc.2004.825887",
 "note": "Collection: Cited. Cited by 14 archive papers; cites 8 archive entries; NIME-topic probability 0.989",
-"issued": {
-"date-parts": [
-[
-2004
-]
-]
-}
-},
-{
-"id": "cited:beaudouinlafon2004designinginterac",
-"type": "paper-conference",
-"title": "Designing interaction, not interfaces",
-"author": [
-{
-"family": "Beaudouin-Lafon",
-"given": "Michel"
-}
-],
-"container-title": "Proceedings of the working conference on Advanced visual interfaces",
-"DOI": "10.1145/989863.989865",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.843",
 "issued": {
 "date-parts": [
 [
@@ -108043,27 +107618,6 @@
 "container-title": "BT Technology Journal",
 "DOI": "10.1023/b:bttj.0000047596.75297.ee",
 "note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.688",
-"issued": {
-"date-parts": [
-[
-2004
-]
-]
-}
-},
-{
-"id": "cited:boden2004thecreativemind",
-"type": "book",
-"title": "The Creative Mind",
-"author": [
-{
-"family": "Boden",
-"given": "Margaret A."
-}
-],
-"container-title": "Routledge",
-"DOI": "10.4324/9780203508527",
-"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.5",
 "issued": {
 "date-parts": [
 [
@@ -108276,27 +107830,6 @@
 }
 },
 {
-"id": "cited:gallagher2005howthebodyshapes",
-"type": "book",
-"title": "How the Body Shapes the Mind",
-"author": [
-{
-"family": "Gallagher",
-"given": "Shaun"
-}
-],
-"container-title": "Oxford University Press",
-"DOI": "10.1093/0199271941.001.0001",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.566",
-"issued": {
-"date-parts": [
-[
-2005
-]
-]
-}
-},
-{
 "id": "cited:kapur2005interactivenetwo",
 "type": "article-journal",
 "title": "Interactive Network Performance: a dream worth dreaming?",
@@ -108375,27 +107908,6 @@
 "container-title": "Leonardo",
 "DOI": "10.1162/0024094054762133",
 "note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.824",
-"issued": {
-"date-parts": [
-[
-2005
-]
-]
-}
-},
-{
-"id": "cited:han2005lowcostmultitouc",
-"type": "paper-conference",
-"title": "Low-cost multi-touch sensing through frustrated total internal reflection",
-"author": [
-{
-"family": "Han",
-"given": "Jefferson Y."
-}
-],
-"container-title": "Proceedings of the 18th annual ACM symposium on User interface software and technology",
-"DOI": "10.1145/1095034.1095054",
-"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.815",
 "issued": {
 "date-parts": [
 [
@@ -108978,35 +108490,6 @@
 }
 },
 {
-"id": "cited:djajadiningrat2007easydoesntdoitsk",
-"type": "article-journal",
-"title": "Easy doesn’t do it: skill and expression in tangible aesthetics",
-"author": [
-{
-"family": "Djajadiningrat",
-"given": "Tom"
-},
-{
-"family": "Matthews",
-"given": "Ben"
-},
-{
-"family": "Stienstra",
-"given": "Marcelle"
-}
-],
-"container-title": "Personal and Ubiquitous Computing",
-"DOI": "10.1007/s00779-006-0137-9",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.573",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
 "id": "cited:dahlstedt2007evolutionincreat",
 "type": "chapter",
 "title": "Evolution in Creative Sound Design",
@@ -109044,35 +108527,6 @@
 "container-title": "Cambridge University Press",
 "DOI": "10.1017/ccol9780521868617",
 "note": "Collection: Cited. Cited by 6 archive papers; cites 7 archive entries; NIME-topic probability 0.518",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "cited:sears2007thehumancomputer",
-"type": "book",
-"title": "The Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies and Emerging Applications, Second Edition",
-"author": [
-{
-"family": "Sears",
-"given": "Andrew"
-},
-{
-"family": "Jacko",
-"given": "Julie A."
-},
-{
-"family": "Jacko",
-"given": "Julie A."
-}
-],
-"container-title": "CRC Press",
-"DOI": "10.1201/9781410615862",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.669",
 "issued": {
 "date-parts": [
 [
@@ -109127,35 +108581,6 @@
 "container-title": "Music Perception",
 "DOI": "10.1525/mp.2007.24.5.433",
 "note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.84",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "cited:zatorre2007whenthebrainplay",
-"type": "article-journal",
-"title": "When the brain plays music: auditory–motor interactions in music perception and production",
-"author": [
-{
-"family": "Zatorre",
-"given": "Robert J."
-},
-{
-"family": "Chen",
-"given": "Joyce L."
-},
-{
-"family": "Penhune",
-"given": "Virginia B."
-}
-],
-"container-title": "Nature Reviews Neuroscience",
-"DOI": "10.1038/nrn2152",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.638",
 "issued": {
 "date-parts": [
 [
@@ -109681,35 +109106,6 @@
 }
 },
 {
-"id": "cited:wobbrock2009userdefinedgestu",
-"type": "paper-conference",
-"title": "User-defined gestures for surface computing",
-"author": [
-{
-"family": "Wobbrock",
-"given": "Jacob O."
-},
-{
-"family": "Morris",
-"given": "Meredith Ringel"
-},
-{
-"family": "Wilson",
-"given": "Andrew D."
-}
-],
-"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/1518701.1518866",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.643",
-"issued": {
-"date-parts": [
-[
-2009
-]
-]
-}
-},
-{
 "id": "cited:monache2010atoolkitforexplo",
 "type": "paper-conference",
 "title": "A toolkit for explorations in sonic interaction design",
@@ -110067,6 +109463,27 @@
 }
 },
 {
+"id": "cited:merer2011caractrisationac",
+"type": "thesis",
+"title": "Caractérisation acoustique et perceptive du mouvement évoqué par les sons pour le contrôle de la synthèse",
+"author": [
+{
+"family": "Merer",
+"given": "Adrien"
+}
+],
+"container-title": "Aix-Marseille 1",
+"DOI": "10.70675/7acbb4c1z2dafz4204z94d0z0a694bd34aee",
+"note": "Collection: Cited. Cites 12 archive entries; NIME-topic probability 0.856",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
 "id": "cited:vallis2011communitybasedde",
 "type": "article-journal",
 "title": "Community-Based Design: The Democratization of Musical Interface Construction",
@@ -110391,6 +109808,27 @@
 }
 },
 {
+"id": "cited:ghomi2012designingexpress",
+"type": "thesis",
+"title": "Designing expressive interaction techniques for novices inspired by expert activities : the case of musical practice",
+"author": [
+{
+"family": "Ghomi",
+"given": "Emilien"
+}
+],
+"container-title": "Paris 11",
+"DOI": "10.70675/1d241588z7141z4264z8808za7f5d1d0a049",
+"note": "Collection: Cited. Cites 18 archive entries; NIME-topic probability 0.868",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
 "id": "cited:jensenius2012exploringmicromo",
 "type": "chapter",
 "title": "Exploring Micromovements with Motion Capture and Sonification",
@@ -110499,31 +109937,6 @@
 }
 },
 {
-"id": "cited:hinckley2012inputtechnologie",
-"type": "chapter",
-"title": "Input Technologies and Techniques",
-"author": [
-{
-"family": "Hinckley",
-"given": "Ken"
-},
-{
-"family": "Wigdor",
-"given": "Daniel"
-}
-],
-"container-title": "The Human–Computer Interaction Handbook",
-"DOI": "10.1201/b11963-ch-6",
-"note": "Collection: Cited. Cites 11 archive entries; NIME-topic probability 0.621",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
 "id": "cited:gelineck2012longitudinaleval",
 "type": "article-journal",
 "title": "Longitudinal Evaluation of the Integration of Digital Musical Instruments into Existing Compositional Work Processes",
@@ -110606,31 +110019,6 @@
 "container-title": "Leonardo Music Journal",
 "DOI": "10.1162/lmj_a_00090",
 "note": "Collection: Cited. Cited by 10 archive papers; cites 7 archive entries; NIME-topic probability 0.939",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
-"id": "cited:simonsen2012routledgeinterna",
-"type": "book",
-"title": "Routledge International Handbook of Participatory Design",
-"author": [
-{
-"family": "Simonsen",
-"given": "Jesper"
-},
-{
-"family": "Robertson",
-"given": "Toni"
-}
-],
-"container-title": "Routledge",
-"DOI": "10.4324/9780203108543",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.623",
 "issued": {
 "date-parts": [
 [
@@ -110823,6 +110211,27 @@
 "container-title": "Proceedings of the 21st ACM international conference on Multimedia",
 "DOI": "10.1145/2502081.2502184",
 "note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.915",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:vallis2013contemporaryappr",
+"type": "thesis",
+"title": "Contemporary Approaches to Live Computer Music: The Evolution of the Performer Composer",
+"author": [
+{
+"family": "Vallis",
+"given": "Owen Skipper"
+}
+],
+"container-title": "Open Access Te Herenga Waka-Victoria University of Wellington",
+"DOI": "10.26686/wgtn.17004979",
+"note": "Collection: Cited. Cites 19 archive entries; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -111433,6 +110842,27 @@
 }
 },
 {
+"id": "cited:veytizou2014caractrisationde",
+"type": "thesis",
+"title": "Caractérisation des spécificités motrices d'utilisateurs en situation de handicap : application à la conception de systèmes personnalisables pour la pratique musicale instrumentale",
+"author": [
+{
+"family": "Veytizou",
+"given": "Julien"
+}
+],
+"container-title": "Grenoble",
+"DOI": "10.70675/df0a1c4cz63a8z460cz9f86zb24fb56f2eae",
+"note": "Collection: Cited. Cites 12 archive entries; NIME-topic probability 0.713",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
 "id": "cited:medeiros2014challengesindesi",
 "type": "chapter",
 "title": "Challenges in Designing New Interfaces for Musical Expression",
@@ -111520,6 +110950,27 @@
 }
 },
 {
+"id": "cited:murphy2014expressivemusica",
+"type": "thesis",
+"title": "Expressive Musical Robots: Building, Evaluating, and Interfacing with an Ensemble of Mechatronic Instruments",
+"author": [
+{
+"family": "Murphy",
+"given": "Jim"
+}
+],
+"container-title": "Open Access Te Herenga Waka-Victoria University of Wellington",
+"DOI": "10.26686/wgtn.20387730",
+"note": "Collection: Cited. Cites 20 archive entries; NIME-topic probability 0.994",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
 "id": "cited:magnusson2014herdingcatsobser",
 "type": "article-journal",
 "title": "Herding Cats: Observing Live Coding in the Wild",
@@ -111586,27 +111037,6 @@
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00237",
 "note": "Collection: Cited. Cites 6 archive entries; found in the journal sweep; NIME-topic probability 0.922",
-"issued": {
-"date-parts": [
-[
-2014
-]
-]
-}
-},
-{
-"id": "cited:wigdor2014inputoutputdevic",
-"type": "chapter",
-"title": "Input/Output Devices and Interaction Techniques",
-"author": [
-{
-"family": "Wigdor",
-"given": "Daniel"
-}
-],
-"container-title": "Computing Handbook, Third Edition",
-"DOI": "10.1201/b16812-25",
-"note": "Collection: Cited. Cites 10 archive entries; NIME-topic probability 0.692",
 "issued": {
 "date-parts": [
 [
@@ -111977,6 +111407,27 @@
 "container-title": "Oxford University Press",
 "DOI": "10.1093/acprof:oso/9780195373233.001.0001",
 "note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.762",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "cited:boyer2015continuousaudito",
+"type": "thesis",
+"title": "Continuous auditory feedback for sensorimotor learning",
+"author": [
+{
+"family": "Boyer",
+"given": "Eric"
+}
+],
+"container-title": "Paris 6",
+"DOI": "10.70675/a712575az3e0cz48cdza3bdzabc76ae19b25",
+"note": "Collection: Cited. Cites 22 archive entries; NIME-topic probability 0.703",
 "issued": {
 "date-parts": [
 [
@@ -112391,6 +111842,27 @@
 "container-title": "Proceedings of the 3rd International Symposium on Movement and Computing",
 "DOI": "10.1145/2948910.2948946",
 "note": "Collection: Cited. Cites 7 archive entries; found in the journal sweep; NIME-topic probability 0.993",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "cited:hwang2016aemitheactuatede",
+"type": "thesis",
+"title": "AEMI: The Actuated Embedded Musical Instrument",
+"author": [
+{
+"family": "Hwang",
+"given": "Nick"
+}
+],
+"container-title": "Louisiana State University and Agricultural and Mechanical College",
+"DOI": "10.31390/gradschool_dissertations.4407",
+"note": "Collection: Cited. Cites 13 archive entries; NIME-topic probability 0.997",
 "issued": {
 "date-parts": [
 [
@@ -113226,6 +112698,27 @@
 }
 },
 {
+"id": "cited:hemery2017modelingrecognit",
+"type": "thesis",
+"title": "Modeling, recognition of finger gestures and upper-body movements for musical interaction design",
+"author": [
+{
+"family": "Hemery",
+"given": "Edgar"
+}
+],
+"container-title": "Paris Sciences et Lettres (ComUE)",
+"DOI": "10.70675/2fbd30c3z7714z4bd0za3e2z2eff99e4eb9b",
+"note": "Collection: Cited. Cites 38 archive entries; NIME-topic probability 0.769",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
 "id": "cited:magnusson2017musicalorganicsa",
 "type": "article-journal",
 "title": "Musical Organics: A Heterarchical Approach to Digital Organology",
@@ -113678,27 +113171,6 @@
 }
 },
 {
-"id": "cited:hk2018designingwiththe",
-"type": "paper-conference",
-"title": "Designing with the Body - Somaesthetic Interaction Design",
-"author": [
-{
-"family": "Höök",
-"given": "Kristina"
-}
-],
-"container-title": "Anais Estendidos do XVII Simpósio Brasileiro de Fatores Humanos em Sistemas Computacionais (IHC)",
-"DOI": "10.5753/ihc.2018.4168",
-"note": "Collection: Cited. Cited by 14 archive papers; NIME-topic probability 0.521",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
 "id": "cited:zappi2018extendedplayingt",
 "type": "article-journal",
 "title": "Extended Playing Techniques on an Augmented Virtual Percussion Instrument",
@@ -113802,6 +113274,27 @@
 "container-title": "Frontiers in ICT",
 "DOI": "10.3389/fict.2018.00026",
 "note": "Collection: Cited. Cites 11 archive entries; NIME-topic probability 0.982",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "cited:siwiak2018metaflutedevelop",
+"type": "thesis",
+"title": "MetaFlute: Developing Tools to Observe Micro-Timing and Physical Movements in Flute Playing",
+"author": [
+{
+"family": "Siwiak",
+"given": "Diana"
+}
+],
+"container-title": "Open Access Te Herenga Waka-Victoria University of Wellington",
+"DOI": "10.26686/wgtn.20388237",
+"note": "Collection: Cited. Cites 18 archive entries; NIME-topic probability 0.987",
 "issued": {
 "date-parts": [
 [
@@ -114347,6 +113840,27 @@
 }
 },
 {
+"id": "cited:sheffield2019designingandcomp",
+"type": "thesis",
+"title": "Designing and Composing for Interdependent Collaborative Performance with Physics-Based Virtual Instruments",
+"author": [
+{
+"family": "Sheffield",
+"given": "Eric"
+}
+],
+"container-title": "Louisiana State University and Agricultural and Mechanical College",
+"DOI": "10.31390/gradschool_dissertations.4918",
+"note": "Collection: Cited. Cites 32 archive entries; NIME-topic probability 0.991",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
 "id": "cited:amc2019hyperrealinstrum",
 "type": "article-journal",
 "title": "Hyperreal Instruments: Bridging VR and Digital Fabrication to Facilitate New Forms of Musical Expression",
@@ -114735,31 +114249,6 @@
 "container-title": "Proceedings of the 2019 on Creativity and Cognition",
 "DOI": "10.1145/3325480.3325509",
 "note": "Collection: Cited. Cites 7 archive entries; found in the journal sweep; NIME-topic probability 0.932",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
-"id": "cited:andersen2019themagicmachinew",
-"type": "paper-conference",
-"title": "The Magic Machine Workshops: Making Personal Design Knowledge",
-"author": [
-{
-"family": "Andersen",
-"given": "Kristina"
-},
-{
-"family": "Wakkary",
-"given": "Ron"
-}
-],
-"container-title": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/3290605.3300342",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.564",
 "issued": {
 "date-parts": [
 [
@@ -115433,27 +114922,6 @@
 }
 },
 {
-"id": "cited:vallis2021contemporaryappr",
-"type": "thesis",
-"title": "Contemporary Approaches to Live Computer Music: The Evolution of the Performer Composer",
-"author": [
-{
-"family": "Vallis",
-"given": "Owen Skipper"
-}
-],
-"container-title": "Open Access Te Herenga Waka-Victoria University of Wellington",
-"DOI": "10.26686/wgtn.17004979",
-"note": "Collection: Cited. Cites 19 archive entries; NIME-topic probability 0.93",
-"issued": {
-"date-parts": [
-[
-2021
-]
-]
-}
-},
-{
 "id": "cited:drymonitis2021datamininglivesc",
 "type": "paper-conference",
 "title": "Data Mining / Live Scoring – A Live Acoustic Algorithmic Composition Based on Twitter",
@@ -115885,27 +115353,6 @@
 }
 },
 {
-"id": "cited:hwang2022aemitheactuatede",
-"type": "thesis",
-"title": "AEMI: The Actuated Embedded Musical Instrument",
-"author": [
-{
-"family": "Hwang",
-"given": "Nick"
-}
-],
-"container-title": "Louisiana State University and Agricultural and Mechanical College",
-"DOI": "10.31390/gradschool_dissertations.4407",
-"note": "Collection: Cited. Cites 13 archive entries; NIME-topic probability 0.997",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
 "id": "cited:atassi2022allocentricandeg",
 "type": "article-journal",
 "title": "Allocentric and Egocentric Controllers: Similarities and Differences",
@@ -115968,27 +115415,6 @@
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00662",
 "note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.766",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
-"id": "cited:sheffield2022designingandcomp",
-"type": "thesis",
-"title": "Designing and Composing for Interdependent Collaborative Performance with Physics-Based Virtual Instruments",
-"author": [
-{
-"family": "Sheffield",
-"given": "Eric"
-}
-],
-"container-title": "Louisiana State University and Agricultural and Mechanical College",
-"DOI": "10.31390/gradschool_dissertations.4918",
-"note": "Collection: Cited. Cites 32 archive entries; NIME-topic probability 0.991",
 "issued": {
 "date-parts": [
 [
@@ -116071,27 +115497,6 @@
 "container-title": "NIME 2022",
 "DOI": "10.21428/92fbeb44.76beab02",
 "note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.915",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
-"id": "cited:murphy2022expressivemusica",
-"type": "thesis",
-"title": "Expressive Musical Robots: Building, Evaluating, and Interfacing with an Ensemble of Mechatronic Instruments",
-"author": [
-{
-"family": "Murphy",
-"given": "Jim"
-}
-],
-"container-title": "Open Access Te Herenga Waka-Victoria University of Wellington",
-"DOI": "10.26686/wgtn.20387730",
-"note": "Collection: Cited. Cites 20 archive entries; NIME-topic probability 0.994",
 "issued": {
 "date-parts": [
 [
@@ -116229,27 +115634,6 @@
 "container-title": "Designing Interactive Systems Conference",
 "DOI": "10.1145/3532106.3533523",
 "note": "Collection: Cited. Cited by 7 archive papers; cites 15 archive entries; NIME-topic probability 0.909",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
-"id": "cited:siwiak2022metaflutedevelop",
-"type": "thesis",
-"title": "MetaFlute: Developing Tools to Observe Micro-Timing and Physical Movements in Flute Playing",
-"author": [
-{
-"family": "Siwiak",
-"given": "Diana"
-}
-],
-"container-title": "Open Access Te Herenga Waka-Victoria University of Wellington",
-"DOI": "10.26686/wgtn.20388237",
-"note": "Collection: Cited. Cites 18 archive entries; NIME-topic probability 0.987",
 "issued": {
 "date-parts": [
 [
@@ -117648,69 +117032,6 @@
 }
 },
 {
-"id": "cited:merer2026caractrisationac",
-"type": "thesis",
-"title": "Caractérisation acoustique et perceptive du mouvement évoqué par les sons pour le contrôle de la synthèse",
-"author": [
-{
-"family": "Merer",
-"given": "Adrien"
-}
-],
-"container-title": "Aix-Marseille 1",
-"DOI": "10.70675/7acbb4c1z2dafz4204z94d0z0a694bd34aee",
-"note": "Collection: Cited. Cites 12 archive entries; NIME-topic probability 0.856",
-"issued": {
-"date-parts": [
-[
-2026
-]
-]
-}
-},
-{
-"id": "cited:veytizou2026caractrisationde",
-"type": "thesis",
-"title": "Caractérisation des spécificités motrices d'utilisateurs en situation de handicap : application à la conception de systèmes personnalisables pour la pratique musicale instrumentale",
-"author": [
-{
-"family": "Veytizou",
-"given": "Julien"
-}
-],
-"container-title": "Grenoble",
-"DOI": "10.70675/df0a1c4cz63a8z460cz9f86zb24fb56f2eae",
-"note": "Collection: Cited. Cites 12 archive entries; NIME-topic probability 0.713",
-"issued": {
-"date-parts": [
-[
-2026
-]
-]
-}
-},
-{
-"id": "cited:boyer2026continuousaudito",
-"type": "thesis",
-"title": "Continuous auditory feedback for sensorimotor learning",
-"author": [
-{
-"family": "Boyer",
-"given": "Eric"
-}
-],
-"container-title": "Paris 6",
-"DOI": "10.70675/a712575az3e0cz48cdza3bdzabc76ae19b25",
-"note": "Collection: Cited. Cites 22 archive entries; NIME-topic probability 0.703",
-"issued": {
-"date-parts": [
-[
-2026
-]
-]
-}
-},
-{
 "id": "cited:davison2026designexploratio",
 "type": "paper-conference",
 "title": "Design Explorations of Instruments and Interactions with Bidirectional Haptic Couplings",
@@ -117727,48 +117048,6 @@
 "container-title": "Proceedings of the 2026 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3772318.3791190",
 "note": "Collection: Cited. Cites 21 archive entries; NIME-topic probability 0.966",
-"issued": {
-"date-parts": [
-[
-2026
-]
-]
-}
-},
-{
-"id": "cited:ghomi2026designingexpress",
-"type": "thesis",
-"title": "Designing expressive interaction techniques for novices inspired by expert activities : the case of musical practice",
-"author": [
-{
-"family": "Ghomi",
-"given": "Emilien"
-}
-],
-"container-title": "Paris 11",
-"DOI": "10.70675/1d241588z7141z4264z8808za7f5d1d0a049",
-"note": "Collection: Cited. Cites 18 archive entries; NIME-topic probability 0.868",
-"issued": {
-"date-parts": [
-[
-2026
-]
-]
-}
-},
-{
-"id": "cited:hemery2026modelingrecognit",
-"type": "thesis",
-"title": "Modeling, recognition of finger gestures and upper-body movements for musical interaction design",
-"author": [
-{
-"family": "Hemery",
-"given": "Edgar"
-}
-],
-"container-title": "Paris Sciences et Lettres (ComUE)",
-"DOI": "10.70675/2fbd30c3z7714z4bd0za3e2z2eff99e4eb9b",
-"note": "Collection: Cited. Cites 38 archive entries; NIME-topic probability 0.769",
 "issued": {
 "date-parts": [
 [
@@ -117869,21 +117148,712 @@
 }
 },
 {
-"id": "thesis:gibet1987codagereprsentat",
-"type": "thesis",
-"title": "Codage, représentation et traitement du geste instrumental : application à la synthèse de sons musicaux par simulation de mécanismes instrumentaux",
+"id": "cited:assayag1999computerassisted",
+"type": "article-journal",
+"title": "Computer-Assisted Composition at IRCAM: From PatchWork to OpenMusic",
 "author": [
 {
-"family": "Gibet",
-"given": "Sylvie"
+"family": "Assayag",
+"given": "Gérard"
+},
+{
+"family": "Rueda",
+"given": "Camilo"
+},
+{
+"family": "Laurson",
+"given": "Mikael"
+},
+{
+"family": "Agon",
+"given": "Carlos"
+},
+{
+"family": "Delerue",
+"given": "Olivier"
 }
 ],
-"URL": "https://hal.science/tel-01267452",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.88",
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/014892699559896",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.139",
+"issued": {
+"date-parts": [
+[
+1999
+]
+]
+}
+},
+{
+"id": "cited:beamish2004manipulatingmusi",
+"type": "paper-conference",
+"title": "Manipulating music: multimodal interaction for DJs",
+"author": [
+{
+"family": "Beamish",
+"given": "Timothy"
+},
+{
+"family": "Maclean",
+"given": "Karon"
+},
+{
+"family": "Fels",
+"given": "Sidney"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/985692.985734",
+"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.399",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:driscoll2004davidtudorsrainf",
+"type": "article-journal",
+"title": "David Tudor's Rainforest: An Evolving Exploration of Resonance",
+"author": [
+{
+"family": "Driscoll",
+"given": "John"
+},
+{
+"family": "Rogalsky",
+"given": "Matt"
+}
+],
+"container-title": "Leonardo Music Journal",
+"DOI": "10.1162/0961121043067415",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.366",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:essl2003ongenderinnewmus",
+"type": "article-journal",
+"title": "On gender in new music interface technology",
+"author": [
+{
+"family": "Essl",
+"given": "Georg"
+}
+],
+"container-title": "Organised Sound",
+"DOI": "10.1017/s1355771803001031",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 5 archive entries; NIME-topic probability 0.486",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "cited:farbood2004hyperscoreagraph",
+"type": "article-journal",
+"title": "Hyperscore: a graphical sketchpad for novice composers",
+"author": [
+{
+"family": "Farbood",
+"given": "M.M."
+},
+{
+"family": "Pasztor",
+"given": "E."
+},
+{
+"family": "Jennings",
+"given": "K."
+}
+],
+"container-title": "IEEE Computer Graphics and Applications",
+"DOI": "10.1109/mcg.2004.1255809",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.359",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:ghazala2004thefolkmusicofch",
+"type": "article-journal",
+"title": "The Folk Music of Chance Electronics: Circuit-Bending the Modern Coconut",
+"author": [
+{
+"family": "Ghazala",
+"given": "Qubais Reed"
+}
+],
+"container-title": "Leonardo Music Journal",
+"DOI": "10.1162/0961121043067271",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.175",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "cited:grindlay2008hapticguidancebe",
+"type": "paper-conference",
+"title": "Haptic Guidance Benefits Musical Motor Learning",
+"author": [
+{
+"family": "Grindlay",
+"given": "Graham"
+}
+],
+"container-title": "2008 Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems",
+"DOI": "10.1109/haptics.2008.4479984",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.479",
+"issued": {
+"date-parts": [
+[
+2008
+]
+]
+}
+},
+{
+"id": "cited:hattwick2017thevibropixelsas",
+"type": "chapter",
+"title": "The Vibropixels: A Scalable Wireless Tactile Display System",
+"author": [
+{
+"family": "Hattwick",
+"given": "Ian"
+},
+{
+"family": "Franco",
+"given": "Ivan"
+},
+{
+"family": "Wanderley",
+"given": "Marcelo M."
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/978-3-319-58521-5_40",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.449",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "cited:jaffe1983extensionsofthek",
+"type": "article-journal",
+"title": "Extensions of the Karplus-Strong Plucked-String Algorithm",
+"author": [
+{
+"family": "Jaffe",
+"given": "David A."
+},
+{
+"family": "Smith",
+"given": "Julius O."
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.2307/3680063",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.081",
+"issued": {
+"date-parts": [
+[
+1983
+]
+]
+}
+},
+{
+"id": "cited:karjalainen1998pluckedstringmod",
+"type": "article-journal",
+"title": "Plucked-String Models: From the Karplus-Strong Algorithm to Digital Waveguides and beyond",
+"author": [
+{
+"family": "Karjalainen",
+"given": "Matti"
+},
+{
+"family": "Valimaki",
+"given": "Vesa"
+},
+{
+"family": "Tolonen",
+"given": "Tero"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.2307/3681155",
+"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.05",
+"issued": {
+"date-parts": [
+[
+1998
+]
+]
+}
+},
+{
+"id": "cited:keislar1987historyandprinci",
+"type": "article-journal",
+"title": "History and Principles of Microtonal Keyboards",
+"author": [
+{
+"family": "Keislar",
+"given": "Douglas"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.2307/3680175",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.341",
 "issued": {
 "date-parts": [
 [
 1987
+]
+]
+}
+},
+{
+"id": "cited:lansky1990aviewfromthebusw",
+"type": "article-journal",
+"title": "A View from the Bus: When Machines Make Music",
+"author": [
+{
+"family": "Lansky",
+"given": "Paul"
+}
+],
+"container-title": "Perspectives of New Music",
+"DOI": "10.2307/833010",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.466",
+"issued": {
+"date-parts": [
+[
+1990
+]
+]
+}
+},
+{
+"id": "cited:lewis2000toomanynotescomp",
+"type": "article-journal",
+"title": "Too Many Notes: Computers, Complexity and Culture in Voyager",
+"author": [
+{
+"family": "Lewis",
+"given": "George E."
+}
+],
+"container-title": "Leonardo Music Journal",
+"DOI": "10.1162/096112100570585",
+"note": "Collection: Cited. Cited by 33 archive papers; NIME-topic probability 0.285",
+"issued": {
+"date-parts": [
+[
+2000
+]
+]
+}
+},
+{
+"id": "cited:louie2020noviceaimusiccoc",
+"type": "paper-conference",
+"title": "Novice-AI Music Co-Creation via AI-Steering Tools for Deep Generative Models",
+"author": [
+{
+"family": "Louie",
+"given": "Ryan"
+},
+{
+"family": "Coenen",
+"given": "Andy"
+},
+{
+"family": "Huang",
+"given": "Cheng Zhi"
+},
+{
+"family": "Terry",
+"given": "Michael"
+},
+{
+"family": "Cai",
+"given": "Carrie J."
+}
+],
+"container-title": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3313831.3376739",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.411",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "cited:magnusson2019ergodynamicsanda",
+"type": "article-journal",
+"title": "ERGODYNAMICS AND A SEMIOTICS OF INSTRUMENTAL COMPOSITION",
+"author": [
+{
+"family": "Magnusson",
+"given": "Thor"
+}
+],
+"container-title": "Tempo",
+"DOI": "10.1017/s0040298218000633",
+"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.242",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "cited:magnusson2019sonicwritingtech",
+"type": "book",
+"title": "Sonic Writing: Technologies of Material, Symbolic, and Signal Inscriptions",
+"author": [
+{
+"family": "Magnusson",
+"given": "Thor"
+}
+],
+"container-title": "Bloomsbury Publishing Inc",
+"DOI": "10.5040/9781501313899",
+"note": "Collection: Cited. Cited by 34 archive papers; NIME-topic probability 0.474",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "cited:morrison2024entanglingentang",
+"type": "paper-conference",
+"title": "Entangling Entanglement: A Diffractive Dialogue on HCI and Musical Interactions",
+"author": [
+{
+"family": "Morrison",
+"given": "Landon"
+},
+{
+"family": "McPherson",
+"given": "Andrew"
+}
+],
+"container-title": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3613904.3642171",
+"note": "Collection: Cited. Cited by 13 archive papers; cites 19 archive entries; NIME-topic probability 0.413",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "cited:reed2022singingknitsoftk",
+"type": "paper-conference",
+"title": "Singing Knit: Soft Knit Biosensing for Augmenting Vocal Performances",
+"author": [
+{
+"family": "Reed",
+"given": "Courtney N."
+},
+{
+"family": "Skach",
+"given": "Sophie"
+},
+{
+"family": "Strohmeier",
+"given": "Paul"
+},
+{
+"family": "McPherson",
+"given": "Andrew P."
+}
+],
+"container-title": "Augmented Humans 2022",
+"DOI": "10.1145/3519391.3519412",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 10 archive entries; NIME-topic probability 0.387",
+"issued": {
+"date-parts": [
+[
+2022
+]
+]
+}
+},
+{
+"id": "cited:sanfilippo2013feedbacksystemsa",
+"type": "article-journal",
+"title": "Feedback Systems: An Analytical Framework",
+"author": [
+{
+"family": "Sanfilippo",
+"given": "Dario"
+},
+{
+"family": "Valle",
+"given": "Andrea"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/comj_a_00176",
+"note": "Collection: Cited. Cited by 23 archive papers; NIME-topic probability 0.448",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:sethares2009spectraltoolsfor",
+"type": "article-journal",
+"title": "Spectral Tools for Dynamic Tonality and Audio Morphing",
+"author": [
+{
+"family": "Sethares",
+"given": "William A."
+},
+{
+"family": "Milne",
+"given": "Andrew J."
+},
+{
+"family": "Tiedje",
+"given": "Stefan"
+},
+{
+"family": "Prechtl",
+"given": "Anthony"
+},
+{
+"family": "Plamondon",
+"given": "James"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/comj.2009.33.2.71",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.227",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
+"id": "cited:stewart2019cordsandchordsex",
+"type": "article-journal",
+"title": "Cords and Chords: Exploring the Role of E-Textiles in Computational Audio",
+"author": [
+{
+"family": "Stewart",
+"given": "Rebecca"
+}
+],
+"container-title": "Frontiers in ICT",
+"DOI": "10.3389/fict.2019.00002",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 7 archive entries; NIME-topic probability 0.096",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "cited:tanaka2006interactionexper",
+"type": "chapter",
+"title": "Interaction, Experience and the Future of Music",
+"author": [
+{
+"family": "Tanaka",
+"given": "Atau"
+}
+],
+"container-title": "Computer Supported Cooperative Work",
+"DOI": "10.1007/1-4020-4097-0_13",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.345",
+"issued": {
+"date-parts": [
+[
+2006
+]
+]
+}
+},
+{
+"id": "cited:tremblay2021enablingprogramm",
+"type": "article-journal",
+"title": "Enabling Programmatic Data Mining as Musicking: The Fluid Corpus Manipulation Toolkit",
+"author": [
+{
+"family": "Tremblay",
+"given": "Pierre Alexandre"
+},
+{
+"family": "Roma",
+"given": "Gerard"
+},
+{
+"family": "Green",
+"given": "Owen"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/comj_a_00600",
+"note": "Collection: Cited. Cited by 12 archive papers; NIME-topic probability 0.448",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "cited:turchet2018internetofmusica",
+"type": "article-journal",
+"title": "Internet of Musical Things: Vision and Challenges",
+"author": [
+{
+"family": "Turchet",
+"given": "Luca"
+},
+{
+"family": "Fischione",
+"given": "Carlo"
+},
+{
+"family": "Essl",
+"given": "Georg"
+},
+{
+"family": "Keller",
+"given": "Damian"
+},
+{
+"family": "Barthet",
+"given": "Mathieu"
+}
+],
+"container-title": "IEEE Access",
+"DOI": "10.1109/access.2018.2872625",
+"note": "Collection: Cited. Cited by 14 archive papers; cites 15 archive entries; NIME-topic probability 0.113",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "cited:turchet2023musicalmetaverse",
+"type": "article-journal",
+"title": "Musical Metaverse: vision, opportunities, and challenges",
+"author": [
+{
+"family": "Turchet",
+"given": "Luca"
+}
+],
+"container-title": "Personal and Ubiquitous Computing",
+"DOI": "10.1007/s00779-023-01708-1",
+"note": "Collection: Cited. Cited by 5 archive papers; cites 8 archive entries; NIME-topic probability 0.271",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "cited:wallis2013amateurmusicians",
+"type": "chapter",
+"title": "Amateur Musicians, Long-Term Engagement, and HCI",
+"author": [
+{
+"family": "Wallis",
+"given": "Isaac"
+},
+{
+"family": "Ingalls",
+"given": "Todd"
+},
+{
+"family": "Campana",
+"given": "Ellen"
+},
+{
+"family": "Vuong",
+"given": "Catherine"
+}
+],
+"container-title": "Springer Series on Cultural Computing",
+"DOI": "10.1007/978-1-4471-2990-5_3",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.192",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "cited:zicarelli2002howilearnedtolov",
+"type": "article-journal",
+"title": "How I Learned to Love a Program That Does Nothing",
+"author": [
+{
+"family": "Zicarelli",
+"given": "David"
+}
+],
+"container-title": "Computer Music Journal",
+"DOI": "10.1162/014892602320991365",
+"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.217",
+"issued": {
+"date-parts": [
+[
+2002
 ]
 ]
 }
@@ -118056,27 +118026,6 @@
 }
 },
 {
-"id": "thesis:hinckley1996hapticissuesforv",
-"type": "thesis",
-"title": "Haptic Issues for Virtual Manipulation",
-"author": [
-{
-"family": "Hinckley",
-"given": "Ken"
-}
-],
-"container-title": "University of Virginia",
-"DOI": "10.18130/v33j61",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.94",
-"issued": {
-"date-parts": [
-[
-1996
-]
-]
-}
-},
-{
 "id": "thesis:incerti1996soundsynthesisby",
 "type": "thesis",
 "title": "Sound synthesis by means of physical modeling of vibrating structures. Applications to computer music",
@@ -118160,48 +118109,6 @@
 }
 },
 {
-"id": "thesis:snow1998chartingpresence",
-"type": "thesis",
-"title": "Charting presence in virtual environments and its effects on performance",
-"author": [
-{
-"family": "Snow",
-"given": "Michael P."
-}
-],
-"container-title": "Virginia Tech",
-"URL": "http://scholar.lib.vt.edu/theses/available/etd-19311417119623510/",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.73",
-"issued": {
-"date-parts": [
-[
-1998
-]
-]
-}
-},
-{
-"id": "thesis:thomas1998theeffectsofinte",
-"type": "thesis",
-"title": "The effects of integrating kinesthetic feedback, force feedback and non-speech audio feedback in human-computer interaction",
-"author": [
-{
-"family": "Thomas",
-"given": "Alice"
-}
-],
-"container-title": "University of Waterloo",
-"URL": "http://www.collectionscanada.ca/obj/s4/f2/dsk2/tape17/PQDD_0005/MQ32872.pdf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.94",
-"issued": {
-"date-parts": [
-[
-1998
-]
-]
-}
-},
-{
 "id": "thesis:driscoll1999amachinevisionsy",
 "type": "thesis",
 "title": "A Machine Vision System for Capture and Interpretation of an Orchestra Conductor's Gestures",
@@ -118214,27 +118121,6 @@
 "container-title": "Worcester Polytechnic Institute",
 "URL": "https://digitalcommons.wpi.edu/etd-theses/808",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-1999
-]
-]
-}
-},
-{
-"id": "thesis:kumar1999astudyontheperfo",
-"type": "thesis",
-"title": "A study on the performance of TCP/IPv6 over ATM",
-"author": [
-{
-"family": "Kumar.",
-"given": "Pidakala Satyananda"
-}
-],
-"container-title": "Nanyang Technological University",
-"URL": "http://hdl.handle.net/10356/13358",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.85",
 "issued": {
 "date-parts": [
 [
@@ -118339,26 +118225,6 @@
 "container-title": "Paris 8",
 "URL": "https://theses.fr/2001PA082000",
 "note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2001
-]
-]
-}
-},
-{
-"id": "thesis:masliah2001measuringtheallo",
-"type": "thesis",
-"title": "Measuring the allocation of control in 6 degree of freedom human-computer interaction tasks",
-"author": [
-{
-"family": "Masliah",
-"given": "Maurice R."
-}
-],
-"URL": "http://www.collectionscanada.ca/obj/s4/f2/dsk3/ftp05/NQ63712.pdf",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.72",
 "issued": {
 "date-parts": [
 [
@@ -118553,27 +118419,6 @@
 "container-title": "University of Southern Mississippi",
 "URL": "https://aquila.usm.edu/dissertations/1853",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.76",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
-"id": "thesis:keuning2003augmentedforcefe",
-"type": "thesis",
-"title": "Augmented force feedback to facilitate target acquisition in human-computer interaction",
-"author": [
-{
-"family": "Keuning",
-"given": "Hilde"
-}
-],
-"container-title": "Eindhoven University of Technology",
-"DOI": "10.6100/ir570878",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 2 archive entries; selected by similarity to the archives; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -118812,27 +118657,6 @@
 }
 },
 {
-"id": "thesis:lesaoana2004interactivecultu",
-"type": "thesis",
-"title": "Interactive cultural story-telling virtual environments using San stories",
-"author": [
-{
-"family": "Lesaoana",
-"given": "M"
-}
-],
-"container-title": "University of Cape Town",
-"URL": "http://hdl.handle.net/11427/6411",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.73",
-"issued": {
-"date-parts": [
-[
-2004
-]
-]
-}
-},
-{
 "id": "thesis:khorshed2004newtechnologyfor",
 "type": "thesis",
 "title": "New technology for creative scenography",
@@ -118934,31 +118758,6 @@
 }
 },
 {
-"id": "thesis:saidi2005motioncapturetot",
-"type": "thesis",
-"title": "Motion Capture to the People: A high quality, low budget approach to real time Motion Capture",
-"author": [
-{
-"family": "Saidi",
-"given": "Daniel"
-},
-{
-"family": "Åsard",
-"given": "Magnus"
-}
-],
-"container-title": "KTH Royal Institute of Technology",
-"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-97809",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.87",
-"issued": {
-"date-parts": [
-[
-2005
-]
-]
-}
-},
-{
 "id": "thesis:gallops2005theeffectofcondu",
 "type": "thesis",
 "title": "The Effect of Conducting Gesture on Expressive-Interpretive Performance of College Music Majors",
@@ -119012,26 +118811,6 @@
 "container-title": "McGill University",
 "DOI": "10.13140/rg.2.1.3586.1527",
 "note": "Collection: Theses. Found in OpenAlex; cites 6 archive entries; selected by similarity to the archives; NIME-topic probability 0.72",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
-"id": "thesis:marlire2006conceptionetrali",
-"type": "thesis",
-"title": "Conception et réalisation d'un nouvel outil à réalité mixte et retour d'effort pour toucher et créer les nanomondes : nanomanipulateur multisensoriel",
-"author": [
-{
-"family": "Marlière",
-"given": "Sylvain"
-}
-],
-"URL": "https://hal.science/tel-01195868v1",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.95",
 "issued": {
 "date-parts": [
 [
@@ -119124,27 +118903,6 @@
 }
 },
 {
-"id": "thesis:knight2006improvingbimanua",
-"type": "thesis",
-"title": "Improving bimanual human-computer interaction using force display",
-"author": [
-{
-"family": "Knight",
-"given": "Adelle"
-}
-],
-"container-title": "Simon Fraser University",
-"URL": "http://summit.sfu.ca/item/3585",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.83",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "thesis:roetenberg2006inertialandmagne",
 "type": "thesis",
 "title": "Inertial and Magnetic Sensing of Human Motion",
@@ -119186,27 +118944,6 @@
 }
 },
 {
-"id": "thesis:sterholm2006pymorphicamorphi",
-"type": "thesis",
-"title": "PyMorphic - a Morphic based Live Programming Graphical User Interface implemented in Python",
-"author": [
-{
-"family": "Österholm",
-"given": "Anders"
-}
-],
-"container-title": "KTH Royal Institute of Technology",
-"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:liu:diva-7264",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.85",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "thesis:marlire2006studyanddesignof",
 "type": "thesis",
 "title": "Study and design of a new tool with mixed realities and force feedback to touch and manipulate nanoworlds : Multisensory NanoManipulator",
@@ -119237,7 +118974,7 @@
 "given": "Jonathan"
 }
 ],
-"container-title": "Australasian Journal of Paramedicine",
+"container-title": "Edith Cowan University",
 "URL": "https://ro.ecu.edu.au/theses/84",
 "note": "Collection: Theses. Found in OpenAlex; cites 3 archive entries; NIME-topic probability 0.99",
 "issued": {
@@ -119331,48 +119068,6 @@
 }
 },
 {
-"id": "thesis:rhijn2007configurableinpu",
-"type": "thesis",
-"title": "Configurable input devices for 3D interaction using optical tracking",
-"author": [
-{
-"family": "Rhijn",
-"given": "van Arjen"
-}
-],
-"container-title": "Eindhoven University of Technology",
-"DOI": "10.6100/ir616370",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.89",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "thesis:fisch2007developmentandte",
-"type": "thesis",
-"title": "Development and testing of haptic interfaces using electro-rheological fluids",
-"author": [
-{
-"family": "Fisch",
-"given": "Allen Joel"
-}
-],
-"container-title": "Rutgers University",
-"DOI": "10.7282/t38s4qcn",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.85",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
 "id": "thesis:osullivan2007developmentofagr",
 "type": "thesis",
 "title": "Development of a Graphical Sound Synthesis Controller Exploring Cross-Modal Perceptual Analogies",
@@ -119384,31 +119079,6 @@
 ],
 "URL": "https://www.mee.tcd.ie/~lmosulli/files/Liam%20O%20Sullivan_MPhil_Thesis_Hardbound%20Version.pdf",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 4 archive entries; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "thesis:huber2007enhancedtargetin",
-"type": "thesis",
-"title": "Enhanced targeting in a haptic user interface for the physically disabled using a force feedback mouse",
-"author": [
-{
-"family": "Huber",
-"given": "Manfred"
-},
-{
-"family": "Holbert",
-"given": "Brian"
-}
-],
-"container-title": "The University of Texas at Arlington",
-"URL": "https://rc.library.uta.edu/uta-ir/handle/10106/648",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.94",
 "issued": {
 "date-parts": [
 [
@@ -119470,47 +119140,6 @@
 "container-title": "Palaiseau, Ecole polytechnique",
 "URL": "https://theses.fr/2007EPXX0041",
 "note": "Collection: Theses. Found in theses.fr; selected by similarity to the archives; NIME-topic probability 0.75",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "thesis:lozada2007modlisationcontr",
-"type": "thesis",
-"title": "Modélisation, contrôle haptique et nouvelles réalisations de claviers musicaux",
-"author": [
-{
-"family": "Lozada",
-"given": "José"
-}
-],
-"container-title": "Laboratoire Mécanique des Solides",
-"URL": "https://hal.science/tel-00280538v1",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.94",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "thesis:casciato2007onthechoiceofges",
-"type": "thesis",
-"title": "On the Choice of Gestural Controllers for Musical Applications: An Evaluation of the Lightning II and the Radio Baton",
-"author": [
-{
-"family": "Casciato",
-"given": "Carmine"
-}
-],
-"container-title": "McGill University",
-"note": "Collection: Theses. Found in Zotero; selected by similarity to the archives; NIME-topic probability 0.98",
 "issued": {
 "date-parts": [
 [
@@ -119716,7 +119345,7 @@
 "given": "Anu"
 }
 ],
-"container-title": "Työväentutkimus Vuosikirja",
+"container-title": "University of Helsinki",
 "URL": "http://hdl.handle.net/10138/19379",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.90",
 "issued": {
@@ -119953,26 +119582,6 @@
 }
 },
 {
-"id": "thesis:miskalo2009aperformanceenqu",
-"type": "thesis",
-"title": "A performance enquanto elemento composicional na música eletroacústica interativa",
-"author": [
-{
-"family": "Miskalo",
-"given": "Vitor Kisil"
-}
-],
-"DOI": "10.11606/d.27.2009.tde-18092009-132904",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2009
-]
-]
-}
-},
-{
 "id": "thesis:costalonga2009biomechanicalmod",
 "type": "thesis",
 "title": "Biomechanical Modelling of Musical Performance: A Case Study of the Guitar",
@@ -119985,47 +119594,6 @@
 "container-title": "University of Plymouth",
 "DOI": "10.24382/3145",
 "note": "Collection: Theses. Found in DataCite; cites 5 archive entries; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2009
-]
-]
-}
-},
-{
-"id": "thesis:beux2009contrlegestuelde",
-"type": "thesis",
-"title": "Contrôle gestuel de la prosodie et de la qualité vocale",
-"author": [
-{
-"family": "Beux",
-"given": "Sylvain Le"
-}
-],
-"container-title": "Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur",
-"URL": "https://theses.hal.science/tel-00618427",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.86",
-"issued": {
-"date-parts": [
-[
-2009
-]
-]
-}
-},
-{
-"id": "thesis:goh2009developmentofawe",
-"type": "thesis",
-"title": "Development of a wearable motion capture system using linear encoder",
-"author": [
-{
-"family": "Goh",
-"given": "Young Koon"
-}
-],
-"DOI": "10.32657/10356/19298",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.86",
 "issued": {
 "date-parts": [
 [
@@ -120241,27 +119809,6 @@
 }
 },
 {
-"id": "thesis:alam2009rpenanewdpointin",
-"type": "thesis",
-"title": "Rpen: A New 3D Pointing Device",
-"author": [
-{
-"family": "Alam",
-"given": "Badrul Mohammad"
-}
-],
-"container-title": "McMaster University",
-"DOI": "10.71548/10462",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; selected by similarity to the archives; NIME-topic probability 0.83",
-"issued": {
-"date-parts": [
-[
-2009
-]
-]
-}
-},
-{
 "id": "thesis:bounard2009synthesisofmusic",
 "type": "thesis",
 "title": "Synthesis of Music Performances: Virtual Character Animation as a Controller of Sound Synthesis",
@@ -120360,31 +119907,6 @@
 "date-parts": [
 [
 2009
-]
-]
-}
-},
-{
-"id": "thesis:cao2010amotiongraphappr",
-"type": "thesis",
-"title": "A Motion Graph Approach for Interactive 3D Animation using Low-cost Sensors",
-"author": [
-{
-"family": "Cao",
-"given": "Yong"
-},
-{
-"family": "Kumar",
-"given": "Mithilesh"
-}
-],
-"container-title": "CGVR",
-"URL": "https://scholar.lib.vt.edu/theses/available/etd-07252008-000023/unrestricted/Mithilesh_Kumar_ETD.pdf",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2010
 ]
 ]
 }
@@ -120570,48 +120092,6 @@
 "container-title": "University of Huddersfield",
 "URL": "http://eprints.hud.ac.uk/id/eprint/10989/1/gboothfinalthesis.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.80",
-"issued": {
-"date-parts": [
-[
-2010
-]
-]
-}
-},
-{
-"id": "thesis:hachet2010interfacesutilis",
-"type": "thesis",
-"title": "Interfaces utilisateur 3D , des appareils mobiles pour les environnements virtuels immersifs",
-"author": [
-{
-"family": "Hachet",
-"given": "Martin"
-}
-],
-"container-title": "Laboratoire Bordelais de Recherche en Informatique",
-"URL": "https://theses.hal.science/tel-00576663",
-"note": "Collection: Theses. Found in OpenAlex; cites 5 archive entries; NIME-topic probability 0.89",
-"issued": {
-"date-parts": [
-[
-2010
-]
-]
-}
-},
-{
-"id": "thesis:sarakoglou2010interoperablehap",
-"type": "thesis",
-"title": "Interoperable haptic interfaces for tactile and force feedback integration in VR",
-"author": [
-{
-"family": "Sarakoglou",
-"given": "Loannis"
-}
-],
-"container-title": "University of Salford",
-"URL": "http://usir.salford.ac.uk/id/eprint/26896/1/11389001.pdf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.97",
 "issued": {
 "date-parts": [
 [
@@ -120831,31 +120311,6 @@
 }
 },
 {
-"id": "thesis:spelmezan2011alanguageoftacti",
-"type": "thesis",
-"title": "A language of tactile motion instructions for physical activities",
-"author": [
-{
-"family": "Spelmezan",
-"given": "Daniel"
-},
-{
-"family": "Borchers",
-"given": "Jan"
-}
-],
-"container-title": "RWTH Publications (RWTH Aachen)",
-"URL": "https://publications.rwth-aachen.de/search?p=id:%22RWTH-CONV-125927%22",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.89",
-"issued": {
-"date-parts": [
-[
-2011
-]
-]
-}
-},
-{
 "id": "thesis:torres2011ananalysistotheg",
 "type": "thesis",
 "title": "An Analysis to the Guitar Lab's gesture acquisition prototype with the aim of improving it",
@@ -120930,26 +120385,6 @@
 ],
 "DOI": "10.34719/kbfq1242",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2011
-]
-]
-}
-},
-{
-"id": "thesis:merer2011caractrisationac",
-"type": "thesis",
-"title": "Caractérisation acoustique et perceptive du mouvement évoqué par les sons pour le contrôle de la synthèse",
-"author": [
-{
-"family": "Merer",
-"given": "Adrien"
-}
-],
-"DOI": "10.70675/7acbb4c1z2dafz4204z94d0z0a694bd34aee",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 7 archive entries; NIME-topic probability 0.86",
 "issued": {
 "date-parts": [
 [
@@ -121431,27 +120866,6 @@
 }
 },
 {
-"id": "thesis:yazdani2012braincomputerint",
-"type": "thesis",
-"title": "Brain-Computer Interface in Multimedia Systems",
-"author": [
-{
-"family": "Yazdani",
-"given": "Ashkan"
-}
-],
-"container-title": "Lausanne, EPFL",
-"DOI": "10.5075/epfl-thesis-5508",
-"note": "Collection: Theses. Found in DataCite; selected by similarity to the archives; NIME-topic probability 0.84",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
 "id": "thesis:fencott2012computermusickin",
 "type": "thesis",
 "title": "Computer musicking : designing for collaborative digital musical interaction",
@@ -121525,47 +120939,6 @@
 "container-title": "University of Alberta",
 "DOI": "10.7939/r39d0s",
 "note": "Collection: Theses. Found in OpenAlex; cites 4 archive entries; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
-"id": "thesis:li2012developmentofimm",
-"type": "thesis",
-"title": "Development of immersive and interactive virtual reality environment for two-player table tennis",
-"author": [
-{
-"family": "Li",
-"given": "Yingzhu"
-}
-],
-"URL": "http://hdl.handle.net/10068/991486",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
-"id": "thesis:zeng2012extensionoffitts",
-"type": "thesis",
-"title": "Extension Of Fittsx19 Law In Three-Dimensional Space With Coordinated Hand Movements",
-"author": [
-{
-"family": "Zeng",
-"given": "Xiaolu"
-}
-],
-"container-title": "Cornell University",
-"URL": "https://hdl.handle.net/1813/31509",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.80",
 "issued": {
 "date-parts": [
 [
@@ -121710,7 +121083,7 @@
 "given": "Chris"
 }
 ],
-"container-title": "Syiah Kuala University",
+"container-title": "University of Sussex",
 "URL": "http://sro.sussex.ac.uk/40839/1/Kiefer%2C_Chris.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.78",
 "issued": {
@@ -121754,27 +121127,6 @@
 "container-title": "University of Porto",
 "DOI": "10.34626/8z6z-ed06",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 24 archive entries; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
-"id": "thesis:danyluk2012proofofconceptfo",
-"type": "thesis",
-"title": "Proof of Concept For the Use of Motion Capture Technology In Athletic Pedagogy",
-"author": [
-{
-"family": "Danyluk",
-"given": "Derrick"
-}
-],
-"container-title": "University of Saskatchewan",
-"URL": "http://hdl.handle.net/10388/ETD-2011-11-227",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.78",
 "issued": {
 "date-parts": [
 [
@@ -121887,27 +121239,6 @@
 }
 },
 {
-"id": "thesis:kruczynska2012whatdoesdancingh",
-"type": "thesis",
-"title": "What does dancing have to do with blogging? : A study of verbal and nonverbal communication among dance bloggers.",
-"author": [
-{
-"family": "Kruczynska",
-"given": "Katarzyna"
-}
-],
-"container-title": "KTH Royal Institute of Technology",
-"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:uu:diva-175149",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.83",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
 "id": "thesis:hu2013automaticconstru",
 "type": "thesis",
 "title": "Automatic Construction of Synthetic Musical Instruments and Performers",
@@ -122001,27 +121332,6 @@
 ],
 "DOI": "10.24124/2013/bpgub879",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 4 archive entries; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "thesis:ren2013designingforeffe",
-"type": "thesis",
-"title": "Designing for effective freehand gestural interaction",
-"author": [
-{
-"family": "Ren",
-"given": "Gang"
-}
-],
-"container-title": "The University of Bath",
-"URL": "http://opus.bath.ac.uk/43307/1/GangRen_thesis.pdf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.77",
 "issued": {
 "date-parts": [
 [
@@ -122208,7 +121518,7 @@
 "given": "Jordan"
 }
 ],
-"container-title": "Education New Zealand",
+"container-title": "Victoria University of Wellington",
 "DOI": "10.26686/wgtn.17003935",
 "note": "Collection: Theses. Found in OpenAlex; cites 19 archive entries; selected by similarity to the archives; NIME-topic probability 0.95",
 "issued": {
@@ -122231,27 +121541,6 @@
 ],
 "URL": "http://hdl.handle.net/10852/34354",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.84",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "thesis:akkil2013mobilegazeintera",
-"type": "thesis",
-"title": "Mobile gaze interaction : gaze gestures with haptic feedback",
-"author": [
-{
-"family": "Akkil",
-"given": "Deepak"
-}
-],
-"container-title": "Tampere University",
-"URL": "https://trepo.tuni.fi/handle/10024/94820",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.79",
 "issued": {
 "date-parts": [
 [
@@ -122335,26 +121624,6 @@
 "container-title": "Universitat Pompeu Fabra",
 "DOI": "10.5281/zenodo.3754217",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "thesis:feugre2013synthseparrglesd",
-"type": "thesis",
-"title": "Synthèse par règles de la voix chantée contrôlée par le geste et applications musicales",
-"author": [
-{
-"family": "Feugère",
-"given": "Lionel"
-}
-],
-"URL": "https://theses.hal.science/tel-00926980",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.73",
 "issued": {
 "date-parts": [
 [
@@ -122841,31 +122110,6 @@
 }
 },
 {
-"id": "thesis:reek2014portableinstrume",
-"type": "thesis",
-"title": "Portable Instrument Panel for Rowers: Dataverwerking via Android applicatie",
-"author": [
-{
-"family": "Reek",
-"given": "M. Van der"
-},
-{
-"family": "Dreef",
-"given": "K."
-}
-],
-"container-title": "Delft University of Technology",
-"URL": "http://resolver.tudelft.nl/uuid:67af8b54-21f6-42f5-a1bb-a847d434876d",
-"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
-"issued": {
-"date-parts": [
-[
-2014
-]
-]
-}
-},
-{
 "id": "thesis:prezlpez2014realtimedaudiosp",
 "type": "thesis",
 "title": "Real-Time 3D Audio Spatialization Tools for Interactive Performance",
@@ -123140,26 +122384,6 @@
 }
 },
 {
-"id": "thesis:burno2015equatinguserexpe",
-"type": "thesis",
-"title": "Equating User Experience and Fitts’ Law in Gesture Based Input Modalities",
-"author": [
-{
-"family": "Burno",
-"given": "Rachael A."
-}
-],
-"URL": "https://keep.lib.asu.edu/_flysystem/fedora/c7/140371/Burno_asu_0010N_15289.pdf",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.78",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
 "id": "thesis:hahn2015expressivesampli",
 "type": "thesis",
 "title": "Expressive sampling synthesis. Learning extended source-filter models from instrument sound databases for expressive sample manipulations",
@@ -123172,27 +122396,6 @@
 "container-title": "Université Pierre-et-Marie-Curie",
 "DOI": "10.70675/7bdf4a6ezb519z499bzbd87z06a1a25061cb",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
-"id": "thesis:karvinen2015hapticfeedbackin",
-"type": "thesis",
-"title": "Haptic feedback in freehand gesture interaction",
-"author": [
-{
-"family": "Karvinen",
-"given": "Joni"
-}
-],
-"container-title": "Tampere University",
-"URL": "https://trepo.tuni.fi/handle/10024/96644",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.97",
 "issued": {
 "date-parts": [
 [
@@ -123265,27 +122468,6 @@
 }
 },
 {
-"id": "thesis:leonard2015laplateformemsci",
-"type": "thesis",
-"title": "La Plateforme MSCI : vers un outil de création d'instruments virtuels à retour d'effort. Application à la création musicale",
-"author": [
-{
-"family": "Leonard",
-"given": "James"
-}
-],
-"container-title": "Communauté Université Grenoble Alpes",
-"DOI": "10.70675/d032a771z441bz4e68z8583zeaf5722a1149",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 4 archive entries; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
 "id": "thesis:rou2015livecodingmethod",
 "type": "thesis",
 "title": "Live Coding - method, art and ideology",
@@ -123339,48 +122521,6 @@
 "container-title": "University of Vienna",
 "DOI": "10.25365/thesis.36880",
 "note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
-"id": "thesis:brouet2015multitouchgestur",
-"type": "thesis",
-"title": "Multi-touch gesture interactions and deformable geometry for 3D edition on touch screen",
-"author": [
-{
-"family": "Brouet",
-"given": "Remi"
-}
-],
-"container-title": "Université Grenoble Alpes (ComUE)",
-"DOI": "10.70675/4da34acdz2c12z498eza7e6z5bb3a712a9c0",
-"note": "Collection: Theses. Found in theses.fr; selected by similarity to the archives; NIME-topic probability 0.87",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
-"id": "thesis:yang2015notallgesturesar",
-"type": "thesis",
-"title": "Not All Gestures Are Created Equal: Gesture and Visual Feedback in Interaction Spaces.",
-"author": [
-{
-"family": "Yang",
-"given": "Qi"
-}
-],
-"container-title": "University of Michigan",
-"URL": "https://hdl.handle.net/2027.42/113456",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -123660,27 +122800,6 @@
 }
 },
 {
-"id": "thesis:young2016anarmmountedacce",
-"type": "thesis",
-"title": "An Arm-Mounted Accelerometer and Gyro-Based 3D Control System",
-"author": [
-{
-"family": "Young",
-"given": "Thomas S."
-}
-],
-"container-title": "York University",
-"URL": "http://hdl.handle.net/10315/32717",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 4 archive entries; NIME-topic probability 0.87",
-"issued": {
-"date-parts": [
-[
-2016
-]
-]
-}
-},
-{
 "id": "thesis:adi2016aplikasipembelaj",
 "type": "thesis",
 "title": "Aplikasi Pembelajaran Piano Menggunakan Virtual Button Berbasis Augmented Reality Pada Android",
@@ -123839,27 +122958,6 @@
 ],
 "URL": "http://dspace.udla.edu.ec/bitstream/33000/6676/1/UDLA-EC-TIS-2016-25.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2016
-]
-]
-}
-},
-{
-"id": "thesis:ngan2016developmentofavi",
-"type": "thesis",
-"title": "Development of a virtual pet game using oculus rift and leap motion technologies.",
-"author": [
-{
-"family": "Ngan",
-"given": "Thi Tuyet"
-}
-],
-"container-title": "Bournemouth University",
-"URL": "http://eprints.bournemouth.ac.uk/24987/1/DO%2C%20Thi%20Tuyet%20Ngan_M.Res._2016.pdf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -124135,27 +123233,6 @@
 }
 },
 {
-"id": "thesis:frumau2016thescalingofpres",
-"type": "thesis",
-"title": "The scaling of presence in virtual reality",
-"author": [
-{
-"family": "Frumau",
-"given": "Pfw Peter"
-}
-],
-"container-title": "Eindhoven University of Technology",
-"URL": "http://library.tue.nl/csp/dare/LinkToRepository.csp?recordnumber=843194",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.74",
-"issued": {
-"date-parts": [
-[
-2016
-]
-]
-}
-},
-{
 "id": "thesis:avram2016thevisualregimeo",
 "type": "thesis",
 "title": "The visual regime of augmented reality art: space, body, technology, and the real-virtual convergence",
@@ -124230,48 +123307,6 @@
 "container-title": "Monash University",
 "DOI": "10.4225/03/58d050c70e6f9",
 "note": "Collection: Theses. Found in DataCite; cites 10 archive entries; NIME-topic probability 0.89",
-"issued": {
-"date-parts": [
-[
-2017
-]
-]
-}
-},
-{
-"id": "thesis:sheikholeslami2017datadrivendesign",
-"type": "thesis",
-"title": "Data-driven design of expressive robot hands and hand gestures : applications for collaborative human-robot interaction",
-"author": [
-{
-"family": "Sheikh‐Oleslami",
-"given": "Sara"
-}
-],
-"container-title": "University of British Columbia",
-"DOI": "10.14288/1.0344007",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.90",
-"issued": {
-"date-parts": [
-[
-2017
-]
-]
-}
-},
-{
-"id": "thesis:zheng2017enablingexpressi",
-"type": "thesis",
-"title": "Enabling Expressive Keyboard Interaction with Finger, Hand, and Hand Posture Identification",
-"author": [
-{
-"family": "Zheng",
-"given": "Jingjie"
-}
-],
-"container-title": "University of Waterloo",
-"URL": "http://hdl.handle.net/10012/12371",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.82",
 "issued": {
 "date-parts": [
 [
@@ -124454,27 +123489,6 @@
 }
 },
 {
-"id": "thesis:bonome2017proposingtwonewh",
-"type": "thesis",
-"title": "PROPOSING TWO NEW HANDLING INTERACTION TECHNIQUES FOR 3D VIRTUAL OBJECTS USING THE MYO ARMBAND",
-"author": [
-{
-"family": "BONOME",
-"given": "YADIRA GARNICA"
-}
-],
-"container-title": "Pontifícia Universidade Católica do Rio de Janeiro",
-"DOI": "10.17771/pucrio.acad.30744",
-"note": "Collection: Theses. Found in OpenAlex; cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.73",
-"issued": {
-"date-parts": [
-[
-2017
-]
-]
-}
-},
-{
 "id": "thesis:he2017revisioningguqin",
 "type": "thesis",
 "title": "Re-Visioning Guqin Performance through Interface Design, Digital Measurement, and Signal Processing",
@@ -124486,27 +123500,6 @@
 ],
 "DOI": "10.26686/wgtn.20388051",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2017
-]
-]
-}
-},
-{
-"id": "thesis:chen2017recognitionandin",
-"type": "thesis",
-"title": "Recognition and interpretation of multi-touch gesture interaction",
-"author": [
-{
-"family": "Chen",
-"given": "Zhaoxin"
-}
-],
-"container-title": "Rennes, INSA",
-"DOI": "10.70675/9a6c5f99z5b4fz4923z8d17zfb67192cd861",
-"note": "Collection: Theses. Found in theses.fr; selected by similarity to the archives; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [
@@ -124590,27 +123583,6 @@
 "container-title": "Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur",
 "URL": "http://www.theses.fr/2017SACLS458/document",
 "note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2017
-]
-]
-}
-},
-{
-"id": "thesis:siddhpuria2017watchtracedesign",
-"type": "thesis",
-"title": "WatchTrace: Design and Evaluation of an At-Your-Side Gesture Paradigm",
-"author": [
-{
-"family": "Siddhpuria",
-"given": "Shaishav"
-}
-],
-"container-title": "University of Waterloo",
-"URL": "http://hdl.handle.net/10012/12627",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.73",
 "issued": {
 "date-parts": [
 [
@@ -124724,27 +123696,6 @@
 }
 },
 {
-"id": "thesis:perelman2018conceptiondvelop",
-"type": "thesis",
-"title": "Conception, développement et évaluation de techniques d'interactions fluides pour des environnements multidimensionnels : application aux logiciels du service public",
-"author": [
-{
-"family": "Perelman",
-"given": "Gary"
-}
-],
-"container-title": "Université Toulouse III - Paul Sabatier",
-"DOI": "10.70675/0f30ec81z4e92z48b7zb84bz596a16ee9abd",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 4 archive entries; NIME-topic probability 0.77",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
 "id": "thesis:behseresht2018dancinginvirtual",
 "type": "thesis",
 "title": "Dancing in Virtual Reality",
@@ -124848,27 +123799,6 @@
 "container-title": "Brno University of Technology",
 "URL": "http://hdl.handle.net/11012/81998",
 "note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
-"id": "thesis:doughtery2018footcontrolledsu",
-"type": "thesis",
-"title": "Foot-Controlled Supernumerary Robotic Arm: Control Methods and Human Abilities",
-"author": [
-{
-"family": "Doughtery",
-"given": "Zachary Joseph"
-}
-],
-"container-title": "Rose–Hulman Institute of Technology",
-"URL": "https://scholar.rose-hulman.edu/mechanical_engineering_grad_theses/12",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.84",
 "issued": {
 "date-parts": [
 [
@@ -125066,27 +123996,6 @@
 }
 },
 {
-"id": "thesis:ajili2018reconnaissancede",
-"type": "thesis",
-"title": "Reconnaissance des gestes expressifs inspirée du modèle LMA pour une interaction naturelle homme-robot",
-"author": [
-{
-"family": "Ajili",
-"given": "Insaf"
-}
-],
-"container-title": "Université Paris-Saclay",
-"DOI": "10.70675/8cbb3025z501ez46cfzac7eze9eace8bda24",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
 "id": "thesis:akkaya2018soundmorphingusi",
 "type": "thesis",
 "title": "Sound Morphing Using Auditory P300 Based Attentional Brain-computer Musical Interface",
@@ -125223,27 +124132,6 @@
 "container-title": "Universidade de São Paulo",
 "DOI": "10.11606/d.45.2018.tde-22122017-164922",
 "note": "Collection: Theses. Found in OpenAlex; cites 2 archive entries; selected by similarity to the archives; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
-"id": "thesis:perry2018virtualrealityan",
-"type": "thesis",
-"title": "Virtual reality and the clinic: an ethnographic study of the Computer Assisted Rehabilitation Environment (The CAREN Research Study)",
-"author": [
-{
-"family": "Perry",
-"given": "Karen-Marie Elah"
-}
-],
-"container-title": "University of Victoria",
-"URL": "http://hdl.handle.net/1828/9261",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.72",
 "issued": {
 "date-parts": [
 [
@@ -125691,27 +124579,6 @@
 }
 },
 {
-"id": "thesis:marincarrillo2019theevolutionofth",
-"type": "thesis",
-"title": "The evolution of the audiovisual documentary.From interactive formats to immersive experiences",
-"author": [
-{
-"family": "Carrillo",
-"given": "Alba Marin"
-}
-],
-"container-title": "Université Grenoble Alpes (ComUE)",
-"DOI": "10.70675/655cf753z82efz431fzb976z8be3c0108db2",
-"note": "Collection: Theses. Found in theses.fr; selected by similarity to the archives; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
 "id": "thesis:santos2019usingmotionsenso",
 "type": "thesis",
 "title": "Using Motion Sensor and Machine Learning to Support the Assessment of Rhythmic Skills in Social Partner Dance: Bridging Teacher, Student and Machine Contexts",
@@ -125896,27 +124763,6 @@
 }
 },
 {
-"id": "thesis:louis2020implmentationetb",
-"type": "thesis",
-"title": "Implémentation et bénéfices des systèmes d'interaction haute-fidélité : d'un contrôle plus performant à un apprentissage d'objets 3D plus rapide",
-"author": [
-{
-"family": "LOUIS",
-"given": "Thibault"
-}
-],
-"container-title": "Université Grenoble Alpes",
-"DOI": "10.70675/08591e7fz8f3ez41ccza60azc033533759ab",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.86",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
 "id": "thesis:bouteiller2020instrumentsnumri",
 "type": "thesis",
 "title": "Instruments numériques et performances musicales : enjeux ontologiques et esthétiques",
@@ -126040,27 +124886,6 @@
 }
 },
 {
-"id": "thesis:goudard2020representationan",
-"type": "thesis",
-"title": "Representation and control in the interactive design of digital musical instruments",
-"author": [
-{
-"family": "Goudard",
-"given": "Vincent"
-}
-],
-"container-title": "Institut Jean Le Rond d'Alembert",
-"URL": "http://www.theses.fr/2020SORUS051/document",
-"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
 "id": "thesis:goudard2020reprsentationetc",
 "type": "thesis",
 "title": "Représentation et contrôle dans le design interactif des instruments de musique numériques",
@@ -126094,27 +124919,6 @@
 "container-title": "KTH Royal Institute of Technology",
 "URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-280814",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
-"id": "thesis:roche2020synthsedesonsmus",
-"type": "thesis",
-"title": "Synthèse de sons musicaux par apprentissage machine : vers un espace de contrôle perceptivement pertinent",
-"author": [
-{
-"family": "Roche",
-"given": "Fanny"
-}
-],
-"container-title": "GIPSA-Lab",
-"DOI": "10.70675/11139a1bz26bdz4352za195ze6e849dec3bf",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.76",
 "issued": {
 "date-parts": [
 [
@@ -126260,26 +125064,6 @@
 "container-title": "Simon Fraser University",
 "URL": "http://summit.sfu.ca/item/21507",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.84",
-"issued": {
-"date-parts": [
-[
-2021
-]
-]
-}
-},
-{
-"id": "thesis:ostan2021hapticfeedbackth",
-"type": "thesis",
-"title": "Haptic feedback through lower limbs exoskeleton for rehabilitation robotics with virtual reality",
-"author": [
-{
-"family": "Ostan",
-"given": "Ícaro"
-}
-],
-"DOI": "10.11606/d.18.2021.tde-15092021-084047",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -126540,27 +125324,6 @@
 }
 },
 {
-"id": "thesis:clara2021themusicalinstru",
-"type": "thesis",
-"title": "The musical instrument in the digital age : theory, making of a panoply and musical creation",
-"author": [
-{
-"family": "Clara",
-"given": "Sébastien"
-}
-],
-"container-title": "theses.fr (ABES)",
-"URL": "http://www.theses.fr/2021LYSES001/document",
-"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2021
-]
-]
-}
-},
-{
 "id": "thesis:gregorio2021timbrespacelearn",
 "type": "thesis",
 "title": "Timbre space learning for augmentation of musical audio synthesizer interfaces",
@@ -126766,26 +125529,6 @@
 ],
 "DOI": "10.5821/dissertation-2117-368003",
 "note": "Collection: Theses. Found in OpenAlex; cites 6 archive entries; NIME-topic probability 0.90",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
-"id": "thesis:miner2022stairwaytoheaven",
-"type": "thesis",
-"title": "Stairway to Heaven: breathing mindfulness into virtual reality",
-"author": [
-{
-"family": "Miner",
-"given": "Nathan"
-}
-],
-"DOI": "10.17760/d20471083",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.72",
 "issued": {
 "date-parts": [
 [
@@ -127045,27 +125788,6 @@
 }
 },
 {
-"id": "thesis:oancea2023theimmanentanima",
-"type": "thesis",
-"title": "The immanent animation director: a conceptual framework for transitioning to immersive, virtual reality directing",
-"author": [
-{
-"family": "Oancea",
-"given": "Sorin"
-}
-],
-"container-title": "Queensland University of Technology",
-"DOI": "10.5204/thesis.eprints.245002",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.71",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
 "id": "thesis:yaarlar2024fewandfarbetween",
 "type": "thesis",
 "title": "\"Few and Far Between\": Digital Musical Instrument Design based on Machine Vision and Neural Deep Learning Algorithms",
@@ -127162,27 +125884,6 @@
 "container-title": "McGill University",
 "DOI": "10.82308/13234",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
-"id": "thesis:lee2024exploringmixedin",
-"type": "thesis",
-"title": "Exploring Mixed Interaction Mode in Virtual Reality: Controller-based and Hand Gesture Integration",
-"author": [
-{
-"family": "Lee",
-"given": "Yemon"
-}
-],
-"container-title": "University of Auckland",
-"URL": "http://hdl.handle.net/10292/18936",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.89",
 "issued": {
 "date-parts": [
 [
@@ -127337,27 +126038,6 @@
 }
 },
 {
-"id": "thesis:favero2024recognitionandpe",
-"type": "thesis",
-"title": "Recognition and personalization of hand gestures for interaction with web pages through computer vision and machine learning",
-"author": [
-{
-"family": "Favero",
-"given": "Daniel Gustavo"
-}
-],
-"container-title": "Federal University of Technology – Paraná",
-"URL": "http://repositorio.utfpr.edu.br/jspui/handle/1/34394",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.83",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
 "id": "thesis:niyonsenga2024reliabilitycente",
 "type": "thesis",
 "title": "Reliability Centered Approaches for Digital Musical Interface Design",
@@ -127412,27 +126092,6 @@
 "container-title": "FH JOANNEUM ePUB",
 "URL": "https://resolver.obvsg.at/urn:nbn:at:at-fhj:1-37538",
 "note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
-"id": "thesis:andrews2024thedepthobjectex",
-"type": "thesis",
-"title": "The depth object exploring non-naturalistic spatial composition in virtual reality",
-"author": [
-{
-"family": "Andrews",
-"given": "Stephanie"
-}
-],
-"container-title": "RMIT University",
-"DOI": "10.25439/rmt.27597720",
-"note": "Collection: Theses. Found in DataCite; selected by similarity to the archives; NIME-topic probability 0.86",
 "issued": {
 "date-parts": [
 [
@@ -127693,27 +126352,6 @@
 }
 },
 {
-"id": "thesis:west2025sygaldryreusable",
-"type": "thesis",
-"title": "Sygaldry : reusable software for making digital musical instruments",
-"author": [
-{
-"family": "West",
-"given": "Travis J."
-}
-],
-"container-title": "Université de Lille",
-"DOI": "10.70675/c48778bez38d5z45b0zbb1az572e82b68a58",
-"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-2025
-]
-]
-}
-},
-{
 "id": "thesis:branch2025teleimmersionfor",
 "type": "thesis",
 "title": "Tele-immersion for the training and performance of live theatre",
@@ -127726,27 +126364,6 @@
 "container-title": "University of Kent",
 "DOI": "10.22024/unikent/01.02.108753",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives; NIME-topic probability 0.87",
-"issued": {
-"date-parts": [
-[
-2025
-]
-]
-}
-},
-{
-"id": "thesis:zou2025theeffectofasymm",
-"type": "thesis",
-"title": "The Effect of Asymmetrical Device Input on 3D Tracing and Object Editing in Virtual Reality",
-"author": [
-{
-"family": "Zou",
-"given": "Qianyuan"
-}
-],
-"container-title": "University of Auckland",
-"URL": "https://hdl.handle.net/2292/73616",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.84",
 "issued": {
 "date-parts": [
 [
@@ -127835,47 +126452,6 @@
 "date-parts": [
 [
 2025
-]
-]
-}
-},
-{
-"id": "thesis:tsiros2026amultidimensiona",
-"type": "thesis",
-"title": "A Multidimensional Sketching Interface for Visual Interaction with Corpus-Based Concatenative Sound Synthesis",
-"author": [
-{
-"family": "Tsiros",
-"given": "Augoustinos"
-}
-],
-"container-title": "Edinburgh Napier University",
-"DOI": "10.17869/enu.463438",
-"note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2026
-]
-]
-}
-},
-{
-"id": "thesis:melbye2026acontinuallyrece",
-"type": "thesis",
-"title": "A continually receding horizon: making, performing, and improvising with semi-autonomous double bass feedback instruments",
-"author": [
-{
-"family": "Melbye",
-"given": "Adam Pultz"
-}
-],
-"DOI": "10.17034/32634954.v1",
-"note": "Collection: Theses. Found in DataCite; selected by similarity to the archives; NIME-topic probability 0.94",
-"issued": {
-"date-parts": [
-[
-2026
 ]
 ]
 }
@@ -128262,39 +126838,6 @@
 }
 },
 {
-"id": "related:hoggan2009audioortacti",
-"type": "paper-conference",
-"title": "Audio or tactile feedback",
-"author": [
-{
-"family": "Hoggan",
-"given": "Eve"
-},
-{
-"family": "Crossan",
-"given": "Andrew"
-},
-{
-"family": "Brewster",
-"given": "Stephen A."
-},
-{
-"family": "Kaaresoja",
-"given": "Topi"
-}
-],
-"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/1518701.1519045",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.2412)",
-"issued": {
-"date-parts": [
-[
-2009
-]
-]
-}
-},
-{
 "id": "related:fremerey2007ademonstrati",
 "type": "paper-conference",
 "title": "A Demonstration of the SyncPlayer System.",
@@ -128506,31 +127049,6 @@
 }
 },
 {
-"id": "related:stroppa1986elementidiin",
-"type": "article-journal",
-"title": "Elementi di Informatica Musicale",
-"author": [
-{
-"family": "Stroppa",
-"given": "Marco"
-},
-{
-"family": "Haus",
-"given": "Goffredo"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3680303",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.121)",
-"issued": {
-"date-parts": [
-[
-1986
-]
-]
-}
-},
-{
 "id": "related:j2001tonetableamu",
 "type": "paper-conference",
 "title": "TONETABLE: A Multi-User, Mixed-Media, Interactive Installation",
@@ -128586,20 +127104,20 @@
 "title": "Expressive Controllers For Bowed String Physical Models",
 "author": [
 {
-"family": "S.",
-"given": "Serafin"
+"family": "Serafin",
+"given": "S."
 },
 {
-"family": "M.",
-"given": "Burtner"
+"family": "Burtner",
+"given": "M."
 },
 {
-"family": "C.",
-"given": "Nichols"
+"family": "Nichols",
+"given": "C."
 },
 {
-"family": "S.",
-"given": "O'Modhrain"
+"family": "O'Modhrain",
+"given": "S."
 }
 ],
 "container-title": "DAFx",
@@ -128739,27 +127257,6 @@
 }
 },
 {
-"id": "related:djennane2002modlesdeprse",
-"type": "paper-conference",
-"title": "Mod?les de présentation d'informations audio 3D pour les usagers mobiles",
-"author": [
-{
-"family": "Djennane",
-"given": "Safia"
-}
-],
-"container-title": "Proceedings of the 14th French-speaking conference on Human-computer interaction (Conf?rence Francophone sur l'Interaction Homme-Machine)  - IHM '02",
-"DOI": "10.1145/777005.777029",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0863)",
-"issued": {
-"date-parts": [
-[
-2002
-]
-]
-}
-},
-{
 "id": "related:madole1995dsoundforvir",
 "type": "article-journal",
 "title": "3-D Sound for Virtual Reality and Multimedia",
@@ -128780,47 +127277,6 @@
 "date-parts": [
 [
 1995
-]
-]
-}
-},
-{
-"id": "related:taylor1985tmtrioinstru",
-"type": "article-journal",
-"title": "TM +, Trio instrumental electroacoustique",
-"author": [
-{
-"family": "Taylor",
-"given": "Joseph Paul"
-},
-{
-"family": "Dufour",
-"given": ""
-},
-{
-"family": "Geslin",
-"given": ""
-},
-{
-"family": "Cuniot",
-"given": ""
-},
-{
-"family": "Mion",
-"given": ""
-},
-{
-"family": "Parmegiani",
-"given": ""
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3679660",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0846)",
-"issued": {
-"date-parts": [
-[
-1985
 ]
 ]
 }
@@ -128861,15 +127317,15 @@
 {
 "id": "related:lab2003investigatio",
 "type": "paper-conference",
-"title": "INVESTIGATION OF THE PLAYABILITY OF VIRTUAL BOWED STRINGS Stejizizia Serajiiz, Diarza Yourzg CCRMA, Department of Music",
+"title": "Investigation of the Playability of Virtual Bowed Strings",
 "author": [
 {
-"family": "MIT",
-"given": "Media Lab"
+"family": "Serafin",
+"given": "Stefania"
 },
 {
-"family": "Cambridge",
-"given": "MA"
+"family": "Young",
+"given": "Diana"
 }
 ],
 "container-title": "CIM 2003",
@@ -128934,8 +127390,8 @@
 "title": "Interactive digital audio environments: gesture as a musical parameter",
 "author": [
 {
-"family": "S.",
-"given": "Sapir"
+"family": "Sapir",
+"given": "S."
 }
 ],
 "container-title": "DAFx",
@@ -129000,47 +127456,14 @@
 }
 },
 {
-"id": "related:gao2015useofsoundto",
-"type": "paper-conference",
-"title": "Use of Sound to Provide Occluded Visual Information in Touch Gestural Interface",
-"author": [
-{
-"family": "Gao",
-"given": "BoYu"
-},
-{
-"family": "Kim",
-"given": "HyungSeok"
-},
-{
-"family": "Lee",
-"given": "Hasup"
-},
-{
-"family": "Lee",
-"given": "Jooyoung"
-},
-{
-"family": "Kim",
-"given": "Jee-In"
-}
-],
-"container-title": "Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems",
-"DOI": "10.1145/2702613.2732817",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0716)",
-"issued": {
-"date-parts": [
-[
-2015
-]
-]
-}
-},
-{
 "id": "related:camurri2012theeyeswebhu",
 "type": "paper-conference",
-"title": "The EyesWeb human movement analysis library Stefano Piana",
+"title": "The EyesWeb Human Movement Analysis Library",
 "author": [
+{
+"family": "Piana",
+"given": "Stefano"
+},
 {
 "family": "Camurri",
 "given": "Antonio"
@@ -129186,12 +127609,12 @@
 "title": "A multirate, finite-width, bow-string interaction model",
 "author": [
 {
-"family": "S.",
-"given": "Serafin"
+"family": "Serafin",
+"given": "S."
 },
 {
-"family": "O.",
-"given": "Smith J."
+"family": "Smith",
+"given": "J. O."
 }
 ],
 "container-title": "DAFx",
@@ -129367,52 +127790,6 @@
 "date-parts": [
 [
 2025
-]
-]
-}
-},
-{
-"id": "related:strawn1977unplayedbyhu",
-"type": "article-journal",
-"title": "Unplayed by Human Hands",
-"author": [
-{
-"family": "Strawn",
-"given": "John"
-},
-{
-"family": "Knowlton",
-"given": "Prentiss"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3679610",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0609)",
-"issued": {
-"date-parts": [
-[
-1977
-]
-]
-}
-},
-{
-"id": "related:stirling2016beyondthedan",
-"type": "article-journal",
-"title": "‘Beyond the Dance Floor’? Gendered Publics and Creative Practices in Electronic Dance Music",
-"author": [
-{
-"family": "Stirling",
-"given": "Christabel"
-}
-],
-"container-title": "Contemporary Music Review",
-"DOI": "10.1080/07494467.2016.1176772",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0601)",
-"issued": {
-"date-parts": [
-[
-2016
 ]
 ]
 }
@@ -129738,12 +128115,12 @@
 "title": "Extended performance techniques for a virtual instrument",
 "author": [
 {
-"family": "M.",
-"given": "Burtner"
+"family": "Burtner",
+"given": "M."
 },
 {
-"family": "S.",
-"given": "Serafin"
+"family": "Serafin",
+"given": "S."
 }
 ],
 "container-title": "DAFx",
@@ -129797,11 +128174,15 @@
 {
 "id": "related:brazil2017livecodingco",
 "type": "paper-conference",
-"title": "Live Coding Console with Remote Audience into the web Guilherme Martins Lunhani1 , Flávio Luiz Schiavoni2 Rua Abolição 403 – 18044-070, Sorocaba, SP",
+"title": "Live Coding Console with Remote Audience into the Web",
 "author": [
 {
-"family": "Rei",
-"given": "Minas Gerais, Brazil São João Del"
+"family": "Lunhani",
+"given": "Guilherme Martins"
+},
+{
+"family": "Schiavoni",
+"given": "Flávio Luiz"
 }
 ],
 "container-title": "SBCM 2017",
@@ -129939,105 +128320,6 @@
 }
 },
 {
-"id": "related:grant2013meuserecomme",
-"type": "paper-conference",
-"title": "MeUse: Recommending Internet Radio Stations.",
-"author": [
-{
-"family": "Grant",
-"given": "Maurice"
-},
-{
-"family": "Ekanayake",
-"given": "Adeesha"
-},
-{
-"family": "Turnbull",
-"given": "Douglas"
-}
-],
-"container-title": "ISMIR",
-"DOI": "10.5281/zenodo.1418027",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0333)",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "related:jin2003individualiz",
-"type": "paper-conference",
-"title": "Individualization in spatial-audio coding",
-"author": [
-{
-"family": "Jin",
-"given": "C."
-},
-{
-"family": "Schaik",
-"given": "N. van"
-},
-{
-"family": "Best",
-"given": "V."
-},
-{
-"family": "Carlile",
-"given": "S."
-}
-],
-"container-title": "2003 IEEE Workshop on Applications of Signal Processing to Audio and Acoustics (IEEE Cat. No.03TH8684)",
-"DOI": "10.1109/aspaa.2003.1285869",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0331)",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
-"id": "related:alves2023towardsconsc",
-"type": "article-journal",
-"title": "Towards conscientiousness-based graphical user interface design guidelines",
-"author": [
-{
-"family": "Alves",
-"given": "Tomás"
-},
-{
-"family": "Nunes",
-"given": "Daniel"
-},
-{
-"family": "Gonçalves",
-"given": "Daniel"
-},
-{
-"family": "Henriques-Calado",
-"given": "Joana"
-},
-{
-"family": "Gama",
-"given": "Sandra"
-}
-],
-"container-title": "Personal and Ubiquitous Computing",
-"DOI": "10.1007/s00779-022-01693-x",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0316)",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
 "id": "related:bacot2016thecreativep",
 "type": "article-journal",
 "title": "The Creative Process of Sculpting the Air by Jesper Nordin: Conceiving and Performing a Concerto for Conductor with Live Electronics",
@@ -130113,51 +128395,6 @@
 }
 },
 {
-"id": "related:kela2006acceleromete",
-"type": "article-journal",
-"title": "Accelerometer-based gesture control for a design environment",
-"author": [
-{
-"family": "Kela",
-"given": "Juha"
-},
-{
-"family": "Korpipää",
-"given": "Panu"
-},
-{
-"family": "Mäntyjärvi",
-"given": "Jani"
-},
-{
-"family": "Kallio",
-"given": "Sanna"
-},
-{
-"family": "Savino",
-"given": "Giuseppe"
-},
-{
-"family": "Jozzo",
-"given": "Luca"
-},
-{
-"family": "Marca",
-"given": "Sergio Di"
-}
-],
-"container-title": "Personal and Ubiquitous Computing",
-"DOI": "10.1007/s00779-005-0033-8",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0294)",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "related:harley1994spatialsound",
 "type": "article-journal",
 "title": "Spatial sound movement in the instrumental music of Iannis Xenakis",
@@ -130203,51 +128440,6 @@
 "date-parts": [
 [
 2017
-]
-]
-}
-},
-{
-"id": "related:czyzewski2013multimodalhu",
-"type": "paper-conference",
-"title": "Multimodal human-computer interfaces based on advanced video and audio analysis",
-"author": [
-{
-"family": "Czyzewski",
-"given": "Andrzej"
-},
-{
-"family": "Dalka",
-"given": "Piotr"
-},
-{
-"family": "Kosikowski",
-"given": "Lukasz"
-},
-{
-"family": "Kunka",
-"given": "Bartosz"
-},
-{
-"family": "Kupryjanow",
-"given": "Adam"
-},
-{
-"family": "Lech",
-"given": "Michal"
-},
-{
-"family": "Odya",
-"given": "Piotr"
-}
-],
-"container-title": "2013 6th International Conference on Human System Interactions (HSI)",
-"DOI": "10.1109/hsi.2013.6577797",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0287)",
-"issued": {
-"date-parts": [
-[
-2013
 ]
 ]
 }
@@ -130397,39 +128589,6 @@
 "date-parts": [
 [
 2016
-]
-]
-}
-},
-{
-"id": "related:burattini2023theeffectofa",
-"type": "paper-conference",
-"title": "The effect of an audio-video stimulation on emotions: a virtual reality study",
-"author": [
-{
-"family": "Burattini",
-"given": "Chiara"
-},
-{
-"family": "Bisegna",
-"given": "Fabio"
-},
-{
-"family": "D’Aurizio",
-"given": "Giulia"
-},
-{
-"family": "Curcio",
-"given": "Giuseppe"
-}
-],
-"container-title": "2023 Immersive and 3D Audio: from Architecture to Automotive (I3DA)",
-"DOI": "10.1109/i3da57090.2023.10289416",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0224)",
-"issued": {
-"date-parts": [
-[
-2023
 ]
 ]
 }
@@ -130769,7 +128928,7 @@
 {
 "id": "related:dobrian2019expressivege",
 "type": "paper-conference",
-"title": "Expressive Gesture : A technique for the use of gesture descriptors in algorithmic improvisation",
+"title": "Expressive Gesture: A Technique for the Use of Gesture Descriptors in Algorithmic Improvisation",
 "author": [
 {
 "family": "Dobrian",
@@ -130933,27 +129092,6 @@
 "date-parts": [
 [
 2015
-]
-]
-}
-},
-{
-"id": "related:wersnyi2010auditoryrepr",
-"type": "paper-conference",
-"title": "Auditory Representations of a Graphical User Interface for a Better Human-Computer Interaction",
-"author": [
-{
-"family": "Wersényi",
-"given": "György"
-}
-],
-"container-title": "Lecture Notes in Computer Science Auditory Display",
-"DOI": "10.1007/978-3-642-12439-6_5",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0111)",
-"issued": {
-"date-parts": [
-[
-2010
 ]
 ]
 }
@@ -131174,159 +129312,6 @@
 }
 },
 {
-"id": "related:bosman2024soundtrekavi",
-"type": "paper-conference",
-"title": "SoundTrek: A Virtual Reality Audio Perspective-Switching Game",
-"author": [
-{
-"family": "Bosman",
-"given": "Isak de Villiers"
-},
-{
-"family": "Tordiffe",
-"given": "Ross"
-},
-{
-"family": "Huang",
-"given": "Tianyou 'Jackie'"
-},
-{
-"family": "Buruk",
-"given": "Oğuz 'Oz'"
-},
-{
-"family": "Jørgensen",
-"given": "Kristine"
-},
-{
-"family": "Hamari",
-"given": "Juho"
-}
-],
-"container-title": "Companion Proceedings of the 2024 Annual Symposium on Computer-Human Interaction in Play",
-"DOI": "10.1145/3665463.3678824",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0073)",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
-"id": "related:bosman2022theroleofaud",
-"type": "paper-conference",
-"title": "The Role of Audio in the Diegesis of Virtual Reality Games",
-"author": [
-{
-"family": "Bosman",
-"given": "Isak de Villiers"
-}
-],
-"container-title": "CHI Conference on Human Factors in Computing Systems Extended Abstracts",
-"DOI": "10.1145/3491101.3503810",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0071)",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
-"id": "related:burnett2023userexpectat",
-"type": "paper-conference",
-"title": "User Expectation of Room Acoustic Parameters in Virtual Reality Environments",
-"author": [
-{
-"family": "Burnett",
-"given": "Benjamin"
-},
-{
-"family": "Neidhardt",
-"given": "Annika"
-},
-{
-"family": "Cvetković",
-"given": "Zoran"
-},
-{
-"family": "Hacıhabiboğlu",
-"given": "Hüseyin"
-},
-{
-"family": "Sena",
-"given": "Enzo De"
-}
-],
-"container-title": "2023 Immersive and 3D Audio: from Architecture to Automotive (I3DA)",
-"DOI": "10.1109/i3da57090.2023.10289314",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0069)",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
-"id": "related:chonchir2008theenchantin",
-"type": "article-journal",
-"title": "The enchanting potential of technology: a dialogical case study of enchantment and the Internet",
-"author": [
-{
-"family": "Chonchúir",
-"given": "Mórna Ní"
-},
-{
-"family": "McCarthy",
-"given": "John"
-}
-],
-"container-title": "Personal and Ubiquitous Computing",
-"DOI": "10.1007/s00779-007-0157-0",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0068)",
-"issued": {
-"date-parts": [
-[
-2008
-]
-]
-}
-},
-{
-"id": "related:amento2002thesoundofon",
-"type": "paper-conference",
-"title": "The sound of one hand",
-"author": [
-{
-"family": "Amento",
-"given": "Brian"
-},
-{
-"family": "Hill",
-"given": "Will"
-},
-{
-"family": "Terveen",
-"given": "Loren"
-}
-],
-"container-title": "CHI '02 extended abstracts on Human factors in computer systems  - CHI '02",
-"DOI": "10.1145/506558.506566",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0066)",
-"issued": {
-"date-parts": [
-[
-2002
-]
-]
-}
-},
-{
 "id": "related:manesh2024sharpexplori",
 "type": "paper-conference",
 "title": "SHARP: Exploring Version Control Systems in Live Coding Music",
@@ -131351,31 +129336,6 @@
 "date-parts": [
 [
 2024
-]
-]
-}
-},
-{
-"id": "related:wall2010experimentin",
-"type": "article-journal",
-"title": "Experimenting with Fandom, Live Music, and the Internet: Applying Insights from Music Fan Culture to New Media Production",
-"author": [
-{
-"family": "Wall",
-"given": "Tim"
-},
-{
-"family": "Dubber",
-"given": "Andrew"
-}
-],
-"container-title": "Journal of New Music Research",
-"DOI": "10.1080/09298215.2010.489645",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0057)",
-"issued": {
-"date-parts": [
-[
-2010
 ]
 ]
 }
@@ -131427,35 +129387,6 @@
 }
 },
 {
-"id": "related:li2023exploringthe",
-"type": "paper-conference",
-"title": "Exploring the Use of the SoundVizVR Plugin with Game Developers in the Development of Sound-Accessible Virtual Reality Games",
-"author": [
-{
-"family": "Li",
-"given": "Ziming"
-},
-{
-"family": "Shinohara",
-"given": "Kristen"
-},
-{
-"family": "Peiris",
-"given": "Roshan L"
-}
-],
-"container-title": "Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/3544549.3585750",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.0049)",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
 "id": "related:kimura1996computersfor",
 "type": "article-journal",
 "title": "Computers for Performers: Crossing the Boundaries for the Future",
@@ -131472,39 +129403,6 @@
 "date-parts": [
 [
 1996
-]
-]
-}
-},
-{
-"id": "related:feldbusch2003thebtrcbluet",
-"type": "article-journal",
-"title": "The BTRC Bluetooth remote control system",
-"author": [
-{
-"family": "Feldbusch",
-"given": "Fridtjof"
-},
-{
-"family": "Paar",
-"given": "Alexander"
-},
-{
-"family": "Odendahl",
-"given": "Manuel"
-},
-{
-"family": "Ivanov",
-"given": "Ivan"
-}
-],
-"container-title": "Personal and Ubiquitous Computing",
-"DOI": "10.1007/s00779-003-0235-x",
-"note": "Collection: Related. Selected by similarity to the archives (score 0.003)",
-"issued": {
-"date-parts": [
-[
-2003
 ]
 ]
 }
@@ -131595,7 +129493,7 @@
 },
 {
 "id": "related:emmerson2011combiningthe",
-"type": "book",
+"type": "chapter",
 "title": "Combining the Acoustic and the Digital: Music for Instruments and Computers or Prerecorded Sound",
 "author": [
 {
@@ -131603,7 +129501,7 @@
 "given": "Simon"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Computer Music",
 "DOI": "10.1093/oxfordhb/9780199792030.013.0009",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.986)",
 "issued": {
@@ -131616,7 +129514,7 @@
 },
 {
 "id": "related:bullock2018designingint",
-"type": "book",
+"type": "chapter",
 "title": "Designing Interfaces for Musical Algorithms",
 "author": [
 {
@@ -131624,7 +129522,7 @@
 "given": "Jamie"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Algorithmic Music",
 "DOI": "10.1093/oxfordhb/9780190226992.013.10",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.857)",
 "issued": {
@@ -132248,27 +130146,6 @@
 }
 },
 {
-"id": "related:ciabattoni2024dantesperfor",
-"type": "book",
-"title": "Dante’s Performance: Music, Dance, and Drama in the “Commedia”",
-"author": [
-{
-"family": "Ciabattoni",
-"given": "Francesco"
-}
-],
-"container-title": "De Gruyter",
-"DOI": "10.1515/9783111406497",
-"note": "Collection: Related. Book selected by title (NIME-topic probability 0.957)",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
 "id": "related:sanden2013livenessinmo",
 "type": "book",
 "title": "Liveness in Modern Music: Musicians, Technology, and the Perception of Performance",
@@ -132345,7 +130222,7 @@
 },
 {
 "id": "related:tenney2017computermusi",
-"type": "book",
+"type": "chapter",
 "title": "Computer Music Experiences, 1961–1964",
 "author": [
 {
@@ -132353,7 +130230,7 @@
 "given": "James"
 }
 ],
-"container-title": "University of Illinois Press",
+"container-title": "From Scratch: Writings in Music Theory",
 "DOI": "10.5406/illinois/9780252038723.003.0003",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.899)",
 "issued": {
@@ -132387,7 +130264,7 @@
 },
 {
 "id": "related:wishart2011computermusi",
-"type": "book",
+"type": "chapter",
 "title": "Computer Music: Some Reflections",
 "author": [
 {
@@ -132395,7 +130272,7 @@
 "given": "Trevor"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Computer Music",
 "DOI": "10.1093/oxfordhb/9780199792030.013.0007",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.911)",
 "issued": {
@@ -132408,7 +130285,7 @@
 },
 {
 "id": "related:lennox2011spatializati",
-"type": "book",
+"type": "chapter",
 "title": "Spatialization and Computer Music",
 "author": [
 {
@@ -132416,7 +130293,7 @@
 "given": "Peter"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Computer Music",
 "DOI": "10.1093/oxfordhb/9780199792030.013.0013",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.988)",
 "issued": {
@@ -132492,7 +130369,7 @@
 },
 {
 "id": "related:dean2011envisagingim",
-"type": "book",
+"type": "chapter",
 "title": "Envisaging Improvisation in Future Computer Music",
 "author": [
 {
@@ -132500,7 +130377,7 @@
 "given": "Roger T."
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Computer Music",
 "DOI": "10.1093/oxfordhb/9780199792030.013.0006",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.949)",
 "issued": {
@@ -132513,7 +130390,7 @@
 },
 {
 "id": "related:keislar2011ahistoricalv",
-"type": "book",
+"type": "chapter",
 "title": "A Historical View of Computer Music Technology",
 "author": [
 {
@@ -132521,7 +130398,7 @@
 "given": "Douglas"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Computer Music",
 "DOI": "10.1093/oxfordhb/9780199792030.013.0002",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.812)",
 "issued": {
@@ -132823,7 +130700,7 @@
 {
 "id": "related:edstrom2024soundampmusi",
 "type": "book",
-"title": "Sound &amp; Music Projects for Eurorack and Beyond: Explorations in Teensy® Microcontroller Technology",
+"title": "Sound & Music Projects for Eurorack and Beyond: Explorations in Teensy Microcontroller Technology",
 "author": [
 {
 "family": "Edstrom",
@@ -132905,31 +130782,6 @@
 }
 },
 {
-"id": "related:craninckx1998wirelesscmos",
-"type": "book",
-"title": "Wireless CMOS Frequency Synthesizer Design",
-"author": [
-{
-"family": "Craninckx",
-"given": "J."
-},
-{
-"family": "Steyaert",
-"given": "M."
-}
-],
-"container-title": "Springer US",
-"DOI": "10.1007/978-1-4757-2870-5",
-"note": "Collection: Related. Book selected by title (NIME-topic probability 0.867)",
-"issued": {
-"date-parts": [
-[
-1998
-]
-]
-}
-},
-{
 "id": "related:pirkle2021designingsof",
 "type": "book",
 "title": "Designing Software Synthesizer Plugins in C++: With Audio DSP",
@@ -132972,52 +130824,6 @@
 }
 },
 {
-"id": "related:mcmillan2023digitalimmig",
-"type": "book",
-"title": "Digital Immigrants and Media Integration: The Smartphone Is the Synthesizer",
-"author": [
-{
-"family": "McMillan",
-"given": "Sally J."
-}
-],
-"container-title": "Lexington Books",
-"DOI": "10.5771/9781666919349",
-"note": "Collection: Related. Book selected by title (NIME-topic probability 0.848)",
-"issued": {
-"date-parts": [
-[
-2023
-]
-]
-}
-},
-{
-"id": "related:staszewski2006alldigitalfr",
-"type": "book",
-"title": "All‐Digital Frequency Synthesizer in Deep‐Submicron CMOS",
-"author": [
-{
-"family": "Staszewski",
-"given": "Robert Bogdan"
-},
-{
-"family": "Balsara",
-"given": "Poras T."
-}
-],
-"container-title": "Wiley",
-"DOI": "10.1002/0470041951",
-"note": "Collection: Related. Book selected by title (NIME-topic probability 0.836)",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "related:solis2011musicalrobot",
 "type": "book",
 "title": "Musical Robots and Interactive Multimodal Systems",
@@ -133038,39 +130844,6 @@
 "date-parts": [
 [
 2011
-]
-]
-}
-},
-{
-"id": "related:cruise1998principlesof",
-"type": "book",
-"title": "Principles of Space Instrument Design",
-"author": [
-{
-"family": "Cruise",
-"given": "A. M."
-},
-{
-"family": "Bowles",
-"given": "J. A."
-},
-{
-"family": "Patrick",
-"given": "T. J."
-},
-{
-"family": "Goodall",
-"given": "C. V."
-}
-],
-"container-title": "Cambridge University Press",
-"DOI": "10.1017/cbo9780511584503",
-"note": "Collection: Related. Book selected by title (NIME-topic probability 0.954)",
-"issued": {
-"date-parts": [
-[
-1998
 ]
 ]
 }
@@ -133394,7 +131167,7 @@
 },
 {
 "id": "related:ogborn2018networkmusic",
-"type": "book",
+"type": "chapter",
 "title": "Network Music and the Algorithmic Ensemble",
 "author": [
 {
@@ -133402,7 +131175,7 @@
 "given": "David"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Algorithmic Music",
 "DOI": "10.1093/oxfordhb/9780190226992.013.7",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.855)",
 "issued": {
@@ -133415,7 +131188,7 @@
 },
 {
 "id": "related:simoni2018theaudiencer",
-"type": "book",
+"type": "chapter",
 "title": "The Audience Reception of Algorithmic Music",
 "author": [
 {
@@ -133423,7 +131196,7 @@
 "given": "Mary"
 }
 ],
-"container-title": "Oxford University Press",
+"container-title": "The Oxford Handbook of Algorithmic Music",
 "DOI": "10.1093/oxfordhb/9780190226992.013.14",
 "note": "Collection: Related. Book selected by title (NIME-topic probability 0.813)",
 "issued": {
@@ -133440,8 +131213,8 @@
 "title": "Machine Music: A Media Archaeological Excavation",
 "author": [
 {
-"family": "RIIS",
-"given": "MORTEN"
+"family": "Riis",
+"given": "Morten"
 }
 ],
 "container-title": "Aarhus University Press",
@@ -133670,31 +131443,6 @@
 }
 },
 {
-"id": "background:jaffe1983extensionsofthek",
-"type": "article-journal",
-"title": "Extensions of the Karplus-Strong Plucked-String Algorithm",
-"author": [
-{
-"family": "Jaffe",
-"given": "David A."
-},
-{
-"family": "Smith",
-"given": "Julius O."
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3680063",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.081",
-"issued": {
-"date-parts": [
-[
-1983
-]
-]
-}
-},
-{
 "id": "background:guiard1987asymmetricdivisi",
 "type": "article-journal",
 "title": "Asymmetric Division of Labor in Human Skilled Bimanual Action: The Kinematic Chain as a Model",
@@ -133737,27 +131485,6 @@
 }
 },
 {
-"id": "background:keislar1987historyandprinci",
-"type": "article-journal",
-"title": "History and Principles of Microtonal Keyboards",
-"author": [
-{
-"family": "Keislar",
-"given": "Douglas"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3680175",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.341",
-"issued": {
-"date-parts": [
-[
-1987
-]
-]
-}
-},
-{
 "id": "background:johnson1987thebodyinthemind",
 "type": "book",
 "title": "The Body in the Mind: The Bodily Basis of Meaning, Imagination, and Reason",
@@ -133779,31 +131506,6 @@
 }
 },
 {
-"id": "background:hammer1987thelanguageofele",
-"type": "article-journal",
-"title": "The Language of Electroacoustic Music",
-"author": [
-{
-"family": "Hammer",
-"given": "Ernest Lee"
-},
-{
-"family": "Emmerson",
-"given": "Simon"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3680241",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.355",
-"issued": {
-"date-parts": [
-[
-1987
-]
-]
-}
-},
-{
 "id": "background:rabiner1990atutorialonhidde",
 "type": "chapter",
 "title": "A Tutorial on Hidden Markov Models and Selected Applications in Speech Recognition",
@@ -133816,27 +131518,6 @@
 "container-title": "Readings in Speech Recognition",
 "DOI": "10.1016/b978-0-08-051584-7.50027-9",
 "note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.046",
-"issued": {
-"date-parts": [
-[
-1990
-]
-]
-}
-},
-{
-"id": "background:lansky1990aviewfromthebusw",
-"type": "article-journal",
-"title": "A View from the Bus: When Machines Make Music",
-"author": [
-{
-"family": "Lansky",
-"given": "Paul"
-}
-],
-"container-title": "Perspectives of New Music",
-"DOI": "10.2307/833010",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.466",
 "issued": {
 "date-parts": [
 [
@@ -134130,97 +131811,6 @@
 }
 },
 {
-"id": "background:karjalainen1998pluckedstringmod",
-"type": "article-journal",
-"title": "Plucked-String Models: From the Karplus-Strong Algorithm to Digital Waveguides and beyond",
-"author": [
-{
-"family": "Karjalainen",
-"given": "Matti"
-},
-{
-"family": "Valimaki",
-"given": "Vesa"
-},
-{
-"family": "Tolonen",
-"given": "Tero"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.2307/3681155",
-"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.05",
-"issued": {
-"date-parts": [
-[
-1998
-]
-]
-}
-},
-{
-"id": "background:sutton1998reinforcementlea",
-"type": "article-journal",
-"title": "Reinforcement Learning: An Introduction",
-"author": [
-{
-"family": "Sutton",
-"given": "R.S."
-},
-{
-"family": "Barto",
-"given": "A.G."
-}
-],
-"container-title": "IEEE Transactions on Neural Networks",
-"DOI": "10.1109/tnn.1998.712192",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.142",
-"issued": {
-"date-parts": [
-[
-1998
-]
-]
-}
-},
-{
-"id": "background:assayag1999computerassisted",
-"type": "article-journal",
-"title": "Computer-Assisted Composition at IRCAM: From PatchWork to OpenMusic",
-"author": [
-{
-"family": "Assayag",
-"given": "Gérard"
-},
-{
-"family": "Rueda",
-"given": "Camilo"
-},
-{
-"family": "Laurson",
-"given": "Mikael"
-},
-{
-"family": "Agon",
-"given": "Carlos"
-},
-{
-"family": "Delerue",
-"given": "Olivier"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.1162/014892699559896",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.139",
-"issued": {
-"date-parts": [
-[
-1999
-]
-]
-}
-},
-{
 "id": "background:gaver1999designculturalpr",
 "type": "article-journal",
 "title": "Design: Cultural probes",
@@ -134442,27 +132032,6 @@
 }
 },
 {
-"id": "background:lewis2000toomanynotescomp",
-"type": "article-journal",
-"title": "Too Many Notes: Computers, Complexity and Culture in Voyager",
-"author": [
-{
-"family": "Lewis",
-"given": "George E."
-}
-],
-"container-title": "Leonardo Music Journal",
-"DOI": "10.1162/096112100570585",
-"note": "Collection: Background. Cited by 33 archive papers; NIME-topic probability 0.285",
-"issued": {
-"date-parts": [
-[
-2000
-]
-]
-}
-},
-{
 "id": "background:borchers2001apatternapproach",
 "type": "article-journal",
 "title": "A pattern approach to interaction design",
@@ -134529,27 +132098,6 @@
 "container-title": "Proceedings of International Conference on Robotics and Automation",
 "DOI": "10.1109/robot.1997.619304",
 "note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.324",
-"issued": {
-"date-parts": [
-[
-2002
-]
-]
-}
-},
-{
-"id": "background:zicarelli2002howilearnedtolov",
-"type": "article-journal",
-"title": "How I Learned to Love a Program That Does Nothing",
-"author": [
-{
-"family": "Zicarelli",
-"given": "David"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.1162/014892602320991365",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.217",
 "issued": {
 "date-parts": [
 [
@@ -134650,27 +132198,6 @@
 }
 },
 {
-"id": "background:essl2003ongenderinnewmus",
-"type": "article-journal",
-"title": "On gender in new music interface technology",
-"author": [
-{
-"family": "Essl",
-"given": "Georg"
-}
-],
-"container-title": "Organised Sound",
-"DOI": "10.1017/s1355771803001031",
-"note": "Collection: Background. Cited by 5 archive papers; cites 5 archive entries; NIME-topic probability 0.486",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
 "id": "background:barad2003posthumanistperf",
 "type": "article-journal",
 "title": "Posthumanist Performativity: Toward an Understanding of How Matter Comes to Matter",
@@ -134752,110 +132279,6 @@
 "date-parts": [
 [
 2003
-]
-]
-}
-},
-{
-"id": "background:driscoll2004davidtudorsrainf",
-"type": "article-journal",
-"title": "David Tudor's Rainforest: An Evolving Exploration of Resonance",
-"author": [
-{
-"family": "Driscoll",
-"given": "John"
-},
-{
-"family": "Rogalsky",
-"given": "Matt"
-}
-],
-"container-title": "Leonardo Music Journal",
-"DOI": "10.1162/0961121043067415",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.366",
-"issued": {
-"date-parts": [
-[
-2004
-]
-]
-}
-},
-{
-"id": "background:farbood2004hyperscoreagraph",
-"type": "article-journal",
-"title": "Hyperscore: a graphical sketchpad for novice composers",
-"author": [
-{
-"family": "Farbood",
-"given": "M.M."
-},
-{
-"family": "Pasztor",
-"given": "E."
-},
-{
-"family": "Jennings",
-"given": "K."
-}
-],
-"container-title": "IEEE Computer Graphics and Applications",
-"DOI": "10.1109/mcg.2004.1255809",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.359",
-"issued": {
-"date-parts": [
-[
-2004
-]
-]
-}
-},
-{
-"id": "background:beamish2004manipulatingmusi",
-"type": "paper-conference",
-"title": "Manipulating music: multimodal interaction for DJs",
-"author": [
-{
-"family": "Beamish",
-"given": "Timothy"
-},
-{
-"family": "Maclean",
-"given": "Karon"
-},
-{
-"family": "Fels",
-"given": "Sidney"
-}
-],
-"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/985692.985734",
-"note": "Collection: Background. Cited by 11 archive papers; NIME-topic probability 0.399",
-"issued": {
-"date-parts": [
-[
-2004
-]
-]
-}
-},
-{
-"id": "background:ghazala2004thefolkmusicofch",
-"type": "article-journal",
-"title": "The Folk Music of Chance Electronics: Circuit-Bending the Modern Coconut",
-"author": [
-{
-"family": "Ghazala",
-"given": "Qubais Reed"
-}
-],
-"container-title": "Leonardo Music Journal",
-"DOI": "10.1162/0961121043067271",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.175",
-"issued": {
-"date-parts": [
-[
-2004
 ]
 ]
 }
@@ -134989,27 +132412,6 @@
 "container-title": "Proceedings of the 6th conference on Designing Interactive systems",
 "DOI": "10.1145/1142405.1142429",
 "note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.241",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
-"id": "background:tanaka2006interactionexper",
-"type": "chapter",
-"title": "Interaction, Experience and the Future of Music",
-"author": [
-{
-"family": "Tanaka",
-"given": "Atau"
-}
-],
-"container-title": "Computer Supported Cooperative Work",
-"DOI": "10.1007/1-4020-4097-0_13",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.345",
 "issued": {
 "date-parts": [
 [
@@ -135224,27 +132626,6 @@
 }
 },
 {
-"id": "background:grindlay2008hapticguidancebe",
-"type": "paper-conference",
-"title": "Haptic Guidance Benefits Musical Motor Learning",
-"author": [
-{
-"family": "Grindlay",
-"given": "Graham"
-}
-],
-"container-title": "2008 Symposium on Haptic Interfaces for Virtual Environment and Teleoperator Systems",
-"DOI": "10.1109/haptics.2008.4479984",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.479",
-"issued": {
-"date-parts": [
-[
-2008
-]
-]
-}
-},
-{
 "id": "background:jacob2008realitybasedinte",
 "type": "paper-conference",
 "title": "Reality-based interaction: a framework for post-WIMP interfaces",
@@ -135318,43 +132699,6 @@
 "date-parts": [
 [
 2008
-]
-]
-}
-},
-{
-"id": "background:sethares2009spectraltoolsfor",
-"type": "article-journal",
-"title": "Spectral Tools for Dynamic Tonality and Audio Morphing",
-"author": [
-{
-"family": "Sethares",
-"given": "William A."
-},
-{
-"family": "Milne",
-"given": "Andrew J."
-},
-{
-"family": "Tiedje",
-"given": "Stefan"
-},
-{
-"family": "Prechtl",
-"given": "Anthony"
-},
-{
-"family": "Plamondon",
-"given": "James"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.1162/comj.2009.33.2.71",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.227",
-"issued": {
-"date-parts": [
-[
-2009
 ]
 ]
 }
@@ -135564,64 +132908,6 @@
 }
 },
 {
-"id": "background:wallis2013amateurmusicians",
-"type": "chapter",
-"title": "Amateur Musicians, Long-Term Engagement, and HCI",
-"author": [
-{
-"family": "Wallis",
-"given": "Isaac"
-},
-{
-"family": "Ingalls",
-"given": "Todd"
-},
-{
-"family": "Campana",
-"given": "Ellen"
-},
-{
-"family": "Vuong",
-"given": "Catherine"
-}
-],
-"container-title": "Springer Series on Cultural Computing",
-"DOI": "10.1007/978-1-4471-2990-5_3",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.192",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
-"id": "background:sanfilippo2013feedbacksystemsa",
-"type": "article-journal",
-"title": "Feedback Systems: An Analytical Framework",
-"author": [
-{
-"family": "Sanfilippo",
-"given": "Dario"
-},
-{
-"family": "Valle",
-"given": "Andrea"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.1162/comj_a_00176",
-"note": "Collection: Background. Cited by 23 archive papers; NIME-topic probability 0.448",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
 "id": "background:bryankinns2013mutualengagement",
 "type": "article-journal",
 "title": "Mutual engagement and collocation with shared representations",
@@ -135812,72 +133098,6 @@
 }
 },
 {
-"id": "background:hattwick2017thevibropixelsas",
-"type": "chapter",
-"title": "The Vibropixels: A Scalable Wireless Tactile Display System",
-"author": [
-{
-"family": "Hattwick",
-"given": "Ian"
-},
-{
-"family": "Franco",
-"given": "Ivan"
-},
-{
-"family": "Wanderley",
-"given": "Marcelo M."
-}
-],
-"container-title": "Lecture Notes in Computer Science",
-"DOI": "10.1007/978-3-319-58521-5_40",
-"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.449",
-"issued": {
-"date-parts": [
-[
-2017
-]
-]
-}
-},
-{
-"id": "background:turchet2018internetofmusica",
-"type": "article-journal",
-"title": "Internet of Musical Things: Vision and Challenges",
-"author": [
-{
-"family": "Turchet",
-"given": "Luca"
-},
-{
-"family": "Fischione",
-"given": "Carlo"
-},
-{
-"family": "Essl",
-"given": "Georg"
-},
-{
-"family": "Keller",
-"given": "Damian"
-},
-{
-"family": "Barthet",
-"given": "Mathieu"
-}
-],
-"container-title": "IEEE Access",
-"DOI": "10.1109/access.2018.2872625",
-"note": "Collection: Background. Cited by 14 archive papers; cites 15 archive entries; NIME-topic probability 0.113",
-"issued": {
-"date-parts": [
-[
-2018
-]
-]
-}
-},
-{
 "id": "background:candy2018practicebasedres",
 "type": "article-journal",
 "title": "Practice-Based Research in the Creative Arts: Foundations and Futures from the Front Line",
@@ -135986,27 +133206,6 @@
 }
 },
 {
-"id": "background:stewart2019cordsandchordsex",
-"type": "article-journal",
-"title": "Cords and Chords: Exploring the Role of E-Textiles in Computational Audio",
-"author": [
-{
-"family": "Stewart",
-"given": "Rebecca"
-}
-],
-"container-title": "Frontiers in ICT",
-"DOI": "10.3389/fict.2019.00002",
-"note": "Collection: Background. Cited by 6 archive papers; cites 7 archive entries; NIME-topic probability 0.096",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
 "id": "background:devine2019decomposedthepol",
 "type": "book",
 "title": "Decomposed: The Political Ecology of Music",
@@ -136019,27 +133218,6 @@
 "container-title": "The MIT Press",
 "DOI": "10.7551/mitpress/10692.001.0001",
 "note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.236",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
-"id": "background:magnusson2019ergodynamicsanda",
-"type": "article-journal",
-"title": "ERGODYNAMICS AND A SEMIOTICS OF INSTRUMENTAL COMPOSITION",
-"author": [
-{
-"family": "Magnusson",
-"given": "Thor"
-}
-],
-"container-title": "Tempo",
-"DOI": "10.1017/s0040298218000633",
-"note": "Collection: Background. Cited by 11 archive papers; NIME-topic probability 0.242",
 "issued": {
 "date-parts": [
 [
@@ -136074,27 +133252,6 @@
 }
 },
 {
-"id": "background:magnusson2019sonicwritingtech",
-"type": "book",
-"title": "Sonic Writing: Technologies of Material, Symbolic, and Signal Inscriptions",
-"author": [
-{
-"family": "Magnusson",
-"given": "Thor"
-}
-],
-"container-title": "Bloomsbury Publishing Inc",
-"DOI": "10.5040/9781501313899",
-"note": "Collection: Background. Cited by 34 archive papers; NIME-topic probability 0.474",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
 "id": "background:frauenberger2020entanglementhcit",
 "type": "article-journal",
 "title": "Entanglement HCI The Next Wave?",
@@ -136107,43 +133264,6 @@
 "container-title": "ACM Transactions on Computer-Human Interaction",
 "DOI": "10.1145/3364998",
 "note": "Collection: Background. Cited by 19 archive papers; NIME-topic probability 0.097",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
-"id": "background:louie2020noviceaimusiccoc",
-"type": "paper-conference",
-"title": "Novice-AI Music Co-Creation via AI-Steering Tools for Deep Generative Models",
-"author": [
-{
-"family": "Louie",
-"given": "Ryan"
-},
-{
-"family": "Coenen",
-"given": "Andy"
-},
-{
-"family": "Huang",
-"given": "Cheng Zhi"
-},
-{
-"family": "Terry",
-"given": "Michael"
-},
-{
-"family": "Cai",
-"given": "Carrie J."
-}
-],
-"container-title": "Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/3313831.3376739",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.411",
 "issued": {
 "date-parts": [
 [
@@ -136177,35 +133297,6 @@
 "date-parts": [
 [
 2020
-]
-]
-}
-},
-{
-"id": "background:tremblay2021enablingprogramm",
-"type": "article-journal",
-"title": "Enabling Programmatic Data Mining as Musicking: The Fluid Corpus Manipulation Toolkit",
-"author": [
-{
-"family": "Tremblay",
-"given": "Pierre Alexandre"
-},
-{
-"family": "Roma",
-"given": "Gerard"
-},
-{
-"family": "Green",
-"given": "Owen"
-}
-],
-"container-title": "Computer Music Journal",
-"DOI": "10.1162/comj_a_00600",
-"note": "Collection: Background. Cited by 12 archive papers; NIME-topic probability 0.448",
-"issued": {
-"date-parts": [
-[
-2021
 ]
 ]
 }
@@ -136265,39 +133356,6 @@
 }
 },
 {
-"id": "background:reed2022singingknitsoftk",
-"type": "paper-conference",
-"title": "Singing Knit: Soft Knit Biosensing for Augmenting Vocal Performances",
-"author": [
-{
-"family": "Reed",
-"given": "Courtney N."
-},
-{
-"family": "Skach",
-"given": "Sophie"
-},
-{
-"family": "Strohmeier",
-"given": "Paul"
-},
-{
-"family": "McPherson",
-"given": "Andrew P."
-}
-],
-"container-title": "Augmented Humans 2022",
-"DOI": "10.1145/3519391.3519412",
-"note": "Collection: Background. Cited by 5 archive papers; cites 10 archive entries; NIME-topic probability 0.387",
-"issued": {
-"date-parts": [
-[
-2022
-]
-]
-}
-},
-{
 "id": "background:braun2022thematicanalysis",
 "type": "article-journal",
 "title": "Thematic Analysis: A Practical Guide",
@@ -136318,27 +133376,6 @@
 "date-parts": [
 [
 2022
-]
-]
-}
-},
-{
-"id": "background:turchet2023musicalmetaverse",
-"type": "article-journal",
-"title": "Musical Metaverse: vision, opportunities, and challenges",
-"author": [
-{
-"family": "Turchet",
-"given": "Luca"
-}
-],
-"container-title": "Personal and Ubiquitous Computing",
-"DOI": "10.1007/s00779-023-01708-1",
-"note": "Collection: Background. Cited by 5 archive papers; cites 8 archive entries; NIME-topic probability 0.271",
-"issued": {
-"date-parts": [
-[
-2023
 ]
 ]
 }
@@ -136393,31 +133430,6 @@
 }
 },
 {
-"id": "background:morrison2024entanglingentang",
-"type": "paper-conference",
-"title": "Entangling Entanglement: A Diffractive Dialogue on HCI and Musical Interactions",
-"author": [
-{
-"family": "Morrison",
-"given": "Landon"
-},
-{
-"family": "McPherson",
-"given": "Andrew"
-}
-],
-"container-title": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
-"DOI": "10.1145/3613904.3642171",
-"note": "Collection: Background. Cited by 13 archive papers; cites 19 archive entries; NIME-topic probability 0.413",
-"issued": {
-"date-parts": [
-[
-2024
-]
-]
-}
-},
-{
 "id": "background:reed2024shiftingambiguit",
 "type": "article-journal",
 "title": "Shifting Ambiguity, Collapsing Indeterminacy: Designing with Data as Baradian Apparatus",
@@ -136446,6 +133458,677 @@
 "date-parts": [
 [
 2024
+]
+]
+}
+},
+{
+"id": "background:andersen2019themagicmachinew",
+"type": "paper-conference",
+"title": "The Magic Machine Workshops: Making Personal Design Knowledge",
+"author": [
+{
+"family": "Andersen",
+"given": "Kristina"
+},
+{
+"family": "Wakkary",
+"given": "Ron"
+}
+],
+"container-title": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/3290605.3300342",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.564",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "background:beaudouinlafon2004designinginterac",
+"type": "paper-conference",
+"title": "Designing interaction, not interfaces",
+"author": [
+{
+"family": "Beaudouin-Lafon",
+"given": "Michel"
+}
+],
+"container-title": "Proceedings of the working conference on Advanced visual interfaces",
+"DOI": "10.1145/989863.989865",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.843",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "background:blauert1996spatialhearingth",
+"type": "book",
+"title": "Spatial Hearing: The Psychophysics of Human Sound Localization",
+"author": [
+{
+"family": "Blauert",
+"given": "Jens"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/6391.001.0001",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.581",
+"issued": {
+"date-parts": [
+[
+1996
+]
+]
+}
+},
+{
+"id": "background:boden2004thecreativemind",
+"type": "book",
+"title": "The Creative Mind",
+"author": [
+{
+"family": "Boden",
+"given": "Margaret A."
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203508527",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.5",
+"issued": {
+"date-parts": [
+[
+2004
+]
+]
+}
+},
+{
+"id": "background:buxton1986astudyintwohande",
+"type": "article-journal",
+"title": "A study in two-handed input",
+"author": [
+{
+"family": "Buxton",
+"given": "W."
+},
+{
+"family": "Myers",
+"given": "B."
+}
+],
+"container-title": "ACM SIGCHI Bulletin",
+"DOI": "10.1145/22339.22390",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.562",
+"issued": {
+"date-parts": [
+[
+1986
+]
+]
+}
+},
+{
+"id": "background:djajadiningrat2007easydoesntdoitsk",
+"type": "article-journal",
+"title": "Easy doesn’t do it: skill and expression in tangible aesthetics",
+"author": [
+{
+"family": "Djajadiningrat",
+"given": "Tom"
+},
+{
+"family": "Matthews",
+"given": "Ben"
+},
+{
+"family": "Stienstra",
+"given": "Marcelle"
+}
+],
+"container-title": "Personal and Ubiquitous Computing",
+"DOI": "10.1007/s00779-006-0137-9",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.573",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "background:dourish2001wheretheactionis",
+"type": "book",
+"title": "Where the Action Is: The Foundations of Embodied Interaction",
+"author": [
+{
+"family": "Dourish",
+"given": "Paul"
+}
+],
+"container-title": "The MIT Press",
+"DOI": "10.7551/mitpress/7221.001.0001",
+"note": "Collection: Background. Cited by 38 archive papers; NIME-topic probability 0.766",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "background:fails2003interactivemachi",
+"type": "paper-conference",
+"title": "Interactive machine learning",
+"author": [
+{
+"family": "Fails",
+"given": "Jerry Alan"
+},
+{
+"family": "Olsen",
+"given": "Dan R."
+}
+],
+"container-title": "Proceedings of the 8th international conference on Intelligent user interfaces",
+"DOI": "10.1145/604045.604056",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.875",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "background:gabrielsson2001theinfluenceofmu",
+"type": "chapter",
+"title": "The Influence Of Musical Structure On Emotional Expression",
+"author": [
+{
+"family": "Gabrielsson",
+"given": "Alf"
+},
+{
+"family": "Lindström",
+"given": "Erik"
+}
+],
+"container-title": "Music And Emotion",
+"DOI": "10.1093/oso/9780192631886.003.0010",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.518",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "background:gallagher2005howthebodyshapes",
+"type": "book",
+"title": "How the Body Shapes the Mind",
+"author": [
+{
+"family": "Gallagher",
+"given": "Shaun"
+}
+],
+"container-title": "Oxford University Press",
+"DOI": "10.1093/0199271941.001.0001",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.566",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "background:han2005lowcostmultitouc",
+"type": "paper-conference",
+"title": "Low-cost multi-touch sensing through frustrated total internal reflection",
+"author": [
+{
+"family": "Han",
+"given": "Jefferson Y."
+}
+],
+"container-title": "Proceedings of the 18th annual ACM symposium on User interface software and technology",
+"DOI": "10.1145/1095034.1095054",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.815",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
+"id": "background:hinckley1994passiverealworld",
+"type": "paper-conference",
+"title": "Passive real-world interface props for neurosurgical visualization",
+"author": [
+{
+"family": "Hinckley",
+"given": "Ken"
+},
+{
+"family": "Pausch",
+"given": "Randy"
+},
+{
+"family": "Goble",
+"given": "John C."
+},
+{
+"family": "Kassell",
+"given": "Neal F."
+}
+],
+"container-title": "Conference companion on Human factors in computing systems - CHI '94",
+"DOI": "10.1145/259963.260443",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.518",
+"issued": {
+"date-parts": [
+[
+1994
+]
+]
+}
+},
+{
+"id": "background:hinckley2012inputtechnologie",
+"type": "chapter",
+"title": "Input Technologies and Techniques",
+"author": [
+{
+"family": "Hinckley",
+"given": "Ken"
+},
+{
+"family": "Wigdor",
+"given": "Daniel"
+}
+],
+"container-title": "The Human–Computer Interaction Handbook",
+"DOI": "10.1201/b11963-ch-6",
+"note": "Collection: Background. Cites 11 archive entries; NIME-topic probability 0.621",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
+"id": "background:hk2018designingwiththe",
+"type": "book",
+"title": "Designing with the Body: Somaesthetic Interaction Design",
+"author": [
+{
+"family": "Höök",
+"given": "Kristina"
+}
+],
+"container-title": "MIT Press",
+"DOI": "10.7551/mitpress/11481.001.0001",
+"note": "Collection: Background. Cited by 14 archive papers; NIME-topic probability 0.521",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "background:ihde1990technologyandthe",
+"type": "book",
+"title": "Technology and the Lifeworld: From Garden to Earth",
+"author": [
+{
+"family": "Ihde",
+"given": "Don"
+}
+],
+"container-title": "Indiana University Press",
+"DOI": "10.2979/3108.0",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.677",
+"issued": {
+"date-parts": [
+[
+1990
+]
+]
+}
+},
+{
+"id": "background:juslin2001communicatingemo",
+"type": "chapter",
+"title": "Communicating Emotion In Music Performance: A Review And Theoretical Framework",
+"author": [
+{
+"family": "Juslin",
+"given": "Patrik N"
+}
+],
+"container-title": "Music And Emotion",
+"DOI": "10.1093/oso/9780192631886.003.0014",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.539",
+"issued": {
+"date-parts": [
+[
+2001
+]
+]
+}
+},
+{
+"id": "background:juslin2003communicationofe",
+"type": "article-journal",
+"title": "Communication of emotions in vocal expression and music performance: Different channels, same code?",
+"author": [
+{
+"family": "Juslin",
+"given": "Patrik N."
+},
+{
+"family": "Laukka",
+"given": "Petri"
+}
+],
+"container-title": "Psychological Bulletin",
+"DOI": "10.1037/0033-2909.129.5.770",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.594",
+"issued": {
+"date-parts": [
+[
+2003
+]
+]
+}
+},
+{
+"id": "background:kabbash1994twohandedinputin",
+"type": "paper-conference",
+"title": "Two-handed input in a compound task",
+"author": [
+{
+"family": "Kabbash",
+"given": "Paul"
+},
+{
+"family": "Buxton",
+"given": "William"
+},
+{
+"family": "Sellen",
+"given": "Abigail"
+}
+],
+"container-title": "Conference companion on Human factors in computing systems - CHI '94",
+"DOI": "10.1145/259963.260425",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.549",
+"issued": {
+"date-parts": [
+[
+1994
+]
+]
+}
+},
+{
+"id": "background:mackenzie1991acomparisonofinp",
+"type": "paper-conference",
+"title": "A comparison of input devices in element pointing and dragging tasks",
+"author": [
+{
+"family": "MacKenzie",
+"given": "I. Scott"
+},
+{
+"family": "Sellen",
+"given": "Abigail"
+},
+{
+"family": "Buxton",
+"given": "William A. S."
+}
+],
+"container-title": "Proceedings of the SIGCHI conference on Human factors in computing systems Reaching through technology - CHI '91",
+"DOI": "10.1145/108844.108868",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.79",
+"issued": {
+"date-parts": [
+[
+1991
+]
+]
+}
+},
+{
+"id": "background:mackenzie1992fittslawasaresea",
+"type": "article-journal",
+"title": "Fitts' Law as a Research and Design Tool in Human-Computer Interaction",
+"author": [
+{
+"family": "MacKenzie",
+"given": "I. Scott"
+}
+],
+"container-title": "Human–Computer Interaction",
+"DOI": "10.1207/s15327051hci0701_3",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.825",
+"issued": {
+"date-parts": [
+[
+1992
+]
+]
+}
+},
+{
+"id": "background:maclean2002designingwithhap",
+"type": "paper-conference",
+"title": "Designing with haptic feedback",
+"author": [
+{
+"family": "MacLean",
+"given": "K.E."
+}
+],
+"container-title": "Proceedings 2000 ICRA. Millennium Conference. IEEE International Conference on Robotics and Automation. Symposia Proceedings (Cat. No.00CH37065)",
+"DOI": "10.1109/robot.2000.844146",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.949",
+"issued": {
+"date-parts": [
+[
+2002
+]
+]
+}
+},
+{
+"id": "background:sears2007thehumancomputer",
+"type": "book",
+"title": "The Human-Computer Interaction Handbook: Fundamentals, Evolving Technologies and Emerging Applications, Second Edition",
+"author": [
+{
+"family": "Sears",
+"given": "Andrew"
+},
+{
+"family": "Jacko",
+"given": "Julie A."
+},
+{
+"family": "Jacko",
+"given": "Julie A."
+}
+],
+"container-title": "CRC Press",
+"DOI": "10.1201/9781410615862",
+"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.669",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "background:simonsen2012routledgeinterna",
+"type": "book",
+"title": "Routledge International Handbook of Participatory Design",
+"author": [
+{
+"family": "Simonsen",
+"given": "Jesper"
+},
+{
+"family": "Robertson",
+"given": "Toni"
+}
+],
+"container-title": "Routledge",
+"DOI": "10.4324/9780203108543",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.623",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
+"id": "background:wigdor2014inputoutputdevic",
+"type": "chapter",
+"title": "Input/Output Devices and Interaction Techniques",
+"author": [
+{
+"family": "Wigdor",
+"given": "Daniel"
+}
+],
+"container-title": "Computing Handbook, Third Edition",
+"DOI": "10.1201/b16812-25",
+"note": "Collection: Background. Cites 10 archive entries; NIME-topic probability 0.692",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "background:wobbrock2009userdefinedgestu",
+"type": "paper-conference",
+"title": "User-defined gestures for surface computing",
+"author": [
+{
+"family": "Wobbrock",
+"given": "Jacob O."
+},
+{
+"family": "Morris",
+"given": "Meredith Ringel"
+},
+{
+"family": "Wilson",
+"given": "Andrew D."
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1518701.1518866",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.643",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
+"id": "background:zatorre2007whenthebrainplay",
+"type": "article-journal",
+"title": "When the brain plays music: auditory–motor interactions in music perception and production",
+"author": [
+{
+"family": "Zatorre",
+"given": "Robert J."
+},
+{
+"family": "Chen",
+"given": "Joyce L."
+},
+{
+"family": "Penhune",
+"given": "Virginia B."
+}
+],
+"container-title": "Nature Reviews Neuroscience",
+"DOI": "10.1038/nrn2152",
+"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.638",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "background:zimmerman1995applyingelectric",
+"type": "paper-conference",
+"title": "Applying electric field sensing to human-computer interfaces",
+"author": [
+{
+"family": "Zimmerman",
+"given": "Thomas G."
+},
+{
+"family": "Smith",
+"given": "Joshua R."
+},
+{
+"family": "Paradiso",
+"given": "Joseph A."
+},
+{
+"family": "Allport",
+"given": "David"
+},
+{
+"family": "Gershenfeld",
+"given": "Neil"
+}
+],
+"container-title": "Proceedings of the SIGCHI conference on Human factors in computing systems - CHI '95",
+"DOI": "10.1145/223904.223940",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.817",
+"issued": {
+"date-parts": [
+[
+1995
 ]
 ]
 }
@@ -136878,7 +134561,6 @@
 "given": "Jörg"
 }
 ],
-"container-title": "Berlin",
 "note": "Collection: Historical. Chosen by hand as a precursor; Not found in Open Library: vet",
 "issued": {
 "date-parts": [
@@ -137694,27 +135376,6 @@
 }
 },
 {
-"id": "historical:caine1956electronicmu",
-"type": "article-journal",
-"title": "Electronic music",
-"author": [
-{
-"family": "Caine",
-"given": "Hugh Le"
-}
-],
-"container-title": "Proceedings of the IRE",
-"DOI": "10.1109/jrproc.1956.274925",
-"note": "Collection: Historical. Cited by 1 archive paper; Found in Crossref",
-"issued": {
-"date-parts": [
-[
-1956
-]
-]
-}
-},
-{
 "id": "zotero:marey1895movement",
 "type": "book",
 "title": "Movement",
@@ -137945,30 +135606,6 @@
 }
 },
 {
-"id": "zotero:krasner1988acookbookfor",
-"type": "article-journal",
-"title": "A cookbook for using the model-view controller user interface paradigm in Smalltalk-80",
-"author": [
-{
-"family": "Krasner",
-"given": "Glenn E."
-},
-{
-"family": "Pope",
-"given": "Stephen T."
-}
-],
-"container-title": "J. Object Oriented Program.",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.90",
-"issued": {
-"date-parts": [
-[
-1988
-]
-]
-}
-},
-{
 "id": "zotero:sundberg1988computersynt",
 "type": "chapter",
 "title": "Computer synthesis of music performance",
@@ -138051,30 +135688,6 @@
 "date-parts": [
 [
 1989
-]
-]
-}
-},
-{
-"id": "zotero:allum1990afferentcont",
-"type": "book",
-"title": "Afferent Control of Posture and Locomotion",
-"author": [
-{
-"family": "Allum",
-"given": "J. H. J."
-},
-{
-"family": "Hulliger",
-"given": "M."
-}
-],
-"container-title": "Elsevier Science & Technology",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.94",
-"issued": {
-"date-parts": [
-[
-1990
 ]
 ]
 }
@@ -138235,25 +135848,6 @@
 }
 },
 {
-"id": "zotero:parsons1992theparsonsda",
-"type": "book",
-"title": "The Parsons Dance Company",
-"author": [
-{
-"family": "Parsons",
-"given": "David"
-}
-],
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-1992
-]
-]
-}
-},
-{
 "id": "zotero:pope1993machinetongu",
 "type": "article-journal",
 "title": "Machine Tongues XV: Three Packages for Software Sound Synthesis",
@@ -138354,34 +135948,6 @@
 ],
 "container-title": "Proceedings of the Third International Conference on Music Cognition (ESCOM)",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.99",
-"issued": {
-"date-parts": [
-[
-1994
-]
-]
-}
-},
-{
-"id": "zotero:seifert1994mechanicalse",
-"type": "article-journal",
-"title": "Mechanical sensors based on surface acoustic waves",
-"author": [
-{
-"family": "Seifert",
-"given": "Franz"
-},
-{
-"family": "Bulst",
-"given": "Wolf-Eckhart"
-},
-{
-"family": "Ruppel",
-"given": "Clemens"
-}
-],
-"container-title": "Sensors and Actuators A: Physical",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -139019,25 +136585,6 @@
 }
 },
 {
-"id": "zotero:kasai1999butohdanceme",
-"type": "report",
-"title": "Butoh Dance Method for Psychosomatic Exploration",
-"author": [
-{
-"family": "Kasai",
-"given": "Toshiharu"
-}
-],
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-1999
-]
-]
-}
-},
-{
 "id": "zotero:weinberg1999expressivedi",
 "type": "thesis",
 "title": "Expressive Digital Musical Instruments for Children",
@@ -139134,26 +136681,6 @@
 "container-title": "Proc. of International Conference of HUmanoid and RObot (HURO99), Tokyo, Japan",
 "URL": "http://www.researchgate.net/profile/Kenji_Suzuki11/publication/229009728_KANSEI_Analysis_of_Movement_in_DanceMusic_Interactive_Systems/links/0c960531432e943738000000.pdf",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-1999
-]
-]
-}
-},
-{
-"id": "zotero:furniss1999motioncaptur",
-"type": "article-journal",
-"title": "Motion capture",
-"author": [
-{
-"family": "Furniss",
-"given": "Maureen"
-}
-],
-"container-title": "posted at http://web. mit. edu/mit/articles/index—furniss. html on Dec",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -139296,31 +136823,6 @@
 }
 },
 {
-"id": "zotero:winters2000biomechanics",
-"type": "book",
-"title": "Biomechanics and Neural Control of Posture and Movement",
-"author": [
-{
-"family": "Winters",
-"given": "Jack M."
-},
-{
-"family": "Crago",
-"given": "Patrick E."
-}
-],
-"container-title": "Springer New York",
-"DOI": "10.1007/978-1-4612-2104-3",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2000
-]
-]
-}
-},
-{
 "id": "zotero:choi2000gesturalprim",
 "type": "article-journal",
 "title": "Gestural primitives and the context for computational processing in an interactive performance system",
@@ -139357,26 +136859,6 @@
 ],
 "container-title": "Proceedings of Human Interface Technologies",
 "URL": "http://www.ece.ubc.ca/~elec518/previous/hit2000/pdf/04_lin.pdf",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2000
-]
-]
-}
-},
-{
-"id": "zotero:fmol2000liveatmetron",
-"type": "paper-conference",
-"title": "Live at Metronom",
-"author": [
-{
-"family": "FMOL",
-"given": "Trio"
-}
-],
-"container-title": "Hazard Records 010",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.95",
 "issued": {
 "date-parts": [
@@ -139480,25 +136962,6 @@
 ],
 "container-title": "World Scientific",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2000
-]
-]
-}
-},
-{
-"id": "zotero:konemann2000theillustrat",
-"type": "book",
-"title": "The Illustrated Encyclopedia of Musical Instruments: From All Eras and Regions of the World",
-"author": [
-{
-"family": "Könemann",
-"given": ""
-}
-],
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -139884,34 +137347,6 @@
 }
 },
 {
-"id": "zotero:davison2001markerlessmo",
-"type": "paper-conference",
-"title": "Markerless motion capture of complex full-body movement for character animation",
-"author": [
-{
-"family": "Davison",
-"given": "A.J."
-},
-{
-"family": "Deutscher",
-"given": "J."
-},
-{
-"family": "Reid",
-"given": "I.D."
-}
-],
-"container-title": "Computer Animation and Simulation 2001: Proceedings of the Eurographics Workshop in Manchester, UK, September 2-3, 2001",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2001
-]
-]
-}
-},
-{
 "id": "zotero:avanzini2001musicalinstr",
 "type": "article-journal",
 "title": "Musical instrument modeling: the case of the piano",
@@ -140247,33 +137682,13 @@
 }
 },
 {
-"id": "zotero:zicarellid2002maxmsp",
-"type": "book",
-"title": "Max/MSP",
-"author": [
-{
-"family": "Zicarelli.D",
-"given": ""
-}
-],
-"URL": "http://www.cycling74.com/products/maxmsp.html",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2002
-]
-]
-}
-},
-{
 "id": "zotero:music2002meaningmotio",
 "type": "article-journal",
-"title": "Meaning, Motion and Gesture",
+"title": "Meaning, Motion and Gesture in Psychedelic Trance Music",
 "author": [
 {
-"family": "Music",
-"given": "In Psychedelic Trance"
+"family": "Pladott",
+"given": "Udi"
 }
 ],
 "URL": "http://www.udi.pladott.org/music/Motion_and_Gesture_in_Trance%20Music2005.pdf",
@@ -140281,7 +137696,7 @@
 "issued": {
 "date-parts": [
 [
-2002
+2005
 ]
 ]
 }
@@ -140704,27 +138119,6 @@
 ],
 "container-title": "Proceedings of SMAC",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2003
-]
-]
-}
-},
-{
-"id": "zotero:brown2003limbposition",
-"type": "article-journal",
-"title": "Limb Position Drift: Implications for Control of Posture and Movement",
-"author": [
-{
-"family": "Brown",
-"given": "L. E."
-}
-],
-"container-title": "Journal of Neurophysiology",
-"DOI": "10.1152/jn.00013.2003",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -141882,27 +139276,6 @@
 }
 },
 {
-"id": "zotero:caplan2006defendingmus",
-"type": "article-journal",
-"title": "Defending Musical Perdurantism",
-"author": [
-{
-"family": "Caplan",
-"given": "B."
-}
-],
-"container-title": "The British Journal of Aesthetics",
-"DOI": "10.1093/aesthj/ayj004",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.98",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
 "id": "zotero:malloch2006examiningdes",
 "type": "paper-conference",
 "title": "Examining Design Goals of Digital Musical Instruments",
@@ -142000,39 +139373,6 @@
 ],
 "container-title": "Music, Motor Control and the Brain",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
-"issued": {
-"date-parts": [
-[
-2006
-]
-]
-}
-},
-{
-"id": "zotero:jung2006frommotionca",
-"type": "paper-conference",
-"title": "From motion capture to action capture: a review of imitation learning techniques and their application to VR-based character animation",
-"author": [
-{
-"family": "Jung",
-"given": "Bernhard"
-},
-{
-"family": "Amor",
-"given": "Heni Ben"
-},
-{
-"family": "Heumer",
-"given": "Guido"
-},
-{
-"family": "Weber",
-"given": "Matthias"
-}
-],
-"container-title": "VRST '06: Proceedings of the ACM symposium on Virtual reality software and technology",
-"DOI": "http://doi.acm.org/10.1145/1180495.1180526",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -142738,26 +140078,6 @@
 }
 },
 {
-"id": "zotero:marschall2007machinecompob",
-"type": "article-journal",
-"title": "Machine Composition-Between Lisp and Max: Between AI and Music. Lisp, Max, maxlisp and other recombinations",
-"author": [
-{
-"family": "Marschall",
-"given": "Olav-Andreas"
-}
-],
-"URL": "https://www.duo.uio.no/handle/10852/9685",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
 "id": "zotero:carot2007networkedmus",
 "type": "paper-conference",
 "title": "Networked music performance: State of the art",
@@ -143148,34 +140468,6 @@
 ],
 "container-title": "Affective computing and intelligent interaction",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2007
-]
-]
-}
-},
-{
-"id": "zotero:huang2007visualandhap",
-"type": "article-journal",
-"title": "Visual and haptic feedback contribute to tuning and online control during object manipulation",
-"author": [
-{
-"family": "Huang",
-"given": "F."
-},
-{
-"family": "Gillespie",
-"given": "R. B."
-},
-{
-"family": "Kuo",
-"given": "A. D"
-}
-],
-"container-title": "Journal of Motor Behavior",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -143678,26 +140970,6 @@
 "date-parts": [
 [
 2008
-]
-]
-}
-},
-{
-"id": "zotero:winter2009biomechanics",
-"type": "book",
-"title": "Biomechanics and motor control of human movement",
-"author": [
-{
-"family": "Winter",
-"given": "David A"
-}
-],
-"container-title": "John Wiley & Sons",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2009
 ]
 ]
 }
@@ -144443,26 +141715,6 @@
 }
 },
 {
-"id": "zotero:ashbrook2010enablingmobi",
-"type": "article-journal",
-"title": "Enabling mobile microinteractions",
-"author": [
-{
-"family": "Ashbrook",
-"given": "Daniel Lee"
-}
-],
-"URL": "https://smartech.gatech.edu/handle/1853/33986",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.03",
-"issued": {
-"date-parts": [
-[
-2010
-]
-]
-}
-},
-{
 "id": "zotero:bresin2010expressiveso",
 "type": "paper-conference",
 "title": "Expressive Sonification of Footstep Sounds",
@@ -144970,39 +142222,6 @@
 }
 },
 {
-"id": "zotero:wolf2011ataxonomyofm",
-"type": "chapter",
-"title": "A taxonomy of microinteractions: Defining microgestures based on ergonomic and scenario-dependent requirements",
-"author": [
-{
-"family": "Wolf",
-"given": "Katrin"
-},
-{
-"family": "Naumann",
-"given": "Anja"
-},
-{
-"family": "Rohs",
-"given": "Michael"
-},
-{
-"family": "Müller",
-"given": "Jörg"
-}
-],
-"container-title": "Human-Computer Interaction - INTERACT 2011",
-"URL": "http://link.springer.com/10.1007/978-3-642-23774-4_45",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; tagged or filed as NIME there; NIME-topic probability 0.12",
-"issued": {
-"date-parts": [
-[
-2011
-]
-]
-}
-},
-{
 "id": "zotero:chan2011avirtualreal",
 "type": "article-journal",
 "title": "A virtual reality dance training system using motion capture technology",
@@ -145183,25 +142402,6 @@
 ],
 "container-title": "Leonardo",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-2011
-]
-]
-}
-},
-{
-"id": "zotero:eriksson2011mocapinspeln",
-"type": "article-journal",
-"title": "Mocap-inspelningskompendium för kursen Introduktion till Motion Capture",
-"author": [
-{
-"family": "Eriksson",
-"given": "Fredrik"
-}
-],
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -145570,34 +142770,6 @@
 }
 },
 {
-"id": "zotero:behrends2012movinginando",
-"type": "article-journal",
-"title": "Moving in and out of synchrony: A concept for a new intervention fostering empathy through interactional movement and dance",
-"author": [
-{
-"family": "Behrends",
-"given": "Andrea"
-},
-{
-"family": "Müller",
-"given": "Sybille"
-},
-{
-"family": "Dziobek",
-"given": "Isabel"
-}
-],
-"container-title": "The Arts in Psychotherapy",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
 "id": "zotero:miller2012playingalong",
 "type": "book",
 "title": "Playing along: digital games, YouTube, and virtual performance",
@@ -145609,25 +142781,6 @@
 ],
 "container-title": "Oxford University Press",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2012
-]
-]
-}
-},
-{
-"id": "zotero:blau2012quietudeinin",
-"type": "article-journal",
-"title": "Quietude in Intercultural Performance: Phillip Zarrilli’s Told by the Wind and Yôjirô Okamura’s Aminadab",
-"author": [
-{
-"family": "Blau",
-"given": "Herbert"
-}
-],
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -146357,35 +143510,6 @@
 }
 },
 {
-"id": "zotero:gawthrop2014intermittent",
-"type": "article-journal",
-"title": "Intermittent Control in Man and Machine",
-"author": [
-{
-"family": "Gawthrop",
-"given": "Peter"
-},
-{
-"family": "Gollee",
-"given": "Henrik"
-},
-{
-"family": "Loram",
-"given": "Ian"
-}
-],
-"container-title": "arXiv:1407.3543 [cs, q-bio]",
-"URL": "http://arxiv.org/abs/1407.3543",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2014
-]
-]
-}
-},
-{
 "id": "zotero:ogborn2014livecodingin",
 "type": "article-journal",
 "title": "Live coding in a scalable, participatory laptop orchestra",
@@ -146683,27 +143807,6 @@
 }
 },
 {
-"id": "zotero:goodwin2014theintelligi",
-"type": "chapter",
-"title": "The intelligibility of gesture within a framework of co-operative action",
-"author": [
-{
-"family": "Goodwin",
-"given": "Charles"
-}
-],
-"container-title": "From Gesture in Conversation to Visible Action as Utterance",
-"DOI": "10.1075/z.188.10goo",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.90",
-"issued": {
-"date-parts": [
-[
-2014
-]
-]
-}
-},
-{
 "id": "zotero:vail2014thesynthesiz",
 "type": "book",
 "title": "The synthesizer: a comprehensive guide to understanding, programming, playing, and recording the ultimate electronic music instrument",
@@ -146740,26 +143843,6 @@
 "container-title": "ACM Press",
 "DOI": "10.1145/2617995.2618014",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2014
-]
-]
-}
-},
-{
-"id": "zotero:wikipedia2014zetainstrume",
-"type": "book",
-"title": "Zeta Instrument Processor Interface",
-"author": [
-{
-"family": "Wikipedia",
-"given": ""
-}
-],
-"URL": "https://en.wikipedia.org/wiki/Zeta_Instrument_Processor_Interface",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 1.00",
 "issued": {
 "date-parts": [
 [
@@ -147249,38 +144332,6 @@
 ],
 "container-title": "Springer",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.97",
-"issued": {
-"date-parts": [
-[
-2016
-]
-]
-}
-},
-{
-"id": "zotero:morais2016applicationo",
-"type": "paper-conference",
-"title": "Application of Myo Armband System to Control a Robot Interface.",
-"author": [
-{
-"family": "Morais",
-"given": "Gabriel Doretto"
-},
-{
-"family": "Neves",
-"given": "Leonardo C."
-},
-{
-"family": "Masiero",
-"given": "Andrey A."
-},
-{
-"family": "Castro",
-"given": "Maria Claudia F. de"
-}
-],
-"container-title": "BIOSIGNALS",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -148758,43 +145809,6 @@
 }
 },
 {
-"id": "zotero:stonge2019engagingwith",
-"type": "article-journal",
-"title": "Engaging with Robotic Swarms: Commands from Expressive Motion",
-"author": [
-{
-"family": "St-Onge",
-"given": "David"
-},
-{
-"family": "Côté-Allard",
-"given": "Ulysse"
-},
-{
-"family": "Glette",
-"given": "Kyrre"
-},
-{
-"family": "Gosselin",
-"given": "Benoit"
-},
-{
-"family": "Beltrame",
-"given": "Giovanni"
-}
-],
-"container-title": "ACM Transactions on Human-Robot Interaction",
-"DOI": "10.1145/3323213",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
 "id": "zotero:polfreman2019forcemotionc",
 "type": "paper-conference",
 "title": "Force & Motion: Conducting to the Click",
@@ -149012,26 +146026,6 @@
 }
 },
 {
-"id": "zotero:nestor2020breaththenew",
-"type": "book",
-"title": "Breath: The New Science of a Lost Art",
-"author": [
-{
-"family": "Nestor",
-"given": "James"
-}
-],
-"container-title": "Penguin UK",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.94",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
 "id": "zotero:erdem2020exploringrel",
 "type": "article-journal",
 "title": "Exploring relationships between effort, motion, and sound in new musical instruments",
@@ -149084,39 +146078,6 @@
 }
 },
 {
-"id": "zotero:shimada2020physcapphysi",
-"type": "article-journal",
-"title": "PhysCap: physically plausible monocular 3D motion capture in real time",
-"author": [
-{
-"family": "Shimada",
-"given": "Soshi"
-},
-{
-"family": "Golyanik",
-"given": "Vladislav"
-},
-{
-"family": "Xu",
-"given": "Weipeng"
-},
-{
-"family": "Theobalt",
-"given": "Christian"
-}
-],
-"container-title": "ACM Transactions on Graphics",
-"DOI": "10.1145/3414685.3417877",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
 "id": "zotero:bishop2020reliabilityo",
 "type": "paper-conference",
 "title": "Reliability of two IR Motion Capture Systems in a Music Performance Setting",
@@ -149133,30 +146094,6 @@
 "container-title": "Proceedings of the Sound and Music Computing Conference",
 "URL": "http://urn.nb.no/URN:NBN:no-81613",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2020
-]
-]
-}
-},
-{
-"id": "zotero:bishop2020reliabilityob",
-"type": "paper-conference",
-"title": "Reliability of two infrared motion capture systems in a music performance setting",
-"author": [
-{
-"family": "Bishop",
-"given": "Laura"
-},
-{
-"family": "Jensenius",
-"given": "Alexander Refsum"
-}
-],
-"container-title": "Proceedings of the SMC conferences",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -149385,56 +146322,6 @@
 ],
 "container-title": "Creativity and Cognition",
 "DOI": "10.1145/3450741.3465245",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
-"issued": {
-"date-parts": [
-[
-2021
-]
-]
-}
-},
-{
-"id": "zotero:reyes2021memoryinmoti",
-"type": "article-journal",
-"title": "Memory in Motion: UrbanTheater Company's Back in the Day and the Chicago Latinx Dance Crews of the 1980s",
-"author": [
-{
-"family": "Reyes",
-"given": "Israel"
-}
-],
-"container-title": "Latin American Theatre Review",
-"DOI": "10.1353/ltr.2021.0019",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.95",
-"issued": {
-"date-parts": [
-[
-2021
-]
-]
-}
-},
-{
-"id": "zotero:keltystephen2021multifractal",
-"type": "article-journal",
-"title": "Multifractality distinguishes reactive from proactive cascades in postural control",
-"author": [
-{
-"family": "Kelty-Stephen",
-"given": "Damian G."
-},
-{
-"family": "Furmanek",
-"given": "Mariusz P."
-},
-{
-"family": "Mangalam",
-"given": "Madhur"
-}
-],
-"container-title": "Chaos, Solitons & Fractals",
-"DOI": "10.1016/j.chaos.2020.110471",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [

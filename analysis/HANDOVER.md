@@ -33,7 +33,8 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   merges them (it also checks that each reason describes its entry). After a rubric change, a
   revision batch (`rev_in_NN.jsonl`, written by `tools/trl_revise.py`, and the agent's
   `rev_out_NN.jsonl`) replaces the estimates for its ids; a TRL-only revision (`--kind trl`,
-  lines with `trl_reason` and no `arl`) replaces the TRL and keeps the ARL and its reason. Ask
+  lines with `trl_reason` and no `arl`) replaces the TRL and keeps the ARL and its reason. With `--blind` the
+  previous estimate is left out, so the TRL is judged without seeing the ARL. Ask
   agents to key judgements by id, not by line.
 - The NIME paper draft on TRL and ARL is in
   `~/UiO Dropbox/alexanje@uio.no/writing/2-Artistic readyness level (NIME)/paper/`; its

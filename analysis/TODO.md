@@ -9,22 +9,22 @@
   that was not exported. [Recommendation: one record per year, the PubPub DOIs as related
   identifiers, with the steering committee's agreement.]
 
-- [ARJ] Confirm `data/vetting_sheet.tsv` (private): agents read every entry of Theses, Cited,
-  Background, Zotero, Related and Historical and flagged 428, each with a reason and a
-  recommended action (remove, move between Cited and Background, fix, or keep for close calls).
-  Write in `your_decision` only where you disagree; the rest stands as recommended. The decisions
-  then go to `tools/hand.tsv`, which `tools/hand.py` applies after every rebuild.
-  [Recommendation: accept the removals, moves and fixes, and leave the 207 close calls in.]
+- [ARJ] The vetting recommendations are applied (`tools/hand.tsv`: 131 removals, 54 moves between
+  Cited and Background, 57 corrections). The 207 close calls stay in; they are listed with reasons
+  in `data/vetting_sheet.tsv` (private) if you want to drop any. Two kept entries still need a
+  title: `thesis:baez2016electroacoustica` (its title is a list of keywords).
 - [ARJ] ARL after the threshold change: the agents rated close calls you may want to check, such as
   premieres with no venue named, university ensembles (Stanford Laptop Orchestra, L2Ork), works
   credited with festivals only in a performer's biography (held at 6), and a few weak 7s (a
   university-run festival, works published on the internet, the Danish music museum). The reasons
   are in `output/trl_arl.tsv`.
-- [ARJ] TRL after the alignment at 6/7: close calls are title-only NIME 2010 and 2016 concert
-  entries (now TRL 6, was mostly 5), pieces called a "study" (held at 5), teaching papers kept at 7
-  on courses taught repeatedly, and short abstracts of devices probably used widely but not stated
-  so (LEMUR, Augmented Violin, Samchillian, lowered). The TRL reasons are in the `trl_reason`
-  column of `output/trl_arl.tsv`.
+- [ARJ] TRL, estimated blind to the ARL for every NIME paper and concert or installation with an
+  ARL: close calls are title-only concert entries (TRL 6 by default), software called freely
+  available (8, or 7 without a stated release), commercial hardware inside a new setup (the setup
+  is rated, not the hardware), and survey or interview papers about established technology (9 or
+  null). The TRL reasons are in the `trl_reason` column of `output/trl_arl.tsv`.
+- [ARJ] The paper now runs to 7 pages, the last holding only references; check the NIME page
+  limit for the submission year.
 - [ARJ] Six studies on estimating and adapting the TRL are now cited in the paper; the other
   candidates, with notes, are in the paper folder (`trl_literature.md`, `trl_literature.bib`).
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.

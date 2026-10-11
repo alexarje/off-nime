@@ -55,16 +55,16 @@ What each entry offers the analysis differs by dataset. The table gives the shar
 |---|---:|---:|---:|---:|
 | NIME papers | 2448 | 97% | 96% | 98% |
 | ISIDM | 531 | 0% | 27% | 27% |
-| Zotero | 505 | 0% | 27% | 0% |
-| Theses | 497 | 0% | 93% | 0% |
 | NIME music | 488 | 4% | 86% | 2% |
-| Cited | 442 | 0% | 65% | 0% |
+| Zotero | 473 | 0% | 28% | 0% |
+| Cited | 440 | 0% | 66% | 0% |
+| Theses | 430 | 0% | 93% | 0% |
 | ICMC | 255 | 8% | 7% | 7% |
-| Related | 206 | 0% | 27% | 0% |
-| Background | 110 | 0% | 46% | 0% |
+| Related | 179 | 0% | 26% | 0% |
+| Background | 108 | 0% | 44% | 0% |
 | CMJ | 94 | 0% | 54% | 74% |
 | NIME installations | 70 | 6% | 83% | 0% |
-| Historical | 60 | 0% | 0% | 0% |
+| Historical | 59 | 0% | 0% | 0% |
 | Extras | 36 | 0% | 14% | 17% |
 | NIME alt | 14 | 0% | 100% | 0% |
 
@@ -283,11 +283,11 @@ Books were searched in Crossref (34 queries for books, edited volumes and monogr
 
 ### The Historical dataset
 
-The reference parser reads years back to 1700 when a reference has no later year, and finds 111 works from before 1955 cited by archive papers, from Hornbostel and Sachs to Fitts. Most are general science or psychology; those on musical instruments, their classification and electronic or mechanical sound production form the Historical dataset, together with standard precursors that papers name without always citing in full (Mersenne, Helmholtz, Cahill's Telharmonium patent, Busoni, Theremin's patent). The cut-off is 1957, the year of the first MUSIC program. Of the 60 works, 29 are cited by archive papers and 13 are patents. Each is checked against Crossref (articles, which gives the DOI), Open Library (books) or Google Patents (patents, which gives the title and issue year); 47 pass, and the rest carry a note asking for vetting. The seed list is in `tools/historical_seeds.txt` and the cited works in `candidates_historical.tsv`.
+The reference parser reads years back to 1700 when a reference has no later year, and finds 111 works from before 1955 cited by archive papers, from Hornbostel and Sachs to Fitts. Most are general science or psychology; those on musical instruments, their classification and electronic or mechanical sound production form the Historical dataset, together with standard precursors that papers name without always citing in full (Mersenne, Helmholtz, Cahill's Telharmonium patent, Busoni, Theremin's patent). The cut-off is 1957, the year of the first MUSIC program. Of the 59 works, 28 are cited by archive papers and 13 are patents. Each is checked against Crossref (articles, which gives the DOI), Open Library (books) or Google Patents (patents, which gives the title and issue year); 46 pass, and the rest carry a note asking for vetting. The seed list is in `tools/historical_seeds.txt` and the cited works in `candidates_historical.tsv`.
 
 ### The Zotero dataset
 
-The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are 524 works with a scholarly item type, a year, and either a NIME-topic probability of at least 0.9 or a NIME tag or folder in the library (4 works qualify by the tag or folder alone). Short titles, which have no title key, match on the whole title within a year. Of these, 9 have titles that are not in English, where the classifier is unreliable, and 10 match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining 505 form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting; 68 of them carry the library's topical tags as keywords, without the tags that record reading or filing. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
+The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are 524 works with a scholarly item type, a year, and either a NIME-topic probability of at least 0.9 or a NIME tag or folder in the library (4 works qualify by the tag or folder alone). Short titles, which have no title key, match on the whole title within a year. Of these, 9 have titles that are not in English, where the classifier is unreliable, and 10 match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining 473 form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting; 68 of them carry the library's topical tags as keywords, without the tags that record reading or filing. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
 
 ### Theses
 
@@ -315,17 +315,19 @@ A thesis that several sources found counts once, under the source whose record w
 | Zotero | 228 | 21 |
 | OpenAlex (author) | 96 | 4 |
 
-[`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 497 admitted theses, 143 of which cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
+[`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 497 admitted theses, 143 of which cite at least three archive entries, less those removed by hand (see Data quality), and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
 
 ### Technology and artistic readiness
 
-Every entry in both archives and in the four rule-selected datasets, 5756 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason (a second reason for the TRL where it was estimated again). A concert or installation at an academic conference counts as a peer setting (ARL 5–6), and ARL 7 needs a stated presentation in a professional artistic context, such as a festival, a concert series, a gallery or a release. The TRL is aligned at the same boundary: a device shown only at a conference is at TRL 5–6, and TRL 7 needs stated use outside it, in repeated concerts, teaching or by other people. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1630 of them rest on a title alone. They are estimates, not measurements.
+Every entry in both archives and in the four rule-selected datasets, 5625 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason (a second reason for the TRL where it was estimated again). A concert or installation at an academic conference counts as a peer setting (ARL 5–6), and ARL 7 needs a stated presentation in a professional artistic context, such as a festival, a concert series, a gallery or a release. The two scales are judged independently and can be far apart: a fragile prototype may be played on stage, and a commercial instrument may serve an experimental piece. The TRL rates what the text says about the technology, not where it was shown; a setup built for a work and shown only at a conference is at most TRL 6, and TRL 7 needs stated use outside it, in repeated concerts, teaching or by other people. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1575 of them rest on a title alone. They are estimates, not measurements.
 
 ![Estimated TRL against ARL, for all entries and for the NIME papers](output/trl_arl_heatmap.svg)
 
-Four expectations from the rubric hold: 96.8% of the NIME concert and installation entries sit at ARL 5–6 (2.5% reach ARL 7 or more, on a professional presentation their notes state), 85.1% of them sit at TRL 6, 80.0% of the Background works sit at TRL 1–3, and 52.7% of the NIME papers have no artistic component. Among NIME papers, the fundamental share falls from 56.7% in 2000–2004 to 45.0% in 2020–2024, and the applied share rises from 37.8% to 46.3%. Agreement with a human reader has not yet been measured: [`trl_validation_sheet.tsv`](output/trl_validation_sheet.tsv) holds 30 random entries to label. [ARJ: label the 30 entries with your own TRL and ARL, so that agreement can be reported.] The heatmap shows two clusters and a band between them: research papers with no artistic component, mostly at TRL 3–4; concert and installation works at ARL 6 (91.4%), complete works shown to peers at the conference; and papers that develop technology and artistic practice together, with ARL 3–6 at TRL 3–5. 218 NIME papers sit at TRL 6 and ARL 6, presenting an instrument together with a work performed at a conference or in the lab, and 34 at TRL 6 and ARL 7, where the work has also met a professional audience. The estimates are in [`trl_arl.tsv`](output/trl_arl.tsv) and in the collection export, and the paper map can be coloured by either scale.
+Three expectations from the rubric hold: 96.8% of the NIME concert and installation entries sit at ARL 5–6 (2.5% reach ARL 7 or more, on a professional presentation their notes state), 82.4% of the Background works sit at TRL 1–3, and 52.7% of the NIME papers have no artistic component. Among NIME papers, the fundamental share falls from 58.5% in 2000–2004 to 40.3% in 2020–2024, and the applied share rises from 31.1% to 46.5%. Agreement with a human reader has not yet been measured: [`trl_validation_sheet.tsv`](output/trl_validation_sheet.tsv) holds 30 random entries to label. [ARJ: label the 30 entries with your own TRL and ARL, so that agreement can be reported.] The heatmap shows two clusters and a band between them: research papers with no artistic component, mostly at TRL 3–4; concert and installation works at ARL 6 (91.4%), complete works shown to peers at the conference; and papers that develop technology and artistic practice together, with ARL 3–6 at TRL 3–5. 182 NIME papers sit at TRL 6 and ARL 6, presenting an instrument together with a work performed at a conference or in the lab, and 21 at TRL 6 and ARL 7, where the work has also met a professional audience. The TRL of the NIME papers and of the concerts and installations was estimated a second time without sight of the ARL, so that one scale could not anchor the other. Among NIME papers with both levels, 41.4% have the same TRL and ARL and 85 differ by three levels or more, in both directions: a commercial instrument such as a no-input mixer or the Karlax in experimental practice, or a first prototype at the centre of a performance. Among concerts and installations 78.9% agree, mostly at TRL 6 and ARL 6, since a programme note rarely says more about the technology than that it worked on the night. The estimates are in [`trl_arl.tsv`](output/trl_arl.tsv) and in the collection export, and the paper map can be coloured by either scale.
 
 ### Data quality
+
+The rules select by score, so every entry they selected for Cited, Background, Theses, Related, Historical and Zotero was then read, by language-model agents and, where they flagged an entry, by the maintainer. The decisions are kept in [`tools/hand.tsv`](tools/hand.tsv) and applied after every rebuild by `tools/hand.py`, so that a reading outlasts the rules: 131 entries are removed (off topic, not a publication, a review standing in for the book, or a duplicate), 54 are moved between Cited and Background, and 57 fields or entry types are corrected. The counts in the sections above are those of the rules; the datasets hold 440 in Cited, 108 in Background, 430 in Theses, 179 in Related, 59 in Historical, 473 in Zotero.
 
 The off-NIME archive holds 5 pairs of entries that share a title. Each pair is two publications: a conference paper and its journal version, reports in two issues of a journal, or two different papers with the same title.
 
@@ -358,7 +360,7 @@ I would extend off-NIME along the three directions the lists measure, and in thi
 
 ### Exports
 
-The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5756 entries names its archive and dataset and, for archive entries, its strongest topic.
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5625 entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 

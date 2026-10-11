@@ -321,3 +321,21 @@ rows are combined in `data/vetting_sheet.tsv` with a recommended action, for Ale
 `tools/hand.py` (in `run.sh` after the last builder) will apply the decisions from `tools/hand.tsv`,
 which is empty until then; with no decisions it leaves the bibs byte for byte as they are.
 `merge_trl.py` carries an estimate over when an entry moves between Cited and Background.
+
+The vetting recommendations are applied through `tools/hand.tsv`: 131 removals, 54 moves between
+Cited and Background, and 57 corrections (chapters entered as books, titles holding author names,
+names BibTeX misreads, wrong thesis schools, a mis-resolved Höök record, abstracts that belonged
+elsewhere). Thesis years in Cited now come from the defence date Crossref records as "approved",
+since theses.fr DOIs were registered in 2026; ten keys changed with the year and were estimated
+again. `hand.py` gained a "type" action; `trl_batch.py` and `merge_trl.py` carry an estimate over
+when an entry moves between Cited and Background.
+
+At Alexander's point that the scales can be far apart (a fragile prototype on stage, a commercial
+instrument in an experimental piece), the rubric says the two are judged independently and the
+TRL rates what the text says about the technology, not where it was shown. The TRL of all 1,716
+NIME papers and concert or installation entries with an ARL was estimated again by agents that
+did not see the ARL or any earlier estimate (`trl_revise.py --blind`, `rev_in_12` to `rev_in_26`).
+Papers with the same TRL and ARL fell from about 52% to 41.4%. Concert entries still agree at
+78.9%, mostly at 6 and 6, since programme notes say little about the technology. The check that
+expected concert entries at TRL 6 is dropped, as it contradicts independence; the agreement and the
+number of gaps of three levels or more are reported instead, in the report and the paper.

@@ -2,7 +2,7 @@
 
 Checks that can fail: every input id has exactly one estimate, levels lie in 1–9, bands agree with
 levels; and expectations from the rubric itself: concert and installation entries, shown to
-peers at a conference, should mostly sit at ARL 5–6 and TRL 6, Background works should mostly sit at TRL 1–3, and papers with no
+peers at a conference, should mostly sit at ARL 5–6, Background works should mostly sit at TRL 1–3, and papers with no
 artistic component should have no ARL. Writes data/trl.json, output/trl_arl.tsv,
 data/trl_stats.json and output/trl_validation_sheet.tsv (30 random publications for a human to
 label, which is how agreement is measured).
@@ -127,7 +127,10 @@ def main():
         "mismatched_batches_pct": mismatched,
         "artworks_arl_5_6_pct": round(100 * sum(m["arl"] in (5, 6) for m in art) / max(len(art), 1), 1),
         "artworks_arl_7_plus_pct": round(100 * sum((m["arl"] or 0) >= 7 for m in art) / max(len(art), 1), 1),
-        "artworks_trl_6_pct": round(100 * sum(m["trl"] == 6 for m in art) / max(len(art), 1), 1),
+        # the two scales are judged independently; how often they agree is measured, not expected
+        "artworks_trl_eq_arl_pct": round(100 * sum(m["trl"] == m["arl"] for m in art if m["trl"] and m["arl"])
+                                         / max(sum(1 for m in art if m["trl"] and m["arl"]), 1), 1),
+        "artworks_gap_3_plus": sum(abs(m["trl"] - m["arl"]) >= 3 for m in art if m["trl"] and m["arl"]),
         "background_trl_1_3_pct": round(100 * sum((m["trl"] or 1) <= 3 for m in by["Background"]) / max(len(by["Background"]), 1), 1),
         "nime_papers_without_arl_pct": round(100 * sum(m["arl"] is None for m in by["NIME papers"]) / max(len(by["NIME papers"]), 1), 1),
     }

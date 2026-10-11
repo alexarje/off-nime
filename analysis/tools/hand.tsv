@@ -1,1 +1,243 @@
 key	action	field	value	reason
+background:hammer1987thelanguageofele	remove			A Computer Music Journal review of Emmerson's edited book rather than the book itself, so the record is mis-resolved.
+background:sutton1998reinforcementlea	remove			A one-page IEEE Transactions on Neural Networks review of the Sutton and Barto book rather than the book, so the record is mis-resolved.
+background:assayag1999computerassisted	move		Cited	Computer-assisted composition environments at IRCAM (PatchWork, OpenMusic).
+background:beamish2004manipulatingmusi	move		Cited	Multimodal haptic interaction for DJ performance.
+background:driscoll2004davidtudorsrainf	move		Cited	Tudor's Rainforest is a live-electronic instrument and installation built from transducer-driven objects.
+background:essl2003ongenderinnewmus	move		Cited	Gender in new music interface technology, a NIME topic by title.
+background:farbood2004hyperscoreagraph	move		Cited	Hyperscore is a graphical composition tool for novices.
+background:ghazala2004thefolkmusicofch	move		Cited	Circuit-bending as the making of electronic musical instruments.
+background:grindlay2008hapticguidancebe	move		Cited	Haptic guidance for learning musical motor skills is a music interaction study.
+background:hattwick2017thevibropixelsas	move		Cited	A wireless tactile display system designed for musical performance.
+background:jaffe1983extensionsofthek	move		Cited	Musical sound synthesis extending Karplus-Strong, a companion to cited:karplus1983digitalsynthesis.
+background:karjalainen1998pluckedstringmod	move		Cited	Plucked-string physical modelling synthesis, the same topic as the waveguide entries in Cited.
+background:keislar1987historyandprinci	move		Cited	The history and design of microtonal keyboard instruments.
+background:lansky1990aviewfromthebusw	move		Cited	A composer's essay on computer music and machines making music.
+background:lewis2000toomanynotescomp	move		Cited	Voyager is an interactive computer improvisation system, central to interactive music research.
+background:louie2020noviceaimusiccoc	move		Cited	Interactive tools for novice music co-creation with generative models.
+background:magnusson2019ergodynamicsanda	move		Cited	Techno-philosophy of musical instruments and systems in computational media.
+background:magnusson2019sonicwritingtech	move		Cited	A book on music technologies, instrument design and digital organology.
+background:morrison2024entanglingentang	move		Cited	Entanglement theory applied to musical interaction, cited for NIME reasons.
+background:reed2022singingknitsoftk	move		Cited	A wearable biosensing interface for augmenting vocal performance.
+background:sanfilippo2013feedbacksystemsa	move		Cited	An analytical framework for feedback systems in music performance and composition.
+background:sethares2009spectraltoolsfor	move		Cited	Spectral tools for dynamic tonality and audio morphing in musical performance.
+background:stewart2019cordsandchordsex	move		Cited	E-textiles in computational audio, including wearable musical interfaces.
+background:tanaka2006interactionexper	move		Cited	Interaction and experience in music technology by a core NIME author.
+background:tremblay2021enablingprogramm	move		Cited	The FluCoMa toolkit for corpus-based musicking.
+background:turchet2018internetofmusica	move		Cited	The Internet of Musical Things, explicitly positioned within new interfaces for musical expression.
+background:turchet2023musicalmetaverse	move		Cited	The musical metaverse as a domain of music technology.
+background:wallis2013amateurmusicians	move		Cited	A chapter on music and HCI for amateur musicians, from the Music and HCI book.
+background:zicarelli2002howilearnedtolov	move		Cited	A reflection by Max's developer on the design of the Max music environment.
+cited:loy1985foundationsofcom	remove			A short Computer Music Journal item about the Roads and Strawn anthology rather than the anthology itself, so the record is mis-resolved.
+cited:moore1983thecomputermusic	remove			A Journal of Music Theory review of the first volumes of Computer Music Journal; citations to the journal itself were probably mis-resolved to it.
+cited:andersen2019themagicmachinew	move		Background	A design workshop method paper in HCI, not about musical interfaces.
+cited:beaudouinlafon2004designinginterac	move		Background	A general HCI position paper on designing interaction.
+cited:blauert1996spatialhearingth	move		Background	Psychophysics of spatial hearing, perception background.
+cited:boden2004thecreativemind	move		Background	A general cognitive science account of creativity.
+cited:buxton1986astudyintwohande	move		Background	An experimental HCI study of two-handed input in CAD and office tasks, with no musical content.
+cited:djajadiningrat2007easydoesntdoitsk	move		Background	Tangible interaction design theory on skill and aesthetics, not specific to music.
+cited:dourish2001wheretheactionis	move		Background	Embodied interaction theory in HCI and philosophy, not about music.
+cited:fails2003interactivemachi	move		Background	The general HCI paper introducing interactive machine learning, with no musical content.
+cited:gabrielsson2001theinfluenceofmu	move		Background	Music psychology on structure and emotional expression, with no technology.
+cited:gallagher2005howthebodyshapes	move		Background	Philosophy of mind and embodiment, not about music.
+cited:han2005lowcostmultitouc	move		Background	A general multi-touch sensing technique (FTIR), cited as enabling technology rather than as music work.
+cited:hinckley1994passiverealworld	move		Background	Interface props for neurosurgical visualisation; general tangible HCI, not music.
+cited:hinckley2012inputtechnologie	move		Background	A general HCI handbook chapter on input technologies.
+cited:hk2018designingwiththe	move		Background	Somaesthetic interaction design is HCI theory; the record also resolves to a Brazilian conference abstract rather than the 2018 MIT Press book.
+cited:ihde1990technologyandthe	move		Background	Philosophy of technology with no specific musical focus.
+cited:juslin2001communicatingemo	move		Background	Music psychology of emotion in performance, the same kind of work as the Juslin entries already in Background.
+cited:juslin2003communicationofe	move		Background	A psychology meta-analysis of emotion in vocal expression and music performance, with no technology.
+cited:kabbash1994twohandedinputin	move		Background	An HCI study of two-handed input in a compound task, with no musical content.
+cited:mackenzie1991acomparisonofinp	move		Background	A comparison of pointing devices in HCI tasks, with no musical content.
+cited:mackenzie1992fittslawasaresea	move		Background	A general HCI treatment of Fitts' law, cited as method background.
+cited:maclean2002designingwithhap	move		Background	General haptic interface design from robotics, not a musical application.
+cited:sears2007thehumancomputer	move		Background	The general HCI handbook, not a work on musical interaction.
+cited:simonsen2012routledgeinterna	move		Background	A participatory design handbook, design method background.
+cited:wigdor2014inputoutputdevic	move		Background	A general computing handbook chapter on input and output devices.
+cited:wobbrock2009userdefinedgestu	move		Background	User-defined gestures for surface computing; general HCI with no musical content.
+cited:zatorre2007whenthebrainplay	move		Background	Neuroscience of auditory–motor interaction in music, cited as perception background rather than as music technology.
+cited:zimmerman1995applyingelectric	move		Background	Electric field sensing for general human–computer interfaces rather than for music.
+historical:caine1956electronicmu	remove			Duplicate of LeCaine1956 in bibs/Extras/extras.bib (same DOI 10.1109/jrproc.1956.274925).
+related:alves2023towardsconsc	remove			Graphical user interface guidelines based on personality traits, with no sound or music content.
+related:amento2002thesoundofon	remove			Bio-acoustic sensing of fingertip gestures for general computer input, not for music.
+related:bosman2022theroleofaud	remove			The role of audio in the diegesis of virtual reality games, which is game audio rather than musical expression.
+related:bosman2024soundtrekavi	remove			A virtual reality audio game about listening perspective, not a musical interface.
+related:burattini2023theeffectofa	remove			Emotion induction with audio-video stimuli in virtual reality to reduce work stress, not music interaction.
+related:burnett2023userexpectat	remove			A listening experiment on expected room reverberation in virtual reality, not music interaction.
+related:chonchir2008theenchantin	remove			A case study of enchantment and the internet with no sound or music content.
+related:ciabattoni2024dantesperfor	remove			A book on music, dance and drama in Dante's Commedia, which is literary and medieval music study.
+related:craninckx1998wirelesscmos	remove			A book on radio-frequency CMOS frequency synthesisers for wireless circuits, not sound synthesis.
+related:cruise1998principlesof	remove			A book on the design of space science instruments, not musical instruments.
+related:czyzewski2013multimodalhu	remove			Multimodal human-computer interfaces for education and disability, not music.
+related:djennane2002modlesdeprse	remove			Presentation of 3D audio information to mobile computer users, with no musical application; the title also carries an encoding error in "Modèles".
+related:feldbusch2003thebtrcbluet	remove			A Bluetooth remote control system with no musical application.
+related:gao2015useofsoundto	remove			Sound feedback for occluded finger-touch input in general interfaces, not music.
+related:grant2013meuserecomme	remove			A recommender for internet radio stations, which is music information retrieval rather than musical expression.
+related:hoggan2009audioortacti	remove			A study of touchscreen typing on mobile devices under noise, not music interaction; the title is also truncated from "Audio or tactile feedback: which modality when?".
+related:jin2003individualiz	remove			A spatial-audio coding technique for individualised HRTFs, which is audio engineering with no musical interaction.
+related:kela2006acceleromete	remove			Accelerometer gesture control of a design environment, not of sound or music.
+related:li2023exploringthe	remove			A sound-accessibility plugin for virtual reality game developers, not music.
+related:mcmillan2023digitalimmig	remove			A book on media integration and advertising in which the synthesiser is a metaphor for the smartphone.
+related:staszewski2006alldigitalfr	remove			A book on all-digital radio-frequency synthesisers in CMOS, not sound synthesis.
+related:stirling2016beyondthedan	remove			An ethnography of gender in electronic dance music crowds with no interface or technology content.
+related:wall2010experimentin	remove			Music fan culture and new media production, which is music industry study with no interface content.
+related:wersnyi2010auditoryrepr	remove			Auditory representation of a graphical user interface for blind users, which is auditory display rather than music.
+thesis:ajili2018reconnaissancede	remove			Expressive gesture recognition for human-robot interaction, with no musical component.
+thesis:akkil2013mobilegazeintera	remove			Gaze gestures with haptic feedback on mobile devices, general human-computer interaction.
+thesis:alam2009rpenanewdpointin	remove			Three-dimensional pointing device for general computing, with no musical application.
+thesis:andrews2024thedepthobjectex	remove			Visual depth composition in stereoscopic virtual reality, with no sound or music.
+thesis:bonome2017proposingtwonewh	remove			Myo armband techniques for manipulating virtual reality objects, with no musical component.
+thesis:brouet2015multitouchgestur	remove			Multi-touch gestures for three-dimensional modelling on touch screens, with no music.
+thesis:burno2015equatinguserexpe	remove			Fitts' law and user experience in gesture input, general human-computer interaction.
+thesis:cao2010amotiongraphappr	remove			Character animation from low-cost sensors for games and virtual environments, with no music.
+thesis:chen2017recognitionandin	remove			Recognition of multi-touch gestures for general touch-screen interaction, with no music.
+thesis:danyluk2012proofofconceptfo	remove			Motion capture for athletic coaching, with no musical component.
+thesis:doughtery2018footcontrolledsu	remove			Foot control of a supernumerary robotic arm, with no musical component.
+thesis:favero2024recognitionandpe	remove			Hand gesture browser extension for controlling web pages, with no musical application.
+thesis:fisch2007developmentandte	remove			Haptic interface hardware based on electro-rheological fluids, with no musical application.
+thesis:frumau2016thescalingofpres	remove			Study of presence in virtual reality, with no musical component.
+thesis:goh2009developmentofawe	remove			Wearable motion capture hardware for robotics and health care, with no musical application.
+thesis:hachet2010interfacesutilis	remove			Three-dimensional user interfaces for immersive virtual environments, with no musical component.
+thesis:hinckley1996hapticissuesforv	remove			General human-computer interaction study of haptic input for virtual manipulation, with no sound or music.
+thesis:huber2007enhancedtargetin	remove			Force feedback mouse targeting for users with physical disabilities, general accessibility research with no music.
+thesis:karvinen2015hapticfeedbackin	remove			Haptic feedback for freehand gesture interaction in general computing, with no music.
+thesis:keuning2003augmentedforcefe	remove			Force feedback for target acquisition in desktop interaction, general human-computer interaction with no music.
+thesis:knight2006improvingbimanua	remove			Force display in a bimanual drawing task, general haptics research with no music.
+thesis:kruczynska2012whatdoesdancingh	remove			Study of verbal and nonverbal communication among dance bloggers, with no music or technology for performance.
+thesis:kumar1999astudyontheperfo	remove			Network engineering study of TCP over ATM with no musical content.
+thesis:lee2024exploringmixedin	remove			Controller and hand gesture input for object manipulation in virtual reality, with no music.
+thesis:lesaoana2004interactivecultu	remove			Interactive storytelling virtual environment for cultural heritage, with no musical component.
+thesis:li2012developmentofimm	remove			Virtual reality table tennis environment, with no musical component.
+thesis:louis2020implmentationetb	remove			High-fidelity interaction for three-dimensional virtual scenes, with no musical component.
+thesis:marincarrillo2019theevolutionofth	remove			Study of interactive and immersive documentary film, with no musical component.
+thesis:masliah2001measuringtheallo	remove			Metric for allocation of control in six-degree-of-freedom input tasks, general human-computer interaction with no music.
+thesis:miner2022stairwaytoheaven	remove			Virtual reality breathing and mindfulness intervention, with no musical component.
+thesis:ngan2016developmentofavi	remove			Virtual reality pet game with Leap Motion, with no musical component.
+thesis:oancea2023theimmanentanima	remove			Directing animation in virtual reality, with no musical component.
+thesis:ostan2021hapticfeedbackth	remove			Haptic feedback in a lower-limb rehabilitation exoskeleton with virtual reality, medicine with no music.
+thesis:perelman2018conceptiondvelop	remove			Interaction techniques for public-sector administrative software, with no music.
+thesis:perry2018virtualrealityan	remove			Ethnography of virtual reality in clinical rehabilitation, with no musical component.
+thesis:reek2014portableinstrume	remove			Bachelor project on a rowing performance instrument panel app, with no musical content.
+thesis:ren2013designingforeffe	remove			Freehand gestural interaction for general computing, with no musical application.
+thesis:rhijn2007configurableinpu	remove			Input devices for three-dimensional interaction in virtual reality, with no musical component.
+thesis:saidi2005motioncapturetot	remove			Low-cost motion capture for character animation and games, with no musical application.
+thesis:sarakoglou2010interoperablehap	remove			Haptic interfaces for virtual reality, with no musical component.
+thesis:sheikholeslami2017datadrivendesign	remove			Robot hand gestures for human-robot collaboration in manufacturing, with no music.
+thesis:siddhpuria2017watchtracedesign	remove			At-your-side arm gesture paradigm for general computing, with no music.
+thesis:snow1998chartingpresence	remove			Study of presence in virtual environments with no sound or musical component.
+thesis:spelmezan2011alanguageoftacti	remove			Tactile motion instructions for sports training, with no musical component.
+thesis:sterholm2006pymorphicamorphi	remove			Live programming user interface for general software development, not music or sound.
+thesis:thomas1998theeffectsofinte	remove			Force and kinesthetic feedback with earcons for everyday desktop computing tasks, not musical practice.
+thesis:yang2015notallgesturesar	remove			Gesture and visual feedback design for general mobile and open-air interaction, with no music.
+thesis:yazdani2012braincomputerint	remove			Brain-computer interface for multimedia tagging and retrieval, not musical performance or composition.
+thesis:young2016anarmmountedacce	remove			Arm-mounted inertial pointing device evaluated with Fitts' law, general human-computer interaction.
+thesis:zeng2012extensionoffitts	remove			Extension of Fitts' law to three-dimensional hand movements, general human-computer interaction.
+thesis:zheng2017enablingexpressi	remove			Expressive computer keyboard input through hand posture identification, not a musical keyboard.
+thesis:zou2025theeffectofasymm	remove			Asymmetric input for three-dimensional tracing in virtual reality, with no musical component.
+thesis:beux2009contrlegestuelde	remove			Same thesis as thesis:lebeux2009gesturalcontrolo, a second record of it under the same author with a matching title or abstract.
+thesis:casciato2007onthechoiceofges	remove			Same thesis as thesis:casciato2008onthechoiceofges, a second record of it under the same author with a matching title or abstract.
+thesis:clara2021themusicalinstru	remove			Same thesis as thesis:clara2021linstrumentdemus, a second record of it under the same author with a matching title or abstract.
+thesis:feugre2013synthseparrglesd	remove			Same thesis as thesis:feugre2013gesturalcontrolo, a second record of it under the same author with a matching title or abstract.
+thesis:gibet1987codagereprsentat	remove			Same thesis as thesis:gibet1987codingrepresenta, a second record of it under the same author with a matching title or abstract.
+thesis:goudard2020representationan	remove			Same thesis as thesis:goudard2020reprsentationetc, a second record of it under the same author with a matching title or abstract.
+thesis:leonard2015laplateformemsci	remove			Same thesis as thesis:leonard2015themsciplatformt, a second record of it under the same author with a matching title or abstract.
+thesis:lozada2007modlisationcontr	remove			Same thesis as thesis:lozada2007modelinghapticco, a second record of it under the same author with a matching title or abstract.
+thesis:marlire2006conceptionetrali	remove			Same thesis as thesis:marlire2006studyanddesignof, a second record of it under the same author with a matching title or abstract.
+thesis:melbye2026acontinuallyrece	remove			Same thesis as thesis:melbye2023acontinuallyrece, a second record of it under the same author with a matching title or abstract.
+thesis:merer2011caractrisationac	remove			Same thesis as thesis:merer2011perceptualandaco, a second record of it under the same author with a matching title or abstract.
+thesis:miskalo2009aperformanceenqu	remove			Same thesis as thesis:miskalo2009theperformanceas, a second record of it under the same author with a matching title or abstract.
+thesis:roche2020synthsedesonsmus	remove			Same thesis as thesis:roche2020musicsoundsynthe, a second record of it under the same author with a matching title or abstract.
+thesis:tsiros2026amultidimensiona	remove			Same thesis as thesis:tsiros2016amultidimensiona, a second record of it under the same author with a matching title or abstract.
+thesis:west2025sygaldryreusable	remove			Same thesis as thesis:west2025makingdigitalmus, a second record of it under the same author with a matching title or abstract.
+zotero:allum1990afferentcont	remove			A physiology volume on posture and locomotion control with no link to music.
+zotero:ashbrook2010enablingmobi	remove			A thesis on mobile microinteractions in general human-computer interaction with no musical content.
+zotero:behrends2012movinginando	remove			A dance-based psychotherapy intervention for empathy, outside music technology.
+zotero:bishop2020reliabilityob	remove			Duplicate of zotero:bishop2020reliabilityo, the same SMC 2020 paper with a variant title.
+zotero:blau2012quietudeinin	remove			A theatre studies article on intercultural performance with no music or technology content.
+zotero:brown2003limbposition	remove			A neurophysiology study of limb position drift with no link to music.
+zotero:caplan2006defendingmus	remove			A paper in the analytic ontology of musical works, unrelated to performance or technology.
+zotero:davison2001markerlessmo	remove			A computer-vision paper on markerless motion capture for character animation, not music-related.
+zotero:eriksson2011mocapinspeln	remove			A course handout for an introductory motion capture course rather than a publication, with no musical focus.
+zotero:fmol2000liveatmetron	remove			A commercial audio recording by the FMOL Trio, not a written publication.
+zotero:furniss1999motioncaptur	remove			A web article on motion capture for film animation rather than a scholarly publication on music.
+zotero:gawthrop2014intermittent	remove			A control-engineering and physiology paper on intermittent control with no link to music.
+zotero:goodwin2014theintelligi	remove			A conversation-analysis chapter on co-speech gesture, not on music.
+zotero:huang2007visualandhap	remove			A motor-behaviour study of feedback in object manipulation with no link to music.
+zotero:jung2006frommotionca	remove			A review of imitation learning for virtual-reality character animation with no musical content.
+zotero:kasai1999butohdanceme	remove			A report on Butoh dance as a psychosomatic method, outside music and technology.
+zotero:keltystephen2021multifractal	remove			A physics paper on multifractality in postural control with no link to music.
+zotero:konemann2000theillustrat	remove			Duplicate of zotero:abrashev2006illustratede, the same encyclopedia with the publisher entered as author.
+zotero:krasner1988acookbookfor	remove			A software-engineering tutorial on the model-view-controller paradigm in Smalltalk-80 with no musical content.
+zotero:marschall2007machinecompob	remove			Duplicate of zotero:marschall2007machinecompo, the same University of Oslo thesis entered as an article.
+zotero:morais2016applicationo	remove			A paper on controlling a robot with the Myo armband, with no musical application.
+zotero:nestor2020breaththenew	remove			A popular-science book on breathing with no link to music.
+zotero:parsons1992theparsonsda	remove			A book on a dance company, apparently a programme or portrait, with no music technology content.
+zotero:reyes2021memoryinmoti	remove			A theatre review on Chicago Latinx dance crews with no music technology content.
+zotero:seifert1994mechanicalse	remove			An engineering paper on surface-acoustic-wave mechanical sensors with no musical application.
+zotero:shimada2020physcapphysi	remove			A computer-graphics paper on monocular motion capture with no musical application.
+zotero:stonge2019engagingwith	remove			A human-robot interaction paper on commanding robot swarms by expressive motion, not music.
+zotero:wikipedia2014zetainstrume	remove			A Wikipedia page, not a publication.
+zotero:winter2009biomechanics	remove			A biomechanics and motor control textbook with no musical focus.
+zotero:winters2000biomechanics	remove			A biomechanics and neural motor control textbook with no musical focus.
+zotero:wolf2011ataxonomyofm	remove			A taxonomy of ergonomic microgestures for general human-computer interaction, not music.
+zotero:zicarellid2002maxmsp	remove			A product web page for the Max/MSP software rather than a publication.
+related:bullock2018designingint	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:bullock2018designingint	set	booktitle	The Oxford Handbook of Algorithmic Music	A chapter entered as a book; its DOI names the chapter.
+related:bullock2018designingint	set	editor	McLean, Alex and Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:ogborn2018networkmusic	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:ogborn2018networkmusic	set	booktitle	The Oxford Handbook of Algorithmic Music	A chapter entered as a book; its DOI names the chapter.
+related:ogborn2018networkmusic	set	editor	McLean, Alex and Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:simoni2018theaudiencer	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:simoni2018theaudiencer	set	booktitle	The Oxford Handbook of Algorithmic Music	A chapter entered as a book; its DOI names the chapter.
+related:simoni2018theaudiencer	set	editor	McLean, Alex and Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:dean2011envisagingim	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:dean2011envisagingim	set	booktitle	The Oxford Handbook of Computer Music	A chapter entered as a book; its DOI names the chapter.
+related:dean2011envisagingim	set	editor	Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:emmerson2011combiningthe	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:emmerson2011combiningthe	set	booktitle	The Oxford Handbook of Computer Music	A chapter entered as a book; its DOI names the chapter.
+related:emmerson2011combiningthe	set	editor	Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:keislar2011ahistoricalv	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:keislar2011ahistoricalv	set	booktitle	The Oxford Handbook of Computer Music	A chapter entered as a book; its DOI names the chapter.
+related:keislar2011ahistoricalv	set	editor	Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:lennox2011spatializati	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:lennox2011spatializati	set	booktitle	The Oxford Handbook of Computer Music	A chapter entered as a book; its DOI names the chapter.
+related:lennox2011spatializati	set	editor	Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:wishart2011computermusi	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:wishart2011computermusi	set	booktitle	The Oxford Handbook of Computer Music	A chapter entered as a book; its DOI names the chapter.
+related:wishart2011computermusi	set	editor	Dean, Roger T.	A chapter entered as a book; its DOI names the chapter.
+related:tenney2017computermusi	type		incollection	A chapter entered as a book; its DOI names the chapter.
+related:tenney2017computermusi	set	booktitle	From Scratch: Writings in Music Theory	A chapter entered as a book; its DOI names the chapter.
+related:tenney2017computermusi	set	editor	Polansky, Larry and Pratt, Lauren and Wannamaker, Robert and Winter, Michael	A chapter entered as a book; its DOI names the chapter.
+related:brazil2017livecodingco	set	title	Live Coding Console with Remote Audience into the Web	Author names and an address were in the title.
+related:brazil2017livecodingco	set	author	Lunhani, Guilherme Martins and Schiavoni, Flávio Luiz	A place was in the author field.
+related:camurri2012theeyeswebhu	set	title	The EyesWeb Human Movement Analysis Library	An author name was in the title.
+related:camurri2012theeyeswebhu	set	author	Piana, Stefano and Camurri, Antonio	An author was missing.
+related:lab2003investigatio	set	title	Investigation of the Playability of Virtual Bowed Strings	OCR author and affiliation text was in the title.
+related:lab2003investigatio	set	author	Serafin, Stefania and Young, Diana	An affiliation was in the author field.
+related:dobrian2019expressivege	set	title	Expressive Gesture: A Technique for the Use of Gesture Descriptors in Algorithmic Improvisation	A space before the colon.
+related:edstrom2024soundampmusi	set	title	Sound & Music Projects for Eurorack and Beyond: Explorations in Teensy Microcontroller Technology	An HTML entity in the title.
+related:riis2016machinemusic	set	author	Riis, Morten	The name was in capitals.
+related:m2000extendedperf	set	author	Burtner, M. and Serafin, S.	Names without commas are misread by BibTeX.
+related:s2000amultiratefi	set	author	Serafin, S. and Smith, J. O.	Names without commas are misread by BibTeX.
+related:s2000interactived	set	author	Sapir, S.	Names without commas are misread by BibTeX.
+related:s2001expressiveco	set	author	Serafin, S. and Burtner, M. and Nichols, C. and O'Modhrain, S.	Names without commas are misread by BibTeX.
+related:strawn1977unplayedbyhu	remove			A one-page record review whose author field mixes reviewer and reviewed.
+related:stroppa1986elementidiin	remove			A one-page book review whose author field mixes reviewer and reviewed.
+related:taylor1985tmtrioinstru	remove			A one-page record review whose author field mixes reviewer and performers.
+historical:mager1924eineneueepoc	set	address	Berlin	The place was in the publisher field.
+historical:mager1924eineneueepoc	set	publisher		The place was in the publisher field.
+thesis:mustard2006theintegratedsou	set	school	Edith Cowan University	A journal name was in the school field; the URL is an ECU thesis.
+thesis:kiefer2012multiparametrici	set	school	University of Sussex	A wrong university was in the school field; the URL is a Sussex thesis.
+thesis:konttinen2008conductinggestur	set	school	University of Helsinki	A yearbook was in the school field; the handle is Helsinki's.
+thesis:hochenbaum2013lartediinterazio	set	school	Victoria University of Wellington	An agency was in the school field; the DOI is Wellington's.
+zotero:bianchini2011virtualsound	set	abstract		The abstract belonged to a book on power electronics.
+zotero:music2002meaningmotio	set	author	Pladott, Udi	The author field held part of the title; the URL is Pladott's paper.
+zotero:music2002meaningmotio	set	title	Meaning, Motion and Gesture in Psychedelic Trance Music	Part of the title was in the author field.
+zotero:music2002meaningmotio	set	year	2005	The URL dates the paper to 2005.
+background:hk2018designingwiththe	type		book	The record was a conference abstract, not the book that is cited.
+background:hk2018designingwiththe	set	title	Designing with the Body: Somaesthetic Interaction Design	The record was a conference abstract.
+background:hk2018designingwiththe	set	booktitle		The record was a conference abstract.
+background:hk2018designingwiththe	set	publisher	MIT Press	The record was a conference abstract.
+background:hk2018designingwiththe	set	doi	10.7551/mitpress/11481.001.0001	The record was a conference abstract.
+cited:kaneda2003subjectofmakingm	set	year	1999	The record is from FIE 1999.
+cited:bates2012thesociallifeofm	set	abstract		The abstract was a repository disclaimer.

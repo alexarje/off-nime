@@ -18,6 +18,9 @@ def main():
     done = set()
     for f in D.glob("out_*.jsonl"):
         done |= {json.loads(l)["id"] for l in f.read_text().splitlines() if l.strip()}
+    # an entry moved by hand between Cited and Background keeps its estimate (see merge_trl.py)
+    done |= {f"{p}:{i.split(':', 1)[1]}" for i in list(done) if i.split(":")[0] in ("cited", "background")
+             for p in ("cited", "background")}
     todo = []
     for r in json.loads((HERE / "data" / "corpus.json").read_text()):
         if r["id"] not in done:

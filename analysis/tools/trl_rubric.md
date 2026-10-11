@@ -15,12 +15,21 @@ publication shows, not what the authors hope for.
 - 8: System complete and qualified. A stable, documented, released tool or instrument (open-source release, product).
 - 9: Proven in operational use. Widely adopted, commercial, or a standard (for example OSC, Max, SuperCollider).
 
-A device or system shown only at a conference (a concert, installation or demo at NIME, ICMC,
-SMC and the like) is TRL 6 when the text presents it as complete and used in public, and TRL 5
-when the text calls it a study, a sketch or a work in progress. TRL 7 needs stated use outside that
-setting: repeated concerts, teaching, or use by other people, including a long performance
-practice on the same device when the text states it. For a concert or installation the TRL rates
-the setup built for the work, not established tools it uses (Max, Kyma, a commercial controller).
+The two scales are judged independently, and they can be far apart. A fragile prototype at TRL 3
+or 4 may be used in a performance, sometimes with problems on stage, and the performance does not
+raise its TRL. A commercial or long-established instrument at TRL 8 or 9 may be used in an
+experimental performance at a low ARL, and the low ARL does not lower its TRL. Rate the TRL from
+what the text says about the technology, not from where it was shown.
+
+For a concert or installation the TRL rates the technology the work depends on. When a setup was
+built for the work, rate that setup: TRL 6 when the text presents it as complete and working in
+public, lower when the text calls it a prototype, a first version, a study or a work in progress,
+or reports that it was unreliable. TRL 7 needs stated use outside the conference setting: repeated
+concerts, teaching, or use by other people, including a long performance practice on the same
+device. When the work uses a commercial or established instrument or system as it is (a Disklavier,
+a Seaboard, a Theremin, a laptop running a released program), rate that instrument, typically
+TRL 8 or 9; established software used to build a new setup (Max, Kyma, SuperCollider) does not by
+itself raise the setup's TRL.
 
 TRL band: 1–3 fundamental, 4–6 applied, 7–9 industrial.
 Use null only when no technology is involved at all (for example a musicological study of a score).

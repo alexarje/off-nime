@@ -80,6 +80,12 @@ def publisher_name(p):
 
 
 def item_year(it):
+    # a thesis registered years after its defence (theses.fr DOIs) carries the defence as "approved"
+    if it.get("type") == "dissertation" and it.get("DOI"):
+        full = it if "approved" in it else ((get(f"{API}/works/{it['DOI']}", {}) or {}).get("message") or {})
+        dp = (full.get("approved") or {}).get("date-parts")
+        if dp and dp[0] and dp[0][0]:
+            return dp[0][0]
     for k in ("published-print", "published-online", "issued", "created"):
         dp = (it.get(k) or {}).get("date-parts")
         if dp and dp[0] and dp[0][0]:

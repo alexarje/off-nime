@@ -105,6 +105,18 @@ def main():
     sb = json.loads((HERE / "data" / "snowball.json").read_text())
     sb_rows = [l.split("\t") for l in (HERE / "output" / "candidates_snowball.tsv").read_text().splitlines()[1:]]
     th = json.loads((HERE / "data" / "theses_stats.json").read_text())
+    _trl = json.loads((HERE / "data" / "trl.json").read_text())
+
+    def _eq(ds):
+        both = [m for m in _trl if m["dataset"] == ds and m["trl"] and m["arl"]]
+        return round(100 * sum(m["trl"] == m["arl"] for m in both) / max(len(both), 1), 1), \
+            sum(abs(m["trl"] - m["arl"]) >= 3 for m in both)
+    import csv
+    hand = list(csv.DictReader(open(HERE / "tools" / "hand.tsv"), delimiter="\t"))
+    hd_n = lambda act: sum(r["action"] == act for r in hand) if act != "remove" else len({r["key"] for r in hand if r["action"] == "remove"})
+    import bibtexparser
+    held = {n: len(bibtexparser.load(open(HERE.parent / "bibs" / n / f"{n.lower()}.bib")).entries)
+            for n in ("Cited", "Background", "Theses", "Related", "Historical", "Zotero")}
     ne = json.loads((HERE / "data" / "nonenglish_stats.json").read_text())
     jim = next(v for k, v in ne.items() if k.startswith("JIM"))
     sbcm = next(v for k, v in ne.items() if k.startswith("SBCM"))
@@ -141,7 +153,7 @@ def main():
                      if x["dataset"] in ("NIME papers", "NIME alt") and x["trl"] == 6 and x["arl"] == 6),
         "tr_artmode": art_mode()[0], "tr_artmode_pct": art_mode()[1],
         "tr_n": trs["checks"]["estimates"], "tr_title": trs["basis"].get("title", 0),
-        "tr_art": trs["checks"]["artworks_arl_5_6_pct"], "tr_art7": trs["checks"]["artworks_arl_7_plus_pct"], "tr_arttrl": trs["checks"]["artworks_trl_6_pct"], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
+        "tr_art": trs["checks"]["artworks_arl_5_6_pct"], "tr_art7": trs["checks"]["artworks_arl_7_plus_pct"], "tr_eq_art": trs["checks"]["artworks_trl_eq_arl_pct"], "tr_eq_pap": _eq("NIME papers")[0], "tr_gap3_pap": _eq("NIME papers")[1], "tr_bg": trs["checks"]["background_trl_1_3_pct"],
         "tr_noarl": trs["checks"]["nime_papers_without_arl_pct"],
         "tr_p0": pk[0], "tr_p0e": int(pk[0]) + 4, "tr_p1": pk[-2], "tr_p1e": int(pk[-2]) + 4,
         "tr_f0": share(pk[0], "fundamental"), "tr_f1": share(pk[-2], "fundamental"),
@@ -150,6 +162,7 @@ def main():
         "rel_n": jc["related"],
         "ne_jim": jim["records"], "ne_jim_en": jim["with_english"], "ne_sbcm": sbcm["records"],
         "ne_sbcm_en": sbcm["with_english"],
+        "hd_removed": hd_n("remove"), "hd_moved": hd_n("move"), "hd_fixed": hd_n("set") + hd_n("type"), "hd_counts": ", ".join(f"{v:,} in {k}" for k, v in held.items()),
         "th_q": len(QUERIES), "th_n": th["theses"], "th_ne": th["non_english"], "th_cal": th["calibration_theses"],
         "th_known": th["check"]["found_by_searches"], "th_off": th["check"]["off_nime_theses"],
         "th_adm": th["check"]["would_admit"], "th_pct": th["check"]["would_admit_pct"],

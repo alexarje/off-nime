@@ -7,6 +7,7 @@ key, action, field, value, reason.
 - move: the entry goes to the dataset named in value (Cited or Background), with its key prefix
   and collection field changed.
 - set: field is set to value (an empty value removes the field).
+- type: the entry type becomes value (for example a chapter entered as a book becomes incollection).
 A move or set whose key is no longer in any bib (the rules no longer select it, or its key
 changed) is listed as unmatched, so it can be checked. Writes data/hand_stats.json.
 """
@@ -70,6 +71,8 @@ def main():
             where.pop(k)
         elif act == "set":
             bibs[n][i][1] = set_field(bibs[n][i][1], r["field"], r["value"])
+        elif act == "type":
+            bibs[n][i][1] = re.sub(r"^@\w+\{", "@" + r["value"] + "{", bibs[n][i][1])
         elif act == "move":
             _, e = bibs[n].pop(i)
             e = set_field(e.replace("{" + k + ",", "{" + new + ",", 1), "collection", target)
