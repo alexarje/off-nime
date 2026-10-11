@@ -241,3 +241,4 @@ background:hk2018designingwiththe	set	publisher	MIT Press	The record was a confe
 background:hk2018designingwiththe	set	doi	10.7551/mitpress/11481.001.0001	The record was a conference abstract.
 cited:kaneda2003subjectofmakingm	set	year	1999	The record is from FIE 1999.
 cited:bates2012thesociallifeofm	set	abstract		The abstract was a repository disclaimer.
+thesis:baez2016electroacoustica	remove			An undergraduate degree project (Licenciatura en música, Universidad Industrial de Santander) rather than a doctoral thesis; the title in OpenAlex is a keyword list, the real one being "Di-ha para electroacústica".

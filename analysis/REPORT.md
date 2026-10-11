@@ -58,7 +58,7 @@ What each entry offers the analysis differs by dataset. The table gives the shar
 | NIME music | 488 | 4% | 86% | 2% |
 | Zotero | 473 | 0% | 28% | 0% |
 | Cited | 440 | 0% | 66% | 0% |
-| Theses | 430 | 0% | 93% | 0% |
+| Theses | 429 | 0% | 93% | 0% |
 | ICMC | 255 | 8% | 7% | 7% |
 | Related | 179 | 0% | 26% | 0% |
 | Background | 108 | 0% | 44% | 0% |
@@ -319,7 +319,7 @@ A thesis that several sources found counts once, under the source whose record w
 
 ### Technology and artistic readiness
 
-Every entry in both archives and in the four rule-selected datasets, 5625 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason (a second reason for the TRL where it was estimated again). A concert or installation at an academic conference counts as a peer setting (ARL 5–6), and ARL 7 needs a stated presentation in a professional artistic context, such as a festival, a concert series, a gallery or a release. The two scales are judged independently and can be far apart: a fragile prototype may be played on stage, and a commercial instrument may serve an experimental piece. The TRL rates what the text says about the technology, not where it was shown; a setup built for a work and shown only at a conference is at most TRL 6, and TRL 7 needs stated use outside it, in repeated concerts, teaching or by other people. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1575 of them rest on a title alone. They are estimates, not measurements.
+Every entry in both archives and in the four rule-selected datasets, 5624 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason (a second reason for the TRL where it was estimated again). A concert or installation at an academic conference counts as a peer setting (ARL 5–6), and ARL 7 needs a stated presentation in a professional artistic context, such as a festival, a concert series, a gallery or a release. The two scales are judged independently and can be far apart: a fragile prototype may be played on stage, and a commercial instrument may serve an experimental piece. The TRL rates what the text says about the technology, not where it was shown; a setup built for a work and shown only at a conference is at most TRL 6, and TRL 7 needs stated use outside it, in repeated concerts, teaching or by other people. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1575 of them rest on a title alone. They are estimates, not measurements.
 
 ![Estimated TRL against ARL, for all entries and for the NIME papers](output/trl_arl_heatmap.svg)
 
@@ -327,7 +327,7 @@ Three expectations from the rubric hold: 96.8% of the NIME concert and installat
 
 ### Data quality
 
-The rules select by score, so every entry they selected for Cited, Background, Theses, Related, Historical and Zotero was then read, by language-model agents and, where they flagged an entry, by the maintainer. The decisions are kept in [`tools/hand.tsv`](tools/hand.tsv) and applied after every rebuild by `tools/hand.py`, so that a reading outlasts the rules: 131 entries are removed (off topic, not a publication, a review standing in for the book, or a duplicate), 54 are moved between Cited and Background, and 57 fields or entry types are corrected. The counts in the sections above are those of the rules; the datasets hold 440 in Cited, 108 in Background, 430 in Theses, 179 in Related, 59 in Historical, 473 in Zotero.
+The rules select by score, so every entry they selected for Cited, Background, Theses, Related, Historical and Zotero was then read, by language-model agents and, where they flagged an entry, by the maintainer. The decisions are kept in [`tools/hand.tsv`](tools/hand.tsv) and applied after every rebuild by `tools/hand.py`, so that a reading outlasts the rules: 132 entries are removed (off topic, not a publication, a review standing in for the book, or a duplicate), 54 are moved between Cited and Background, and 57 fields or entry types are corrected. The counts in the sections above are those of the rules; the datasets hold 440 in Cited, 108 in Background, 429 in Theses, 179 in Related, 59 in Historical, 473 in Zotero.
 
 The off-NIME archive holds 5 pairs of entries that share a title. Each pair is two publications: a conference paper and its journal version, reports in two issues of a journal, or two different papers with the same title.
 
@@ -360,7 +360,7 @@ I would extend off-NIME along the three directions the lists measure, and in thi
 
 ### Exports
 
-The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5625 entries names its archive and dataset and, for archive entries, its strongest topic.
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5624 entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 

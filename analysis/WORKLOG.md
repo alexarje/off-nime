@@ -339,3 +339,8 @@ Papers with the same TRL and ARL fell from about 52% to 41.4%. Concert entries s
 78.9%, mostly at 6 and 6, since programme notes say little about the technology. The check that
 expected concert entries at TRL 6 is dropped, as it contradicts independence; the agreement and the
 number of gaps of three levels or more are reported instead, in the report and the paper.
+
+`thesis:baez2016electroacoustica` is removed by hand. Its OpenAlex title was a keyword list; the
+repository record names it "Di-ha para electroacústica", an undergraduate degree project for the
+Licenciatura en música at Universidad Industrial de Santander, and Theses holds doctoral theses only.
+Theses now has 429 entries and the paper's corpus 5,151.

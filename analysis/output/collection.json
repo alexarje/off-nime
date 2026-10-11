@@ -122967,27 +122967,6 @@
 }
 },
 {
-"id": "thesis:baez2016electroacoustica",
-"type": "thesis",
-"title": "Electroacoustic, Acousmatic, Concrete Music, Computer Music, Live Electronics, Sound Synthesis, Audio Digital Signal Processing, Composition, Contemporary Music, New Music.",
-"author": [
-{
-"family": "Baez",
-"given": "Jonathan Ferley Cancino"
-}
-],
-"container-title": "Universidad Industrial de Santander",
-"URL": "https://noesis.uis.edu.co/handle/20.500.14071/34511",
-"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.90",
-"issued": {
-"date-parts": [
-[
-2016
-]
-]
-}
-},
-{
 "id": "thesis:kuivanen2016experiencingmapp",
 "type": "thesis",
 "title": "Experiencing mappings on a music controller: case Ableton Push",

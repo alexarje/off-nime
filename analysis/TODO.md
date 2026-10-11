@@ -11,8 +11,7 @@
 
 - [ARJ] The vetting recommendations are applied (`tools/hand.tsv`: 131 removals, 54 moves between
   Cited and Background, 57 corrections). The 207 close calls stay in; they are listed with reasons
-  in `data/vetting_sheet.tsv` (private) if you want to drop any. Two kept entries still need a
-  title: `thesis:baez2016electroacoustica` (its title is a list of keywords).
+  in `data/vetting_sheet.tsv` (private) if you want to drop any.
 - [ARJ] ARL after the threshold change: the agents rated close calls you may want to check, such as
   premieres with no venue named, university ensembles (Stanford Laptop Orchestra, L2Ork), works
   credited with festivals only in a performer's biography (held at 6), and a few weak 7s (a
