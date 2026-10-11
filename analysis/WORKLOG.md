@@ -281,3 +281,4 @@ multimedia, law). A title judged alone must now also name music, sound or an ins
 `books.py`, and five more theses I read as off topic are excluded by hand. That admits 93 more
 theses, most of them French, for 497 in all. In `bibs/ICMC/1975.bib` two papers shared the key
 `Chadabe1975`; the Rosenboom paper is now `Rosenboom1975`, and its TRL estimate moved with it.
+The key fix for the Rosenboom 1975 paper went to IDMIL as its own pull request (IDMIL/off-nime#7), from a branch on IDMIL's main.
