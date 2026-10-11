@@ -35,6 +35,7 @@ cap 1G historical.py
 cap 12G theses.py         # dense similarity matrices over about 20,000 theses
 cap 1G "offnime_dois.py --apply"
 [ -f ~/Zotero/zotero.sqlite ] && cap 2G zotero_check.py   # the maintainer's library; writes bibs/Zotero
+cap 1G hand.py              # decisions made by reading entries, in tools/hand.tsv
 cap 1G merge_trl.py         # after the TRL/ARL agents have written data/trl/out_*.jsonl
 cap 1G readiness_figure.py
 cap 4G analyse.py

@@ -9,6 +9,12 @@
   that was not exported. [Recommendation: one record per year, the PubPub DOIs as related
   identifiers, with the steering committee's agreement.]
 
+- [ARJ] Confirm `data/vetting_sheet.tsv` (private): agents read every entry of Theses, Cited,
+  Background, Zotero, Related and Historical and flagged 428, each with a reason and a
+  recommended action (remove, move between Cited and Background, fix, or keep for close calls).
+  Write in `your_decision` only where you disagree; the rest stands as recommended. The decisions
+  then go to `tools/hand.tsv`, which `tools/hand.py` applies after every rebuild.
+  [Recommendation: accept the removals, moves and fixes, and leave the 207 close calls in.]
 - [ARJ] ARL after the threshold change: the agents rated close calls you may want to check, such as
   premieres with no venue named, university ensembles (Stanford Laptop Orchestra, L2Ork), works
   credited with festivals only in a performer's biography (held at 6), and a few weak 7s (a
@@ -22,18 +28,11 @@
 - [ARJ] Six studies on estimating and adapting the TRL are now cited in the paper; the other
   candidates, with notes, are in the paper folder (`trl_literature.md`, `trl_literature.bib`).
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
-- [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
-  (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in
-  `tools/historical_seeds.txt`.
-- [ARJ] Vet `bibs/Zotero/zotero.bib` (works from your library, title classifier only); the
-  library also holds works on other fields, and a few may have slipped through.
 - [ARJ] Ask the NIME steering committee to deposit the 2021 and 2022 proceedings on Zenodo
   (recommended), so that their texts can be read like the other years.
-- [ARJ] Read Cited and Background and move what is on the wrong side (title classifier, 88% accurate).
 - [ARJ] NIME bibliography: review `output/nime_missing_abstracts.tsv`; check the 2005 "NIME papers" that look
   like artworks and the front-matter entries among the 2019 music entries.
 
-- [ARJ] Vet `bibs/Cited/cited.bib` (admitted by rule) and remove what does not belong.
 - [ARJ] Read the top of `output/borderline.tsv`: relevant reviews with short titles miss the
   closeness bar there.
 - [ARJ] Check `output/offnime_dois_review.tsv` (near-miss DOI matches for off-NIME entries).
@@ -47,15 +46,6 @@
 ## Next
 
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
-- [ARJ] Related, from the agent's TRL reading: `related:feldbusch2003thebtrcbluet` (a Bluetooth
-  remote control) looks off topic, and `related:wall2010experimentin`, the virtual-reality game
-  audio papers and the wave field synthesis overview are on the edge. `related:lab2003investigatio`
-  has author and affiliation text in its title, from Crossref. [Recommendation: leave the rule as
-  it is and drop single entries by hand once vetted, as for Theses.]
-- [ARJ] Skim `bibs/Theses/theses.bib` (selected by rule) and `output/candidates_theses.tsv`;
-  the theses admitted because they cite the archives include some general HCI and VR work.
-- [ARJ] The theses admitted on an English title alone (their abstracts are in other languages)
-  carry a note saying so; skim those in particular.
 
 ## Later
 

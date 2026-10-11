@@ -312,3 +312,13 @@ adaptations of the scale; no arts readiness scale. Six are cited in the paper: H
 colleagues under readiness scales, Britt and colleagues and Quilodrán-Casas and colleagues in the
 method, Berkhout and colleagues in the results, and Quilodrán-Casas and Salvador-Carulla and
 colleagues in the limitations. The paper still compiles to 6 pages.
+
+
+Agents read every entry of the rule-selected datasets (Theses, Cited, Background, Zotero,
+Related, Historical) and flagged 428 with a reason: removals (off topic, not a publication, a
+duplicate), moves between Cited and Background, metadata fixes, and close calls. Each row was
+checked against its entry, since one agent assigned verdicts by position; none was misplaced. The
+rows are combined in `data/vetting_sheet.tsv` with a recommended action, for Alexander to confirm.
+`tools/hand.py` (in `run.sh` after the last builder) will apply the decisions from `tools/hand.tsv`,
+which is empty until then; with no decisions it leaves the bibs byte for byte as they are.
+`merge_trl.py` carries an estimate over when an entry moves between Cited and Background.

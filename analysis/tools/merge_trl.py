@@ -71,6 +71,14 @@ def main():
         f = HERE.parent / "bibs" / name / f"{name.lower()}.bib"
         if f.exists():
             current |= {e["ID"] for e in bibtexparser.load(open(f)).entries}
+    # an entry moved by hand between Cited and Background keeps its estimate under its new key
+    by_suffix = {it["id"].split(":", 1)[-1]: it for it in inputs if ":" in it["id"]}
+    have = {it["id"] for it in inputs}
+    for k in sorted(current - have):
+        it = by_suffix.get(k.split(":", 1)[-1])
+        if it and it["id"] in outputs and it["id"].split(":")[0] in ("cited", "background"):
+            inputs.append(dict(it, id=k, dataset=k.split(":")[0].capitalize()))
+            outputs[k] = outputs[it["id"]]
     inputs = [it for it in inputs if it["id"] in current]
     missing = current - {it["id"] for it in inputs}
     if missing:

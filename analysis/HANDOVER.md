@@ -24,6 +24,10 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   collection lacks, written by `tools/zotero_check.py` (title-classifier probability at least 0.9).
   It reads a copy of `~/Zotero/zotero.sqlite`, so `run.sh` skips it on other machines; the full
   candidate list, `data/zotero_candidates.tsv`, stays private.
+- `tools/hand.py` applies the decisions in `tools/hand.tsv` (remove, move between Cited and
+  Background, set a field) to the rule-selected bibs after every rebuild, so a decision made by
+  reading an entry survives the rules; it lists decisions whose key has gone. Theses also keeps
+  its own URL exclusions (`OFF_TOPIC` in `theses.py`).
 - `tools/trl_batch.py` writes the next `data/trl/in_NN.jsonl` for entries without a TRL/ARL
   estimate; an agent following `tools/trl_rubric.md` writes `out_NN.jsonl`, and `merge_trl.py`
   merges them (it also checks that each reason describes its entry). After a rubric change, a
