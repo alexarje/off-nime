@@ -23,8 +23,6 @@
   available (8, or 7 without a stated release), commercial hardware inside a new setup (the setup
   is rated, not the hardware), and survey or interview papers about established technology (9 or
   null). The TRL reasons are in the `trl_reason` column of `output/trl_arl.tsv`.
-- [ARJ] The paper now runs to 7 pages, the last holding only references; check the NIME page
-  limit for the submission year.
 - [ARJ] Six studies on estimating and adapting the TRL are now cited in the paper; the other
   candidates, with notes, are in the paper folder (`trl_literature.md`, `trl_literature.bib`).
 - [ARJ] Label `output/trl_validation_sheet.tsv` (30 entries, your TRL and ARL) so agreement can be measured.
