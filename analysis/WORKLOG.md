@@ -313,7 +313,6 @@ colleagues under readiness scales, Britt and colleagues and Quilodrán-Casas and
 method, Berkhout and colleagues in the results, and Quilodrán-Casas and Salvador-Carulla and
 colleagues in the limitations. The paper still compiles to 6 pages.
 
-
 Agents read every entry of the rule-selected datasets (Theses, Cited, Background, Zotero,
 Related, Historical) and flagged 428 with a reason: removals (off topic, not a publication, a
 duplicate), moves between Cited and Background, metadata fixes, and close calls. Each row was
