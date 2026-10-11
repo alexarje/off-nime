@@ -29,7 +29,8 @@
   (recommended); the online archive and DBLP both block scripts with bot checks.
 - [ARJ] Get a Semantic Scholar API key to finish the remaining off-NIME title lookups.
 - Pull request to IDMIL/off-nime: on hold at Alexander's request.
-- [ARJ] IDMIL/off-nime#7 (the Rosenboom1975 key) awaits review; once merged, this fork has the same change already.
+- [ARJ] IDMIL/off-nime#7 (the Rosenboom1975 key), #8 (four duplicate entries and an author name) and
+  #9 (abbreviated page ranges) await review; this fork already has the same changes.
 
 ## Next
 

@@ -282,3 +282,4 @@ multimedia, law). A title judged alone must now also name music, sound or an ins
 theses, most of them French, for 497 in all. In `bibs/ICMC/1975.bib` two papers shared the key
 `Chadabe1975`; the Rosenboom paper is now `Rosenboom1975`, and its TRL estimate moved with it.
 The key fix for the Rosenboom 1975 paper went to IDMIL as its own pull request (IDMIL/off-nime#7), from a branch on IDMIL's main.
+Two more small pull requests went to IDMIL from branches on its main: #8 removes four duplicate entries and fixes an author name (the fork's commit 6b9b034), and #9 writes six abbreviated ISIDM page ranges in full ("113--30" read as running backwards) and trims a title; the fork has the same edits.
