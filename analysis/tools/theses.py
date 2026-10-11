@@ -10,7 +10,8 @@ Sources:
 Every English thesis is scored like the journal sweep (closeness to the archives and contrast
 against the journal background), with thresholds set at the median closeness and median contrast of the theses
 that cite the archives, and admitted when it passes both, or when it cites at least MIN_CITES archive
-entries. Either way its title must also have a NIME-topic probability of at least P_MIN from the title
+entries. A thesis whose abstract is not in English but whose title is can be admitted on the title
+alone, at the stricter P_TITLE, as for the Zotero dataset. Either way its title must also have a NIME-topic probability of at least P_MIN from the title
 classifier in topic.py, since closeness and contrast alone let in general HCI, web and music-education
 theses. Non-English theses go to a separate list. The check: the theses already in off-NIME that the
 searches find are scored the same way, and the share of them the rules would admit is reported.
@@ -37,8 +38,25 @@ OUT = HERE.parent / "bibs" / "Theses" / "theses.bib"
 K = 10
 MIN_CITES = 3
 P_MIN = 0.7  # NIME-topic probability of the title, from topic.py
+P_TITLE = 0.9  # for a thesis judged on its English title alone
+# a title is judged English when it has an English word and none of these Romance, Germanic or
+# Scandinavian function words and accents (the classifier scores Portuguese music titles high)
+NOT_EN = re.compile(r"[ãõçáéíóúñêâàèìòùäöüß]|\b(de|da|do|dos|das|para|uma|um|sobre|el|la|los|las|del|y|e|und|der|"
+                    r"die|och|og|et|pour|dans|le|les|des|du|een|het|van|per|il|di|della)\b", re.I)
+EN_WORD = re.compile(r"\b(the|of|and|for|in|with|on|to|an?|through|towards|using|based|design|music|musical|"
+                     r"interfaces?|sound|performance|interactive|control)\b", re.I)
 # off topic on reading, though they pass: the classifier scores some French titles high
-OFF_TOPIC = {"https://dspace.univ-tlemcen.dz/handle/112/3982", "https://hal.science/tel-02599505v1"}
+OFF_TOPIC = {"https://dspace.univ-tlemcen.dz/handle/112/3982", "https://hal.science/tel-02599505v1",
+             # admitted on an English title: circuit synthesis, music copyright, pentatonic scales,
+             # painting, a conducting recital
+             "https://theses.fr/1992INPG0074", "https://dugi-doc.udg.edu/handle/10256/13803",
+             "http://www.theses.fr/2021MON30070/document",
+             "https://tez.yok.gov.tr/UlusalTezMerkezi/TezGoster?key=KMB79M3N7zK1UR2WYeRgQlufCInsGuA0NjsyBmHaGxtkVq-mY0sJo0-KNm_xwKMo",
+             "http://hdl.handle.net/10554/73013"}
+# a title judged alone must also name music, sound or an instrument (as in books.py): without
+# that, robotics, animation and multimedia titles passed
+INSTRUMENT_WORD = re.compile(r"\binstrument|\bguitar|trombone|violin|piano|\bdmis?\b|plucked|performer|sonif|"
+                             r"\blive (show|performance)", re.I)
 AGGREGATOR = re.compile(r"zenodo|nora|la referencia|\bhal\b|^era$|figshare|\bcore\b|\bbase\b|openaire|datacite|"
                         r"networked digital library|ndltd|oatd|dart-europe|ethos|proquest|"
                         r"institut de l'information scientifique|grey literature|rcaap|library and archives canada|"
@@ -290,12 +308,16 @@ def main():
     # contrast at the median: at the lower quartile, a reading of sampled titles found many off-topic
     # theses (music education, club culture, signal processing)
     con_min = float(np.percentile([t["score"] for t in calib], 50))
+    from books import MUSIC
     from topic import nime_probability
     for t, p in zip(theses, nime_probability([t["title"] for t in theses])):
         t["p"] = round(float(p), 2)
     for t in theses:
         t["by_score"] = bool(t["english"] and t["near"] >= near_min and t["score"] >= con_min)
-        t["admit"] = not t["in_archive"] and t["url"] not in OFF_TOPIC and t["p"] >= P_MIN and (t["by_score"] or t.get("cites", 0) >= MIN_CITES)
+        t["by_title"] = bool(not t["english"] and EN_WORD.search(t["title"]) and not NOT_EN.search(t["title"])
+                             and (MUSIC.search(t["title"]) or INSTRUMENT_WORD.search(t["title"])) and t["p"] >= P_TITLE)
+        t["admit"] = not t["in_archive"] and t["url"] not in OFF_TOPIC and (
+            (t["p"] >= P_MIN and (t["by_score"] or t.get("cites", 0) >= MIN_CITES)) or t["by_title"])
 
     known = [t for t in theses if t["known"]]
     check = {"off_nime_theses": len(off_theses), "found_by_searches": len(known),
@@ -317,6 +339,8 @@ def main():
                        for a in t["authors"]]
             why = "; ".join(x for x in [f"cites {t['cites']} archive entries" if t.get("cites") else "",
                                         "selected by similarity to the archives" if t["by_score"] else "",
+                                        "selected by its English title, the abstract being in another language"
+                                        if t["by_title"] and not t["by_score"] else "",
                                         f"NIME-topic probability {t['p']:.2f}"] if x)
             school = t["school"] or ""
             m = re.search(r"\(([^()]*(?:Univ|Institut|College|School|McGill|École|Hochschule)[^()]*)\)\s*$", school)
@@ -346,15 +370,17 @@ def main():
                                "; ".join(t["authors"][:3]), t["school"], t["src"], t["doi"] or t["url"]]) + "\n")
     with open(HERE / "output" / "candidates_theses_non_english.tsv", "w") as f:
         f.write("year\ttitle\tauthors\tschool\tsource\tdoi_or_url\n")
-        for t in sorted((t for t in theses if not t["english"] and not t["in_archive"]), key=lambda t: t["year"]):
+        for t in sorted((t for t in theses if not t["english"] and not t["in_archive"] and not t["admit"]), key=lambda t: t["year"]):
             f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in
                               [t["year"], t["title"], "; ".join(t["authors"][:3]), t["school"], t["src"],
                                t["doi"] or t["url"]]) + "\n")
-    stats = {"p_min": P_MIN, "off_topic_by_hand": len(OFF_TOPIC), "calibration_theses": len(calib), "near_min": round(near_min, 4), "contrast_min": round(con_min, 4),
+    stats = {"p_min": P_MIN, "off_topic_by_hand": sum(1 for t in theses if t["url"] in OFF_TOPIC), "calibration_theses": len(calib), "near_min": round(near_min, 4), "contrast_min": round(con_min, 4),
              "records": len(recs), "non_english": sum(1 for t in theses if not t["english"]), "theses": len(theses), "admitted": len(seen), "check": {k: int(v) if isinstance(v, (np.integer, np.bool_)) else v for k, v in check.items()},
              "by_source": {s: sum(1 for t in theses if t["src"] == s) for s in sorted({t["src"] for t in theses})},
              "admitted_by_source": {s: sum(1 for t in admitted if t["src"] == s) for s in sorted({t["src"] for t in admitted})},
              "more_sources": more,
+             "admitted_by_title": int(sum(1 for t in admitted if t["by_title"])), "p_title": P_TITLE,
+             "non_english_listed": sum(1 for t in theses if not t["english"] and not t["in_archive"] and not t["admit"]),
              "admitted_by_cites": int(sum(1 for t in admitted if t.get("cites", 0) >= MIN_CITES)),
              "forward_resolved": len(fwd)}
     (HERE / "data" / "theses_stats.json").write_text(json.dumps(stats, indent=1))

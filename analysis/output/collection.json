@@ -3335,7 +3335,7 @@
 }
 },
 {
-"id": "off-nime:Chadabe1975",
+"id": "off-nime:Rosenboom1975",
 "type": "paper-conference",
 "title": "A Model for Detection and Analysis of Information Processing Modalities in the Nervous System Through an Adaptive, Interactive, Computerized, Electronic Music Instrument",
 "author": [
@@ -117889,6 +117889,68 @@
 }
 },
 {
+"id": "thesis:gibet1987codingrepresenta",
+"type": "thesis",
+"title": "Coding, representation and compositional processing of instrumental gesture - application to sound-synthesis based on the simulation of mechanical instruments",
+"author": [
+{
+"family": "Gibet",
+"given": "Sylvie"
+}
+],
+"container-title": "Grenoble INPG",
+"URL": "https://theses.fr/1987INPG0142",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+1987
+]
+]
+}
+},
+{
+"id": "thesis:sapir1987realtimedigitala",
+"type": "thesis",
+"title": "Real time digital audio processors and computer music: implementation of an operating system and applications for musical research, production and pedagogy",
+"author": [
+{
+"family": "Sapir",
+"given": "Sylviane"
+}
+],
+"container-title": "Aix-Marseille 2",
+"URL": "https://theses.fr/1987AIX22077",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+1987
+]
+]
+}
+},
+{
+"id": "thesis:kun1989soundaffectsbody",
+"type": "thesis",
+"title": "Sound affects body movement",
+"author": [
+{
+"family": "Kun",
+"given": "Ting Fong"
+}
+],
+"DOI": "10.17918/00004129",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+1989
+]
+]
+}
+},
+{
 "id": "thesis:schiphorst1993acasestudyofmerc",
 "type": "thesis",
 "title": "A case study of Merce Cunningham's use of the LifeForms computer choreographic system in the making of Trackers",
@@ -117901,6 +117963,27 @@
 "container-title": "Simon Fraser University",
 "URL": "http://summit.sfu.ca/item/4458",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 2 archive entries; selected by similarity to the archives; NIME-topic probability 0.70",
+"issued": {
+"date-parts": [
+[
+1993
+]
+]
+}
+},
+{
+"id": "thesis:boyer1993implementationof",
+"type": "thesis",
+"title": "Implementation of an instrumental control of digital sound and application of wavelet analysis to sound granular synthesis and musical processing",
+"author": [
+{
+"family": "Boyer",
+"given": "Frédéric"
+}
+],
+"container-title": "Aix-Marseille 2",
+"URL": "https://theses.fr/1993AIX22086",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
 "issued": {
 "date-parts": [
 [
@@ -117926,6 +118009,27 @@
 "date-parts": [
 [
 1993
+]
+]
+}
+},
+{
+"id": "thesis:hourdin1995apsychophysicals",
+"type": "thesis",
+"title": "A psychophysical study of timbre - application to sound coding and synthesis in music",
+"author": [
+{
+"family": "HOURDIN",
+"given": "CHRISTOPHE"
+}
+],
+"container-title": "Paris 11",
+"URL": "https://theses.fr/1995PA112419",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+1995
 ]
 ]
 }
@@ -117973,6 +118077,48 @@
 }
 },
 {
+"id": "thesis:incerti1996soundsynthesisby",
+"type": "thesis",
+"title": "Sound synthesis by means of physical modeling of vibrating structures. Applications to computer music",
+"author": [
+{
+"family": "Incerti",
+"given": "Eric"
+}
+],
+"container-title": "Grenoble INPG",
+"URL": "https://theses.fr/1996INPG0115",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+1996
+]
+]
+}
+},
+{
+"id": "thesis:bresciani1996studyoftheradiat",
+"type": "thesis",
+"title": "Study of the radiation of musical instruments in order to control reproduction with loudspeakers",
+"author": [
+{
+"family": "BRESCIANI",
+"given": "JEAN FRANCOIS"
+}
+],
+"container-title": "Le Mans",
+"URL": "https://theses.fr/1996LEMA1015",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
+"issued": {
+"date-parts": [
+[
+1996
+]
+]
+}
+},
+{
 "id": "thesis:coyle1996themusicalsuperh",
 "type": "thesis",
 "title": "The musical superhighway : the internet for the performing musician",
@@ -117989,6 +118135,26 @@
 "date-parts": [
 [
 1996
+]
+]
+}
+},
+{
+"id": "thesis:faria1997waveletsapplicat",
+"type": "thesis",
+"title": "Wavelets application on the analysis of musical gestures in timbres of traditional acoustic instruments.",
+"author": [
+{
+"family": "Faria",
+"given": "Regis Rossi Alves"
+}
+],
+"URL": "https://doi.org/10.11606/D.3.1997.tde-18072013-104904",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+1997
 ]
 ]
 }
@@ -118078,6 +118244,27 @@
 }
 },
 {
+"id": "thesis:rochaiturbide1999thegranulartechn",
+"type": "thesis",
+"title": "The granular techniques in sound synthesis",
+"author": [
+{
+"family": "Iturbide",
+"given": "Manuel Rocha"
+}
+],
+"container-title": "Paris 8",
+"URL": "https://theses.fr/1999PA081565",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+1999
+]
+]
+}
+},
+{
 "id": "thesis:hammond2000multimodalmixing",
 "type": "thesis",
 "title": "Multi-modal mixing : gestural control for musical mixing systems",
@@ -118135,6 +118322,27 @@
 "date-parts": [
 [
 2000
+]
+]
+}
+},
+{
+"id": "thesis:mary2001controltechnique",
+"type": "thesis",
+"title": "Control techniques of computer music programs",
+"author": [
+{
+"family": "Mary",
+"given": "Mario"
+}
+],
+"container-title": "Paris 8",
+"URL": "https://theses.fr/2001PA082000",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2001
 ]
 ]
 }
@@ -118243,6 +118451,27 @@
 }
 },
 {
+"id": "thesis:castagn2002genesisacomputer",
+"type": "thesis",
+"title": "Genesis : a computer environment for creating music by means of mass-interaction physical modeling",
+"author": [
+{
+"family": "Castagné",
+"given": "Nicolas"
+}
+],
+"container-title": "Grenoble INPG",
+"URL": "https://theses.fr/2002INPG0094",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2002
+]
+]
+}
+},
+{
 "id": "thesis:feldmeier2002largegroupmusica",
 "type": "thesis",
 "title": "Large Group Musical Interaction using Disposable Wireless motion sensors",
@@ -118283,6 +118512,26 @@
 ],
 "container-title": "Tel Aviv University",
 "note": "Collection: Theses. Found in Zotero; selected by similarity to the archives; NIME-topic probability 0.90",
+"issued": {
+"date-parts": [
+[
+2002
+]
+]
+}
+},
+{
+"id": "thesis:aird2002musicalinstrumen",
+"type": "thesis",
+"title": "Musical instrument modelling using digital waveguides",
+"author": [
+{
+"family": "Aird",
+"given": "Marc-Laurent"
+}
+],
+"URL": "https://ethos.bl.uk/OrderDetails.do?uin=uk.bl.ethos.760800",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [
@@ -118665,6 +118914,26 @@
 }
 },
 {
+"id": "thesis:puig2005digitallutheriec",
+"type": "thesis",
+"title": "Digital Lutherie Crafting musical computers for new musics' performance and improvisation",
+"author": [
+{
+"family": "Puig",
+"given": "Sergi Jordà"
+}
+],
+"URL": "http://mtg.upf.edu/node/449",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2005
+]
+]
+}
+},
+{
 "id": "thesis:saidi2005motioncapturetot",
 "type": "thesis",
 "title": "Motion Capture to the People: A high quality, low budget approach to real time Motion Capture",
@@ -118980,6 +119249,27 @@
 }
 },
 {
+"id": "thesis:wozniewski2007aframeworkforint",
+"type": "thesis",
+"title": "A framework for interactive three-dimensional sound and spatial audio processing in a virtual environment",
+"author": [
+{
+"family": "Wozniewski",
+"given": "Michael"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/27133",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
 "id": "thesis:young2007amethodologyfori",
 "type": "thesis",
 "title": "A methodology for investigation of bowed string performance through measurement of violin bowing technique",
@@ -119263,6 +119553,27 @@
 "container-title": "The University of Glasgow",
 "URL": "https://theses.gla.ac.uk/669/3/index.html",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.83",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
+"id": "thesis:mamoumani2007prestressesandvi",
+"type": "thesis",
+"title": "Prestresses and vibration of a soundboard : towards the modelling of the know-how of the musical instruments makers",
+"author": [
+{
+"family": "Mamou-Mani",
+"given": "Adrien"
+}
+],
+"container-title": "Paris 6",
+"URL": "https://theses.fr/2007PA066630",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
 "issued": {
 "date-parts": [
 [
@@ -119724,6 +120035,26 @@
 }
 },
 {
+"id": "thesis:prez2009enhancingspectra",
+"type": "thesis",
+"title": "Enhancing spectral synthesis techniques with performance gestures using the violin as a case study",
+"author": [
+{
+"family": "Pérez",
+"given": "Alfonso"
+}
+],
+"URL": "http://mtg.upf.edu/node/1578",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.94",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
 "id": "thesis:magnusson2009epistemictoolsth",
 "type": "thesis",
 "title": "Epistemic tools : the phenomenology of digital musical instruments",
@@ -120014,6 +120345,26 @@
 }
 },
 {
+"id": "thesis:miskalo2009theperformanceas",
+"type": "thesis",
+"title": "The performance as a compositional element in electroacoustic interactive music",
+"author": [
+{
+"family": "Miskalo",
+"given": "Vitor Kisil"
+}
+],
+"URL": "https://doi.org/10.11606/D.27.2009.tde-18092009-132904",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.94",
+"issued": {
+"date-parts": [
+[
+2009
+]
+]
+}
+},
+{
 "id": "thesis:cao2010amotiongraphappr",
 "type": "thesis",
 "title": "A Motion Graph Approach for Interactive 3D Animation using Low-cost Sensors",
@@ -120153,6 +120504,26 @@
 ],
 "DOI": "10.5281/zenodo.3753106",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives; NIME-topic probability 0.70",
+"issued": {
+"date-parts": [
+[
+2010
+]
+]
+}
+},
+{
+"id": "thesis:bachrat2010gestureinteracti",
+"type": "thesis",
+"title": "Gesture interaction in music for instruments and electroacoustic sounds",
+"author": [
+{
+"family": "Bachratá",
+"given": "Petra"
+}
+],
+"URL": "http://hdl.handle.net/10773/3547",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -120336,6 +120707,26 @@
 }
 },
 {
+"id": "thesis:dahlen2010osccontrollerenn",
+"type": "thesis",
+"title": "OSCController: En ny musikkapplikasjon med Open Sound Control",
+"author": [
+{
+"family": "Dahlen",
+"given": "Tommy Alfred"
+}
+],
+"container-title": "NTNU",
+"note": "Collection: Theses. Found in Zotero; selected by its English title, the abstract being in another language; NIME-topic probability 0.94",
+"issued": {
+"date-parts": [
+[
+2010
+]
+]
+}
+},
+{
 "id": "thesis:yoder2010performancepract",
 "type": "thesis",
 "title": "Performance Practice of Interactive Music for Clarinet and Computer with an Examination of Five Works by American Composers",
@@ -120388,7 +120779,7 @@
 ],
 "container-title": "Aalto University",
 "URL": "https://aaltodoc.aalto.fi/handle/123456789/3258",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 6 archive entries; NIME-topic probability 0.96",
+"note": "Collection: Theses. Found in OpenAlex (citing); cites 6 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
 "issued": {
 "date-parts": [
 [
@@ -120673,6 +121064,47 @@
 }
 },
 {
+"id": "thesis:boutin2011methodsofactivec",
+"type": "thesis",
+"title": "Methods of active control of musical instruments : cases of the xilophone bar and the violon",
+"author": [
+{
+"family": "Boutin",
+"given": "Henri"
+}
+],
+"container-title": "Paris 6",
+"URL": "https://theses.fr/2011PA066621",
+"note": "Collection: Theses. Found in theses.fr; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "thesis:rodolfo2011mosaicmusicalart",
+"type": "thesis",
+"title": "Mosaic Musical Artmediatic: The sound interface enabling creativity beyond the Black Box.",
+"author": [
+{
+"family": "Rodolfo",
+"given": "Guilherme Weffort"
+}
+],
+"URL": "https://doi.org/10.11606/D.93.2011.tde-19102011-091612",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
 "id": "thesis:scott2011musicalapplicati",
 "type": "thesis",
 "title": "Musical applications of physical computing",
@@ -120706,6 +121138,35 @@
 "container-title": "University of British Columbia",
 "DOI": "10.14288/1.0052072",
 "note": "Collection: Theses. Found in OpenAlex; cites 5 archive entries; selected by similarity to the archives; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "thesis:merer2011perceptualandaco",
+"type": "thesis",
+"title": "Perceptual and acoustic characterization of movement evoked by sound for synthesis control",
+"author": [
+{
+"family": "Merer",
+"given": "Adrien"
+},
+{
+"family": "YSTAD",
+"given": "Sølvi"
+},
+{
+"family": "KRONLAND-MARTINET",
+"given": "Richard"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "http://www.theses.fr/2011AIX10038/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
 "issued": {
 "date-parts": [
 [
@@ -120772,6 +121233,27 @@
 "container-title": "University College London",
 "URL": "http://discovery.ucl.ac.uk/1310143/3/1310143_01_-_Maria_Louisa_-_First_video_for_survey.mp4",
 "note": "Collection: Theses. Found in OpenAlex; cites 10 archive entries; NIME-topic probability 0.78",
+"issued": {
+"date-parts": [
+[
+2011
+]
+]
+}
+},
+{
+"id": "thesis:risnen2011sorminaanewmusic",
+"type": "thesis",
+"title": "Sormina - a new musical instrument",
+"author": [
+{
+"family": "Räisänen",
+"given": "Juhani"
+}
+],
+"container-title": "Aalto University",
+"URL": "https://aaltodoc.aalto.fi/handle/123456789/20093",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -121385,6 +121867,26 @@
 }
 },
 {
+"id": "thesis:martnez2012theeffectofacous",
+"type": "thesis",
+"title": "The effect of acoustic screens on orchestra musicians",
+"author": [
+{
+"family": "Martínez",
+"given": "Cristina Zamorano"
+}
+],
+"URL": "http://oa.upm.es/14188/",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
+"issued": {
+"date-parts": [
+[
+2012
+]
+]
+}
+},
+{
 "id": "thesis:kruczynska2012whatdoesdancingh",
 "type": "thesis",
 "title": "What does dancing have to do with blogging? : A study of verbal and nonverbal communication among dance bloggers.",
@@ -121540,6 +122042,30 @@
 ],
 "DOI": "10.26686/wgtn.19295336",
 "note": "Collection: Theses. Found in OpenAlex; cites 5 archive entries; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
+"id": "thesis:feugre2013gesturalcontrolo",
+"type": "thesis",
+"title": "Gestural control of singing voice synthesis by rules and musical applications",
+"author": [
+{
+"family": "Feugère",
+"given": "Lionel"
+},
+{
+"family": "d’Alessandro",
+"given": "Christophe R."
+}
+],
+"URL": "http://hdl.handle.net/10068/1020074",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
 "issued": {
 "date-parts": [
 [
@@ -121735,6 +122261,26 @@
 }
 },
 {
+"id": "thesis:tomiyoshi2013networkmusicperf",
+"type": "thesis",
+"title": "Network music performance over the residential Internet",
+"author": [
+{
+"family": "Tomiyoshi",
+"given": "Marcio Masaki"
+}
+],
+"URL": "https://doi.org/10.11606/D.45.2013.tde-26072013-183234",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2013
+]
+]
+}
+},
+{
 "id": "thesis:kleimola2013nonlinearabstrac",
 "type": "thesis",
 "title": "Nonlinear Abstract Sound Synthesis Algorithms",
@@ -121880,6 +122426,90 @@
 }
 },
 {
+"id": "thesis:krajeski2014aflexibletoolfor",
+"type": "thesis",
+"title": "A flexible tool for the visualization and manipulation of musical mapping networks",
+"author": [
+{
+"family": "Krajeski",
+"given": "Aaron"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/37127",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "thesis:malloch2014aframeworkandtoo",
+"type": "thesis",
+"title": "A framework and tools for mapping of digital musical instruments",
+"author": [
+{
+"family": "Malloch",
+"given": "Joseph W."
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/51280",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 1.00",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "thesis:wilansky2014asoftwaretoolfor",
+"type": "thesis",
+"title": "A software tool for creating and visualizing mappings in digital musical instruments",
+"author": [
+{
+"family": "Wilansky",
+"given": "Jonathan"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/18627",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "thesis:thoret2014acousticcharacte",
+"type": "thesis",
+"title": "Acoustic characterisation of relations between biological movements and auditory perception : applications to the control of sound synthesis and gesture learning",
+"author": [
+{
+"family": "Thoret",
+"given": "Etienne"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "http://www.theses.fr/2014AIXM4780/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
 "id": "thesis:mckinney2014aestheticallydri",
 "type": "thesis",
 "title": "Aesthetically driven design of network based multi-user instruments.",
@@ -121892,6 +122522,27 @@
 "container-title": "Bournemouth University",
 "URL": "http://eprints.bournemouth.ac.uk/22513/1/MCKINNEY%2C%20Curtis_Ph.D._2014.pdf",
 "note": "Collection: Theses. Found in OpenAlex; cites 7 archive entries; NIME-topic probability 0.76",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "thesis:ghamsariesfahani2014anevaluationofth",
+"type": "thesis",
+"title": "An evaluation of the role of mapping in skill acquisition on digital musical instruments",
+"author": [
+{
+"family": "Ghamsari-Esfahani",
+"given": "Mahtab"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/15378",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -122045,6 +122696,27 @@
 }
 },
 {
+"id": "thesis:conan2014intuitivecontrol",
+"type": "thesis",
+"title": "Intuitive control of solid-interaction sound synthesis : toward sonic metaphors",
+"author": [
+{
+"family": "Conan",
+"given": "Simon"
+}
+],
+"container-title": "Laboratoire de Mécanique et d’Acoustique",
+"URL": "http://www.theses.fr/2014ECDM0012/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
 "id": "thesis:skogstad2014methodsandtechno",
 "type": "thesis",
 "title": "Methods and Technologies for Using Body Motion for Real-Time Musical Interaction",
@@ -122107,6 +122779,27 @@
 }
 },
 {
+"id": "thesis:hollinger2014opticalsensingem",
+"type": "thesis",
+"title": "Optical sensing, embedded systems, and musical interfaces for functional neuroimaging",
+"author": [
+{
+"family": "Hollinger",
+"given": "Avrum D."
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/50211",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
 "id": "thesis:webb2014parallelcomputat",
 "type": "thesis",
 "title": "Parallel computation techniques for virtual acoustics and physical modelling synthesis",
@@ -122118,6 +122811,52 @@
 ],
 "URL": "http://hdl.handle.net/1842/15779",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "thesis:seye2014performingatradi",
+"type": "thesis",
+"title": "Performing a Tradition in Music and Dance - Embodiment and Interaction in Sabar Dance Events",
+"author": [
+{
+"family": "Seye",
+"given": "Elina"
+}
+],
+"container-title": "Tampere University",
+"URL": "http://tampub.uta.fi/handle/10024/96373",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+2014
+]
+]
+}
+},
+{
+"id": "thesis:reek2014portableinstrume",
+"type": "thesis",
+"title": "Portable Instrument Panel for Rowers: Dataverwerking via Android applicatie",
+"author": [
+{
+"family": "Reek",
+"given": "M. Van der"
+},
+{
+"family": "Dreef",
+"given": "K."
+}
+],
+"container-title": "Delft University of Technology",
+"URL": "http://resolver.tudelft.nl/uuid:67af8b54-21f6-42f5-a1bb-a847d434876d",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -122207,6 +122946,27 @@
 "date-parts": [
 [
 2014
+]
+]
+}
+},
+{
+"id": "thesis:medeiros2015advancedinstrume",
+"type": "thesis",
+"title": "Advanced instrumentation and sensor fusion methods in input devices for musical expression",
+"author": [
+{
+"family": "Medeiros",
+"given": "Carolina Brum"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/13785",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2015
 ]
 ]
 }
@@ -122338,6 +123098,27 @@
 }
 },
 {
+"id": "thesis:roy2015developmentofaro",
+"type": "thesis",
+"title": "Development of a robotic plateform for the study of plucked strings instruments",
+"author": [
+{
+"family": "Roy",
+"given": "Alexandre"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "http://www.theses.fr/2015PA066540/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "thesis:gabrielli2015digitalsignalpro",
 "type": "thesis",
 "title": "Digital Signal Processing and Embedded Systems for Wireless Networked Music Performance",
@@ -122349,7 +123130,7 @@
 ],
 "container-title": "Università Politecnica delle Marche",
 "URL": "http://hdl.handle.net/11566/242939",
-"note": "Collection: Theses. Found in OpenAlex; cites 6 archive entries; NIME-topic probability 0.97",
+"note": "Collection: Theses. Found in OpenAlex; cites 6 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
 "issued": {
 "date-parts": [
 [
@@ -122379,6 +123160,27 @@
 }
 },
 {
+"id": "thesis:hahn2015expressivesampli",
+"type": "thesis",
+"title": "Expressive sampling synthesis. Learning extended source-filter models from instrument sound databases for expressive sample manipulations",
+"author": [
+{
+"family": "Hahn",
+"given": "Henrik"
+}
+],
+"container-title": "Université Pierre-et-Marie-Curie",
+"DOI": "10.70675/7bdf4a6ezb519z499bzbd87z06a1a25061cb",
+"note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "thesis:karvinen2015hapticfeedbackin",
 "type": "thesis",
 "title": "Haptic feedback in freehand gesture interaction",
@@ -122391,6 +123193,27 @@
 "container-title": "Tampere University",
 "URL": "https://trepo.tuni.fi/handle/10024/96644",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "thesis:vogels2015harmonicainspire",
+"type": "thesis",
+"title": "Harmonica-inspired digital musical instrument design based on an existing gestural performance repertoire",
+"author": [
+{
+"family": "Vogels",
+"given": "Julian"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/6701",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -122504,6 +123327,27 @@
 }
 },
 {
+"id": "thesis:dick2015movementandmusic",
+"type": "thesis",
+"title": "Movement and music - it is not a dance, but capoeira",
+"author": [
+{
+"family": "Dick",
+"given": "Christopher S."
+}
+],
+"container-title": "University of Vienna",
+"DOI": "10.25365/thesis.36880",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
 "id": "thesis:brouet2015multitouchgestur",
 "type": "thesis",
 "title": "Multi-touch gesture interactions and deformable geometry for 3D edition on touch screen",
@@ -122558,6 +123402,27 @@
 "container-title": "University of California",
 "URL": "https://escholarship.org/uc/item/2n0779jw",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.80",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "thesis:perrotin2015singingwithhands",
+"type": "thesis",
+"title": "Singing with hands : chironomic interfaces for digital musical instruments",
+"author": [
+{
+"family": "Perrotin",
+"given": "Olivier"
+}
+],
+"container-title": "Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur",
+"URL": "http://www.theses.fr/2015PA112207/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -122663,6 +123528,26 @@
 "container-title": "Paris 4",
 "DOI": "10.70675/0034b8afz7489z46bfzae2ezd840358adba2",
 "note": "Collection: Theses. Found in theses.fr; selected by similarity to the archives; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2015
+]
+]
+}
+},
+{
+"id": "thesis:martins2015theelectricguita",
+"type": "thesis",
+"title": "The electric guitar on experimental music: composition, improvisation and new technologies",
+"author": [
+{
+"family": "Martins",
+"given": "André Lopes"
+}
+],
+"URL": "https://doi.org/10.11606/D.27.2015.tde-13112015-094517",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -122984,6 +123869,27 @@
 }
 },
 {
+"id": "thesis:baez2016electroacoustica",
+"type": "thesis",
+"title": "Electroacoustic, Acousmatic, Concrete Music, Computer Music, Live Electronics, Sound Synthesis, Audio Digital Signal Processing, Composition, Contemporary Music, New Music.",
+"author": [
+{
+"family": "Baez",
+"given": "Jonathan Ferley Cancino"
+}
+],
+"container-title": "Universidad Industrial de Santander",
+"URL": "https://noesis.uis.edu.co/handle/20.500.14071/34511",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.90",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
 "id": "thesis:kuivanen2016experiencingmapp",
 "type": "thesis",
 "title": "Experiencing mappings on a music controller: case Ableton Push",
@@ -123271,6 +124177,26 @@
 }
 },
 {
+"id": "thesis:ko2016virtualacoustics",
+"type": "thesis",
+"title": "Virtual acoustics for musicians: Exploring the influence of an electronic acoustic enhancement system on music performance",
+"author": [
+{
+"family": "Ko",
+"given": "Doyuen"
+}
+],
+"DOI": "10.82308/8135",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
 "id": "thesis:fagundes2017audiovisualcolla",
 "type": "thesis",
 "title": "AudioVisual Collage: A computational Framework For Audiovisual Composition and Computational Art",
@@ -123355,6 +124281,27 @@
 }
 },
 {
+"id": "thesis:rodrguez2017gensonolumvirtua",
+"type": "thesis",
+"title": "Gen Sonolum Virtual Instrument for Generating Electronic Music and Controlling Live Video",
+"author": [
+{
+"family": "Rodríguez",
+"given": "Juan Sebastián González"
+}
+],
+"container-title": "Repositorio Universidad Distrital",
+"URL": "http://hdl.handle.net/11349/5715",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
 "id": "thesis:perez2017gestomusicaleous",
 "type": "thesis",
 "title": "Gesto musical e o uso de interfaces físicas digitais na performance do livre electronics",
@@ -123366,6 +124313,31 @@
 ],
 "DOI": "10.11606/d.27.2017.tde-03022017-161231",
 "note": "Collection: Theses. Found in OpenAlex; cites 8 archive entries; selected by similarity to the archives; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "thesis:grdin2017livecodingtheliv",
+"type": "thesis",
+"title": "Live coding : The livecoders practise: complicated but simple",
+"author": [
+{
+"family": "Gärdin",
+"given": "Björn"
+},
+{
+"family": "Back",
+"given": "Mattias"
+}
+],
+"container-title": "KTH Royal Institute of Technology",
+"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:mdh:diva-36439",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
 "issued": {
 "date-parts": [
 [
@@ -123408,6 +124380,30 @@
 "container-title": "Université Paris Sciences et Lettres",
 "DOI": "10.70675/2fbd30c3z7714z4bd0za3e2z2eff99e4eb9b",
 "note": "Collection: Theses. Found in OpenAlex; cites 12 archive entries; NIME-topic probability 0.77",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "thesis:berodia2017musicalinteracti",
+"type": "thesis",
+"title": "Musical interaction based on the conductor metaphor",
+"author": [
+{
+"family": "Berodia",
+"given": "Sarasúa"
+},
+{
+"family": "Álvaro",
+"given": ""
+}
+],
+"URL": "http://mtg.upf.edu/node/3754",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -123541,6 +124537,27 @@
 }
 },
 {
+"id": "thesis:giomi2017theauditorythoug",
+"type": "thesis",
+"title": "The auditory thought of the body : For an ecological approach to mediation technology, movement and sound interaction",
+"author": [
+{
+"family": "Giomi",
+"given": "Andrea"
+}
+],
+"container-title": "Centre Transdisciplinaire d'Épistémologie de la Littérature et des Arts vivants",
+"URL": "http://www.theses.fr/2017AZUR2041/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
 "id": "thesis:lucas2017virtualstagemerg",
 "type": "thesis",
 "title": "Virtual Stage: Merging Virtual Reality Technologies and Interactive Audio/Video",
@@ -123552,6 +124569,27 @@
 ],
 "DOI": "10.12794/metadc984124",
 "note": "Collection: Theses. Found in OpenAlex; cites 2 archive entries; selected by similarity to the archives; NIME-topic probability 0.93",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "thesis:delalez2017vokinesisaninstr",
+"type": "thesis",
+"title": "Vokinesis : an instrument for suprasegmental control of voice synthesis",
+"author": [
+{
+"family": "Delalez",
+"given": "Samuel"
+}
+],
+"container-title": "Laboratoire d'Informatique pour la Mécanique et les Sciences de l'Ingénieur",
+"URL": "http://www.theses.fr/2017SACLS458/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -123615,6 +124653,27 @@
 "container-title": "University of Salford",
 "URL": "http://usir.salford.ac.uk/id/eprint/48403/2/Adam%20Hart%20PhD%20Appendix.zip",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.89",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "thesis:jablonskis2018adaptivegesturer",
+"type": "thesis",
+"title": "Adaptive gesture recognition system, transforming dance performance into music",
+"author": [
+{
+"family": "Jablonskis",
+"given": "Evaldas"
+}
+],
+"container-title": "University of Vienna",
+"DOI": "10.25365/thesis.52586",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.94",
 "issued": {
 "date-parts": [
 [
@@ -123777,6 +124836,27 @@
 }
 },
 {
+"id": "thesis:aestas2018experimentalhard",
+"type": "thesis",
+"title": "Experimental Hardware Musical Instrument Combining Electronic and Electromechanical Sound Source",
+"author": [
+{
+"family": "Aestas",
+"given": "Michaela Anna"
+}
+],
+"container-title": "Brno University of Technology",
+"URL": "http://hdl.handle.net/11012/81998",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
 "id": "thesis:doughtery2018footcontrolledsu",
 "type": "thesis",
 "title": "Foot-Controlled Supernumerary Robotic Arm: Control Methods and Human Abilities",
@@ -123789,6 +124869,27 @@
 "container-title": "Rose–Hulman Institute of Technology",
 "URL": "https://scholar.rose-hulman.edu/mechanical_engineering_grad_theses/12",
 "note": "Collection: Theses. Found in OpenAlex (citing); cites 1 archive entries; selected by similarity to the archives; NIME-topic probability 0.84",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
+"id": "thesis:bressolette2018gesturalmanipula",
+"type": "thesis",
+"title": "Gestural manipulations of a sonified virtual object for interface control in driving situations",
+"author": [
+{
+"family": "Bressolette",
+"given": "Benjamin"
+}
+],
+"container-title": "Perception, Représentations, Image, Son, Musique",
+"URL": "http://www.theses.fr/2018ECDM0009/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
 "issued": {
 "date-parts": [
 [
@@ -123924,6 +125025,27 @@
 }
 },
 {
+"id": "thesis:ransun2018pembuatanaplikas",
+"type": "thesis",
+"title": "Pembuatan Aplikasi Music Grid Instrument",
+"author": [
+{
+"family": "Ransun",
+"given": "Kevin Agustinus"
+}
+],
+"container-title": "University of Surabaya",
+"URL": "http://repository.ubaya.ac.id/34701/1/TI_1978_Abstrak.pdf",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
 "id": "thesis:desvages2018physicalmodellin",
 "type": "thesis",
 "title": "Physical modelling of the bowed string and applications to sound synthesis",
@@ -123965,6 +125087,26 @@
 }
 },
 {
+"id": "thesis:akkaya2018soundmorphingusi",
+"type": "thesis",
+"title": "Sound Morphing Using Auditory P300 Based Attentional Brain-computer Musical Interface",
+"author": [
+{
+"family": "Akkaya",
+"given": "Uğur Can"
+}
+],
+"URL": "http://polen.itu.edu.tr/xmlui/handle/11527/18148?show=full",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2018
+]
+]
+}
+},
+{
 "id": "thesis:tilbian2018stridealanguagef",
 "type": "thesis",
 "title": "Stride: A Language for Sound Synthesis, Processing, and Interaction Design",
@@ -123997,7 +125139,7 @@
 ],
 "container-title": "Sorbonne Université",
 "DOI": "10.70675/e631011bzc336z4b74za975z0a239151855a",
-"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; NIME-topic probability 0.99",
+"note": "Collection: Theses. Found in OpenAlex (citing); cites 3 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -124153,6 +125295,27 @@
 }
 },
 {
+"id": "thesis:franco2019aframeworkforemb",
+"type": "thesis",
+"title": "A framework for embedded digital musical instruments",
+"author": [
+{
+"family": "Franco",
+"given": "Ivan de Almeida Soares"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/11836",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 1.00",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
 "id": "thesis:tirumalabukkapatnam2019aprecharacterize",
 "type": "thesis",
 "title": "A pre-characterized toolkit for vibrotactile feedback",
@@ -124216,6 +125379,47 @@
 }
 },
 {
+"id": "thesis:silva2019compositionstrat",
+"type": "thesis",
+"title": "COMPOSITION STRATEGIES FROM THE INTERACTION BETWEEN TEMPORALITIES OF THE COMPOSER, THE PERFORMER AND THE COMPUTER",
+"author": [
+{
+"family": "Silva",
+"given": "Alisson Rodrigo Martins Rocha da"
+}
+],
+"URL": "https://repositorio.ufba.br/handle/ri/34790",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "thesis:arandas2019computermusicand",
+"type": "thesis",
+"title": "Computer Music and Digital Media Art Through a Web-Based Collaborative Interface",
+"author": [
+{
+"family": "Arandas",
+"given": "Luís Henrique Pinto"
+}
+],
+"container-title": "University of Porto",
+"DOI": "10.34626/r40w-8f59",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
 "id": "thesis:thordarson2019condisconducting",
 "type": "thesis",
 "title": "ConDiS – Conducting Digital System Extended role of the conductor in mixed music performance",
@@ -124247,7 +125451,7 @@
 ],
 "container-title": "Sorbonne Université",
 "DOI": "10.70675/1bf87ea2z8d0cz4c5eza982zdb110f9744bb",
-"note": "Collection: Theses. Found in OpenAlex; cites 3 archive entries; NIME-topic probability 0.94",
+"note": "Collection: Theses. Found in OpenAlex; cites 3 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.94",
 "issued": {
 "date-parts": [
 [
@@ -124269,6 +125473,27 @@
 "container-title": "Louisiana State University",
 "DOI": "10.31390/gradschool_dissertations.4918",
 "note": "Collection: Theses. Found in OpenAlex; cites 22 archive entries; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "thesis:costa2019directmanipulati",
+"type": "thesis",
+"title": "Direct manipulation for musical interfaces based on visual software: design and evaluation",
+"author": [
+{
+"family": "Costa",
+"given": "Jeronimo"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/41625",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [
@@ -124362,6 +125587,27 @@
 }
 },
 {
+"id": "thesis:chavez2019maintenancestrat",
+"type": "thesis",
+"title": "Maintenance strategies and design recommendations on input devices for musical expression",
+"author": [
+{
+"family": "Chavez",
+"given": "Luis Nieva"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/19735",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
 "id": "thesis:holmes2019mobilemusicdevel",
 "type": "thesis",
 "title": "Mobile Music Development Tools for Creative Coders",
@@ -124395,6 +125641,27 @@
 "container-title": "University of Victoria",
 "URL": "http://hdl.handle.net/1828/10988",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.80",
+"issued": {
+"date-parts": [
+[
+2019
+]
+]
+}
+},
+{
+"id": "thesis:elmlund2019musiccomputergam",
+"type": "thesis",
+"title": "Music, computer games and player performance : How music affects player performance",
+"author": [
+{
+"family": "Elmlund",
+"given": "Fredrik"
+}
+],
+"container-title": "KTH Royal Institute of Technology",
+"URL": "http://urn.kb.se/resolve?urn=urn:nbn:se:his:diva-17254",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
 "issued": {
 "date-parts": [
 [
@@ -124505,6 +125772,27 @@
 }
 },
 {
+"id": "thesis:michaud2020afterthemusicbox",
+"type": "thesis",
+"title": "After the music box: A history of automation in real-time musical performance",
+"author": [
+{
+"family": "Michaud",
+"given": "Alyssa"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/3974",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
 "id": "thesis:marasco2020benditioasystemf",
 "type": "thesis",
 "title": "Bendit_I/O: A System for Extending Mediated and Networked Performance Techniques to Circuit-Bent Devices",
@@ -124558,6 +125846,26 @@
 ],
 "URL": "https://open.metu.edu.tr/bitstream/handle/11511/69141/12625919.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "thesis:neto2020digitalcompositi",
+"type": "thesis",
+"title": "Digital composition: the use of digital tools as an instrument of musical composition",
+"author": [
+{
+"family": "Neto",
+"given": "Alexei [UNESP] Lisounenko"
+}
+],
+"URL": "http://hdl.handle.net/11449/192100",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.90",
 "issued": {
 "date-parts": [
 [
@@ -124650,6 +125958,47 @@
 }
 },
 {
+"id": "thesis:bloomberg2020makingmusicalmag",
+"type": "thesis",
+"title": "Making musical magic live : inventing modern production technology for human-centric music performance",
+"author": [
+{
+"family": "Bloomberg",
+"given": "Benjamin"
+}
+],
+"URL": "https://dspace.mit.edu/handle/1721.1/129893",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "thesis:roche2020musicsoundsynthe",
+"type": "thesis",
+"title": "Music sound synthesis using machine learning : Towards a perceptually relevant control space",
+"author": [
+{
+"family": "Roche",
+"given": "Fanny"
+}
+],
+"container-title": "Université Grenoble Alpes",
+"DOI": "10.70675/11139a1bz26bdz4352za195ze6e849dec3bf",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
 "id": "thesis:martins2020mquinashbridasde",
 "type": "thesis",
 "title": "Máquinas híbridas de performance: novas formas de instrumenticidade em práticas musicais experimentais",
@@ -124682,6 +126031,27 @@
 "container-title": "Université Paris 8",
 "DOI": "10.70675/6bbe3ab3z9f22z4d7czb4b4z28f767bb9df4",
 "note": "Collection: Theses. Found in OpenAlex; cites 3 archive entries; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2020
+]
+]
+}
+},
+{
+"id": "thesis:goudard2020representationan",
+"type": "thesis",
+"title": "Representation and control in the interactive design of digital musical instruments",
+"author": [
+{
+"family": "Goudard",
+"given": "Vincent"
+}
+],
+"container-title": "Institut Jean Le Rond d'Alembert",
+"URL": "http://www.theses.fr/2020SORUS051/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -124857,6 +126227,27 @@
 }
 },
 {
+"id": "thesis:sullivan2021builtforperforma",
+"type": "thesis",
+"title": "Built for performance: Designing digital musical instruments for professional use",
+"author": [
+{
+"family": "Sullivan",
+"given": "John"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/40299",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
 "id": "thesis:alemi2021expressivemoveme",
 "type": "thesis",
 "title": "Expressive movement generation with machine learning",
@@ -124939,6 +126330,27 @@
 }
 },
 {
+"id": "thesis:bredholt2021liveloopingofdis",
+"type": "thesis",
+"title": "Live-looping of distributed gesture-to-sound mappings",
+"author": [
+{
+"family": "Bredholt",
+"given": "Mathias"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/4190",
+"note": "Collection: Theses. Found in OpenAlex; cites 1 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
 "id": "thesis:blessing2021livingroomorches",
 "type": "thesis",
 "title": "Living Room Orchestra: Designing Embedded Furniture as a Family of Electronic Musical Instruments",
@@ -124993,6 +126405,27 @@
 "container-title": "University of Huddersfield",
 "URL": "https://eprints.hud.ac.uk/id/eprint/35586/1/Cameli%20THESIS.pdf",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
+"id": "thesis:reboursire2021organologygeneal",
+"type": "thesis",
+"title": "Organology, genealogy and practice of the hexaphonic guitar : from individual string processing to instrumental gestural control",
+"author": [
+{
+"family": "Reboursière",
+"given": "Loïc"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "http://www.theses.fr/2021LILUH052/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -125107,6 +126540,27 @@
 }
 },
 {
+"id": "thesis:clara2021themusicalinstru",
+"type": "thesis",
+"title": "The musical instrument in the digital age : theory, making of a panoply and musical creation",
+"author": [
+{
+"family": "Clara",
+"given": "Sébastien"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "http://www.theses.fr/2021LYSES001/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2021
+]
+]
+}
+},
+{
 "id": "thesis:gregorio2021timbrespacelearn",
 "type": "thesis",
 "title": "Timbre space learning for augmentation of musical audio synthesizer interfaces",
@@ -125167,6 +126621,31 @@
 "date-parts": [
 [
 2021
+]
+]
+}
+},
+{
+"id": "thesis:onderka2022analogmodularmus",
+"type": "thesis",
+"title": "Analog Modular Music Synthesizer with Digital Control",
+"author": [
+{
+"family": "Onderka",
+"given": "Jan"
+},
+{
+"family": "Onderka",
+"given": "Jan"
+}
+],
+"container-title": "Czech Technical University in Prague",
+"URL": "http://hdl.handle.net/10467/101676",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2022
 ]
 ]
 }
@@ -125234,6 +126713,48 @@
 }
 },
 {
+"id": "thesis:cavaills2022controloftheacou",
+"type": "thesis",
+"title": "Control of the acoustic radiation of the trombone using a loudspeaker array",
+"author": [
+{
+"family": "Cavaillès",
+"given": "Colas"
+}
+],
+"container-title": "Laboratoire d'Acoustique de l'Université du Mans",
+"URL": "http://www.theses.fr/2022LEMA1029/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+2022
+]
+]
+}
+},
+{
+"id": "thesis:meneses2022iterativedesigni",
+"type": "thesis",
+"title": "Iterative design in DMIs and AMIs: expanding and embedding a high-level gesture vocabulary for T-Stick and GuitarAMI",
+"author": [
+{
+"family": "Meneses",
+"given": "Eduardo"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/5050",
+"note": "Collection: Theses. Found in OpenAlex (author); selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2022
+]
+]
+}
+},
+{
 "id": "thesis:paz2022ontheflysynthesi",
 "type": "thesis",
 "title": "On-the-fly synthesizer programming with rule learning",
@@ -125285,6 +126806,27 @@
 ],
 "DOI": "10.5281/zenodo.8017965",
 "note": "Collection: Theses. Found in DataCite; selected by similarity to the archives; NIME-topic probability 0.94",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "thesis:fouilleul2023atemporalprogram",
+"type": "thesis",
+"title": "A Temporal Programming Environment for Live Shows and Art Installations",
+"author": [
+{
+"family": "Fouilleul",
+"given": "Martin"
+}
+],
+"container-title": "Sciences et Technologies de la Musique et du Son",
+"URL": "http://www.theses.fr/2023SORUS016/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [
@@ -125411,6 +126953,27 @@
 "container-title": "Institut de Recherche sur les Composants logiciels et matériels pour l'Information et la Communication Avancée",
 "URL": "https://hal.science/tel-04425551",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2023
+]
+]
+}
+},
+{
+"id": "thesis:gober2023keymachineintuit",
+"type": "thesis",
+"title": "KeyMachine : intuitive interface for music",
+"author": [
+{
+"family": "Gober",
+"given": "Erik"
+}
+],
+"container-title": "FH JOANNEUM ePUB",
+"URL": "https://resolver.obvsg.at/urn:nbn:at:at-fhj:1-27650",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.90",
 "issued": {
 "date-parts": [
 [
@@ -125577,7 +127140,7 @@
 ],
 "container-title": "Sorbonne Université",
 "DOI": "10.70675/67f513aez98d0z418ezac9aze0945d3a7dcd",
-"note": "Collection: Theses. Found in OpenAlex; cites 8 archive entries; NIME-topic probability 0.93",
+"note": "Collection: Theses. Found in OpenAlex; cites 8 archive entries; selected by its English title, the abstract being in another language; NIME-topic probability 0.93",
 "issued": {
 "date-parts": [
 [
@@ -125662,6 +127225,26 @@
 "container-title": "The University of Sydney",
 "URL": "https://hdl.handle.net/2123/32468",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.93",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "thesis:lima2024musicandtechnolo",
+"type": "thesis",
+"title": "Music and technology: digital resources as auxiliary tools for personal performance and the dynamics of chamber rehearsals - autoethnographic report.",
+"author": [
+{
+"family": "Lima",
+"given": "Rodolfo das Neves Barbosa de"
+}
+],
+"URL": "https://repositorio.ufba.br/handle/ri/39433",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [
@@ -125775,6 +127358,27 @@
 }
 },
 {
+"id": "thesis:niyonsenga2024reliabilitycente",
+"type": "thesis",
+"title": "Reliability Centered Approaches for Digital Musical Interface Design",
+"author": [
+{
+"family": "Niyonsenga",
+"given": "Albert"
+}
+],
+"container-title": "McGill University",
+"DOI": "10.82308/20210",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.95",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
 "id": "thesis:gianniodis2024sculptingonespla",
 "type": "thesis",
 "title": "Sculpting one's place in the feast. Techniques of the body and intentions in musical and dance practices on Chios island (Greece)",
@@ -125787,6 +127391,27 @@
 "container-title": "Paris 10",
 "DOI": "10.70675/bd3e5732z4482z4985za8c4zf4f4e81d8c38",
 "note": "Collection: Theses. Found in theses.fr; selected by similarity to the archives; NIME-topic probability 0.88",
+"issued": {
+"date-parts": [
+[
+2024
+]
+]
+}
+},
+{
+"id": "thesis:schneider2024theartofvoltagec",
+"type": "thesis",
+"title": "The art of voltage control : Moog Mavis as an exemplar in modular synthesis techniques",
+"author": [
+{
+"family": "Schneider",
+"given": "Verena"
+}
+],
+"container-title": "FH JOANNEUM ePUB",
+"URL": "https://resolver.obvsg.at/urn:nbn:at:at-fhj:1-37538",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -125871,6 +127496,27 @@
 "container-title": "McGill University",
 "URL": "https://hdl.handle.net/20.500.14905/72506",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.94",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "thesis:flty2025contributionsofe",
+"type": "thesis",
+"title": "Contributions of Electronics to Gesture-Based Interaction : Application to Live Performances and the Design of Digital Musical Instruments",
+"author": [
+{
+"family": "Fléty",
+"given": "Emmanuel"
+}
+],
+"container-title": "Centre d'études et de recherche en informatique et communications",
+"URL": "http://www.theses.fr/2025CNAM0025/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.97",
 "issued": {
 "date-parts": [
 [
@@ -126006,6 +127652,27 @@
 }
 },
 {
+"id": "thesis:ardila2025prototypeexperie",
+"type": "thesis",
+"title": "Prototype Experience of a Modular Synthesizer in Unreal Engine 5: Interactive Sound Exploration in VR",
+"author": [
+{
+"family": "Ardila",
+"given": "Nicolas Carvajal"
+}
+],
+"container-title": "Pontificia Universidad Javeriana",
+"URL": "http://hdl.handle.net/10554/72929",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
 "id": "thesis:leitman2025resonantobjectin",
 "type": "thesis",
 "title": "Resonant Object Interface: An Acoustic Input Device for Nuanced, Embodied Interaction with Music Software",
@@ -126017,6 +127684,27 @@
 ],
 "DOI": "10.26686/wgtn.29434430",
 "note": "Collection: Theses. Found in OpenAlex; cites 10 archive entries; selected by similarity to the archives; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "thesis:west2025sygaldryreusable",
+"type": "thesis",
+"title": "Sygaldry : reusable software for making digital musical instruments",
+"author": [
+{
+"family": "West",
+"given": "Travis J."
+}
+],
+"container-title": "Université de Lille",
+"DOI": "10.70675/c48778bez38d5z45b0zbb1az572e82b68a58",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -126110,6 +127798,48 @@
 }
 },
 {
+"id": "thesis:mercier2025thespaceasparame",
+"type": "thesis",
+"title": "The space as parameter of writing through the devices of sound spatialization",
+"author": [
+{
+"family": "Mercier",
+"given": "Maxence"
+}
+],
+"container-title": "Centre Transdisciplinaire d'Épistémologie de la Littérature et des Arts vivants",
+"URL": "http://www.theses.fr/2025COAZ2045/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.91",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
+"id": "thesis:gomez2025betaaseriesofges",
+"type": "thesis",
+"title": "β [beta], a series of gestural pieces for performer plus live electronics, based on motion capture and mobile phones.",
+"author": [
+{
+"family": "Gomez",
+"given": "Juan Pulido"
+}
+],
+"container-title": "Pontificia Universidad Javeriana",
+"URL": "http://hdl.handle.net/10554/74759",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.92",
+"issued": {
+"date-parts": [
+[
+2025
+]
+]
+}
+},
+{
 "id": "thesis:tsiros2026amultidimensiona",
 "type": "thesis",
 "title": "A Multidimensional Sketching Interface for Visual Interaction with Corpus-Based Concatenative Sound Synthesis",
@@ -126191,6 +127921,26 @@
 }
 },
 {
+"id": "thesis:ronen2026analyzingvibrota",
+"type": "thesis",
+"title": "Analyzing Vibrotactile Feedback Strategies Across Diverse Digital Musical Instruments",
+"author": [
+{
+"family": "Ronen",
+"given": "Oren"
+}
+],
+"DOI": "10.82308/1625",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
 "id": "thesis:arbiza2026beyondbrassperfo",
 "type": "thesis",
 "title": "Beyond Brass Performance: Exploring the Integration of Non-Intrusive Human-Computer Interfaces in Trombone",
@@ -126223,6 +127973,27 @@
 ],
 "DOI": "10.25911/g8th-6v80",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.99",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "thesis:fiorini2026cocreativeinstru",
+"type": "thesis",
+"title": "Co-creative instruments for improvised musical interaction",
+"author": [
+{
+"family": "Fiorini",
+"given": "Marco"
+}
+],
+"container-title": "Sorbonne Université",
+"DOI": "10.70675/564d6c14z92e9z4cabz9819z9b49a06eeae7",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
 "issued": {
 "date-parts": [
 [
@@ -126274,6 +128045,48 @@
 }
 },
 {
+"id": "thesis:dcroz2026eegdrivenbrainco",
+"type": "thesis",
+"title": "EEG-Driven Brain–Computer Musical Interfaces for Emotion Self-Induction",
+"author": [
+{
+"family": "D'Croz",
+"given": "Pablo Andrés Monroy"
+}
+],
+"container-title": "Consorci de Serveis Universitaris de Catalunya",
+"URL": "https://hdl.handle.net/10803/698411",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "thesis:trba2026experimentalsoft",
+"type": "thesis",
+"title": "Experimental software musical instrument for the Android operating system with an unusual graphical interface",
+"author": [
+{
+"family": "Štrba",
+"given": "Tomáš"
+}
+],
+"container-title": "Brno University of Technology",
+"URL": "https://hdl.handle.net/11012/258615",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
 "id": "thesis:privitera2026exploringhumante",
 "type": "thesis",
 "title": "Exploring Human-Technology Interactions in Audio Mixed Realities",
@@ -126300,6 +128113,27 @@
 "title": "Exploring Wassily Kandinsky’s Colour-Sound Associations Through An Interactive Music Installation",
 "URL": "https://figshare.com/articles/thesis/Exploring_Wassily_Kandinsky_s_Colour-Sound_Associations_Through_An_Interactive_Music_Installation/32676585",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.97",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "thesis:morales2026freiratheinstrum",
+"type": "thesis",
+"title": "Freira: The instrument garments",
+"author": [
+{
+"family": "Morales",
+"given": "Maria Paula Castiblanco"
+}
+],
+"container-title": "Repositorio Institucional Universidad El Bosque",
+"URL": "https://hdl.handle.net/20.500.12495/20108",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 1.00",
 "issued": {
 "date-parts": [
 [
@@ -126356,6 +128190,27 @@
 "container-title": "Brno University of Technology",
 "URL": "https://hdl.handle.net/11012/259853",
 "note": "Collection: Theses. Found in OpenAlex; selected by similarity to the archives; NIME-topic probability 0.96",
+"issued": {
+"date-parts": [
+[
+2026
+]
+]
+}
+},
+{
+"id": "thesis:passa2026selfoscillatingm",
+"type": "thesis",
+"title": "Self-oscillating musical instruments : basins of attraction and transient dynamics",
+"author": [
+{
+"family": "Passa",
+"given": "Thomas"
+}
+],
+"container-title": "theses.fr (ABES)",
+"URL": "https://theses.fr/2026LEMA1012/document",
+"note": "Collection: Theses. Found in OpenAlex; selected by its English title, the abstract being in another language; NIME-topic probability 0.98",
 "issued": {
 "date-parts": [
 [
@@ -139637,26 +141492,6 @@
 }
 },
 {
-"id": "zotero:jorda2005digitalluthe",
-"type": "thesis",
-"title": "Digital Lutherie : Crafting musical computers for new musics' performance and improvisation",
-"author": [
-{
-"family": "Jordà",
-"given": "Sergi"
-}
-],
-"container-title": "Universitat Pompeu Fabra",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.96",
-"issued": {
-"date-parts": [
-[
-2005
-]
-]
-}
-},
-{
 "id": "zotero:brooks2005enhancedgest",
 "type": "article-journal",
 "title": "Enhanced gesture capture in virtual interactive space (VIS)",
@@ -143984,26 +145819,6 @@
 }
 },
 {
-"id": "zotero:malloch2013aframeworkan",
-"type": "thesis",
-"title": "A Framework and Tools for Mapping of Digital Musical Instruments",
-"author": [
-{
-"family": "Malloch",
-"given": "Joseph"
-}
-],
-"container-title": "McGill University",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 1.00",
-"issued": {
-"date-parts": [
-[
-2013
-]
-]
-}
-},
-{
 "id": "zotero:jensenius2013anactionsoun",
 "type": "article-journal",
 "title": "An Action-Sound Approach to Teaching Interactive Music",
@@ -146865,26 +148680,6 @@
 "container-title": "Frontiers in Psychology",
 "DOI": "10.3389/fpsyg.2019.00084",
 "note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.91",
-"issued": {
-"date-parts": [
-[
-2019
-]
-]
-}
-},
-{
-"id": "zotero:barbosa2019directmanipu",
-"type": "thesis",
-"title": "Direct Manipulation for Musical Interfaces Based on Visual Software: Design and Evaluation",
-"author": [
-{
-"family": "Barbosa",
-"given": "Jeronimo"
-}
-],
-"container-title": "McGill University",
-"note": "Collection: Zotero. Found in the maintainer's Zotero library; NIME-topic probability 0.92",
 "issued": {
 "date-parts": [
 [

@@ -271,3 +271,13 @@ bib files; the builders now use them, and abstract coverage rose from 31% to 65%
 threshold. `books.py` excluded every title already in Related, which holds its own output, so a
 rerun admitted 1 book instead of 92; Related is now left out of that comparison. Crossref runs
 the place into some publisher names ("Oxford University PressNew York"); these are trimmed.
+
+Theses whose abstract is not in English can now be admitted on an English title alone, at a
+NIME-topic probability of at least 0.9 (the Zotero bar), when the title has an English word and
+no Romance, Germanic or Scandinavian function words or accents; without that check the classifier
+scored Brazilian music-education titles high. A sample of 40 read as nearly all on topic, but
+the agent that estimated their TRL found 12 of 109 clearly off topic (robotics, animation,
+multimedia, law). A title judged alone must now also name music, sound or an instrument, as in
+`books.py`, and five more theses I read as off topic are excluded by hand. That admits 93 more
+theses, most of them French, for 497 in all. In `bibs/ICMC/1975.bib` two papers shared the key
+`Chadabe1975`; the Rosenboom paper is now `Rosenboom1975`, and its TRL estimate moved with it.

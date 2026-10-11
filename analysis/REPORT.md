@@ -55,10 +55,10 @@ What each entry offers the analysis differs by dataset. The table gives the shar
 |---|---:|---:|---:|---:|
 | NIME papers | 2448 | 97% | 96% | 98% |
 | ISIDM | 531 | 0% | 27% | 27% |
-| Zotero | 508 | 0% | 27% | 0% |
+| Zotero | 505 | 0% | 27% | 0% |
+| Theses | 497 | 0% | 93% | 0% |
 | NIME music | 488 | 4% | 86% | 2% |
 | Cited | 442 | 0% | 65% | 0% |
-| Theses | 409 | 0% | 93% | 0% |
 | ICMC | 255 | 8% | 7% | 7% |
 | Related | 206 | 0% | 27% | 0% |
 | Background | 110 | 0% | 46% | 0% |
@@ -287,7 +287,7 @@ The reference parser reads years back to 1700 when a reference has no later year
 
 ### The Zotero dataset
 
-The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are 528 works with a scholarly item type, a year, and either a NIME-topic probability of at least 0.9 or a NIME tag or folder in the library (4 works qualify by the tag or folder alone). Short titles, which have no title key, match on the whole title within a year. Of these, 10 have titles that are not in English, where the classifier is unreliable, and 10 match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining 508 form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting; 68 of them carry the library's topical tags as keywords, without the tags that record reading or filing. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
+The maintainer's Zotero library was matched against the whole collection by DOI and title key, and the unmatched works were scored by the title classifier. Among them are 524 works with a scholarly item type, a year, and either a NIME-topic probability of at least 0.9 or a NIME tag or folder in the library (4 works qualify by the tag or folder alone). Short titles, which have no title key, match on the whole title within a year. Of these, 9 have titles that are not in English, where the classifier is unreliable, and 10 match an entry already in the collection under a variant title (the same year within one, and the first 60 letters of the title agreeing by a ratio of at least 0.8). Works that name the NIME proceedings as their venue are left out, since the NIME archive holds them. The remaining 505 form [`bibs/Zotero/zotero.bib`](../bibs/Zotero/zotero.bib), each with its probability in a note, for vetting; 68 of them carry the library's topical tags as keywords, without the tags that record reading or filing. The check is `tools/zotero_check.py`; it needs the library, so it is skipped elsewhere.
 
 ### Theses
 
@@ -300,26 +300,26 @@ PhD and master's theses were collected separately, since they dominate the forwa
 - the same queries, and 15 in French, to theses.fr, the French national catalogue, for defended theses, with the English title and abstract where the record has them: 3036 theses;
 - the 290 theses in the maintainer's Zotero library that the collection lacks.
 
-Together they gave 19864 distinct theses, of which 1866 are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+Together they gave 19864 distinct theses, of which 1866 have an abstract that is not in English (or none).
 
-Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the 34 English theses on the forward list: closeness and contrast both at their median. The OpenAlex dissertations that cite archive works are a looser population and are not used for calibration. Closeness and contrast alone let in general HCI, web and music-education theses, so every admitted thesis also needs a NIME-topic probability of at least 0.7 from the title classifier. A thesis is admitted when it passes both thresholds or cites at least three archive entries. As a check on a separate population, the searches found 9 of the 32 theses already in off-NIME, and the rules would admit 6 of them (66.7%). A reading of sampled titles still found some general HCI and virtual-reality theses among those that cite the archives, close to the archives' HCI side. The rules also pass 2 theses that are excluded by hand: their French titles score high with the classifier, but they are about plant ecology and medicine.
+Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the 34 English theses on the forward list: closeness and contrast both at their median. The OpenAlex dissertations that cite archive works are a looser population and are not used for calibration. Closeness and contrast alone let in general HCI, web and music-education theses, so every admitted thesis also needs a NIME-topic probability of at least 0.7 from the title classifier. A thesis is admitted when it passes both thresholds or cites at least three archive entries. A thesis whose abstract is not in English cannot be scored against the archives, but many of them, French ones in particular, carry an English title. Such a thesis is admitted on the title alone when the title has a NIME-topic probability of at least 0.9, the bar of the Zotero dataset, names music, sound or an instrument, and holds no function words or accents from other European languages, since the classifier scores Portuguese music titles high: 93 theses. The other 1741 are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)). As a check on a separate population, the searches found 9 of the 32 theses already in off-NIME, and the rules would admit 6 of them (66.7%). A reading of sampled titles still found some general HCI and virtual-reality theses among those that cite the archives, close to the archives' HCI side. The rules also pass 7 theses that are excluded by hand after reading: the classifier scores titles high on words such as synthesis and musical expression, and these are about plant ecology, medicine, circuit design, copyright, scales, painting and conducting.
 
 A thesis that several sources found counts once, under the source whose record was kept (the one with the longest abstract).
 
 | Source | Theses | Admitted |
 |---|---:|---:|
-| OpenAlex | 13981 | 264 |
-| theses.fr | 3036 | 24 |
+| OpenAlex | 13981 | 338 |
+| theses.fr | 3036 | 35 |
 | DataCite | 1799 | 40 |
-| OpenAlex (citing) | 724 | 60 |
-| Zotero | 228 | 20 |
-| OpenAlex (author) | 96 | 3 |
+| OpenAlex (citing) | 724 | 61 |
+| Zotero | 228 | 21 |
+| OpenAlex (author) | 96 | 4 |
 
-[`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 409 admitted theses, 143 of which cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
+[`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the 497 admitted theses, 143 of which cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
 
 ### Technology and artistic readiness
 
-Every entry in both archives and in the four rule-selected datasets, 5671 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1626 of them rest on a title alone. They are estimates, not measurements.
+Every entry in both archives and in the four rule-selected datasets, 5756 in all, carries an estimated technology readiness level (TRL, 1–9, grouped as fundamental 1–3, applied 4–6 and industrial 7–9) and an estimated artistic readiness level (ARL, 1–9, Jensenius's scale from initial artistic impulse to demonstrated artistic impact, grouped as exploration, development and dissemination), with a confidence and a one-line reason. The estimates were made by language-model agents reading title, venue and abstract against a fixed rubric ([`trl_rubric.md`](tools/trl_rubric.md)); 1630 of them rest on a title alone. They are estimates, not measurements.
 
 ![Estimated TRL against ARL, for all entries and for the NIME papers](output/trl_arl_heatmap.svg)
 
@@ -358,7 +358,7 @@ I would extend off-NIME along the three directions the lists measure, and in thi
 
 ### Exports
 
-The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5671 entries names its archive and dataset and, for archive entries, its strongest topic.
+The joined collection, with the NIME proceedings, the off-NIME archive and the Cited dataset, is exported as [`collection.csv`](output/collection.csv) for spreadsheets and as CSL-JSON in [`collection.json`](output/collection.json), which Zotero, Mendeley and pandoc import directly. Each of its 5756 entries names its archive and dataset and, for archive entries, its strongest topic.
 
 ## Limitations
 

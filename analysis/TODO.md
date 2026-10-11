@@ -13,7 +13,7 @@
 - [ARJ] Vet `bibs/Historical/historical.bib`: 13 works not found in a catalogue carry a note
   (among them the Sax patent and the Hornbostel–Sachs article); add or remove seeds in
   `tools/historical_seeds.txt`.
-- [ARJ] Vet `bibs/Zotero/zotero.bib` (528 works from your library, title classifier only); the
+- [ARJ] Vet `bibs/Zotero/zotero.bib` (works from your library, title classifier only); the
   library also holds works on other fields, and a few may have slipped through.
 - [ARJ] Ask the NIME steering committee to deposit the 2021 and 2022 proceedings on Zenodo
   (recommended), so that their texts can be read like the other years.
@@ -21,14 +21,12 @@
 - [ARJ] NIME bibliography: review `output/nime_missing_abstracts.tsv`; check the 2005 "NIME papers" that look
   like artworks and the front-matter entries among the 2019 music entries.
 
-- [ARJ] Vet `bibs/Cited/cited.bib` (170 works admitted by rule) and remove what does not belong.
+- [ARJ] Vet `bibs/Cited/cited.bib` (admitted by rule) and remove what does not belong.
 - [ARJ] Read the top of `output/borderline.tsv`: relevant reviews with short titles miss the
   closeness bar there.
 - [ARJ] Check `output/offnime_dois_review.tsv` (near-miss DOI matches for off-NIME entries).
 - [ARJ] Ask the ICMA or Michigan Publishing for a metadata export of the ICMC proceedings
   (recommended); the online archive and DBLP both block scripts with bot checks.
-- [ARJ] Pushes to the fork do not trigger the Pages workflow; enabling workflows in the fork's
-  Actions tab may fix it. Until then, deploy with `gh workflow run` (see HANDOVER.md).
 - [ARJ] Get a Semantic Scholar API key to finish the remaining off-NIME title lookups.
 - Pull request to IDMIL/off-nime: on hold at Alexander's request.
 
@@ -40,12 +38,10 @@
   audio papers and the wave field synthesis overview are on the edge. `related:lab2003investigatio`
   has author and affiliation text in its title, from Crossref. [Recommendation: leave the rule as
   it is and drop single entries by hand once vetted, as for Theses.]
-- [ARJ] Skim `bibs/Theses/theses.bib` (409, selected by rule) and `output/candidates_theses.tsv`;
+- [ARJ] Skim `bibs/Theses/theses.bib` (selected by rule) and `output/candidates_theses.tsv`;
   the theses admitted because they cite the archives include some general HCI and VR work.
-- [ME] 1,866 non-English theses are listed in `output/candidates_theses_non_english.tsv`, most of
-  them French from theses.fr.
-- [ME] One TRL estimate is duplicated in the batches (off-nime:Chadabe1975); harmless, the
-  merge keeps the last.
+- [ARJ] The theses admitted on an English title alone (their abstracts are in other languages)
+  carry a note saying so; skim those in particular.
 
 ## Later
 

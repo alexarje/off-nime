@@ -146,7 +146,7 @@ def main():
         "th_c3": th["more_sources"]["citing_3_plus"], "th_auth_n": th["more_sources"]["authors_searched"],
         "th_auth": th["more_sources"]["author_theses"], "th_fr_q": len(_tm.FR_QUERIES),
         "th_fr": th["by_source"].get("theses.fr", 0), "th_zo": th["more_sources"]["zotero_theses"],
-        "th_pmin": th["p_min"], "th_hand": th["off_topic_by_hand"], "th_minp": _tm.MIN_PAPERS, "th_before": _tm.BEFORE, "th_after": _tm.AFTER, "th_table": theses_table(th),
+        "th_pmin": th["p_min"], "th_ptitle": th["p_title"], "th_bytitle": th["admitted_by_title"], "th_nel": th["non_english_listed"], "th_hand": th["off_topic_by_hand"], "th_minp": _tm.MIN_PAPERS, "th_before": _tm.BEFORE, "th_after": _tm.AFTER, "th_table": theses_table(th),
         "sb_refs": sb["with_reference_lists"], "sb_cited": sb["cited_works"], "sb_cands": len(sb_rows),
         "sb_min": sb["min_sources"],
         "sb_table": table(["Cited by Cited works", "Year", "First author", "Title"], [r[:4] for r in sb_rows[:15]]),
