@@ -38,6 +38,13 @@ def availability():
     return "\n".join(out)
 
 
+def theses_table(th):
+    rows = ["| Source | Theses | Admitted |", "|---|---:|---:|"]
+    for src, n in sorted(th["by_source"].items(), key=lambda kv: -kv[1]):
+        rows.append(f"| {src} | {n} | {th['admitted_by_source'].get(src, 0)} |")
+    return "\n".join(rows)
+
+
 def main():
     corpus = json.loads((HERE / "data" / "corpus.json").read_text())
     by_id = {r["id"]: r for r in corpus}
@@ -93,6 +100,7 @@ def main():
     jim = next(v for k, v in ne.items() if k.startswith("JIM"))
     sbcm = next(v for k, v in ne.items() if k.startswith("SBCM"))
     from theses import QUERIES
+    import theses_more as _tm
     tp = json.loads((HERE / "data" / "topic_stats.json").read_text())
     trs = json.loads((HERE / "data" / "trl_stats.json").read_text())
     per = trs["nime_papers_trl_band_by_period"]
@@ -134,6 +142,11 @@ def main():
         "th_known": th["check"]["found_by_searches"], "th_off": th["check"]["off_nime_theses"],
         "th_adm": th["check"]["would_admit"], "th_pct": th["check"]["would_admit_pct"],
         "th_admitted": th["admitted"], "th_cites": th["admitted_by_cites"],
+        "th_works": th["more_sources"]["archive_works_in_openalex"], "th_citing": th["more_sources"]["citing_theses"],
+        "th_c3": th["more_sources"]["citing_3_plus"], "th_auth_n": th["more_sources"]["authors_searched"],
+        "th_auth": th["more_sources"]["author_theses"], "th_fr_q": len(_tm.FR_QUERIES),
+        "th_fr": th["by_source"].get("theses.fr", 0), "th_zo": th["more_sources"]["zotero_theses"],
+        "th_pmin": th["p_min"], "th_hand": th["off_topic_by_hand"], "th_minp": _tm.MIN_PAPERS, "th_before": _tm.BEFORE, "th_after": _tm.AFTER, "th_table": theses_table(th),
         "sb_refs": sb["with_reference_lists"], "sb_cited": sb["cited_works"], "sb_cands": len(sb_rows),
         "sb_min": sb["min_sources"],
         "sb_table": table(["Cited by Cited works", "Year", "First author", "Title"], [r[:4] for r in sb_rows[:15]]),

@@ -32,7 +32,7 @@ cap 2G topic.py
 cap 2G build_cited.py
 cap 1G snowball.py
 cap 1G historical.py
-cap 3G theses.py
+cap 12G theses.py         # dense similarity matrices over about 20,000 theses
 cap 1G "offnime_dois.py --apply"
 [ -f ~/Zotero/zotero.sqlite ] && cap 2G zotero_check.py   # the maintainer's library; writes bibs/Zotero
 cap 1G merge_trl.py         # after the TRL/ARL agents have written data/trl/out_*.jsonl

@@ -104,9 +104,24 @@ The maintainer's Zotero library was matched against the whole collection by DOI 
 
 ### Theses
 
-PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. {{th_q}} NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records), and a DataCite title lookup of the untyped works on the forward list, gave {{th_n}} distinct theses, of which {{th_ne}} are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+PhD and master's theses were collected separately, since they dominate the forward list and are poorly covered by the journals. They come from six sources:
 
-Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the {{th_cal}} English theses known to cite the archives: closeness and contrast both at their median. Lower thresholds admitted many more theses, but a reading of sampled titles found many of them off topic (music education, performance practice, club culture, general computing), while recall on the check set below did not change. As a check on a separate population, the searches found {{th_known}} of the {{th_off}} theses already in off-NIME, and the rules would admit {{th_adm}} of them ({{th_pct}}%). [`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the {{th_admitted}} admitted theses, {{th_cites}} of them because they cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
+- {{th_q}} NIME-related queries to OpenAlex (works of type dissertation) and DataCite (Dissertation and Thesis records);
+- a DataCite title lookup of the untyped works on the forward list;
+- OpenAlex dissertations that cite archive works: {{th_works}} archive works were found in OpenAlex by DOI, and {{th_citing}} dissertations cite at least one of them, {{th_c3}} at least three;
+- OpenAlex dissertations by the {{th_auth_n}} authors with at least {{th_minp}} archive works, written from {{th_before}} years before their first archive work to {{th_after}} years after their last, since a doctoral thesis tends to follow its author's papers: {{th_auth}} dissertations;
+- the same queries, and {{th_fr_q}} in French, to theses.fr, the French national catalogue, for defended theses, with the English title and abstract where the record has them: {{th_fr}} theses;
+- the {{th_zo}} theses in the maintainer's Zotero library that the collection lacks.
+
+Together they gave {{th_n}} distinct theses, of which {{th_ne}} are not in English and are listed separately for the non-English sources ([`candidates_theses_non_english.tsv`](output/candidates_theses_non_english.tsv)).
+
+Thresholds borrowed from the journal sweep admitted too few theses, since thesis abstracts read differently from article abstracts, so the thresholds are calibrated on the {{th_cal}} English theses on the forward list: closeness and contrast both at their median. The OpenAlex dissertations that cite archive works are a looser population and are not used for calibration. Closeness and contrast alone let in general HCI, web and music-education theses, so every admitted thesis also needs a NIME-topic probability of at least {{th_pmin}} from the title classifier. A thesis is admitted when it passes both thresholds or cites at least three archive entries. As a check on a separate population, the searches found {{th_known}} of the {{th_off}} theses already in off-NIME, and the rules would admit {{th_adm}} of them ({{th_pct}}%). A reading of sampled titles still found some general HCI and virtual-reality theses among those that cite the archives, close to the archives' HCI side. The rules also pass {{th_hand}} theses that are excluded by hand: their French titles score high with the classifier, but they are about plant ecology and medicine.
+
+A thesis that several sources found counts once, under the source whose record was kept (the one with the longest abstract).
+
+{{th_table}}
+
+[`bibs/Theses/theses.bib`](../bibs/Theses/theses.bib) holds the {{th_admitted}} admitted theses, {{th_cites}} of which cite at least three archive entries, and the website shows them under a Theses tab. The full scored list is [`candidates_theses.tsv`](output/candidates_theses.tsv).
 
 ### Technology and artistic readiness
 

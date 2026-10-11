@@ -56,6 +56,9 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
 - OpenAlex works API (`tools/openalex_refs.py`): reference lists for entries with a DOI and no
   text, including NIME 2021–2022, which are on PubPub (behind a bot check) and not on Zenodo.
   A small free daily allowance; the script stops early and resumes from its cache.
+- theses.fr API (`tools/theses_more.py`): defended French theses, with English titles and
+  abstracts where given; no key. OpenAlex also gives dissertations that cite archive works and
+  dissertations by archive authors. `tools/theses.py` needs about 10 GB.
 - tesseract with the system Portuguese and Italian packs (`tesseract-ocr-por`, `-ita`).
 - Semantic Scholar Graph API, without a key. NIME reference lists are elided by the publisher;
   forward citations are not.

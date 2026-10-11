@@ -243,3 +243,18 @@ NIME 2021 proceedings from PubPub (the 2022 papers export failed); GROBID read t
 match the bibliography, and `tools/pubpub_package.py` packs the export for Zenodo. The export of
 the collection now says, per entry, whether a full text, an abstract and a reference list exist.
 
+
+Theses come from four more sources: OpenAlex dissertations that cite archive works, OpenAlex
+dissertations by authors with at least two archive works, theses.fr, and the theses in
+Alexander's Zotero library. The first run stopped on OpenAlex authors without an id. With the
+citing dissertations in the calibration set, both thresholds fell (contrast below zero) and
+1,611 theses were admitted, many of them general HCI, web and materials work, so calibration is
+back on the forward list. Contrast still did not separate the theses well, so every admitted
+thesis also needs a NIME-topic probability of at least 0.7 from the title classifier; a reading
+of samples found few off-topic titles above it and mostly off-topic ones below. Two French
+titles that pass are about plant ecology and medicine and are excluded by hand. The Zotero thesis
+list had been compared with the whole collection, Theses included, so a second run lost the Zotero
+theses it had admitted; the comparison now leaves Theses out. That gives 409 theses, against 307
+before, with the off-NIME check unchanged at 6 of 9. The run needs about 10 GB; it was killed at
+6 GB. An agent estimated TRL and ARL for the 213 new theses (batch 28).
+The TRL validation sheet is no longer rewritten once any row carries a label.

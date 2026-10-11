@@ -35,13 +35,25 @@
 ## Next
 
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
-- [ME] Theses (#5): 26 more queries added; their OpenAlex pages run once the daily allowance
-  resets (a background job is waiting for it); fix aggregator
-  school names (Zenodo, NORA, ERA, LA Referencia) from the thesis records.
-- [ARJ] Skim `bibs/Theses/theses.bib` (416, selected by rule) and `output/candidates_theses.tsv`.
-- [ME] 366 non-English theses are listed in `output/candidates_theses_non_english.tsv`.
+- [ME] Fix aggregator school names (Zenodo, NORA, ERA, LA Referencia) in the thesis records.
+- [ARJ] Skim `bibs/Theses/theses.bib` (409, selected by rule) and `output/candidates_theses.tsv`;
+  the theses admitted because they cite the archives include some general HCI and VR work.
+- [ME] 1,866 non-English theses are listed in `output/candidates_theses_non_english.tsv`, most of
+  them French from theses.fr.
 - [ME] One TRL estimate is duplicated in the batches (off-nime:Chadabe1975); harmless, the
   merge keeps the last.
 
 ## Later
+
+- [ARJ/ME] Theses from the community (#5), once the site is public under IDMIL:
+  1. [ME] A GitHub issue form, "Suggest a thesis" (title, author, year, institution, link, and
+     whether it is the sender's own), in the repository that hosts the site, so suggestions are
+     public and nothing personal is stored elsewhere. [Recommendation: in IDMIL/off-nime after the
+     pull request, since a call pointing at a fork would move later.]
+  2. [ME] A link to the form from the Theses tab, with the admission rule in one sentence.
+  3. [ARJ] A short call on the NIME mailing list and at the NIME business meeting: "Is your thesis
+     here?", with the link to the Theses tab and the form.
+  4. [ME] A script that reads the issues, looks each thesis up (DataCite, OpenAlex, theses.fr) and
+     adds it to a hand-vetted list that theses.py admits without a score, with the issue number in
+     the note.
 

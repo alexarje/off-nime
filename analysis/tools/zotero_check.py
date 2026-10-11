@@ -94,12 +94,13 @@ def prefix(t):
     return letters(clean(t))[:40]
 
 
-def collection():
-    """DOIs, title keys and (year, first 60 letters) of every entry outside the Zotero dataset."""
+def collection(skip=()):
+    """DOIs, title keys and (year, first 60 letters) of every entry outside the Zotero dataset and
+    the bib files in skip."""
     dois, keys, dated = set(), set(), []
     entries = [(r["title"], r.get("doi"), r["year"]) for r in json.loads((HERE / "data" / "corpus.json").read_text())]
     for f in (HERE.parent / "bibs").glob("**/*.bib"):
-        if f != OUT:
+        if f != OUT and f not in skip:
             entries += [(e.get("title", ""), e.get("doi"), e.get("year", "")) for e in bibtexparser.load(open(f)).entries]
     for t, doi, y in entries:
         keys |= {title_key(t), prefix(t)}
@@ -113,6 +114,14 @@ def collection():
     return dois, keys, dated
 
 
+def held(it, dois, keys, dated_set):
+    doi = (it.get("DOI") or "").lower().strip()
+    exact = {(y + d, letters(it["title"])[:60]) for d in (-1, 0, 1) for y in [int(it["year"] or 0)]}
+    return bool(doi and doi in dois) or title_key(it["title"]) in keys or \
+        (len(prefix(it["title"])) >= 25 and prefix(it["title"]) in keys) or \
+        (len(letters(it["title"])) >= 5 and bool(exact & dated_set))
+
+
 def near_match(it, dated):
     t = letters(it["title"])[:60]
     y = int(it["year"])
@@ -124,15 +133,11 @@ def main():
     dois, keys, dated = collection()
     dated_set = set(dated)
     for it in items:
-        doi = (it.get("DOI") or "").lower().strip()
         # Zotero stores "2023-05-00 May 2023", or "0000-00-00 Online first" when the year is unknown
         it["year"] = next((y for y in re.findall(r"\b\d{4}\b", it.get("date", "")) if "1500" < y < "2100"), "")
         it["title"] = clean(it["title"])
         # short titles ("AlphaSphere") have no title key; they match on the whole title and the year
-        exact = {(y + d, letters(it["title"])[:60]) for d in (-1, 0, 1) for y in [int(it["year"] or 0)]}
-        it["in_collection"] = bool(doi and doi in dois) or title_key(it["title"]) in keys or \
-            (len(prefix(it["title"])) >= 25 and prefix(it["title"]) in keys) or \
-            (len(letters(it["title"])) >= 5 and bool(exact & dated_set))
+        it["in_collection"] = held(it, dois, keys, dated_set)
         it["nime_folder"] = any(NIME_MARK.search(c) for c in it.get("collections", []))
         it["nime_tag"] = any(NIME_MARK.search(t) for t in it.get("tags", []))
     # one row per work: the library holds some works two or three times
@@ -159,6 +164,20 @@ def main():
     english = [it for it in tier if is_english(it["title"])]
     kept = [it for it in english if not near_match(it, dated)]
     write_bib(kept)
+    # theses the collection lacks, for theses.py to score with its own rules; the Theses dataset is
+    # left out of the comparison, since theses.py rebuilds it from this list among others
+    tdois, tkeys, tdated = collection(skip=(HERE.parent / "bibs" / "Theses" / "theses.bib",))
+    seen, theses = set(), []
+    for it in sorted((it for it in items if it["type"] == "thesis" and it["year"]
+                      and not held(it, tdois, tkeys, set(tdated))), key=lambda it: not it.get("DOI")):
+        if prefix(it["title"]) not in seen:
+            seen.add(prefix(it["title"]))
+            theses.append(it)
+    th = [{"id": it["key"], "doi": (it.get("DOI") or "").lower(), "url": it.get("url") or "", "title": it["title"],
+           "year": int(it["year"]), "authors": it.get("authors_full", []), "school": it.get("university") or "",
+           "abstract": clean(it.get("abstractNote", "")), "language": None}
+          for it in theses]
+    (HERE / "data" / "zotero_theses.json").write_text(json.dumps(th, ensure_ascii=False))
     stats = {"items": len(items), "in_collection": sum(it["in_collection"] for it in items),
              "candidates": len(cands), "candidates_in_nime_folders": sum(it["nime_folder"] for it in cands),
              "candidates_with_nime_tags": sum(it["nime_tag"] for it in cands),

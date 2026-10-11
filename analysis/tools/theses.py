@@ -10,7 +10,9 @@ Sources:
 Every English thesis is scored like the journal sweep (closeness to the archives and contrast
 against the journal background), with thresholds set at the median closeness and median contrast of the theses
 that cite the archives, and admitted when it passes both, or when it cites at least MIN_CITES archive
-entries. Non-English theses go to a separate list. The check: the theses already in off-NIME that the
+entries. Either way its title must also have a NIME-topic probability of at least P_MIN from the title
+classifier in topic.py, since closeness and contrast alone let in general HCI, web and music-education
+theses. Non-English theses go to a separate list. The check: the theses already in off-NIME that the
 searches find are scored the same way, and the share of them the rules would admit is reported.
 Writes bibs/Theses/theses.bib, output/candidates_theses.tsv and data/theses_stats.json.
 """
@@ -34,6 +36,9 @@ CACHE.mkdir(parents=True, exist_ok=True)
 OUT = HERE.parent / "bibs" / "Theses" / "theses.bib"
 K = 10
 MIN_CITES = 3
+P_MIN = 0.7  # NIME-topic probability of the title, from topic.py
+# off topic on reading, though they pass: the classifier scores some French titles high
+OFF_TOPIC = {"https://dspace.univ-tlemcen.dz/handle/112/3982", "https://hal.science/tel-02599505v1"}
 AGGREGATOR = re.compile(r"zenodo|nora|la referencia|\bhal\b|^era$|figshare|core|base|openaire|datacite|"
                         r"networked digital library|ndltd|oatd|dart-europe|ethos|proquest", re.I)
 SCHOOL_ALIASES = {"McGill": "McGill University"}
@@ -188,7 +193,7 @@ def forward_theses():
             kind = f"{rtype.get('resourceTypeGeneral', '')} {rtype.get('resourceType', '')}".lower()
             if ("dissertation" in kind or "thesis" in kind) and \
                     SequenceMatcher(None, letters(rec["title"]), letters(title)).ratio() >= 0.9:
-                rec["cites"] = cites
+                rec["cites"], rec["forward"] = cites, True
                 found.append(rec)
                 break
     return found
@@ -204,6 +209,17 @@ def main():
     fwd = forward_theses()
     recs += fwd
     print(f"forward list: {len(fwd)} theses resolved", file=sys.stderr)
+    import theses_more as tm
+    works = tm.archive_works(corpus, cached)
+    cit = tm.citing(works, cached, inverted)
+    auth, n_auth = tm.by_authors(works, cached, inverted)
+    fr = [t for q in QUERIES + tm.FR_QUERIES for t in tm.thesesfr(q, cached)]
+    zo = tm.zotero()
+    recs += cit + auth + fr + zo
+    more = {"archive_works_in_openalex": len(works), "citing_theses": len(cit),
+            "citing_3_plus": sum(t["cites"] >= MIN_CITES for t in cit), "authors_searched": n_auth,
+            "author_theses": len(auth), "thesesfr_records": len(fr), "zotero_theses": len(zo)}
+    print(json.dumps(more), file=sys.stderr, flush=True)
 
     # merge by title and year; keep the record with the most information
     merged = {}
@@ -214,10 +230,12 @@ def main():
         k = (letters(r["title"])[:80], r["year"])
         m = merged.get(k)
         if m is None or len(r["abstract"]) > len(m["abstract"]):
-            keep = r if m is None else dict(r, cites=max(r.get("cites", 0), m.get("cites", 0)))
+            keep = r if m is None else dict(r, cites=max(r.get("cites", 0), m.get("cites", 0)),
+                                            forward=r.get("forward") or m.get("forward"))
             merged[k] = keep
-        elif r.get("cites"):
-            m["cites"] = max(m.get("cites", 0), r["cites"])
+        else:
+            m["cites"] = max(m.get("cites", 0), r.get("cites", 0))
+            m["forward"] = m.get("forward") or r.get("forward")
     theses = list(merged.values())
 
     # the check population: off-NIME theses the searches found
@@ -252,19 +270,24 @@ def main():
     # thresholds calibrated on theses, not on journal articles: the lower quartile of closeness and
     # of contrast among the English theses known to cite the archives (the forward list). The
     # off-NIME theses are a separate population and serve as the check.
-    calib = [t for t in theses if t.get("cites", 0) >= 1 and t["english"] and not t["known"]]
+    # Only the forward list calibrates: the OpenAlex theses citing a single archive work are a
+    # looser population, and calibrating on them lowered both thresholds.
+    calib = [t for t in theses if t.get("forward") and t["english"] and not t["known"]]
     near_min = float(np.percentile([t["near"] for t in calib], NEAR_Q))
     # contrast at the median: at the lower quartile, a reading of sampled titles found many off-topic
     # theses (music education, club culture, signal processing)
     con_min = float(np.percentile([t["score"] for t in calib], 50))
+    from topic import nime_probability
+    for t, p in zip(theses, nime_probability([t["title"] for t in theses])):
+        t["p"] = round(float(p), 2)
     for t in theses:
         t["by_score"] = bool(t["english"] and t["near"] >= near_min and t["score"] >= con_min)
-        t["admit"] = not t["in_archive"] and (t["by_score"] or t.get("cites", 0) >= MIN_CITES)
+        t["admit"] = not t["in_archive"] and t["url"] not in OFF_TOPIC and t["p"] >= P_MIN and (t["by_score"] or t.get("cites", 0) >= MIN_CITES)
 
     known = [t for t in theses if t["known"]]
     check = {"off_nime_theses": len(off_theses), "found_by_searches": len(known),
-             "would_admit": int(sum(t["by_score"] for t in known)),
-             "would_admit_pct": round(100 * sum(t["by_score"] for t in known) / max(len(known), 1), 1)}
+             "would_admit": int(sum(t["by_score"] and t["p"] >= P_MIN for t in known)),
+             "would_admit_pct": round(100 * sum(t["by_score"] and t["p"] >= P_MIN for t in known) / max(len(known), 1), 1)}
     admitted = sorted([t for t in theses if t["admit"]], key=lambda t: (t["year"], t["title"]))
 
     OUT.parent.mkdir(exist_ok=True)
@@ -280,7 +303,8 @@ def main():
             authors = [a if "," in a else (f"{a.split()[-1]}, {' '.join(a.split()[:-1])}" if a.split() else a)
                        for a in t["authors"]]
             why = "; ".join(x for x in [f"cites {t['cites']} archive entries" if t.get("cites") else "",
-                                        "selected by similarity to the archives" if t["by_score"] else ""] if x)
+                                        "selected by similarity to the archives" if t["by_score"] else "",
+                                        f"NIME-topic probability {t['p']:.2f}"] if x)
             school = t["school"] or ""
             m = re.search(r"\(([^()]*(?:Univ|Institut|College|School|McGill|École|Hochschule)[^()]*)\)\s*$", school)
             school = m.group(1) if m else school
@@ -299,12 +323,12 @@ def main():
             body = ",\n".join(f"  {k} = {{{re.sub(r'[{}]', '', str(v))}}}" for k, v in fields if v)
             f.write(f"@phdthesis{{{key},\n{body}\n}}\n\n")
     with open(HERE / "output" / "candidates_theses.tsv", "w") as f:
-        f.write("admitted\tscore\tcloseness\tterms\tenglish\tcites\tyear\ttitle\tauthors\tschool\tsource\tdoi_or_url\n")
+        f.write("admitted\tp\tscore\tcloseness\tterms\tenglish\tcites\tyear\ttitle\tauthors\tschool\tsource\tdoi_or_url\n")
         for t in sorted(theses, key=lambda t: -t["score"]):
             if t["in_archive"]:
                 continue
             f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in
-                              [t["admit"], t["score"], t["near"], t["terms"], t["english"], t.get("cites", ""), t["year"], t["title"],
+                              [t["admit"], t["p"], t["score"], t["near"], t["terms"], t["english"], t.get("cites", ""), t["year"], t["title"],
                                "; ".join(t["authors"][:3]), t["school"], t["src"], t["doi"] or t["url"]]) + "\n")
     with open(HERE / "output" / "candidates_theses_non_english.tsv", "w") as f:
         f.write("year\ttitle\tauthors\tschool\tsource\tdoi_or_url\n")
@@ -312,9 +336,11 @@ def main():
             f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in
                               [t["year"], t["title"], "; ".join(t["authors"][:3]), t["school"], t["src"],
                                t["doi"] or t["url"]]) + "\n")
-    stats = {"calibration_theses": len(calib), "near_min": round(near_min, 4), "contrast_min": round(con_min, 4),
+    stats = {"p_min": P_MIN, "off_topic_by_hand": len(OFF_TOPIC), "calibration_theses": len(calib), "near_min": round(near_min, 4), "contrast_min": round(con_min, 4),
              "records": len(recs), "non_english": sum(1 for t in theses if not t["english"]), "theses": len(theses), "admitted": len(seen), "check": {k: int(v) if isinstance(v, (np.integer, np.bool_)) else v for k, v in check.items()},
-             "by_source": {s: sum(1 for t in theses if t["src"] == s) for s in ["OpenAlex", "DataCite"]},
+             "by_source": {s: sum(1 for t in theses if t["src"] == s) for s in sorted({t["src"] for t in theses})},
+             "admitted_by_source": {s: sum(1 for t in admitted if t["src"] == s) for s in sorted({t["src"] for t in admitted})},
+             "more_sources": more,
              "admitted_by_cites": int(sum(1 for t in admitted if t.get("cites", 0) >= MIN_CITES)),
              "forward_resolved": len(fwd)}
     (HERE / "data" / "theses_stats.json").write_text(json.dumps(stats, indent=1))

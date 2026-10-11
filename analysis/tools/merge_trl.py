@@ -8,6 +8,7 @@ data/trl_stats.json and output/trl_validation_sheet.tsv (30 random publications 
 label, which is how agreement is measured).
 """
 import json
+import os
 import random
 import re
 from collections import Counter, defaultdict
@@ -106,9 +107,13 @@ def main():
             f.write("\t".join(re.sub(r"\s+", " ", str(x if x is not None else "")) for x in
                               [m["id"], m["dataset"], m["year"], m["title"], m["trl"], m["trl_band"], m["arl"],
                                m["arl_band"], m["confidence"], m["basis"], m["reason"]]) + "\n")
+    # the sheet is labelled by hand: once any row has a label, it is never rewritten
+    sheet = HERE / "output" / "trl_validation_sheet.tsv"
+    labelled = sheet.exists() and any(any(c.strip() for c in l.split("\t")[5:7])
+                                      for l in sheet.read_text().splitlines()[1:])
     random.seed(10)
-    sample = random.sample([m for m in merged if m["basis"] == "abstract"], 30)
-    with open(HERE / "output" / "trl_validation_sheet.tsv", "w") as f:
+    sample = [] if labelled else random.sample([m for m in merged if m["basis"] == "abstract"], 30)
+    with open(os.devnull if labelled else sheet, "w") as f:
         f.write("id\tdataset\tyear\ttitle\tabstract\tyour_trl\tyour_arl\n")
         for m in sample:
             f.write("\t".join(re.sub(r"\s+", " ", str(x)) for x in
