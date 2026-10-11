@@ -65,7 +65,7 @@ def main():
     internal = "".join(f"<tr><td>{e(t)}</td><td class='n'>{y}</td><td>{e(c)}</td><td class='n'>{n}</td></tr>"
                        for t, y, c, n in ci.get("most_cited_internal", [])[:25])
     g["trend_html"] = f"""
-<section><h3>Entries per year</h3><p>Off-NIME entries end around 2012; the NIME proceedings start in 2001.</p>
+<section><h3>Entries per year</h3><p>Off-NIME entries end around 2012; the NIME proceedings start in 2001. Entries before 1970 share the first bar.</p>
 <div class="legend" style="padding:0 0 6px"><span><i style="background:var(--s2)"></i>Off-NIME archive</span><span><i style="background:var(--s1)"></i>NIME papers</span><span><i style="background:var(--s3)"></i>NIME music and installations</span></div>
 <div class="chartbox">{{{{years}}}}</div></section>
 <section><h3>Technology and artistic readiness</h3><p>Estimated TRL against estimated ARL, as numbers of entries; darker is more. "None" means no technology (TRL) or no artistic component (ARL). The estimates come from language-model agents reading title and abstract; see the report.</p>
