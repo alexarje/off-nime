@@ -42,6 +42,10 @@
 
 ## Next
 
+- [ME] 22 NIME full texts in `data/text/` are font-shifted (letters come out as punctuation; 12 from
+  2006, 6 from 2008): re-extract them with OCR. A letter share under 0.75 finds them; the list is in
+  the NIME-ness study, `data/garbled_texts.tsv`.
+
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
 
 ## Later
