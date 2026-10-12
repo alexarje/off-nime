@@ -357,3 +357,14 @@ in `data/text_garbled/`. `nime2020_117` returns 404 and is left.
 The 404 for `nime2020_117` was transient: the PDF downloads again and `tools/ocr_texts.py` has read
 it (letter share 0.96), so all 22 font-shifted texts are now OCR text. The Zenodo copies of the 22
 are font-shifted too; posted as NIME-conference/NIME-bibliography#127.
+
+Worked through the open NIME-bibliography issues. Pull requests: #129 points every nime.org link
+at https://nime.org (#93); #130 stores nime2021.bib in articleno order (#117); #131 corrects three
+wrong DOIs, two wrong links, the duplicate nime2012_Smith_b and four review placeholders in
+abstracts, found by comparing every DOI's registered title with its entry; #132 adds 84 abstracts
+cut from the PDFs or the OCR texts (#69); #133 adds the printed 2012 page ranges from the full
+proceedings PDF at umich (#55). #131 and #132 build on #129, #133 on #131. Issue #128 lists what
+needs a decision: the `nime20202_` keys of the 2022 installations, three Zenodo records with an
+earlier or anonymised title, five with review placeholders, and the truncated full 2012 proceedings
+on nime.org. The Seagate drive dropped off USB during a scan and was left unmounted; the kernel
+asks for an fsck of its exFAT volume.
