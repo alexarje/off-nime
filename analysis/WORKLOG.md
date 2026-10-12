@@ -348,3 +348,8 @@ Theses now has 429 entries and the paper's corpus 5,151.
 The entries-per-year chart in the atlas ran from 1619 at one bar per year, about 4,500 pixels wide
 with almost nothing before 1970. It now gives one bar per year from 1970, gathers the earlier
 entries into one bar at the left, and scales to the width of the page.
+
+Twenty-two NIME texts were font-shifted by pdftotext (letters as punctuation, mostly 2006 and 2008),
+found by a letter share under 0.75. `tools/ocr_texts.py` downloads their PDFs again and reads them
+with tesseract at 300 dpi; 21 now read cleanly (letter share 0.92–0.97), the garbled versions kept
+in `data/text_garbled/`. `nime2020_117` returns 404 and is left.
