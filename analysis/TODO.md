@@ -42,8 +42,8 @@
 
 ## Next
 
-- [ME] `nime2020_117` is font-shifted and its PDF returns 404 at nime.org; find it elsewhere and OCR it
-  with `tools/ocr_texts.py`.
+- [ME] Follow NIME-conference/NIME-bibliography#127 (22 NIME PDFs with a broken text layer on nime.org
+  and Zenodo); offer the OCR texts if asked.
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
 
 ## Later

@@ -353,3 +353,7 @@ Twenty-two NIME texts were font-shifted by pdftotext (letters as punctuation, mo
 found by a letter share under 0.75. `tools/ocr_texts.py` downloads their PDFs again and reads them
 with tesseract at 300 dpi; 21 now read cleanly (letter share 0.92–0.97), the garbled versions kept
 in `data/text_garbled/`. `nime2020_117` returns 404 and is left.
+
+The 404 for `nime2020_117` was transient: the PDF downloads again and `tools/ocr_texts.py` has read
+it (letter share 0.96), so all 22 font-shifted texts are now OCR text. The Zenodo copies of the 22
+are font-shifted too; posted as NIME-conference/NIME-bibliography#127.
