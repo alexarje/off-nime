@@ -377,3 +377,5 @@ branches into master (no conflicts; pytest and `nime_bib validate`, also with `-
 `tools/nime_dois.py` lists every NIME DOI with its OpenAlex work and source: OpenAlex finds 2,829
 of 2,830, many under the Zenodo concept DOI, which a batched `doi:` filter misses.
 `tools/zenodo_fix.py` holds the seven Zenodo fixes of #128, waiting for edit access.
+
+#134 is merged, so the fixes of #129 to #133 are all on master.

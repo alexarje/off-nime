@@ -46,8 +46,8 @@
 
 ## Next
 
-- [ME] Follow NIME-bibliography #134 (lands the merged #131 to #133 on master) and issue #128
-  (2022 installation keys, Zenodo titles, truncated 2012 proceedings).
+- [ME] Follow NIME-bibliography issue #128 (2022 installation keys, Zenodo titles, truncated 2012
+  proceedings).
 - [ME] Follow NIME-conference/NIME-bibliography#127 (22 NIME PDFs with a broken text layer on nime.org
   and Zenodo); offer the OCR texts if asked.
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
