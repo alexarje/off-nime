@@ -379,3 +379,6 @@ of 2,830, many under the Zenodo concept DOI, which a batched `doi:` filter misse
 `tools/zenodo_fix.py` holds the seven Zenodo fixes of #128, waiting for edit access.
 
 #134 is merged, so the fixes of #129 to #133 are all on master.
+
+Stefano Fasciani fixed the #128 Zenodo records by hand and closed the issue; `tools/zenodo_fix.py`
+now finds nothing to change.

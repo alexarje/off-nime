@@ -2,10 +2,6 @@
 
 ## Now
 
-- [ARJ] Zenodo fixes of NIME-bibliography#128, ready to run once Stefano (or you) has edit access:
-  `tools/zenodo_fix.py` prints the seven changes (three titles, four review placeholders); add
-  `--apply --token-file <path> --only nime2013_Andersson` for a first test, then without `--only`.
-  The records belong to three Zenodo accounts (users 42081, 20166 and 1186130).
 - [ARJ] Export the NIME 2022 paper collections from PubPub (the export failed on 2026-10-10), then
   run `tools/pubpub_package.py 2022` and `tools/grobid_refs.py`.
 - [ARJ] Decide on the Zenodo deposit of the 2021 proceedings (zips and CHECK.md in the archive's
@@ -46,8 +42,6 @@
 
 ## Next
 
-- [ME] Follow NIME-bibliography issue #128 (2022 installation keys, Zenodo titles, truncated 2012
-  proceedings).
 - [ME] Follow NIME-conference/NIME-bibliography#127 (22 NIME PDFs with a broken text layer on nime.org
   and Zenodo); offer the OCR texts if asked.
 - [ARJ] Skim `output/candidates_snowball2.tsv` (5 works from the second snowball round).
