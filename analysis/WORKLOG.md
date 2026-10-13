@@ -368,3 +368,12 @@ needs a decision: the `nime20202_` keys of the 2022 installations, three Zenodo 
 earlier or anonymised title, five with review placeholders, and the truncated full 2012 proceedings
 on nime.org. The Seagate drive dropped off USB during a scan and was left unmounted; the kernel
 asks for an fsck of its exFAT volume.
+
+## 2026-10-13: the bibliography pull requests merged
+
+Stefano Fasciani merged #129 to #133. #131, #132 and #133 were stacked and went into their base
+branches after #129 had reached master, so their changes were not on master. #134 merges both base
+branches into master (no conflicts; pytest and `nime_bib validate`, also with `--release`, pass).
+`tools/nime_dois.py` lists every NIME DOI with its OpenAlex work and source: OpenAlex finds 2,829
+of 2,830, many under the Zenodo concept DOI, which a batched `doi:` filter misses.
+`tools/zenodo_fix.py` holds the seven Zenodo fixes of #128, waiting for edit access.
