@@ -382,3 +382,10 @@ of 2,830, many under the Zenodo concept DOI, which a batched `doi:` filter misse
 
 Stefano Fasciani fixed the #128 Zenodo records by hand and closed the issue; `tools/zenodo_fix.py`
 now finds nothing to change.
+
+The NIME Proceedings Analyzer (Goode and Fasciani) release v05012026 covers 2001 to 2025 with the
+bibliography's keys: 2,273 of its 2,297 papers match our corpus. It holds GROBID TEI for every
+paper, including the 56 of 2022 that we lack, and the 2021 and 2022 PubPub PDFs. Its Semantic
+Scholar references have shrunk to 3,043 from 149 papers, against the 31,989 that Fasciani's 2024
+paper used, so our GROBID reference lists are now the larger source. Downloaded to the scratchpad
+only.
