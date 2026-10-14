@@ -395,3 +395,8 @@ by our own GROBID, as do the 7 papers of 2021 that the exports lacked: 2,428 pap
 references, against 2,372 and 45,925 before. Replacing the OpenAlex lists of 2022 cost Cited one
 entry (a GROBID mistitling), so parse_refs.py now adds the OpenAlex works a parsed list missed
 (252 references). Cited gains 1 entry and Background 4; none is lost.
+
+`tools/zenodo_versions.py` lists the Zenodo versions of the 2,604 NIME DOIs, for #140: 76 records
+have more than one version, the bibliography holds an older version for 1 (nime2024_music_27),
+4 entries hold a concept DOI, and nime2010_Dubrau's DOI lacks a digit (10.5281/zenodo.1177757 is
+right). The concept DOI is the version DOI minus one for 2,518 of the 2,520 single-version records.
