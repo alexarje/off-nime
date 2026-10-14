@@ -138,6 +138,7 @@ def main():
         "sb2_refs": sb["round2"]["with_reference_lists"], "sb2_cands": sb["round2"]["candidates"],
         "gr_with": rs.get("with_grobid", 0),
         "oa_with": rs["with_openalex"], "oa_int": rs["internal_openalex"], "oa_ext": rs["external_openalex"],
+        "oa_added": rs.get("openalex_added", 0), "oa_added_int": rs.get("internal_openalex_added", 0),
         "oa_vol": rs["openalex_volume_skipped"], "oa_chap": rs["chapter_citations"],
         "zo_p": zo["tier_p"], "zo_tier": zo["tier"], "zo_ne": zo["tier_not_english"], "zo_near": zo["tier_near_match"],
         "zo_mark": zo["tier_by_mark_only"], "zo_kw": zo["dataset_with_keywords"],

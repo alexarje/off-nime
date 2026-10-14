@@ -259,10 +259,11 @@ def main():
             raws.append((r["id"], e))
         per_paper[r["id"]] = {"n": len(entries), "internal": n_int, "refs": refs_out, "source": source}
 
-    # entries with no readable text: reference lists from OpenAlex (tools/openalex_refs.py)
+    # entries with no readable text: reference lists from OpenAlex (tools/openalex_refs.py); where a
+    # paper has both, OpenAlex adds the works its parsed list missed or mistitled
     for rid, refs in oa.items():
-        if rid in per_paper:
-            continue
+        known = per_paper.get(rid)
+        have = set(known["refs"]) if known else set()
         n_int, refs_out = 0, []
         for x in refs:
             # OpenAlex holds some whole volumes as works ("Proceedings of the ... Conference")
@@ -272,16 +273,23 @@ def main():
             k = title_key(x["title"])
             hit = by_doi.get(x["doi"]) if x["doi"] else None
             hit = hit or (tkeys[k][0] if k and k in tkeys else None)
+            if (hit or "k:" + str(k)) in have:
+                continue
             if hit and hit != rid:
                 edges.add((rid, hit))
                 n_int += 1
-                stats["internal_openalex"] += 1
+                stats["internal_openalex_added" if known else "internal_openalex"] += 1
                 refs_out.append(hit)
             elif k:
                 clusters[k].append({"citer": rid, "year": x["year"], "first": x["first"], "title": x["title"],
                                     "raw": f"{x['first'].title()} ({x['year']}). {x['title']}." + (f" doi:{x['doi']}" if x["doi"] else "")})
-                stats["external_openalex"] += 1
+                stats["external_openalex_added" if known else "external_openalex"] += 1
                 refs_out.append("k:" + k)
+        if known:
+            stats["openalex_added"] += len(refs_out)
+            known["refs"] += refs_out
+            known["internal"] += n_int
+            continue
         stats["with_openalex"] += 1
         per_paper[rid] = {"n": len(refs), "internal": n_int, "refs": refs_out, "source": "openalex"}
 

@@ -13,7 +13,9 @@ uses them in place of the text-split references where they exist.
 The NIME papers of 2021 and 2022 are on PubPub, behind a bot check; for these the script reads
 the PDFs from the PubPub community exports in EXPORTS/<year>/ (one zip per collection, a folder
 per pub named by its slug), when they are there, and also writes their plain text to data/text/,
-so that the rest of the pipeline counts them as read.
+so that the rest of the pipeline counts them as read. Where the exports lack a paper, it reads
+the PDF from ANALYZER, the PubPub PDFs of the NIME Proceedings Analyzer release v05012026
+(github.com/jacksongoode/NIME-proceedings-analyzer, `resources/pubpub/`), named by bibliography key.
 
 The service runs from ~/tools/grobid-0.9.1 as the user unit grobid (see HANDOVER.md).
 """
@@ -36,6 +38,7 @@ HEAD = {"User-Agent": "off-nime-analysis/0.1 (https://github.com/alexarje/off-ni
 NS = {"t": "http://www.tei-c.org/ns/1.0"}
 EXPORTS = Path("/media/alexanje/Seagate Hub/arkiv/Conferences/NIME/Paper proceedings")
 TEXT = HERE / "data" / "text"
+ANALYZER = HERE / "data" / "analyzer_pubpub"
 
 
 def pubpub_pdfs():
@@ -132,6 +135,15 @@ def main():
         with zipfile.ZipFile(z) as zf:
             data = zf.read(member)
         refs, status = process(pdf=data, text_to=TEXT / (r["id"].replace(":", "__").replace("/", "_") + ".txt"))
+        if refs is not None:
+            cache[r["id"]] = refs
+    # PubPub papers the exports lack, from the NIME Proceedings Analyzer release
+    rest = [(r, ANALYZER / (r["id"].split(":")[-1] + ".pdf")) for r in corpus
+            if r["dataset"] == "NIME papers" and r["id"] not in cache]
+    rest = [(r, f) for r, f in rest if f.exists()]
+    print(f"{len(rest)} PubPub papers from the analyzer release", file=sys.stderr, flush=True)
+    for r, f in rest:
+        refs, status = process(pdf=f.read_bytes(), text_to=TEXT / (r["id"].replace(":", "__").replace("/", "_") + ".txt"))
         if refs is not None:
             cache[r["id"]] = refs
     OUT.write_text(json.dumps(cache, ensure_ascii=False))

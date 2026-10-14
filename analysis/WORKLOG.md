@@ -389,3 +389,9 @@ paper, including the 56 of 2022 that we lack, and the 2021 and 2022 PubPub PDFs.
 Scholar references have shrunk to 3,043 from 149 papers, against the 31,989 that Fasciani's 2024
 paper used, so our GROBID reference lists are now the larger source. Downloaded to the scratchpad
 only.
+
+The 2022 papers now have texts and reference lists, from the analyser release's PubPub PDFs read
+by our own GROBID, as do the 7 papers of 2021 that the exports lacked: 2,428 papers and 48,078
+references, against 2,372 and 45,925 before. Replacing the OpenAlex lists of 2022 cost Cited one
+entry (a GROBID mistitling), so parse_refs.py now adds the OpenAlex works a parsed list missed
+(252 references). Cited gains 1 entry and Background 4; none is lost.

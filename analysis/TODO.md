@@ -2,12 +2,6 @@
 
 ## Now
 
-- [ARJ] Export the NIME 2022 paper collections from PubPub (the export failed on 2026-10-10), then
-  run `tools/pubpub_package.py 2022` and `tools/grobid_refs.py`. [Recommendation: take the 2022
-  texts from the NIME Proceedings Analyzer release v05012026 (github.com/jacksongoode/
-  NIME-proceedings-analyzer) instead: it holds TEI for all 56 papers of 2022 (2,261 references) and
-  the 2021 and 2022 PubPub PDFs, keyed by the bibliography's IDs. Ask Stefano Fasciani before
-  redistributing anything from it.]
 - [ARJ] Decide on the Zenodo deposit of the 2021 proceedings (zips and CHECK.md in the archive's
   `2021/zenodo/`); 7 bibliography papers are missing from the export, probably in a collection
   that was not exported. [Recommendation: one record per year, the PubPub DOIs as related

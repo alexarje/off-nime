@@ -108601,7 +108601,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s135577180700180x",
-"note": "Collection: Cited. Cited by 19 archive papers; NIME-topic probability 0.903",
+"note": "Collection: Cited. Cited by 20 archive papers; NIME-topic probability 0.903",
 "issued": {
 "date-parts": [
 [
@@ -110135,7 +110135,7 @@
 ],
 "container-title": "Leonardo",
 "DOI": "10.1162/leon_a_00438",
-"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.782",
+"note": "Collection: Cited. Cited by 7 archive papers; NIME-topic probability 0.782",
 "issued": {
 "date-parts": [
 [
@@ -110658,7 +110658,7 @@
 ],
 "container-title": "Osiris",
 "DOI": "10.1086/671381",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.982",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.982",
 "issued": {
 "date-parts": [
 [
@@ -110770,7 +110770,7 @@
 ],
 "container-title": "Sensors",
 "DOI": "10.3390/s140813556",
-"note": "Collection: Cited. Cited by 20 archive papers; cites 29 archive entries; NIME-topic probability 0.9",
+"note": "Collection: Cited. Cited by 21 archive papers; cites 29 archive entries; NIME-topic probability 0.9",
 "issued": {
 "date-parts": [
 [
@@ -111953,7 +111953,7 @@
 ],
 "container-title": "Proceedings of the 2016 ACM Conference on Designing Interactive Systems",
 "DOI": "10.1145/2901790.2901831",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 16 archive entries; NIME-topic probability 0.974",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 16 archive entries; NIME-topic probability 0.974",
 "issued": {
 "date-parts": [
 [
@@ -112194,7 +112194,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00372",
-"note": "Collection: Cited. Cited by 24 archive papers; cites 16 archive entries; found in the journal sweep; NIME-topic probability 0.868",
+"note": "Collection: Cited. Cited by 25 archive papers; cites 16 archive entries; found in the journal sweep; NIME-topic probability 0.868",
 "issued": {
 "date-parts": [
 [
@@ -112240,7 +112240,7 @@
 ],
 "container-title": "Current Research in Systematic Musicology",
 "DOI": "10.1007/978-3-319-47214-0_1",
-"note": "Collection: Cited. Cited by 17 archive papers; NIME-topic probability 0.976",
+"note": "Collection: Cited. Cited by 20 archive papers; NIME-topic probability 0.976",
 "issued": {
 "date-parts": [
 [
@@ -112335,7 +112335,7 @@
 ],
 "container-title": "IEEE MultiMedia",
 "DOI": "10.1109/mmul.2017.18",
-"note": "Collection: Cited. Cited by 10 archive papers; cites 8 archive entries; NIME-topic probability 0.884",
+"note": "Collection: Cited. Cited by 11 archive papers; cites 8 archive entries; NIME-topic probability 0.884",
 "issued": {
 "date-parts": [
 [
@@ -112360,7 +112360,7 @@
 ],
 "container-title": "Springer International Publishing",
 "DOI": "10.1007/978-3-319-47214-0",
-"note": "Collection: Cited. Cited by 40 archive papers; NIME-topic probability 0.99",
+"note": "Collection: Cited. Cited by 46 archive papers; NIME-topic probability 0.99",
 "issued": {
 "date-parts": [
 [
@@ -112601,7 +112601,7 @@
 ],
 "container-title": "Musical Instruments in the 21st Century",
 "DOI": "10.1007/978-981-10-2951-6_2",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 12 archive entries; NIME-topic probability 0.502",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 12 archive entries; NIME-topic probability 0.502",
 "issued": {
 "date-parts": [
 [
@@ -112730,7 +112730,7 @@
 ],
 "container-title": "Journal of New Music Research",
 "DOI": "10.1080/09298215.2017.1353636",
-"note": "Collection: Cited. Cited by 9 archive papers; cites 5 archive entries; NIME-topic probability 0.862",
+"note": "Collection: Cited. Cited by 10 archive papers; cites 5 archive entries; NIME-topic probability 0.862",
 "issued": {
 "date-parts": [
 [
@@ -112963,7 +112963,7 @@
 ],
 "container-title": "Design Issues",
 "DOI": "10.1162/desi_a_00450",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.733",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.733",
 "issued": {
 "date-parts": [
 [
@@ -113047,6 +113047,35 @@
 "container-title": "Proceedings of the 12th International Audio Mostly Conference on Augmented and Participatory Sound and Music Experiences",
 "DOI": "10.1145/3123514.3123519",
 "note": "Collection: Cited. Cites 8 archive entries; found in the journal sweep; NIME-topic probability 0.989",
+"issued": {
+"date-parts": [
+[
+2017
+]
+]
+}
+},
+{
+"id": "cited:deacon2017userexperiencein",
+"type": "chapter",
+"title": "User Experience in an Interactive Music Virtual Reality System: An Exploratory Study",
+"author": [
+{
+"family": "Deacon",
+"given": "Thomas"
+},
+{
+"family": "Stockman",
+"given": "Tony"
+},
+{
+"family": "Barthet",
+"given": "Mathieu"
+}
+],
+"container-title": "Lecture Notes in Computer Science",
+"DOI": "10.1007/978-3-319-67738-5_12",
+"note": "Collection: Cited. Cited by 5 archive papers; found in the journal sweep; NIME-topic probability 0.818",
 "issued": {
 "date-parts": [
 [
@@ -113161,7 +113190,7 @@
 ],
 "container-title": "Music Perception",
 "DOI": "10.1525/mp.2018.36.1.109",
-"note": "Collection: Cited. Cited by 11 archive papers; cites 6 archive entries; NIME-topic probability 0.979",
+"note": "Collection: Cited. Cited by 12 archive papers; cites 6 archive entries; NIME-topic probability 0.979",
 "issued": {
 "date-parts": [
 [
@@ -113755,7 +113784,7 @@
 ],
 "container-title": "Extended Abstracts of the 2019 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3290607.3313037",
-"note": "Collection: Cited. Cited by 10 archive papers; NIME-topic probability 0.884",
+"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.884",
 "issued": {
 "date-parts": [
 [
@@ -113913,7 +113942,7 @@
 ],
 "container-title": "Proceedings of the 2019 on Designing Interactive Systems Conference",
 "DOI": "10.1145/3322276.3322368",
-"note": "Collection: Cited. Cited by 5 archive papers; NIME-topic probability 0.751",
+"note": "Collection: Cited. Cited by 6 archive papers; NIME-topic probability 0.751",
 "issued": {
 "date-parts": [
 [
@@ -113938,7 +113967,7 @@
 ],
 "container-title": "Proceedings of the 2019 on Designing Interactive Systems Conference",
 "DOI": "10.1145/3322276.3322353",
-"note": "Collection: Cited. Cited by 6 archive papers; cites 10 archive entries; NIME-topic probability 0.593",
+"note": "Collection: Cited. Cited by 9 archive papers; cites 10 archive entries; NIME-topic probability 0.593",
 "issued": {
 "date-parts": [
 [
@@ -114133,7 +114162,7 @@
 ],
 "container-title": "Springer International Publishing",
 "DOI": "10.1007/978-3-319-92069-6",
-"note": "Collection: Cited. Cites 59 archive entries; NIME-topic probability 0.65",
+"note": "Collection: Cited. Cited by 25 archive papers; cites 59 archive entries; NIME-topic probability 0.65",
 "issued": {
 "date-parts": [
 [
@@ -114215,7 +114244,7 @@
 }
 ],
 "DOI": "10.1093/oxfordhb/9780190636234.013.2",
-"note": "Collection: Cited. Cited by 8 archive papers; NIME-topic probability 0.991",
+"note": "Collection: Cited. Cited by 9 archive papers; NIME-topic probability 0.991",
 "issued": {
 "date-parts": [
 [
@@ -114323,7 +114352,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00562",
-"note": "Collection: Cited. Cited by 7 archive papers; cites 12 archive entries; found in the journal sweep; NIME-topic probability 0.919",
+"note": "Collection: Cited. Cited by 8 archive papers; cites 12 archive entries; found in the journal sweep; NIME-topic probability 0.919",
 "issued": {
 "date-parts": [
 [
@@ -114468,7 +114497,7 @@
 ],
 "container-title": "Computer Music Journal",
 "DOI": "10.1162/comj_a_00561",
-"note": "Collection: Cited. Cites 15 archive entries; found in the journal sweep; NIME-topic probability 0.916",
+"note": "Collection: Cited. Cited by 8 archive papers; cites 15 archive entries; found in the journal sweep; NIME-topic probability 0.916",
 "issued": {
 "date-parts": [
 [
@@ -114605,7 +114634,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771819000463",
-"note": "Collection: Cited. Cited by 9 archive papers; cites 12 archive entries; NIME-topic probability 0.553",
+"note": "Collection: Cited. Cited by 10 archive papers; cites 12 archive entries; NIME-topic probability 0.553",
 "issued": {
 "date-parts": [
 [
@@ -114887,7 +114916,7 @@
 ],
 "container-title": "Organised Sound",
 "DOI": "10.1017/s1355771821000054",
-"note": "Collection: Cited. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.906",
+"note": "Collection: Cited. Cited by 6 archive papers; cites 6 archive entries; NIME-topic probability 0.906",
 "issued": {
 "date-parts": [
 [
@@ -115654,7 +115683,7 @@
 ],
 "container-title": "The MIT Press",
 "DOI": "10.7551/mitpress/14220.001.0001",
-"note": "Collection: Cited. Cited by 17 archive papers; NIME-topic probability 0.996",
+"note": "Collection: Cited. Cited by 18 archive papers; NIME-topic probability 0.996",
 "issued": {
 "date-parts": [
 [
@@ -117204,7 +117233,7 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/985692.985734",
-"note": "Collection: Cited. Cited by 11 archive papers; NIME-topic probability 0.399",
+"note": "Collection: Cited. Cited by 12 archive papers; NIME-topic probability 0.399",
 "issued": {
 "date-parts": [
 [
@@ -131542,7 +131571,7 @@
 ],
 "container-title": "Cambridge University Press",
 "DOI": "10.1017/cbo9780511815355",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.075",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.075",
 "issued": {
 "date-parts": [
 [
@@ -132253,7 +132282,7 @@
 ],
 "container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/642611.642616",
-"note": "Collection: Background. Cited by 8 archive papers; NIME-topic probability 0.227",
+"note": "Collection: Background. Cited by 9 archive papers; NIME-topic probability 0.227",
 "issued": {
 "date-parts": [
 [
@@ -132315,7 +132344,7 @@
 ],
 "container-title": "Oxford University Press",
 "DOI": "10.1093/oso/9780199256044.001.0001",
-"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.003",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.003",
 "issued": {
 "date-parts": [
 [
@@ -132366,6 +132395,31 @@
 "date-parts": [
 [
 2005
+]
+]
+}
+},
+{
+"id": "background:hornecker2006gettingagriponta",
+"type": "paper-conference",
+"title": "Getting a grip on tangible interaction: a framework on physical space and social interaction",
+"author": [
+{
+"family": "Hornecker",
+"given": "Eva"
+},
+{
+"family": "Buur",
+"given": "Jacob"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1124772.1124838",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.283",
+"issued": {
+"date-parts": [
+[
+2006
 ]
 ]
 }
@@ -132436,7 +132490,7 @@
 ],
 "container-title": "Proceedings of the 6th conference on Designing Interactive systems",
 "DOI": "10.1145/1142405.1142422",
-"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.399",
+"note": "Collection: Background. Cited by 11 archive papers; NIME-topic probability 0.399",
 "issued": {
 "date-parts": [
 [
@@ -132563,6 +132617,27 @@
 }
 },
 {
+"id": "background:blevis2007sustainableinter",
+"type": "paper-conference",
+"title": "Sustainable interaction design: invention &amp; disposal, renewal &amp; reuse",
+"author": [
+{
+"family": "Blevis",
+"given": "Eli"
+}
+],
+"container-title": "Proceedings of the SIGCHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/1240624.1240705",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.06",
+"issued": {
+"date-parts": [
+[
+2007
+]
+]
+}
+},
+{
 "id": "background:johnson2007themeaningoftheb",
 "type": "book",
 "title": "The Meaning of the Body: Aesthetics of Human Understanding",
@@ -132574,7 +132649,7 @@
 ],
 "container-title": "University of Chicago Press",
 "DOI": "10.7208/chicago/9780226026992.001.0001",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.13",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.13",
 "issued": {
 "date-parts": [
 [
@@ -132810,7 +132885,7 @@
 ],
 "container-title": "Proceedings of the Designing Interactive Systems Conference",
 "DOI": "10.1145/2317956.2318034",
-"note": "Collection: Background. Cited by 14 archive papers; NIME-topic probability 0.065",
+"note": "Collection: Background. Cited by 17 archive papers; NIME-topic probability 0.065",
 "issued": {
 "date-parts": [
 [
@@ -132856,7 +132931,7 @@
 ],
 "container-title": "Proceedings of the Designing Interactive Systems Conference",
 "DOI": "10.1145/2317956.2317968",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.126",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.126",
 "issued": {
 "date-parts": [
 [
@@ -133027,6 +133102,39 @@
 }
 },
 {
+"id": "background:blythe2016antisolutionists",
+"type": "paper-conference",
+"title": "Anti-Solutionist Strategies: Seriously Silly Design Fiction",
+"author": [
+{
+"family": "Blythe",
+"given": "Mark"
+},
+{
+"family": "Andersen",
+"given": "Kristina"
+},
+{
+"family": "Clarke",
+"given": "Rachel"
+},
+{
+"family": "Wright",
+"given": "Peter"
+}
+],
+"container-title": "Proceedings of the 2016 CHI Conference on Human Factors in Computing Systems",
+"DOI": "10.1145/2858036.2858482",
+"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.267",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
 "id": "background:haraway2016stayingwiththetr",
 "type": "book",
 "title": "Staying with the Trouble: Making Kin in the Chthulucene",
@@ -133039,6 +133147,27 @@
 "container-title": "Duke University Press",
 "DOI": "10.1215/9780822373780",
 "note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.484",
+"issued": {
+"date-parts": [
+[
+2016
+]
+]
+}
+},
+{
+"id": "background:norman2016thedesignofevery",
+"type": "book",
+"title": "The Design of Everyday Things",
+"author": [
+{
+"family": "Norman",
+"given": "Don"
+}
+],
+"container-title": "Vahlen",
+"DOI": "10.15358/9783800648108",
+"note": "Collection: Background. Cited by 28 archive papers; NIME-topic probability 0.027",
 "issued": {
 "date-parts": [
 [
@@ -133067,7 +133196,7 @@
 ],
 "container-title": "Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3025453.3025873",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.222",
+"note": "Collection: Background. Cited by 7 archive papers; NIME-topic probability 0.222",
 "issued": {
 "date-parts": [
 [
@@ -133271,7 +133400,7 @@
 ],
 "container-title": "Proceedings of the 2020 ACM Designing Interactive Systems Conference",
 "DOI": "10.1145/3357236.3395547",
-"note": "Collection: Background. Cited by 5 archive papers; cites 6 archive entries; NIME-topic probability 0.414",
+"note": "Collection: Background. Cited by 6 archive papers; cites 6 archive entries; NIME-topic probability 0.414",
 "issued": {
 "date-parts": [
 [
@@ -133457,7 +133586,7 @@
 ],
 "container-title": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
 "DOI": "10.1145/3290605.3300342",
-"note": "Collection: Background. Cited by 10 archive papers; NIME-topic probability 0.564",
+"note": "Collection: Background. Cited by 12 archive papers; NIME-topic probability 0.564",
 "issued": {
 "date-parts": [
 [
@@ -133666,7 +133795,7 @@
 ],
 "container-title": "Oxford University Press",
 "DOI": "10.1093/0199271941.001.0001",
-"note": "Collection: Background. Cited by 5 archive papers; NIME-topic probability 0.566",
+"note": "Collection: Background. Cited by 6 archive papers; NIME-topic probability 0.566",
 "issued": {
 "date-parts": [
 [

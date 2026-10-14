@@ -47,6 +47,10 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
   `/media/alexanje/Seagate Hub/arkiv/Conferences/NIME/Paper proceedings/<year>/`.
   `tools/grobid_refs.py` reads their PDFs; `tools/pubpub_package.py <year>` writes a check
   (`zenodo/CHECK.md`), a manifest and one zip per collection for a Zenodo deposit.
+- The PubPub PDFs of all 88 papers of 2021 and 56 of 2022, named by bibliography key, from the NIME
+  Proceedings Analyzer release v05012026 (github.com/jacksongoode/NIME-proceedings-analyzer,
+  `resources/pubpub/`), are in `data/analyzer_pubpub/`. `tools/grobid_refs.py` reads them for
+  any paper the exports lack. They are for local use; ask Stefano Fasciani before passing them on.
 - `output/collection.csv` records for every entry whether a full text, an abstract and a
   reference list were available, and where they came from.
 - `tools/`: the pipeline; `run.sh` runs it in order.
@@ -63,7 +67,8 @@ It lives in `analysis/` inside the off-NIME fork so that the parent repository s
 - Crossref REST API, without a token (one request per second).
 - Open Library search API (books) and Google Patents pages (patents), for the Historical checks.
 - OpenAlex works API (`tools/openalex_refs.py`): reference lists for entries with a DOI and no
-  text, including NIME 2021–2022, which are on PubPub (behind a bot check) and not on Zenodo.
+  text. Where a NIME 2021–2022 paper has both, parse_refs.py adds the OpenAlex works its
+  GROBID list missed.
   A small free daily allowance; the script stops early and resumes from its cache.
 - theses.fr API (`tools/theses_more.py`): defended French theses, with English titles and
   abstracts where given; no key. OpenAlex also gives dissertations that cite archive works and
